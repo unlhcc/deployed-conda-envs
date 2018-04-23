@@ -1,5 +1,5 @@
 variables:
-  PACKAGE_DEPLOY_ROOT: "/util/opt/anaconda/conda-deployed-packages"
+  PACKAGE_DEPLOY_ROOT: "/util/opt/anaconda/deployed-conda-envs"
 
 stages:
   - test
