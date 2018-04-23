@@ -1,0 +1,55 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  apkid-1.0.0:
+    locked: true
+    env_spec_hash: 8aa0ee6ef3bbdab8220dd6fccd790ac490a2672a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - apkid=1.0.0=py27_1
+      - argparse=1.4.0=py27_0
+      - bison=3.0.4=1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - flex=2.6.4=0
+      - gmp=6.1.2=0
+      - jansson=2.11=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libiconv=1.15=0
+      - libmagic=5.32=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - m4=1.4.18=0
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - pandoc=2.1.3=0
+      - pip=9.0.3=py27_0
+      - pypandoc=1.4=py27_0
+      - python=2.7.14=5
+      - readline=7.0=0
+      - setuptools=39.0.1=py27_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - vt-yara-python-apkid=a7acb4c=py27_0
+      - vt-yara=3.7.1=0
+      - wheel=0.31.0=py27_0
+      - zlib=1.2.11=0
+
+
