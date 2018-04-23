@@ -205,22 +205,6 @@ Project dependencies are locked.
 There will also be a newly created `anaconda-project-lock.yml` file that 
 contains the complete environment specification.
 
-### (Sidebar) Adding a version
-
-If you are adding a new version to an existing package, you can simply run the
-add environment command, followed by the lock command.  For example, suppose
-the blast package with version 2.7.1 has already been added and you wish to
-add version 2.6.0.  The two yaml files in `packages/blast` directory thus
-already exist.  In the `packages/blast` directory, run
-
-```
-anaconda-project add-env-spec -n blast-2.6.0 blast=2.6.0
-anaconda-project lock
-```
-
-to add a new environment with the 2.6.0 version and update the lock file.
-Proceed as below to create a new branch, add and commit the updated files, etc.
-
 ### Create a branch and commit the yaml files
 
 The two yaml files are what get committed to git.  Create a new branch, using
@@ -258,3 +242,28 @@ triggered.  This will deploy the new environment(s) on all three HCC machines
 under `/util/opt/anaconda/deployed-conda-envs`.  You can then create a module
 file adding the `bin/` path of the new environment.
 
+### Adding a version, updating the existing environment(s), etc.
+
+If you are adding a new version to an existing package or updating an existing
+environment in some other way, you can simply run the relevant `anaconda-project`
+command(s), followed by the lock command.  For example, suppose the blast package
+with version 2.7.1 has already been added and you wish to add version 2.6.0.
+The two yaml files in `packages/blast` directory thus already exist.
+In the `packages/blast` directory, run
+
+```
+anaconda-project add-env-spec -n blast-2.6.0 blast=2.6.0
+anaconda-project lock
+```
+
+to add a new environment with the 2.6.0 version and update the lock file.
+Proceed as above to create a new branch, add and commit the updated files, create
+a merge request, etc.
+
+### Skip deploying a package on a particular resource
+
+By default, a package and its environments are deployed to all three HCC machines.
+There may be instances where it is desireable to not deploy a particular package
+to a particular machine.  To do so, create a file called `SKIP_DEPLOY` alongside
+the yaml files in the package's directory.  Add the names of the machines to
+skip deployment on (`Crane`, `Tusker`, `Sandhills`) to the file, one name per line.
