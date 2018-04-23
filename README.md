@@ -78,7 +78,7 @@ Copy the example yaml file (drop the `.example` from the filename) into that
 directory and cd into it:
 
 ```
-cp anaconda-project.yml.example packages/blast
+cp anaconda-project.yml.example packages/blast/anaconda-project.yml
 cd packages/blast
 ```
 
