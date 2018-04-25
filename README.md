@@ -16,7 +16,7 @@ all HCC resources.
 The structure of the repository is:
 * `README.md` - this readme
 * `anaconda-project.yml.edu` - an example project configuration file
-* `scripts/` - scripts that run via CI jobs to test and deploy the packages
+* `scripts/` - helper scripts for CI and module generation
 * `packages/` - the main body of the repository
 
 Each directory under `packages/` is an Anaconda Project directory.  Typicially that
@@ -242,7 +242,29 @@ triggered.  This will deploy the new environment(s) on all three HCC machines
 under `/util/opt/anaconda/deployed-conda-envs`.  You can then create a module
 file adding the `bin/` path of the new environment.
 
-### Adding a version, updating the existing environment(s), etc.
+### Cleaning up and re-creating an environment later
+
+After the yaml files have been merged into master, it's good practice to
+clean up the created environments.  To do so, run
+
+```
+anaconda-project clean
+```
+
+in the package directory.  This will remove *all* existing envrionments
+under the `envs` directory, and lastly the `envs` directory itself.
+
+If you need to re-create the environment later, use the `anaconda-project prepare`
+command along with the environment name to create.  For example, assuming you're
+in the `blast` project directory and wish to re-create the `blast-2.7.1`
+environment, run
+
+```
+anaconda-project prepare --env-spec blast-2.7.1
+```
+
+Adding a version, updating the existing environment(s), etc.
+------------------------------------------------------------
 
 If you are adding a new version to an existing package or updating an existing
 environment in some other way, you can simply run the relevant `anaconda-project`
@@ -260,10 +282,33 @@ to add a new environment with the 2.6.0 version and update the lock file.
 Proceed as above to create a new branch, add and commit the updated files, create
 a merge request, etc.
 
-### Skip deploying a package on a particular resource
+Skip deploying a package on a particular resource
+-------------------------------------------------
 
 By default, a package and its environments are deployed to all three HCC machines.
 There may be instances where it is desireable to not deploy a particular package
 to a particular machine.  To do so, create a file called `SKIP_DEPLOY` alongside
 the yaml files in the package's directory.  Add the names of the machines to
 skip deployment on (`Crane`, `Tusker`, `Sandhills`) to the file, one name per line.
+
+Generating a Lmod file
+----------------------
+
+The repository includes a helper script to generate a Lmod lua file, `scripts/generate_luafile.py`.
+You will need to pass it a package name and the path to an **existing** conda
+environment under the packages `envs` directory. (See the section above on re-creating
+an environment if it doesn't exist locally).  For example, to generate an Lmod file
+for blast version 2.7.1, from the root of the repository, run
+
+```
+./scripts/generate_luafile.py blast ./packages/blast/envs/blast-2.7.1
+```
+
+It will create a file with the environment name.  The default location to output the file
+is in the package directory, i.e. `packages/blast` for this example.  Use the `-o` option
+to the script to change the output directory.  *Note that the file is named using the
+environment name for clarity.  You will need to rename it when copying to the various*
+`{crane,tusker,sandhills}-modules` *repos to match the convention used there.*
+Some manual editing of the generated file may still be necessary.  For example, conda
+package metadata doesn't include Keyword or Category information, so that will need
+to be added to the generated file.
