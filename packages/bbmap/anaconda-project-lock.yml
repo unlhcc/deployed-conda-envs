@@ -27,3 +27,12 @@ env_specs:
       - openjdk=8.0.121=1
 
 
+  bbmap-37.17:
+    locked: true
+    env_spec_hash: 1f757e9d39cd0dcc71a5d1f993253979ad20be85
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bbmap=37.17=0
+      - openjdk=8.0.121=1

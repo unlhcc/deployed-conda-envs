@@ -8,14 +8,14 @@
 #
 # Set the 'name' key to name your project
 #
-name: BLAST+
+name: BreakSeq2
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: NCBI BLAST+ sequence alignment package. The program compares nucleotide
-  or protein sequences to sequence databases and calculates the statistical significance
-  of matches.
+description: 'BreakSeq2: Ultrafast and accurate nucleotide-resolution analysis of
+  structural variants.'
+
 
 #
 # In the platforms section, list platforms the project should work on
@@ -25,11 +25,7 @@ description: NCBI BLAST+ sequence alignment package. The program compares nucleo
 platforms:
 - linux-64
 env_specs:
-  blast-2.7.1:
+  breakseq2-2.2:
     packages:
-    - blast=2.7.1
-    channels: []
-  blast-2.6.0:
-    packages:
-    - blast=2.6.0
+    - breakseq2=2.2
     channels: []
