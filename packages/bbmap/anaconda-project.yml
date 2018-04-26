@@ -28,3 +28,7 @@ env_specs:
     packages:
     - bbmap=37.99
     channels: []
+  bbmap-37.17:
+    packages:
+    - bbmap=37.17
+    channels: []

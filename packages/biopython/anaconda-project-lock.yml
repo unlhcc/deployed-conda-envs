@@ -101,3 +101,108 @@ env_specs:
       - tk=8.6.7=0
       - wheel=0.31.0=py27_0
       - zlib=1.2.11=0
+  biopython-1.70-py27:
+    locked: true
+    env_spec_hash: 3645a0e703aa9f004de01431e77ce04dab01a1e6
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - biopython=1.70=np112py27_1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - freetype=2.7=1
+      - intel-openmp=2018.0.0=8
+      - jpeg=9b=2
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libpng=1.6.34=0
+      - libtiff=4.0.9=0
+      - mkl=2018.0.2=1
+      - mmtf-python=1.0.2=py27_0
+      - msgpack-python=0.5.6=py27_0
+      - ncurses=5.9=10
+      - numpy=1.12.1=py27h9378851_1
+      - olefile=0.45.1=py27_0
+      - openssl=1.0.2o=0
+      - pillow=4.2.1=py27_0
+      - pip=9.0.3=py27_0
+      - python=2.7.14=5
+      - readline=7.0=0
+      - reportlab=3.4.0=py27_0
+      - setuptools=39.0.1=py27_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py27_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+  biopython-1.70-py35:
+    locked: true
+    env_spec_hash: d399165e03a262d72cc95d63daf79d94b9b0250c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - biopython=1.70=np112py35_1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py35_0
+      - freetype=2.7=1
+      - intel-openmp=2018.0.0=8
+      - jpeg=9b=2
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libpng=1.6.34=0
+      - libtiff=4.0.9=0
+      - mkl=2018.0.2=1
+      - mmtf-python=1.0.2=py35_0
+      - msgpack-python=0.5.6=py35_0
+      - ncurses=5.9=10
+      - numpy=1.12.1=py35hca0bb5e_1
+      - olefile=0.45.1=py35_0
+      - openssl=1.0.2o=0
+      - pillow=4.2.1=py35_0
+      - pip=9.0.3=py35_0
+      - python=3.5.5=1
+      - readline=7.0=0
+      - reportlab=3.4.0=py35_0
+      - setuptools=39.0.1=py35_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py35_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+  biopython-1.70-py36:
+    locked: true
+    env_spec_hash: cecc660294f90651eb7ee31d74712386c87f63b9
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - biopython=1.70=np112py36_1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - freetype=2.7=1
+      - intel-openmp=2018.0.0=8
+      - jpeg=9b=2
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libpng=1.6.34=0
+      - libtiff=4.0.9=0
+      - mkl=2018.0.2=1
+      - mmtf-python=1.1.0=py_0
+      - msgpack-python=0.5.6=py36_0
+      - ncurses=5.9=10
+      - numpy=1.12.1=py36he24570b_1
+      - olefile=0.45.1=py36_0
+      - openssl=1.0.2o=0
+      - pillow=4.2.1=py36_0
+      - pip=9.0.3=py36_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - reportlab=3.4.0=py36_0
+      - setuptools=39.0.1=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0

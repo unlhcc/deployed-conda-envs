@@ -50,3 +50,35 @@ env_specs:
       - zlib=1.2.11=0
 
 
+  awscli-1.11.120:
+    locked: true
+    env_spec_hash: 6c7e6539b7788b2aa7da81c459141f392591f40b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - awscli=1.11.120=py35_0
+      - botocore=1.5.83=py35_0
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py35_0
+      - colorama=0.3.7=py35_0
+      - docutils=0.14=py35_0
+      - jmespath=0.9.3=py35_0
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - pip=9.0.3=py35_0
+      - pyasn1=0.4.2=py_0
+      - python-dateutil=2.3=py35_0
+      - python=3.5.5=1
+      - pyyaml=3.12=py35_1
+      - readline=7.0=0
+      - rsa=3.1.4=py35_0
+      - s3transfer=0.1.13=py35_0
+      - setuptools=39.0.1=py35_0
+      - six=1.11.0=py35_1
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py35_0
+      - xz=5.2.3=0
+      - yaml=0.1.7=0
+      - zlib=1.2.11=0

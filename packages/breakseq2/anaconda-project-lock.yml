@@ -1,0 +1,53 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  breakseq2-2.2:
+    locked: true
+    env_spec_hash: 78dbfdced9a9ba279677f97ed0f9113e2bf884d7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - biopython=1.65=np19py27_0
+      - breakseq2=2.2=py27_0
+      - bwa=0.7.17=pl5.22.0_2
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - cython=0.28.2=py27_0
+      - intel-openmp=2018.0.0=8
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mkl=2018.0.2=1
+      - ncurses=5.9=10
+      - numpy=1.9.3=py27h7e35acb_3
+      - openssl=1.0.2o=0
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py27_0
+      - pysam=0.7.7=1
+      - python=2.7.14=5
+      - readline=7.0=0
+      - samtools=0.1.19=3
+      - setuptools=39.0.1=py27_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py27_0
+      - zlib=1.2.11=0
+
+
