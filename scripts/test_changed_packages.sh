@@ -78,8 +78,8 @@ then
                 fi 
             fi
         done
-    NOTICE "Finished testing changed packages."
     done
+    NOTICE "Finished testing changed packages."
 else
     ERROR "The package list to test is an empty string."
     ERROR "This should never happen, bailing out!"
