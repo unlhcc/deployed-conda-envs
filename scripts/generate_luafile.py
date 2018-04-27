@@ -72,6 +72,9 @@ def queryAnacondaOrg(package_name, channel):
     """Query anaconda.org to get the package details (homepage, description, etc.)"""
 
     base_url = 'https://api.anaconda.org/package'
+    # redirect to the 'anaconda' channel for querying packages in default channel
+    if channel == 'defaults':
+        channel = 'anaconda'
     full_url = '/'.join([base_url, channel, package_name])
     r = requests.get(full_url)
     if r.status_code == 200:
@@ -82,6 +85,8 @@ def queryAnacondaOrg(package_name, channel):
     else:
         print("Error querying anaconda.org for package information:")
         print("{} - {}".format(r.status_code, r.reason))
+        print("The URL queried was:")
+        print("{}".format(full_url))
         sys.exit(1)
 
     return(homepage, summary)
