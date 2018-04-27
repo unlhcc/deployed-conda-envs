@@ -1,0 +1,57 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: dm-sonnet-gpu
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: Sonnet is a library built on top of TensorFlow for building complex neural
+  networks. This is the GPU-enabled version.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  dm-sonnet-gpu-1.19-py27:
+    packages:
+    - dm-sonnet-gpu=1.19
+    - python=2.7
+    - tensorflow-gpu=1.7.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    channels: []
+  dm-sonnet-gpu-1.19-py35:
+    packages:
+    - dm-sonnet-gpu=1.19
+    - python=3.5
+    - tensorflow-gpu=1.7.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    channels: []
+  dm-sonnet-gpu-1.19-py36:
+    packages:
+    - dm-sonnet-gpu=1.19
+    - python=3.6
+    - tensorflow-gpu=1.7.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    channels: []
