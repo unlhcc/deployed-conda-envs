@@ -81,7 +81,6 @@ def queryAnacondaOrg(package_name, channel):
         package_info = json.loads(r.content)
         homepage = package_info['home']
         summary = package_info['summary']
-
     else:
         print("Error querying anaconda.org for package information:")
         print("{} - {}".format(r.status_code, r.reason))
