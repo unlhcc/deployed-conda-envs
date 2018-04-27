@@ -91,12 +91,19 @@ def generateLuaFile(deploy_root, output_dir, abs_env_path, package_name, version
 
     # figure out env name and paths
     # there HAS to be a better way to do this
+    # ---
+    # the path relative *to the root of the repo*
     relative_path = abs_env_path[abs_env_path.rfind('packages'):]
     if not output_dir:
         output_dir = abs_env_path[:abs_env_path.rfind('envs')]
+    # the relative path from the repo root to the package's 'envs/' directory
+    envs_path = os.path.split(relative_path)[0]
+    # the environment name
     env_name = os.path.split(abs_env_path)[1]
+    # the absolute, full path to the deploy location of the env
     deploy_path = os.path.join(deploy_root, relative_path)
 
+    # generate the lua file text
     lua_file_text = []
     # help text
     help_text = textwrap.wrap("help(") + textwrap.wrap("[[") + \
@@ -113,6 +120,7 @@ def generateLuaFile(deploy_root, output_dir, abs_env_path, package_name, version
     lua_file_text.append(whatis_version)
     # Conda metadata doesn't include category or keywords, but insert the
     # lines to make it easier to manually fill in.
+    # ---
     # category
     whatis_category = 'whatis("Category: ")'
     lua_file_text.append(whatis_category)
@@ -136,6 +144,9 @@ def generateLuaFile(deploy_root, output_dir, abs_env_path, package_name, version
     # environment name
     default_env = 'pushenv("CONDA_DEFAULT_ENV", "{}")'.format(env_name)
     lua_file_text.append(default_env)
+    # environment(s) path
+    envs_path = 'append_path("CONDA_ENVS_PATH", "{}")'.format(os.path.join(deploy_root,envs_path))
+    lua_file_text.append(envs_path)
     # PATH
     prepend_path = 'prepend_path("PATH", "{}")'.format(os.path.join(deploy_path,"bin"))
     lua_file_text.append(prepend_path)
