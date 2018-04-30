@@ -1,0 +1,33 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  fqtrim-0.9.7:
+    locked: true
+    env_spec_hash: 063ce6f10032f87e1fecb74e6a9986a9f2f8bf10
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - fqtrim=0.9.7=0
+      - gclib=0.0.1=4
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - zlib=1.2.11=0
+
+

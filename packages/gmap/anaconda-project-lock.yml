@@ -1,0 +1,62 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  gmap-2017.05.08:
+    locked: true
+    env_spec_hash: 4a1542047ce73be91cdafb2999535420affebeaf
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=1
+      - gmap=2017.05.08=pl5.22.0_1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - perl=5.22.0.1=0
+      - zlib=1.2.11=0
+  gmap-2018.03.25:
+    locked: true
+    env_spec_hash: 51b8d71bbc8647d3138a49fc795894c2757c307a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=1
+      - gmap=2018.03.25=pl5.22.0_0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - perl=5.22.0.1=0
+      - zlib=1.2.11=0
+  gmap-2015.12.31:
+    locked: true
+    env_spec_hash: bedca115b828b6823859daa136451cb5f3211019
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=1
+      - gmap=2015.12.31=pl5.22.0_1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - perl=5.22.0.1=0
+      - zlib=1.2.8=3
+
+

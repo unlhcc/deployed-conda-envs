@@ -1,0 +1,30 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: globus-cli
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: Command line clients provide an interface to Globus services from the
+  shell, and are suited for both interactive use and simple scripting use cases.
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  globus-cli-1.2.0:
+    packages:
+    - globus-cli=1.2.0
+    channels: []
