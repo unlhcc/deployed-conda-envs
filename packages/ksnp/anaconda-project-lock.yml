@@ -1,0 +1,29 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  ksnp-3.1:
+    locked: true
+    env_spec_hash: 6de6bffbeae96b628036234295bb537ce8ba4037
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ksnp=3.1=pl5.22.0_0
+      - perl=5.22.0.1=0
+
+
