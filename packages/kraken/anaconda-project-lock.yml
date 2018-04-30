@@ -1,0 +1,46 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  kraken-1.1:
+    locked: true
+    env_spec_hash: 8ee7b59b05d58b1f9405fcdd0d4a95d0dafdae85
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - jellyfish=1.1.11=1
+      - kraken=1.1=pl5.22.0_1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - perl=5.22.0.1=0
+  kraken-1.0:
+    locked: true
+    env_spec_hash: 70dcb1842c0acbd1443a4a7f7f12c389cc748eb6
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - jellyfish=1.1.11=1
+      - kraken=1.0=pl5.22.0_0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - perl=5.22.0.1=0
+
+
