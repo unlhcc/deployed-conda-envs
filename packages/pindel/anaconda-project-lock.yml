@@ -1,0 +1,40 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  pindel-0.2.5b9:
+    locked: true
+    env_spec_hash: 3d944a1be48e494d53680ae143613a531e263af0
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - curl=7.59.0=1
+      - htslib=1.7=0
+      - krb5=1.14.6=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libssh2=1.8.0=2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - openssl=1.0.2o=0
+      - pindel=0.2.5b9=htslib1.7_1
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+
+
