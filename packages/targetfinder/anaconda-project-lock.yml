@@ -1,0 +1,32 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  targetfinder-1.7:
+    locked: true
+    env_spec_hash: d7fc842621f42b984cfc62d2fe456ba30102e8d7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - fasta3=36.3.8=2
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl=5.22.0.1=0
+      - targetfinder=1.7=1
+      - zlib=1.2.11=0
+
+
