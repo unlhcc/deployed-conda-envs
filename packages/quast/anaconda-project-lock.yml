@@ -1,0 +1,178 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  quast-4.6.3:
+    locked: true
+    env_spec_hash: 0598faaf6d6457e35643c3c8522ada1c33ba6985
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - backports.functools_lru_cache=1.5=py27_0
+      - backports=1.0=py27_1
+      - backports_abc=0.5=py27_0
+      - blast=2.7.1=boost1.64_3
+      - boost-cpp=1.64.0=1
+      - boost=1.64.0=py27_4
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - cycler=0.10.0=py27_0
+      - dbus=1.11.0=0
+      - expat=2.2.5=0
+      - fontconfig=2.12.6=0
+      - freetype=2.8.1=0
+      - functools32=3.2.3.2=py27_2
+      - futures=3.2.0=py27_0
+      - gettext=0.19.8.1=0
+      - glib=2.55.0=0
+      - gmp=6.1.2=0
+      - gnutls=3.5.17=0
+      - gst-plugins-base=1.8.0=0
+      - gstreamer=1.8.0=1
+      - icu=58.2=0
+      - intel-openmp=2018.0.0=8
+      - joblib=0.11=py27_0
+      - jpeg=9b=2
+      - kiwisolver=1.0.1=py27_1
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libiconv=1.15=0
+      - libidn11=1.33=0
+      - libpng=1.6.34=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libxcb=1.13=0
+      - libxml2=2.9.8=0
+      - matplotlib=2.2.2=py27_1
+      - mkl=2018.0.2=1
+      - mkl_fft=1.0.2=py27_0
+      - mkl_random=1.0.1=py27_0
+      - ncurses=5.9=10
+      - nettle=3.3=0
+      - numpy=1.14.2=py27hdbf6ddf_1
+      - openjdk=8.0.121=1
+      - openssl=1.0.2o=0
+      - pcre=8.41=1
+      - perl-app-cpanminus=1.7043=pl5.22.0_0
+      - perl-archive-tar=2.18=pl5.22.0_2
+      - perl-carp=1.38=pl5.22.0_0
+      - perl-compress-raw-bzip2=2.069=1
+      - perl-compress-raw-zlib=2.069=3
+      - perl-data-dumper=2.161=pl5.22.0_0
+      - perl-exporter-tiny=0.042=1
+      - perl-exporter=5.72=pl5.22.0_0
+      - perl-extutils-makemaker=7.24=pl5.22.0_1
+      - perl-io-compress=2.069=pl5.22.0_2
+      - perl-io-zlib=1.10=1
+      - perl-list-moreutils=0.428=pl5.22.0_0
+      - perl-pathtools=3.73=0
+      - perl-scalar-list-utils=1.45=2
+      - perl-test-more=1.001002=pl5.22.0_0
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py27_0
+      - pyparsing=2.2.0=py27_0
+      - pyqt=5.6.0=py27_5
+      - python-dateutil=2.3=py27_0
+      - python=2.7.14=5
+      - pytz=2018.4=py_0
+      - qt=5.6.2=7
+      - quast=4.6.3=py27_boost1.64_1
+      - readline=7.0=0
+      - setuptools=39.1.0=py27_0
+      - simplejson=3.8.1=py27_0
+      - singledispatch=3.4.0.3=py27_0
+      - sip=4.18=py27_1
+      - six=1.11.0=py27_1
+      - sqlite=3.20.1=2
+      - subprocess32=3.2.7=py27_0
+      - tk=8.6.7=0
+      - tornado=5.0.2=py27_0
+      - wheel=0.31.0=py27_0
+      - xorg-libxau=1.0.8=3
+      - xorg-libxdmcp=1.1.2=3
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+  quast-4.5:
+    locked: true
+    env_spec_hash: dfd4a8b216f1349025df71ff635009d362ee0d37
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - backports_abc=0.5=py27_0
+      - boost=1.61.0=py27_1
+      - ca-certificates=2018.4.16=0
+      - cairo=1.14.6=0
+      - certifi=2018.4.16=py27_0
+      - cycler=0.10.0=py27_0
+      - fontconfig=2.11.1=6
+      - freetype=2.6.3=1
+      - functools32=3.2.3.2=py27_2
+      - futures=3.2.0=py27_0
+      - gettext=0.19.8.1=0
+      - glib=2.51.4=0
+      - harfbuzz=1.3.4=0
+      - icu=56.1=4
+      - intel-openmp=2018.0.0=8
+      - joblib=0.11=py27_0
+      - jpeg=9b=2
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libiconv=1.15=0
+      - libpng=1.6.34=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libtiff=4.0.9=0
+      - libxml2=2.9.4=3
+      - matplotlib=2.0.0=np112py27_1
+      - mkl=2018.0.2=1
+      - ncurses=5.9=10
+      - numpy=1.12.1=py27h9378851_1
+      - openjdk=8.0.121=1
+      - openssl=1.0.2o=0
+      - pango=1.40.3=0
+      - pcre=8.41=1
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py27_0
+      - pixman=0.34.0=1
+      - pyparsing=2.2.0=py27_0
+      - pyqt=4.11.4=py27_3
+      - python-dateutil=2.3=py27_0
+      - python=2.7.14=2
+      - pytz=2018.4=py_0
+      - qt=4.8.7=3
+      - quast=4.5=boost1.61_1
+      - readline=6.2=0
+      - setuptools=39.1.0=py27_0
+      - simplejson=3.8.1=py27_0
+      - singledispatch=3.4.0.3=py27_0
+      - sip=4.18=py27_1
+      - six=1.11.0=py27_1
+      - sqlite=3.13.0=1
+      - subprocess32=3.2.7=py27_0
+      - tk=8.5.19=2
+      - tornado=5.0.2=py27_0
+      - wheel=0.31.0=py27_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+
+
