@@ -28,3 +28,7 @@ env_specs:
     packages:
     - salmon=0.8.2
     channels: []
+  salmon-0.9.1:
+    packages:
+    - salmon=0.9.1
+    channels: []
