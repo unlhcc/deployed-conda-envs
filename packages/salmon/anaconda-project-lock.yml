@@ -48,3 +48,39 @@ env_specs:
       - zlib=1.2.11=0
 
 
+  salmon-0.9.1:
+    locked: true
+    env_spec_hash: 0b991ec4e9fa5a3aa4276de9838a38ad0f29e7f8
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - boost-cpp=1.64.0=1
+      - boost=1.64.0=py36_4
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - icu=58.2=0
+      - intel-openmp=2018.0.0=8
+      - jemalloc=4.5.0=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mkl=2018.0.2=1
+      - mkl_fft=1.0.2=py36_0
+      - mkl_random=1.0.1=py36_0
+      - ncurses=5.9=10
+      - numpy=1.14.2=py36hdbf6ddf_1
+      - openssl=1.0.2o=0
+      - pip=9.0.3=py36_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - salmon=0.9.1=1
+      - setuptools=39.1.0=py36_0
+      - sqlite=3.20.1=2
+      - tbb=2018_20171205=0
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
