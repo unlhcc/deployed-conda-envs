@@ -78,7 +78,7 @@ def queryAnacondaOrg(package_name, channel):
     full_url = '/'.join([base_url, channel, package_name])
     r = requests.get(full_url)
     if r.status_code == 200:
-        package_info = json.loads(r.content)
+        package_info = r.json()
         homepage = package_info['home']
         summary = package_info['summary']
     else:
