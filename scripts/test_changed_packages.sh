@@ -5,7 +5,7 @@ export PATH=$ANACONDA_PREFIX/bin:$PATH
 script_path="$(dirname "$( readlink -e ${BASH_SOURCE[0]} )" )"
 # ooh, pretty colors
 source $script_path/b-log.sh
-LOG_LEVEL_NOTICE
+LOG_LEVEL_ALL
 
 NOTICE "Running 'git fetch origin master' to get master branch..."
 fetchOut="$(git fetch origin master 2>&1)"
