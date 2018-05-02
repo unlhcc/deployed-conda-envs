@@ -8,13 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: package name
+name: python
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: package description
-
+description: The Anaconda Python environment.  Commonly used installed packages include Numpy, Scipy, Matplotlib, and BioPython
 
 #
 # In the platforms section, list platforms the project should work on
