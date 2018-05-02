@@ -1,0 +1,160 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  prokka-1.13:
+    locked: true
+    env_spec_hash: abe52fed25eb5285c6cac8e28b2b8e9d3875b64c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - aragorn=1.2.38=1
+      - barrnap=0.8=0
+      - blast=2.6.0=boost1.61_1
+      - boost=1.61.0=py35_1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py35_0
+      - expat=2.2.5=0
+      - hmmer=3.1b2=3
+      - icu=56.1=4
+      - infernal=1.1.2=0
+      - java-jdk=8.0.92=1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libidn11=1.33=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - minced=0.2.0=0
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - parallel=20170422=pl5.22.0_0
+      - perl-bioperl=1.6.924=4
+      - perl-digest-hmac=1.03=pl5.22.0_1
+      - perl-encode-locale=1.05=pl5.22.0_4
+      - perl-file-listing=6.04=0
+      - perl-html-parser=3.72=pl5.22.0_1
+      - perl-html-tagset=3.20=pl5.22.0_1
+      - perl-http-cookies=6.01=0
+      - perl-http-daemon=6.01=0
+      - perl-http-date=6.02=pl5.22.0_1
+      - perl-http-message=6.11=0
+      - perl-http-negotiate=6.01=0
+      - perl-io-html=1.001=pl5.22.0_1
+      - perl-io-socket-ssl=2.024=0
+      - perl-libwww-perl=6.15=0
+      - perl-lwp-mediatypes=6.02=pl5.22.0_1
+      - perl-mime-base64=3.15=pl5.22.0_0
+      - perl-net-http=6.09=0
+      - perl-net-ssleay=1.84=pl5.22.0_0
+      - perl-ntlm=1.09=1
+      - perl-test-more=1.001002=pl5.22.0_0
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl-uri=1.71=pl5.22.0_1
+      - perl-www-robotrules=6.02=0
+      - perl-xml-namespacesupport=1.11=0
+      - perl-xml-parser=2.44=4
+      - perl-xml-sax-base=1.08=0
+      - perl-xml-sax-expat=0.51=0
+      - perl-xml-sax=0.99=0
+      - perl-xml-simple=2.22=0
+      - perl-xsloader=0.22=pl5.22.0_0
+      - perl-yaml=1.24=0
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py35_0
+      - prodigal=2.6.3=0
+      - prokka=1.13=0
+      - python=3.5.5=1
+      - readline=7.0=0
+      - setuptools=39.1.0=py35_0
+      - sqlite=3.20.1=2
+      - tbl2asn=25.6=1
+      - tk=8.6.7=0
+      - wheel=0.31.0=py35_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+  prokka-1.12:
+    locked: true
+    env_spec_hash: 262b3733ddc924a35ee9a2f3a70d2ba59e896da5
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - aragorn=1.2.38=1
+      - barrnap=0.8=0
+      - blast=2.6.0=boost1.61_1
+      - boost=1.61.0=py35_1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py35_0
+      - expat=2.2.5=0
+      - hmmer=3.1b2=3
+      - icu=56.1=4
+      - infernal=1.1.2=0
+      - java-jdk=8.0.92=1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libidn11=1.33=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - minced=0.2.0=0
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - parallel=20170422=pl5.22.0_0
+      - perl-bioperl=1.6.924=4
+      - perl-digest-hmac=1.03=pl5.22.0_1
+      - perl-encode-locale=1.05=pl5.22.0_4
+      - perl-file-listing=6.04=0
+      - perl-html-parser=3.72=pl5.22.0_1
+      - perl-html-tagset=3.20=pl5.22.0_1
+      - perl-http-cookies=6.01=0
+      - perl-http-daemon=6.01=0
+      - perl-http-date=6.02=pl5.22.0_1
+      - perl-http-message=6.11=0
+      - perl-http-negotiate=6.01=0
+      - perl-io-html=1.001=pl5.22.0_1
+      - perl-io-socket-ssl=2.024=0
+      - perl-libwww-perl=6.15=0
+      - perl-lwp-mediatypes=6.02=pl5.22.0_1
+      - perl-mime-base64=3.15=pl5.22.0_0
+      - perl-net-http=6.09=0
+      - perl-net-ssleay=1.84=pl5.22.0_0
+      - perl-ntlm=1.09=1
+      - perl-test-more=1.001002=pl5.22.0_0
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl-uri=1.71=pl5.22.0_1
+      - perl-www-robotrules=6.02=0
+      - perl-xml-namespacesupport=1.11=0
+      - perl-xml-parser=2.44=4
+      - perl-xml-sax-base=1.08=0
+      - perl-xml-sax-expat=0.51=0
+      - perl-xml-sax=0.99=0
+      - perl-xml-simple=2.22=0
+      - perl-xsloader=0.22=pl5.22.0_0
+      - perl-yaml=1.24=0
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py35_0
+      - prodigal=2.6.3=0
+      - prokka=1.12=4
+      - python=3.5.5=1
+      - readline=7.0=0
+      - setuptools=39.1.0=py35_0
+      - sqlite=3.20.1=2
+      - tbl2asn=25.6=1
+      - tk=8.6.7=0
+      - wheel=0.31.0=py35_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+
+
