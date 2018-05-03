@@ -28,3 +28,7 @@ env_specs:
     packages:
     - htseq=0.9.1
     channels: []
+  htseq-0.6.1p1:
+    packages:
+    - htseq=0.6.1p1
+    channels: []
