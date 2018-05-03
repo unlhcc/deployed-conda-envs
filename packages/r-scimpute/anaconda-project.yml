@@ -8,12 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: Salmon
+name: scImpute
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Quantify expression of transcripts using a quasi-mapping approach
+description: scImpute is an accurate and robust imputation of scRNA-seq data
 
 
 #
@@ -24,15 +24,7 @@ description: Quantify expression of transcripts using a quasi-mapping approach
 platforms:
 - linux-64
 env_specs:
-  salmon-0.8.2:
+  r-scimpute-0.0.6:
     packages:
-    - salmon=0.8.2
-    channels: []
-  salmon-0.9.1:
-    packages:
-    - salmon=0.9.1
-    channels: []
-  salmon-0.6.0:
-    packages:
-    - salmon=0.6.0
+    - r-scimpute=0.0.6
     channels: []
