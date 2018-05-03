@@ -1,0 +1,42 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  viennarna-2.4.5:
+    locked: true
+    env_spec_hash: 8f6dfe27f4e43716768f6a655c720cad1fd1dd8d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - viennarna=2.4.5=1
+  viennarna-2.3.3:
+    locked: true
+    env_spec_hash: f5afd1e3ade6d75e7914ed325c983c68a1bb386b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - viennarna=2.3.3=0
+
+
