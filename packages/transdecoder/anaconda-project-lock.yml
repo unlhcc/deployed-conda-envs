@@ -1,0 +1,51 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  transdecoder-5.1.0:
+    locked: true
+    env_spec_hash: cdd7a5c3b30c0c3feb1f68d137f899484f5d4bf6
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - libdb=6.1.26=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - perl-db-file=1.835=5
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl-uri=1.71=pl5.22.0_1
+      - perl=5.22.0.1=0
+      - transdecoder=5.1.0=pl5.22.0_0
+  transdecoder-3.0.1:
+    locked: true
+    env_spec_hash: 2d92cdf02abac4d74beab21c22b05ad0dd3ba58c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - cd-hit=4.6.8=0
+      - libdb=6.1.26=0
+      - libgcc=5.2.0=0
+      - perl-db-file=1.835=5
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl-uri=1.71=pl5.22.0_1
+      - perl=5.22.0.1=0
+      - transdecoder=3.0.1=0
+
+
