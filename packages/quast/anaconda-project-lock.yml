@@ -176,3 +176,68 @@ env_specs:
       - zlib=1.2.11=0
 
 
+  quast-4.4:
+    locked: true
+    env_spec_hash: 344e6188acfb7948e183b105afb8230242e60a99
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - backports_abc=0.5=py27_0
+      - boost=1.61.0=py27_1
+      - ca-certificates=2018.4.16=0
+      - cairo=1.14.6=0
+      - certifi=2018.4.16=py27_0
+      - cycler=0.10.0=py27_0
+      - fontconfig=2.11.1=6
+      - freetype=2.6.3=1
+      - functools32=3.2.3.2=py27_2
+      - futures=3.2.0=py27_0
+      - gettext=0.19.8.1=0
+      - glib=2.55.0=0
+      - harfbuzz=1.0.6=1
+      - icu=56.1=4
+      - intel-openmp=2018.0.0=8
+      - java-jdk=8.0.92=1
+      - joblib=0.11=py27_0
+      - jpeg=9b=2
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libiconv=1.15=0
+      - libpng=1.6.34=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libtiff=4.0.9=0
+      - libxml2=2.9.4=3
+      - matplotlib=2.0.0=np112py27_1
+      - mkl=2018.0.2=1
+      - ncurses=5.9=10
+      - numpy=1.12.1=py27h9378851_1
+      - openssl=1.0.2o=0
+      - pango=1.40.1=0
+      - pcre=8.41=1
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py27_0
+      - pixman=0.34.0=1
+      - pyparsing=2.2.0=py27_0
+      - pyqt=4.11.4=py27_3
+      - python-dateutil=2.3=py27_0
+      - python=2.7.14=2
+      - pytz=2018.4=py_0
+      - qt=4.8.7=3
+      - quast=4.4=boost1.61_1
+      - readline=6.2=0
+      - setuptools=39.1.0=py27_0
+      - simplejson=3.8.1=py27_0
+      - singledispatch=3.4.0.3=py27_0
+      - sip=4.18=py27_1
+      - six=1.11.0=py27_1
+      - sqlite=3.13.0=1
+      - subprocess32=3.2.7=py27_0
+      - tk=8.5.19=2
+      - tornado=5.0.2=py27_0
+      - wheel=0.31.0=py27_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0

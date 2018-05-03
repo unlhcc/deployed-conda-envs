@@ -8,12 +8,13 @@
 #
 # Set the 'name' key to name your project
 #
-name: Salmon
+name: SPP
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Quantify expression of transcripts using a quasi-mapping approach
+description: SPP is R package for analysis of ChIP-seq and other functional sequencing
+  data       
 
 
 #
@@ -24,15 +25,15 @@ description: Quantify expression of transcripts using a quasi-mapping approach
 platforms:
 - linux-64
 env_specs:
-  salmon-0.8.2:
+  r-spp-1.15.2:
     packages:
-    - salmon=0.8.2
+    - r-spp=1.15.2
     channels: []
-  salmon-0.9.1:
+  r-spp-1.13:
     packages:
-    - salmon=0.9.1
+    - r-spp=1.13
     channels: []
-  salmon-0.6.0:
+  r-spp-1.11:
     packages:
-    - salmon=0.6.0
+    - r-spp=1.11
     channels: []

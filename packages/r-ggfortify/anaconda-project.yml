@@ -8,12 +8,13 @@
 #
 # Set the 'name' key to name your project
 #
-name: Salmon
+name: ggfortify
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Quantify expression of transcripts using a quasi-mapping approach
+description: Define fortify and autoplot functions to allow ggplot2 to handle some
+  popular R packages.
 
 
 #
@@ -24,15 +25,11 @@ description: Quantify expression of transcripts using a quasi-mapping approach
 platforms:
 - linux-64
 env_specs:
-  salmon-0.8.2:
+  r-ggfortify-0.4.1:
     packages:
-    - salmon=0.8.2
+    - r-ggfortify=0.4.1
     channels: []
-  salmon-0.9.1:
+  r-ggfortify-0.4.3:
     packages:
-    - salmon=0.9.1
-    channels: []
-  salmon-0.6.0:
-    packages:
-    - salmon=0.6.0
+    - r-ggfortify=0.4.3
     channels: []
