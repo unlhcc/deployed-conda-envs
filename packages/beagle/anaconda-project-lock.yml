@@ -1,0 +1,29 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  beagle-4.1_21Jan17.6cc.jar:
+    locked: true
+    env_spec_hash: 31e4c7d1173e715a29ca0595fad10e4d7c6e5a21
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - beagle=4.1_21Jan17.6cc.jar=0
+      - openjdk=8.0.121=1
+
+
