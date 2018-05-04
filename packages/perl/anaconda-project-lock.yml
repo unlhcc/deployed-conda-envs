@@ -1,0 +1,37 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  perl-5.22.0:
+    locked: true
+    env_spec_hash: f96f88b95c763f1eea1495618ea8a332f922439c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - perl=5.22.0.1=0
+
+
+  perl-5.26.0:
+    locked: true
+    env_spec_hash: 1518c1aae8414367f4bfe3149818da7d824b2842
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - perl=5.26.0=hae598fd_0

@@ -8,13 +8,14 @@
 #
 # Set the 'name' key to name your project
 #
-name: picard
+name: PeakRanger
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: A set of Java command line tools for manipulating high-throughput sequencing
-  data (HTS) data and formats.
+description: PeakRanger detects enriched regions from ChIP-Seq experiments and also
+  detect summits within these regions. The software is faster than most existing peak
+  callers while consuming less memories.
 
 
 #
@@ -25,11 +26,7 @@ description: A set of Java command line tools for manipulating high-throughput s
 platforms:
 - linux-64
 env_specs:
-  picard-2.18.4:
+  peakranger-1.18:
     packages:
-    - picard=2.18.4
-    channels: []
-  picard-2.9.0:
-    packages:
-    - picard=2.9.0
+    - peakranger=1.18
     channels: []

@@ -8,13 +8,14 @@
 #
 # Set the 'name' key to name your project
 #
-name: picard
+name: Peakzilla
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: A set of Java command line tools for manipulating high-throughput sequencing
-  data (HTS) data and formats.
+description: Peakzilla identifies sites of enrichment and transcription factor binding
+  sites from transcription factor ChIP-seq and ChIP-exo experiments at hight accuracy
+  and resolution.
 
 
 #
@@ -25,11 +26,7 @@ description: A set of Java command line tools for manipulating high-throughput s
 platforms:
 - linux-64
 env_specs:
-  picard-2.18.4:
+  peakzilla-1.0:
     packages:
-    - picard=2.18.4
-    channels: []
-  picard-2.9.0:
-    packages:
-    - picard=2.9.0
+    - peakzilla=1.0
     channels: []

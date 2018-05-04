@@ -8,13 +8,13 @@
 #
 # Set the 'name' key to name your project
 #
-name: picard
+name: PyMongo
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: A set of Java command line tools for manipulating high-throughput sequencing
-  data (HTS) data and formats.
+description: PyMongo is a Python distribution containing tools for working with MongoDB,
+  and is the recommended way to work with MongoDB from Python.
 
 
 #
@@ -25,11 +25,15 @@ description: A set of Java command line tools for manipulating high-throughput s
 platforms:
 - linux-64
 env_specs:
-  picard-2.18.4:
+  pymongo-3.0.3:
     packages:
-    - picard=2.18.4
+    - pymongo=3.0.3
     channels: []
-  picard-2.9.0:
+  pymongo-3.3.0:
     packages:
-    - picard=2.9.0
+    - pymongo=3.3.0
+    channels: []
+  pymongo-3.6.1:
+    packages:
+    - pymongo=3.6.1
     channels: []
