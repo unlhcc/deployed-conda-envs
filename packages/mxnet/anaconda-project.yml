@@ -8,12 +8,14 @@
 #
 # Set the 'name' key to name your project
 #
-name: MACS2
+name: mxnet
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: MACS -- Model-based Analysis of ChIP-Seq
+description: Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with
+  Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go,
+  Javascript and more
 
 
 #
@@ -24,11 +26,11 @@ description: MACS -- Model-based Analysis of ChIP-Seq
 platforms:
 - linux-64
 env_specs:
-  macs2-2.1.1.20160309:
+  mxnet-0.9.3a:
     packages:
-    - macs2=2.1.1.20160309
+    - mxnet=0.9.3a
     channels: []
-  macs2-2.1.0:
+  mxnet-1.1.0:
     packages:
-    - macs2=2.1.0
+    - mxnet=1.1.0
     channels: []
