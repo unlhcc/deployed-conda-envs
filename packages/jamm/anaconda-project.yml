@@ -8,12 +8,13 @@
 #
 # Set the 'name' key to name your project
 #
-name: MACS2
+name: JAMM
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: MACS -- Model-based Analysis of ChIP-Seq
+description: JAMM is a peak finder for NGS datasets (ChIP-Seq, ATAC-Seq, DNase-Seq..etc.)
+  that can integrate replicates and assign peak boundaries accurately.
 
 
 #
@@ -24,11 +25,11 @@ description: MACS -- Model-based Analysis of ChIP-Seq
 platforms:
 - linux-64
 env_specs:
-  macs2-2.1.1.20160309:
+  jamm-1.0.7.2:
     packages:
-    - macs2=2.1.1.20160309
+    - jamm=1.0.7.2
     channels: []
-  macs2-2.1.0:
+  jamm-1.0.7.5:
     packages:
-    - macs2=2.1.0
+    - jamm=1.0.7.5
     channels: []
