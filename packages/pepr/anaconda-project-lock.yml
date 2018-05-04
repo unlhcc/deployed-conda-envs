@@ -1,0 +1,100 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  pepr-1.1.18:
+    locked: true
+    env_spec_hash: 7b1696a4712a7f007a7eaf677a6d781adc5724a2
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bcftools=1.7=0
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - curl=7.59.0=1
+      - htslib=1.7=0
+      - intel-openmp=2018.0.0=8
+      - krb5=1.14.6=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libssh2=1.8.0=2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mkl=2018.0.2=1
+      - mkl_fft=1.0.2=py36_0
+      - mkl_random=1.0.1=py36_0
+      - ncurses=5.9=10
+      - numpy=1.14.2=py36hdbf6ddf_1
+      - openssl=1.0.2o=0
+      - pepr=1.1.18=py36_0
+      - pip=9.0.3=py36_0
+      - pysam=0.14.1=py36_htslib1.7_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - samtools=1.7=2
+      - scipy=1.0.1=py36hfc37229_0
+      - setuptools=39.1.0=py36_0
+      - sharedmem=0.3.5=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+
+
+  pepr-1.1.24:
+    locked: true
+    env_spec_hash: 05169d2cd43c8ac854d39cb54561928137ca5c63
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bcftools=1.7=0
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - curl=7.59.0=1
+      - htslib=1.7=0
+      - intel-openmp=2018.0.0=8
+      - krb5=1.14.6=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libssh2=1.8.0=2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mkl=2018.0.2=1
+      - mkl_fft=1.0.2=py36_0
+      - mkl_random=1.0.1=py36_0
+      - ncurses=5.9=10
+      - numpy=1.14.2=py36hdbf6ddf_1
+      - openssl=1.0.2o=0
+      - pepr=1.1.24=py36_0
+      - pip=9.0.3=py36_0
+      - pysam=0.14.1=py36_htslib1.7_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - samtools=1.7=2
+      - scipy=1.0.1=py36hfc37229_0
+      - setuptools=39.1.0=py36_0
+      - sharedmem=0.3.5=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0

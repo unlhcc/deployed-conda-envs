@@ -8,13 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: picard
+name: perl
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: A set of Java command line tools for manipulating high-throughput sequencing
-  data (HTS) data and formats.
+description: Highly capable, feature-rich programming language
 
 
 #
@@ -25,11 +24,11 @@ description: A set of Java command line tools for manipulating high-throughput s
 platforms:
 - linux-64
 env_specs:
-  picard-2.18.4:
+  perl-5.22.0:
     packages:
-    - picard=2.18.4
+    - perl=5.22.0
     channels: []
-  picard-2.9.0:
+  perl-5.26.0:
     packages:
-    - picard=2.9.0
+    - perl=5.26.0
     channels: []

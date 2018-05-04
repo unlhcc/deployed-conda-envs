@@ -16,9 +16,9 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  picard-2.18.4:
+  peakzilla-1.0:
     locked: true
-    env_spec_hash: 4aabee1a43ff6018740307301995dcbff4dc86ae
+    env_spec_hash: 7628fdeca64f4c376d870f10066158bfe9ee0e71
     platforms:
     - linux-64
     packages:
@@ -26,9 +26,8 @@ env_specs:
       - ca-certificates=2018.4.16=0
       - certifi=2018.4.16=py36_0
       - ncurses=5.9=10
-      - openjdk=8.0.121=1
       - openssl=1.0.2o=0
-      - picard=2.18.4=py36_0
+      - peakzilla=1.0=py36_1
       - pip=9.0.3=py36_0
       - python=3.6.5=1
       - readline=7.0=0
@@ -40,25 +39,3 @@ env_specs:
       - zlib=1.2.11=0
 
 
-  picard-2.9.0:
-    locked: true
-    env_spec_hash: 674c79e75ca363aeff11a138ea55506ec79a751e
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - ca-certificates=2018.4.16=0
-      - certifi=2018.4.16=py36_0
-      - java-jdk=8.0.92=1
-      - ncurses=5.9=10
-      - openssl=1.0.2o=0
-      - picard=2.9.0=py36_0
-      - pip=9.0.3=py36_0
-      - python=3.6.5=1
-      - readline=7.0=0
-      - setuptools=39.1.0=py36_0
-      - sqlite=3.20.1=2
-      - tk=8.6.7=0
-      - wheel=0.31.0=py36_0
-      - xz=5.2.3=0
-      - zlib=1.2.11=0
