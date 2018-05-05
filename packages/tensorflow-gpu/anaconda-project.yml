@@ -25,15 +25,6 @@ description: TensorFlow is an open source software library for numerical computa
 platforms:
 - linux-64
 env_specs:
-  default:
-    description: Default environment spec for running commands
-    packages:
-    - anaconda
-    channels: []
-    platforms:
-    - linux-64
-    - osx-64
-    - win-64
   tensorflow-gpu-1.5.0-py27:
     packages:
     - tensorflow-gpu=1.5.0
