@@ -1,0 +1,60 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  biom-format-2.1.6:
+    locked: true
+    env_spec_hash: 464d65419460d78322c0b42febd66b6c4540a6b1
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - biom-format=2.1.6=py35_0
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py35_0
+      - click=6.7=py_1
+      - future=0.16.0=py35_0
+      - h5py=2.7.1=py35_2
+      - hdf5=1.10.1=2
+      - intel-openmp=2018.0.0=8
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libgfortran=3.0.0=1
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mkl=2018.0.2=1
+      - mkl_fft=1.0.2=py35_0
+      - mkl_random=1.0.1=py35_0
+      - ncurses=5.9=10
+      - numpy=1.14.2=py35hdbf6ddf_1
+      - openssl=1.0.2o=0
+      - pandas=0.22.0=py35_1
+      - pip=9.0.3=py35_0
+      - python-dateutil=2.3=py35_0
+      - python=3.5.5=1
+      - pytz=2018.4=py_0
+      - readline=7.0=0
+      - scipy=1.0.1=py35hfc37229_0
+      - setuptools=39.1.0=py35_0
+      - six=1.11.0=py35_1
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py35_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+
+

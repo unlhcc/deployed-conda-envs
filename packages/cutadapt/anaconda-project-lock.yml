@@ -1,0 +1,85 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  cutadapt-1.4.2:
+    locked: true
+    env_spec_hash: a6175d077b0aed10ecb5738a7d0bc3644b9461a8
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - cutadapt=1.4.2=py27_0
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - pip=9.0.3=py27_0
+      - python=2.7.14=5
+      - readline=7.0=0
+      - setuptools=39.1.0=py27_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py27_0
+      - zlib=1.2.11=0
+  cutadapt-1.16:
+    locked: true
+    env_spec_hash: 59a780ec6da01d11fdd8cffab6edfef0f321f0ac
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - cutadapt=1.16=py36_1
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - pigz=2.3.4=0
+      - pip=9.0.3=py36_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - setuptools=39.1.0=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xopen=0.3.2=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+  cutadapt-1.13:
+    locked: true
+    env_spec_hash: b5a96cb384b71e045e1ca8dca84bcf8310acc245
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - cutadapt=1.13=py36_0
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - pip=9.0.3=py36_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - setuptools=39.1.0=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xopen=0.3.2=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+
+
