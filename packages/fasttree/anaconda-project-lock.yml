@@ -16,7 +16,7 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  fasttree-2.1.0:
+  fasttree-2.1.10:
     locked: true
     env_spec_hash: 327a34968d1d79e6cfe152d2717f29dd7231fbc6
     platforms:
@@ -27,5 +27,3 @@ env_specs:
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgcc=7.2.0=h69d50b8_2
       - libstdcxx-ng=7.2.0=hdf63c60_3
-
-

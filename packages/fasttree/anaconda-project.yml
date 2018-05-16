@@ -13,7 +13,8 @@ name: FastTree
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: "FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences."
+description: FastTree infers approximately-maximum-likelihood phylogenetic trees from
+  alignments of nucleotide or protein sequences.
 
 
 #
@@ -24,7 +25,7 @@ description: "FastTree infers approximately-maximum-likelihood phylogenetic tree
 platforms:
 - linux-64
 env_specs:
-  fasttree-2.1.0:
+  fasttree-2.1.10:
     packages:
     - fasttree=2.1.10
     channels: []
