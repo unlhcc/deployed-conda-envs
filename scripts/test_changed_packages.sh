@@ -1,7 +1,10 @@
 #!/bin/bash
 
 set -euo pipefail
-export PATH=$ANACONDA_PREFIX/bin:$PATH
+if [ ! -z ${GITLAB_CI+set} ]
+then
+    export PATH=$ANACONDA_PREFIX/bin:$PATH
+fi
 script_path="$(dirname "$( readlink -e ${BASH_SOURCE[0]} )" )"
 # ooh, pretty colors
 source $script_path/b-log.sh
