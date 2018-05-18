@@ -75,7 +75,7 @@ env_specs:
       - numpy=1.13.3=py27_blas_openblas_201
       - openblas=0.2.20=7
       - openssl=1.0.2o=0
-      - pandas=0.22.0=py27_1
+      - pandas=0.23.0=py27_0
       - pbr=4.0.2=py_0
       - pcre=8.41=1
       - pip=9.0.3=py27_0
@@ -83,20 +83,20 @@ env_specs:
       - pyparsing=2.2.0=py27_0
       - pyqt=5.6.0=py27_5
       - python-dateutil=2.3=py27_0
-      - python=2.7.14=5
+      - python=2.7.15=0
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py27_blas_openblas_201
-      - scikit-plot=0.3.4=py27_0
-      - scipy=1.0.1=py27_blas_openblas_200
+      - scikit-plot=0.3.5=py27_0
+      - scipy=1.1.0=py27_blas_openblas_200
       - setuptools=39.1.0=py27_0
       - singledispatch=3.4.0.3=py27_0
       - sip=4.18=py27_1
       - six=1.11.0=py27_1
       - sqlite=3.20.1=2
-      - subprocess32=3.2.7=py27_0
-      - tensorflow-gpu=1.5.0=np113py27_0
+      - subprocess32=3.5.0=py27_0
+      - tensorflow-gpu=1.5.0=np113py27_1
       - tensorflow-tensorboard=1.5.0=np113py27_0
       - tk=8.6.7=0
       - tornado=5.0.2=py27_0
@@ -136,7 +136,7 @@ env_specs:
       - funcsigs=1.0.2=py_2
       - functools32=3.2.3.2=py27_2
       - futures=3.1.1=py27hdbc8cbb_0
-      - gast=0.2.0=py27_0
+      - gast=0.2.0=py_0
       - gettext=0.19.8.1=0
       - glib=2.55.0=0
       - grpcio=1.11.0=py27hf484d3e_0
@@ -169,7 +169,7 @@ env_specs:
       - numpy=1.13.3=py27_blas_openblas_201
       - openblas=0.2.20=7
       - openssl=1.0.2o=0
-      - pandas=0.22.0=py27_1
+      - pandas=0.23.0=py27_0
       - pbr=4.0.2=py_0
       - pcre=8.41=1
       - pip=9.0.3=py27_0
@@ -177,21 +177,21 @@ env_specs:
       - pyparsing=2.2.0=py27_0
       - pyqt=5.6.0=py27_5
       - python-dateutil=2.3=py27_0
-      - python=2.7.14=5
+      - python=2.7.15=0
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py27_blas_openblas_201
-      - scikit-plot=0.3.4=py27_0
-      - scipy=1.0.1=py27_blas_openblas_200
+      - scikit-plot=0.3.5=py27_0
+      - scipy=1.1.0=py27_blas_openblas_200
       - setuptools=39.1.0=py27_0
       - singledispatch=3.4.0.3=py27_0
       - sip=4.18=py27_1
       - six=1.11.0=py27_1
       - sqlite=3.20.1=2
-      - subprocess32=3.2.7=py27_0
+      - subprocess32=3.5.0=py27_0
       - tensorboard=1.7.0=np113py27_0
-      - tensorflow-gpu=1.7.0=np113py27_1
+      - tensorflow-gpu=1.7.0=np113py27_2
       - termcolor=1.1.0=py27_1
       - tk=8.6.7=0
       - tornado=5.0.2=py27_0
@@ -252,7 +252,7 @@ env_specs:
       - numpy=1.13.3=py35_blas_openblas_201
       - openblas=0.2.20=7
       - openssl=1.0.2o=0
-      - pandas=0.22.0=py35_1
+      - pandas=0.23.0=py35_0
       - pcre=8.41=1
       - pip=9.0.3=py35_0
       - protobuf=3.5.2=py35_0
@@ -264,13 +264,13 @@ env_specs:
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py35_blas_openblas_201
-      - scikit-plot=0.3.4=py35_0
-      - scipy=1.0.1=py35_blas_openblas_200
+      - scikit-plot=0.3.5=py35_0
+      - scipy=1.1.0=py35_blas_openblas_200
       - setuptools=39.1.0=py35_0
       - sip=4.18=py35_1
       - six=1.11.0=py35_1
       - sqlite=3.20.1=2
-      - tensorflow-gpu=1.5.0=np113py35_0
+      - tensorflow-gpu=1.5.0=np113py35_1
       - tensorflow-tensorboard=1.5.0=np113py35_0
       - tk=8.6.7=0
       - tornado=5.0.2=py35_0
@@ -302,7 +302,7 @@ env_specs:
       - expat=2.2.5=0
       - fontconfig=2.12.6=0
       - freetype=2.8.1=0
-      - gast=0.2.0=py35_0
+      - gast=0.2.0=py_0
       - gettext=0.19.8.1=0
       - glib=2.55.0=0
       - grpcio=1.11.0=py35hf484d3e_0
@@ -334,7 +334,7 @@ env_specs:
       - numpy=1.13.3=py35_blas_openblas_201
       - openblas=0.2.20=7
       - openssl=1.0.2o=0
-      - pandas=0.22.0=py35_1
+      - pandas=0.23.0=py35_0
       - pcre=8.41=1
       - pip=9.0.3=py35_0
       - protobuf=3.5.2=py35_0
@@ -346,14 +346,14 @@ env_specs:
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py35_blas_openblas_201
-      - scikit-plot=0.3.4=py35_0
-      - scipy=1.0.1=py35_blas_openblas_200
+      - scikit-plot=0.3.5=py35_0
+      - scipy=1.1.0=py35_blas_openblas_200
       - setuptools=39.1.0=py35_0
       - sip=4.18=py35_1
       - six=1.11.0=py35_1
       - sqlite=3.20.1=2
       - tensorboard=1.7.0=np113py35_0
-      - tensorflow-gpu=1.7.0=np113py35_1
+      - tensorflow-gpu=1.7.0=np113py35_2
       - termcolor=1.1.0=py35_1
       - tk=8.6.7=0
       - tornado=5.0.2=py35_0
@@ -414,25 +414,25 @@ env_specs:
       - numpy=1.13.3=py36_blas_openblas_201
       - openblas=0.2.20=7
       - openssl=1.0.2o=0
-      - pandas=0.22.0=py36_1
+      - pandas=0.23.0=py36_0
       - pcre=8.41=1
       - pip=9.0.3=py36_0
       - protobuf=3.5.2=py36_0
       - pyparsing=2.2.0=py36_0
       - pyqt=5.6.0=py36_5
-      - python-dateutil=2.7.2=py_0
+      - python-dateutil=2.7.3=py_0
       - python=3.6.5=1
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py36_blas_openblas_201
-      - scikit-plot=0.3.4=py36_0
-      - scipy=1.0.1=py36_blas_openblas_200
+      - scikit-plot=0.3.5=py36_0
+      - scipy=1.1.0=py36_blas_openblas_200
       - setuptools=39.1.0=py36_0
       - sip=4.18=py36_1
       - six=1.11.0=py36_1
       - sqlite=3.20.1=2
-      - tensorflow-gpu=1.5.0=np113py36_0
+      - tensorflow-gpu=1.5.0=np113py36_1
       - tensorflow-tensorboard=1.5.0=np113py36_0
       - tk=8.6.7=0
       - tornado=5.0.2=py36_0
@@ -464,7 +464,7 @@ env_specs:
       - expat=2.2.5=0
       - fontconfig=2.12.6=0
       - freetype=2.8.1=0
-      - gast=0.2.0=py36_0
+      - gast=0.2.0=py_0
       - gettext=0.19.8.1=0
       - glib=2.55.0=0
       - grpcio=1.11.0=py36hf484d3e_0
@@ -496,26 +496,26 @@ env_specs:
       - numpy=1.13.3=py36_blas_openblas_201
       - openblas=0.2.20=7
       - openssl=1.0.2o=0
-      - pandas=0.22.0=py36_1
+      - pandas=0.23.0=py36_0
       - pcre=8.41=1
       - pip=9.0.3=py36_0
       - protobuf=3.5.2=py36_0
       - pyparsing=2.2.0=py36_0
       - pyqt=5.6.0=py36_5
-      - python-dateutil=2.7.2=py_0
+      - python-dateutil=2.7.3=py_0
       - python=3.6.5=1
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py36_blas_openblas_201
-      - scikit-plot=0.3.4=py36_0
-      - scipy=1.0.1=py36_blas_openblas_200
+      - scikit-plot=0.3.5=py36_0
+      - scipy=1.1.0=py36_blas_openblas_200
       - setuptools=39.1.0=py36_0
       - sip=4.18=py36_1
       - six=1.11.0=py36_1
       - sqlite=3.20.1=2
       - tensorboard=1.7.0=np113py36_0
-      - tensorflow-gpu=1.7.0=np113py36_1
+      - tensorflow-gpu=1.7.0=np113py36_2
       - termcolor=1.1.0=py36_1
       - tk=8.6.7=0
       - tornado=5.0.2=py36_0
