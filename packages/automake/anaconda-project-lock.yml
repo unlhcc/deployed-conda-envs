@@ -1,0 +1,42 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  automake-1.15:
+    locked: true
+    env_spec_hash: bad6a6acdc7119b2e9b4e511c3af3c152e9bcd15
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - autoconf=2.69=pl5.22.2.1_5
+      - automake=1.15.1=pl5.22.2.1_0
+      - m4=1.4.18=0
+      - perl=5.22.2.1=0
+  automake-1.14:
+    locked: true
+    env_spec_hash: 08dd227b2c49b133cf05565d61990c471c4600ae
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - autoconf=2.69=pl5.20.3.1_5
+      - automake=1.14=pl5.20.3.1_2
+      - m4=1.4.18=0
+      - perl=5.20.3.1=2
+
+
