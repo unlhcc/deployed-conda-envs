@@ -1,0 +1,104 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  augustus-3.3:
+    locked: true
+    env_spec_hash: b3ac30bd41ca639225184940853e178f731045b7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - augustus=3.3=boost1.64_bamtools2.4.1_0
+      - bamtools=2.4.1=1
+      - boost-cpp=1.64.0=1
+      - boost=1.64.0=py36_4
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - gsl=1.16=0
+      - icu=58.2=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libopenblas=0.2.20=h9ac9557_4
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - lp_solve=5.5.2.5=0
+      - ncurses=5.9=10
+      - numpy-base=1.14.3=py36h0ea5e3f_1
+      - numpy=1.14.3=py36h28100ab_1
+      - openssl=1.0.2o=0
+      - perl-app-cpanminus=1.7043=pl5.22.0_0
+      - perl-dbi=1.641=pl5.22.0_0
+      - perl-module-build=0.4224=pl5.22.0_0
+      - perl-scalar-list-utils=1.45=2
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl-yaml=1.24=0
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py36_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - setuptools=39.2.0=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+  augustus-3.2.3:
+    locked: true
+    env_spec_hash: 1ce80ea80b723f79027957c780d924003cdabf46
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - augustus=3.2.3=boost1.64_bamtools2.4.1_4
+      - bamtools=2.4.1=1
+      - boost-cpp=1.64.0=1
+      - boost=1.64.0=py36_4
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - gsl=1.16=0
+      - icu=58.2=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libopenblas=0.2.20=h9ac9557_4
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - lp_solve=5.5.2.5=0
+      - ncurses=5.9=10
+      - numpy-base=1.14.3=py36h0ea5e3f_1
+      - numpy=1.14.3=py36h28100ab_1
+      - openssl=1.0.2o=0
+      - perl-app-cpanminus=1.7043=pl5.22.0_0
+      - perl-dbi=1.641=pl5.22.0_0
+      - perl-module-build=0.4224=pl5.22.0_0
+      - perl-scalar-list-utils=1.45=2
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl-yaml=1.24=0
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py36_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - setuptools=39.2.0=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+
+
