@@ -1,0 +1,40 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  bedtools-2.27.1:
+    locked: true
+    env_spec_hash: 65f67278451f2ac762644ee39f5a8763df27737d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bedtools=2.27.1=1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - zlib=1.2.11=0
+  bedtools-2.24.0:
+    locked: true
+    env_spec_hash: f1c0119d025a385eb488b26f49510d74a1595e5b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bedtools=2.24.0=0
+
+
