@@ -25,11 +25,11 @@ description: Gnuplot is a portable command-line driven graphing utility for Linu
 platforms:
 - linux-64
 env_specs:
-  gnuplot-5.2.3:
-    packages:
-    - gnuplot=5.2.3
-    channels: []
   gnuplot-4.6.0:
     packages:
     - gnuplot=4.6.0
+    channels: []
+  gnuplot-5.2.3:
+    packages:
+    - gnuplot=5.2.3
     channels: []

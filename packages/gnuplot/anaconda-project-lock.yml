@@ -12,9 +12,6 @@ locking_enabled: true
 
 
 
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   gnuplot-5.2.3:
     locked: true
@@ -40,10 +37,14 @@ env_specs:
       - icu=58.2=0
       - jpeg=9b=2
       - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
       - libgd=2.2.5=3
       - libiconv=1.15=0
       - libpng=1.6.34=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
       - libtiff=4.0.9=0
+      - libuuid=1.0.3=1
       - libwebp=0.5.2=7
       - libxcb=1.13=0
       - libxml2=2.9.8=0
@@ -55,10 +56,23 @@ env_specs:
       - qt=5.6.2=7
       - readline=7.0=0
       - sqlite=3.20.1=2
+      - xorg-fixesproto=5.0=1
+      - xorg-kbproto=1.0.7=1
+      - xorg-libice=1.0.9=2
+      - xorg-libsm=1.2.2=2
+      - xorg-libx11=1.6.5=0
       - xorg-libxau=1.0.8=3
+      - xorg-libxdamage=1.1.4=0
       - xorg-libxdmcp=1.1.2=3
+      - xorg-libxext=1.3.3=2
+      - xorg-libxfixes=5.0.3=2
+      - xorg-libxrender=0.9.10=0
+      - xorg-libxt=1.1.5=0
+      - xorg-renderproto=0.11.1=1
+      - xorg-xextproto=7.3.0=1
+      - xorg-xproto=7.0.31=6
       - xz=5.2.3=0
-      - zlib=1.2.11=0
+      - zlib=1.2.11=h470a237_2
   gnuplot-4.6.0:
     locked: true
     env_spec_hash: abe3a255dae744bf9a9c43344076850dbd861cd7
@@ -67,5 +81,3 @@ env_specs:
     packages:
       linux-64:
       - gnuplot=4.6.0=1
-
-
