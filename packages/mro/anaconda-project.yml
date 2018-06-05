@@ -27,5 +27,6 @@ env_specs:
   mro-3.4.4:
     packages:
     - mro
+    - gcc
     channels: []
 commands: {}
