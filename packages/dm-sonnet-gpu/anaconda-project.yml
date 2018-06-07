@@ -34,6 +34,7 @@ env_specs:
     - matplotlib
     - scikit-learn
     - scikit-plot
+    - tqdm
     channels: []
   dm-sonnet-gpu-1.19-py35:
     packages:
@@ -44,6 +45,7 @@ env_specs:
     - matplotlib
     - scikit-learn
     - scikit-plot
+    - tqdm
     channels: []
   dm-sonnet-gpu-1.19-py36:
     packages:
@@ -54,4 +56,38 @@ env_specs:
     - matplotlib
     - scikit-learn
     - scikit-plot
+    - tqdm
+    channels: []
+  dm-sonnet-gpu-1.23-py27:
+    packages:
+    - dm-sonnet-gpu=1.23
+    - python=2.7
+    - tensorflow-gpu=1.7.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - tqdm
+    channels: []
+  dm-sonnet-gpu-1.23-py35:
+    packages:
+    - dm-sonnet-gpu=1.23
+    - python=3.5
+    - tensorflow-gpu=1.7.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - tqdm
+    channels: []
+  dm-sonnet-gpu-1.23-py36:
+    packages:
+    - dm-sonnet-gpu=1.23
+    - python=3.6
+    - tensorflow-gpu=1.7.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - tqdm
     channels: []
