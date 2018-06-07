@@ -16,32 +16,22 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  bbmap-37.99:
+  ucsc-twobittofa-v357-1:
     locked: true
-    env_spec_hash: c737679dc0a3d259dbd8042f33f2b3b9065669e4
+    env_spec_hash: 583e449726e6b9f92fe0fa4617f3ec82c0c4d768
     platforms:
     - linux-64
     packages:
       linux-64:
-      - bbmap=37.99=0
-      - openjdk=8.0.121=1
+      - ca-certificates=2018.4.16=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libpng=1.6.34=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libuuid=1.0.3=1
+      - mysql-connector-c=6.1.6=2
+      - openssl=1.0.2o=0
+      - ucsc-twobittofa=357=1
+      - zlib=1.2.11=h470a237_3
 
 
-  bbmap-37.17:
-    locked: true
-    env_spec_hash: 1f757e9d39cd0dcc71a5d1f993253979ad20be85
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - bbmap=37.17=0
-      - openjdk=8.0.121=1
-  bbmap-38.06:
-    locked: true
-    env_spec_hash: c7091ec45484230d5084e975cd2098733b98b508
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - bbmap=38.06=0
-      - openjdk=8.0.121=1

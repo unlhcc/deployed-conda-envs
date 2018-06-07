@@ -8,12 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: bbmap
+name: ucsc-twobittofa
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: BBMap is a splice-aware global aligner for DNA and RNA sequencing reads.
+description: A twoBit file is a highly efficient way to store genomic sequence.
 
 
 #
@@ -24,15 +24,7 @@ description: BBMap is a splice-aware global aligner for DNA and RNA sequencing r
 platforms:
 - linux-64
 env_specs:
-  bbmap-37.99:
+  ucsc-twobittofa-v357-1:
     packages:
-    - bbmap=37.99
-    channels: []
-  bbmap-37.17:
-    packages:
-    - bbmap=37.17
-    channels: []
-  bbmap-38.06:
-    packages:
-    - bbmap=38.06
+    - ucsc-twobittofa=357
     channels: []
