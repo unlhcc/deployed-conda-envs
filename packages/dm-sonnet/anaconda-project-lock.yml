@@ -12,9 +12,6 @@ locking_enabled: true
 
 
 
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   dm-sonnet-1.19-py27:
     locked: true
@@ -267,7 +264,7 @@ env_specs:
       - ca-certificates=2018.4.16=0
       - certifi=2018.4.16=py35_0
       - cycler=0.10.0=py35_0
-      - dbus=1.11.0=0
+      - dbus=1.13.0=h3a4f0e9_0
       - dm-sonnet=1.13=py35_0
       - expat=2.2.5=0
       - fontconfig=2.12.6=0
@@ -300,15 +297,15 @@ env_specs:
       - protobuf=3.5.2=py35_0
       - pyparsing=2.2.0=py35_0
       - pyqt=5.6.0=py35_5
-      - python-dateutil=2.3=py35_0
+      - python-dateutil=2.7.3=py_0
       - python=3.5.5=1
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py35_blas_openblas_200
-      - scikit-plot=0.3.4=py35_0
+      - scikit-plot=0.3.5=py35_0
       - scipy=0.19.1=py35_blas_openblas_202
-      - setuptools=39.0.1=py35_0
+      - setuptools=39.2.0=py35_0
       - sip=4.18=py35_1
       - six=1.11.0=py35_1
       - sqlite=3.20.1=2
@@ -319,7 +316,7 @@ env_specs:
       - xorg-libxau=1.0.8=3
       - xorg-libxdmcp=1.1.2=3
       - xz=5.2.3=0
-      - zlib=1.2.11=0
+      - zlib=1.2.11=h470a237_3
   dm-sonnet-1.13-py36:
     locked: true
     env_spec_hash: 7ce69452f397fcbdd1c5a6438c21e2cd3dad9702
@@ -331,7 +328,7 @@ env_specs:
       - ca-certificates=2018.4.16=0
       - certifi=2018.4.16=py36_0
       - cycler=0.10.0=py36_0
-      - dbus=1.11.0=0
+      - dbus=1.13.0=h3a4f0e9_0
       - dm-sonnet=1.13=py36_0
       - expat=2.2.5=0
       - fontconfig=2.12.6=0
@@ -364,15 +361,15 @@ env_specs:
       - protobuf=3.5.2=py36_0
       - pyparsing=2.2.0=py36_0
       - pyqt=5.6.0=py36_5
-      - python-dateutil=2.7.2=py_0
+      - python-dateutil=2.7.3=py_0
       - python=3.6.5=1
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py36_blas_openblas_200
-      - scikit-plot=0.3.4=py36_0
+      - scikit-plot=0.3.5=py36_0
       - scipy=0.19.1=py36_blas_openblas_202
-      - setuptools=39.0.1=py36_0
+      - setuptools=39.2.0=py36_0
       - sip=4.18=py36_1
       - six=1.11.0=py36_1
       - sqlite=3.20.1=2
@@ -383,80 +380,7 @@ env_specs:
       - xorg-libxau=1.0.8=3
       - xorg-libxdmcp=1.1.2=3
       - xz=5.2.3=0
-      - zlib=1.2.11=0
-  dm-sonnet-1.13-py27:
-    locked: true
-    env_spec_hash: f77f2476b45cf94d6b3f7f23745099efa146802f
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - backports.functools_lru_cache=1.5=py27_0
-      - backports=1.0=py27_1
-      - backports_abc=0.5=py27_0
-      - blas=1.1=openblas
-      - ca-certificates=2018.4.16=0
-      - certifi=2018.4.16=py27_0
-      - cycler=0.10.0=py27_0
-      - dbus=1.11.0=0
-      - dm-sonnet=1.13=py27_0
-      - expat=2.2.5=0
-      - fontconfig=2.12.6=0
-      - freetype=2.8.1=0
-      - functools32=3.2.3.2=py27_2
-      - futures=3.2.0=py27_0
-      - gettext=0.19.8.1=0
-      - glib=2.55.0=0
-      - gst-plugins-base=1.8.0=0
-      - gstreamer=1.8.0=1
-      - icu=58.2=0
-      - joblib=0.11=py27_0
-      - jpeg=9b=2
-      - kiwisolver=1.0.1=py27_1
-      - libffi=3.2.1=3
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libgcc=7.2.0=h69d50b8_2
-      - libgfortran=3.0.0=1
-      - libiconv=1.15=0
-      - libpng=1.6.34=0
-      - libprotobuf=3.5.2=0
-      - libstdcxx-ng=7.2.0=hdf63c60_3
-      - libxcb=1.13=0
-      - libxml2=2.9.8=0
-      - matplotlib=2.2.2=py27_1
-      - ncurses=5.9=10
-      - numpy=1.13.3=py27_blas_openblas_200
-      - openblas=0.2.19=2
-      - openssl=1.0.2o=0
-      - pcre=8.41=1
-      - pip=9.0.3=py27_0
-      - protobuf=3.5.2=py27_0
-      - pyparsing=2.2.0=py27_0
-      - pyqt=5.6.0=py27_5
-      - python-dateutil=2.3=py27_0
-      - python=2.7.14=5
-      - pytz=2018.4=py_0
-      - qt=5.6.2=7
-      - readline=7.0=0
-      - scikit-learn=0.19.1=py27_blas_openblas_200
-      - scikit-plot=0.3.4=py27_0
-      - scipy=0.19.1=py27_blas_openblas_202
-      - setuptools=39.0.1=py27_0
-      - singledispatch=3.4.0.3=py27_0
-      - sip=4.18=py27_1
-      - six=1.11.0=py27_1
-      - sqlite=3.20.1=2
-      - subprocess32=3.2.7=py27_0
-      - tensorflow=1.3.1=py27_0
-      - tk=8.6.7=0
-      - tornado=5.0.2=py27_0
-      - wheel=0.31.0=py27_0
-      - xorg-libxau=1.0.8=3
-      - xorg-libxdmcp=1.1.2=3
-      - xz=5.2.3=0
-      - zlib=1.2.11=0
-
-
+      - zlib=1.2.11=h470a237_3
   dm-sonnet-1.23-py27:
     locked: true
     env_spec_hash: ce1803bbdd0d2c47cab96b66f6b83bfee8188484
@@ -693,6 +617,77 @@ env_specs:
       - webencodings=0.5=py36_0
       - werkzeug=0.14.1=py_0
       - wheel=0.31.0=py36_0
+      - xorg-libxau=1.0.8=3
+      - xorg-libxdmcp=1.1.2=3
+      - xz=5.2.3=0
+      - zlib=1.2.11=h470a237_3
+  dm-sonnet-1.13-py27:
+    locked: true
+    env_spec_hash: f77f2476b45cf94d6b3f7f23745099efa146802f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - backports.functools_lru_cache=1.5=py27_0
+      - backports=1.0=py27_1
+      - backports_abc=0.5=py27_0
+      - blas=1.1=openblas
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - cycler=0.10.0=py27_0
+      - dbus=1.13.0=h3a4f0e9_0
+      - dm-sonnet=1.13=py27_0
+      - expat=2.2.5=0
+      - fontconfig=2.12.6=0
+      - freetype=2.8.1=0
+      - functools32=3.2.3.2=py27_2
+      - futures=3.2.0=py27_0
+      - gettext=0.19.8.1=0
+      - glib=2.55.0=0
+      - gst-plugins-base=1.8.0=0
+      - gstreamer=1.8.0=1
+      - icu=58.2=0
+      - joblib=0.11=py27_0
+      - jpeg=9b=2
+      - kiwisolver=1.0.1=py27_1
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran=3.0.0=1
+      - libiconv=1.15=0
+      - libpng=1.6.34=0
+      - libprotobuf=3.5.2=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libxcb=1.13=0
+      - libxml2=2.9.8=0
+      - matplotlib=2.2.2=py27_1
+      - ncurses=5.9=10
+      - numpy=1.13.3=py27_blas_openblas_200
+      - openblas=0.2.19=2
+      - openssl=1.0.2o=0
+      - pcre=8.41=1
+      - pip=9.0.3=py27_0
+      - protobuf=3.5.2=py27_0
+      - pyparsing=2.2.0=py27_0
+      - pyqt=5.6.0=py27_5
+      - python-dateutil=2.7.3=py_0
+      - python=2.7.15=0
+      - pytz=2018.4=py_0
+      - qt=5.6.2=7
+      - readline=7.0=0
+      - scikit-learn=0.19.1=py27_blas_openblas_200
+      - scikit-plot=0.3.5=py27_0
+      - scipy=0.19.1=py27_blas_openblas_202
+      - setuptools=39.2.0=py27_0
+      - singledispatch=3.4.0.3=py27_0
+      - sip=4.18=py27_1
+      - six=1.11.0=py27_1
+      - sqlite=3.20.1=2
+      - subprocess32=3.5.1=py27_0
+      - tensorflow=1.3.1=py27_0
+      - tk=8.6.7=0
+      - tornado=5.0.2=py27_0
+      - wheel=0.31.0=py27_0
       - xorg-libxau=1.0.8=3
       - xorg-libxdmcp=1.1.2=3
       - xz=5.2.3=0
