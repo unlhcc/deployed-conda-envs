@@ -1,0 +1,218 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  sage-8.2:
+    locked: true
+    env_spec_hash: 1f0fe7abd83d3b4823da8bd8e0ca03ebe6b608bf
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - alabaster=0.7.10=py27_1
+      - arb=2.13.0=hb705a9b_1
+      - babel=2.6.0=py27_0
+      - backports.functools_lru_cache=1.5=py27_0
+      - backports.shutil_get_terminal_size=1.0.0=py_3
+      - backports=1.0=py27_1
+      - backports_abc=0.5=py27_0
+      - bdw-gc=7.6.4=h2d50403_2
+      - blas=1.1=openblas
+      - bleach=2.1.3=py_0
+      - boost-cpp=1.67.0=0
+      - brial=1.2.3=py_2
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - cairo=1.14.12=h77bcde2_0
+      - cddlib=1!0.94i=h16a7912_1
+      - certifi=2018.4.16=py27_0
+      - cliquer=1.21=0
+      - configparser=3.5.0=py27_0
+      - curl=7.60.0=0
+      - cvxopt=1.2.0=py27_blas_openblash9c03b7d_201
+      - cycler=0.10.0=py27_0
+      - cypari2=1.1.4=py27h16a7912_2
+      - cysignals=1.7.1=py27_0
+      - cython=0.28.3=py27_0
+      - dbus=1.13.0=h3a4f0e9_0
+      - decorator=4.3.0=py_0
+      - docutils=0.14=py27_0
+      - dsdp=5.8=blas_openblash470a237_200
+      - ecl=16.1.3=h0b9cf6d_5
+      - eclib=20171219=h075c78f_1
+      - ecm=7.0.4=1
+      - entrypoints=0.2.3=py27_1
+      - enum34=1.1.6=py27_1
+      - expat=2.2.5=0
+      - fastcache=1.0.2=py27_0
+      - fflas-ffpack=2.3.2=blas_openblashb06058e_1
+      - fftw=2.1.5=0
+      - flintqs=1.0=0
+      - fontconfig=2.12.6=0
+      - fplll=5.2.0=h075c78f_1
+      - fpylll=0.3.0dev=py27h075c78f_2
+      - freetype=2.8.1=0
+      - functools32=3.2.3.2=py27_2
+      - future=0.16.0=py27_0
+      - gap=4.8.6=hca56440_3
+      - gf2x=1.2=hfc679d8_2
+      - gfan=0.5=h0eace8b_1
+      - giac=1.4.9.57=blas_openblashb294cb5_3
+      - giflib=5.1.4=0
+      - givaro=4.0.4=h0eace8b_1
+      - glib=2.53.6=h5d9569c_2
+      - glpk=4.65=h16a7912_1
+      - gmp=6.1.2=0
+      - gmpy2=2.0.8=py27_0
+      - graphite2=1.3.11=0
+      - gsl=2.2.1=blas_openblas_4
+      - gst-plugins-base=1.12.4=h33fb286_0
+      - gstreamer=1.12.4=hb53b477_0
+      - harfbuzz=1.7.6=hc5b324e_0
+      - html5lib=1.0.1=py_0
+      - icu=58.2=0
+      - iml=1.0.5=blas_openblas_1
+      - ipykernel=4.8.2=py27_0
+      - ipython=5.7.0=py27_0
+      - ipython_genutils=0.2.0=py27_0
+      - ipywidgets=7.2.1=py27_1
+      - jinja2=2.10=py27_0
+      - jpeg=9b=2
+      - jsonschema=2.6.0=py27_1
+      - jupyter_client=5.2.3=py27_0
+      - jupyter_core=4.4.0=py_0
+      - kiwisolver=1.0.1=py27_1
+      - krb5=1.14.6=0
+      - lcalc=1.23=1
+      - libbrial=1.2.3=hafa9fcd_2
+      - libffi=3.2.1=3
+      - libflint=2.5.2=heb735ee_2
+      - libgap=4.8.6=1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgd=2.2.5=3
+      - libgfortran=3.0.0=1
+      - libiconv=1.15=0
+      - libpng=1.6.34=0
+      - libsodium=1.0.16=0
+      - libssh2=1.8.0=2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libtiff=4.0.9=0
+      - libwebp=0.5.2=7
+      - libxcb=1.13=0
+      - libxml2=2.9.8=0
+      - linbox=1.5.2=2
+      - lrcalc=1.2=0
+      - m4ri=20140914=0
+      - m4rie=20150908=0
+      - markupsafe=1.0=py27_0
+      - matplotlib=2.2.2=py27_1
+      - maxima=5.39.0=h0b9cf6d_3
+      - metis=5.1.0=3
+      - mistune=0.8.3=py27_1
+      - mpc=1.1.0=5
+      - mpfi=1.5.3=hb705a9b_1
+      - mpfr=4.0.1=0
+      - mpmath=1.0.0=py_0
+      - nauty=2.6r7=0
+      - nbconvert=5.3.1=py_1
+      - nbformat=4.4.0=py27_0
+      - ncurses=5.9=10
+      - networkx=1.11=py27_0
+      - notebook=5.5.0=py27_0
+      - ntl=10.3.0=1
+      - numpy=1.14.4=py27_blas_openblash24bf2e0_200
+      - openblas=0.2.20=8
+      - openssl=1.0.2o=0
+      - palp=2.1=0
+      - pandoc=2.2.1=0
+      - pandocfilters=1.4.2=py27_0
+      - pango=1.40.14=0
+      - pari=2.9.5=pl526h787e8ac_1
+      - path.py=7.6.1=py27_0
+      - pathlib2=2.3.2=py27_0
+      - pcre=8.39=0
+      - perl=5.26.2=h14c3975_0
+      - pexpect=4.6.0=py27_0
+      - pickleshare=0.7.4=py27_0
+      - pip=9.0.3=py27_0
+      - pixman=0.34.0=2
+      - pkg-config=0.29.2=1
+      - pkgconfig=1.3.1=py27_0
+      - planarity=3.0.0.5=0
+      - ppl=1.2=0
+      - prompt_toolkit=1.0.15=py27_0
+      - psutil=5.4.6=py27_0
+      - ptyprocess=0.5.2=py27_0
+      - pycrypto=2.6.1=py27_1
+      - pygments=2.2.0=py27_0
+      - pynac=0.7.17=py27h075c78f_1
+      - pyparsing=2.2.0=py27_0
+      - pyqt=5.6.0=py27_5
+      - python-dateutil=2.7.3=py_0
+      - python=2.7.14=ha6fc286_23
+      - pytz=2018.4=py_0
+      - pyzmq=17.0.0=py27_4
+      - qd=2.3.17=1
+      - qt=5.6.2=hd25b39d_14
+      - r-base=3.4.1=3
+      - ratpoints=2.1.3=1
+      - readline=7.0=0
+      - rpy2=2.8.5=py27r3.4.1_0
+      - rubiks=20070912=0
+      - rw=0.7=1
+      - sage=8.2=py27_0
+      - sagelib=8.2=py27_blas_openblash4416362_2
+      - sagemath-db-combinatorial-designs=20140630=0
+      - sagemath-db-conway-polynomials=0.5.p0=py27_0
+      - sagemath-db-elliptic-curves=0.8=1
+      - sagemath-db-graphs=20161026=0
+      - sagemath-db-polytopes=20170220=0
+      - scandir=1.7=py27_0
+      - scipy=1.1.0=py27_blas_openblas_200
+      - send2trash=1.5.0=py_0
+      - setuptools=39.2.0=py27_0
+      - simplegeneric=0.8.1=py27_0
+      - singledispatch=3.4.0.3=py27_0
+      - singular=4.1.0.p3=h1e9d69d_2
+      - sip=4.18=py27_1
+      - six=1.11.0=py27_1
+      - sqlite=3.22.0=0
+      - ssl_match_hostname=3.5.0.1=py27_1
+      - subprocess32=3.5.2=py27_0
+      - suitesparse=4.5.6=blas_openblas_200
+      - symmetrica=2.0=0
+      - sympow=1.018.1=1
+      - sympy=1.1.1=py27_0
+      - tbb=2018_20171205=0
+      - terminado=0.8.1=py27_0
+      - testpath=0.3.1=py27_0
+      - tk=8.6.7=0
+      - tornado=4.5.3=py27_0
+      - traitlets=4.3.2=py27_0
+      - wcwidth=0.1.7=py27_0
+      - webencodings=0.5=py27_0
+      - wheel=0.31.0=py27_0
+      - widgetsnbextension=3.2.1=py27_0
+      - xorg-libxau=1.0.8=3
+      - xorg-libxdmcp=1.1.2=3
+      - xz=5.2.3=0
+      - zeromq=4.2.5=1
+      - zlib=1.2.11=h470a237_3
+      - zn_poly=0.9=1
+
+

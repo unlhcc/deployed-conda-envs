@@ -1,0 +1,46 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  tophat-2.1.1:
+    locked: true
+    env_spec_hash: ea8679da53998724736faed4fb7c6fb591bc2412
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bowtie2=2.2.5=py27_2
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py27_0
+      - python=2.7.15=0
+      - readline=7.0=0
+      - setuptools=39.2.0=py27_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - tophat=2.1.1=py27_1
+      - wheel=0.31.0=py27_0
+      - zlib=1.2.11=h470a237_3
+
+
