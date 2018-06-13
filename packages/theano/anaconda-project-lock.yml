@@ -18,95 +18,163 @@ locking_enabled: true
 env_specs:
   theano-0.9.0-py36:
     locked: true
-    env_spec_hash: c6cfa84b2e2271002bd8dca75832ad5178b32f27
+    env_spec_hash: 8b767dc5692a2a9353f646eeb23bdcfe135536ff
     platforms:
     - linux-64
     packages:
       linux-64:
       - binutils_impl_linux-64=2.28.1=had2808c_3
-      - binutils_linux-64=7.2.0=26
+      - binutils_linux-64=7.2.0=had2808c_27
+      - blas=1.0=mkl
       - ca-certificates=2018.03.07=0
       - certifi=2018.4.16=py36_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=3
+      - cudnn=7.0.5=cuda8.0_0
+      - cycler=0.10.0=py36h93f1223_0
+      - dbus=1.13.2=h714fa37_1
+      - expat=2.2.5=he0dffb1_0
+      - fontconfig=2.12.6=h49f89f6_0
+      - freetype=2.8=hab7d2ae_1
       - gcc_impl_linux-64=7.2.0=habb00fd_3
-      - gcc_linux-64=7.2.0=26
+      - gcc_linux-64=7.2.0=h550dcbe_27
+      - glib=2.56.1=h000015b_0
+      - gst-plugins-base=1.14.0=hbbd80ab_1
+      - gstreamer=1.14.0=hb453b48_1
       - gxx_impl_linux-64=7.2.0=hdf63c60_3
-      - gxx_linux-64=7.2.0=26
-      - intel-openmp=2018.0.0=8
-      - libedit=3.1=heed3624_0
+      - gxx_linux-64=7.2.0=h550dcbe_27
+      - icu=58.2=h9c2bf20_1
+      - intel-openmp=2018.0.3=0
+      - joblib=0.11=py36_0
+      - jpeg=9b=h024ee3a_2
+      - kiwisolver=1.0.1=py36h764f252_0
+      - libedit=3.1.20170329=h6b74fdf_2
       - libffi=3.2.1=hd88cf55_4
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgfortran-ng=7.2.0=hdf63c60_3
       - libgpuarray=0.6.9=0
+      - libpng=1.6.34=hb9fc6fc_0
       - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libxcb=1.13=h1bed415_1
+      - libxml2=2.9.8=h26e45fe_1
       - mako=1.0.7=py36h0727276_0
       - markupsafe=1.0=py36hd9260cd_1
+      - matplotlib=2.2.2=py36h0e671d2_1
       - mkl-service=1.1.2=py36h17a0993_4
-      - mkl=2018.0.2=1
+      - mkl=2018.0.3=1
       - mkl_fft=1.0.1=py36h3010b51_0
       - mkl_random=1.0.1=py36h629b387_0
-      - ncurses=6.0=h9df7e31_2
+      - ncurses=6.1=hf484d3e_0
       - nose=1.3.7=py36hcdf7029_2
-      - numpy=1.14.2=py36hdbf6ddf_1
+      - numpy-base=1.14.5=py36hdbf6ddf_0
+      - numpy=1.14.5=py36hcd700cb_0
       - openssl=1.0.2o=h20670df_0
+      - pcre=8.42=h439df22_0
       - pip=10.0.1=py36_0
       - pygpu=0.6.9=py36_0
+      - pyparsing=2.2.0=py36hee85983_1
+      - pyqt=5.9.2=py36h751905a_0
+      - python-dateutil=2.7.3=py36_0
       - python=3.6.5=hc3d631a_2
+      - pytz=2018.4=py36_0
+      - qt=5.9.5=h7e424d6_0
       - readline=7.0=ha6073c6_4
-      - scipy=1.0.1=py36hfc37229_0
-      - setuptools=39.1.0=py36_0
+      - scikit-learn=0.19.1=py36h7aa7ec6_0
+      - scikit-plot=0.3.5=py36_0
+      - scipy=1.1.0=py36hfc37229_0
+      - setuptools=39.2.0=py36_0
+      - sip=4.19.8=py36hf484d3e_0
       - six=1.11.0=py36h372c433_1
       - sqlite=3.23.1=he433501_0
       - theano=0.9.0=py36h6b64b5b_3
       - tk=8.6.7=hc745277_3
-      - wheel=0.31.0=py36_0
-      - xz=5.2.3=h5e939de_4
+      - tornado=5.0.2=py36_0
+      - wheel=0.31.1=py36_0
+      - xz=5.2.4=h14c3975_4
       - zlib=1.2.11=ha838bed_2
   theano-0.9.0-py27:
     locked: true
-    env_spec_hash: 0204253351aa8a6b766aeaa468ede0d498d8658c
+    env_spec_hash: 0aaddfb4cc7dd6093c48fbafb83d91d08c40f5a9
     platforms:
     - linux-64
     packages:
       linux-64:
+      - backports.functools_lru_cache=1.5=py27_1
+      - backports=1.0=py27h63c9359_1
+      - backports_abc=0.5=py27h7b3c97b_0
       - binutils_impl_linux-64=2.28.1=had2808c_3
-      - binutils_linux-64=7.2.0=26
+      - binutils_linux-64=7.2.0=had2808c_27
+      - blas=1.0=mkl
       - ca-certificates=2018.03.07=0
       - certifi=2018.4.16=py27_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=3
+      - cudnn=7.0.5=cuda8.0_0
+      - cycler=0.10.0=py27hc7354d3_0
+      - dbus=1.13.2=h714fa37_1
+      - expat=2.2.5=he0dffb1_0
+      - fontconfig=2.12.6=h49f89f6_0
+      - freetype=2.8=hab7d2ae_1
+      - functools32=3.2.3.2=py27h4ead58f_1
+      - futures=3.2.0=py27h7b459c0_0
       - gcc_impl_linux-64=7.2.0=habb00fd_3
-      - gcc_linux-64=7.2.0=26
+      - gcc_linux-64=7.2.0=h550dcbe_27
+      - glib=2.56.1=h000015b_0
+      - gst-plugins-base=1.14.0=hbbd80ab_1
+      - gstreamer=1.14.0=hb453b48_1
       - gxx_impl_linux-64=7.2.0=hdf63c60_3
-      - gxx_linux-64=7.2.0=26
-      - intel-openmp=2018.0.0=8
-      - libedit=3.1=heed3624_0
+      - gxx_linux-64=7.2.0=h550dcbe_27
+      - icu=58.2=h9c2bf20_1
+      - intel-openmp=2018.0.3=0
+      - joblib=0.11=py27_0
+      - jpeg=9b=h024ee3a_2
+      - kiwisolver=1.0.1=py27hc15e7b5_0
+      - libedit=3.1.20170329=h6b74fdf_2
       - libffi=3.2.1=hd88cf55_4
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgfortran-ng=7.2.0=hdf63c60_3
       - libgpuarray=0.6.9=0
+      - libpng=1.6.34=hb9fc6fc_0
       - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libxcb=1.13=h1bed415_1
+      - libxml2=2.9.8=h26e45fe_1
       - mako=1.0.7=py27h3d58d4b_0
       - markupsafe=1.0=py27h97b2822_1
+      - matplotlib=2.2.2=py27h0e671d2_1
       - mkl-service=1.1.2=py27hb2d42c5_4
-      - mkl=2018.0.2=1
+      - mkl=2018.0.3=1
       - mkl_fft=1.0.1=py27h3010b51_0
       - mkl_random=1.0.1=py27h629b387_0
-      - ncurses=6.0=h9df7e31_2
+      - ncurses=6.1=hf484d3e_0
       - nose=1.3.7=py27heec2199_2
-      - numpy=1.14.2=py27hdbf6ddf_1
+      - numpy-base=1.14.5=py27hdbf6ddf_0
+      - numpy=1.14.5=py27hcd700cb_0
       - openssl=1.0.2o=h20670df_0
+      - pcre=8.42=h439df22_0
       - pip=10.0.1=py27_0
       - pygpu=0.6.9=py27_0
+      - pyparsing=2.2.0=py27hf1513f8_1
+      - pyqt=5.9.2=py27h751905a_0
+      - python-dateutil=2.7.3=py27_0
       - python=2.7.15=h1571d57_0
+      - pytz=2018.4=py27_0
+      - qt=5.9.5=h7e424d6_0
       - readline=7.0=ha6073c6_4
-      - scipy=1.0.1=py27hfc37229_0
-      - setuptools=39.1.0=py27_0
+      - scikit-learn=0.19.1=py27h445a80a_0
+      - scikit-plot=0.3.5=py27_0
+      - scipy=1.1.0=py27hfc37229_0
+      - setuptools=39.2.0=py27_0
+      - singledispatch=3.4.0.3=py27h9bcb476_0
+      - sip=4.19.8=py27hf484d3e_0
       - six=1.11.0=py27h5f960f1_1
       - sqlite=3.23.1=he433501_0
+      - subprocess32=3.5.2=py27h14c3975_0
       - theano=0.9.0=py27ha72280b_3
       - tk=8.6.7=hc745277_3
-      - wheel=0.31.0=py27_0
+      - tornado=5.0.2=py27_0
+      - wheel=0.31.1=py27_0
+      - xz=5.2.4=h14c3975_4
       - zlib=1.2.11=ha838bed_2
-
-
   theano-1.0.2-py27:
     locked: true
     env_spec_hash: 89589a3ba2ebb5ba1ee01a29fca47d7574a69e52
@@ -314,6 +382,74 @@ env_specs:
       - tk=8.6.7=0
       - tornado=5.0.2=py36_0
       - wheel=0.31.0=py36_0
+      - xorg-libxau=1.0.8=3
+      - xorg-libxdmcp=1.1.2=3
+      - xz=5.2.3=0
+      - zlib=1.2.11=h470a237_3
+  theano-0.9-py35:
+    locked: true
+    env_spec_hash: 231b00d9d9ac01b6e794ad028f3d6190b688be7d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - blas=1.1=openblas
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py35_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=0
+      - cudnn=7.0.5=cuda8.0_0
+      - cycler=0.10.0=py35_0
+      - dbus=1.13.0=h3a4f0e9_0
+      - expat=2.2.5=0
+      - fontconfig=2.12.6=0
+      - freetype=2.8.1=0
+      - gettext=0.19.8.1=0
+      - glib=2.55.0=0
+      - gst-plugins-base=1.8.0=0
+      - gstreamer=1.8.0=1
+      - icu=58.2=0
+      - joblib=0.11=py35_0
+      - jpeg=9b=2
+      - kiwisolver=1.0.1=py35_1
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran=3.0.0=1
+      - libgpuarray=0.6.9=0
+      - libiconv=1.15=0
+      - libpng=1.6.34=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libxcb=1.13=0
+      - libxml2=2.9.8=0
+      - mako=1.0.7=py35_0
+      - markupsafe=1.0=py35_0
+      - matplotlib=2.2.2=py35_1
+      - ncurses=5.9=10
+      - numpy=1.13.3=py35_blas_openblas_201
+      - openblas=0.2.20=8
+      - openssl=1.0.2o=0
+      - pcre=8.41=1
+      - pip=9.0.3=py35_0
+      - pygpu=0.6.9=np113py35_0
+      - pyparsing=2.2.0=py35_0
+      - pyqt=5.6.0=py35_5
+      - python-dateutil=2.7.3=py_0
+      - python=3.5.5=1
+      - pytz=2018.4=py_0
+      - qt=5.6.2=7
+      - readline=7.0=0
+      - scikit-learn=0.19.1=py35_blas_openblas_201
+      - scikit-plot=0.3.5=py35_0
+      - scipy=1.1.0=py35_blas_openblas_200
+      - setuptools=39.2.0=py35_0
+      - sip=4.18=py35_1
+      - six=1.11.0=py35_1
+      - sqlite=3.20.1=2
+      - theano=0.9.0=py35_3
+      - tk=8.6.7=0
+      - tornado=5.0.2=py35_0
+      - wheel=0.31.0=py35_0
       - xorg-libxau=1.0.8=3
       - xorg-libxdmcp=1.1.2=3
       - xz=5.2.3=0
