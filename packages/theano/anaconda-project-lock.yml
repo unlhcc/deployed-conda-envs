@@ -109,7 +109,7 @@ env_specs:
 
   theano-1.0.2-py27:
     locked: true
-    env_spec_hash: 084281989fdcbb0a9961caaef1514a5a59826062
+    env_spec_hash: 89589a3ba2ebb5ba1ee01a29fca47d7574a69e52
     platforms:
     - linux-64
     packages:
@@ -120,6 +120,9 @@ env_specs:
       - blas=1.1=openblas
       - ca-certificates=2018.4.16=0
       - certifi=2018.4.16=py27_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=0
+      - cudnn=7.0.5=cuda8.0_0
       - cycler=0.10.0=py27_0
       - dbus=1.13.0=h3a4f0e9_0
       - expat=2.2.5=0
@@ -181,7 +184,7 @@ env_specs:
       - zlib=1.2.11=h470a237_3
   theano-1.0.2-py35:
     locked: true
-    env_spec_hash: 3c1e686e84437f7e386183484feebe04a74666a2
+    env_spec_hash: 890f92957b646ed0eb2affe5b3f46194d7cccb13
     platforms:
     - linux-64
     packages:
@@ -189,6 +192,9 @@ env_specs:
       - blas=1.1=openblas
       - ca-certificates=2018.4.16=0
       - certifi=2018.4.16=py35_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=0
+      - cudnn=7.0.5=cuda8.0_0
       - cycler=0.10.0=py35_0
       - dbus=1.13.0=h3a4f0e9_0
       - expat=2.2.5=0
@@ -246,7 +252,7 @@ env_specs:
       - zlib=1.2.11=h470a237_3
   theano-1.0.2-py36:
     locked: true
-    env_spec_hash: e9df2ea80a5c9cc392fcb926478f6d530d728604
+    env_spec_hash: fb0ad16efe024f8f206e93dc621278a0208dd9a4
     platforms:
     - linux-64
     packages:
@@ -254,6 +260,9 @@ env_specs:
       - blas=1.1=openblas
       - ca-certificates=2018.4.16=0
       - certifi=2018.4.16=py36_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=0
+      - cudnn=7.0.5=cuda8.0_0
       - cycler=0.10.0=py36_0
       - dbus=1.13.0=h3a4f0e9_0
       - expat=2.2.5=0
