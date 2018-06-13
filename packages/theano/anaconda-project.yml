@@ -37,3 +37,36 @@ env_specs:
     - python=3.6
     channels:
     - defaults
+  theano-1.0.2-py27:
+    packages:
+    - theano=1.0.2
+    - python=2.7
+    - matplotlib
+    - scikit-plot
+    - scikit-learn
+    - cudatoolkit=8.0
+    - cuda-driver=375.66
+    - cudnn=7.0.5
+    channels: []
+  theano-1.0.2-py35:
+    packages:
+    - theano=1.0.2
+    - python=3.5
+    - matplotlib
+    - scikit-plot
+    - scikit-learn
+    - cudatoolkit=8.0
+    - cuda-driver=375.66
+    - cudnn=7.0.5
+    channels: []
+  theano-1.0.2-py36:
+    packages:
+    - theano=1.0.2
+    - python=3.6
+    - matplotlib
+    - scikit-plot
+    - scikit-learn
+    - cudatoolkit=8.0
+    - cuda-driver=375.66
+    - cudnn=7.0.5
+    channels: []
