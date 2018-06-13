@@ -82,7 +82,7 @@ env_specs:
     - cuda-driver=375.66
     - cudnn=7.0.5
     channels: []
-  theano-0.9-py35:
+  theano-0.9.0-py35:
     packages:
     - theano=0.9.0
     - matplotlib
