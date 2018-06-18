@@ -219,7 +219,7 @@ files:
 
 ```
 cd ../..
-git add packages/blast/anaconda-project-lock.yml packages/blast/anaconda-project.yaml
+git add packages/blast/anaconda-project-lock.yml packages/blast/anaconda-project.yml
 git commit -m "Added blast 2.7.1."
 ```
 
