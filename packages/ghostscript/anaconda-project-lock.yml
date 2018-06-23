@@ -26,3 +26,11 @@ env_specs:
       - ghostscript=9.22=0
 
 
+  ghostscript-9.20:
+    locked: true
+    env_spec_hash: cf486300e2b724aca6859abfc8dab6e4113b6e79
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ghostscript=9.20=0
