@@ -219,7 +219,7 @@ files:
 
 ```
 cd ../..
-git add packages/blast/anaconda-project-lock.yml packages/blast/anaconda-project.yaml
+git add packages/blast/anaconda-project-lock.yml packages/blast/anaconda-project.yml
 git commit -m "Added blast 2.7.1."
 ```
 
@@ -261,6 +261,13 @@ environment, run
 
 ```
 anaconda-project prepare --env-spec blast-2.7.1
+```
+
+To clean up *all* environments in *all* project directories, from the root
+of the repo, run 
+
+```
+./scripts/clean_all_envs.sh
 ```
 
 Adding a version, updating the existing environment(s), etc.

@@ -29,8 +29,10 @@ env_specs:
   snp-pipeline-1.0.1:
     packages:
     - snp-pipeline=1.0.1
+    - varscan
     channels: []
   snp-pipeline-0.7.0:
     packages:
     - snp-pipeline=0.7.0
+    - varscan
     channels: []

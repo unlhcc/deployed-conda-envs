@@ -1,0 +1,44 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  bamtools-2.4.1:
+    locked: true
+    env_spec_hash: 29e0b9478bd9eeac3cddfe4411d47b2cfe421267
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bamtools=2.4.1=1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - zlib=1.2.11=0
+  bamtools-2.3.0:
+    locked: true
+    env_spec_hash: ef1780520e4c4bacb6f5468ee8449a081757f19b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bamtools=2.3.0=1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - zlib=1.2.11=0
+
+

@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   snp-pipeline-1.0.1:
     locked: true
-    env_spec_hash: e2ee257ec6fe739b9781eef29a8340def54b7c3b
+    env_spec_hash: 854d31d33973bfee9fdce3b5d222386b1d04c80f
     platforms:
     - linux-64
     packages:
@@ -32,15 +32,17 @@ env_specs:
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgfortran-ng=7.2.0=hdf63c60_3
       - libpng=1.6.34=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
       - libtiff=4.0.9=0
       - mkl=2018.0.2=1
       - mkl_fft=1.0.2=py35_0
       - mkl_random=1.0.1=py35_0
       - mmtf-python=1.0.2=py35_0
-      - msgpack-python=0.5.6=py35_0
+      - msgpack-python=0.5.6=py35h2d50403_2
       - ncurses=5.9=10
       - numpy=1.14.2=py35hdbf6ddf_1
       - olefile=0.45.1=py35_0
+      - openjdk=8.0.121=1
       - openssl=1.0.2o=0
       - pillow=4.2.1=py35_0
       - pip=9.0.3=py35_0
@@ -53,12 +55,13 @@ env_specs:
       - snp-pipeline=1.0.1=py35_0
       - sqlite=3.20.1=2
       - tk=8.6.7=0
+      - varscan=2.4.3=0
       - wheel=0.31.0=py35_0
       - xz=5.2.3=0
       - zlib=1.2.11=0
   snp-pipeline-0.7.0:
     locked: true
-    env_spec_hash: 04848add72363357274f183be57d4e5f1430a876
+    env_spec_hash: 526a5f4e67d0405be37d95e1481b1f1604a93401
     platforms:
     - linux-64
     packages:
@@ -72,15 +75,17 @@ env_specs:
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgfortran-ng=7.2.0=hdf63c60_3
       - libpng=1.6.34=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
       - libtiff=4.0.9=0
       - mkl=2018.0.2=1
       - mkl_fft=1.0.2=py35_0
       - mkl_random=1.0.1=py35_0
       - mmtf-python=1.0.2=py35_0
-      - msgpack-python=0.5.6=py35_0
+      - msgpack-python=0.5.6=py35h2d50403_2
       - ncurses=5.9=10
       - numpy=1.14.2=py35hdbf6ddf_1
       - olefile=0.45.1=py35_0
+      - openjdk=8.0.121=1
       - openssl=1.0.2o=0
       - pillow=4.2.1=py35_0
       - pip=9.0.3=py35_0
@@ -94,8 +99,7 @@ env_specs:
       - sqlite=3.20.1=2
       - testfixtures=4.8.0=py35_0
       - tk=8.6.7=0
+      - varscan=2.4.3=0
       - wheel=0.31.0=py35_0
       - xz=5.2.3=0
       - zlib=1.2.11=0
-
-

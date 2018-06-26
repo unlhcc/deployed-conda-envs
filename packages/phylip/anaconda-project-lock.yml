@@ -1,0 +1,94 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  phylip-3.696-py35:
+    locked: true
+    env_spec_hash: a449fc71145bd06dec179a9478d64e8b0f16a8af
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py35_0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=5.9=10
+      - openjdk=8.0.121=1
+      - openssl=1.0.2o=0
+      - phylip=3.696=py35_3
+      - pip=9.0.3=py35_0
+      - python=3.5.5=1
+      - readline=7.0=0
+      - setuptools=39.2.0=py35_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py35_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=h470a237_3
+  phylip-3.696-py36:
+    locked: true
+    env_spec_hash: 9e7056dc296efb5fb5ef6c778481645c01bdfc0a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=5.9=10
+      - openjdk=8.0.121=1
+      - openssl=1.0.2o=0
+      - phylip=3.696=py36_3
+      - pip=9.0.3=py36_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - setuptools=39.2.0=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=h470a237_3
+  phylip-3.696-py27:
+    locked: true
+    env_spec_hash: 2350d3d72b88acdc766aa937d9c34452616fa537
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=5.9=10
+      - openjdk=8.0.121=1
+      - openssl=1.0.2o=0
+      - phylip=3.696=py27_3
+      - pip=9.0.3=py27_0
+      - python=2.7.15=0
+      - readline=7.0=0
+      - setuptools=39.2.0=py27_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py27_0
+      - zlib=1.2.11=h470a237_3
+
+

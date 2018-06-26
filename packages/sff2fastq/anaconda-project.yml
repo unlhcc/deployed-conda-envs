@@ -1,0 +1,32 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: sff2fastq
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: The program sff2fastq extracts read information from a SFF file, produced
+  by the 454 genome sequencer, and outputs the sequences and quality scores in a FASTQ
+  format.    
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  sff2fastq-0.9.2:
+    packages:
+    - sff2fastq=0.9.2
+    channels: []

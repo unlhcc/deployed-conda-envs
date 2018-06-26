@@ -1,0 +1,52 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  bcftools-1.8:
+    locked: true
+    env_spec_hash: 30f5eecec1613be0dddff4661abab4e6b92056a8
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bcftools=1.8=1
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - curl=7.60.0=0
+      - krb5=1.14.6=0
+      - libdeflate=0.8=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libssh2=1.8.0=2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - openssl=1.0.2o=0
+      - xz=5.2.3=0
+      - zlib=1.2.11=0
+  bcftools-1.3.1:
+    locked: true
+    env_spec_hash: 54745349d2115784efcae747239987a84e49632d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bcftools=1.3.1=2
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - zlib=1.2.11=0
+
+

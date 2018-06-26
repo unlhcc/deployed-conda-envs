@@ -35,3 +35,19 @@ env_specs:
       - zlib=1.2.11=0
 
 
+  git-2.7.4:
+    locked: true
+    env_spec_hash: 179e289b68c59bc503cc82885d168f77eac793b7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.4.16=0
+      - curl=7.60.0=0
+      - expat=2.2.5=0
+      - git=2.7.4=0
+      - krb5=1.14.6=0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libssh2=1.8.0=2
+      - openssl=1.0.2o=0
+      - zlib=1.2.11=h470a237_3

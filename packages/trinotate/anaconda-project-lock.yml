@@ -1,0 +1,58 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  trinotate-3.1.0:
+    locked: true
+    env_spec_hash: f80931de0d429b32de0c2f82593f3e2f4a778f00
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - blast=2.2.31=1
+      - boost=1.63.0=py36_2
+      - bzip2=1.0.6=1
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - hmmer=3.2=0
+      - icu=56.1=4
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - perl-app-cpanminus=1.7043=pl5.22.0_0
+      - perl-dbd-sqlite=1.50=1
+      - perl-dbi=1.641=pl5.22.0_0
+      - perl-file-find-rule=0.34=1
+      - perl-module-build=0.4224=pl5.22.0_0
+      - perl-number-compare=0.03=pl5.22.0_1
+      - perl-text-glob=0.11=pl5.22.0_0
+      - perl-threaded=5.22.0=pl5.22.0_12
+      - perl=5.22.0.1=0
+      - pip=9.0.3=py36_0
+      - python=3.6.5=1
+      - readline=7.0=0
+      - setuptools=39.2.0=py36_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - trinotate=3.1.0=pl5.22.0_0
+      - wheel=0.31.0=py36_0
+      - xz=5.2.3=0
+      - zlib=1.2.11=h470a237_3
+
+

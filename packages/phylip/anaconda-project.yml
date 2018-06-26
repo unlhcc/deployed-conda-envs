@@ -1,0 +1,41 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: PHYLIP
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: PHYLIP is a free package of programs for inferring phylogenies.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  phylip-3.696-py27:
+    packages:
+    - phylip=3.696
+    - python=2.7
+    channels: []
+  phylip-3.696-py35:
+    packages:
+    - phylip=3.696
+    - python=3.5
+    channels: []
+  phylip-3.696-py36:
+    packages:
+    - phylip=3.696
+    - python=3.6
+    channels: []

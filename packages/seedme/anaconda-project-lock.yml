@@ -1,0 +1,44 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  seedme-1.2.4:
+    locked: true
+    env_spec_hash: 9ca72192404f9754ddf9944e26faaf15b0e776d2
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - curl=7.59.0=1
+      - krb5=1.14.6=0
+      - libssh2=1.8.0=2
+      - ncurses=5.9=10
+      - openssl=1.0.2o=0
+      - pip=9.0.3=py27_0
+      - python=2.7.15=0
+      - readline=7.0=0
+      - requests=2.7.0=py27_0
+      - seedme=1.2.4=py27_0
+      - setuptools=39.1.0=py27_0
+      - sqlite=3.20.1=2
+      - tk=8.6.7=0
+      - wheel=0.31.0=py27_0
+      - zlib=1.2.11=0
+
+

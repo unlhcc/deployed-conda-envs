@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   dm-sonnet-gpu-1.19-py35:
     locked: true
-    env_spec_hash: d2f10500ff1b09c9af829302b1f8b76c0e36f7df
+    env_spec_hash: 5027910e48a884a75e8b4d79b910ce72aa4c512e
     platforms:
     - linux-64
     packages:
@@ -33,15 +33,15 @@ env_specs:
       - cudatoolkit=8.0=0
       - cudnn=7.0.5=cuda8.0_0
       - cycler=0.10.0=py35_0
-      - dbus=1.11.0=0
+      - dbus=1.13.0=h3a4f0e9_0
       - dm-sonnet-gpu=1.19=py35_0
       - expat=2.2.5=0
       - fontconfig=2.12.6=0
       - freetype=2.8.1=0
-      - gast=0.2.0=py35_0
+      - gast=0.2.0=py_0
       - gettext=0.19.8.1=0
       - glib=2.55.0=0
-      - grpcio=1.11.0=py35hf484d3e_0
+      - grpcio=1.12.0=py35hdbcaa40_0
       - gst-plugins-base=1.8.0=0
       - gstreamer=1.8.0=1
       - html5lib=0.9999999=py35_0
@@ -63,40 +63,41 @@ env_specs:
       - matplotlib=2.2.2=py35_1
       - ncurses=5.9=10
       - numpy=1.13.3=py35_blas_openblas_201
-      - openblas=0.2.20=7
+      - openblas=0.2.20=8
       - openssl=1.0.2o=0
       - pcre=8.41=1
       - pip=9.0.3=py35_0
       - protobuf=3.5.2=py35_0
       - pyparsing=2.2.0=py35_0
       - pyqt=5.6.0=py35_5
-      - python-dateutil=2.3=py35_0
+      - python-dateutil=2.7.3=py_0
       - python=3.5.5=1
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py35_blas_openblas_201
-      - scikit-plot=0.3.4=py35_0
-      - scipy=1.0.1=py35_blas_openblas_200
-      - setuptools=39.0.1=py35_0
+      - scikit-plot=0.3.5=py35_0
+      - scipy=1.1.0=py35_blas_openblas_200
+      - setuptools=39.2.0=py35_0
       - sip=4.18=py35_1
       - six=1.11.0=py35_1
       - sqlite=3.20.1=2
       - tensorboard=1.7.0=np113py35_0
-      - tensorflow-gpu=1.7.0=np113py35_1
+      - tensorflow-gpu=1.7.0=np113py35_2
       - termcolor=1.1.0=py35_1
       - tk=8.6.7=0
       - tornado=5.0.2=py35_0
+      - tqdm=4.23.4=py_0
       - webencodings=0.5=py35_0
       - werkzeug=0.14.1=py_0
       - wheel=0.31.0=py35_0
       - xorg-libxau=1.0.8=3
       - xorg-libxdmcp=1.1.2=3
       - xz=5.2.3=0
-      - zlib=1.2.11=0
+      - zlib=1.2.11=h470a237_3
   dm-sonnet-gpu-1.19-py36:
     locked: true
-    env_spec_hash: 0f415a6c95b4bce084a7fedcc7086db5667d5ddb
+    env_spec_hash: 2a00dd88db7f9062225cd72c5847d1396cbb685c
     platforms:
     - linux-64
     packages:
@@ -111,15 +112,15 @@ env_specs:
       - cudatoolkit=8.0=0
       - cudnn=7.0.5=cuda8.0_0
       - cycler=0.10.0=py36_0
-      - dbus=1.11.0=0
+      - dbus=1.13.0=h3a4f0e9_0
       - dm-sonnet-gpu=1.19=py36_0
       - expat=2.2.5=0
       - fontconfig=2.12.6=0
       - freetype=2.8.1=0
-      - gast=0.2.0=py36_0
+      - gast=0.2.0=py_0
       - gettext=0.19.8.1=0
       - glib=2.55.0=0
-      - grpcio=1.11.0=py36hf484d3e_0
+      - grpcio=1.12.0=py36hdbcaa40_0
       - gst-plugins-base=1.8.0=0
       - gstreamer=1.8.0=1
       - html5lib=0.9999999=py36_0
@@ -141,40 +142,41 @@ env_specs:
       - matplotlib=2.2.2=py36_1
       - ncurses=5.9=10
       - numpy=1.13.3=py36_blas_openblas_201
-      - openblas=0.2.20=7
+      - openblas=0.2.20=8
       - openssl=1.0.2o=0
       - pcre=8.41=1
       - pip=9.0.3=py36_0
       - protobuf=3.5.2=py36_0
       - pyparsing=2.2.0=py36_0
       - pyqt=5.6.0=py36_5
-      - python-dateutil=2.7.2=py_0
+      - python-dateutil=2.7.3=py_0
       - python=3.6.5=1
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py36_blas_openblas_201
-      - scikit-plot=0.3.4=py36_0
-      - scipy=1.0.1=py36_blas_openblas_200
-      - setuptools=39.0.1=py36_0
+      - scikit-plot=0.3.5=py36_0
+      - scipy=1.1.0=py36_blas_openblas_200
+      - setuptools=39.2.0=py36_0
       - sip=4.18=py36_1
       - six=1.11.0=py36_1
       - sqlite=3.20.1=2
       - tensorboard=1.7.0=np113py36_0
-      - tensorflow-gpu=1.7.0=np113py36_1
+      - tensorflow-gpu=1.7.0=np113py36_2
       - termcolor=1.1.0=py36_1
       - tk=8.6.7=0
       - tornado=5.0.2=py36_0
+      - tqdm=4.7.2=py36_0
       - webencodings=0.5=py36_0
       - werkzeug=0.14.1=py_0
       - wheel=0.31.0=py36_0
       - xorg-libxau=1.0.8=3
       - xorg-libxdmcp=1.1.2=3
       - xz=5.2.3=0
-      - zlib=1.2.11=0
+      - zlib=1.2.11=h470a237_3
   dm-sonnet-gpu-1.19-py27:
     locked: true
-    env_spec_hash: eb2db96f8ede8869f2b43fbe1077d880f0d3b0cf
+    env_spec_hash: 52b33fe17c1cfb1bd4eb40f467ed2e72c28825f8
     platforms:
     - linux-64
     packages:
@@ -193,7 +195,7 @@ env_specs:
       - cudatoolkit=8.0=0
       - cudnn=7.0.5=cuda8.0_0
       - cycler=0.10.0=py27_0
-      - dbus=1.11.0=0
+      - dbus=1.13.0=h3a4f0e9_0
       - dm-sonnet-gpu=1.19=py27_0
       - enum34=1.1.6=py27_1
       - expat=2.2.5=0
@@ -202,10 +204,10 @@ env_specs:
       - funcsigs=1.0.2=py_2
       - functools32=3.2.3.2=py27_2
       - futures=3.1.1=py27hdbc8cbb_0
-      - gast=0.2.0=py27_0
+      - gast=0.2.0=py_0
       - gettext=0.19.8.1=0
       - glib=2.55.0=0
-      - grpcio=1.11.0=py27hf484d3e_0
+      - grpcio=1.12.0=py27hdbcaa40_0
       - gst-plugins-base=1.8.0=0
       - gstreamer=1.8.0=1
       - html5lib=0.9999999=py27_0
@@ -228,39 +230,287 @@ env_specs:
       - mock=2.0.0=py27_0
       - ncurses=5.9=10
       - numpy=1.13.3=py27_blas_openblas_201
-      - openblas=0.2.20=7
+      - openblas=0.2.20=8
       - openssl=1.0.2o=0
-      - pbr=4.0.2=py_0
+      - pbr=4.0.4=py_0
       - pcre=8.41=1
       - pip=9.0.3=py27_0
       - protobuf=3.5.2=py27_0
       - pyparsing=2.2.0=py27_0
       - pyqt=5.6.0=py27_5
-      - python-dateutil=2.3=py27_0
-      - python=2.7.14=5
+      - python-dateutil=2.7.3=py_0
+      - python=2.7.15=0
       - pytz=2018.4=py_0
       - qt=5.6.2=7
       - readline=7.0=0
       - scikit-learn=0.19.1=py27_blas_openblas_201
-      - scikit-plot=0.3.4=py27_0
-      - scipy=1.0.1=py27_blas_openblas_200
-      - setuptools=39.0.1=py27_0
+      - scikit-plot=0.3.5=py27_0
+      - scipy=1.1.0=py27_blas_openblas_200
+      - setuptools=39.2.0=py27_0
       - singledispatch=3.4.0.3=py27_0
       - sip=4.18=py27_1
       - six=1.11.0=py27_1
       - sqlite=3.20.1=2
-      - subprocess32=3.2.7=py27_0
+      - subprocess32=3.5.1=py27_0
       - tensorboard=1.7.0=np113py27_0
-      - tensorflow-gpu=1.7.0=np113py27_1
+      - tensorflow-gpu=1.7.0=np113py27_2
       - termcolor=1.1.0=py27_1
       - tk=8.6.7=0
       - tornado=5.0.2=py27_0
+      - tqdm=4.23.4=py_0
       - webencodings=0.5=py27_0
       - werkzeug=0.14.1=py_0
       - wheel=0.31.0=py27_0
       - xorg-libxau=1.0.8=3
       - xorg-libxdmcp=1.1.2=3
       - xz=5.2.3=0
-      - zlib=1.2.11=0
-
-
+      - zlib=1.2.11=h470a237_3
+  dm-sonnet-gpu-1.23-py27:
+    locked: true
+    env_spec_hash: 2896d4a2dd5936e21cc8917e56be85224e4a49c4
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - absl-py=0.1.10=py27_0
+      - astor=0.6.2=py_0
+      - backports.functools_lru_cache=1.5=py27_0
+      - backports.weakref=1.0rc1=py27_1
+      - backports=1.0=py27_1
+      - backports_abc=0.5=py27_0
+      - blas=1.1=openblas
+      - bleach=1.5.0=py27_0
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py27_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=0
+      - cudnn=7.0.5=cuda8.0_0
+      - cycler=0.10.0=py27_0
+      - dbus=1.13.0=h3a4f0e9_0
+      - dm-sonnet-gpu=1.23=py27_0
+      - enum34=1.1.6=py27_1
+      - expat=2.2.5=0
+      - fontconfig=2.12.6=0
+      - freetype=2.8.1=0
+      - funcsigs=1.0.2=py_2
+      - functools32=3.2.3.2=py27_2
+      - futures=3.1.1=py27hdbc8cbb_0
+      - gast=0.2.0=py_0
+      - gettext=0.19.8.1=0
+      - glib=2.55.0=0
+      - grpcio=1.12.0=py27hdbcaa40_0
+      - gst-plugins-base=1.8.0=0
+      - gstreamer=1.8.0=1
+      - html5lib=0.9999999=py27_0
+      - icu=58.2=0
+      - joblib=0.11=py27_0
+      - jpeg=9b=2
+      - kiwisolver=1.0.1=py27_1
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran=3.0.0=1
+      - libiconv=1.15=0
+      - libpng=1.6.34=0
+      - libprotobuf=3.5.2=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libxcb=1.13=0
+      - libxml2=2.9.8=0
+      - markdown=2.6.11=py_0
+      - matplotlib=2.2.2=py27_1
+      - mock=2.0.0=py27_0
+      - ncurses=5.9=10
+      - numpy=1.13.3=py27_blas_openblas_201
+      - openblas=0.2.20=8
+      - openssl=1.0.2o=0
+      - pbr=4.0.4=py_0
+      - pcre=8.41=1
+      - pip=9.0.3=py27_0
+      - protobuf=3.5.2=py27_0
+      - pyparsing=2.2.0=py27_0
+      - pyqt=5.6.0=py27_5
+      - python-dateutil=2.7.3=py_0
+      - python=2.7.15=0
+      - pytz=2018.4=py_0
+      - qt=5.6.2=7
+      - readline=7.0=0
+      - scikit-learn=0.19.1=py27_blas_openblas_201
+      - scikit-plot=0.3.5=py27_0
+      - scipy=1.1.0=py27_blas_openblas_200
+      - setuptools=39.2.0=py27_0
+      - singledispatch=3.4.0.3=py27_0
+      - sip=4.18=py27_1
+      - six=1.11.0=py27_1
+      - sqlite=3.20.1=2
+      - subprocess32=3.5.1=py27_0
+      - tensorboard=1.7.0=np113py27_0
+      - tensorflow-gpu=1.7.0=np113py27_2
+      - termcolor=1.1.0=py27_1
+      - tk=8.6.7=0
+      - tornado=5.0.2=py27_0
+      - tqdm=4.23.4=py_0
+      - webencodings=0.5=py27_0
+      - werkzeug=0.14.1=py_0
+      - wheel=0.31.0=py27_0
+      - xorg-libxau=1.0.8=3
+      - xorg-libxdmcp=1.1.2=3
+      - xz=5.2.3=0
+      - zlib=1.2.11=h470a237_3
+  dm-sonnet-gpu-1.23-py35:
+    locked: true
+    env_spec_hash: ede761ed929b13f561f23fbec79fd68a1737ae48
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - absl-py=0.1.10=py35_0
+      - astor=0.6.2=py_0
+      - blas=1.1=openblas
+      - bleach=1.5.0=py35_0
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py35_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=0
+      - cudnn=7.0.5=cuda8.0_0
+      - cycler=0.10.0=py35_0
+      - dbus=1.13.0=h3a4f0e9_0
+      - dm-sonnet-gpu=1.23=py35_0
+      - expat=2.2.5=0
+      - fontconfig=2.12.6=0
+      - freetype=2.8.1=0
+      - gast=0.2.0=py_0
+      - gettext=0.19.8.1=0
+      - glib=2.55.0=0
+      - grpcio=1.12.0=py35hdbcaa40_0
+      - gst-plugins-base=1.8.0=0
+      - gstreamer=1.8.0=1
+      - html5lib=0.9999999=py35_0
+      - icu=58.2=0
+      - joblib=0.11=py35_0
+      - jpeg=9b=2
+      - kiwisolver=1.0.1=py35_1
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran=3.0.0=1
+      - libiconv=1.15=0
+      - libpng=1.6.34=0
+      - libprotobuf=3.5.2=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libxcb=1.13=0
+      - libxml2=2.9.8=0
+      - markdown=2.6.11=py_0
+      - matplotlib=2.2.2=py35_1
+      - ncurses=5.9=10
+      - numpy=1.13.3=py35_blas_openblas_201
+      - openblas=0.2.20=8
+      - openssl=1.0.2o=0
+      - pcre=8.41=1
+      - pip=9.0.3=py35_0
+      - protobuf=3.5.2=py35_0
+      - pyparsing=2.2.0=py35_0
+      - pyqt=5.6.0=py35_5
+      - python-dateutil=2.7.3=py_0
+      - python=3.5.5=1
+      - pytz=2018.4=py_0
+      - qt=5.6.2=7
+      - readline=7.0=0
+      - scikit-learn=0.19.1=py35_blas_openblas_201
+      - scikit-plot=0.3.5=py35_0
+      - scipy=1.1.0=py35_blas_openblas_200
+      - setuptools=39.2.0=py35_0
+      - sip=4.18=py35_1
+      - six=1.11.0=py35_1
+      - sqlite=3.20.1=2
+      - tensorboard=1.7.0=np113py35_0
+      - tensorflow-gpu=1.7.0=np113py35_2
+      - termcolor=1.1.0=py35_1
+      - tk=8.6.7=0
+      - tornado=5.0.2=py35_0
+      - tqdm=4.23.4=py_0
+      - webencodings=0.5=py35_0
+      - werkzeug=0.14.1=py_0
+      - wheel=0.31.0=py35_0
+      - xorg-libxau=1.0.8=3
+      - xorg-libxdmcp=1.1.2=3
+      - xz=5.2.3=0
+      - zlib=1.2.11=h470a237_3
+  dm-sonnet-gpu-1.23-py36:
+    locked: true
+    env_spec_hash: e4921222b42d85e7fcd10471f585a4726066d1ad
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - absl-py=0.1.10=py36_0
+      - astor=0.6.2=py_0
+      - blas=1.1=openblas
+      - bleach=1.5.0=py36_0
+      - ca-certificates=2018.4.16=0
+      - certifi=2018.4.16=py36_0
+      - cuda-driver=375.66=0
+      - cudatoolkit=8.0=0
+      - cudnn=7.0.5=cuda8.0_0
+      - cycler=0.10.0=py36_0
+      - dbus=1.13.0=h3a4f0e9_0
+      - dm-sonnet-gpu=1.23=py36_0
+      - expat=2.2.5=0
+      - fontconfig=2.12.6=0
+      - freetype=2.8.1=0
+      - gast=0.2.0=py_0
+      - gettext=0.19.8.1=0
+      - glib=2.55.0=0
+      - grpcio=1.12.0=py36hdbcaa40_0
+      - gst-plugins-base=1.8.0=0
+      - gstreamer=1.8.0=1
+      - html5lib=0.9999999=py36_0
+      - icu=58.2=0
+      - joblib=0.11=py36_0
+      - jpeg=9b=2
+      - kiwisolver=1.0.1=py36_1
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran=3.0.0=1
+      - libiconv=1.15=0
+      - libpng=1.6.34=0
+      - libprotobuf=3.5.2=0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libxcb=1.13=0
+      - libxml2=2.9.8=0
+      - markdown=2.6.11=py_0
+      - matplotlib=2.2.2=py36_1
+      - ncurses=5.9=10
+      - numpy=1.13.3=py36_blas_openblas_201
+      - openblas=0.2.20=8
+      - openssl=1.0.2o=0
+      - pcre=8.41=1
+      - pip=9.0.3=py36_0
+      - protobuf=3.5.2=py36_0
+      - pyparsing=2.2.0=py36_0
+      - pyqt=5.6.0=py36_5
+      - python-dateutil=2.7.3=py_0
+      - python=3.6.5=1
+      - pytz=2018.4=py_0
+      - qt=5.6.2=7
+      - readline=7.0=0
+      - scikit-learn=0.19.1=py36_blas_openblas_201
+      - scikit-plot=0.3.5=py36_0
+      - scipy=1.1.0=py36_blas_openblas_200
+      - setuptools=39.2.0=py36_0
+      - sip=4.18=py36_1
+      - six=1.11.0=py36_1
+      - sqlite=3.20.1=2
+      - tensorboard=1.7.0=np113py36_0
+      - tensorflow-gpu=1.7.0=np113py36_2
+      - termcolor=1.1.0=py36_1
+      - tk=8.6.7=0
+      - tornado=5.0.2=py36_0
+      - tqdm=4.7.2=py36_0
+      - webencodings=0.5=py36_0
+      - werkzeug=0.14.1=py_0
+      - wheel=0.31.0=py36_0
+      - xorg-libxau=1.0.8=3
+      - xorg-libxdmcp=1.1.2=3
+      - xz=5.2.3=0
+      - zlib=1.2.11=h470a237_3
