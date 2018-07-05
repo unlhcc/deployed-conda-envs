@@ -27,4 +27,5 @@ env_specs:
   snpeff-4.3.1t:
     packages:
     - snpeff=4.3.1t
+    - snpsift=4.3.1t
     channels: []
