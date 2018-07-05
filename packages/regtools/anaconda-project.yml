@@ -8,13 +8,14 @@
 #
 # Set the 'name' key to name your project
 #
-name: SnpEff
+name: regtools
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: SnpEff is a genomic variant annotations and functional effect prediction
-  toolbox.   
+description: Regtools is a set of tools that integrate DNA-seq and RNA-seq data to
+  help interpret mutations in a regulatory and splicing context.
+
 
 #
 # In the platforms section, list platforms the project should work on
@@ -24,8 +25,7 @@ description: SnpEff is a genomic variant annotations and functional effect predi
 platforms:
 - linux-64
 env_specs:
-  snpeff-4.3.1t:
-    packages:
-    - snpeff=4.3.1t
-    - snpsift=4.3.1t
+  regtools-0.5.0:
     channels: []
+    packages:
+    - regtools=0.5.0
