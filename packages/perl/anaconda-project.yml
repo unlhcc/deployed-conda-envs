@@ -32,5 +32,5 @@ env_specs:
   perl-5.26.0:
     packages:
     - perl=5.26.0
-    - perl-tie-ixhash
     channels: []
+packages: []
