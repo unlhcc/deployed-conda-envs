@@ -23,64 +23,61 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - asn1crypto=0.24.0=py27_0
+      - asn1crypto=0.24.0=py_1
       - ca-certificates=2018.4.16=0
       - certifi=2018.4.16=py27_0
       - cffi=1.11.5=py27_0
-      - chardet=3.0.4=py27_0
+      - chardet=3.0.4=py27_2
       - click=6.7=py_1
-      - cmd2=0.8.5=py27_0
-      - contextlib2=0.5.5=py27_1
-      - cryptography=2.2.1=py27_0
+      - cmd2=0.8.6=py27_0
+      - contextlib2=0.5.5=py_2
+      - cryptography=2.2.1=py27hdffb7b8_1
       - enum34=1.1.6=py27_1
       - flask=0.12.2=py27_0
       - functools32=3.2.3.2=py27_2
-      - gdc-client=1.3.0=py27_1
-      - icu=58.2=0
-      - idna=2.6=py27_1
+      - gdc-client=1.3.0=py27h1341992_3
+      - icu=58.2=hfc679d8_0
+      - idna=2.7=py27_2
       - intervaltree=2.0.4=py27_0
       - ipaddress=1.0.22=py_1
       - itsdangerous=0.24=py_2
-      - jinja2=2.10=py27_0
+      - jinja2=2.10=py_1
       - jsonschema=2.6.0=py27_1
       - libffi=3.2.1=3
       - libgcc-ng=7.2.0=hdf63c60_3
-      - libgcc=7.2.0=h69d50b8_2
-      - libiconv=1.15=0
+      - libiconv=1.15=h470a237_1
       - libstdcxx-ng=7.2.0=hdf63c60_3
-      - libxml2=2.9.8=0
-      - libxslt=1.1.32=0
+      - libxml2=2.9.8=h422b904_2
+      - libxslt=1.1.32=h88dbc4e_1
       - lxml=3.8.0=py27_0
       - markupsafe=1.0=py27_0
       - ncurses=5.9=10
-      - ndg-httpsclient=0.4.4=py27_0
+      - ndg-httpsclient=0.5.0=py_0
       - openssl=1.0.2o=0
       - parcel=0.2.13post20171012=py27_0
       - pip=9.0.3=py27_0
       - progressbar=2.3=py27_0
-      - pyasn1=0.4.2=py_0
-      - pycparser=2.18=py27_0
+      - pyasn1=0.4.3=py_0
+      - pycparser=2.18=py_1
       - pyopenssl=17.5.0=py27_1
-      - pyparsing=2.2.0=py27_0
-      - pyperclip=1.6.0=py_0
+      - pyparsing=2.2.0=py_1
+      - pyperclip=1.6.2=py_0
       - pysocks=1.6.8=py27_1
-      - python=2.7.14=5
+      - python=2.7.15=0
       - pyyaml=3.12=py27_1
       - readline=7.0=0
-      - requests=2.18.4=py27_1
-      - setuptools=39.1.0=py27_0
+      - requests=2.19.1=py27_1
+      - setuptools=40.0.0=py27_0
       - six=1.11.0=py27_1
-      - sortedcontainers=1.5.9=py27_0
+      - sortedcontainers=2.0.4=py_1
       - sqlite=3.20.1=2
-      - subprocess32=3.2.7=py27_0
-      - termcolor=1.1.0=py27_1
-      - tk=8.6.7=0
-      - urllib3=1.22=py27_0
-      - wcwidth=0.1.7=py27_0
+      - subprocess32=3.5.2=py27_0
+      - termcolor=1.1.0=py_2
+      - tk=8.6.8=0
+      - urllib3=1.23=py27_0
+      - wcwidth=0.1.7=py_1
       - werkzeug=0.14.1=py_0
-      - wheel=0.31.0=py27_0
+      - wheel=0.31.1=py27_0
       - xz=5.2.3=0
       - yaml=0.1.7=0
-      - zlib=1.2.11=0
-
-
+      - zlib=1.2.11=h470a237_3
