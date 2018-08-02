@@ -1,0 +1,50 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  hotspot3d-0.6.0:
+    locked: true
+    env_spec_hash: 3cee309a412d43c7303d5386420cf35671f7419e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - hotspot3d=0.6.0=pl526_0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - perl-algorithm-diff=1.1903=pl526_2
+      - perl-capture-tiny=0.36=pl526_2
+      - perl-class-data-inheritable=0.08=pl526_1
+      - perl-devel-stacktrace=2.03=pl526_1
+      - perl-encode-locale=1.05=pl526h470a237_5
+      - perl-exception-class=1.40=pl526_2
+      - perl-exporter-tiny=1.000000=pl526_0
+      - perl-list-moreutils-xs=0.428=pl526_0
+      - perl-list-moreutils=0.428=pl526_1
+      - perl-list-util=1.38=pl526_1
+      - perl-lwp-simple=6.15=pl526h470a237_4
+      - perl-parallel-forkmanager=1.17=pl526_1
+      - perl-sub-uplevel=0.25=pl526h470a237_3
+      - perl-test-deep=1.120=pl526_3
+      - perl-test-differences=0.64=pl526_2
+      - perl-test-exception=0.43=pl526_2
+      - perl-test-most=0.34=pl526_2
+      - perl-test-warn=0.30=pl526_2
+      - perl-text-diff=1.44=pl526_2
+      - perl-xsloader=0.24=pl526_0
+      - perl=5.26.2=h470a237_0
+
+
