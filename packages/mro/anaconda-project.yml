@@ -25,8 +25,12 @@ platforms:
 - linux-64
 env_specs:
   mro-3.4.4:
+    packages: [mro=3.4.4, gcc=4.8.5]
+    channels: []
+  mro-3.5.0:
     packages:
-    - mro
-    - gcc
+    - mro=3.5.0
+    - gcc=4.8.5
     channels: []
 commands: {}
+packages: []

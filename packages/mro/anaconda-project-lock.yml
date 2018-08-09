@@ -12,58 +12,110 @@ locking_enabled: true
 
 
 
-#
-# A key goes in here for each env spec.
-#
 env_specs:
-  mro-3.4.4:
+  mro-3.5.0:
     locked: true
-    env_spec_hash: a3582c36f7ce947d8823655472795751bfc86b7a
+    env_spec_hash: 235de2db69c58253383a4d68b6c329cca2e8f69c
     platforms:
     - linux-64
     packages:
       linux-64:
-      - bzip2=1.0.6=1
-      - cairo=1.14.6=4
+      - bzip2=1.0.6=h470a237_2
+      - cairo=1.14.12=he56eebe_3
       - cloog=0.18.0=0
-      - expat=2.2.5=0
-      - fontconfig=2.12.1=4
-      - freetype=2.7=1
+      - expat=2.2.5=hfc679d8_1
+      - fontconfig=2.13.0=hd36ec8e_5
+      - freetype=2.8.1=hfa320df_1
       - gcc=4.8.5=7
       - gettext=0.19.8.1=0
-      - glib=2.51.4=0
-      - gmp=6.1.2=0
-      - graphite2=1.3.11=0
-      - harfbuzz=1.4.3=0
-      - icu=58.2=0
+      - glib=2.55.0=h464dc38_2
+      - gmp=6.1.2=hfc679d8_0
+      - graphite2=1.3.11=hfc679d8_0
+      - harfbuzz=1.8.5=h2bb21d5_0
+      - icu=58.2=hfc679d8_0
       - isl=0.12.2=0
       - libffi=3.2.1=3
       - libgcc-ng=7.2.0=hdf63c60_3
-      - libiconv=1.15=0
-      - libpng=1.6.34=0
-      - libuuid=1.0.3=1
-      - libxcb=1.13=0
-      - libxml2=2.9.8=0
+      - libiconv=1.15=h470a237_2
+      - libpng=1.6.35=ha92aebf_0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libuuid=2.32.1=h470a237_0
+      - libxcb=1.13=h470a237_2
+      - libxml2=2.9.8=h422b904_3
+      - mpc=1.1.0=4
+      - mpfr=3.1.5=0
+      - mro=3.5.0=h5a55e4e_0
+      - pango=1.40.14=h9105a7a_2
+      - pcre=8.41=h470a237_2
+      - pixman=0.34.0=2
+      - pthread-stubs=0.4=h470a237_1
+      - xorg-kbproto=1.0.7=h470a237_2
+      - xorg-libice=1.0.9=h470a237_4
+      - xorg-libpthread-stubs=0.3=1
+      - xorg-libsm=1.2.2=h8c8a85c_6
+      - xorg-libx11=1.6.5=h470a237_2
+      - xorg-libxau=1.0.8=h470a237_6
+      - xorg-libxcb=1.12=3
+      - xorg-libxdmcp=1.1.2=h470a237_7
+      - xorg-libxext=1.3.3=h470a237_4
+      - xorg-libxft=2.3.2=h55d7831_0
+      - xorg-libxrender=0.9.10=h470a237_2
+      - xorg-libxt=1.1.5=h470a237_2
+      - xorg-renderproto=0.11.1=h470a237_2
+      - xorg-xextproto=7.3.0=h470a237_2
+      - xorg-xproto=7.0.31=h470a237_7
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_3
+  mro-3.4.4:
+    locked: true
+    env_spec_hash: 9d7ebde94502af32a1d766bf70e5115f867de3d4
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=h470a237_2
+      - cairo=1.14.12=he56eebe_3
+      - cloog=0.18.0=0
+      - expat=2.2.5=hfc679d8_1
+      - fontconfig=2.13.0=hd36ec8e_5
+      - freetype=2.8.1=hfa320df_1
+      - gcc=4.8.5=7
+      - gettext=0.19.8.1=0
+      - glib=2.55.0=h464dc38_2
+      - gmp=6.1.2=hfc679d8_0
+      - graphite2=1.3.11=hfc679d8_0
+      - harfbuzz=1.8.5=h2bb21d5_0
+      - icu=58.2=hfc679d8_0
+      - isl=0.12.2=0
+      - libffi=3.2.1=3
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libiconv=1.15=h470a237_2
+      - libpng=1.6.35=ha92aebf_0
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libuuid=2.32.1=h470a237_0
+      - libxcb=1.13=h470a237_2
+      - libxml2=2.9.8=h422b904_3
       - mpc=1.1.0=4
       - mpfr=3.1.5=0
       - mro=3.4.4=0
-      - pango=1.40.4=0
-      - pcre=8.41=1
+      - pango=1.40.14=h9105a7a_2
+      - pcre=8.41=h470a237_2
       - pixman=0.34.0=2
-      - xorg-kbproto=1.0.7=1
-      - xorg-libice=1.0.9=2
+      - pthread-stubs=0.4=h470a237_1
+      - xorg-kbproto=1.0.7=h470a237_2
+      - xorg-libice=1.0.9=h470a237_4
       - xorg-libpthread-stubs=0.3=1
-      - xorg-libsm=1.2.2=2
-      - xorg-libx11=1.6.5=0
-      - xorg-libxau=1.0.8=3
+      - xorg-libsm=1.2.2=h8c8a85c_6
+      - xorg-libx11=1.6.5=h470a237_2
+      - xorg-libxau=1.0.8=h470a237_6
       - xorg-libxcb=1.12=3
-      - xorg-libxdmcp=1.1.2=3
-      - xorg-libxext=1.3.3=2
-      - xorg-libxft=2.3.2=0
-      - xorg-libxrender=0.9.10=0
-      - xorg-libxt=1.1.5=0
-      - xorg-renderproto=0.11.1=1
-      - xorg-xextproto=7.3.0=1
-      - xorg-xproto=7.0.31=6
-      - xz=5.2.3=0
+      - xorg-libxdmcp=1.1.2=h470a237_7
+      - xorg-libxext=1.3.3=h470a237_4
+      - xorg-libxft=2.3.2=h55d7831_0
+      - xorg-libxrender=0.9.10=h470a237_2
+      - xorg-libxt=1.1.5=h470a237_2
+      - xorg-renderproto=0.11.1=h470a237_2
+      - xorg-xextproto=7.3.0=h470a237_2
+      - xorg-xproto=7.0.31=h470a237_7
+      - xz=5.2.4=h470a237_1
       - zlib=1.2.11=h470a237_3
