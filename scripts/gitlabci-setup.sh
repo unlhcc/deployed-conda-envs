@@ -8,7 +8,7 @@ export PATH=$ANACONDA_PREFIX/bin:$PATH
 
 # update conda itself and install anaconda-project
 conda update -q -y conda
-conda install -q -y anaconda-project
+conda install -q -y anaconda-project=0.8.2 anaconda-client=1.6.14
 
 # set the channel order
 conda config --add channels conda-forge
