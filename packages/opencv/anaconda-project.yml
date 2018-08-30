@@ -1,0 +1,41 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: OpenCV
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: OpenCV is a library of programming functions mainly aimed at real-time
+  computer vision.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  opencv-3.4.1-py36:
+    packages:
+    - opencv=3.4.1
+    - python=3.6
+    - blas=1.1
+    - numpy=1.15.1
+    channels: []
+  opencv-3.4.1-py27:
+    packages:
+    - opencv=3.4.1
+    - python=2.7
+    - blas=1.1
+    - numpy=1.15.1
+    channels: []
