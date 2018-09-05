@@ -8,12 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: package name
+name: Pullseq
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: package description
+description: Software to extract sequence from a fasta or fastq. This program is fast, and can be useful in a variety of situations.  You can use it to extract sequences from one fasta/fastq file into a new file, given either a list of header ids to include or a regular expression pattern to match.  Results can be included (default) or excluded, and they can additionally be filtered with minimum / maximum sequence lengths.
 
 
 #
