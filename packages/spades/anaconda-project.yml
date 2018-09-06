@@ -4,7 +4,7 @@
 # Use `anaconda-project run` to run the project.
 # The file is in YAML format, please see http://www.yaml.org/start.html for more.
 #
-
+ 
 #
 # Set the 'name' key to name your project
 #
@@ -36,4 +36,8 @@ env_specs:
     packages:
     - spades=3.8.1
     - python=2.7
+    channels: []
+  spades-3.12.0:
+    packages:
+    - spades=3.12.0
     channels: []
