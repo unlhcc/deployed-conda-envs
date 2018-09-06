@@ -84,3 +84,28 @@ env_specs:
       - zlib=1.2.11=0
 
 
+  spades-3.12.0:
+    locked: true
+    env_spec_hash: 1e23d7f1c94857a4015f3887c7de31362700c073
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.8.24=ha4d7672_0
+      - certifi=2018.8.24=py36_1
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=6.1=hfc679d8_1
+      - openssl=1.0.2p=h470a237_0
+      - pip=18.0=py36_1
+      - python=3.6.6=h5001a0f_0
+      - readline=7.0=haf1bffa_1
+      - setuptools=40.2.0=py36_0
+      - spades=3.12.0=1
+      - sqlite=3.24.0=h2f33b56_1
+      - tk=8.6.8=0
+      - wheel=0.31.1=py36_1
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_3

@@ -37,3 +37,7 @@ env_specs:
     - spades=3.8.1
     - python=2.7
     channels: []
+  spades-3.12.0:
+    packages:
+    - spades=3.12.0
+    channels: []
