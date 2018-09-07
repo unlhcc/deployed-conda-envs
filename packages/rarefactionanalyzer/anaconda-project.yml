@@ -8,14 +8,14 @@
 #
 # Set the 'name' key to name your project
 #
-name: Samtools
+name: Rarefaction Analyzer
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: SAM Tools provide various utilities for manipulating alignments in the
-  SAM format, including sorting, merging, indexing and generating alignments in a
-  per-position format.
+description: Rarefaction analyzer is a simple program that can be used to perform
+  rarefaction analysis.
+
 
 #
 # In the platforms section, list platforms the project should work on
@@ -25,27 +25,7 @@ description: SAM Tools provide various utilities for manipulating alignments in 
 platforms:
 - linux-64
 env_specs:
-  samtools-1.8:
+  rarefactionanalyzer-2018.09.06:
     packages:
-    - samtools=1.8
-    channels: []
-  samtools-1.6:
-    packages:
-    - samtools=1.6
-    channels: []
-  samtools-1.5:
-    packages:
-    - samtools=1.5
-    channels: []
-  samtools-1.3:
-    packages:
-    - samtools=1.3
-    channels: []
-  samtools-0.1:
-    packages:
-    - samtools=0.1
-    channels: []
-  samtools-1.9:
-    packages:
-    - samtools=1.9
+    - rarefactionanalyzer=2018.09.06
     channels: []
