@@ -8,12 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: package name
+name: BEDOPS
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: package description
+description: BEDOPS is an open-source command-line toolkit that performs highly efficient and scalable Boolean and other set operations, statistical calculations, archiving, conversion and other management of genomic data of arbitrary scale.
 
 
 #
