@@ -30,3 +30,7 @@ env_specs:
     packages:
     - freesurfer=6.0.0
     channels: []
+  freesurfer-5.3.0:
+    packages:
+    - freesurfer=5.3.0
+    channels: []
