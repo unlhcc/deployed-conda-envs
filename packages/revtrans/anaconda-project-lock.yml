@@ -1,0 +1,43 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  revtrans-1.4:
+    locked: true
+    env_spec_hash: 21acbbe5c644df93e098c7db82d78e375cfa2112
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.8.24=ha4d7672_0
+      - certifi=2018.8.24=py27_1001
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=6.1=hfc679d8_1
+      - openssl=1.0.2p=h470a237_0
+      - pip=18.0=py27_1
+      - python=2.7.15=h9fef7bc_0
+      - readline=7.0=haf1bffa_1
+      - revtrans=1.4=py27_0
+      - setuptools=40.4.0=py27_1000
+      - sqlite=3.25.2=hb1c47c0_0
+      - tk=8.6.8=ha92aebf_0
+      - wheel=0.31.1=py27_1001
+      - zlib=1.2.11=h470a237_3
+
+
