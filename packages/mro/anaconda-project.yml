@@ -32,5 +32,11 @@ env_specs:
     - mro=3.5.0
     - gcc=4.8.5
     channels: []
+  mro-3.5.1:
+    packages:
+    - mro=3.5.1
+    - mro-tidyverse=1.2.1
+    - gcc=4.8.5
+    channels: []
 commands: {}
 packages: []
