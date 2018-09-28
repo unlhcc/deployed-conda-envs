@@ -119,3 +119,60 @@ env_specs:
       - xorg-xproto=7.0.31=h470a237_7
       - xz=5.2.4=h470a237_1
       - zlib=1.2.11=h470a237_3
+  mro-3.5.1:
+    locked: true
+    env_spec_hash: 2f52274fa17bd7c8b8a9dc0f89ef8ccbfe09002e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.8.24=ha4d7672_0
+      - cairo=1.14.12=he56eebe_3
+      - cloog=0.18.0=0
+      - expat=2.2.5=hfc679d8_2
+      - fontconfig=2.13.0=hd36ec8e_5
+      - freetype=2.8.1=hfa320df_1
+      - gcc=4.8.5=7
+      - gettext=0.19.8.1=h5e8e0c9_1
+      - glib=2.55.0=h464dc38_2
+      - gmp=6.1.2=hfc679d8_0
+      - graphite2=1.3.12=hfc679d8_1
+      - harfbuzz=1.8.5=h2bb21d5_0
+      - icu=58.2=hfc679d8_0
+      - isl=0.12.2=0
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgfortran=3.0.0=1
+      - libiconv=1.15=h470a237_3
+      - libpng=1.6.35=ha92aebf_2
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - libuuid=2.32.1=h470a237_2
+      - libxcb=1.13=h470a237_2
+      - libxml2=2.9.8=h422b904_5
+      - mpc=1.1.0=4
+      - mpfr=3.1.5=0
+      - mro-tidyverse=1.2.1=h7c556e3_0
+      - mro=3.5.1=h5a55e4e_0
+      - openssl=1.0.2p=h470a237_0
+      - pango=1.40.14=h9105a7a_2
+      - pcre=8.41=hfc679d8_3
+      - pixman=0.34.0=h470a237_3
+      - pthread-stubs=0.4=h470a237_1
+      - xorg-kbproto=1.0.7=h470a237_2
+      - xorg-libice=1.0.9=h470a237_4
+      - xorg-libpthread-stubs=0.3=1
+      - xorg-libsm=1.2.2=h8c8a85c_6
+      - xorg-libx11=1.6.6=h470a237_0
+      - xorg-libxau=1.0.8=h470a237_6
+      - xorg-libxcb=1.12=3
+      - xorg-libxdmcp=1.1.2=h470a237_7
+      - xorg-libxext=1.3.3=h470a237_4
+      - xorg-libxft=2.3.2=h55d7831_0
+      - xorg-libxrender=0.9.10=h470a237_2
+      - xorg-libxt=1.1.5=h470a237_2
+      - xorg-renderproto=0.11.1=h470a237_2
+      - xorg-xextproto=7.3.0=h470a237_2
+      - xorg-xproto=7.0.31=h470a237_7
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_3
