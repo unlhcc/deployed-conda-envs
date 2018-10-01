@@ -9,16 +9,23 @@ source $script_path/b-log.sh
 LOG_LEVEL_ALL
 
 skipDeployFile="SKIP_DEPLOY"
-declare -a updatedPackageDirs
+declare -a dirListA
 for entry in $(git diff --name-only ${CI_COMMIT_BEFORE_SHA} ${CI_COMMIT_SHA} packages/);
 do
   i=`dirname $entry`
-  updatedPackageDirs+=("$i")
+  dirListA+=("$i")
 done
 
+if [ -z "${dirListA+set}" ]
+then
+    NOTICE "No packages changed according to git, exiting."
+    exit 0
+fi
+# Sort and unique the directory list
+dirList="$(printf '%s\n' ${dirListA[@]} | sort | uniq)"
 
 NOTICE "Beginning package deployment"
-for packageDir in $updatedPackageDirs;
+for packageDir in $dirList;
 do
   NOTICE "Entering directory '$packageDir'"
   if [ ! -f "$packageDir/anaconda-project.yml" ]
