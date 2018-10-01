@@ -9,10 +9,16 @@ source $script_path/b-log.sh
 LOG_LEVEL_ALL
 
 skipDeployFile="SKIP_DEPLOY"
-allPackageDirs=`find packages/ -maxdepth 1 -mindepth 1 -type d`
+declare -a updatedPackageDirs
+for entry in $(git diff --name-only ${CI_COMMIT_BEFORE_SHA} ${CI_COMMIT_SHA} packages/);
+do
+  i=`dirname $entry`
+  updatedPackageDirs+=("$i")
+done
+
 
 NOTICE "Beginning package deployment"
-for packageDir in $allPackageDirs;
+for packageDir in $updatedPackageDirs;
 do
   NOTICE "Entering directory '$packageDir'"
   if [ ! -f "$packageDir/anaconda-project.yml" ]
