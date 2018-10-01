@@ -20,7 +20,7 @@ test:
     - scripts/gitlabci-setup.sh
   script:
     - scripts/test_changed_packages.sh
-
+  retry: 2
 
 deploy-crane:
   stage: deploy
@@ -48,6 +48,7 @@ deploy-crane:
     - git fetch
     - git checkout $CI_COMMIT_SHA
     - scripts/deploy_all_packages.sh
+  retry: 2
 
 deploy-tusker:
   stage: deploy
@@ -75,6 +76,7 @@ deploy-tusker:
     - git fetch
     - git checkout $CI_COMMIT_SHA
     - scripts/deploy_all_packages.sh
+  retry: 2
 
 deploy-sandhills:
   stage: deploy
@@ -102,6 +104,7 @@ deploy-sandhills:
     - git fetch
     - git checkout $CI_COMMIT_SHA
     - scripts/deploy_all_packages.sh
+  retry: 2
 
 sync-to-github:
   stage: sync-to-github
@@ -123,3 +126,4 @@ sync-to-github:
     - git checkout master
     - git remote add github git@github.com:unlhcc/deployed-conda-envs.git
     - git push github +master
+  retry: 2
