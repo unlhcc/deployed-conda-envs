@@ -13,7 +13,8 @@ name: python
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: The Anaconda Python environment.  Commonly used installed packages include Numpy, Scipy, Matplotlib, and BioPython
+description: The Anaconda Python environment.  Commonly used installed packages include
+  Numpy, Scipy, Matplotlib, and BioPython
 
 #
 # In the platforms section, list platforms the project should work on
@@ -45,5 +46,11 @@ env_specs:
     packages:
     - python=3.6
     - anaconda=4.3.1
+    channels:
+    - defaults
+  python-3.7:
+    packages:
+    - python=3.7
+    - anaconda=5.3.0
     channels:
     - defaults
