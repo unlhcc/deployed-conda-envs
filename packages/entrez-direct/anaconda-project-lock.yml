@@ -1,0 +1,73 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  entrez-direct-10.0.20180927:
+    locked: true
+    env_spec_hash: 46a92a1319095149a71fc9670b33c465bf851baf
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.10.15=ha4d7672_0
+      - entrez-direct=10.0=pl526_0
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - openssl=1.0.2p=h470a237_1
+      - perl-base=2.23=pl526_1
+      - perl-business-isbn-data=20140910.003=pl526_0
+      - perl-business-isbn=3.004=pl526_0
+      - perl-carp=1.38=pl526_1
+      - perl-compress-raw-zlib=2.081=pl526h2d50403_0
+      - perl-constant=1.33=pl526_1
+      - perl-data-dumper=2.161=pl526_2
+      - perl-digest-hmac=1.03=pl526_2
+      - perl-encode-locale=1.05=pl526_6
+      - perl-encode=2.88=pl526_1
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-makemaker=7.34=pl526_2
+      - perl-file-listing=6.04=pl526_1
+      - perl-html-parser=3.72=pl526h2d50403_4
+      - perl-html-tagset=3.20=pl526_3
+      - perl-html-tree=5.07=pl526_0
+      - perl-http-cookies=6.04=pl526_0
+      - perl-http-daemon=6.01=pl526_1
+      - perl-http-date=6.02=pl526_3
+      - perl-http-message=6.18=pl526_0
+      - perl-http-negotiate=6.01=pl526_2
+      - perl-io-html=1.001=pl526_2
+      - perl-io-socket-ssl=2.056=pl526_0
+      - perl-libwww-perl=6.15=pl526_1
+      - perl-lwp-mediatypes=6.02=pl526_3
+      - perl-lwp-protocol-https=6.07=pl526_4
+      - perl-mime-base64=3.15=pl526_1
+      - perl-mozilla-ca=20180117=pl526_0
+      - perl-net-http=6.18=pl526_0
+      - perl-net-ssleay=1.84=pl526h9dad42d_1
+      - perl-ntlm=1.09=pl526_3
+      - perl-parent=0.236=pl526_1
+      - perl-socket=2.027=pl526_1
+      - perl-storable=3.11=pl526_0
+      - perl-test-requiresinternet=0.05=pl526_0
+      - perl-time-local=1.28=pl526_1
+      - perl-uri=1.74=pl526_0
+      - perl-www-robotrules=6.02=pl526_3
+      - perl-xsloader=0.24=pl526_0
+      - perl=5.26.2=h470a237_0
+      - zlib=1.2.11=h470a237_3
+
+
