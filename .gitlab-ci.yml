@@ -78,34 +78,6 @@ deploy-tusker:
     - scripts/deploy_all_packages.sh
   retry: 2
 
-deploy-sandhills:
-  stage: deploy
-  environment:
-    name: sandhills_production
-    url: https://sandhills.unl.edu
-  image: unlhcc/crane-build-el6
-  variables:
-    ANACONDA_PREFIX: "/util/opt/anaconda/4.3/envs/anaconda-project-0.8.2"
-    DEPLOY_HOST: "SANDHILLS"
-  only:
-    - master
-  tags:
-    - sandhills
-  before_script:
-    - eval $(ssh-agent -s) > /dev/null
-    - mkdir -p ~/.ssh
-    - chown 700 ~/.ssh
-    - echo $SSH_KNOWN_HOSTS > ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
-    - ssh-add <(echo "$SSH_PRIVATE_KEY" | base64 --decode)
-  script:
-    - cd $PACKAGE_DEPLOY_ROOT
-    - git checkout master
-    - git fetch
-    - git checkout $CI_COMMIT_SHA
-    - scripts/deploy_all_packages.sh
-  retry: 2
-
 sync-to-github:
   stage: sync-to-github
   tags:
