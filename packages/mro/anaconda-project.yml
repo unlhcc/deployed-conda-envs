@@ -37,6 +37,7 @@ env_specs:
     - mro=3.5.1
     - mro-tidyverse=1.2.1
     - gcc=4.8.5
+    - binutils=2.31
     channels: []
 commands: {}
 packages: []
