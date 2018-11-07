@@ -58,3 +58,39 @@ env_specs:
       - zlib=1.2.11=h470a237_3
 
 
+  mlpack-2.2.5:
+    locked: true
+    env_spec_hash: 83df91a1ee0073100cd80385fc05209cf2481fd9
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - armadillo=9.100.5=blas_openblash45cfd7e_0
+      - arpack=3.5.0=blas_openblas_202
+      - blas=1.1=openblas
+      - boost-cpp=1.67.0=h3a22d5f_0
+      - boost=1.67.0=py36h3e44d54_0
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.10.15=ha4d7672_0
+      - certifi=2018.10.15=py36_1000
+      - icu=58.2=hfc679d8_0
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran=3.0.0=1
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mlpack=2.2.5=blas_openblash708e8e3_0
+      - ncurses=6.1=hfc679d8_1
+      - numpy=1.15.2=py36_blas_openblashd3ea46f_1
+      - openblas=0.2.20=8
+      - openssl=1.0.2p=h470a237_1
+      - pip=18.1=py36_1000
+      - python=3.6.6=h5001a0f_3
+      - readline=7.0=haf1bffa_1
+      - setuptools=40.5.0=py36_0
+      - sqlite=3.25.3=hb1c47c0_0
+      - superlu=5.2.1=blas_openblash49db2b8_203
+      - tk=8.6.8=ha92aebf_0
+      - wheel=0.32.2=py36_0
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_3
