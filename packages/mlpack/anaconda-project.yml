@@ -28,3 +28,7 @@ env_specs:
     packages:
     - mlpack=3.0.3
     channels: []
+  mlpack-2.2.5:
+    packages:
+    - mlpack=2.2.5
+    channels: []
