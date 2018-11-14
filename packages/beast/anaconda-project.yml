@@ -28,3 +28,7 @@ env_specs:
     packages:
     - beast=1.8.4
     channels: []
+  beast-1.10.4:
+    packages:
+    - beast=1.10.4
+    channels: []
