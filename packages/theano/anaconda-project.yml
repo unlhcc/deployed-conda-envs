@@ -94,3 +94,39 @@ env_specs:
     - cudnn=5.1.10=cuda8.0_0
     - python=3.5
     channels: []
+  theano-1.0.3-py27:
+    packages:
+    - theano=1.0.3
+    - matplotlib
+    - scikit-plot
+    - scikit-learn
+    - mkl-service
+    - python=2.7
+    - cudatoolkit=8.0
+    - cudnn=7.0.5
+    - numpy=1.14
+    channels: []
+  theano-1.0.3-py35:
+    packages:
+    - theano=1.0.3
+    - matplotlib
+    - scikit-plot
+    - scikit-learn
+    - mkl-service
+    - python=3.5
+    - cudatoolkit=8.0
+    - cudnn=7.0.5
+    - numpy=1.14
+    channels: []
+  theano-1.0.3-py36:
+    packages:
+    - theano=1.0.3
+    - matplotlib
+    - scikit-plot
+    - scikit-learn
+    - mkl-service
+    - python=3.6
+    - cudatoolkit=8.0
+    - cudnn=7.0.5
+    - numpy=1.14
+    channels: []
