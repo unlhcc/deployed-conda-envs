@@ -50,3 +50,18 @@ env_specs:
     - cuda_driver=375.66
     - cudnn=7.0.5
     channels: []
+  pytorch-0.4.1-py27:
+    packages:
+    - pytorch=0.4.1
+    - python=2.7
+    channels: []
+  pytorch-0.4.1-py35:
+    packages:
+    - pytorch=0.4.1
+    - python=3.5
+    channels: []
+  pytorch-0.4.1-py36:
+    packages:
+    - pytorch=0.4.1
+    - python=3.6
+    channels: []
