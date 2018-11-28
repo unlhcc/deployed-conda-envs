@@ -23,44 +23,49 @@ env_specs:
     - linux-64
     packages:
       linux-64:
+      - atk=2.25.90=h05f3006_1
       - backports.functools_lru_cache=1.5=py_1
       - backports=1.0=py_2
       - backports_abc=0.5=py_1
       - blas=1.1=openblas
       - bzip2=1.0.6=h470a237_2
-      - ca-certificates=2018.8.24=ha4d7672_0
-      - caffe2-gpu=2018.08.31=py27hb627594_1
-      - cairo=1.14.12=h8948797_3
-      - certifi=2018.8.24=py27_1
+      - ca-certificates=2018.10.15=ha4d7672_0
+      - caffe2-gpu=2018.08.31=py27h6582da1_2
+      - cairo=1.14.12=h276e583_5
+      - certifi=2018.10.15=py27_1000
       - cub=1.7.2=0
-      - cuda_driver=375.66=0
       - cudatoolkit=8.0=0
       - cudnn=7.0.5=cuda8.0_0
       - cycler=0.10.0=py_1
-      - cython=0.28.5=py27hfc679d8_0
-      - dbus=1.13.2=h714fa37_1
+      - cython=0.29.1=py27hfc679d8_0
+      - dbus=1.13.0=h3a4f0e9_0
       - decorator=4.3.0=py_0
       - detectron=2018.09.11=py27h47a8a8e_0
-      - eigen=3.3.5=hfc679d8_1
-      - enum34=1.1.6=py27_1
+      - eigen=3.3.5=h2d50403_1
+      - enum34=1.1.6=py27_1001
       - expat=2.2.5=hfc679d8_2
-      - ffmpeg=3.2.4=hf82bc7d_4
+      - ffmpeg=4.0.2=ha0c5888_2
       - fontconfig=2.13.1=h65d0f4c_0
       - freetype=2.9.1=h6debe1e_4
       - funcsigs=1.0.2=py_2
-      - functools32=3.2.3.2=py27_2
-      - future=0.16.0=py27_2
-      - futures=3.2.0=py27_0
+      - functools32=3.2.3.2=py_3
+      - future=0.17.0=py27_1000
+      - futures=3.2.0=py27_1000
+      - gdk-pixbuf=2.36.12=h4ab6910_1
       - gettext=0.19.8.1=h5e8e0c9_1
-      - gflags=2.2.1=hfc679d8_1
+      - gflags=2.2.2=hfc679d8_0
       - giflib=5.1.4=h470a237_1
-      - glib=2.56.2=h464dc38_0
-      - glog=0.3.5=hfc679d8_0
+      - glib=2.56.2=h464dc38_1
+      - glog=0.3.5=hfc679d8_1
+      - gmp=6.1.2=hfc679d8_0
+      - gnutls=3.5.19=h2a4e5f8_1
+      - gobject-introspection=1.56.1=py27haaf12d0_1
       - graphite2=1.3.12=hfc679d8_1
-      - gst-plugins-base=1.14.0=hbbd80ab_1
-      - gstreamer=1.14.0=hb453b48_1
-      - harfbuzz=1.7.6=hec2c2bc_3
-      - hdf5=1.10.1=2
+      - gst-plugins-base=1.12.5=hde13a9d_0
+      - gstreamer=1.12.5=h5856ed1_0
+      - gtk2=2.24.31=hde048ef_0
+      - harfbuzz=1.9.0=h04dbb29_1
+      - hdf5=1.10.3=hc401514_2
       - icu=58.2=hfc679d8_0
       - jasper=1.900.1=hff1ad4c_5
       - jpeg=9c=h470a237_1
@@ -71,53 +76,66 @@ env_specs:
       - libgcc=7.2.0=h69d50b8_2
       - libgfortran=3.0.0=1
       - libiconv=1.15=h470a237_3
-      - libpng=1.6.34=ha92aebf_2
+      - libpng=1.6.35=ha92aebf_2
       - libstdcxx-ng=7.2.0=hdf63c60_3
       - libtiff=4.0.9=he6b73bb_2
       - libuuid=2.32.1=h470a237_2
       - libwebp=0.5.2=7
       - libxcb=1.13=h470a237_2
-      - libxml2=2.9.8=h422b904_4
+      - libxml2=2.9.8=h422b904_5
       - lmdb=0.9.22=h470a237_0
       - matplotlib=2.2.3=py27h8e2386c_0
-      - mock=2.0.0=py27_0
+      - mock=2.0.0=py27_1000
       - ncurses=6.1=hfc679d8_1
-      - networkx=2.1=py_1
-      - numpy=1.14.5=py27_blas_openblashd3ea46f_202
+      - nettle=3.3=0
+      - networkx=2.2=py_1
+      - numpy=1.14.6=py27_blas_openblashd3ea46f_200
       - openblas=0.2.20=8
-      - opencv=3.4.1=py27_blas_openblas_200
-      - openssl=1.0.2p=h470a237_0
+      - opencv=3.4.3=py27_blas_openblash1006a3a_201
+      - openh264=1.8.0=hd28b015_0
+      - openssl=1.0.2p=h470a237_1
+      - pango=1.40.14=he752989_2
       - pbr=4.2.0=py_0
-      - pcre=8.42=h439df22_0
-      - pip=18.0=py27_1
+      - pcre=8.41=hfc679d8_3
+      - pip=18.1=py27_1000
       - pixman=0.34.0=h470a237_3
       - protobuf=3.4.1=py27_0
       - pthread-stubs=0.4=h470a237_1
       - pybind11=2.2.4=py27h2d50403_1
       - pycocotools=2.0.0=py27h470a237_0
-      - pyparsing=2.2.0=py_1
+      - pyparsing=2.3.0=py_0
       - pyqt=5.6.0=py27h8210e8a_7
-      - python-dateutil=2.7.3=py_0
-      - python=2.7.15=h9fef7bc_0
-      - pytz=2018.5=py_0
+      - python-dateutil=2.7.5=py_0
+      - python=2.7.15=h33da82c_5
+      - pytz=2018.7=py_0
       - pyyaml=3.13=py27h470a237_1
-      - qt=5.6.3=h39df351_0
+      - qt=5.6.2=h679f5bc_9
       - readline=7.0=haf1bffa_1
       - scipy=1.1.0=py27_blas_openblash7943236_201
-      - setuptools=40.2.0=py27_0
-      - singledispatch=3.4.0.3=py27_0
+      - setuptools=40.6.2=py27_0
+      - singledispatch=3.4.0.3=py27_1000
       - sip=4.18.1=py27hfc679d8_0
-      - six=1.11.0=py27_1
+      - six=1.11.0=py27_1001
       - snappy=1.1.7=hfc679d8_2
-      - sqlite=3.24.0=h2f33b56_1
-      - subprocess32=3.5.2=py27_0
-      - tk=8.6.8=0
-      - tornado=5.1=py27h470a237_1
-      - typing=3.5.2.2=py27_0
-      - wheel=0.31.1=py27_1
-      - x264=1!152.20180717=h470a237_0
+      - sqlite=3.25.3=hb1c47c0_0
+      - subprocess32=3.5.3=py27h470a237_0
+      - tk=8.6.9=ha92aebf_0
+      - tornado=5.1.1=py27h470a237_0
+      - typing=3.6.6=py27_1000
+      - wheel=0.32.3=py27_0
+      - x264=1!152.20180717=h470a237_1
+      - xorg-kbproto=1.0.7=h470a237_2
+      - xorg-libice=1.0.9=h470a237_4
+      - xorg-libsm=1.2.3=h8c8a85c_0
+      - xorg-libx11=1.6.6=h470a237_0
       - xorg-libxau=1.0.8=h470a237_6
       - xorg-libxdmcp=1.1.2=h470a237_7
+      - xorg-libxext=1.3.3=h470a237_4
+      - xorg-libxrender=0.9.10=h470a237_2
+      - xorg-libxt=1.1.5=h470a237_2
+      - xorg-renderproto=0.11.1=h470a237_2
+      - xorg-xextproto=7.3.0=h470a237_2
+      - xorg-xproto=7.0.31=h470a237_7
       - xz=5.2.4=h470a237_1
       - yaml=0.1.7=h470a237_1
       - zlib=1.2.11=h470a237_3

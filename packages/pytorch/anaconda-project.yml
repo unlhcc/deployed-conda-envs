@@ -26,27 +26,18 @@ description: PyTorch is an optimized tensor library for deep learning using GPUs
 platforms:
 - linux-64
 env_specs:
-  pytorch-0.4.0-py27:
+  pytorch-0.4.1-py27:
     packages:
-    - pytorch=0.4.0
+    - pytorch=0.4.1
     - python=2.7
-    - cudatoolkit=8.0
-    - cuda_driver=375.66
-    - cudnn=7.0.5
     channels: []
-  pytorch-0.4.0-py35:
+  pytorch-0.4.1-py35:
     packages:
-    - pytorch=0.4.0
+    - pytorch=0.4.1
     - python=3.5
-    - cudatoolkit=8.0
-    - cuda_driver=375.66
-    - cudnn=7.0.5
     channels: []
-  pytorch-0.4.0-py36:
+  pytorch-0.4.1-py36:
     packages:
-    - pytorch=0.4.0
+    - pytorch=0.4.1
     - python=3.6
-    - cudatoolkit=8.0
-    - cuda_driver=375.66
-    - cudnn=7.0.5
     channels: []
