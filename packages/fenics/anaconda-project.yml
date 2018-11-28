@@ -31,4 +31,5 @@ env_specs:
     - python=3.6
     - sympy=1.1
     - mshr
+    - matplotlib
     channels: []
