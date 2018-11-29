@@ -135,3 +135,23 @@ env_specs:
     - matplotlib
     channels:
     - defaults
+  tensorflow-1.12.0-py27:
+    packages:
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - tensorflow=1.12.0
+    - python=2.7
+    channels: []
+  tensorflow-1.12.0-py36:
+    packages:
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - tensorflow=1.12.0
+    - python=3.6
+    channels: []
