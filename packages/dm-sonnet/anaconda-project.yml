@@ -58,39 +58,6 @@ env_specs:
     - scikit-plot
     - tqdm
     channels: []
-  dm-sonnet-1.13-py27:
-    packages:
-    - dm-sonnet=1.13
-    - python=2.7
-    - tensorflow=1.3.1
-    - scipy=0.19.1
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - numpy=1.13.3
-    channels: []
-  dm-sonnet-1.13-py35:
-    packages:
-    - dm-sonnet=1.13
-    - python=3.5
-    - tensorflow=1.3.1
-    - scipy=0.19.1
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - numpy=1.13.3
-    channels: []
-  dm-sonnet-1.13-py36:
-    packages:
-    - dm-sonnet=1.13
-    - python=3.6
-    - tensorflow=1.3.1
-    - scipy=0.19.1
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - numpy=1.13.3
-    channels: []
   dm-sonnet-1.23-py27:
     packages:
     - dm-sonnet=1.23
@@ -117,6 +84,28 @@ env_specs:
     packages:
     - dm-sonnet=1.23
     - tensorflow=1.7.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - tqdm
+    - python=3.6
+    channels: []
+  dm-sonnet-1.27-py27:
+    packages:
+    - dm-sonnet=1.27
+    - tensorflow=1.12.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - tqdm
+    - python=2.7
+    channels: []
+  dm-sonnet-1.27-py36:
+    packages:
+    - dm-sonnet=1.27
+    - tensorflow=1.12.0
     - scipy
     - matplotlib
     - scikit-learn
