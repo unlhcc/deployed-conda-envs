@@ -91,3 +91,25 @@ env_specs:
     - scikit-plot
     - tqdm
     channels: []
+  dm-sonnet-gpu-1.27-py27:
+    packages:
+    - dm-sonnet-gpu=1.27
+    - tensorflow-gpu=1.12.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - tqdm
+    - python=2.7
+    channels: []
+  dm-sonnet-gpu-1.27-py36:
+    packages:
+    - dm-sonnet-gpu=1.27
+    - tensorflow-gpu=1.12.0
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - tqdm
+    - python=3.6
+    channels: []
