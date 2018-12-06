@@ -1,0 +1,32 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  vsearch-2.10.0:
+    locked: true
+    env_spec_hash: b5f4541669352982af00c17f0679feb6b2397c6c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=h470a237_2
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - vsearch=2.10.0=h96824bc_0
+      - zlib=1.2.11=h470a237_3
+
+
