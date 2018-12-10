@@ -686,7 +686,7 @@ env_specs:
       - zlib=1.2.11=h7b6447c_3
   tensorflow-1.12.0-py27:
     locked: true
-    env_spec_hash: 001de722404fd3de1e61a25c13d038ac0b8488c6
+    env_spec_hash: f729855d7fb7c2747779e6d30705a86c0a3491a1
     platforms:
     - linux-64
     packages:
@@ -695,15 +695,17 @@ env_specs:
       - absl-py=0.6.1=py27_1000
       - astor=0.7.1=py_0
       - backports.functools_lru_cache=1.5=py_1
+      - backports.shutil_get_terminal_size=1.0.0=py_3
       - backports.weakref=1.0.post1=py27_1000
       - backports=1.0=py_2
       - backports_abc=0.5=py_1
       - blas=1.1=openblas
       - c-ares=1.15.0=h470a237_1
-      - ca-certificates=2018.10.15=ha4d7672_0
-      - certifi=2018.10.15=py27_1000
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py27_1000
       - cycler=0.10.0=py_1
       - dbus=1.13.0=h3a4f0e9_0
+      - decorator=4.3.0=py_0
       - enum34=1.1.6=py27_1001
       - expat=2.2.5=hfc679d8_2
       - fontconfig=2.13.1=h65d0f4c_0
@@ -717,11 +719,16 @@ env_specs:
       - grpcio=1.16.0=py27hd60e7a3_0
       - gst-plugins-base=1.12.5=hde13a9d_0
       - gstreamer=1.12.5=h5856ed1_0
-      - h5py=2.8.0=py27h097b052_4
-      - hdf5=1.10.3=hc401514_2
+      - h5py=2.8.0=py27he5c79e1_5
+      - hdf5=1.10.4=nompi_h5598ddc_1003
       - icu=58.2=hfc679d8_0
+      - ipykernel=4.10.0=py27_1
+      - ipython=5.8.0=py27_0
+      - ipython_genutils=0.2.0=py_1
       - joblib=0.13.0=py_0
       - jpeg=9c=h470a237_1
+      - jupyter_client=5.2.4=py_0
+      - jupyter_core=4.4.0=py_0
       - keras-applications=1.0.6=py27_0
       - keras-preprocessing=1.0.5=py_0
       - keras=2.1.6=py27_0
@@ -731,8 +738,9 @@ env_specs:
       - libgfortran=3.0.0=1
       - libgpuarray=0.7.6=h470a237_3
       - libiconv=1.15=h470a237_3
-      - libpng=1.6.35=ha92aebf_2
+      - libpng=1.6.36=ha92aebf_0
       - libprotobuf=3.6.1=hd28b015_0
+      - libsodium=1.0.16=h470a237_1
       - libstdcxx-ng=7.2.0=hdf63c60_3
       - libuuid=2.32.1=h470a237_2
       - libxcb=1.13=h470a237_2
@@ -748,28 +756,37 @@ env_specs:
       - openblas=0.3.3=ha44fe06_1
       - openssl=1.0.2p=h470a237_1
       - pandas=0.23.4=py27hf8a1672_0
+      - pathlib2=2.3.3=py27_1000
       - pbr=4.2.0=py_0
       - pcre=8.41=hfc679d8_3
+      - pexpect=4.6.0=py27_1000
+      - pickleshare=0.7.5=py27_1000
       - pip=18.1=py27_1000
+      - prompt_toolkit=1.0.15=py_1
       - protobuf=3.6.1=py27hfc679d8_1
       - pthread-stubs=0.4=h470a237_1
+      - ptyprocess=0.6.0=py27_1000
+      - pygments=2.3.0=py_0
       - pygpu=0.7.6=py27h7eb728f_0
       - pyparsing=2.3.0=py_0
       - pyqt=5.6.0=py27h8210e8a_7
       - python-dateutil=2.7.5=py_0
-      - python=2.7.15=h33da82c_5
+      - python=2.7.15=h33da82c_6
       - pytz=2018.7=py_0
       - pyyaml=3.13=py27h470a237_1
+      - pyzmq=17.1.2=py27hae99301_1
       - qt=5.6.2=hf70d934_9
       - readline=7.0=haf1bffa_1
+      - scandir=1.9.0=py27h470a237_0
       - scikit-learn=0.20.1=py27_blas_openblash00c3548_200
       - scikit-plot=0.3.7=py_0
       - scipy=1.1.0=py27_blas_openblashb06ca3d_202
       - setuptools=40.6.2=py27_0
+      - simplegeneric=0.8.1=py_1
       - singledispatch=3.4.0.3=py27_1000
       - sip=4.18.1=py27hfc679d8_0
-      - six=1.11.0=py27_1001
-      - sqlite=3.25.3=hb1c47c0_0
+      - six=1.12.0=py27_1000
+      - sqlite=3.26.0=hb1c47c0_0
       - subprocess32=3.5.3=py27h470a237_0
       - tensorboard=1.12.0=py27_1000
       - tensorflow-base=1.12.0=mkl_py27h3c3e929_0
@@ -782,17 +799,20 @@ env_specs:
       - toolchain_cxx_linux-64=2.3.0=0
       - tornado=5.1.1=py27h470a237_0
       - traceback2=1.4.0=py27_0
+      - traitlets=4.3.2=py27_1000
       - unittest2=1.1.0=py_0
+      - wcwidth=0.1.7=py_1
       - werkzeug=0.14.1=py_0
       - wheel=0.32.3=py27_0
       - xorg-libxau=1.0.8=h470a237_6
       - xorg-libxdmcp=1.1.2=h470a237_7
       - xz=5.2.4=h470a237_1
       - yaml=0.1.7=h470a237_1
+      - zeromq=4.2.5=hfc679d8_6
       - zlib=1.2.11=h470a237_3
   tensorflow-1.12.0-py36:
     locked: true
-    env_spec_hash: 4f53c040d7054b0d1cbf7614802dfb8e1280a44e
+    env_spec_hash: f4d2a2269ba37dbe3f7dd150ea3532e15c78e346
     platforms:
     - linux-64
     packages:
@@ -800,12 +820,14 @@ env_specs:
       - _tflow_select=2.3.0=mkl
       - absl-py=0.6.1=py36_1000
       - astor=0.7.1=py_0
+      - backcall=0.1.0=py_0
       - blas=1.1=openblas
       - c-ares=1.15.0=h470a237_1
-      - ca-certificates=2018.10.15=ha4d7672_0
-      - certifi=2018.10.15=py36_1000
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py36_1000
       - cycler=0.10.0=py_1
       - dbus=1.13.0=h3a4f0e9_0
+      - decorator=4.3.0=py_0
       - expat=2.2.5=hfc679d8_2
       - fontconfig=2.13.1=h65d0f4c_0
       - freetype=2.9.1=h6debe1e_4
@@ -815,11 +837,17 @@ env_specs:
       - grpcio=1.16.0=py36hd60e7a3_0
       - gst-plugins-base=1.12.5=hde13a9d_0
       - gstreamer=1.12.5=h5856ed1_0
-      - h5py=2.8.0=py36h097b052_4
-      - hdf5=1.10.3=hc401514_2
+      - h5py=2.8.0=py36he5c79e1_5
+      - hdf5=1.10.4=nompi_h5598ddc_1003
       - icu=58.2=hfc679d8_0
+      - ipykernel=5.1.0=py36h24bf2e0_1001
+      - ipython=7.2.0=py36h24bf2e0_1000
+      - ipython_genutils=0.2.0=py_1
+      - jedi=0.13.1=py36_1000
       - joblib=0.13.0=py_0
       - jpeg=9c=h470a237_1
+      - jupyter_client=5.2.4=py_0
+      - jupyter_core=4.4.0=py_0
       - keras-applications=1.0.6=py36_0
       - keras-preprocessing=1.0.5=py_0
       - keras=2.1.6=py36_0
@@ -829,8 +857,9 @@ env_specs:
       - libgfortran=3.0.0=1
       - libgpuarray=0.7.6=h470a237_3
       - libiconv=1.15=h470a237_3
-      - libpng=1.6.35=ha92aebf_2
+      - libpng=1.6.36=ha92aebf_0
       - libprotobuf=3.6.1=hd28b015_0
+      - libsodium=1.0.16=h470a237_1
       - libstdcxx-ng=7.2.0=hdf63c60_3
       - libuuid=2.32.1=h470a237_2
       - libxcb=1.13=h470a237_2
@@ -845,10 +874,16 @@ env_specs:
       - openblas=0.3.3=ha44fe06_1
       - openssl=1.0.2p=h470a237_1
       - pandas=0.23.4=py36hf8a1672_0
+      - parso=0.3.1=py_0
       - pcre=8.41=hfc679d8_3
+      - pexpect=4.6.0=py36_1000
+      - pickleshare=0.7.5=py36_1000
       - pip=18.1=py36_1000
+      - prompt_toolkit=2.0.7=py_0
       - protobuf=3.6.1=py36hfc679d8_1
       - pthread-stubs=0.4=h470a237_1
+      - ptyprocess=0.6.0=py36_1000
+      - pygments=2.3.0=py_0
       - pygpu=0.7.6=py36h7eb728f_0
       - pyparsing=2.3.0=py_0
       - pyqt=5.6.0=py36h8210e8a_7
@@ -856,6 +891,7 @@ env_specs:
       - python=3.6.7=h5001a0f_1
       - pytz=2018.7=py_0
       - pyyaml=3.13=py36h470a237_1
+      - pyzmq=17.1.2=py36hae99301_1
       - qt=5.6.2=hf70d934_9
       - readline=7.0=haf1bffa_1
       - scikit-learn=0.20.1=py36_blas_openblash00c3548_200
@@ -863,8 +899,8 @@ env_specs:
       - scipy=1.1.0=py36_blas_openblashb06ca3d_202
       - setuptools=40.6.2=py36_0
       - sip=4.18.1=py36hfc679d8_0
-      - six=1.11.0=py36_1001
-      - sqlite=3.25.3=hb1c47c0_0
+      - six=1.12.0=py36_1000
+      - sqlite=3.26.0=hb1c47c0_0
       - tensorboard=1.12.0=py36_1000
       - tensorflow-base=1.12.0=mkl_py36h3c3e929_0
       - tensorflow=1.12.0=mkl_py36h69b6ba0_0
@@ -875,10 +911,13 @@ env_specs:
       - toolchain_c_linux-64=2.3.0=0
       - toolchain_cxx_linux-64=2.3.0=0
       - tornado=5.1.1=py36h470a237_0
+      - traitlets=4.3.2=py36_1000
+      - wcwidth=0.1.7=py_1
       - werkzeug=0.14.1=py_0
       - wheel=0.32.3=py36_0
       - xorg-libxau=1.0.8=h470a237_6
       - xorg-libxdmcp=1.1.2=h470a237_7
       - xz=5.2.4=h470a237_1
       - yaml=0.1.7=h470a237_1
+      - zeromq=4.2.5=hfc679d8_6
       - zlib=1.2.11=h470a237_3
