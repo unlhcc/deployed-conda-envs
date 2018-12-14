@@ -18,38 +18,49 @@ locking_enabled: true
 env_specs:
   julia-1.0.0:
     locked: true
-    env_spec_hash: 72a11944dbbb96ed7d89f19af39a22db667e29b5
+    env_spec_hash: 3ebfc956714dc5027a63faef17ecb952ec22c107
     platforms:
     - linux-64
     packages:
       linux-64:
       - arpack=3.5.0=blas_openblas_202
       - blas=1.1=openblas
-      - ca-certificates=2018.8.24=ha4d7672_0
-      - curl=7.61.1=h74213dd_2
-      - fftw=3.3.8=h470a237_0
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py36_1000
+      - curl=7.63.0=h74213dd_0
+      - fftw=3.3.8=h470a237_1
       - gmp=6.1.2=hfc679d8_0
+      - icu=58.2=hfc679d8_0
       - julia=1.0.0=blas_openblashfe40789_0
-      - krb5=1.16.1=hbb41f41_0
-      - libcurl=7.61.1=hbdb9355_2
+      - krb5=1.16.2=hbb41f41_0
+      - libcurl=7.63.0=hbdb9355_0
       - libedit=3.1.20170329=haf1bffa_1
+      - libffi=3.2.1=hfc679d8_5
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgcc=7.2.0=h69d50b8_2
       - libgfortran=3.0.0=1
-      - libgit2=0.27.5=h5ee2e84_0
-      - libssh2=1.8.0=h5b517e9_2
+      - libgit2=0.27.7=h5ee2e84_0
+      - libiconv=1.15=h470a237_3
+      - libssh2=1.8.0=h5b517e9_3
       - libstdcxx-ng=7.2.0=hdf63c60_3
-      - metis=5.1.0=h470a237_3
+      - libxml2=2.9.8=h422b904_5
+      - llvm-dynlib=7.0.0=py36hc58f360_0
+      - metis=5.1.0=hfc679d8_3
       - mpfr=4.0.1=h16a7912_0
-      - ncurses=6.1=hfc679d8_1
+      - ncurses=6.1=hfc679d8_2
       - openblas=0.2.20=8
-      - openlibm=0.5.4=0
+      - openlibm=0.5.4=h470a237_0
       - openspecfun=0.5.3=h26a2512_0
-      - openssl=1.0.2p=h470a237_0
+      - openssl=1.0.2p=h470a237_1
       - pcre2=10.23=2
+      - pip=18.1=py36_1000
+      - python=3.6.7=h5001a0f_1
+      - readline=7.0=haf1bffa_1
+      - setuptools=40.6.3=py36_0
+      - sqlite=3.26.0=hb1c47c0_0
       - suitesparse=4.5.6=blas_openblash55dcaef_201
-      - tbb=2019.1=h2d50403_0
-      - tk=8.6.8=ha92aebf_0
+      - tbb=2019.3=h2d50403_0
+      - tk=8.6.9=ha92aebf_0
+      - wheel=0.32.3=py36_0
+      - xz=5.2.4=h470a237_1
       - zlib=1.2.11=h470a237_3
-
-
