@@ -25,19 +25,23 @@ platforms:
 - linux-64
 env_specs:
   mro-3.4.4:
-    packages: [mro=3.4.4, gcc=4.8.5]
+    packages: [mro=3.4.4, gcc=4.8.5, udunits2=2.2.27.6, gdal=2.3.2]
     channels: []
   mro-3.5.0:
     packages:
     - mro=3.5.0
     - gcc=4.8.5
+    - udunits2=2.2.27.6
+    - gdal=2.3.2
     channels: []
   mro-3.5.1:
     packages:
     - mro=3.5.1
-    - mro-tidyverse=1.2.1
     - gcc=4.8.5
     - binutils=2.31
+    - udunits2=2.2.27.6
+    - gdal=2.3.2
+    - mro-tidyverse=1.2.1
     channels: []
 commands: {}
 packages: []
