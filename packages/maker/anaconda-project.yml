@@ -13,11 +13,12 @@ name: maker
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: MAKER Genome Annotation Pipeline for prokaryotic and small eukaryotic species.
+description: MAKER Genome Annotation Pipeline for prokaryotic and small eukaryotic
+  species.   
 
 
 #
-# In the platforms section, list platforms the project should work on
+# In the platforms section, list platforms the project should work on 
 # Examples: "linux-64", "osx-64", "win-64"
 # Use `anaconda-project add-platforms` to add platforms.
 #
@@ -28,3 +29,8 @@ env_specs:
     packages:
     - maker=2.31.9
     channels: []
+  maker-2.31.10:
+    channels: []
+    packages:
+    - maker=2.31.10
+    - perl=5.26

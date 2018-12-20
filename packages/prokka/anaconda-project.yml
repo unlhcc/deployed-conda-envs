@@ -11,7 +11,7 @@
 name: Prokka
 
 #
-# Set a one-sentence-or-so 'description' key with project details
+# Set a one-sentence-or-so 'description' key with project details 
 #
 description: Prokka is a software tool for the rapid annotation of prokaryotic genomes.
 
@@ -28,7 +28,8 @@ env_specs:
     packages:
     - prokka=1.12
     channels: []
-  prokka-1.13:
-    packages:
-    - prokka=1.13
+  prokka-1.13.4:
     channels: []
+    packages:
+    - prokka=1.13.4
+    - perl=5.26
