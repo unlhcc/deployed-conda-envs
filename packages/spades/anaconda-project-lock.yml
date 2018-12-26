@@ -109,3 +109,75 @@ env_specs:
       - wheel=0.31.1=py36_1
       - xz=5.2.4=h470a237_1
       - zlib=1.2.11=h470a237_3
+  spades-3.13.0-py27:
+    locked: true
+    env_spec_hash: 1ae3ece637212913fd698f368803c9a0f8757df0
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py27_1000
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=6.1=hfc679d8_2
+      - openssl=1.0.2p=h470a237_1
+      - pip=18.1=py27_1000
+      - python=2.7.15=h33da82c_6
+      - readline=7.0=haf1bffa_1
+      - setuptools=40.6.3=py27_0
+      - spades=3.13.0=0
+      - sqlite=3.26.0=hb1c47c0_0
+      - tk=8.6.9=ha92aebf_0
+      - wheel=0.32.3=py27_0
+      - zlib=1.2.11=h470a237_3
+  spades-3.13.0-py35:
+    locked: true
+    env_spec_hash: 269cd3a946dc9130fbe90d303b656ccd498657bd
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.8.24=py35_1001
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=6.1=hfc679d8_2
+      - openssl=1.0.2p=h470a237_1
+      - pip=18.0=py35_1001
+      - python=3.5.5=h5001a0f_2
+      - readline=7.0=haf1bffa_1
+      - setuptools=40.4.3=py35_0
+      - spades=3.13.0=0
+      - sqlite=3.26.0=hb1c47c0_0
+      - tk=8.6.9=ha92aebf_0
+      - wheel=0.32.0=py35_1000
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_3
+  spades-3.13.0-py36:
+    locked: true
+    env_spec_hash: 4c9929e812d45c438664de1894e7c6e8b540e438
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py36_1000
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=6.1=hfc679d8_2
+      - openssl=1.0.2p=h470a237_1
+      - pip=18.1=py36_1000
+      - python=3.6.7=h5001a0f_1
+      - readline=7.0=haf1bffa_1
+      - setuptools=40.6.3=py36_0
+      - spades=3.13.0=0
+      - sqlite=3.26.0=hb1c47c0_0
+      - tk=8.6.9=ha92aebf_0
+      - wheel=0.32.3=py36_0
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_3
