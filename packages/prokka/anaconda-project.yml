@@ -27,9 +27,12 @@ env_specs:
   prokka-1.12:
     packages:
     - prokka=1.12
+    - perl=5.22.0
     channels: []
   prokka-1.13.4:
     channels: []
     packages:
     - prokka=1.13.4
     - perl=5.26
+packages: []
+channels: []
