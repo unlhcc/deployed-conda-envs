@@ -329,7 +329,7 @@ env_specs:
       - zlib=1.2.11=h470a237_3
   prokka-1.12:
     locked: true
-    env_spec_hash: 262b3733ddc924a35ee9a2f3a70d2ba59e896da5
+    env_spec_hash: cfc07d2617fc6c9d3c9f93c40e0595f05dbd0006
     platforms:
     - linux-64
     packages:
@@ -356,24 +356,38 @@ env_specs:
       - openjdk=11.0.1=h470a237_14
       - openssl=1.0.2p=h470a237_1
       - parallel=20181022=0
-      - perl-app-cpanminus=1.7044=pl526_1
       - perl-bioperl=1.6.924=4
-      - perl-carp=1.38=pl526_1
-      - perl-constant=1.33=pl526_1
-      - perl-exporter=5.72=pl526_1
-      - perl-extutils-makemaker=7.34=pl526_3
-      - perl-file-path=2.15=pl526_0
-      - perl-file-temp=0.2304=pl526_2
-      - perl-parent=0.236=pl526_1
+      - perl-digest-hmac=1.03=pl5.22.0_1
+      - perl-encode-locale=1.05=pl5.22.0_4
+      - perl-file-listing=6.04=0
+      - perl-html-parser=3.72=pl5.22.0_1
+      - perl-html-tagset=3.20=pl5.22.0_1
+      - perl-http-cookies=6.01=0
+      - perl-http-daemon=6.01=0
+      - perl-http-date=6.02=pl5.22.0_1
+      - perl-http-message=6.11=0
+      - perl-http-negotiate=6.01=0
+      - perl-io-html=1.001=pl5.22.0_1
+      - perl-io-socket-ssl=2.024=0
+      - perl-libwww-perl=6.15=0
+      - perl-lwp-mediatypes=6.02=pl5.22.0_1
+      - perl-mime-base64=3.15=pl5.22.0_0
+      - perl-net-http=6.09=0
+      - perl-net-ssleay=1.84=pl5.22.0_0
+      - perl-ntlm=1.09=1
+      - perl-test-more=1.001002=pl5.22.0_0
       - perl-threaded=5.22.0=13
-      - perl-xml-namespacesupport=1.12=pl526_0
-      - perl-xml-parser=2.44_01=pl526h3a4f0e9_1
-      - perl-xml-sax-base=1.09=pl526_0
-      - perl-xml-sax-expat=0.51=pl526_2
-      - perl-xml-sax=1.00=pl526_0
-      - perl-xml-simple=2.25=pl526_0
-      - perl-yaml=1.27=pl526_0
-      - perl=5.26.2=h470a237_0
+      - perl-uri=1.71=pl5.22.0_1
+      - perl-www-robotrules=6.02=0
+      - perl-xml-namespacesupport=1.11=0
+      - perl-xml-parser=2.44=4
+      - perl-xml-sax-base=1.08=0
+      - perl-xml-sax-expat=0.51=0
+      - perl-xml-sax=0.99=0
+      - perl-xml-simple=2.22=0
+      - perl-xsloader=0.22=pl5.22.0_0
+      - perl-yaml=1.24=pl522_1
+      - perl=5.22.0.1=0
       - pip=18.0=py35_1001
       - prodigal=2.6.3=1
       - prokka=1.12=4
