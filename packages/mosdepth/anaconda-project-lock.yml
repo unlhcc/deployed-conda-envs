@@ -1,0 +1,43 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  mosdepth-0.2.4:
+    locked: true
+    env_spec_hash: fc63932f60a72aeb3ffaccf9b335cf89d59779fc
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - curl=7.63.0=h74213dd_0
+      - htslib=1.9=hc238db4_4
+      - krb5=1.16.2=hbb41f41_0
+      - libcurl=7.63.0=hbdb9355_0
+      - libdeflate=1.0=h470a237_0
+      - libedit=3.1.20170329=haf1bffa_1
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libssh2=1.8.0=h5b517e9_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mosdepth=0.2.4=he527e40_0
+      - ncurses=6.1=hfc679d8_2
+      - openssl=1.0.2p=h470a237_1
+      - pcre=8.41=hfc679d8_3
+      - tk=8.6.9=ha92aebf_0
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_3
