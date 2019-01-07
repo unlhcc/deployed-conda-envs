@@ -412,7 +412,7 @@ env_specs:
       - zlib=1.2.8=3
   python-3.6:
     locked: true
-    env_spec_hash: 8d82bdb06537c7a8b849b6f88f6739af136475e8
+    env_spec_hash: b3bb63762aa1cf121167eefe96c034dba81abf9a
     platforms:
     - linux-64
     packages:
@@ -429,6 +429,7 @@ env_specs:
       - backports=1.0=py36_0
       - beautifulsoup4=4.5.3=py36_0
       - bitarray=0.8.1=py36_0
+      - blas=1.0=mkl
       - blaze=0.10.1=py36_0
       - bokeh=0.12.4=py36_0
       - boto=2.45.0=py36_0
@@ -525,6 +526,7 @@ env_specs:
       - odo=0.5.0=py36_1
       - openpyxl=2.4.1=py36_0
       - openssl=1.0.2k=1
+      - pandas-datareader=0.7.0=py36_0
       - pandas=0.19.2=np111py36_1
       - partd=0.3.7=py36_0
       - path.py=10.0=py36_0
@@ -607,7 +609,7 @@ env_specs:
       - zlib=1.2.8=3
   python-2.7:
     locked: true
-    env_spec_hash: 0c58452b39344c60d8e64c9045f3a9778eeb6186
+    env_spec_hash: eb395c768fbaa27a377aad2320ebf026b3923ff4
     platforms:
     - linux-64
     packages:
@@ -626,6 +628,7 @@ env_specs:
       - backports_abc=0.5=py27_0
       - beautifulsoup4=4.5.3=py27_0
       - bitarray=0.8.1=py27_0
+      - blas=1.0=mkl
       - blaze=0.10.1=py27_0
       - bokeh=0.12.4=py27_0
       - boto=2.45.0=py27_0
@@ -730,6 +733,7 @@ env_specs:
       - odo=0.5.0=py27_1
       - openpyxl=2.4.1=py27_0
       - openssl=1.0.2k=1
+      - pandas-datareader=0.7.0=py27_0
       - pandas=0.19.2=np111py27_1
       - partd=0.3.7=py27_0
       - path.py=10.0=py27_0
@@ -814,11 +818,9 @@ env_specs:
       - yaml=0.1.6=0
       - zeromq=4.1.5=0
       - zlib=1.2.8=3
-
-
   python-3.7:
     locked: true
-    env_spec_hash: b5c315027562819433cc2b95cc782f4645e91366
+    env_spec_hash: 11c8643d7b082c1e9d18ec02fe16474c3f1c3764
     platforms:
     - linux-64
     packages:
@@ -951,7 +953,7 @@ env_specs:
       - mccabe=0.6.1=py37_1
       - mistune=0.8.3=py37h14c3975_1
       - mkl-service=1.1.2=py37h90e4bf4_5
-      - mkl=2019.0=118
+      - mkl=2018.0.3=1
       - mkl_fft=1.0.4=py37h4414c95_1
       - mkl_random=1.0.1=py37h4414c95_1
       - more-itertools=4.3.0=py37_0
@@ -977,6 +979,7 @@ env_specs:
       - openpyxl=2.5.6=py37_0
       - openssl=1.0.2p=h14c3975_0
       - packaging=17.1=py37_0
+      - pandas-datareader=0.7.0=py37_0
       - pandas=0.23.4=py37h04863e7_0
       - pandoc=1.19.2.1=hea2e7c5_1
       - pandocfilters=1.4.2=py37_1
