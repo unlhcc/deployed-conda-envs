@@ -29,18 +29,24 @@ env_specs:
     - python=2.7
     - anaconda=4.3.1
     - pandas-datareader=0.7.0
+    - opencv=3.1.0
+    - jasper=1.900.1
     channels:
     - defaults
   python-3.4:
     packages:
     - python=3.4
     - anaconda=4.3.1
+    - opencv=3.1.0
+    - jasper=1.900.1
     channels:
     - defaults
   python-3.5:
     packages:
     - python=3.5
     - anaconda=4.3.1
+    - opencv=3.1.0
+    - jasper=1.900.1
     channels:
     - defaults
   python-3.6:
@@ -48,6 +54,8 @@ env_specs:
     - python=3.6
     - anaconda=4.3.1
     - pandas-datareader=0.7.0
+    - opencv=3.1.0
+    - jasper=1.900.1
     channels:
     - defaults
   python-3.7:
@@ -55,5 +63,6 @@ env_specs:
     - python=3.7
     - anaconda=5.3.0
     - pandas-datareader=0.7.0
+    - opencv=3.4.2
     channels:
     - defaults
