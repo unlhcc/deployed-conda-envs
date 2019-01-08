@@ -186,3 +186,56 @@ env_specs:
       - wheel=0.31.1=py36_1
       - xz=5.2.4=h470a237_0
       - zlib=1.2.11=h470a237_3
+  trinity=2.8.4:
+    locked: true
+    env_spec_hash: c1f315e0567b79e4dc3f707564549883d28eef16
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - blas=1.0=mkl
+      - boost-cpp=1.64.0=1
+      - boost=1.64.0=py36_4
+      - bowtie2=2.3.4.3=py36h2d50403_0
+      - bowtie=1.2.2=py36h2d50403_1
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py36_1000
+      - curl=7.63.0=h74213dd_0
+      - icu=58.2=hfc679d8_0
+      - intel-openmp=2019.1=144
+      - jellyfish=2.2.10=h2d50403_0
+      - jemalloc=4.5.0=0
+      - krb5=1.16.2=hbb41f41_0
+      - libcurl=7.63.0=hbdb9355_0
+      - libdeflate=1.0=h470a237_0
+      - libedit=3.1.20170329=haf1bffa_1
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libssh2=1.8.0=h5b517e9_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mkl=2018.0.3=1
+      - mkl_fft=1.0.10=py36_0
+      - mkl_random=1.0.2=py36_0
+      - ncurses=6.1=hfc679d8_2
+      - numpy-base=1.15.0=py36h3dfced4_0
+      - numpy=1.15.0=py36h1b885b7_0
+      - openjdk=11.0.1=h470a237_14
+      - openssl=1.0.2p=h470a237_2
+      - perl=5.26.2=h470a237_0
+      - pip=18.1=py36_1000
+      - python=3.6.7=h5001a0f_1
+      - readline=7.0=haf1bffa_1
+      - salmon=0.10.1=1
+      - samtools=1.9=h8ee4bcc_1
+      - setuptools=40.6.3=py36_0
+      - sqlite=3.26.0=hb1c47c0_0
+      - tbb=2019.3=h2d50403_0
+      - tk=8.6.9=ha92aebf_0
+      - trimmomatic=0.38=1
+      - trinity=2.8.4=py36pl526h447964c_0
+      - wheel=0.32.3=py36_0
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_3
