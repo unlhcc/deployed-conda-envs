@@ -28,4 +28,5 @@ env_specs:
   faststructure-1.0:
     packages:
     - faststructure=1.0
+    - numpy=1.15.4
     channels: []
