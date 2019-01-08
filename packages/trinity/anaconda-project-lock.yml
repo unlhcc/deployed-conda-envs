@@ -23,87 +23,76 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - bowtie2=2.3.4.1=py36pl5.22.0_0
-      - bowtie=1.2.2=py36pl5.22.0_0
-      - bzip2=1.0.6=1
-      - ca-certificates=2018.4.16=0
-      - certifi=2018.4.16=py36_0
-      - collectl=4.0.4=pl5.22.0_3
-      - curl=7.59.0=1
-      - fastool=0.1.4=2
-      - jellyfish=2.2.6=0
-      - krb5=1.14.6=0
-      - libdeflate=0.8=0
+      - bowtie2=2.3.4.3=py36h2d50403_0
+      - bowtie=1.2.2=py36h2d50403_1
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py36_1000
+      - collectl=4.0.4=2
+      - curl=7.63.0=h74213dd_0
+      - fastool=0.1.4=ha92aebf_3
+      - jellyfish=2.2.10=h2d50403_0
+      - jemalloc=4.5.0=0
+      - krb5=1.16.3=hbb41f41_0
+      - libcurl=7.63.0=hbdb9355_0
+      - libdeflate=1.0=h470a237_0
+      - libedit=3.1.20170329=haf1bffa_1
+      - libffi=3.2.1=hfc679d8_5
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgcc=7.2.0=h69d50b8_2
-      - libssh2=1.8.0=2
+      - libssh2=1.8.0=h5b517e9_3
       - libstdcxx-ng=7.2.0=hdf63c60_3
-      - ncurses=5.9=10
-      - openjdk=8.0.121=1
-      - openssl=1.0.2o=0
+      - ncurses=6.1=hfc679d8_2
+      - openjdk=11.0.1=h470a237_14
+      - openssl=1.0.2p=h470a237_2
       - parafly=r2013_01_21=1
-      - perl-app-cpanminus=1.7043=pl5.22.0_0
-      - perl-module-build=0.4224=pl5.22.0_0
-      - perl=5.22.0.1=0
-      - pip=9.0.3=py36_0
-      - python=3.6.5=1
-      - readline=7.0=0
-      - samtools=1.8=3
-      - setuptools=39.1.0=py36_0
+      - perl-app-cpanminus=1.7044=pl526_1
+      - perl-carp=1.38=pl526_1
+      - perl-constant=1.33=pl526_1
+      - perl-cpan-meta-requirements=2.140=pl526_0
+      - perl-cpan-meta-yaml=0.018=pl526_0
+      - perl-cpan-meta=2.150010=pl526_0
+      - perl-data-dumper=2.173=pl526_0
+      - perl-encode=2.88=pl526_1
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-cbuilder=0.280230=pl526_1
+      - perl-extutils-makemaker=7.34=pl526_3
+      - perl-extutils-manifest=1.71=pl526_0
+      - perl-extutils-parsexs=3.35=pl526_0
+      - perl-file-path=2.15=pl526_0
+      - perl-file-temp=0.2304=pl526_2
+      - perl-getopt-long=2.50=pl526_1
+      - perl-ipc-cmd=1.02=pl526_0
+      - perl-json-pp=4.00=pl526_0
+      - perl-locale-maketext-simple=0.21=pl526_1
+      - perl-module-build=0.4224=pl526_3
+      - perl-module-corelist=5.20181218=pl526_0
+      - perl-module-load-conditional=0.68=pl526_2
+      - perl-module-load=0.32=pl526_1
+      - perl-module-metadata=1.000033=pl526_0
+      - perl-params-check=0.38=pl526_1
+      - perl-parent=0.236=pl526_1
+      - perl-perl-ostype=1.010=pl526_1
+      - perl-scalar-list-utils=1.45=pl526h470a237_3
+      - perl-text-abbrev=1.02=pl526_0
+      - perl-text-parsewords=3.30=pl526_0
+      - perl-threaded=5.22.0=13
+      - perl-version=0.9924=pl526_0
+      - perl=5.26.2=h470a237_0
+      - pip=18.1=py36_1000
+      - python=3.6.7=h5001a0f_1
+      - readline=7.0=haf1bffa_1
+      - samtools=1.9=h8ee4bcc_1
+      - setuptools=40.6.3=py36_0
       - slclust=02022010=2
-      - sqlite=3.20.1=2
-      - tbb=2018_20171205=0
-      - tk=8.6.7=0
-      - trimmomatic=0.36=5
+      - sqlite=3.26.0=hb1c47c0_0
+      - tbb=2019.3=h2d50403_0
+      - tk=8.6.9=ha92aebf_0
+      - trimmomatic=0.38=1
       - trinity=2.5.1=1
-      - wheel=0.31.0=py36_0
-      - xz=5.2.3=0
-      - zlib=1.2.11=0
-  trinity-2.4.0:
-    locked: true
-    env_spec_hash: 0e3f3a0c4ee9ea3d7f98b97a753e3a1d5ada3f79
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - bowtie2=2.3.4.1=py36pl5.22.0_0
-      - bowtie=1.2.2=py36pl5.22.0_0
-      - bzip2=1.0.6=1
-      - ca-certificates=2018.4.16=0
-      - certifi=2018.4.16=py36_0
-      - collectl=4.0.4=pl5.22.0_3
-      - curl=7.59.0=1
-      - fastool=0.1.4=2
-      - jellyfish=2.2.6=0
-      - krb5=1.14.6=0
-      - libdeflate=0.8=0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libgcc=7.2.0=h69d50b8_2
-      - libssh2=1.8.0=2
-      - libstdcxx-ng=7.2.0=hdf63c60_3
-      - ncurses=5.9=10
-      - openjdk=8.0.121=1
-      - openssl=1.0.2o=0
-      - parafly=r2013_01_21=1
-      - perl-app-cpanminus=1.7043=pl5.22.0_0
-      - perl-module-build=0.4224=pl5.22.0_0
-      - perl=5.22.0.1=0
-      - pip=9.0.3=py36_0
-      - python=3.6.5=1
-      - readline=7.0=0
-      - samtools=1.8=3
-      - setuptools=39.1.0=py36_0
-      - slclust=02022010=2
-      - sqlite=3.20.1=2
-      - tbb=2018_20171205=0
-      - tk=8.6.7=0
-      - trimmomatic=0.36=5
-      - trinity=2.4.0=5
-      - wheel=0.31.0=py36_0
-      - xz=5.2.3=0
-      - zlib=1.2.11=0
-
-
+      - wheel=0.32.3=py36_0
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_4
   trinity-2.6.6:
     locked: true
     env_spec_hash: 3f0ea960b86a4fb15e7d5d969caed4fc73ac9ba3
@@ -111,82 +100,89 @@ env_specs:
     - linux-64
     packages:
       linux-64:
+      - blas=1.0=mkl
       - boost-cpp=1.64.0=1
       - boost=1.64.0=py36_4
-      - bowtie2=2.3.4.1=py36h2d50403_1
+      - bowtie2=2.3.4.3=py36h2d50403_0
       - bowtie=1.2.2=py36h2d50403_1
       - bzip2=1.0.6=h470a237_2
-      - ca-certificates=2018.4.16=0
-      - certifi=2018.4.16=py36_0
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py36_1000
       - collectl=4.0.4=2
-      - curl=7.61.0=h93b3f91_1
+      - curl=7.63.0=h74213dd_0
       - fastool=0.1.4=ha92aebf_3
       - icu=58.2=hfc679d8_0
-      - intel-openmp=2018.0.3=0
+      - intel-openmp=2019.1=144
       - jellyfish=2.2.10=h2d50403_0
       - jemalloc=4.5.0=0
-      - krb5=1.14.6=0
-      - libffi=3.2.1=3
+      - krb5=1.16.3=hbb41f41_0
+      - libcurl=7.63.0=hbdb9355_0
+      - libdeflate=1.0=h470a237_0
+      - libedit=3.1.20170329=haf1bffa_1
+      - libffi=3.2.1=hfc679d8_5
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgcc=7.2.0=h69d50b8_2
       - libgfortran-ng=7.2.0=hdf63c60_3
-      - libssh2=1.8.0=h5b517e9_2
+      - libssh2=1.8.0=h5b517e9_3
       - libstdcxx-ng=7.2.0=hdf63c60_3
       - mkl=2018.0.3=1
-      - mkl_fft=1.0.5=py36_0
-      - mkl_random=1.0.1=py36_0
-      - ncurses=6.1=hfc679d8_1
-      - numpy=1.14.2=py36hdbf6ddf_1
-      - openjdk=8.0.121=1
-      - openssl=1.0.2o=h470a237_1
+      - mkl_fft=1.0.10=py36_0
+      - mkl_random=1.0.2=py36_0
+      - ncurses=6.1=hfc679d8_2
+      - numpy-base=1.15.0=py36h3dfced4_0
+      - numpy=1.15.0=py36h1b885b7_0
+      - openjdk=11.0.1=h470a237_14
+      - openssl=1.0.2p=h470a237_2
       - parafly=r2013_01_21=1
       - perl-app-cpanminus=1.7044=pl526_1
       - perl-carp=1.38=pl526_1
       - perl-constant=1.33=pl526_1
-      - perl-cpan-meta=2.120921=pl526_1
-      - perl-data-dumper=2.161=pl526_2
+      - perl-cpan-meta-requirements=2.140=pl526_0
+      - perl-cpan-meta-yaml=0.018=pl526_0
+      - perl-cpan-meta=2.150010=pl526_0
+      - perl-data-dumper=2.173=pl526_0
+      - perl-encode=2.88=pl526_1
       - perl-exporter=5.72=pl526_1
       - perl-extutils-cbuilder=0.280230=pl526_1
-      - perl-extutils-makemaker=7.34=pl526_0
-      - perl-extutils-manifest=1.70=pl526_2
+      - perl-extutils-makemaker=7.34=pl526_3
+      - perl-extutils-manifest=1.71=pl526_0
       - perl-extutils-parsexs=3.35=pl526_0
       - perl-file-path=2.15=pl526_0
       - perl-file-temp=0.2304=pl526_2
       - perl-getopt-long=2.50=pl526_1
       - perl-ipc-cmd=1.02=pl526_0
-      - perl-list-util=1.38=pl526_1
+      - perl-json-pp=4.00=pl526_0
       - perl-locale-maketext-simple=0.21=pl526_1
-      - perl-module-build=0.4224=pl526_2
-      - perl-module-corelist=5.20180120=pl526_1
+      - perl-module-build=0.4224=pl526_3
+      - perl-module-corelist=5.20181218=pl526_0
       - perl-module-load-conditional=0.68=pl526_2
       - perl-module-load=0.32=pl526_1
-      - perl-module-metadata=1.000019=pl526_1
+      - perl-module-metadata=1.000033=pl526_0
       - perl-params-check=0.38=pl526_1
       - perl-parent=0.236=pl526_1
       - perl-perl-ostype=1.010=pl526_1
       - perl-scalar-list-utils=1.45=pl526h470a237_3
-      - perl-test-more=1.001002=pl526_1
       - perl-text-abbrev=1.02=pl526_0
-      - perl-text-parsewords=3.29=pl526_3
+      - perl-text-parsewords=3.30=pl526_0
       - perl-threaded=5.22.0=13
       - perl-version=0.9924=pl526_0
       - perl=5.26.2=h470a237_0
-      - pip=18.0=py36_1
-      - python=3.6.6=h5001a0f_0
+      - pip=18.1=py36_1000
+      - python=3.6.7=h5001a0f_1
       - readline=7.0=haf1bffa_1
       - salmon=0.10.1=1
-      - samtools=1.7=1
-      - setuptools=40.0.0=py36_1
+      - samtools=1.9=h8ee4bcc_1
+      - setuptools=40.6.3=py36_0
       - slclust=02022010=2
-      - sqlite=3.24.0=h2f33b56_0
-      - tbb=2018_20171205=0
-      - tk=8.6.8=0
+      - sqlite=3.26.0=hb1c47c0_0
+      - tbb=2019.3=h2d50403_0
+      - tk=8.6.9=ha92aebf_0
       - trimmomatic=0.38=1
       - trinity=2.6.6=2
-      - wheel=0.31.1=py36_1
-      - xz=5.2.4=h470a237_0
-      - zlib=1.2.11=h470a237_3
-  trinity=2.8.4:
+      - wheel=0.32.3=py36_0
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_4
+  trinity-2.8.4:
     locked: true
     env_spec_hash: c1f315e0567b79e4dc3f707564549883d28eef16
     platforms:
@@ -206,7 +202,7 @@ env_specs:
       - intel-openmp=2019.1=144
       - jellyfish=2.2.10=h2d50403_0
       - jemalloc=4.5.0=0
-      - krb5=1.16.2=hbb41f41_0
+      - krb5=1.16.3=hbb41f41_0
       - libcurl=7.63.0=hbdb9355_0
       - libdeflate=1.0=h470a237_0
       - libedit=3.1.20170329=haf1bffa_1
@@ -238,4 +234,83 @@ env_specs:
       - trinity=2.8.4=py36pl526h447964c_0
       - wheel=0.32.3=py36_0
       - xz=5.2.4=h470a237_1
-      - zlib=1.2.11=h470a237_3
+      - zlib=1.2.11=h470a237_4
+  trinity-2.4.0:
+    locked: true
+    env_spec_hash: 0e3f3a0c4ee9ea3d7f98b97a753e3a1d5ada3f79
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bowtie2=2.3.4.3=py36h2d50403_0
+      - bowtie=1.2.2=py36h2d50403_1
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py36_1000
+      - collectl=4.0.4=2
+      - curl=7.63.0=h74213dd_0
+      - fastool=0.1.4=ha92aebf_3
+      - jellyfish=2.2.10=h2d50403_0
+      - jemalloc=4.5.0=0
+      - krb5=1.16.3=hbb41f41_0
+      - libcurl=7.63.0=hbdb9355_0
+      - libdeflate=1.0=h470a237_0
+      - libedit=3.1.20170329=haf1bffa_1
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgcc=7.2.0=h69d50b8_2
+      - libssh2=1.8.0=h5b517e9_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - ncurses=6.1=hfc679d8_2
+      - openjdk=11.0.1=h470a237_14
+      - openssl=1.0.2p=h470a237_2
+      - parafly=r2013_01_21=1
+      - perl-app-cpanminus=1.7044=pl526_1
+      - perl-carp=1.38=pl526_1
+      - perl-constant=1.33=pl526_1
+      - perl-cpan-meta-requirements=2.140=pl526_0
+      - perl-cpan-meta-yaml=0.018=pl526_0
+      - perl-cpan-meta=2.150010=pl526_0
+      - perl-data-dumper=2.173=pl526_0
+      - perl-encode=2.88=pl526_1
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-cbuilder=0.280230=pl526_1
+      - perl-extutils-makemaker=7.34=pl526_3
+      - perl-extutils-manifest=1.71=pl526_0
+      - perl-extutils-parsexs=3.35=pl526_0
+      - perl-file-path=2.15=pl526_0
+      - perl-file-temp=0.2304=pl526_2
+      - perl-getopt-long=2.50=pl526_1
+      - perl-ipc-cmd=1.02=pl526_0
+      - perl-json-pp=4.00=pl526_0
+      - perl-locale-maketext-simple=0.21=pl526_1
+      - perl-module-build=0.4224=pl526_3
+      - perl-module-corelist=5.20181218=pl526_0
+      - perl-module-load-conditional=0.68=pl526_2
+      - perl-module-load=0.32=pl526_1
+      - perl-module-metadata=1.000033=pl526_0
+      - perl-params-check=0.38=pl526_1
+      - perl-parent=0.236=pl526_1
+      - perl-perl-ostype=1.010=pl526_1
+      - perl-scalar-list-utils=1.45=pl526h470a237_3
+      - perl-text-abbrev=1.02=pl526_0
+      - perl-text-parsewords=3.30=pl526_0
+      - perl-threaded=5.22.0=13
+      - perl-version=0.9924=pl526_0
+      - perl=5.26.2=h470a237_0
+      - pip=18.1=py36_1000
+      - python=3.6.7=h5001a0f_1
+      - readline=7.0=haf1bffa_1
+      - samtools=1.9=h8ee4bcc_1
+      - setuptools=40.6.3=py36_0
+      - slclust=02022010=2
+      - sqlite=3.26.0=hb1c47c0_0
+      - tbb=2019.3=h2d50403_0
+      - tk=8.6.9=ha92aebf_0
+      - trimmomatic=0.38=1
+      - trinity=2.4.0=5
+      - wheel=0.32.3=py36_0
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_4
+
+
