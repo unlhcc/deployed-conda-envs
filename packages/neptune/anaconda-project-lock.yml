@@ -1,0 +1,58 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  neptune-1.2.5:
+    locked: true
+    env_spec_hash: 87a9a50e4fa20753fd1c28fc9119a12b3e6f0712
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - biopython=1.72=py27h470a237_0
+      - blas=1.0=mkl
+      - blast=2.5.0=hc0b0e79_3
+      - boost-cpp=1.69.0=h3a22d5f_0
+      - boost=1.69.0=py27h3e44d54_0
+      - bzip2=1.0.6=h470a237_2
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py27_1000
+      - drmaa=0.7.9=py_1000
+      - icu=58.2=hfc679d8_0
+      - intel-openmp=2019.1=144
+      - libffi=3.2.1=hfc679d8_5
+      - libgcc-ng=7.2.0=hdf63c60_3
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - mkl=2018.0.3=1
+      - mkl_fft=1.0.10=py27_0
+      - mkl_random=1.0.2=py27_0
+      - ncurses=6.1=hfc679d8_2
+      - neptune=1.2.5=py27h24bf2e0_2
+      - numpy-base=1.15.0=py27h3dfced4_0
+      - numpy=1.15.0=py27h1b885b7_0
+      - openssl=1.0.2p=h470a237_2
+      - pip=18.1=py27_1000
+      - python=2.7.15=h33da82c_6
+      - readline=7.0=haf1bffa_1
+      - scipy=1.1.0=py27hc49cb51_0
+      - setuptools=40.6.3=py27_0
+      - sqlite=3.26.0=hb1c47c0_0
+      - tk=8.6.9=ha92aebf_0
+      - wheel=0.32.3=py27_0
+      - xz=5.2.4=h470a237_1
+      - zlib=1.2.11=h470a237_4
