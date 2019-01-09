@@ -37,3 +37,7 @@ env_specs:
     packages:
     - pymongo=3.6.1
     channels: []
+  pymongo-3.7.2:
+    packages:
+    - pymongo=3.7.2
+    channels: []
