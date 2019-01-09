@@ -36,7 +36,8 @@ env_specs:
     packages:
     - quast=4.4
     channels: []
-  quast-5.0:
+  quast-5.0.2:
     packages:
     - quast=5.0.2
+    - busco=3.0.1=py36_0
     channels: []
