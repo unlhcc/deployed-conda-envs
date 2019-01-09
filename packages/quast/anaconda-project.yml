@@ -24,18 +24,6 @@ description: QUAST evaluates genome assemblies by computing various metrics.
 platforms:
 - linux-64
 env_specs:
-  quast-4.5:
-    packages:
-    - quast=4.5
-    channels: []
-  quast-4.6.3:
-    packages:
-    - quast=4.6.3
-    channels: []
-  quast-4.4:
-    packages:
-    - quast=4.4
-    channels: []
   quast-5.0.2:
     packages:
     - quast=5.0.2
