@@ -36,3 +36,7 @@ env_specs:
     packages:
     - quast=4.4
     channels: []
+  quast-5.0:
+    packages:
+    - quast=5.0.2
+    channels: []
