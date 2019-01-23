@@ -1,0 +1,53 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  varscan-2.4.3:
+    locked: true
+    env_spec_hash: a9c61d5c14a960d0c5947b2bfd0926f119286b98
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - openjdk=11.0.1=h14c3975_1014
+      - varscan=2.4.3=1
+  varscan-2.3.7:
+    locked: true
+    env_spec_hash: 1dd7b709768e0f3d7ec447090c5d0ab663d567c3
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - certifi=2018.11.29=py37_1000
+      - libffi=3.2.1=hf484d3e_1005
+      - libgcc-ng=7.3.0=hdf63c60_0
+      - libstdcxx-ng=7.3.0=hdf63c60_0
+      - ncurses=6.1=hf484d3e_1002
+      - openjdk=11.0.1=h14c3975_1014
+      - openssl=1.0.2p=h14c3975_1002
+      - pip=18.1=py37_1000
+      - python=3.7.1=hd21baee_1000
+      - readline=7.0=hf8c457e_1001
+      - setuptools=40.6.3=py37_0
+      - sqlite=3.26.0=h67949de_1000
+      - tk=8.6.9=h84994c4_1000
+      - varscan=2.3.7=2
+      - wheel=0.32.3=py37_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
