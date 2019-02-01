@@ -1,0 +1,146 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  rnaquast-1.5.1:
+    locked: true
+    env_spec_hash: c1123add709871ef656ba72dc102af4e23f5d13b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - argcomplete=1.9.4=py27_1000
+      - argh=0.26.2=py27_1001
+      - atk=2.25.90=hb9dd440_1002
+      - augustus=3.2.2=0
+      - backports.functools_lru_cache=1.5=py_1
+      - backports=1.0=py_2
+      - backports_abc=0.5=py_1
+      - bamtools=2.5.1=he941832_3
+      - blas=1.0=mkl
+      - blast=2.5.0=hc0b0e79_3
+      - blat=36=0
+      - boost-cpp=1.69.0=h11c811c_1000
+      - boost=1.69.0=py27h8619c78_1000
+      - bowtie2=2.2.5=py27h2d50403_3
+      - busco=2.0.1=py27_0
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2018.11.29=ha4d7672_0
+      - cairo=1.16.0=ha4e643d_1000
+      - certifi=2018.11.29=py27_1000
+      - curl=7.63.0=h646f8bb_1000
+      - cycler=0.10.0=py_1
+      - dbus=1.13.0=h4e0c4b3_1000
+      - emboss=6.6.0=h6debe1e_0
+      - expat=2.2.5=hf484d3e_1002
+      - fontconfig=2.13.1=h2176d3f_1000
+      - freetype=2.9.1=h94bbf69_1005
+      - functools32=3.2.3.2=py_3
+      - futures=3.2.0=py27_1000
+      - gdk-pixbuf=2.36.12=h49783d7_1002
+      - gettext=0.19.8.1=h9745a5d_1001
+      - gffutils=0.9=py_1
+      - giflib=5.1.4=h14c3975_1001
+      - glib=2.58.2=hf63aee3_1001
+      - gmap=2018.07.04=pl526he4cf2ce_0
+      - gobject-introspection=1.56.1=py27h2da5eee_1002
+      - graphite2=1.3.13=hf484d3e_1000
+      - gstreamer=1.14.4=h66beb1c_1001
+      - gtk2=2.24.31=hb68c50a_1001
+      - harfbuzz=2.3.0=h6824563_1001
+      - hmmer=3.2.1=hfc679d8_0
+      - icu=58.2=hf484d3e_1000
+      - intel-openmp=2019.1=144
+      - joblib=0.13.1=py_0
+      - jpeg=9c=h14c3975_1001
+      - kiwisolver=1.0.1=py27h6bb024c_1002
+      - krb5=1.16.3=hc83ff2d_1000
+      - libcurl=7.63.0=h01ee5af_1000
+      - libdeflate=1.0=h470a237_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libffi=3.2.1=hf484d3e_1005
+      - libgcc-ng=7.3.0=hdf63c60_0
+      - libgcc=7.2.0=h69d50b8_2
+      - libgd=2.2.5=h0d07dcb_1005
+      - libgfortran-ng=7.2.0=hdf63c60_3
+      - libiconv=1.15=h14c3975_1004
+      - libpng=1.6.36=h84994c4_1000
+      - libssh2=1.8.0=h1ad7b7a_1003
+      - libstdcxx-ng=7.3.0=hdf63c60_0
+      - libtiff=4.0.10=h648cc4a_1001
+      - libuuid=2.32.1=h14c3975_1000
+      - libwebp=1.0.2=h576950b_1
+      - libxcb=1.13=h14c3975_1002
+      - libxml2=2.9.8=h143f9aa_1005
+      - matplotlib-base=2.2.3=py27h60b886d_1
+      - matplotlib=2.2.3=py27h8a2030e_1
+      - mkl=2019.1=144
+      - mkl_fft=1.0.10=py27h14c3975_1
+      - mkl_random=1.0.2=py27h637b7d7_2
+      - mysql-connector-c=6.1.6=0
+      - ncurses=6.1=hf484d3e_1002
+      - numpy-base=1.15.4=py27hde5b4d6_0
+      - numpy=1.15.4=py27h7e9f1db_0
+      - openssl=1.0.2p=h14c3975_1002
+      - pango=1.40.14=h4ea9474_1004
+      - pcre=8.41=hf484d3e_1003
+      - perl-app-cpanminus=1.7044=pl526_1
+      - perl-dbi=1.642=pl526_0
+      - perl-yaml=1.27=pl526_0
+      - perl=5.26.2=h14c3975_1001
+      - pip=19.0.1=py27_0
+      - pixman=0.34.0=h14c3975_1003
+      - pthread-stubs=0.4=h14c3975_1001
+      - pyfaidx=0.5.5.2=py_0
+      - pyparsing=2.3.1=py_0
+      - pyqt=5.6.0=py27h13b7fb3_1008
+      - python-dateutil=2.7.5=py_0
+      - python=2.7.15=h938d71a_1006
+      - pytz=2018.9=py_0
+      - qt=5.6.2=hce4f676_1013
+      - readline=7.0=hf8c457e_1001
+      - rnaquast=1.5.1=0
+      - samtools=1.9=h8ee4bcc_1
+      - setuptools=40.7.1=py27_0
+      - simplejson=3.16.1=py27h470a237_0
+      - singledispatch=3.4.0.3=py27_1000
+      - sip=4.18.1=py27hf484d3e_1000
+      - six=1.12.0=py27_1000
+      - sqlite=3.26.0=h67949de_1000
+      - star=2.6.1b=0
+      - subprocess32=3.5.3=py27h14c3975_0
+      - tk=8.6.9=h84994c4_1000
+      - tophat=2.1.1=py27_2
+      - tornado=5.1.1=py27h14c3975_1000
+      - ucsc-pslsort=366=hdd26221_0
+      - wheel=0.32.3=py27_0
+      - xorg-kbproto=1.0.7=h14c3975_1002
+      - xorg-libice=1.0.9=h14c3975_1004
+      - xorg-libsm=1.2.3=h4937e3b_1000
+      - xorg-libx11=1.6.6=h14c3975_1000
+      - xorg-libxau=1.0.8=h14c3975_1006
+      - xorg-libxdmcp=1.1.2=h14c3975_1007
+      - xorg-libxext=1.3.3=h14c3975_1004
+      - xorg-libxrender=0.9.10=h14c3975_1002
+      - xorg-libxt=1.1.5=h14c3975_1002
+      - xorg-renderproto=0.11.1=h14c3975_1002
+      - xorg-xextproto=7.3.0=h14c3975_1002
+      - xorg-xproto=7.0.31=h14c3975_1007
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
+
+
