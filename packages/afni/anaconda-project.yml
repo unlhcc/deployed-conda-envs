@@ -26,4 +26,5 @@ env_specs:
   afni-18.2.06:
     packages:
     - afni=18.2.06
+    - r-tidyverse=1.2.1
     channels: []
