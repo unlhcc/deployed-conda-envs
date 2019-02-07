@@ -24,7 +24,7 @@ env_specs:
     packages:
       linux-64:
       - _r-mutex=1.0.0=anacondar_1
-      - afni=18.2.06=py27r351h5cda679_1
+      - afni=18.2.06=py27r351h5cda679_2
       - binutils_impl_linux-64=2.31.1=h6176602_1
       - binutils_linux-64=2.31.1=h6176602_3
       - bwidget=1.9.11=1
