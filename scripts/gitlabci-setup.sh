@@ -14,3 +14,4 @@ conda install -q -y anaconda-project=0.8.2 anaconda-client=1.6.14
 conda config --add channels conda-forge
 conda config --add channels bioconda
 conda config --add channels hcc
+conda config --add channels https://conda.anaconda.org/t/${PRIVATE_PACKAGE_TOKEN}/hcc
