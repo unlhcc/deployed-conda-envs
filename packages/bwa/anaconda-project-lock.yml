@@ -1,0 +1,39 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  bwa-0.7.17:
+    locked: true
+    env_spec_hash: 3ece0a8232f89f6aec6a177637e9548857741464
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bwa=0.7.17=h84994c4_5
+      - libgcc-ng=7.3.0=hdf63c60_0
+      - perl=5.26.2=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
+  bwa-0.6.2:
+    locked: true
+    env_spec_hash: f188618b36e95caa2b435910a600b49502eed54e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bwa=0.6.2=ha92aebf_2
+      - libgcc-ng=7.3.0=hdf63c60_0
+      - zlib=1.2.11=h14c3975_1004
