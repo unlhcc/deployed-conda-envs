@@ -1,0 +1,37 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: HUMAnN2
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: HUMAnN2 is the next generation of HUMAnN (HMP Unified Metabolic Analysis
+  Network).  
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  humann2-0.9.9:
+    packages:
+    - humann2=0.9.9
+    - python=2.7
+    channels: []
+  humann2-0.11.2:
+    packages:
+    - humann2=0.11.2
+    - python=2.7
+    channels: []
