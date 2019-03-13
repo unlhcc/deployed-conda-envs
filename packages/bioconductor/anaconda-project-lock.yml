@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   bioconductor-3.8:
     locked: true
-    env_spec_hash: 53394658e4fe662cb00a06848fc429202768b2bc
+    env_spec_hash: 79d90ce25c88d32ed1c318e7c408697586001818
     platforms:
     - linux-64
     packages:
@@ -33,7 +33,7 @@ env_specs:
       - bioconductor-annotationforge=1.24.0=r351_0
       - bioconductor-annotationhub=2.14.2=r351_0
       - bioconductor-ballgown=2.14.0=r351_0
-      - bioconductor-biobase=2.42.0=r351h14c3975_0
+      - bioconductor-biobase=2.42.0=r351h14c3975_1
       - bioconductor-biocgenerics=0.28.0=r351_1
       - bioconductor-biocinstaller=1.32.1=r351_0
       - bioconductor-biocparallel=1.16.2=r351h1c2f66e_1
@@ -44,20 +44,21 @@ env_specs:
       - bioconductor-bsgenome.mmusculus.ucsc.mm9=1.4.0=r351_5
       - bioconductor-bsgenome=1.50.0=r351_0
       - bioconductor-category=2.48.0=r351_0
-      - bioconductor-chipseq=1.32.0=r351h14c3975_0
+      - bioconductor-ccrepe=1.18.1=r351_0
+      - bioconductor-chipseq=1.32.0=r351h14c3975_1
       - bioconductor-compepitools=1.16.0=r351_0
       - bioconductor-copyhelper=1.14.0=r351_0
       - bioconductor-copywriter=2.14.0=r351_0
       - bioconductor-delayedarray=0.8.0=r351h14c3975_0
       - bioconductor-deseq2=1.22.1=r351hf484d3e_0
       - bioconductor-deseq=1.34.0=r351h14c3975_0
-      - bioconductor-diffbind=2.10.0=r351hf484d3e_0
+      - bioconductor-diffbind=2.10.0=r351hf484d3e_1
       - bioconductor-dnacopy=1.56.0=r351h9ac9557_0
       - bioconductor-ebimage=4.24.0=r351hf484d3e_0
       - bioconductor-edger=3.24.1=r351hf484d3e_0
       - bioconductor-ensembldb=2.6.3=r351_0
       - bioconductor-fgsea=1.8.0=r351hf484d3e_0
-      - bioconductor-genefilter=1.64.0=r351h1c2f66e_0
+      - bioconductor-genefilter=1.64.0=r351h1c2f66e_1
       - bioconductor-geneplotter=1.60.0=r351_0
       - bioconductor-genomeinfodb=1.18.1=r351_0
       - bioconductor-genomeinfodbdata=1.2.0=r351_0
@@ -89,7 +90,7 @@ env_specs:
       - bioconductor-rhdf5lib=1.4.2=r351h1feb10b_3
       - bioconductor-rhtslib=1.14.0=r351hd051131_0
       - bioconductor-rsamtools=1.34.0=r351hf484d3e_0
-      - bioconductor-rtracklayer=1.42.1=r351h14c3975_0
+      - bioconductor-rtracklayer=1.42.1=r351h9d9f1b6_1
       - bioconductor-s4vectors=0.20.1=r351h14c3975_0
       - bioconductor-shortread=1.40.0=r351hf484d3e_0
       - bioconductor-snpchip=2.28.0=r351_0
@@ -105,7 +106,7 @@ env_specs:
       - bioconductor-zlibbioc=1.28.0=r351h14c3975_0
       - bwidget=1.9.11=1
       - bzip2=1.0.6=h14c3975_1002
-      - ca-certificates=2018.11.29=ha4d7672_0
+      - ca-certificates=2019.3.9=hecc5488_0
       - cairo=1.14.12=h80bd089_1005
       - curl=7.64.0=h646f8bb_2
       - fftw=3.3.8=h9ac9557_1003
@@ -220,6 +221,7 @@ env_specs:
       - r-httr=1.4.0=r351h6115d3f_1000
       - r-hwriter=1.3.2=r351h6115d3f_1001
       - r-igraph=1.2.4=r351h80f5a37_0
+      - r-infotheo=1.2.0=r351hf484d3e_1002
       - r-irlba=2.3.3=r351h14c3975_0
       - r-iterators=1.0.10=r351h6115d3f_1001
       - r-jpeg=0.1_8=r351h96ca727_1002
@@ -411,9 +413,9 @@ env_specs:
       - bioconductor-xvector=0.16.0=r3.4.1_0
       - bioconductor-zlibbioc=1.22.0=r3.4.1_0
       - bzip2=1.0.6=1
-      - ca-certificates=2018.11.29=ha4d7672_0
+      - ca-certificates=2019.3.9=hecc5488_0
       - cairo=1.14.8=0
-      - certifi=2018.11.29=py27_1000
+      - certifi=2019.3.9=py27_0
       - curl=7.52.1=0
       - fftw=3.3.6=3
       - fontconfig=2.12.1=2
