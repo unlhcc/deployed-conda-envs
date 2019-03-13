@@ -331,4 +331,5 @@ env_specs:
     - wget=1.20.1
     - xz=5.2.4
     - zlib=1.2.11
+    - bioconductor-ccrepe=1.18.1=r351_0
     channels: []
