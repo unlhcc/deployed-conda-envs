@@ -29,3 +29,7 @@ env_specs:
     packages:
     - gdc-client=1.3.0
     channels: []
+  gdc-client-1.4.0:
+    packages:
+    - gdc-client=1.4.0
+    channels: []
