@@ -1,0 +1,62 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  gubbins-2.3.4:
+    locked: true
+    env_spec_hash: d578324a2781f086594cbc5dfafed3bbbbef5b37
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - biopython=1.73=py36h14c3975_0
+      - ca-certificates=2019.3.9=hecc5488_0
+      - certifi=2019.3.9=py36_0
+      - dendropy=4.4.0=py_0
+      - fasttree=2.1.10=h470a237_2
+      - freetype=2.10.0=he983fc9_0
+      - gubbins=2.3.4=py36ha92aebf_0
+      - jpeg=9c=h14c3975_1001
+      - libblas=3.8.0=4_openblas
+      - libcblas=3.8.0=4_openblas
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libgfortran=3.0.0=1
+      - liblapack=3.8.0=4_openblas
+      - libpng=1.6.36=h84994c4_1000
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - libtiff=4.0.10=h648cc4a_1001
+      - ncurses=6.1=hf484d3e_1002
+      - nose=1.3.7=py36_1002
+      - numpy=1.16.2=py36h8b7e671_1
+      - olefile=0.46=py_0
+      - openblas=0.3.5=ha44fe06_0
+      - openssl=1.1.1b=h14c3975_1
+      - pillow=5.4.1=py36h00a061d_1000
+      - pip=19.0.3=py36_0
+      - python=3.6.7=h381d211_1004
+      - raxml=8.2.12=h470a237_0
+      - readline=7.0=hf8c457e_1001
+      - reportlab=3.5.15=py36h7d98c4e_0
+      - setuptools=40.8.0=py36_0
+      - sqlite=3.26.0=h67949de_1001
+      - tk=8.6.9=h84994c4_1001
+      - wheel=0.33.1=py36_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
+
+
