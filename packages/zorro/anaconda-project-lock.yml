@@ -1,0 +1,29 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  zorro-2011.12.01:
+    locked: true
+    env_spec_hash: 55d647a648eb5f3ebcbbac2648961abf59b5e51e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - fasttree=2.1.10=h470a237_2
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - perl=5.26.2=h14c3975_1002
+      - zorro=2011.12.01=h14c3975_0
