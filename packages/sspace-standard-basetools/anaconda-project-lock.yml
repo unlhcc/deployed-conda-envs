@@ -1,0 +1,55 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  sspace-standard-3.0:
+    locked: true
+    env_spec_hash: f5a8c6528fac6f162a51d4e84b95bca9495c4232
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bowtie=1.0.0=1
+      - bwa=0.7.17=h84994c4_5
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - perl-carp=1.38=pl526_2
+      - perl-constant=1.33=pl526_1
+      - perl-digest-md5=2.55=pl526_0
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-makemaker=7.34=pl526_3
+      - perl-file-copy-recursive=0.44=pl526h470a237_0
+      - perl-file-path=2.15=pl526_0
+      - perl-file-sharedir-install=0.13=pl526_0
+      - perl-getopt-long=2.50=pl526_1
+      - perl-inline-c=0.76=pl526_1
+      - perl-inline=0.80=pl526_3
+      - perl-io-all=0.87=pl526_0
+      - perl-parent=0.236=pl526_1
+      - perl-parse-recdescent=1.967015=pl526_0
+      - perl-pegex=0.61=pl526_1
+      - perl-perl4-corelibs=0.004=pl526_1
+      - perl-scalar-list-utils=1.45=pl526h470a237_3
+      - perl-socket=2.027=pl526_1
+      - perl-storable=3.11=pl526_0
+      - perl-text-parsewords=3.30=pl526_0
+      - perl-text-wrap=2013.0523=pl526_1
+      - perl-time-local=1.28=pl526_1
+      - perl-xsloader=0.24=pl526_0
+      - perl-yaml-libyaml=0.66=pl526_1
+      - perl=5.26.2=h14c3975_1002
+      - sspace-standard=3.0=pl526_0
+      - zlib=1.2.11=h14c3975_1004
