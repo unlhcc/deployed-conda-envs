@@ -1,0 +1,185 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  braker2-2.1.2:
+    locked: true
+    env_spec_hash: 72919702a75aa74864c2e101588230c45bcfa8c1
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - augustus=3.3.2=pl526hf7b2990_0
+      - bamtools=2.5.1=he860b03_4
+      - biopython=1.73=py37h14c3975_0
+      - blast=2.5.0=hc0b0e79_3
+      - boost-cpp=1.68.0=h11c811c_1000
+      - boost=1.68.0=py37h8619c78_1001
+      - braker2=2.1.2=0
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.3.9=hecc5488_0
+      - certifi=2019.3.9=py37_0
+      - curl=7.64.0=h646f8bb_0
+      - eval=2.2.8=pl526_0
+      - exonerate=2.4.0=hb9dd440_2
+      - genemark-et=4.3.3=pl526_0
+      - genomethreader=1.7.1=0
+      - gettext=0.19.8.1=hc5be6a0_1002
+      - glib=2.58.3=hf63aee3_1001
+      - gsl=2.4=h294904e_1005
+      - htslib=1.9=ha228f0b_7
+      - icu=58.2=hf484d3e_1000
+      - krb5=1.16.3=hc83ff2d_1000
+      - libblas=3.8.0=5_h6e990d7_netlib
+      - libcblas=3.8.0=5_h6e990d7_netlib
+      - libcurl=7.64.0=h01ee5af_0
+      - libdeflate=1.0=h14c3975_1
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.3.0=hdf63c60_0
+      - libiconv=1.15=h516909a_1005
+      - liblapack=3.8.0=5_h6e990d7_netlib
+      - libpng=1.6.36=h84994c4_1000
+      - libssh2=1.8.0=h1ad7b7a_1003
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - libuuid=2.32.1=h14c3975_1000
+      - lp_solve=5.5.2.5=h14c3975_1001
+      - makehub=1.0.3=0
+      - metis=5.1.0=hf484d3e_1003
+      - mysql-connector-c=6.1.11=hab6429c_1002
+      - ncurses=6.1=hf484d3e_1002
+      - numpy=1.16.2=py37h8b7e671_1
+      - openblas=0.3.3=h9ac9557_1001
+      - openssl=1.0.2r=h14c3975_0
+      - pcre=8.41=hf484d3e_1003
+      - perl-apache-test=1.40=pl526_1
+      - perl-app-cpanminus=1.7044=pl526_1
+      - perl-base=2.23=pl526_1
+      - perl-bioperl=1.6.924=4
+      - perl-carp=1.38=pl526_2
+      - perl-class-data-inheritable=0.08=pl526_1
+      - perl-class-load-xs=0.10=pl526h2d50403_0
+      - perl-class-load=0.25=pl526_0
+      - perl-class-method-modifiers=2.12=pl526_0
+      - perl-clone-choose=0.010=pl526_0
+      - perl-constant=1.33=pl526_1
+      - perl-cpan-meta-requirements=2.140=pl526_0
+      - perl-cpan-meta-yaml=0.018=pl526_0
+      - perl-cpan-meta=2.150010=pl526_0
+      - perl-data-dumper=2.173=pl526_0
+      - perl-data-optlist=0.110=pl526_2
+      - perl-dbi=1.642=pl526_0
+      - perl-devel-globaldestruction=0.14=pl526_0
+      - perl-devel-overloadinfo=0.005=pl526_0
+      - perl-devel-stacktrace=2.03=pl526_1
+      - perl-dist-checkconflicts=0.11=pl526_2
+      - perl-encode=2.88=pl526_1
+      - perl-eval-closure=0.14=pl526h2d50403_3
+      - perl-exception-class=1.44=pl526_0
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-cbuilder=0.280230=pl526_1
+      - perl-extutils-makemaker=7.34=pl526_3
+      - perl-extutils-manifest=1.71=pl526_0
+      - perl-extutils-parsexs=3.35=pl526_0
+      - perl-file-homedir=1.00=pl526_2
+      - perl-file-path=2.15=pl526_1
+      - perl-file-spec=3.48_01=pl526_1
+      - perl-file-temp=0.2304=pl526_2
+      - perl-file-which=1.23=pl526_0
+      - perl-findbin=1.51=pl526_1
+      - perl-getopt-long=2.50=pl526_1
+      - perl-hash-merge=0.300=pl526_0
+      - perl-importer=0.025=pl526_0
+      - perl-ipc-cmd=1.02=pl526_0
+      - perl-json-pp=4.00=pl526_0
+      - perl-list-util=1.38=pl526_1
+      - perl-locale-maketext-simple=0.21=pl526_1
+      - perl-logger-simple=2.0=pl526_0
+      - perl-module-build=0.4224=pl526_3
+      - perl-module-corelist=5.20181218=pl526_0
+      - perl-module-implementation=0.09=pl526_2
+      - perl-module-load-conditional=0.68=pl526_2
+      - perl-module-load=0.32=pl526_1
+      - perl-module-metadata=1.000033=pl526_0
+      - perl-module-pluggable=5.2=pl526_0
+      - perl-module-runtime-conflicts=0.003=pl526_0
+      - perl-module-runtime=0.016=pl526_0
+      - perl-moo=2.003004=pl526_0
+      - perl-moose=2.2011=pl526h2d50403_0
+      - perl-mro-compat=0.13=pl526_0
+      - perl-object-insideout=4.05=pl526_0
+      - perl-package-deprecationmanager=0.17=pl526_0
+      - perl-package-stash-xs=0.28=pl526hfc679d8_0
+      - perl-package-stash=0.38=pl526hfc679d8_0
+      - perl-parallel-forkmanager=2.02=pl526_0
+      - perl-params-check=0.38=pl526_1
+      - perl-params-util=1.07=pl526h2d50403_3
+      - perl-parent=0.236=pl526_1
+      - perl-pathtools=3.73=h470a237_2
+      - perl-perl-ostype=1.010=pl526_1
+      - perl-posix=1.38_03=pl526_1
+      - perl-role-tiny=2.000006=pl526_0
+      - perl-scalar-list-utils=1.45=pl526h470a237_3
+      - perl-scalar-util-numeric=0.40=pl526_1
+      - perl-scope-guard=0.21=pl526_2
+      - perl-storable=3.11=pl526_0
+      - perl-sub-exporter-progressive=0.001013=pl526_0
+      - perl-sub-exporter=0.987=pl526_2
+      - perl-sub-identify=0.12=pl526_1
+      - perl-sub-info=0.002=pl526_0
+      - perl-sub-install=0.928=pl526_2
+      - perl-sub-name=0.21=pl526_1
+      - perl-sub-quote=2.005001=pl526_0
+      - perl-term-table=0.013=pl526_0
+      - perl-test-harness=3.42=pl526_0
+      - perl-test-more=1.001002=pl526_1
+      - perl-test-pod=1.52=pl526_0
+      - perl-test2-suite=0.000117=pl526_0
+      - perl-text-abbrev=1.02=pl526_0
+      - perl-text-parsewords=3.30=pl526_0
+      - perl-threaded=5.26.0=0
+      - perl-time-hires=1.9758=pl526_0
+      - perl-try-tiny=0.30=pl526_1
+      - perl-version=0.9924=pl526_0
+      - perl-xsloader=0.24=pl526_0
+      - perl-yaml=1.27=pl526_0
+      - perl=5.26.2=h14c3975_1002
+      - pip=19.0.3=py37_0
+      - python=3.7.1=hd21baee_1001
+      - readline=7.0=hf8c457e_1001
+      - samtools=1.9=h43f6869_9
+      - setuptools=40.8.0=py37_0
+      - spaln=2.3.3=pl526he860b03_0
+      - sqlite=3.26.0=h67949de_1001
+      - suitesparse=4.5.6=heab0a99_1202
+      - tbb=2019.5=hc9558a2_0
+      - tk=8.6.9=h84994c4_1001
+      - ucsc-bedtobigbed=377=h199ee4e_0
+      - ucsc-fatotwobit=377=h199ee4e_1
+      - ucsc-genepredcheck=377=h199ee4e_0
+      - ucsc-genepredtobed=377=h199ee4e_1
+      - ucsc-genepredtobiggenepred=377=h199ee4e_0
+      - ucsc-gtftogenepred=377=h199ee4e_1
+      - ucsc-hggcpercent=377=h199ee4e_0
+      - ucsc-ixixx=377=h199ee4e_0
+      - ucsc-twobitinfo=377=h199ee4e_0
+      - ucsc-wigtobigwig=377=h199ee4e_0
+      - wheel=0.33.1=py37_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
