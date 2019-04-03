@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   bioconductor-3.8:
     locked: true
-    env_spec_hash: 79d90ce25c88d32ed1c318e7c408697586001818
+    env_spec_hash: 1a013c2dd11d990e85c9188265b311dc76b087a1
     platforms:
     - linux-64
     packages:
@@ -43,6 +43,7 @@ env_specs:
       - bioconductor-biovizbase=1.30.1=r351h14c3975_0
       - bioconductor-bsgenome.mmusculus.ucsc.mm9=1.4.0=r351_5
       - bioconductor-bsgenome=1.50.0=r351_0
+      - bioconductor-bumphunter=1.24.5=r351_1
       - bioconductor-category=2.48.0=r351_0
       - bioconductor-ccrepe=1.18.1=r351_0
       - bioconductor-chipseq=1.32.0=r351h14c3975_1
@@ -50,6 +51,7 @@ env_specs:
       - bioconductor-copyhelper=1.14.0=r351_0
       - bioconductor-copywriter=2.14.0=r351_0
       - bioconductor-delayedarray=0.8.0=r351h14c3975_0
+      - bioconductor-delayedmatrixstats=1.4.0=r351_1
       - bioconductor-deseq2=1.22.1=r351hf484d3e_0
       - bioconductor-deseq=1.34.0=r351h14c3975_0
       - bioconductor-diffbind=2.10.0=r351hf484d3e_1
@@ -57,6 +59,7 @@ env_specs:
       - bioconductor-ebimage=4.24.0=r351hf484d3e_0
       - bioconductor-edger=3.24.1=r351hf484d3e_0
       - bioconductor-ensembldb=2.6.3=r351_0
+      - bioconductor-fdb.infiniummethylation.hg19=2.2.0=r351_4
       - bioconductor-fgsea=1.8.0=r351hf484d3e_0
       - bioconductor-genefilter=1.64.0=r351h1c2f66e_1
       - bioconductor-geneplotter=1.60.0=r351_0
@@ -65,34 +68,43 @@ env_specs:
       - bioconductor-genomicalignments=1.18.0=r351h14c3975_0
       - bioconductor-genomicfeatures=1.34.1=r351_0
       - bioconductor-genomicranges=1.34.0=r351h14c3975_0
+      - bioconductor-geoquery=2.50.0=r351_0
       - bioconductor-go.db=3.7.0=r351_0
       - bioconductor-gostats=2.48.0=r351_0
       - bioconductor-graph=1.60.0=r351h14c3975_0
       - bioconductor-gseabase=1.44.0=r351_0
       - bioconductor-gviz=1.26.4=r351_0
+      - bioconductor-hdf5array=1.10.1=r351_0
       - bioconductor-heatmaps=1.6.0=r351_0
+      - bioconductor-illuminaio=0.24.0=r351h14c3975_0
       - bioconductor-interactivedisplaybase=1.20.0=r351_0
       - bioconductor-iranges=2.16.0=r351h14c3975_0
       - bioconductor-keggrest=1.22.0=r351_0
       - bioconductor-limma=3.38.3=r351h14c3975_0
       - bioconductor-marray=1.60.0=r351_0
       - bioconductor-methylpipe=1.16.0=r351h14c3975_0
+      - bioconductor-methylumi=2.28.0=r351_0
+      - bioconductor-minfi=1.28.0=r351_0
+      - bioconductor-multtest=2.38.0=r351h14c3975_0
       - bioconductor-oligoclasses=1.44.0=r351_0
       - bioconductor-org.hs.eg.db=3.7.0=r351_0
       - bioconductor-org.mm.eg.db=3.7.0=r351_0
       - bioconductor-pharmacogx=1.12.0=r351_0
       - bioconductor-piano=1.22.0=r351_0
+      - bioconductor-preprocesscore=1.44.0=r351h14c3975_0
       - bioconductor-protgenerics=1.14.0=r351_0
       - bioconductor-qvalue=2.14.0=r351_0
       - bioconductor-rbgl=1.58.1=r351hf484d3e_0
       - bioconductor-rgraphviz=2.26.0=r351hf484d3e_0
-      - bioconductor-rhdf5=2.26.2=r351hdbcaa40_1
-      - bioconductor-rhdf5lib=1.4.2=r351h1feb10b_3
+      - bioconductor-rhdf5=2.26.2=r351hdbcaa40_2
+      - bioconductor-rhdf5lib=1.4.3=r351h1feb10b_0
       - bioconductor-rhtslib=1.14.0=r351hd051131_0
+      - bioconductor-rnbeads=2.0.0=r351_0
       - bioconductor-rsamtools=1.34.0=r351hf484d3e_0
       - bioconductor-rtracklayer=1.42.1=r351h9d9f1b6_1
       - bioconductor-s4vectors=0.20.1=r351h14c3975_0
       - bioconductor-shortread=1.40.0=r351hf484d3e_0
+      - bioconductor-siggenes=1.56.0=r351_0
       - bioconductor-snpchip=2.28.0=r351_0
       - bioconductor-summarizedexperiment=1.12.0=r351_0
       - bioconductor-sva=3.30.0=r351h14c3975_0
@@ -108,13 +120,13 @@ env_specs:
       - bzip2=1.0.6=h14c3975_1002
       - ca-certificates=2019.3.9=hecc5488_0
       - cairo=1.14.12=h80bd089_1005
-      - curl=7.64.0=h646f8bb_2
+      - curl=7.64.0=hf8cf82a_4
       - fftw=3.3.8=h9ac9557_1003
-      - fontconfig=2.13.1=h2176d3f_1000
+      - fontconfig=2.13.1=he4413a7_1000
       - freetype=2.9.1=h94bbf69_1005
       - gcc_impl_linux-64=7.3.0=habb00fd_1
       - gcc_linux-64=7.3.0=h553295d_3
-      - gettext=0.19.8.1=h9745a5d_1001
+      - gettext=0.19.8.1=hc5be6a0_1002
       - gfortran_impl_linux-64=7.3.0=hdf63c60_1
       - gfortran_linux-64=7.3.0=h553295d_3
       - glib=2.56.2=had28632_1001
@@ -125,16 +137,16 @@ env_specs:
       - icu=58.2=hf484d3e_1000
       - jpeg=9c=h14c3975_1001
       - krb5=1.16.3=h05b26f9_1001
-      - libcurl=7.64.0=h541490c_2
+      - libcurl=7.64.0=hda55be3_4
       - libedit=3.1.20170329=hf8c457e_1001
-      - libffi=3.2.1=hf484d3e_1005
-      - libgcc-ng=7.3.0=hdf63c60_0
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
       - libgfortran-ng=7.3.0=hdf63c60_0
-      - libiconv=1.15=h14c3975_1004
+      - libiconv=1.15=h516909a_1005
       - libidn2=2.1.1=h14c3975_0
       - libpng=1.6.36=h84994c4_1000
-      - libssh2=1.8.0=h90d6eec_1004
-      - libstdcxx-ng=7.3.0=hdf63c60_0
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
       - libtiff=4.0.10=h9022e91_1002
       - libunistring=0.9.10=h14c3975_0
       - libuuid=2.32.1=h14c3975_1000
@@ -153,11 +165,13 @@ env_specs:
       - r-askpass=1.1=r351h96ca727_0
       - r-assertthat=0.2.0=r351h6115d3f_1001
       - r-backports=1.1.3=r351h96ca727_1000
+      - r-base64=2.0=r351_1001
       - r-base64enc=0.1_3=r351h96ca727_1002
       - r-base=3.5.1=he45234b_1005
       - r-batchjobs=1.7=r351h6115d3f_1000
       - r-bbmisc=1.11=r351h96ca727_1001
       - r-bbmle=1.0.20=r351h6115d3f_0
+      - r-beanplot=1.2=r351_1001
       - r-bh=1.69.0_1=r351h6115d3f_0
       - r-bibtex=0.4.2=r351h96ca727_1002
       - r-bindr=0.1.1=r351h6115d3f_1001
@@ -173,7 +187,8 @@ env_specs:
       - r-celestial=1.4.6=r351h6115d3f_0
       - r-checkmate=1.8.5=r351h96ca727_1002
       - r-class=7.3_15=r351h96ca727_1000
-      - r-cli=1.0.1=r351h6115d3f_1000
+      - r-cli=1.1.0=r351h6115d3f_0
+      - r-clipr=0.5.0=r351h6115d3f_0
       - r-cluster=2.0.7_1=r351ha65eedd_1000
       - r-coda=0.19_2=r351h6115d3f_0
       - r-codetools=0.2_16=r351h6115d3f_1000
@@ -185,6 +200,8 @@ env_specs:
       - r-dichromat=2.0_0=r351_2000
       - r-digest=0.6.18=r351h96ca727_1000
       - r-doparallel=1.0.14=r351h6115d3f_0
+      - r-dorng=1.7.1=r351h6115d3f_1000
+      - r-dotcall64=1.0_0=r351ha65eedd_1002
       - r-downloader=0.4=r351h6115d3f_1001
       - r-dplyr=0.8.0.1=r351h29659fb_1000
       - r-emdbook=1.3.11=r351_0
@@ -194,6 +211,7 @@ env_specs:
       - r-fastmatch=1.1_0=r351h96ca727_1003
       - r-ff=2.2_13=r351hf484d3e_1002
       - r-fftwtools=0.9_8=r351h14c3975_1002
+      - r-fields=9.6=r351h9ac9557_1002
       - r-flexmix=2.3_15=r351h6115d3f_0
       - r-foreach=1.4.4=r351h6115d3f_1001
       - r-foreign=0.8_71=r351h96ca727_1002
@@ -254,6 +272,7 @@ env_specs:
       - r-nlme=3.1_137=r351ha65eedd_1000
       - r-nmf=0.21.0=r351h29659fb_1002
       - r-nnet=7.3_12=r351h96ca727_1002
+      - r-nor1mix=1.2_3=r351_2001
       - r-numderiv=2016.8_1=r351h6115d3f_1001
       - r-openssl=1.2.2=r351h3a9d887_0
       - r-pheatmap=1.0.12=r351h6115d3f_0
@@ -268,8 +287,9 @@ env_specs:
       - r-prettyunits=1.0.2=r351h6115d3f_1001
       - r-progress=1.2.0=r351h6115d3f_1002
       - r-promises=1.0.1=r351h29659fb_1000
-      - r-purrr=0.3.1=r351h96ca727_0
+      - r-purrr=0.3.2=r351hcdcec82_0
       - r-qiimer=0.9.4=r351h6115d3f_1001
+      - r-quadprog=1.5_5=r351ha65eedd_1002
       - r-r.methodss3=1.7.1=r351h6115d3f_1001
       - r-r.oo=1.22.0=r351h6115d3f_1000
       - r-r.utils=2.8.0=r351h6115d3f_0
@@ -279,17 +299,19 @@ env_specs:
       - r-rcpp=1.0.0=r351h29659fb_1000
       - r-rcpparmadillo=0.9.200.7.0=r351h29659fb_0
       - r-rcurl=1.95_4.11=r351h96ca727_1003
+      - r-readr=1.3.1=r351h29659fb_1000
       - r-recommended=3.5.1=r351_1001
       - r-registry=0.5=r351h6115d3f_1001
       - r-relations=0.6_8=r351h6115d3f_0
       - r-reshape2=1.4.3=r351h29659fb_1003
+      - r-reshape=0.8.8=r351h96ca727_0
       - r-rjson=0.2.20=r351h29659fb_1000
       - r-rjsonio=1.3_1.1=r351h29659fb_1000
       - r-rlang=0.3.1=r351h96ca727_0
       - r-rngtools=1.3.1=r351h6115d3f_1001
       - r-rpart=4.1_13=r351h96ca727_1002
       - r-rsqlite=2.1.1=r351h29659fb_1000
-      - r-rstudioapi=0.9.0=r351h6115d3f_0
+      - r-rstudioapi=0.10=r351h6115d3f_0
       - r-scales=1.0.0=r351h29659fb_1001
       - r-sendmailr=1.2_1=r351h6115d3f_1001
       - r-sets=1.0_17=r351h14c3975_1002
@@ -299,13 +321,14 @@ env_specs:
       - r-snow=0.4_3=r351h6115d3f_1000
       - r-snowballc=0.5.1=r351h96ca727_1001
       - r-sourcetools=0.1.7=r351hf484d3e_1000
+      - r-spam=2.2_0=r351ha65eedd_1000
       - r-sparsem=1.77=r351ha65eedd_1001
       - r-spatial=7.3_11=r351h96ca727_1002
       - r-statmod=1.4.30=r351h9ac9557_1002
       - r-stringi=1.2.4=r351h29659fb_1001
       - r-stringr=1.4.0=r351h6115d3f_0
       - r-survival=2.43_3=r351h96ca727_1000
-      - r-sys=2.1=r351h96ca727_1000
+      - r-sys=3.1=r351hcdcec82_0
       - r-tibble=2.0.1=r351h96ca727_0
       - r-tidyr=0.8.2=r351h29659fb_1002
       - r-tidyselect=0.2.5=r351h29659fb_1000
@@ -314,23 +337,24 @@ env_specs:
       - r-viridis=0.5.1=r351h6115d3f_1001
       - r-viridislite=0.3.0=r351h6115d3f_1001
       - r-withr=2.1.2=r351h6115d3f_1000
-      - r-xfun=0.5=r351h6115d3f_0
+      - r-xfun=0.6=r351h6115d3f_0
+      - r-xml2=1.2.0=r351h29659fb_1002
       - r-xml=3.98_1.16=r351h96ca727_1000
       - r-xtable=1.8_3=r351_2000
       - r-yaml=2.2.0=r351h96ca727_1001
       - readline=7.0=hf8c457e_1001
       - sqlite=3.26.0=h67949de_1001
-      - tk=8.6.9=h84994c4_1000
+      - tk=8.6.9=h84994c4_1001
       - tktable=2.10=h14c3975_0
       - wget=1.20.1=h90d6eec_0
       - xorg-kbproto=1.0.7=h14c3975_1002
-      - xorg-libice=1.0.9=h14c3975_1004
-      - xorg-libsm=1.2.3=h4937e3b_1000
+      - xorg-libice=1.0.9=h516909a_1004
+      - xorg-libsm=1.2.3=h84519dc_1000
       - xorg-libx11=1.6.7=h14c3975_1000
       - xorg-libxau=1.0.9=h14c3975_0
-      - xorg-libxdmcp=1.1.2=h14c3975_1007
-      - xorg-libxext=1.3.3=h14c3975_1004
-      - xorg-libxrender=0.9.10=h14c3975_1002
+      - xorg-libxdmcp=1.1.3=h516909a_0
+      - xorg-libxext=1.3.4=h516909a_0
+      - xorg-libxrender=0.9.10=h516909a_1002
       - xorg-renderproto=0.11.1=h14c3975_1002
       - xorg-xextproto=7.3.0=h14c3975_1002
       - xorg-xproto=7.0.31=h14c3975_1007
@@ -428,12 +452,12 @@ env_specs:
       - jbig=2.1=0
       - jpeg=9b=0
       - libffi=3.2.1=1
-      - libgcc-ng=7.3.0=hdf63c60_0
+      - libgcc-ng=8.2.0=hdf63c60_1
       - libgcc=5.2.0=0
       - libgfortran=3.0.0=1
       - libiconv=1.14=0
       - libpng=1.6.28=1
-      - libstdcxx-ng=7.3.0=hdf63c60_0
+      - libstdcxx-ng=8.2.0=hdf63c60_1
       - libtiff=4.0.6=3
       - libxml2=2.9.4=0
       - ncurses=5.9=10

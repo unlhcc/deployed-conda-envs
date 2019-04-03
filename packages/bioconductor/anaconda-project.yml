@@ -332,4 +332,7 @@ env_specs:
     - xz=5.2.4
     - zlib=1.2.11
     - bioconductor-ccrepe=1.18.1=r351_0
+    - bioconductor-minfi=1.28.0=r351_0
+    - bioconductor-rnbeads=2.0.0=r351_0
+    - bioconductor-fdb.infiniummethylation.hg19=2.2.0=r351_4
     channels: []
