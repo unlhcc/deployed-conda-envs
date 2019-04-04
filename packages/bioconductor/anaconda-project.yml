@@ -335,4 +335,9 @@ env_specs:
     - bioconductor-minfi=1.28.0=r351_0
     - bioconductor-rnbeads=2.0.0=r351_0
     - bioconductor-fdb.infiniummethylation.hg19=2.2.0=r351_4
+    - bioconductor-rnbeads.hg19=1.14.0=r351_1
+    - bioconductor-rnbeads.hg38=1.14.0=r351_0
+    - bioconductor-rnbeads.mm10=1.14.0=r351_0
+    - bioconductor-rnbeads.mm9=1.14.0=r351_0
+    - bioconductor-rnbeads.rn5=1.14.0=r351_0
     channels: []
