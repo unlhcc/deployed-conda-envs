@@ -28,3 +28,7 @@ env_specs:
     packages:
     - mothur=1.41.0
     channels: []
+  mothur-1.41.3:
+    packages:
+    - mothur=1.41.3
+    channels: []
