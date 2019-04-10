@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   bioconductor-3.8:
     locked: true
-    env_spec_hash: 36d0a883b088c3d12324ed2aad49ec85aebd71e9
+    env_spec_hash: f53a006d4eb8d135a54c6fad2c86d8b953651cbd
     platforms:
     - linux-64
     packages:
@@ -76,6 +76,7 @@ env_specs:
       - bioconductor-gviz=1.26.4=r351_0
       - bioconductor-hdf5array=1.10.1=r351_0
       - bioconductor-heatmaps=1.6.0=r351_0
+      - bioconductor-hmmcopy=1.24.0=r351h14c3975_0
       - bioconductor-illuminaio=0.24.0=r351h14c3975_0
       - bioconductor-interactivedisplaybase=1.20.0=r351_0
       - bioconductor-iranges=2.16.0=r351h14c3975_0
@@ -288,7 +289,7 @@ env_specs:
       - r-plotrix=3.7_4=r351h6115d3f_0
       - r-plyr=1.8.4=r351h29659fb_1002
       - r-png=0.1_7=r351h96ca727_1002
-      - r-pracma=2.2.2=r351h6115d3f_0
+      - r-pracma=2.2.5=r351h6115d3f_0
       - r-prettyunits=1.0.2=r351h6115d3f_1001
       - r-progress=1.2.0=r351h6115d3f_1002
       - r-promises=1.0.1=r351h29659fb_1000
