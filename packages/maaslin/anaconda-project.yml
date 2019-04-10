@@ -25,8 +25,7 @@ description: MaAsLin is a multivariate statistical framework that finds associat
 platforms:
 - linux-64
 env_specs:
-  maaslin-0.05:
+  maaslin-0.0.5:
     packages:
-    - maaslin=0.05
-    - r-base=3.5
+    - maaslin=0.0.5
     channels: []
