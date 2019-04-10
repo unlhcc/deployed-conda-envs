@@ -30,5 +30,4 @@ env_specs:
   lefse-1.0.8:
     packages:
     - lefse=1.0.8.post1
-    - r-base=3.5
     channels: []
