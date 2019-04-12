@@ -1,0 +1,31 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: Minimap2
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: Minimap2 is a versatile sequence alignment program that aligns DNA or
+  mRNA sequences against a large reference database.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  minimap2-2.16:
+    packages:
+    - minimap2=2.16
+    channels: []
