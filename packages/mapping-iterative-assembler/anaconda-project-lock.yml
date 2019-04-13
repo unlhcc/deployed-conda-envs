@@ -1,0 +1,28 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  mapping-iterative-assembler-1.0:
+    locked: true
+    env_spec_hash: 416411a2ca64fb64dd1299ce29e86965e9b79fac
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - mapping-iterative-assembler=1.0=hf484d3e_0
