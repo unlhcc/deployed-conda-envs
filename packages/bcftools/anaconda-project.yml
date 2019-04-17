@@ -15,8 +15,6 @@ name: bcftools
 #
 description: "bcftools \u2014 utilities for variant calling and manipulating VCFs\
   \ and BCFs."
-
-
 #
 # In the platforms section, list platforms the project should work on
 # Examples: "linux-64", "osx-64", "win-64"
@@ -32,4 +30,8 @@ env_specs:
   bcftools-1.8:
     packages:
     - bcftools=1.8
+    channels: []
+  bcftools-1.9:
+    packages:
+    - bcftools=1.9
     channels: []
