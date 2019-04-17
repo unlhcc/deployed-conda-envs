@@ -23,19 +23,45 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - bcftools=1.8=1
-      - bzip2=1.0.6=1
-      - ca-certificates=2018.4.16=0
-      - curl=7.60.0=0
-      - krb5=1.14.6=0
-      - libdeflate=0.8=0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libgcc=7.2.0=h69d50b8_2
-      - libssh2=1.8.0=2
-      - libstdcxx-ng=7.2.0=hdf63c60_3
-      - openssl=1.0.2o=0
-      - xz=5.2.3=0
-      - zlib=1.2.11=0
+      - bcftools=1.8=h4da6232_3
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.3.9=hecc5488_0
+      - curl=7.64.1=hf8cf82a_0
+      - krb5=1.16.3=h05b26f9_1001
+      - libcurl=7.64.1=hda55be3_0
+      - libdeflate=1.2=h14c3975_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1b=h14c3975_1
+      - tk=8.6.9=h84994c4_1001
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
+  bcftools-1.9:
+    locked: true
+    env_spec_hash: 4d4311b68c93aff931acdda0ee2a414a526cfa29
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bcftools=1.9=ha228f0b_3
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.3.9=hecc5488_0
+      - curl=7.64.1=hf8cf82a_0
+      - krb5=1.16.3=h05b26f9_1001
+      - libcurl=7.64.1=hda55be3_0
+      - libdeflate=1.0=h14c3975_1
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1b=h14c3975_1
+      - tk=8.6.9=h84994c4_1001
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
   bcftools-1.3.1:
     locked: true
     env_spec_hash: 54745349d2115784efcae747239987a84e49632d
@@ -43,10 +69,6 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - bcftools=1.3.1=2
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libgcc=7.2.0=h69d50b8_2
-      - libstdcxx-ng=7.2.0=hdf63c60_3
-      - zlib=1.2.11=0
-
-
+      - bcftools=1.3.1=h84994c4_4
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - zlib=1.2.11=h14c3975_1004
