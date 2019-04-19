@@ -12,33 +12,7 @@ locking_enabled: true
 
 
 
-#
-# A key goes in here for each env spec.
-#
 env_specs:
-  bcftools-1.8:
-    locked: true
-    env_spec_hash: 30f5eecec1613be0dddff4661abab4e6b92056a8
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - bcftools=1.8=h4da6232_3
-      - bzip2=1.0.6=h14c3975_1002
-      - ca-certificates=2019.3.9=hecc5488_0
-      - curl=7.64.1=hf8cf82a_0
-      - krb5=1.16.3=h05b26f9_1001
-      - libcurl=7.64.1=hda55be3_0
-      - libdeflate=1.2=h14c3975_0
-      - libedit=3.1.20170329=hf8c457e_1001
-      - libgcc-ng=8.2.0=hdf63c60_1
-      - libssh2=1.8.2=h22169c7_2
-      - libstdcxx-ng=8.2.0=hdf63c60_1
-      - ncurses=6.1=hf484d3e_1002
-      - openssl=1.1.1b=h14c3975_1
-      - tk=8.6.9=h84994c4_1001
-      - xz=5.2.4=h14c3975_1001
-      - zlib=1.2.11=h14c3975_1004
   bcftools-1.9:
     locked: true
     env_spec_hash: 4d4311b68c93aff931acdda0ee2a414a526cfa29
@@ -59,6 +33,29 @@ env_specs:
       - libstdcxx-ng=8.2.0=hdf63c60_1
       - ncurses=6.1=hf484d3e_1002
       - openssl=1.1.1b=h14c3975_1
+      - tk=8.6.9=h84994c4_1001
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
+  bcftools-1.8:
+    locked: true
+    env_spec_hash: d31fbfe8404b09e327d0465a6c7c3dbd6659e86f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - bcftools=1.8=h4da6232_3
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.3.9=hecc5488_0
+      - curl=7.64.0=h646f8bb_0
+      - krb5=1.16.3=hc83ff2d_1000
+      - libcurl=7.64.0=h01ee5af_0
+      - libdeflate=1.2=h14c3975_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libssh2=1.8.0=h1ad7b7a_1003
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.0.2r=h14c3975_0
       - tk=8.6.9=h84994c4_1001
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h14c3975_1004
