@@ -16,9 +16,9 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  ucsc-twobittofa-v357-1:
+  ucsc-fatotwobit-377:
     locked: true
-    env_spec_hash: 583e449726e6b9f92fe0fa4617f3ec82c0c4d768
+    env_spec_hash: c8df887c9665ee62eb98d594f66c48930fdd09e9
     platforms:
     - linux-64
     packages:
@@ -30,21 +30,5 @@ env_specs:
       - libuuid=2.32.1=h14c3975_1000
       - mysql-connector-c=6.1.11=hd2bbab6_1003
       - openssl=1.1.1b=h14c3975_1
-      - ucsc-twobittofa=357=h35c10e6_3
-      - zlib=1.2.11=h14c3975_1004
-  ucsc-twobittofa-377:
-    locked: true
-    env_spec_hash: 055a909b9d8f693b74e4328756a5103de026ad7a
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - ca-certificates=2019.3.9=hecc5488_0
-      - libgcc-ng=8.2.0=hdf63c60_1
-      - libpng=1.6.37=hed695b0_0
-      - libstdcxx-ng=8.2.0=hdf63c60_1
-      - libuuid=2.32.1=h14c3975_1000
-      - mysql-connector-c=6.1.11=hd2bbab6_1003
-      - openssl=1.1.1b=h14c3975_1
-      - ucsc-twobittofa=377=h35c10e6_1
+      - ucsc-fatotwobit=377=h35c10e6_2
       - zlib=1.2.11=h14c3975_1004

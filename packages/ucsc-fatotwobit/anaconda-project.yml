@@ -8,7 +8,7 @@
 #
 # Set the 'name' key to name your project
 #
-name: ucsc-twobittofa
+name: ucsc-fatotwobit
 
 #
 # Set a one-sentence-or-so 'description' key with project details
@@ -24,11 +24,7 @@ description: A twoBit file is a highly efficient way to store genomic sequence.
 platforms:
 - linux-64
 env_specs:
-  ucsc-twobittofa-v357-1:
+  ucsc-fatotwobit-377:
     packages:
-    - ucsc-twobittofa=357
-    channels: []
-  ucsc-twobittofa-377:
-    packages:
-    - ucsc-twobittofa=377
+    - ucsc-fatotwobit=377
     channels: []
