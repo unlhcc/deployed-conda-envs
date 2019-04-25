@@ -1,0 +1,68 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  hisat2-2.1.0:
+    locked: true
+    env_spec_hash: f8016c6122f4428a8b4292f2cc329792800d297a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2019.3.9=hecc5488_0
+      - certifi=2019.3.9=py27_0
+      - hisat2=2.1.0=py27h6bb024c_3
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1b=h14c3975_1
+      - perl=5.26.2=h516909a_1006
+      - pip=19.1=py27_0
+      - python=2.7.15=h721da81_1008
+      - readline=7.0=hf8c457e_1001
+      - setuptools=41.0.1=py27_0
+      - sqlite=3.26.0=h67949de_1001
+      - tk=8.6.9=h84994c4_1001
+      - wheel=0.33.1=py27_0
+      - zlib=1.2.11=h14c3975_1004
+  hisat2-2.0.5:
+    locked: true
+    env_spec_hash: dc0401c4b997be231b8e270a5f6c3dd34354ca59
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2019.3.9=hecc5488_0
+      - certifi=2019.3.9=py36_0
+      - hisat2=2.0.5=py36pl5.22.0_2
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libgcc=7.2.0=h69d50b8_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1b=h14c3975_1
+      - perl=5.22.0.1=0
+      - pip=19.1=py36_0
+      - python=3.6.7=h381d211_1004
+      - readline=7.0=hf8c457e_1001
+      - setuptools=41.0.1=py36_0
+      - sqlite=3.26.0=h67949de_1001
+      - tk=8.6.9=h84994c4_1001
+      - wheel=0.33.1=py36_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
