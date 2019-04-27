@@ -29,6 +29,4 @@ env_specs:
   lyve-set-2.0.1:
     packages:
     - lyve-set=2.0.1
-    - perl=5.26
-    - perl-bioperl=1.7.2
     channels: []
