@@ -342,4 +342,5 @@ env_specs:
     - bioconductor-rnbeads.rn5=1.14.0=r351_0
     - r-rpmm=1.25=r351h6115d3f_1000
     - bioconductor-hmmcopy=1.24.0
+    - bioconductor-triform=1.24.0=r351_0
     channels: []
