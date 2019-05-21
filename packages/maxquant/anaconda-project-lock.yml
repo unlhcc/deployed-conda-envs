@@ -1,0 +1,31 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  maxquant-1.6.6.0:
+    locked: true
+    env_spec_hash: 93f7391df56f66a32cc5201a87e046e749d9a28c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - gettext=0.19.8.1=hc5be6a0_1002
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - maxquant=1.6.6.0=0
+      - mono=5.14.0.177=hf484d3e_1000
