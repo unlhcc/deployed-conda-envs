@@ -15,8 +15,6 @@ name: GATK4
 #
 description: 'GATK4: This toolkit offers a wide variety of tools with a primary focus
   on variant discovery and genotyping.'
-
-
 #
 # In the platforms section, list platforms the project should work on
 # Examples: "linux-64", "osx-64", "win-64"
@@ -25,6 +23,11 @@ description: 'GATK4: This toolkit offers a wide variety of tools with a primary 
 platforms:
 - linux-64
 env_specs:
+  gatk4-4.1.2.0:
+    packages:
+    - gatk4=4.1.2.0
+    channels: []
   gatk4-4.0.4.0:
-    packages: [gatk4=4.0.4.0]
+    packages:
+    - gatk4=4.0.4.0
     channels: []
