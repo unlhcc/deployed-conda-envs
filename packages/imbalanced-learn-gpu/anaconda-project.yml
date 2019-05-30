@@ -23,12 +23,12 @@ description: package description
 platforms:
 - linux-64
 env_specs:
-  imbalanced-learn-gpu-0.43-py37:
+  imbalanced-learn-gpu-0.4.3-py36:
     packages:
     - imbalanced-learn=0.4.3
     - tensorflow-gpu=1.13.1
     - keras-gpu=2.2.4
-    - python=3.7
+    - python=3.6
     - scipy
     - matplotlib
     - scikit-learn
@@ -38,12 +38,12 @@ env_specs:
     - cudatoolkit=9.2
     channels:
     - defaults
-  imbalanced-learn-gpu-0.43-py36:
+  imbalanced-learn-gpu-0.4.3-py37:
     packages:
     - imbalanced-learn=0.4.3
     - tensorflow-gpu=1.13.1
     - keras-gpu=2.2.4
-    - python=3.6
+    - python=3.7
     - scipy
     - matplotlib
     - scikit-learn
