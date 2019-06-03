@@ -1,0 +1,46 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  midnight-commander-4.8.22:
+    locked: true
+    env_spec_hash: 509b391ab8cb6c2951b489aef2164f41093270ef
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - ca-certificates=2019.3.9=hecc5488_0
+      - gettext=0.19.8.1=hc5be6a0_1002
+      - glib=2.58.3=hf63aee3_1001
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libiconv=1.15=h516909a_1005
+      - libpng=1.6.37=hed695b0_0
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - midnight-commander=4.8.22=hea9141b_0
+      - ncurses=6.1=hf484d3e_1002
+      - oniguruma=6.9.2=h516909a_0
+      - openssl=1.1.1b=h14c3975_1
+      - pcre=8.41=hf484d3e_1003
+      - readline=7.0=hf8c457e_1001
+      - slang=2.3.2=hbb9399a_1000
+      - unzip=6.0=0
+      - zip=3.0=0
+      - zlib=1.2.11=h14c3975_1004
+
+
