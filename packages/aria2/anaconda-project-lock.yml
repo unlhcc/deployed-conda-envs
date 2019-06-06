@@ -24,20 +24,18 @@ env_specs:
     packages:
       linux-64:
       - aria2=1.23.0=1
-      - c-ares=1.11.0=0
-      - ca-certificates=2018.4.16=0
-      - icu=58.2=0
-      - libgcc-ng=7.2.0=hdf63c60_3
+      - c-ares=1.15.0=h14c3975_1001
+      - ca-certificates=2019.3.9=hecc5488_0
+      - icu=58.2=hf484d3e_1000
+      - libgcc-ng=8.2.0=hdf63c60_1
       - libgcc=7.2.0=h69d50b8_2
-      - libiconv=1.15=0
-      - libssh2=1.8.0=2
-      - libstdcxx-ng=7.2.0=hdf63c60_3
-      - libxml2=2.9.8=0
-      - ncurses=5.9=10
-      - openssl=1.0.2o=0
-      - readline=7.0=0
-      - sqlite=3.22.0=0
-      - xz=5.2.3=0
-      - zlib=1.2.11=0
-
-
+      - libiconv=1.15=h516909a_1005
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - libxml2=2.9.9=h13577e0_0
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1b=h14c3975_1
+      - readline=7.0=hf8c457e_1001
+      - sqlite=3.28.0=h8b20d00_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004

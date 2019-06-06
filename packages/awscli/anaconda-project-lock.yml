@@ -23,33 +23,34 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - awscli=1.15.8=py35_0
+      - awscli=1.15.8=py36_1
       - botocore=1.10.8=py_0
-      - ca-certificates=2018.4.16=0
-      - certifi=2018.4.16=py35_0
-      - colorama=0.3.6=py35_0
-      - docutils=0.14=py35_0
-      - jmespath=0.9.3=py35_0
-      - ncurses=5.9=10
-      - openssl=1.0.2o=0
-      - pip=9.0.3=py35_0
-      - pyasn1=0.4.2=py_0
-      - python-dateutil=2.3=py35_0
-      - python=3.5.5=1
-      - pyyaml=3.11=py35_0
-      - readline=7.0=0
-      - rsa=3.1.4=py35_0
-      - s3transfer=0.1.13=py35_0
-      - setuptools=39.0.1=py35_0
-      - six=1.11.0=py35_1
-      - sqlite=3.20.1=2
-      - tk=8.6.7=0
-      - wheel=0.31.0=py35_0
-      - xz=5.2.3=0
-      - yaml=0.1.7=0
-      - zlib=1.2.11=0
-
-
+      - ca-certificates=2019.3.9=hecc5488_0
+      - certifi=2019.3.9=py36_0
+      - colorama=0.3.7=py36_0
+      - docutils=0.14=py36_1001
+      - jmespath=0.9.4=py_0
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1b=h14c3975_1
+      - pip=19.1.1=py36_0
+      - pyasn1=0.4.5=py_0
+      - python-dateutil=2.8.0=py_0
+      - python=3.6.7=h381d211_1004
+      - pyyaml=3.12=py36_1
+      - readline=7.0=hf8c457e_1001
+      - rsa=3.4.2=py_1
+      - s3transfer=0.1.13=py36_1001
+      - setuptools=41.0.1=py36_0
+      - six=1.12.0=py36_1000
+      - sqlite=3.28.0=h8b20d00_0
+      - tk=8.6.9=hed695b0_1002
+      - wheel=0.33.4=py36_0
+      - xz=5.2.4=h14c3975_1001
+      - yaml=0.1.7=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
   awscli-1.11.120:
     locked: true
     env_spec_hash: 6c7e6539b7788b2aa7da81c459141f392591f40b
@@ -57,28 +58,31 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - awscli=1.11.120=py35_0
-      - botocore=1.5.83=py35_0
-      - ca-certificates=2018.4.16=0
-      - certifi=2018.4.16=py35_0
-      - colorama=0.3.7=py35_0
-      - docutils=0.14=py35_0
-      - jmespath=0.9.3=py35_0
-      - ncurses=5.9=10
-      - openssl=1.0.2o=0
-      - pip=9.0.3=py35_0
-      - pyasn1=0.4.2=py_0
-      - python-dateutil=2.3=py35_0
-      - python=3.5.5=1
-      - pyyaml=3.12=py35_1
-      - readline=7.0=0
-      - rsa=3.1.4=py35_0
-      - s3transfer=0.1.13=py35_0
-      - setuptools=39.0.1=py35_0
-      - six=1.11.0=py35_1
-      - sqlite=3.20.1=2
-      - tk=8.6.7=0
-      - wheel=0.31.0=py35_0
-      - xz=5.2.3=0
-      - yaml=0.1.7=0
-      - zlib=1.2.11=0
+      - awscli=1.11.120=py36_0
+      - botocore=1.5.83=py36_0
+      - ca-certificates=2019.3.9=hecc5488_0
+      - certifi=2019.3.9=py36_0
+      - colorama=0.3.7=py36_0
+      - docutils=0.14=py36_1001
+      - jmespath=0.9.4=py_0
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1b=h14c3975_1
+      - pip=19.1.1=py36_0
+      - pyasn1=0.4.5=py_0
+      - python-dateutil=2.8.0=py_0
+      - python=3.6.7=h381d211_1004
+      - pyyaml=3.12=py36_1
+      - readline=7.0=hf8c457e_1001
+      - rsa=3.4.2=py_1
+      - s3transfer=0.1.13=py36_1001
+      - setuptools=41.0.1=py36_0
+      - six=1.12.0=py36_1000
+      - sqlite=3.28.0=h8b20d00_0
+      - tk=8.6.9=hed695b0_1002
+      - wheel=0.33.4=py36_0
+      - xz=5.2.4=h14c3975_1001
+      - yaml=0.1.7=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
