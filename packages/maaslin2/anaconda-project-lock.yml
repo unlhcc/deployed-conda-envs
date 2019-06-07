@@ -52,8 +52,8 @@ env_specs:
       - icu=58.2=hf484d3e_1000
       - jpeg=9c=h14c3975_1001
       - krb5=1.16.3=h05b26f9_1001
-      - libblas=3.8.0=9_openblas
-      - libcblas=3.8.0=9_openblas
+      - libblas=3.8.0=7_openblas
+      - libcblas=3.8.0=7_openblas
       - libcurl=7.64.1=hda55be3_0
       - libedit=3.1.20170329=hf8c457e_1001
       - libffi=3.2.1=he1b5a44_1006
@@ -63,14 +63,15 @@ env_specs:
       - libpng=1.6.37=hed695b0_0
       - libssh2=1.8.2=h22169c7_2
       - libstdcxx-ng=8.2.0=hdf63c60_1
-      - libtiff=4.0.10=h648cc4a_1001
+      - libtiff=4.0.10=h57b8799_1003
       - libuuid=2.32.1=h14c3975_1000
       - libxcb=1.13=h14c3975_1002
       - libxml2=2.9.9=h13577e0_0
+      - lz4-c=1.8.3=he1b5a44_1001
       - maaslin2=0.3.0=r351_0
       - make=4.2.1=h14c3975_2004
       - ncurses=6.1=hf484d3e_1002
-      - openblas=0.3.6=h6e990d7_2
+      - openblas=0.3.5=h9ac9557_1001
       - openssl=1.1.1b=h14c3975_1
       - pango=1.40.14=h4ea9474_1004
       - pcre=8.41=hf484d3e_1003
@@ -102,7 +103,7 @@ env_specs:
       - r-data.table=1.12.2=r351hcdcec82_0
       - r-dbi=1.0.0=r351h6115d3f_1001
       - r-deoptimr=1.0_8=r351h6115d3f_1001
-      - r-digest=0.6.18=r351h96ca727_1000
+      - r-digest=0.6.19=r351h0357c0b_0
       - r-dplyr=0.8.1=r351h0357c0b_0
       - r-e1071=1.7_0=r351h29659fb_1000
       - r-ellipsis=0.1.0=r351h96ca727_0
@@ -143,7 +144,7 @@ env_specs:
       - r-mumin=1.43.6=r351h6115d3f_0
       - r-munsell=0.5.0=r351h6115d3f_1001
       - r-mvtnorm=1.0_10=r351h9bbef5b_0
-      - r-nlme=3.1_139=r351h9bbef5b_0
+      - r-nlme=3.1_140=r351h9bbef5b_0
       - r-nloptr=1.2.1=r351h29659fb_0
       - r-nnet=7.3_12=r351h96ca727_1002
       - r-numderiv=2016.8_1=r351h6115d3f_1001
@@ -154,16 +155,16 @@ env_specs:
       - r-pcapp=1.9_73=r351h29659fb_1000
       - r-permute=0.9_5=r351_0
       - r-pheatmap=1.0.12=r351h6115d3f_0
-      - r-pillar=1.4.0=h6115d3f_0
+      - r-pillar=1.4.1=h6115d3f_0
       - r-pkgconfig=2.0.2=r351h6115d3f_1001
       - r-plogr=0.2.0=r351h6115d3f_1001
       - r-pls=2.7_0=r351h6115d3f_1000
       - r-plyr=1.8.4=r351h29659fb_1002
       - r-prettyunits=1.0.2=r351h6115d3f_1001
-      - r-progress=1.2.1=r351h6115d3f_0
+      - r-progress=1.2.2=r351h6115d3f_0
       - r-pscl=1.5.2=r351h14c3975_1002
       - r-purrr=0.3.2=r351hcdcec82_0
-      - r-quantreg=5.38=r351ha65eedd_1000
+      - r-quantreg=5.40=r35h9bbef5b_0
       - r-r6=2.4.0=r351h6115d3f_0
       - r-rcolorbrewer=1.1_2=r351h6115d3f_1001
       - r-rcpp=1.0.1=r351h0357c0b_0
@@ -180,10 +181,10 @@ env_specs:
       - r-som=0.3_5.1=r351hf484d3e_1002
       - r-sp=1.3_1=r351h96ca727_1000
       - r-sparsem=1.77=r351ha65eedd_1001
-      - r-statmod=1.4.30=r351h9ac9557_1002
+      - r-statmod=1.4.32=r35h6e990d7_0
       - r-stringi=1.4.3=r351h0357c0b_0
       - r-stringr=1.4.0=r351h6115d3f_0
-      - r-tibble=2.1.1=r351hcdcec82_0
+      - r-tibble=2.1.3=r35hcdcec82_0
       - r-tidyselect=0.2.5=r351h29659fb_1000
       - r-tweedie=2.3.2=r351h9bbef5b_0
       - r-utf8=1.1.4=r351h96ca727_1000
@@ -194,7 +195,7 @@ env_specs:
       - r-zeallot=0.1.0=r351h6115d3f_1000
       - r-zip=2.0.1=r351hcdcec82_0
       - readline=7.0=hf8c457e_1001
-      - tk=8.6.9=h84994c4_1001
+      - tk=8.6.9=hed695b0_1002
       - tktable=2.10=h14c3975_0
       - xorg-kbproto=1.0.7=h14c3975_1002
       - xorg-libice=1.0.9=h516909a_1004
@@ -209,3 +210,4 @@ env_specs:
       - xorg-xproto=7.0.31=h14c3975_1007
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h14c3975_1004
+      - zstd=1.4.0=h3b9ef0a_0

@@ -23,22 +23,30 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - bzip2=1.0.6=1
-      - ca-certificates=2018.4.16=0
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.3.9=hecc5488_0
       - cmake=3.5.0=5
-      - curl=7.60.0=0
-      - expat=2.2.5=0
-      - jsoncpp=1.8.1=h2d50403_1
-      - krb5=1.14.6=0
-      - libarchive=3.3.2=0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libiconv=1.15=0
-      - libssh2=1.8.0=2
-      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - curl=7.64.1=hf8cf82a_0
+      - expat=2.2.5=hf484d3e_1002
+      - icu=58.2=hf484d3e_1000
+      - jsoncpp=1.8.4=h6bb024c_1001
+      - krb5=1.16.3=h05b26f9_1001
+      - libarchive=3.3.3=hb44662c_1005
+      - libcurl=7.64.1=hda55be3_0
+      - libedit=3.1.20170329=0
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libiconv=1.15=h516909a_1005
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - libxml2=2.9.9=h13577e0_0
+      - lz4-c=1.8.3=he1b5a44_1001
+      - lzo=2.10=h14c3975_1000
       - ncurses=5.9=10
-      - openssl=1.0.2o=0
-      - xz=5.2.3=0
-      - zlib=1.2.11=h470a237_3
+      - openssl=1.1.1b=h14c3975_1
+      - tk=8.6.9=hed695b0_1002
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
+      - zstd=1.4.0=h3b9ef0a_0
   cmake-3.7:
     locked: true
     env_spec_hash: 9ee0585eb047d4b6a1daaaa9dc9df8d9a29f6c08
@@ -46,23 +54,31 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - bzip2=1.0.6=1
-      - ca-certificates=2018.4.16=0
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.3.9=hecc5488_0
       - cmake=3.7.1=4
-      - curl=7.60.0=0
-      - expat=2.2.5=0
-      - jsoncpp=1.8.1=h2d50403_1
-      - krb5=1.14.6=0
-      - libarchive=3.3.2=0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libiconv=1.15=0
-      - libssh2=1.8.0=2
-      - libstdcxx-ng=7.2.0=hdf63c60_3
-      - libuv=1.20.3=0
+      - curl=7.64.1=hf8cf82a_0
+      - expat=2.2.5=hf484d3e_1002
+      - icu=58.2=hf484d3e_1000
+      - jsoncpp=1.8.4=h6bb024c_1001
+      - krb5=1.16.3=h05b26f9_1001
+      - libarchive=3.3.3=hb44662c_1005
+      - libcurl=7.64.1=hda55be3_0
+      - libedit=3.1.20170329=0
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libiconv=1.15=h516909a_1005
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - libuv=1.29.1=h516909a_0
+      - libxml2=2.9.9=h13577e0_0
+      - lz4-c=1.8.3=he1b5a44_1001
+      - lzo=2.10=h14c3975_1000
       - ncurses=5.9=10
-      - openssl=1.0.2o=0
-      - xz=5.2.3=0
-      - zlib=1.2.11=h470a237_3
+      - openssl=1.1.1b=h14c3975_1
+      - tk=8.6.9=hed695b0_1002
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
+      - zstd=1.4.0=h3b9ef0a_0
   cmake-3.10:
     locked: true
     env_spec_hash: db3a844959965e82dfc289e70a5a1d13fc6147cf
@@ -70,20 +86,24 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - bzip2=1.0.6=1
-      - ca-certificates=2018.4.16=0
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.3.9=hecc5488_0
       - cmake=3.10.3=0
-      - curl=7.60.0=0
-      - expat=2.2.5=0
-      - krb5=1.14.6=0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libssh2=1.8.0=2
-      - libuv=1.20.3=0
+      - curl=7.64.1=hf8cf82a_0
+      - expat=2.2.5=hf484d3e_1002
+      - krb5=1.16.3=h05b26f9_1001
+      - libcurl=7.64.1=hda55be3_0
+      - libedit=3.1.20170329=0
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - libuv=1.29.1=h516909a_0
       - ncurses=5.9=10
-      - openssl=1.0.2o=0
-      - rhash=1.3.4=0
-      - xz=5.2.3=0
-      - zlib=1.2.11=h470a237_3
+      - openssl=1.1.1b=h14c3975_1
+      - rhash=1.3.6=h14c3975_1001
+      - tk=8.6.9=hed695b0_1002
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
   cmake-3.11:
     locked: true
     env_spec_hash: e1918aaaa5991a8377f6634a1b906fd93e0f4cca
@@ -91,20 +111,24 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - bzip2=1.0.6=1
-      - ca-certificates=2018.4.16=0
-      - cmake=3.11.3=0
-      - curl=7.60.0=0
-      - expat=2.2.5=0
-      - krb5=1.14.6=0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libssh2=1.8.0=2
-      - libuv=1.20.3=0
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.3.9=hecc5488_0
+      - cmake=3.11.4=0
+      - curl=7.64.1=hf8cf82a_0
+      - expat=2.2.5=hf484d3e_1002
+      - krb5=1.16.3=h05b26f9_1001
+      - libcurl=7.64.1=hda55be3_0
+      - libedit=3.1.20170329=0
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - libuv=1.29.1=h516909a_0
       - ncurses=5.9=10
-      - openssl=1.0.2o=0
-      - rhash=1.3.4=0
-      - xz=5.2.3=0
-      - zlib=1.2.11=h470a237_3
+      - openssl=1.1.1b=h14c3975_1
+      - rhash=1.3.6=h14c3975_1001
+      - tk=8.6.9=hed695b0_1002
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h14c3975_1004
   cmake-2.8:
     locked: true
     env_spec_hash: 130fad1fdb876386c5492eae24f594b566ade812
@@ -113,5 +137,3 @@ env_specs:
     packages:
       linux-64:
       - cmake=2.8.10.2=0
-
-

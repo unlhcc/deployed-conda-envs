@@ -23,18 +23,20 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - ca-certificates=2018.4.16=0
-      - expat=2.2.5=0
+      - ca-certificates=2019.3.9=hecc5488_0
+      - expat=2.2.5=hf484d3e_1002
       - git=2.17.0=pl526hb75a9fb_0
-      - libcurl=7.59.0=h1ad7b7a_0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libssh2=1.8.0=2
-      - openssl=1.0.2o=0
-      - perl=5.22.2.1=0
-      - tk=8.6.7=0
-      - zlib=1.2.11=0
-
-
+      - krb5=1.16.3=hc83ff2d_1000
+      - libcurl=7.64.0=h01ee5af_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libssh2=1.8.0=h1ad7b7a_1003
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.0.2r=h14c3975_0
+      - perl=5.26.2=h516909a_1006
+      - tk=8.6.9=hed695b0_1002
+      - zlib=1.2.11=h14c3975_1004
   git-2.7.4:
     locked: true
     env_spec_hash: 179e289b68c59bc503cc82885d168f77eac793b7
@@ -42,12 +44,17 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - ca-certificates=2018.4.16=0
-      - curl=7.60.0=0
-      - expat=2.2.5=0
+      - ca-certificates=2019.3.9=hecc5488_0
+      - curl=7.64.1=hf8cf82a_0
+      - expat=2.2.5=hf484d3e_1002
       - git=2.7.4=0
-      - krb5=1.14.6=0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libssh2=1.8.0=2
-      - openssl=1.0.2o=0
-      - zlib=1.2.11=h470a237_3
+      - krb5=1.16.3=h05b26f9_1001
+      - libcurl=7.64.1=hda55be3_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=8.2.0=hdf63c60_1
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1b=h14c3975_1
+      - tk=8.6.9=hed695b0_1002
+      - zlib=1.2.11=h14c3975_1004

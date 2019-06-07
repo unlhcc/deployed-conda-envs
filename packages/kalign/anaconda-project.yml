@@ -27,5 +27,5 @@ platforms:
 env_specs:
   kalign-2.0:
     packages:
-    - kalign=2.0
+    - kalign2=2.04
     channels: []
