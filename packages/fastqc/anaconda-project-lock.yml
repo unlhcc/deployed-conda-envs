@@ -23,8 +23,8 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - fastqc=0.11.7=pl5.22.0_1
-      - openjdk=8.0.121=1
-      - perl=5.22.0.1=0
-
-
+      - fastqc=0.11.7=5
+      - libgcc-ng=8.2.0=hdf63c60_1
+      - openjdk=11.0.1=h516909a_1016
+      - perl=5.26.2=h516909a_1006
+      - zlib=1.2.11=h14c3975_1004
