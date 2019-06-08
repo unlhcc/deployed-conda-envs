@@ -28,8 +28,10 @@ env_specs:
   r-ggfortify-0.4.1:
     packages:
     - r-ggfortify=0.4.1
+    - r=3.3
     channels: []
   r-ggfortify-0.4.3:
     packages:
     - r-ggfortify=0.4.3
+    - r=3.3
     channels: []

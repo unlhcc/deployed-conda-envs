@@ -29,11 +29,3 @@ env_specs:
     packages:
     - r-spp=1.15.2
     channels: []
-  r-spp-1.13:
-    packages:
-    - r-spp=1.13
-    channels: []
-  r-spp-1.11:
-    packages:
-    - r-spp=1.11
-    channels: []

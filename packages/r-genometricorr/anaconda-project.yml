@@ -28,4 +28,5 @@ env_specs:
   r-genometricorr-1.1.17:
     packages:
     - r-genometricorr
+    - r=3.3
     channels: []
