@@ -28,4 +28,5 @@ env_specs:
   perl-bioperl-1.6.924:
     packages:
     - perl-bioperl=1.6.924
+    - perl=5.22
     channels: []

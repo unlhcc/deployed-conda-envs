@@ -27,5 +27,6 @@ platforms:
 env_specs:
   r-markdown-0.8:
     packages:
+    - r-base=3.4
     - r-markdown=0.8
     channels: []

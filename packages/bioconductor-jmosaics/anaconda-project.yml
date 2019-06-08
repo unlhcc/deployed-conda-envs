@@ -27,4 +27,5 @@ env_specs:
   bioconductor-jmosaics-1.10.0:
     packages:
     - bioconductor-jmosaics=1.10.0
+    - r=3.4
     channels: []
