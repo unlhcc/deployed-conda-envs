@@ -27,18 +27,21 @@ description: BUSCO v3 provides quantitative measures for the assessment of genom
 platforms:
 - linux-64
 env_specs:
-  busco-3.0.2-py27:
+  busco-3.0.2-py36:
     packages:
     - busco=3.0.2
-    - python=2.7
+    - python=3.6
+    - augustus=3.3.2
     channels: []
   busco-3.0.2-py35:
     packages:
     - busco=3.0.2
     - python=3.5
+    - augustus=3.3.2
     channels: []
-  busco-3.0.2-py36:
+  busco-3.0.2-py27:
     packages:
     - busco=3.0.2
-    - python=3.6
+    - python=2.7
+    - augustus=3.3.2
     channels: []
