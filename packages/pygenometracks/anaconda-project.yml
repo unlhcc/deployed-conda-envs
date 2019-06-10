@@ -13,7 +13,7 @@ name: pyGenomeTracks
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: pyGenomeTracks aims to produce high-quality genome browser tracks that
+description: pyGenomeTracks aims to produce high-quality genome browser tracks that 
   are highly customizable.
 
 
@@ -26,6 +26,7 @@ platforms:
 - linux-64
 env_specs:
   pygenometracks-2.0:
-    channels: []
     packages:
     - pygenometracks=2.0
+    - python=3.5
+    channels: []
