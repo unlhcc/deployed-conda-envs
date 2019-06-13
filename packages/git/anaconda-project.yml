@@ -32,3 +32,7 @@ env_specs:
     packages:
     - git=2.7.4
     channels: []
+  git-2.22.0:
+    packages:
+    - git=2.22.0
+    channels: []
