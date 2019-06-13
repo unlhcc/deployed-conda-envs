@@ -40,3 +40,15 @@ env_specs:
       - perl=5.20.3.1=2
 
 
+  automake-1.16.1:
+    locked: true
+    env_spec_hash: a610465d4bf193fcba9526885cd0dec4e0efe04f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - autoconf=2.69=pl526h14c3975_9
+      - automake=1.16.1=pl526_1003
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - m4=1.4.18=h14c3975_1001
+      - perl=5.26.2=h516909a_1006
