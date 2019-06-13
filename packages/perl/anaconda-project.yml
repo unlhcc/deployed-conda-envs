@@ -29,8 +29,23 @@ env_specs:
     - perl=5.22.0
     - perl-tie-ixhash
     channels: []
-  perl-5.26.0:
+  perl-5.26.2:
     packages:
-    - perl=5.26.0
+    - perl=5.26.2
+    - perl-dbi
+    - perl-json
+    - perl-lwp-simple
+    - perl-datetime
+    - perl-xml-simple
+    - perl-text-csv
+    - perl-spreadsheet-writeexcel
+    - perl-dbd-mysql
+    - perl-www-mechanize
+    - perl-excel-writer-xlsx
+    - perl-net-http
+    - perl-net-ftp
+    - perl-spreadsheet-parseexcel
+    - perl-io-socket-ssl
+    - perl-logger-simple
     channels: []
 packages: []
