@@ -43,3 +43,7 @@ env_specs:
     packages:
     - cmake=3.11
     channels: []
+  cmake-3.14.5:
+    packages:
+    - cmake=3.14.5
+    channels: []
