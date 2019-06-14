@@ -1,0 +1,32 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: MLST
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: Scan contig files against traditional PubMLST typing schemes.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  mlst-2.16.2:
+    packages:
+    - mlst=2.16.2
+    - python=3.7
+    - perl=5.26.2
+    channels: []
