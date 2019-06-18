@@ -43,5 +43,11 @@ env_specs:
     - gdal=2.3.2
     - mro-tidyverse=1.2.1
     channels: []
+  mro-3.5.3:
+    packages:
+    - mro=3.5.3
+    - mro-tidyverse=1.2.1
+    - mro-data.table=1.12.0
+    channels: []
 commands: {}
 packages: []
