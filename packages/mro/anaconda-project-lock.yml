@@ -353,7 +353,7 @@ env_specs:
       - libxml2=2.9.9=h13577e0_0
       - mro-data.table=1.12.0=hea48b3e_2
       - mro-tidyverse=1.2.1=haa82b63_3
-      - mro=3.5.3=hac17e6a_1
+      - mro=3.5.3=hac17e6a_2
       - ncurses=5.9=10
       - openssl=1.1.1b=h14c3975_1
       - pango=1.40.14=h4ea9474_1004
