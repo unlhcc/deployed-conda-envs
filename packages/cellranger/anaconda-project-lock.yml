@@ -1,0 +1,126 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  cellranger-3.0.2:
+    locked: true
+    env_spec_hash: 830313e3ec9be8de34311498a55b5c59f3ba135c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - asn1crypto=0.24.0=py27_1003
+      - attrs=19.1.0=py_0
+      - bcftools=1.9=ha228f0b_4
+      - bcl2fastq2=2.20.0.422=hac72e42_0
+      - bedtools=2.27.1=he860b03_3
+      - bitstring=3.1.5=py27_1
+      - blas=1.0=mkl
+      - blosc=1.14.4=hf484d3e_1000
+      - bz2file=0.98=py_0
+      - bzip2=1.0.6=h14c3975_1002
+      - ca-certificates=2019.6.16=hecc5488_0
+      - cellranger=3.0.2=py27_0
+      - certifi=2019.6.16=py27_0
+      - cffi=1.12.3=py27h8022711_0
+      - cryptography=2.7=py27h72c5cf5_0
+      - curl=7.64.1=hf8cf82a_0
+      - cutadapt=1.16=py27_2
+      - cython=0.28.2=py27_0
+      - docopt=0.6.2=py_1
+      - enum34=1.1.6=py27_1001
+      - et_xmlfile=1.0.1=py_1001
+      - funcsigs=1.0.2=py_3
+      - future=0.16.0=py27_1002
+      - h5py=2.8.0=py27h470a237_0
+      - hdf5=1.10.1=2
+      - htslib=1.7=0
+      - icu=58.2=hf484d3e_1000
+      - idna=2.8=py27_1000
+      - illuminate=0.6.3=py27_0
+      - intel-openmp=2019.4=243
+      - ipaddress=1.0.18=py27_0
+      - jdcal=1.4.1=py_0
+      - jinja2=2.10.1=py_0
+      - krb5=1.16.3=h05b26f9_1001
+      - libboost=1.67.0=h46d08c1_4
+      - libcurl=7.64.1=hda55be3_0
+      - libdeflate=1.0=h14c3975_1
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.3.0=hdf63c60_0
+      - libgfortran=3.0.0=1
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - linecache2=1.0.0=py_1
+      - lz4-c=1.8.3=he1b5a44_1001
+      - lz4=2.1.9=py27hd79334b_0
+      - lzo=2.10=h14c3975_1000
+      - markupsafe=1.1.1=py27h14c3975_0
+      - martian=3.2.2=py27_1
+      - mkl=2018.0.3=1
+      - mkl_fft=1.0.10=py27_0
+      - mkl_random=1.0.2=py27_0
+      - more-itertools=4.3.0=py27_1000
+      - ncurses=6.1=hf484d3e_1002
+      - nodejs=11.14.0=he1b5a44_1
+      - numexpr=2.6.8=py27h637b7d7_1000
+      - numpy-base=1.15.4=py27h81de0dd_0
+      - numpy=1.15.4=py27h1d66e8a_0
+      - openpyxl=1.8.6=py27_0
+      - openssl=1.1.1b=h14c3975_1
+      - packaging=16.8=py27_0
+      - pandas=0.24.2=py27hb3f55d8_0
+      - pigz=2.3.4=0
+      - pip=19.1.1=py27_0
+      - pluggy=0.6.0=py_0
+      - py=1.8.0=py_0
+      - pybedtools=0.7.10=py27ha92aebf_3
+      - pycparser=2.19=py27_1
+      - pyfasta=0.5.2=py27_0
+      - pyopenssl=17.0.0=py27_0
+      - pyparsing=2.4.0=py_0
+      - pysam=0.14.1=py27hae42fb6_1
+      - pytables=3.4.3=py27_8
+      - pytest=3.5.1=py27_0
+      - python-dateutil=2.8.0=py_0
+      - python=2.7.15=h721da81_1008
+      - pytz=2019.1=py_0
+      - pyvcf=0.6.8=py27_1000
+      - readline=7.0=hf8c457e_1001
+      - samtools=1.7=1
+      - scikit-learn=0.19.1=py27hedc7406_0
+      - scipy=1.1.0=py27hfa4b5c9_1
+      - setuptools=41.0.1=py27_0
+      - six=1.12.0=py27_1000
+      - snappy=1.1.7=he1b5a44_1002
+      - sqlite=3.28.0=h8b20d00_0
+      - star=2.7.1a=0
+      - tk=8.6.9=hed695b0_1002
+      - traceback2=1.4.0=py27_0
+      - tsne=0.1.8=py27h60f5b57_0
+      - unittest2=1.1.0=py_0
+      - wheel=0.33.4=py27_0
+      - xmltodict=0.12.0=py_0
+      - xopen=0.3.5=py_0
+      - xz=5.2.4=h14c3975_1001
+      - yaml=0.1.6=0
+      - zlib=1.2.11=h14c3975_1004
+
+
