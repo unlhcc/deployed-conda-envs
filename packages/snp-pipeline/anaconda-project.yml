@@ -36,3 +36,19 @@ env_specs:
     - snp-pipeline=0.7.0
     - varscan
     channels: []
+  snp-pipeline-2.0.2:
+    packages:
+    - snp-pipeline=2.0.2
+    - bowtie2=2.3.4.1
+    - smalt=0.7.6
+    - samtools=1.8
+    - picard=2.18.4
+    - gatk=3.8
+    - varscan=2.3
+    - bcftools=1.8
+    - sra-tools=2.8.1
+    - htslib=1.8
+    - r-base=3.5.1
+    - python=3.6
+    - perl=5.26
+    channels: []
