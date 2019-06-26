@@ -232,7 +232,7 @@ env_specs:
     - r-scales=1.0.0
     - r-rsqlite=2.1.1
     - r-rpart=4.1_13
-    - r-rlang=0.3.1
+    - r-rlang=0.3.4
     - r-rjson=0.2.20
     - r-reshape2=1.4.3
     - r-rcurl=1.95_4.11
@@ -343,4 +343,5 @@ env_specs:
     - r-rpmm=1.25=r351h6115d3f_1000
     - bioconductor-hmmcopy=1.24.0
     - bioconductor-triform=1.24.0=r351_0
+    - bioconductor-snpstats=1.32.0
     channels: []

@@ -11,7 +11,7 @@ test:
   image: unlhcc/crane-build-el6
   variables:
     ANACONDA_PREFIX: "/anaconda"
-    MINICONDA_VER: "4.3.21"
+    MINICONDA_VER: "4.6.14"
   except:
     - master
   tags:
