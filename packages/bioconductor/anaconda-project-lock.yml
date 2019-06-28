@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   bioconductor-3.8:
     locked: true
-    env_spec_hash: 1abcc5de9558e4fa63cc088e2560e29dd5f39fa8
+    env_spec_hash: 3d6585a521e4713f840aa6e5823a49667cb4c02d
     platforms:
     - linux-64
     packages:
@@ -187,7 +187,7 @@ env_specs:
       - r-bindrcpp=0.2.2=r351h29659fb_1001
       - r-biocmanager=1.30.4=r351h6115d3f_1000
       - r-bit64=0.9_7=r351h96ca727_1000
-      - r-bit=1.1_12=r351h14c3975_1002
+      - r-bit=1.1_14=r351hcdcec82_0
       - r-bitops=1.0_6=r351h96ca727_1002
       - r-blob=1.1.1=r351_1001
       - r-boot=1.3_20=r351_1000
@@ -220,7 +220,7 @@ env_specs:
       - r-fastmatch=1.1_0=r351h96ca727_1003
       - r-ff=2.2_14=r351he1b5a44_0
       - r-fftwtools=0.9_8=r351h14c3975_1002
-      - r-fields=9.6.1=r351h6e990d7_0
+      - r-fields=9.8_3=r35h9bbef5b_0
       - r-flexmix=2.3_15=r351h6115d3f_0
       - r-foreach=1.4.4=r351h6115d3f_1001
       - r-foreign=0.8_71=r351h96ca727_1002
@@ -331,7 +331,7 @@ env_specs:
       - r-snow=0.4_3=r351h6115d3f_1000
       - r-snowballc=0.5.1=r351h96ca727_1001
       - r-sourcetools=0.1.7=r351hf484d3e_1000
-      - r-spam=2.2_0=r351ha65eedd_1000
+      - r-spam=2.2_2=r35h9bbef5b_0
       - r-sparsem=1.77=r351ha65eedd_1001
       - r-spatial=7.3_11=r351h96ca727_1002
       - r-statmod=1.4.30=r351h9ac9557_1002
