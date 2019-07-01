@@ -29,10 +29,19 @@ env_specs:
     packages:
     - prokka=1.13.4
     - perl=5.26
+    - tbl2asn=25.7
   prokka-1.12:
     packages:
     - prokka=1.12=pl526_0
     - perl=5.26
+    - tbl2asn=25.7
+    channels: []
+  prokka-1.13.7:
+    packages:
+    - prokka=1.13.7
+    - python=3.7
+    - perl=5.26
+    - tbl2asn=25.7
     channels: []
 packages: []
 channels: []
