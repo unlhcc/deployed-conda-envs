@@ -25,92 +25,6 @@ description: TensorFlow is an open source software library for numerical computa
 platforms:
 - linux-64
 env_specs:
-  tensorflow-1.7.0-py27:
-    packages:
-    - tensorflow=1.7.0
-    - python=2.7
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    - absl-py
-    - astor
-    channels: []
-  tensorflow-1.7.0-py35:
-    packages:
-    - tensorflow=1.7.0
-    - python=3.5
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    - absl-py
-    - astor
-    channels: []
-  tensorflow-1.7.0-py36:
-    packages:
-    - tensorflow=1.7.0
-    - python=3.6
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    - absl-py
-    - astor
-    channels: []
-  tensorflow-1.5.0-py27:
-    packages:
-    - tensorflow=1.5.0
-    - python=2.7
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - absl-py
-    - libgcc=5.2
-    - ssl_match_hostname
-    channels: []
-  tensorflow-1.5.0-py35:
-    packages:
-    - tensorflow=1.5.0
-    - python=3.5
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - absl-py
-    - libgcc=5.2
-    - backports
-    - backports.functools_lru_cache
-    channels: []
-  tensorflow-1.5.0-py36:
-    packages:
-    - tensorflow=1.5.0
-    - python=3.6
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - absl-py
-    - libgcc=5.2
-    - backports
-    - backports.functools_lru_cache
-    channels: []
   tensorflow-1.11.0-py27:
     packages:
     - tensorflow=1.11.0
@@ -137,23 +51,23 @@ env_specs:
     - defaults
   tensorflow-1.12.0-py27:
     packages:
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
+    - scipy=1.1.0
+    - numpy=1.15
+    - matplotlib=2.2.3
+    - scikit-learn=0.19.1
+    - scikit-plot=0.3.7
+    - pandas=0.23.4
     - tensorflow=1.12.0
     - python=2.7
     - ipykernel
-    channels: []
   tensorflow-1.12.0-py36:
     packages:
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
+    - scipy=1.1.0
+    - numpy=1.15
+    - matplotlib=3.0.2
+    - scikit-learn=0.19.1
+    - scikit-plot=0.3.7
+    - pandas=0.23.4
     - tensorflow=1.12.0
     - python=3.6
     - ipykernel
-    channels: []

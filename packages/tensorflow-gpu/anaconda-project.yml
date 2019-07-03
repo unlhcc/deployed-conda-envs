@@ -25,114 +25,27 @@ description: TensorFlow is an open source software library for numerical computa
 platforms:
 - linux-64
 env_specs:
-  tensorflow-gpu-1.5.0-py27:
-    packages:
-    - tensorflow-gpu=1.5.0
-    - python=2.7
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    channels: []
-  tensorflow-gpu-1.7.0-py27:
-    packages:
-    - tensorflow-gpu=1.7.0
-    - python=2.7
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    channels: []
-  tensorflow-gpu-1.5.0-py35:
-    packages:
-    - tensorflow-gpu=1.5.0
-    - python=3.5
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    channels: []
-  tensorflow-gpu-1.7.0-py35:
-    packages:
-    - tensorflow-gpu=1.7.0
-    - python=3.5
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    channels: []
-  tensorflow-gpu-1.5.0-py36:
-    packages:
-    - tensorflow-gpu=1.5.0
-    - python=3.6
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    channels: []
-  tensorflow-gpu-1.7.0-py36:
-    packages:
-    - tensorflow-gpu=1.7.0
-    - python=3.6
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
-    - intel-openmp
-    - mkl
-    - mkl_fft=1.0.1
-    - mkl_random
-    - libgfortran-ng
-    channels: []
   tensorflow-gpu-1.12.0-py27:
     packages:
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
+    - scipy=1.1.0
+    - numpy=1.15
+    - matplotlib=2.2.3
+    - scikit-learn=0.19.1
+    - scikit-plot=0.3.7
+    - pandas=0.23.4
     - tensorflow-gpu=1.12.0
     - python=2.7
     - ipykernel
     channels: []
   tensorflow-gpu-1.12.0-py36:
     packages:
-    - scipy
-    - matplotlib
-    - scikit-learn
-    - scikit-plot
-    - pandas
+    - scipy=1.1.0
+    - numpy=1.15
+    - matplotlib=3.0.2
+    - scikit-learn=0.19.1
+    - scikit-plot=0.3.7
+    - pandas=0.23.4
     - tensorflow-gpu=1.12.0
     - python=3.6
+    - ipykernel
     channels: []
