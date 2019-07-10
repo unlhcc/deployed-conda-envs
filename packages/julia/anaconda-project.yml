@@ -38,3 +38,9 @@ env_specs:
     - fftw=3.3.8
     - python=3.6
     channels: []
+  julia-1.0.3:
+    packages:
+    - julia=1.0.3
+    - fftw=3.3.8
+    - python=3.6
+    channels: []
