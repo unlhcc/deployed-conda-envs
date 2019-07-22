@@ -26,3 +26,11 @@ env_specs:
       - star=2.5.4a=0
 
 
+  star-2.7.1a:
+    locked: true
+    env_spec_hash: 07c3de21e5149458b7a19e06679bb08da94c4eef
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - star=2.7.1a=0
