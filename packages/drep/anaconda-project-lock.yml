@@ -24,7 +24,7 @@ env_specs:
     packages:
       linux-64:
       - _libgcc_mutex=0.1=main
-      - anicalculator=1.0=0
+      - anicalculator=1.0=1
       - bcftools=1.9=ha228f0b_4
       - biopython=1.74=py36h516909a_0
       - bzip2=1.0.8=h516909a_0
