@@ -25,7 +25,17 @@ description: AGFusion is a python package for annotating gene fusions from the h
 platforms:
 - linux-64
 env_specs:
+  agfusion-1.251:
+    packages:
+    - agfusion=1.251
+    - biopython=1.74
+    - python=3.7
+    - matplotlib=3.1
+    channels: []
   agfusion-1.0:
     packages:
     - agfusion=1.0
+    - biopython=1.74
+    - python=3.6
+    - matplotlib=3.1
     channels: []
