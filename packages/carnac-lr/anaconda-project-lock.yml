@@ -1,0 +1,46 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  carnac-lr-1.0.0:
+    locked: true
+    env_spec_hash: 5b76c3f294eec72597e793ccc12f525487862603
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - bzip2=1.0.8=h516909a_0
+      - ca-certificates=2019.6.16=hecc5488_0
+      - carnac-lr=1.0.0=he1b5a44_0
+      - certifi=2019.6.16=py37_1
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1c=h516909a_0
+      - pip=19.2.1=py37_0
+      - python=3.7.3=h33d41f4_1
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.0.1=py37_0
+      - sqlite=3.29.0=hcee41ef_0
+      - tk=8.6.9=hed695b0_1002
+      - wheel=0.33.4=py37_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1005
+
+
