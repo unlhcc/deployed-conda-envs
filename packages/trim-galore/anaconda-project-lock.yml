@@ -16,52 +16,24 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  bowtie2-2.3.5:
+  trim-galore-0.6.4:
     locked: true
-    env_spec_hash: fdac274b7a7852fd9fcda512e9c1b248c4ca7a0a
+    env_spec_hash: 90e32d0fdf03336537f3ba5b3c22f7f40a9685e9
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=main
-      - bowtie2=2.3.5=py37he860b03_0
-      - bzip2=1.0.8=h516909a_0
-      - ca-certificates=2019.6.16=hecc5488_0
-      - certifi=2019.6.16=py37_1
-      - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libstdcxx-ng=9.1.0=hdf63c60_0
-      - ncurses=6.1=hf484d3e_1002
-      - openssl=1.1.1c=h516909a_0
-      - perl=5.26.2=h516909a_1006
-      - pip=19.2.1=py37_0
-      - python=3.7.3=h33d41f4_1
-      - readline=8.0=hf8c457e_0
-      - setuptools=41.0.1=py37_0
-      - sqlite=3.29.0=hcee41ef_0
-      - tbb=2019.7=hc9558a2_0
-      - tk=8.6.9=hed695b0_1002
-      - wheel=0.33.4=py37_0
-      - xz=5.2.4=h14c3975_1001
-      - zlib=1.2.11=h516909a_1005
-  bowtie2-2.2.8:
-    locked: true
-    env_spec_hash: 98d2eae2cffbac9c474f62823946b91b315e9bfa
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - _libgcc_mutex=0.1=main
-      - bowtie2=2.2.8=py27_2
       - ca-certificates=2019.6.16=hecc5488_0
       - certifi=2019.6.16=py27_1
+      - cutadapt=1.4.2=py27_0
+      - fastqc=0.11.8=0
       - libffi=3.2.1=he1b5a44_1006
       - libgcc-ng=9.1.0=hdf63c60_0
-      - libgcc=7.2.0=h69d50b8_2
       - libstdcxx-ng=9.1.0=hdf63c60_0
       - ncurses=6.1=hf484d3e_1002
+      - openjdk=11.0.1=h516909a_1016
       - openssl=1.1.1c=h516909a_0
-      - perl-threaded=5.26.0=0
       - perl=5.26.2=h516909a_1006
       - pip=19.2.1=py27_0
       - python=2.7.15=h5a48372_1009
@@ -69,6 +41,35 @@ env_specs:
       - setuptools=41.0.1=py27_0
       - sqlite=3.29.0=hcee41ef_0
       - tk=8.6.9=hed695b0_1002
+      - trim-galore=0.6.4=0
+      - wheel=0.33.4=py27_0
+      - zlib=1.2.11=h516909a_1005
+  trim-galore-0.4.5:
+    locked: true
+    env_spec_hash: bd09ba1b935569b2b5ebb50398d2326fe77dbea3
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - ca-certificates=2019.6.16=hecc5488_0
+      - certifi=2019.6.16=py27_1
+      - cutadapt=1.4.2=py27_0
+      - fastqc=0.11.8=0
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - ncurses=6.1=hf484d3e_1002
+      - openjdk=11.0.1=h516909a_1016
+      - openssl=1.1.1c=h516909a_0
+      - perl=5.26.2=h516909a_1006
+      - pip=19.2.1=py27_0
+      - python=2.7.15=h5a48372_1009
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.0.1=py27_0
+      - sqlite=3.29.0=hcee41ef_0
+      - tk=8.6.9=hed695b0_1002
+      - trim-galore=0.4.5=2
       - wheel=0.33.4=py27_0
       - zlib=1.2.11=h516909a_1005
 
