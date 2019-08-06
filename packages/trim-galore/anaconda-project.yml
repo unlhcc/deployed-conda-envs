@@ -8,13 +8,15 @@
 #
 # Set the 'name' key to name your project
 #
-name: Bowtie2
+name: Trim Galore
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Bowtie2 is an ultrafast and memory-efficient tool for aligning sequencing
-  reads to long reference sequences.
+description: Trim Galore! is a wrapper script to automate quality and adapter trimming
+  as well as quality control, with some added functionality to remove biased methylation
+  positions for RRBS sequence files (for directional, non-directional (or paired-end)
+  sequencing).
 
 
 #
@@ -25,15 +27,17 @@ description: Bowtie2 is an ultrafast and memory-efficient tool for aligning sequ
 platforms:
 - linux-64
 env_specs:
-  bowtie2-2.2.8:
+  trim-galore-0.4.5:
     packages:
-    - bowtie2=2.2.8
+    - openjdk=11.0
+    - perl=5.26
     - python=2.7
-    - perl=5.26
+    - trim-galore=0.4.5
     channels: []
-  bowtie2-2.3.5:
+  trim-galore-0.6.4:
     packages:
-    - bowtie2=2.3.5
-    - python=3.7
+    - openjdk=11.0
     - perl=5.26
+    - python=2.7
+    - trim-galore=0.6.4
     channels: []
