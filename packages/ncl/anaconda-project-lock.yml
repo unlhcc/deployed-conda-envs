@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   ncl-6.6.2:
     locked: true
-    env_spec_hash: 4a0a0ed08e9c6d7fc41b7faabe5aa042c7db3f46
+    env_spec_hash: da597ce1e47f6df262e72de77fed68f7454f3987
     platforms:
     - linux-64
     packages:
@@ -76,6 +76,7 @@ env_specs:
       - lz4-c=1.8.3=he1b5a44_1001
       - mpi=1.0=mpich
       - mpich=3.2.1=hc99cbb1_1013
+      - ncarg-rangs=1.1=0
       - ncl=6.6.2=h7290063_6
       - ncurses=6.1=hf484d3e_1002
       - netcdf-fortran=4.4.5=hfc18c51_1001
@@ -114,5 +115,3 @@ env_specs:
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1005
       - zstd=1.4.0=h3b9ef0a_0
-
-
