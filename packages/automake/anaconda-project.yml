@@ -27,12 +27,15 @@ env_specs:
   automake-1.14:
     packages:
     - automake=1.14
+    - patch=2.7.6
     channels: []
   automake-1.15:
     packages:
     - automake=1.15
+    - patch=2.7.6
     channels: []
   automake-1.16.1:
     packages:
     - automake=1.16.1
+    - patch=2.7.6
     channels: []
