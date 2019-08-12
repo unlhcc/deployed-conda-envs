@@ -91,3 +91,42 @@ env_specs:
     - cudatoolkit=9.2
     channels:
     - defaults
+  tensorflow-gpu-1.14.0-py27:
+    packages:
+    - tensorflow-gpu=1.14.0
+    - python=2.7
+    - scipy=1.2.1
+    - numpy=1.16.4
+    - matplotlib=2.2.4
+    - scikit-learn=0.20.4
+    - scikit-plot=0.3.7
+    - pandas=0.24.2
+    - cudatoolkit=9.2
+    - ipykernel
+    channels: []
+  tensorflow-gpu-1.14.0-py36:
+    packages:
+    - tensorflow-gpu=1.14.0
+    - python=3.6
+    - scipy=1.3.1
+    - numpy=1.17.0
+    - matplotlib=3.1.1
+    - scikit-learn=0.21.3
+    - scikit-plot=0.3.7
+    - pandas=0.25.0
+    - cudatoolkit=9.2
+    - ipykernel
+    channels: []
+  tensorflow-gpu-1.14.0-py37:
+    packages:
+    - tensorflow-gpu=1.14.0
+    - python=3.7
+    - scipy=1.3.1
+    - numpy=1.17.0
+    - matplotlib=3.1.1
+    - scikit-learn=0.21.3
+    - scikit-plot=0.3.7
+    - pandas=0.25.0
+    - cudatoolkit=9.2
+    - ipykernel
+    channels: []
