@@ -18,37 +18,43 @@ locking_enabled: true
 env_specs:
   automake-1.15:
     locked: true
-    env_spec_hash: bad6a6acdc7119b2e9b4e511c3af3c152e9bcd15
+    env_spec_hash: f445822a518f6f2bc37efe13a91a9f7b270f41ea
     platforms:
     - linux-64
     packages:
       linux-64:
-      - autoconf=2.69=pl5.22.2.1_5
-      - automake=1.15.1=pl5.22.2.1_0
-      - m4=1.4.18=0
-      - perl=5.22.2.1=0
+      - _libgcc_mutex=0.1=main
+      - autoconf=2.69=pl526h14c3975_9
+      - automake=1.15.1=pl526_1001
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - m4=1.4.18=h14c3975_1001
+      - patch=2.7.6=h14c3975_1001
+      - perl=5.26.2=h516909a_1006
   automake-1.14:
     locked: true
-    env_spec_hash: 08dd227b2c49b133cf05565d61990c471c4600ae
+    env_spec_hash: f6634fd9ec4738af3d1e9a6c8ebc0cc90ed0c6fa
     platforms:
     - linux-64
     packages:
       linux-64:
+      - _libgcc_mutex=0.1=main
       - autoconf=2.69=pl5.20.3.1_5
       - automake=1.14=pl5.20.3.1_2
-      - m4=1.4.18=0
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - m4=1.4.18=h14c3975_1001
+      - patch=2.7.6=h14c3975_1001
       - perl=5.20.3.1=2
-
-
   automake-1.16.1:
     locked: true
-    env_spec_hash: a610465d4bf193fcba9526885cd0dec4e0efe04f
+    env_spec_hash: c52f815b88b951f82e79a5f61ed96703b3df2ca7
     platforms:
     - linux-64
     packages:
       linux-64:
+      - _libgcc_mutex=0.1=main
       - autoconf=2.69=pl526h14c3975_9
       - automake=1.16.1=pl526_1003
       - libgcc-ng=9.1.0=hdf63c60_0
       - m4=1.4.18=h14c3975_1001
+      - patch=2.7.6=h14c3975_1001
       - perl=5.26.2=h516909a_1006
