@@ -29,5 +29,7 @@ env_specs:
   cellranger-3.0.2:
     packages:
     - python=2.7
+    - openssl=1.0
+    - pycurl
     - cellranger=3.0.2
     channels: []

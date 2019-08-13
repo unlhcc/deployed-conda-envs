@@ -18,27 +18,28 @@ locking_enabled: true
 env_specs:
   cellranger-3.0.2:
     locked: true
-    env_spec_hash: 830313e3ec9be8de34311498a55b5c59f3ba135c
+    env_spec_hash: 22344f6251f56c67b27fb2db60b645eb7c3492a1
     platforms:
     - linux-64
     packages:
       linux-64:
+      - _libgcc_mutex=0.1=main
       - asn1crypto=0.24.0=py27_1003
       - attrs=19.1.0=py_0
-      - bcftools=1.9=ha228f0b_4
+      - bcftools=1.9=ha228f0b_3
       - bcl2fastq2=2.20.0.422=hac72e42_0
       - bedtools=2.27.1=he860b03_3
       - bitstring=3.1.5=py27_1
       - blas=1.0=mkl
       - blosc=1.14.4=hf484d3e_1000
       - bz2file=0.98=py_0
-      - bzip2=1.0.6=h14c3975_1002
+      - bzip2=1.0.8=h516909a_0
       - ca-certificates=2019.6.16=hecc5488_0
       - cellranger=3.0.2=py27_0
-      - certifi=2019.6.16=py27_0
+      - certifi=2019.6.16=py27_1
       - cffi=1.12.3=py27h8022711_0
-      - cryptography=2.7=py27h72c5cf5_0
-      - curl=7.64.1=hf8cf82a_0
+      - cryptography=2.5=py27hb7f436b_1
+      - curl=7.64.0=h646f8bb_0
       - cutadapt=1.16=py27_2
       - cython=0.28.2=py27_0
       - docopt=0.6.2=py_1
@@ -56,9 +57,9 @@ env_specs:
       - ipaddress=1.0.18=py27_0
       - jdcal=1.4.1=py_0
       - jinja2=2.10.1=py_0
-      - krb5=1.16.3=h05b26f9_1001
+      - krb5=1.16.3=hc83ff2d_1000
       - libboost=1.67.0=h46d08c1_4
-      - libcurl=7.64.1=hda55be3_0
+      - libcurl=7.64.0=h01ee5af_0
       - libdeflate=1.0=h14c3975_1
       - libedit=3.1.20170329=hf8c457e_1001
       - libffi=3.2.1=he1b5a44_1006
@@ -66,7 +67,7 @@ env_specs:
       - libgcc=7.2.0=h69d50b8_2
       - libgfortran-ng=7.3.0=hdf63c60_0
       - libgfortran=3.0.0=1
-      - libssh2=1.8.2=h22169c7_2
+      - libssh2=1.8.0=h1ad7b7a_1003
       - libstdcxx-ng=9.1.0=hdf63c60_0
       - linecache2=1.0.0=py_1
       - lz4-c=1.8.3=he1b5a44_1001
@@ -77,31 +78,32 @@ env_specs:
       - mkl=2018.0.3=1
       - mkl_fft=1.0.10=py27_0
       - mkl_random=1.0.2=py27_0
-      - more-itertools=4.3.0=py27_1000
+      - more-itertools=5.0.0=py_0
       - ncurses=6.1=hf484d3e_1002
-      - nodejs=11.14.0=he1b5a44_1
+      - nodejs=12.4.0=he1b5a44_0
       - numexpr=2.6.8=py27h637b7d7_1000
       - numpy-base=1.15.4=py27h81de0dd_0
       - numpy=1.15.4=py27h1d66e8a_0
       - openpyxl=1.8.6=py27_0
-      - openssl=1.1.1b=h14c3975_1
+      - openssl=1.0.2r=h14c3975_0
       - packaging=16.8=py27_0
       - pandas=0.24.2=py27hb3f55d8_0
       - pigz=2.3.4=0
-      - pip=19.1.1=py27_0
+      - pip=19.2.2=py27_0
       - pluggy=0.6.0=py_0
       - py=1.8.0=py_0
       - pybedtools=0.7.10=py27ha92aebf_3
       - pycparser=2.19=py27_1
+      - pycurl=7.43.0.2=py27hb7f436b_0
       - pyfasta=0.5.2=py27_0
       - pyopenssl=17.0.0=py27_0
-      - pyparsing=2.4.0=py_0
+      - pyparsing=2.4.2=py_0
       - pysam=0.14.1=py27hae42fb6_1
       - pytables=3.4.3=py27_8
       - pytest=3.5.1=py27_0
       - python-dateutil=2.8.0=py_0
-      - python=2.7.15=h721da81_1008
-      - pytz=2019.1=py_0
+      - python=2.7.15=h938d71a_1006
+      - pytz=2019.2=py_0
       - pyvcf=0.6.8=py27_1000
       - readline=7.0=hf8c457e_1001
       - samtools=1.7=1
@@ -121,6 +123,6 @@ env_specs:
       - xopen=0.3.5=py_0
       - xz=5.2.4=h14c3975_1001
       - yaml=0.1.6=0
-      - zlib=1.2.11=h14c3975_1004
+      - zlib=1.2.11=h516909a_1005
 
 
