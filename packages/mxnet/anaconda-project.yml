@@ -30,7 +30,8 @@ env_specs:
     packages:
     - mxnet=0.9.3a
     channels: []
-  mxnet-1.1.0:
+  mxnet-1.5.0:
     packages:
-    - mxnet=1.1.0
+    - mxnet-mkl=1.5.0
+    - mkl=2019.4
     channels: []
