@@ -28,3 +28,7 @@ env_specs:
     packages:
     - freebayes=1.2.0
     channels: []
+  freebayes-1.3.1:
+    packages:
+    - freebayes=1.3.1
+    channels: []
