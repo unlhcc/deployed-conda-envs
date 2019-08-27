@@ -63,3 +63,12 @@ env_specs:
       - zstd=1.4.0=h3b9ef0a_0
 
 
+  gradle-3.3:
+    locked: true
+    env_spec_hash: 15043ad8208fcddc03596f5ea67ba014c24668e6
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - gradle=3.3=0
+      - openjdk=8.0.192=h14c3975_1003
