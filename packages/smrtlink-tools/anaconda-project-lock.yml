@@ -26,3 +26,11 @@ env_specs:
       - smrtlink-tools=5.1.0.26412=0
 
 
+  smrtlink-tools-7.0.1.66975:
+    locked: true
+    env_spec_hash: 632114741e1431aa5341dcaa54f6a3f395cff086
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - smrtlink-tools=7.0.1.66975=0
