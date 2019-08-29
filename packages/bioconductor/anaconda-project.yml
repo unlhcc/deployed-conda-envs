@@ -344,4 +344,5 @@ env_specs:
     - bioconductor-triform=1.24.0=r351_0
     - bioconductor-snpstats=1.32.0
     - r-bit=1.1_14=r351hcdcec82_0
+    - bioconductor-iclusterplus=1.20.0=r351h9ac9557_0
     channels: []
