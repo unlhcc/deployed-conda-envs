@@ -47,5 +47,6 @@ env_specs:
     - perl-spreadsheet-parseexcel
     - perl-io-socket-ssl
     - perl-logger-simple
+    - perl-lwp-protocol-https
     channels: []
 packages: []
