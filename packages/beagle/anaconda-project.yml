@@ -29,3 +29,7 @@ env_specs:
     packages:
     - beagle=4.1_21Jan17.6cc.jar
     channels: []
+  beagle-5.1_24Aug19.3e8:
+    packages:
+    - beagle=5.1_24Aug19.3e8
+    channels: []
