@@ -66,3 +66,29 @@ env_specs:
       - wheel=0.31.0=py36_0
       - xz=5.2.3=0
       - zlib=1.2.11=0
+  megahit-1.2.8:
+    locked: true
+    env_spec_hash: 4ed9e67cb0d29dec09860e9e09275e88d5c781ee
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - bzip2=1.0.8=h516909a_0
+      - ca-certificates=2019.6.16=hecc5488_0
+      - certifi=2019.6.16=py37_1
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - megahit=1.2.8=h8b12597_0
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1c=h516909a_0
+      - pip=19.2.3=py37_0
+      - python=3.7.3=h33d41f4_1
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.2.0=py37_0
+      - sqlite=3.29.0=hcee41ef_1
+      - tk=8.6.9=hed695b0_1002
+      - wheel=0.33.6=py37_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1005
