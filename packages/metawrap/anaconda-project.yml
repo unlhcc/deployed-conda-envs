@@ -34,4 +34,5 @@ env_specs:
     - metawrap=1.2
     - perl=5.26
     - perl-lwp-simple=6.15
+    - mkl
     channels: []
