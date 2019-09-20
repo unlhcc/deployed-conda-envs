@@ -16,9 +16,9 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  rgi-5.0.0:
+  rgi-5.1.0:
     locked: true
-    env_spec_hash: 7ef0ca759130d2fd547da47e755724f4f98444ff
+    env_spec_hash: bb48399eab931bfed35de093f21d7192b1bdb7a0
     platforms:
     - linux-64
     packages:
@@ -27,37 +27,37 @@ env_specs:
       - atomicwrites=1.3.0=py_0
       - attrs=19.1.0=py_0
       - bamtools=2.5.1=he860b03_5
-      - bedtools=2.29.0=h0da2602_0
-      - biopython=1.74=py36h516909a_0
-      - blast=2.6.0=boost1.64_2
-      - boost-cpp=1.64.0=1
-      - boost=1.64.0=py36_4
+      - bedtools=2.29.0=h6ed99ea_1
+      - biopython=1.72=py36h14c3975_1000
+      - blast=2.6.0=boost1.60_0
+      - boost=1.60.0=py36_0
       - bowtie2=2.3.5=py36he860b03_0
       - bwa=0.7.17=hed695b0_6
-      - bzip2=1.0.8=h516909a_0
-      - ca-certificates=2019.6.16=hecc5488_0
-      - certifi=2019.6.16=py36_1
+      - bzip2=1.0.8=h516909a_1
+      - ca-certificates=2019.9.11=hecc5488_0
+      - certifi=2019.9.11=py36_0
       - curl=7.65.3=hf8cf82a_0
       - cycler=0.10.0=py_1
       - dbus=1.13.6=he372182_0
       - diamond=0.8.36=hdbcaa40_3
       - expat=2.2.6=he6710b0_0
       - filetype=1.0.5=py_0
-      - fontconfig=2.13.1=he4413a7_1000
+      - fontconfig=2.13.1=h86ecdb6_1001
       - freetype=2.10.0=he983fc9_1
       - gettext=0.19.8.1=hc5be6a0_1002
       - glib=2.58.3=h6f030ca_1002
       - gst-plugins-base=1.14.5=h0935bb2_0
       - gstreamer=1.14.5=h36ae1b5_0
-      - icu=58.2=hf484d3e_1000
-      - importlib_metadata=0.20=py36_0
+      - htslib=1.9=h4da6232_3
+      - icu=64.2=he1b5a44_1
+      - importlib_metadata=0.23=py36_0
       - jpeg=9c=h14c3975_1001
       - kiwisolver=1.1.0=py36hc9558a2_0
       - krb5=1.16.3=h05b26f9_1001
       - libblas=3.8.0=12_openblas
       - libcblas=3.8.0=12_openblas
       - libcurl=7.65.3=hda55be3_0
-      - libdeflate=1.0=h14c3975_1
+      - libdeflate=1.3=h516909a_0
       - libedit=3.1.20181209=hc058e9b_0
       - libffi=3.2.1=he1b5a44_1006
       - libgcc-ng=9.1.0=hdf63c60_0
@@ -71,15 +71,15 @@ env_specs:
       - libstdcxx-ng=9.1.0=hdf63c60_0
       - libuuid=2.32.1=h14c3975_1000
       - libxcb=1.13=h14c3975_1002
-      - libxml2=2.9.9=h13577e0_2
-      - matplotlib-base=3.1.1=py36hfd891ef_0
-      - matplotlib=3.1.1=py36_0
+      - libxml2=2.9.9=hee79883_5
+      - matplotlib-base=3.1.1=py36he7580a8_1
+      - matplotlib=3.1.1=py36_1
       - mock=3.0.5=py36_0
       - more-itertools=7.2.0=py_0
       - ncurses=6.1=hf484d3e_1002
-      - numpy=1.17.1=py36h95a1406_0
-      - openssl=1.1.1c=h516909a_0
-      - packaging=19.1=py36_0
+      - numpy=1.17.2=py36h95a1406_0
+      - openssl=1.1.1d=h7b6447c_1
+      - packaging=19.2=py_0
       - pandas=0.25.1=py36hb3f55d8_0
       - patsy=0.5.1=py_0
       - pcre=8.43=he6710b0_0
@@ -92,15 +92,15 @@ env_specs:
       - pyahocorasick=1.4.0=py36h14c3975_0
       - pyfaidx=0.5.5.2=py_1
       - pyparsing=2.4.2=py_0
-      - pyqt=5.9.2=py36hcca6a23_2
+      - pyqt=5.9.2=py36hcca6a23_4
       - pytest=5.1.2=py36_0
       - python-dateutil=2.8.0=py_0
       - python=3.6.9=h265db76_0
       - pytz=2019.2=py_0
-      - qt=5.9.7=h52cfd70_2
+      - qt=5.9.7=h0c104cb_3
       - readline=7.0=hf8c457e_1001
-      - rgi=5.0.0=py36hed695b0_0
-      - samtools=1.9=h8571acd_11
+      - rgi=5.1.0=py36hed695b0_0
+      - samtools=1.9=h10a08f8_12
       - scipy=1.3.1=py36h921218d_2
       - seaborn=0.9.0=py_1
       - setuptools=41.2.0=py36_0
@@ -109,7 +109,7 @@ env_specs:
       - sqlite=3.29.0=h7b6447c_0
       - statsmodels=0.10.1=py36hc1659b7_0
       - tbb=2019.8=hc9558a2_0
-      - tk=8.6.9=hed695b0_1002
+      - tk=8.6.9=hed695b0_1003
       - tornado=6.0.3=py36h516909a_0
       - wcwidth=0.1.7=py_1
       - wheel=0.33.6=py36_0
@@ -117,6 +117,4 @@ env_specs:
       - xorg-libxdmcp=1.1.3=h516909a_0
       - xz=5.2.4=h14c3975_1001
       - zipp=0.6.0=py_0
-      - zlib=1.2.11=h516909a_1005
-
-
+      - zlib=1.2.11=h516909a_1006

@@ -26,7 +26,8 @@ description: This application is used to predict resistome(s) from protein or nu
 platforms:
 - linux-64
 env_specs:
-  rgi-5.0.0:
+  rgi-5.1.0:
     packages:
-    - rgi=5.0.0
+    - rgi=5.1.0
+    - openssl
     channels: []
