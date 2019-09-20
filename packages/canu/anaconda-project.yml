@@ -29,3 +29,7 @@ env_specs:
     packages:
     - canu=1.7
     channels: []
+  canu-1.8:
+    packages:
+    - canu=1.8=pl526h470a237_0
+    channels: []
