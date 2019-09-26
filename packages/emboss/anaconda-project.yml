@@ -1,0 +1,35 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: EMBOSS
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: EMBOSS is a free Open Source software analysis package specially developed
+  for the needs of the molecular biology (e.g. EMBnet) user community.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  emboss-6.6.0:
+    packages:
+    - emboss=6.6.0
+    channels: []
+  emboss-6.5.7:
+    packages:
+    - emboss=6.5.7
+    channels: []
