@@ -1,0 +1,40 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: SRA Toolkit
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: The SRA Toolkit and SDK from NCBI is a collection of tools and libraries
+  for using data in the INSDC Sequence Read Archives.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  sra-tools-2.10.0:
+    packages:
+    - sra-tools=2.10.0
+    - perl=5.26
+    channels: []
+  sra-tools-2.9.6:
+    packages:
+    - sra-tools=2.9.6
+    channels: []
+  sra-tools-2.8.2:
+    packages:
+    - sra-tools=2.8.2
+    channels: []
