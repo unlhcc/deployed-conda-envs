@@ -3,7 +3,7 @@ HCC Deployed Conda Environments
 
 This repository holds configuration files to control the deployment of software
 via conda environments on HCC resources.  The configuration, testing, and deployment
-is done using the [Anaconda Project] (http://anaconda-project.readthedocs.io/en/latest/index.html)
+is done using the [Anaconda Project](http://anaconda-project.readthedocs.io/en/latest/index.html)
 software.  Environments are defined via yaml configuration files.  Each
 environment may list one or more packages needed to specify what to install, any
 other needed software, particular versions of dependencies, python version(s), etc.
@@ -38,7 +38,7 @@ How to add a new package
 
 ### Setup your environment
 
-If you have not already, you will need to download and install [Ananconda] (https://www.anaconda.com/download).
+If you have not already, you will need to download and install [Ananconda](https://www.anaconda.com/download).
 Update Conda to the latest version and install the `anaconda-project` package:
 
 ```
