@@ -30,4 +30,7 @@ env_specs:
   octave-4.2.1:
     packages:
     - octave=4.2.1
+    - gnuplot=5.2.7
+    - octave_kernel=0.31.0
+    - texinfo=6.7
     channels: []
