@@ -41,3 +41,21 @@ env_specs:
     - pytorch=0.4.1
     - python=3.6
     channels: []
+  pytorch-1.2.0-py27:
+    packages:
+    - python=2.7
+    - pytorch=1.2.0
+    - cudatoolkit=10.0
+    channels: []
+  pytorch-1.2.0-py36:
+    packages:
+    - python=3.6
+    - pytorch=1.2.0
+    - cudatoolkit=10.0
+    channels: []
+  pytorch-1.2.0-py37:
+    packages:
+    - python=3.7
+    - pytorch=1.2.0
+    - cudatoolkit=10.0
+    channels: []

@@ -12,47 +12,7 @@ locking_enabled: true
 
 
 
-#
-# A key goes in here for each env spec.
-#
 env_specs:
-  pytorch-0.4.1-py27:
-    locked: true
-    env_spec_hash: 4a3bd110c67dc630bb0833d2f82258df6bf2619c
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - blas=1.0=mkl
-      - ca-certificates=2018.10.15=ha4d7672_0
-      - certifi=2018.10.15=py27_1000
-      - cffi=1.11.5=py27h5e8e0c9_1
-      - cudatoolkit=9.0=0
-      - cudnn=7.1.2=cuda9.0_0
-      - intel-openmp=2019.1=144
-      - libffi=3.2.1=hfc679d8_5
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libgfortran-ng=7.2.0=hdf63c60_3
-      - libstdcxx-ng=7.2.0=hdf63c60_3
-      - mkl=2018.0.3=1
-      - mkl_fft=1.0.6=py27_0
-      - mkl_random=1.0.2=py27_0
-      - nccl=1.3.5=cuda9.0_0
-      - ncurses=6.1=hfc679d8_1
-      - ninja=1.8.2=h2d50403_1
-      - numpy-base=1.15.0=py27h3dfced4_0
-      - numpy=1.15.0=py27h1b885b7_0
-      - openssl=1.0.2p=h470a237_1
-      - pip=18.1=py27_1000
-      - pycparser=2.19=py_0
-      - python=2.7.15=h33da82c_5
-      - pytorch=0.4.1=py27ha74772b_0
-      - readline=7.0=haf1bffa_1
-      - setuptools=40.6.2=py27_0
-      - sqlite=3.25.3=hb1c47c0_0
-      - tk=8.6.9=ha92aebf_0
-      - wheel=0.32.3=py27_0
-      - zlib=1.2.11=h470a237_3
   pytorch-0.4.1-py35:
     locked: true
     env_spec_hash: a3e9e7e6d38458ccaa8f8eff21a9a3ec086aa0f2
@@ -60,38 +20,41 @@ env_specs:
     - linux-64
     packages:
       linux-64:
+      - _libgcc_mutex=0.1=main
       - blas=1.0=mkl
-      - bzip2=1.0.6=h470a237_2
-      - ca-certificates=2018.10.15=ha4d7672_0
+      - bzip2=1.0.8=h516909a_1
+      - ca-certificates=2019.9.11=hecc5488_0
       - certifi=2018.8.24=py35_1001
       - cffi=1.11.5=py35h5e8e0c9_1
       - cudatoolkit=9.0=0
-      - cudnn=7.1.2=cuda9.0_0
-      - intel-openmp=2019.1=144
-      - libffi=3.2.1=hfc679d8_5
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libgfortran-ng=7.2.0=hdf63c60_3
-      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - cudnn=7.6.4=cuda9.0_0
+      - intel-openmp=2019.4=243
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libgfortran-ng=7.3.0=hdf63c60_2
+      - libstdcxx-ng=9.1.0=hdf63c60_0
       - mkl=2018.0.3=1
-      - mkl_fft=1.0.6=py35_0
+      - mkl_fft=1.0.9=py35_0
       - mkl_random=1.0.1=py35_0
       - nccl=1.3.5=cuda9.0_0
-      - ncurses=6.1=hfc679d8_1
-      - ninja=1.8.2=h2d50403_1
-      - numpy-base=1.15.0=py35h3dfced4_0
-      - numpy=1.15.0=py35h1b885b7_0
-      - openssl=1.0.2p=h470a237_1
+      - ncurses=6.1=hf484d3e_1002
+      - ninja=1.9.0=hc9558a2_1
+      - numpy-base=1.15.2=py35h81de0dd_0
+      - numpy=1.15.2=py35h1d66e8a_0
+      - openssl=1.0.2r=h14c3975_0
       - pip=18.0=py35_1001
       - pycparser=2.19=py_0
       - python=3.5.5=h5001a0f_2
       - pytorch=0.4.1=py35ha74772b_0
-      - readline=7.0=haf1bffa_1
+      - readline=7.0=hf8c457e_1001
       - setuptools=40.4.3=py35_0
-      - sqlite=3.25.3=hb1c47c0_0
-      - tk=8.6.9=ha92aebf_0
+      - sqlite=3.28.0=h8b20d00_0
+      - tbb4py=2019.1=py35h6bb024c_1000
+      - tbb=2019.9=hc9558a2_0
+      - tk=8.6.9=hed695b0_1003
       - wheel=0.32.0=py35_1000
-      - xz=5.2.4=h470a237_1
-      - zlib=1.2.11=h470a237_3
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1006
   pytorch-0.4.1-py36:
     locked: true
     env_spec_hash: 53ca0c038208d597094e498231c055799d864ac5
@@ -99,34 +62,201 @@ env_specs:
     - linux-64
     packages:
       linux-64:
+      - _libgcc_mutex=0.1=main
       - blas=1.0=mkl
-      - ca-certificates=2018.10.15=ha4d7672_0
-      - certifi=2018.10.15=py36_1000
-      - cffi=1.11.5=py36h5e8e0c9_1
+      - ca-certificates=2019.9.11=hecc5488_0
+      - certifi=2019.9.11=py36_0
+      - cffi=1.13.2=py36h8022711_0
       - cudatoolkit=9.0=0
-      - cudnn=7.1.2=cuda9.0_0
-      - intel-openmp=2019.1=144
-      - libffi=3.2.1=hfc679d8_5
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libgfortran-ng=7.2.0=hdf63c60_3
-      - libstdcxx-ng=7.2.0=hdf63c60_3
+      - cudnn=7.6.4=cuda9.0_0
+      - intel-openmp=2019.4=243
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libgfortran-ng=7.3.0=hdf63c60_2
+      - libstdcxx-ng=9.1.0=hdf63c60_0
       - mkl=2018.0.3=1
-      - mkl_fft=1.0.6=py36_0
+      - mkl_fft=1.0.10=py36_0
       - mkl_random=1.0.2=py36_0
       - nccl=1.3.5=cuda9.0_0
-      - ncurses=6.1=hfc679d8_1
-      - ninja=1.8.2=h2d50403_1
-      - numpy-base=1.15.0=py36h3dfced4_0
-      - numpy=1.15.0=py36h1b885b7_0
-      - openssl=1.0.2p=h470a237_1
-      - pip=18.1=py36_1000
-      - pycparser=2.19=py_0
-      - python=3.6.7=h5001a0f_1
+      - ncurses=6.1=hf484d3e_1002
+      - ninja=1.9.0=hc9558a2_1
+      - numpy-base=1.15.4=py36h81de0dd_0
+      - numpy=1.15.4=py36h1d66e8a_0
+      - openssl=1.1.1c=h516909a_0
+      - pip=19.3.1=py36_0
+      - pycparser=2.19=py36_1
+      - python=3.6.7=h357f687_1005
       - pytorch=0.4.1=py36ha74772b_0
-      - readline=7.0=haf1bffa_1
-      - setuptools=40.6.2=py36_0
-      - sqlite=3.25.3=hb1c47c0_0
-      - tk=8.6.9=ha92aebf_0
-      - wheel=0.32.3=py36_0
-      - xz=5.2.4=h470a237_1
-      - zlib=1.2.11=h470a237_3
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.6.0=py36_1
+      - sqlite=3.30.1=hcee41ef_0
+      - tbb4py=2019.9=py36hc9558a2_0
+      - tbb=2019.9=hc9558a2_0
+      - tk=8.6.9=hed695b0_1003
+      - wheel=0.33.6=py36_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1006
+  pytorch-1.2.0-py27:
+    locked: true
+    env_spec_hash: 3982c3205c49d34167aa0f6dc99f53b13109685f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _pytorch_select=0.2=gpu_0
+      - blas=1.0=mkl
+      - ca-certificates=2019.9.11=hecc5488_0
+      - certifi=2019.9.11=py27_0
+      - cffi=1.13.2=py27h8022711_0
+      - cudatoolkit=10.0.130=0
+      - cudnn=7.6.4=cuda10.0_0
+      - future=0.18.2=py27_0
+      - intel-openmp=2019.4=243
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libgfortran-ng=7.3.0=hdf63c60_2
+      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - mkl-service=2.3.0=py27h516909a_0
+      - mkl=2019.4=243
+      - mkl_fft=1.0.15=py27h516909a_1
+      - mkl_random=1.1.0=py27hb3f55d8_0
+      - ncurses=6.1=hf484d3e_1002
+      - ninja=1.9.0=hc9558a2_1
+      - numpy-base=1.16.5=py27hde5b4d6_0
+      - numpy=1.16.5=py27h7e9f1db_0
+      - openssl=1.1.1c=h516909a_0
+      - pip=19.3.1=py27_0
+      - pycparser=2.19=py27_1
+      - python=2.7.15=h5a48372_1009
+      - pytorch=1.2.0=cuda100py27h938c94c_0
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.6.0=py27_1
+      - six=1.13.0=py27_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.9=hed695b0_1003
+      - wheel=0.33.6=py27_0
+      - zlib=1.2.11=h516909a_1006
+  pytorch-1.2.0-py36:
+    locked: true
+    env_spec_hash: 9a01e91fafd0b254dbe3200736c3964219ff99b5
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _pytorch_select=0.2=gpu_0
+      - blas=1.0=mkl
+      - ca-certificates=2019.9.11=hecc5488_0
+      - certifi=2019.9.11=py36_0
+      - cffi=1.13.2=py36h8022711_0
+      - cudatoolkit=10.0.130=0
+      - cudnn=7.6.4=cuda10.0_0
+      - intel-openmp=2019.4=243
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libgfortran-ng=7.3.0=hdf63c60_2
+      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - mkl-service=2.3.0=py36h516909a_0
+      - mkl=2019.4=243
+      - mkl_fft=1.0.15=py36h516909a_1
+      - mkl_random=1.1.0=py36hb3f55d8_0
+      - ncurses=6.1=hf484d3e_1002
+      - ninja=1.9.0=hc9558a2_1
+      - numpy-base=1.17.2=py36hde5b4d6_0
+      - numpy=1.17.2=py36haad9e8e_0
+      - openssl=1.1.1c=h516909a_0
+      - pip=19.3.1=py36_0
+      - pycparser=2.19=py36_1
+      - python=3.6.7=h357f687_1005
+      - pytorch=1.2.0=cuda100py36h938c94c_0
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.6.0=py36_1
+      - six=1.13.0=py36_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.9=hed695b0_1003
+      - wheel=0.33.6=py36_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1006
+  pytorch-1.2.0-py37:
+    locked: true
+    env_spec_hash: 2731e82a437361d2378e4f388ceec32e7b7996a3
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _pytorch_select=0.2=gpu_0
+      - blas=1.0=mkl
+      - bzip2=1.0.8=h516909a_1
+      - ca-certificates=2019.9.11=hecc5488_0
+      - certifi=2019.9.11=py37_0
+      - cffi=1.13.2=py37h8022711_0
+      - cudatoolkit=10.0.130=0
+      - cudnn=7.6.4=cuda10.0_0
+      - intel-openmp=2019.4=243
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libgfortran-ng=7.3.0=hdf63c60_2
+      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - mkl-service=2.3.0=py37h516909a_0
+      - mkl=2019.4=243
+      - mkl_fft=1.0.15=py37h516909a_1
+      - mkl_random=1.1.0=py37hb3f55d8_0
+      - ncurses=6.1=hf484d3e_1002
+      - ninja=1.9.0=hc9558a2_1
+      - numpy-base=1.17.2=py37hde5b4d6_0
+      - numpy=1.17.2=py37haad9e8e_0
+      - openssl=1.1.1c=h516909a_0
+      - pip=19.3.1=py37_0
+      - pycparser=2.19=py37_1
+      - python=3.7.3=h33d41f4_1
+      - pytorch=1.2.0=cuda100py37h938c94c_0
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.6.0=py37_1
+      - six=1.13.0=py37_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.9=hed695b0_1003
+      - wheel=0.33.6=py37_0
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1006
+  pytorch-0.4.1-py27:
+    locked: true
+    env_spec_hash: 4a3bd110c67dc630bb0833d2f82258df6bf2619c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - blas=1.0=mkl
+      - ca-certificates=2019.9.11=hecc5488_0
+      - certifi=2019.9.11=py27_0
+      - cffi=1.13.2=py27h8022711_0
+      - cudatoolkit=9.0=0
+      - cudnn=7.6.4=cuda9.0_0
+      - intel-openmp=2019.4=243
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.1.0=hdf63c60_0
+      - libgfortran-ng=7.3.0=hdf63c60_2
+      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - mkl=2018.0.3=1
+      - mkl_fft=1.0.10=py27_0
+      - mkl_random=1.0.2=py27_0
+      - nccl=1.3.5=cuda9.0_0
+      - ncurses=6.1=hf484d3e_1002
+      - ninja=1.9.0=hc9558a2_1
+      - numpy-base=1.15.4=py27h81de0dd_0
+      - numpy=1.15.4=py27h1d66e8a_0
+      - openssl=1.1.1c=h516909a_0
+      - pip=19.3.1=py27_0
+      - pycparser=2.19=py27_1
+      - python=2.7.15=h5a48372_1009
+      - pytorch=0.4.1=py27ha74772b_0
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.6.0=py27_1
+      - sqlite=3.30.1=hcee41ef_0
+      - tbb4py=2019.9=py27hc9558a2_0
+      - tbb=2019.9=hc9558a2_0
+      - tk=8.6.9=hed695b0_1003
+      - wheel=0.33.6=py27_0
+      - zlib=1.2.11=h516909a_1006
