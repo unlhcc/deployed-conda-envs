@@ -8,25 +8,23 @@
 #
 # Set the 'name' key to name your project
 #
-name: vcf-kit
+name: VCF-kit
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Assorted utilities for the variant call format
+description: Assorted utilities for the variant call format.
 
 
-env_specs:
-  vcf-kit-0.1.6:
-    platforms:
-    - linux-64
-    packages:
-    - vcfkit=0.1.6
-    channels:
-    - bioconda
-    - conda-forge
 #
 # In the platforms section, list platforms the project should work on
 # Examples: "linux-64", "osx-64", "win-64"
 # Use `anaconda-project add-platforms` to add platforms.
 #
+platforms:
+- linux-64
+env_specs:
+  vcf-kit-0.1.6:
+    packages:
+    - vcfkit=0.1.6
+    channels: []
