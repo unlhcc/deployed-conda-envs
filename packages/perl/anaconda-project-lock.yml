@@ -27,18 +27,21 @@ env_specs:
       - perl=5.22.0.1=0
   perl-5.26.2:
     locked: true
-    env_spec_hash: 5a502fa1277be52afd1f742aeb53dc1501f56693
+    env_spec_hash: 6c04d521510a68d09849ad4f409f5b1986b08ccd
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=main
-      - ca-certificates=2019.6.16=hecc5488_0
-      - expat=2.2.5=he1b5a44_1003
+      - ca-certificates=2019.9.11=hecc5488_0
+      - expat=2.2.5=he1b5a44_1004
+      - icu=64.2=he1b5a44_1
       - libgcc-ng=9.1.0=hdf63c60_0
+      - libiconv=1.15=h516909a_1005
       - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libxml2=2.9.10=hee79883_0
       - mysql-connector-c=6.1.11=hd2bbab6_1003
-      - openssl=1.1.1c=h516909a_0
+      - openssl=1.1.1d=h516909a_0
       - perl-apache-test=1.40=pl526_1
       - perl-app-cpanminus=1.7044=pl526_1
       - perl-archive-zip=1.64=pl526_0
@@ -158,6 +161,7 @@ env_specs:
       - perl-warnings-register=1.03=pl526_1
       - perl-www-mechanize=1.91=pl526_1
       - perl-www-robotrules=6.02=pl526_3
+      - perl-xml-libxml=2.0132=pl526h7ec2d77_1
       - perl-xml-namespacesupport=1.12=pl526_0
       - perl-xml-parser=2.44_01=pl526ha1d75be_1002
       - perl-xml-sax-base=1.09=pl526_0
@@ -166,4 +170,5 @@ env_specs:
       - perl-xml-simple=2.25=pl526_1
       - perl-xsloader=0.24=pl526_0
       - perl=5.26.2=h516909a_1006
-      - zlib=1.2.11=h516909a_1005
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1006
