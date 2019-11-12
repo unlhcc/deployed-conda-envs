@@ -48,5 +48,6 @@ env_specs:
     - perl-io-socket-ssl
     - perl-logger-simple
     - perl-lwp-protocol-https
+    - perl-xml-libxml
     channels: []
 packages: []
