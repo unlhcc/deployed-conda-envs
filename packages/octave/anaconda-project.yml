@@ -33,4 +33,6 @@ env_specs:
     - gnuplot=5.2.7
     - octave_kernel=0.31.0
     - texinfo=6.7
+    - gcc_linux-64=7.3.0
+    - gxx_linux-64=7.3.0
     channels: []
