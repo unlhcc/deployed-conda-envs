@@ -1,0 +1,13 @@
+## Custom startup file for Octave to force the use of the compilers
+## installed in the env no matter what other modules are loaded.
+## This file is referenced by the OCTAVE_SITE_INITFILE variable set in
+## the octave module.
+##
+
+base = "/util/opt/anaconda/deployed-conda-envs/packages/octave/envs/octave-4.2.1/";
+setenv("LD_CXX", fullfile(base,"bin/x86_64-conda_cos6-linux-gnu-c++"));
+setenv("DL_LD", fullfile(base,"bin/x86_64-conda_cos6-linux-gnu-c++"));
+setenv("CC", fullfile(base,"bin/x86_64-conda_cos6-linux-gnu-cc"));
+setenv("CXX", fullfile(base,"bin/x86_64-conda_cos6-linux-gnu-c++"));
+setenv("F77", fullfile(base,"bin/x86_64-conda_cos6-linux-gnu-gfortran"));
+setenv("OCTAVE_PREFIX", base);
