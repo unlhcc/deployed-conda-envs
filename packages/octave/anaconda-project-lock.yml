@@ -15,7 +15,7 @@ locking_enabled: true
 env_specs:
   octave-4.2.1:
     locked: true
-    env_spec_hash: d72bf18a4a55ad2fe27697438e46e3160dc7bf5b
+    env_spec_hash: 0b93c624650e7d4daae11c66b71bd34d86cc1612
     platforms:
     - linux-64
     packages:
@@ -44,6 +44,8 @@ env_specs:
       - gcc_linux-64=7.3.0=h553295d_15
       - gdk-pixbuf=2.36.12=haf2c3b9_1004
       - gettext=0.19.8.1=hc5be6a0_1002
+      - gfortran_impl_linux-64=7.3.0=hdf63c60_2
+      - gfortran_linux-64=7.3.0=h553295d_15
       - ghostscript=9.22=hf484d3e_1001
       - giflib=5.1.9=h516909a_0
       - glib=2.58.3=py37h6f030ca_1002
