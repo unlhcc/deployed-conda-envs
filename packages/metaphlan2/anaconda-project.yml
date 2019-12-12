@@ -34,3 +34,9 @@ env_specs:
     packages:
     - metaphlan2=2.7.8
     channels: []
+  metaphlan2-2.9.22:
+    packages:
+    - metaphlan2=2.9.22
+    - perl=5.26
+    - python=3.7
+    channels: []

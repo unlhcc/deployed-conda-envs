@@ -64,6 +64,10 @@ then
             then
                 ERROR "'default' environment spec should not be present!"
                 exit 1
+            elif [ -f $package/SKIP_PREPARE ] && [ `grep -w "$spec" $package/SKIP_PREPARE` ]
+            then
+                NOTICE "Skipping preparing environment $spec"
+                continue		
             else
                 NOTICE  "Preparing environment $spec"
                 prepareCommand="anaconda-project prepare --directory $package --env-spec $spec"
