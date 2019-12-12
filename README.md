@@ -238,7 +238,7 @@ everything works.
 
 Assuming the test job passes, create a merge request on the repository page
 to merge your branch into master.  Upon merge, another CI job will be
-triggered.  This will deploy the new environment(s) on all three HCC machines
+triggered.  This will deploy the new environment(s) on all two HCC machines
 under `/util/opt/anaconda/deployed-conda-envs`.  You can then create a module
 file adding the `bin/` path of the new environment.
 
@@ -292,11 +292,21 @@ a merge request, etc.
 Skip deploying a package on a particular resource
 -------------------------------------------------
 
-By default, a package and its environments are deployed to all three HCC machines.
+By default, a package and its environments are deployed to all two HCC machines.
 There may be instances where it is desireable to not deploy a particular package
 to a particular machine.  To do so, create a file called `SKIP_DEPLOY` alongside
 the yaml files in the package's directory.  Add the names of the machines to
-skip deployment on (`Crane`, `Tusker`, `Sandhills`) to the file, one name per line.
+skip deployment on (`Crane`, `Rhino`) to the file, one name per line.
+
+Skip re-creating already existing environment
+---------------------------------------------
+
+By default, when updating an existing environment with new version or new dependency,
+all existing environments from that package are re-created again. Sometimes, some older
+versions have dependencies that are not anymore available on the main conda channels.
+Re-creating these environments will cause errors. To avoid this, create a file called
+`SKIP_PREPARE` alongside the yaml files in the package's directory. Add the names of the
+environments that shouldn't be re-created to the file, one name per line.
 
 Generating a Lmod file
 ----------------------
@@ -315,7 +325,7 @@ It will create a file with the environment name.  The default location to output
 is in the package directory, i.e. `packages/blast` for this example.  Use the `-o` option
 to the script to change the output directory.  *Note that the file is named using the
 environment name for clarity.  You will need to rename it when copying to the various*
-`{crane,tusker,sandhills}-modules` *repos to match the convention used there.*
+`{crane,rhino}-modules` *repos to match the convention used there.*
 Some manual editing of the generated file may still be necessary.  For example, conda
 package metadata doesn't include Keyword or Category information, so that will need
 to be added to the generated file.

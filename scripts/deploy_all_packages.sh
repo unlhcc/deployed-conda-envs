@@ -44,7 +44,6 @@ do
   if [ -f $packageDir/SKIP_PREPARE ]
   then
     WARN "'SKIP_PREPARE' file found in '"$packageDir"'! Skipping preparing some packages."
-    continue
   fi
 
   envSpecs=`anaconda-project list-env-specs --directory $packageDir | tail -n +5 | cut -f 1 -d ' '`;
