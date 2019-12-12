@@ -41,16 +41,16 @@ do
       continue
     fi
   fi
-  if [ -f $package/SKIP_PREPARE ]
+  if [ -f $packageDir/SKIP_PREPARE ]
   then
-    WARN "'SKIP_PREPARE' found in '"$packageDir/$skipDeployFile"'! Skipping preparing some packages."
+    WARN "'SKIP_PREPARE' file found in '"$packageDir"'! Skipping preparing some packages."
     continue
   fi
 
   envSpecs=`anaconda-project list-env-specs --directory $packageDir | tail -n +5 | cut -f 1 -d ' '`;
   for spec in $envSpecs;
     do
-      if [ -f $package/SKIP_PREPARE ] && [ `grep -w "$spec" $package/SKIP_PREPARE` ]
+      if [ -f $packageDir/SKIP_PREPARE ] && [ `grep -w "$spec" $packageDir/SKIP_PREPARE` ]
       then
           NOTICE "Skipping preparing environment $spec"
 	  continue
