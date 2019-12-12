@@ -41,21 +41,32 @@ do
       continue
     fi
   fi
+  if [ -f $package/SKIP_PREPARE ]
+  then
+    WARN "'SKIP_PREPARE' found in '"$packageDir/$skipDeployFile"'! Skipping preparing some packages."
+    continue
+  fi
 
   envSpecs=`anaconda-project list-env-specs --directory $packageDir | tail -n +5 | cut -f 1 -d ' '`;
   for spec in $envSpecs;
     do
-      NOTICE "Preparing environment $spec"
-      prepareCommand="anaconda-project prepare --directory $packageDir --env-spec $spec"
-      prepareOut="$($prepareCommand)"
-      if [[ "$prepareOut" = *"Potential issues"* ]]
+      if [ -f $package/SKIP_PREPARE ] && [ `grep -w "$spec" $package/SKIP_PREPARE` ]
       then
-        WARN "One or more issues have been found with the package!"
-        echo "$prepareOut" | head -n -2 | WARN
-        WARN "Continuing with deployment"
-       else
-         echo "$prepareOut" | INFO
-         NOTICE "Finished preparing environment $spec"
+          NOTICE "Skipping preparing environment $spec"
+	  continue
+      else
+          NOTICE "Preparing environment $spec"
+          prepareCommand="anaconda-project prepare --directory $packageDir --env-spec $spec"
+          prepareOut="$($prepareCommand)"
+          if [[ "$prepareOut" = *"Potential issues"* ]]
+          then
+            WARN "One or more issues have been found with the package!"
+            echo "$prepareOut" | head -n -2 | WARN
+            WARN "Continuing with deployment"
+          else
+            echo "$prepareOut" | INFO
+            NOTICE "Finished preparing environment $spec"
+          fi
       fi
     done
   NOTICE "Leaving directory '$packageDir'"
