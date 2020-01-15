@@ -13,9 +13,7 @@ name: Exonerate
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Exonerate is a generic tool for pairwise sequence comparison. It allows
-  you to align sequences using a many alignment models, either exhaustive dynamic
-  programming or a variety of heuristics.
+description: Exonerate is a generic tool for pairwise sequence comparison.
 
 
 #
@@ -29,4 +27,8 @@ env_specs:
   exonerate-2.4.0:
     packages:
     - exonerate=2.4.0
+    channels: []
+  exonerate-2.2.0:
+    packages:
+    - exonerate=2.2.0
     channels: []
