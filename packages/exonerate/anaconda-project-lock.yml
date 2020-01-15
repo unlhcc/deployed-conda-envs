@@ -8,9 +8,8 @@
 
 #
 # Set to false to ignore locked versions.
+#
 locking_enabled: true
-
-
 
 #
 # A key goes in here for each env spec.
@@ -23,13 +22,35 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
       - exonerate=2.4.0=haf93ef1_3
-      - glib=2.63.1=h5a9c865_0
+      - gettext=0.19.8.1=hc5be6a0_1002
+      - glib=2.58.3=h6f030ca_1002
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - libiconv=1.15=h516909a_1005
+      - libstdcxx-ng=9.2.0=hdf63c60_2
       - pcre=8.43=he1b5a44_0
       - zlib=1.2.11=h516909a_1006
-
-
+  exonerate-2.2.0:
+    locked: true
+    env_spec_hash: 36e8824a4e16fad38b10f5e98d44d1c89f6c295b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - exonerate=2.2.0=1
+      - gettext=0.19.8.1=hc5be6a0_1002
+      - glib=2.58.3=h6f030ca_1002
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgcc=7.2.0=h69d50b8_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - libiconv=1.15=h516909a_1005
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - pcre=8.43=he1b5a44_0
+      - zlib=1.2.11=h516909a_1006
