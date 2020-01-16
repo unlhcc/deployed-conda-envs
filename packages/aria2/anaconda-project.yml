@@ -28,4 +28,11 @@ env_specs:
   aria2-1.23.0:
     packages:
     - aria2=1.23.0
+    - openssl=1.0
+    - libxml2=2.9.9
+    - icu=58
+    channels: []
+  aria2-1.34.0:
+    packages:
+    - aria2=1.34.0
     channels: []
