@@ -30,3 +30,10 @@ env_specs:
     - numpy=1.15.4
     - python=3.6
     channels: []
+  pyseer-1.3.4:
+    packages:
+    - pyseer=1.3.4
+    - python=3.7
+    - perl=5.26
+    - numpy=1.17
+    channels: []
