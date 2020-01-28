@@ -28,4 +28,6 @@ env_specs:
   vcftools-0.1.16:
     packages:
     - vcftools=0.1.16
+    - perl=5.26
+    - perl-vcftools-vcf=0.1.16
     channels: []

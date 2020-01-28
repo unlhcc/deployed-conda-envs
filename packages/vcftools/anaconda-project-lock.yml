@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   vcftools-0.1.16:
     locked: true
-    env_spec_hash: c28a2a8b857331420fd2c8e3a0c5a05db860e850
+    env_spec_hash: 38faaae228ace28c5bf175f73d5662cbe2a69e6e
     platforms:
     - linux-64
     packages:
@@ -27,5 +27,7 @@ env_specs:
       - libgcc-ng=9.2.0=h24d8f2e_2
       - libgomp=9.2.0=h24d8f2e_2
       - libstdcxx-ng=9.2.0=hdf63c60_2
+      - perl-vcftools-vcf=0.1.16=pl526_2
+      - perl=5.26.2=h516909a_1006
       - vcftools=0.1.16=he860b03_3
       - zlib=1.2.11=h516909a_1006
