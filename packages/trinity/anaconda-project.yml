@@ -39,3 +39,7 @@ env_specs:
     packages:
     - trinity=2.8.4
     channels: []
+  trinity-2.9.1:
+    packages:
+    - trinity=2.9.1
+    channels: []
