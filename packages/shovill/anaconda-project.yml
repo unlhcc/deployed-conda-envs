@@ -28,3 +28,7 @@ env_specs:
     packages:
     - shovill=1.0.4
     channels: []
+  shovill-1.0.9:
+    packages:
+    - shovill=1.0.9
+    channels: []
