@@ -8,12 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: Unicycler
+name: snp-dists
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Unicycler is an assembly pipeline for bacterial genomes.
+description: Pairwise SNP distance matrix from a FASTA sequence alignment.
 
 
 #
@@ -24,11 +24,7 @@ description: Unicycler is an assembly pipeline for bacterial genomes.
 platforms:
 - linux-64
 env_specs:
-  unicycler-0.4.7:
+  snp-dists-0.6.3:
     packages:
-    - unicycler=0.4.7
-    channels: []
-  unicycler-0.4.8:
-    packages:
-    - unicycler=0.4.8
+    - snp-dists=0.6.3
     channels: []
