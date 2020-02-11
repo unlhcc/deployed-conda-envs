@@ -27,5 +27,8 @@ platforms:
 env_specs:
   breakdancer-1.4.5:
     packages:
-    - breakdancer==1.4.5=pl5.22.0_2
+    - breakdancer=1.4.5
+    - libwebp=0.5.2
+    - samtools
+    - libiconv
     channels: []
