@@ -1,0 +1,33 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: OpenSlide
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: OpenSlide is a C library that provides a simple interface to read whole-slide
+  images, with Python and Java bindings.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  openslide-3.4.1:
+    packages:
+    - openslide=3.4.1
+    - openslide-python=1.1.1
+    - python=3.6
+    channels: []
