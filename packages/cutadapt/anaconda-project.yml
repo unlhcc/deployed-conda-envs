@@ -36,3 +36,8 @@ env_specs:
     packages:
     - cutadapt=1.16
     channels: []
+  cutadapt-2.8:
+    packages:
+    - cutadapt=2.8
+    - python=3.7
+    channels: []
