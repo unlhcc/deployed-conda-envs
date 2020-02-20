@@ -172,6 +172,7 @@ env_specs:
     - scikit-learn
     - scikit-plot
     - pandas
+    - ipykernel
     channels: []
   tensorflow-2.1.0-py36:
     packages:
@@ -182,6 +183,7 @@ env_specs:
     - scikit-learn
     - scikit-plot
     - pandas
+    - ipykernel
     channels: []
   tensorflow-2.1.0-py37:
     packages:
@@ -192,4 +194,5 @@ env_specs:
     - scikit-learn
     - scikit-plot
     - pandas
+    - ipykernel
     channels: []
