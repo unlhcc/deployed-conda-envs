@@ -181,3 +181,34 @@ env_specs:
       - wheel=0.32.3=py36_0
       - xz=5.2.4=h470a237_1
       - zlib=1.2.11=h470a237_3
+  spades-3.14.0:
+    locked: true
+    env_spec_hash: e8fdf2a3cc17a0e4a484c27e2a38c0ae07e1cdc2
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py36_0
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=8.0.1=hc9558a2_0
+      - ncurses=6.1=hf484d3e_1002
+      - openmp=8.0.1=0
+      - openssl=1.1.1d=h516909a_0
+      - pip=20.0.2=py_2
+      - python=3.6.7=h357f687_1006
+      - readline=8.0=hf8c457e_0
+      - regex=2020.2.20=py36h516909a_0
+      - setuptools=45.2.0=py36_0
+      - spades=3.14.0=h2d02072_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1006
