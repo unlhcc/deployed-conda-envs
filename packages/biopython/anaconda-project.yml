@@ -65,3 +65,13 @@ env_specs:
     - biopython=1.74
     - python=3.7
     channels: []
+  biopython-1.76-py27:
+    packages:
+    - biopython=1.76
+    - python=2.7
+    channels: []
+  biopython-1.76-py37:
+    packages:
+    - biopython=1.76
+    - python=3.7
+    channels: []
