@@ -8,9 +8,8 @@
 
 #
 # Set to false to ignore locked versions.
+#
 locking_enabled: true
-
-
 
 #
 # A key goes in here for each env spec.
@@ -23,28 +22,30 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
       - biopython=1.71=py36_0
-      - ca-certificates=2019.9.11=hecc5488_0
-      - certifi=2019.9.11=py36_0
-      - libblas=3.8.0=12_openblas
-      - libcblas=3.8.0=12_openblas
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py36_0
+      - libblas=3.8.0=15_openblas
+      - libcblas=3.8.0=15_openblas
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libgfortran-ng=7.3.0=hdf63c60_0
-      - liblapack=3.8.0=12_openblas
-      - libopenblas=0.3.7=h6e990d7_1
-      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - liblapack=3.8.0=15_openblas
+      - libopenblas=0.3.8=h5ec1e0e_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
       - ncurses=6.1=hf484d3e_1002
-      - numpy=1.17.2=py36h95a1406_0
-      - openssl=1.1.1c=h516909a_0
-      - pip=19.2.3=py36_0
-      - python=3.6.7=h357f687_1005
+      - numpy=1.18.1=py36h95a1406_0
+      - openssl=1.1.1d=h516909a_0
+      - pip=20.0.2=py_2
+      - python=3.6.7=h357f687_1006
       - readline=8.0=hf8c457e_0
-      - setuptools=41.2.0=py36_0
-      - sqlite=3.29.0=hcee41ef_1
-      - tk=8.6.9=hed695b0_1003
-      - wheel=0.33.6=py36_0
+      - setuptools=45.2.0=py36_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1006
   biopython-1.71-py35:
@@ -54,32 +55,34 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
       - biopython=1.71=py35_0
-      - blas=2.12=openblas
-      - bzip2=1.0.8=h516909a_1
-      - ca-certificates=2019.9.11=hecc5488_0
+      - blas=2.15=openblas
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2019.11.28=hecc5488_0
       - certifi=2018.8.24=py35_1001
-      - libblas=3.8.0=12_openblas
-      - libcblas=3.8.0=12_openblas
+      - libblas=3.8.0=15_openblas
+      - libcblas=3.8.0=15_openblas
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libgfortran-ng=7.3.0=hdf63c60_0
-      - liblapack=3.8.0=12_openblas
-      - liblapacke=3.8.0=12_openblas
-      - libopenblas=0.3.7=h6e990d7_1
-      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - liblapack=3.8.0=15_openblas
+      - liblapacke=3.8.0=15_openblas
+      - libopenblas=0.3.8=h5ec1e0e_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
       - ncurses=6.1=hf484d3e_1002
       - numpy-base=1.15.2=py35h2f8d375_0
       - numpy=1.15.2=py35h99e49ec_0
-      - openssl=1.0.2r=h14c3975_0
-      - pip=18.0=py35_1001
+      - openssl=1.0.2u=h516909a_0
+      - pip=20.0.2=py_2
       - python=3.5.5=h5001a0f_2
       - readline=7.0=hf8c457e_1001
       - setuptools=40.4.3=py35_0
       - sqlite=3.28.0=h8b20d00_0
-      - tk=8.6.9=hed695b0_1003
-      - wheel=0.32.0=py35_1000
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1006
   biopython-1.71-py27:
@@ -89,28 +92,30 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
       - biopython=1.71=py27_0
-      - ca-certificates=2019.9.11=hecc5488_0
-      - certifi=2019.9.11=py27_0
-      - libblas=3.8.0=12_openblas
-      - libcblas=3.8.0=12_openblas
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py27_0
+      - libblas=3.8.0=15_openblas
+      - libcblas=3.8.0=15_openblas
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libgfortran-ng=7.3.0=hdf63c60_0
-      - liblapack=3.8.0=12_openblas
-      - libopenblas=0.3.7=h6e990d7_1
-      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - liblapack=3.8.0=15_openblas
+      - libopenblas=0.3.8=h5ec1e0e_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
       - ncurses=6.1=hf484d3e_1002
-      - numpy=1.16.4=py27h95a1406_0
-      - openssl=1.1.1c=h516909a_0
-      - pip=19.2.3=py27_0
+      - numpy=1.16.5=py27h95a1406_0
+      - openssl=1.1.1d=h516909a_0
+      - pip=20.0.2=py_2
       - python=2.7.15=h5a48372_1009
       - readline=8.0=hf8c457e_0
-      - setuptools=41.2.0=py27_0
-      - sqlite=3.29.0=hcee41ef_1
-      - tk=8.6.9=hed695b0_1003
-      - wheel=0.33.6=py27_0
+      - setuptools=44.0.0=py27_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
       - zlib=1.2.11=h516909a_1006
   biopython-1.70-py35:
     locked: true
@@ -119,32 +124,34 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
       - biopython=1.70=py35_2
-      - blas=2.12=openblas
-      - bzip2=1.0.8=h516909a_1
-      - ca-certificates=2019.9.11=hecc5488_0
+      - blas=2.15=openblas
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2019.11.28=hecc5488_0
       - certifi=2018.8.24=py35_1001
-      - libblas=3.8.0=12_openblas
-      - libcblas=3.8.0=12_openblas
+      - libblas=3.8.0=15_openblas
+      - libcblas=3.8.0=15_openblas
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libgfortran-ng=7.3.0=hdf63c60_0
-      - liblapack=3.8.0=12_openblas
-      - liblapacke=3.8.0=12_openblas
-      - libopenblas=0.3.7=h6e990d7_1
-      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - liblapack=3.8.0=15_openblas
+      - liblapacke=3.8.0=15_openblas
+      - libopenblas=0.3.8=h5ec1e0e_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
       - ncurses=6.1=hf484d3e_1002
       - numpy-base=1.15.2=py35h2f8d375_0
       - numpy=1.15.2=py35h99e49ec_0
-      - openssl=1.0.2r=h14c3975_0
-      - pip=18.0=py35_1001
+      - openssl=1.0.2u=h516909a_0
+      - pip=20.0.2=py_2
       - python=3.5.5=h5001a0f_2
       - readline=7.0=hf8c457e_1001
       - setuptools=40.4.3=py35_0
       - sqlite=3.28.0=h8b20d00_0
-      - tk=8.6.9=hed695b0_1003
-      - wheel=0.32.0=py35_1000
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1006
   biopython-1.70-py36:
@@ -154,39 +161,41 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
       - biopython=1.70=np112py36_1
       - blas=1.1=openblas
-      - ca-certificates=2019.9.11=hecc5488_0
-      - certifi=2019.9.11=py36_0
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py36_0
       - freetype=2.10.0=he983fc9_1
       - jpeg=9c=h14c3975_1001
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libgfortran-ng=7.3.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - libgomp=9.2.0=h24d8f2e_2
       - libpng=1.6.37=hed695b0_0
-      - libstdcxx-ng=9.1.0=hdf63c60_0
-      - libtiff=4.0.10=h57b8799_1003
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - libtiff=4.1.0=hc3755c2_3
       - lz4-c=1.8.3=he1b5a44_1001
       - mmtf-python=1.1.2=py_0
-      - msgpack-python=0.6.2=py36hc9558a2_0
+      - msgpack-python=1.0.0=py36hc9558a2_0
       - ncurses=6.1=hf484d3e_1002
       - numpy=1.12.1=py36_blas_openblash1522bff_1001
       - olefile=0.46=py_0
       - openblas=0.3.3=h9ac9557_1001
-      - openssl=1.1.1c=h516909a_0
-      - pillow=6.1.0=py36h6b7be26_1
-      - pip=19.2.3=py36_0
-      - python=3.6.7=h357f687_1005
+      - openssl=1.1.1d=h516909a_0
+      - pillow=7.0.0=py36hefe7db6_0
+      - pip=20.0.2=py_2
+      - python=3.6.7=h357f687_1006
       - readline=8.0=hf8c457e_0
-      - reportlab=3.5.26=py36h7d98c4e_0
-      - setuptools=41.2.0=py36_0
-      - sqlite=3.29.0=hcee41ef_1
-      - tk=8.6.9=hed695b0_1003
-      - wheel=0.33.6=py36_0
+      - reportlab=3.5.32=py36h7d98c4e_0
+      - setuptools=45.2.0=py36_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1006
-      - zstd=1.4.0=h3b9ef0a_0
+      - zstd=1.4.4=h3b9ef0a_1
   biopython-1.74-py27:
     locked: true
     env_spec_hash: 8c24dfe29b61aa84e681cee66f715a3617b758f2
@@ -194,28 +203,30 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
       - biopython=1.74=py27h516909a_0
-      - ca-certificates=2019.9.11=hecc5488_0
-      - certifi=2019.9.11=py27_0
-      - libblas=3.8.0=12_openblas
-      - libcblas=3.8.0=12_openblas
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py27_0
+      - libblas=3.8.0=15_openblas
+      - libcblas=3.8.0=15_openblas
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libgfortran-ng=7.3.0=hdf63c60_0
-      - liblapack=3.8.0=12_openblas
-      - libopenblas=0.3.7=h6e990d7_1
-      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - liblapack=3.8.0=15_openblas
+      - libopenblas=0.3.8=h5ec1e0e_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
       - ncurses=6.1=hf484d3e_1002
-      - numpy=1.16.4=py27h95a1406_0
-      - openssl=1.1.1c=h516909a_0
-      - pip=19.2.3=py27_0
+      - numpy=1.16.5=py27h95a1406_0
+      - openssl=1.1.1d=h516909a_0
+      - pip=20.0.2=py_2
       - python=2.7.15=h5a48372_1009
       - readline=8.0=hf8c457e_0
-      - setuptools=41.2.0=py27_0
-      - sqlite=3.29.0=hcee41ef_1
-      - tk=8.6.9=hed695b0_1003
-      - wheel=0.33.6=py27_0
+      - setuptools=44.0.0=py27_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
       - zlib=1.2.11=h516909a_1006
   biopython-1.74-py37:
     locked: true
@@ -224,29 +235,97 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
       - biopython=1.74=py37h516909a_0
-      - bzip2=1.0.8=h516909a_1
-      - ca-certificates=2019.9.11=hecc5488_0
-      - certifi=2019.9.11=py37_0
-      - libblas=3.8.0=12_openblas
-      - libcblas=3.8.0=12_openblas
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py37_0
+      - ld_impl_linux-64=2.33.1=h53a641e_8
+      - libblas=3.8.0=15_openblas
+      - libcblas=3.8.0=15_openblas
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libgfortran-ng=7.3.0=hdf63c60_0
-      - liblapack=3.8.0=12_openblas
-      - libopenblas=0.3.7=h6e990d7_1
-      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - liblapack=3.8.0=15_openblas
+      - libopenblas=0.3.8=h5ec1e0e_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
       - ncurses=6.1=hf484d3e_1002
-      - numpy=1.17.2=py37h95a1406_0
-      - openssl=1.1.1c=h516909a_0
-      - pip=19.2.3=py37_0
-      - python=3.7.3=h33d41f4_1
+      - numpy=1.18.1=py37h95a1406_0
+      - openssl=1.1.1d=h516909a_0
+      - pip=20.0.2=py_2
+      - python=3.7.6=h357f687_2
       - readline=8.0=hf8c457e_0
-      - setuptools=41.2.0=py37_0
-      - sqlite=3.29.0=hcee41ef_1
-      - tk=8.6.9=hed695b0_1003
-      - wheel=0.33.6=py37_0
+      - setuptools=45.2.0=py37_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
+      - xz=5.2.4=h14c3975_1001
+      - zlib=1.2.11=h516909a_1006
+  biopython-1.76-py27:
+    locked: true
+    env_spec_hash: cd685c03f2ce28e4f9f728849e1f8053fbf69b6a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
+      - biopython=1.76=py27h516909a_0
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py27_0
+      - libblas=3.8.0=15_openblas
+      - libcblas=3.8.0=15_openblas
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - liblapack=3.8.0=15_openblas
+      - libopenblas=0.3.8=h5ec1e0e_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
+      - ncurses=6.1=hf484d3e_1002
+      - numpy=1.16.5=py27h95a1406_0
+      - openssl=1.1.1d=h516909a_0
+      - pip=20.0.2=py_2
+      - python=2.7.15=h5a48372_1009
+      - readline=8.0=hf8c457e_0
+      - setuptools=41.4.0=py27_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
+      - zlib=1.2.11=h516909a_1006
+  biopython-1.76-py37:
+    locked: true
+    env_spec_hash: 51ee5d44226ffae98e1ce83021db1f5065f081e4
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
+      - biopython=1.76=py37h516909a_0
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py37_0
+      - ld_impl_linux-64=2.33.1=h53a641e_8
+      - libblas=3.8.0=15_openblas
+      - libcblas=3.8.0=15_openblas
+      - libffi=3.2.1=he1b5a44_1006
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - liblapack=3.8.0=15_openblas
+      - libopenblas=0.3.8=h5ec1e0e_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
+      - ncurses=6.1=hf484d3e_1002
+      - numpy=1.18.1=py37h95a1406_0
+      - openssl=1.1.1d=h516909a_0
+      - pip=20.0.2=py_2
+      - python=3.7.6=h357f687_2
+      - readline=8.0=hf8c457e_0
+      - setuptools=45.2.0=py37_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1006
   biopython-1.70-py27:
@@ -256,38 +335,38 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
       - biopython=1.70=np112py27_1
       - blas=1.1=openblas
-      - ca-certificates=2019.9.11=hecc5488_0
-      - certifi=2019.9.11=py27_0
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py27_0
       - freetype=2.10.0=he983fc9_1
       - jpeg=9c=h14c3975_1001
       - libffi=3.2.1=he1b5a44_1006
-      - libgcc-ng=9.1.0=hdf63c60_0
-      - libgfortran-ng=7.3.0=hdf63c60_0
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - libgomp=9.2.0=h24d8f2e_2
       - libpng=1.6.37=hed695b0_0
-      - libstdcxx-ng=9.1.0=hdf63c60_0
-      - libtiff=4.0.10=h57b8799_1003
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - libtiff=4.1.0=hc3755c2_3
       - lz4-c=1.8.3=he1b5a44_1001
       - mmtf-python=1.1.2=py_0
-      - msgpack-python=0.6.2=py27hc9558a2_0
+      - msgpack-python=1.0.0=py27hc9558a2_0
       - ncurses=6.1=hf484d3e_1002
       - numpy=1.12.1=py27_blas_openblash1522bff_1001
       - olefile=0.46=py_0
       - openblas=0.3.3=h9ac9557_1001
-      - openssl=1.1.1c=h516909a_0
-      - pillow=6.1.0=py27h6b7be26_1
-      - pip=19.2.3=py27_0
+      - openssl=1.1.1d=h516909a_0
+      - pillow=6.2.1=py27hd70f55b_1
+      - pip=20.0.2=py_2
       - python=2.7.15=h5a48372_1009
       - readline=8.0=hf8c457e_0
-      - reportlab=3.5.26=py27h7d98c4e_0
-      - setuptools=41.2.0=py27_0
-      - sqlite=3.29.0=hcee41ef_1
-      - tk=8.6.9=hed695b0_1003
-      - wheel=0.33.6=py27_0
+      - reportlab=3.5.32=py27h7d98c4e_0
+      - setuptools=41.4.0=py27_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1006
-      - zstd=1.4.0=h3b9ef0a_0
-
-
+      - zstd=1.4.4=h3b9ef0a_1
