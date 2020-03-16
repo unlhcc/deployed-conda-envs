@@ -901,4 +901,6 @@ env_specs:
     - zipp=0.6.0
     - zlib=1.2.11
     - zstd=1.4.3
-    channels: [qiime2/label/r2019.10, conda-forge, bioconda, defaults]
+    - picrust2=2.3.0_b
+    - q2-picrust2=2019.10
+    channels: [qiime2/label/r2019.10, conda-forge, bioconda, defaults, gavinmdouglas]
