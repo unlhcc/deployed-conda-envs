@@ -32,4 +32,5 @@ env_specs:
     - r-checkpoint=0.4.7
     - r-irkernel=1.0.2
     - r-r.utils=2.9.0
+    - r-devtools=2.2.2
     channels: []
