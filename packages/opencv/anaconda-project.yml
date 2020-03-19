@@ -39,3 +39,24 @@ env_specs:
     - blas=1.1
     - numpy=1.15.1
     channels: []
+  opencv-4.2.0-py38:
+    packages:
+    - opencv=4.2.0
+    - python=3.8
+    - blas=2.16
+    - numpy=1.18.1
+    channels: []
+  opencv-4.2.0-py37:
+    packages:
+    - opencv=4.2.0
+    - python=3.7
+    - blas=2.16
+    - numpy=1.18.1
+    channels: []
+  opencv-4.2.0-py27:
+    packages:
+    - opencv=4.2.0
+    - python=2.7
+    - blas=2.16
+    - numpy=1.16.5
+    channels: []
