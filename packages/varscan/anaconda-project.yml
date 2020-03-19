@@ -34,3 +34,7 @@ env_specs:
     packages:
     - varscan=2.3.7
     channels: []
+  varscan-2.4.4:
+    packages:
+    - varscan=2.4.4
+    channels: []
