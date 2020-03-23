@@ -28,3 +28,8 @@ env_specs:
     packages:
     - neper=3.3.0
     channels: []
+  neper-3.5.2:
+    packages:
+    - neper=3.5.2
+    - libmatheval
+    channels: []
