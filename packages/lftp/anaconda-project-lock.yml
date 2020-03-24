@@ -34,3 +34,27 @@ env_specs:
       - openssl=1.0.2r=h14c3975_0
       - readline=7.0=0
       - zlib=1.2.11=h14c3975_1004
+  lftp-4.9.1:
+    locked: true
+    env_spec_hash: 8c5d9cdbc02e9ca958b2ea071e6b3c84a3781487
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - ca-certificates=2019.11.28=hecc5488_0
+      - expat=2.2.9=he1b5a44_2
+      - gettext=0.19.8.1=hc5be6a0_1002
+      - lftp=4.9.1=h2a2fa53_0
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - libiconv=1.15=h516909a_1006
+      - libidn2=2.3.0=h516909a_0
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - libunistring=0.9.10=h14c3975_0
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1e=h516909a_0
+      - readline=8.0=hf8c457e_0
+      - zlib=1.2.11=h516909a_1006
