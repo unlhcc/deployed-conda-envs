@@ -16,48 +16,6 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  augustus-3.3:
-    locked: true
-    env_spec_hash: b3ac30bd41ca639225184940853e178f731045b7
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - augustus=3.3=boost1.64_bamtools2.4.1_0
-      - bamtools=2.4.1=1
-      - boost-cpp=1.64.0=1
-      - boost=1.64.0=py36_4
-      - bzip2=1.0.6=1
-      - ca-certificates=2018.4.16=0
-      - certifi=2018.4.16=py36_0
-      - gsl=1.16=0
-      - icu=58.2=0
-      - libgcc-ng=7.2.0=hdf63c60_3
-      - libgcc=7.2.0=h69d50b8_2
-      - libgfortran-ng=7.2.0=hdf63c60_3
-      - libopenblas=0.2.20=h9ac9557_4
-      - libstdcxx-ng=7.2.0=hdf63c60_3
-      - lp_solve=5.5.2.5=0
-      - ncurses=5.9=10
-      - numpy-base=1.14.3=py36h0ea5e3f_1
-      - numpy=1.14.3=py36h28100ab_1
-      - openssl=1.0.2o=0
-      - perl-app-cpanminus=1.7043=pl5.22.0_0
-      - perl-dbi=1.641=pl5.22.0_0
-      - perl-module-build=0.4224=pl5.22.0_0
-      - perl-scalar-list-utils=1.45=2
-      - perl-threaded=5.22.0=pl5.22.0_12
-      - perl-yaml=1.24=0
-      - perl=5.22.0.1=0
-      - pip=9.0.3=py36_0
-      - python=3.6.5=1
-      - readline=7.0=0
-      - setuptools=39.2.0=py36_0
-      - sqlite=3.20.1=2
-      - tk=8.6.7=0
-      - wheel=0.31.0=py36_0
-      - xz=5.2.3=0
-      - zlib=1.2.11=0
   augustus-3.2.3:
     locked: true
     env_spec_hash: 1ce80ea80b723f79027957c780d924003cdabf46
@@ -102,3 +60,130 @@ env_specs:
       - zlib=1.2.11=0
 
 
+  augustus-3.3:
+    locked: true
+    env_spec_hash: 4f6d635130f54cfa973f3d67a714889430e7d0fc
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - augustus=3.3.3=pl526hce533f5_0
+      - biopython=1.76=py38h516909a_0
+      - blat=36=0
+      - boost-cpp=1.70.0=h8e57a91_2
+      - boost=1.70.0=py38h9de70de_1
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py38h32f6830_1
+      - curl=7.68.0=hf8cf82a_0
+      - gsl=2.5=h294904e_1
+      - htslib=1.9=h4da6232_3
+      - icu=64.2=he1b5a44_1
+      - krb5=1.16.4=h2fd8d38_0
+      - ld_impl_linux-64=2.34=h53a641e_0
+      - libblas=3.8.0=11_openblas
+      - libcblas=3.8.0=11_openblas
+      - libcurl=7.68.0=hda55be3_0
+      - libdeflate=1.5=h516909a_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - libgomp=9.2.0=h24d8f2e_2
+      - liblapack=3.8.0=11_openblas
+      - libopenblas=0.3.6=h6e990d7_6
+      - libpng=1.6.37=hed695b0_1
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - lp_solve=5.5.2.5=h14c3975_1001
+      - metis=5.1.0=he1b5a44_1005
+      - ncurses=6.1=hf484d3e_1002
+      - numpy=1.18.1=py38h8854b6b_1
+      - openblas=0.3.6=h6e990d7_6
+      - openssl=1.1.1e=h516909a_0
+      - perl-apache-test=1.40=pl526_1
+      - perl-app-cpanminus=1.7044=pl526_1
+      - perl-base=2.23=pl526_1
+      - perl-bioperl=1.6.924=4
+      - perl-carp=1.38=pl526_3
+      - perl-class-load-xs=0.10=pl526h6bb024c_2
+      - perl-class-load=0.25=pl526_0
+      - perl-class-method-modifiers=2.12=pl526_0
+      - perl-constant=1.33=pl526_1
+      - perl-cpan-meta-requirements=2.140=pl526_0
+      - perl-cpan-meta-yaml=0.018=pl526_0
+      - perl-cpan-meta=2.150010=pl526_0
+      - perl-data-dumper=2.173=pl526_0
+      - perl-data-optlist=0.110=pl526_2
+      - perl-dbi=1.642=pl526_0
+      - perl-devel-globaldestruction=0.14=pl526_0
+      - perl-devel-overloadinfo=0.005=pl526_0
+      - perl-devel-stacktrace=2.04=pl526_0
+      - perl-dist-checkconflicts=0.11=pl526_2
+      - perl-encode=2.88=pl526_1
+      - perl-eval-closure=0.14=pl526h6bb024c_4
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-cbuilder=0.280230=pl526_1
+      - perl-extutils-makemaker=7.36=pl526_1
+      - perl-extutils-manifest=1.72=pl526_0
+      - perl-extutils-parsexs=3.35=pl526_0
+      - perl-file-path=2.16=pl526_0
+      - perl-file-temp=0.2304=pl526_2
+      - perl-file-which=1.23=pl526_0
+      - perl-getopt-long=2.50=pl526_1
+      - perl-ipc-cmd=1.02=pl526_0
+      - perl-json-pp=4.04=pl526_0
+      - perl-locale-maketext-simple=0.21=pl526_2
+      - perl-module-build=0.4224=pl526_3
+      - perl-module-corelist=5.20190524=pl526_0
+      - perl-module-implementation=0.09=pl526_2
+      - perl-module-load-conditional=0.68=pl526_2
+      - perl-module-load=0.32=pl526_1
+      - perl-module-metadata=1.000036=pl526_0
+      - perl-module-runtime-conflicts=0.003=pl526_0
+      - perl-module-runtime=0.016=pl526_1
+      - perl-moo=2.003004=pl526_0
+      - perl-moose=2.2011=pl526hf484d3e_1
+      - perl-mro-compat=0.13=pl526_0
+      - perl-package-deprecationmanager=0.17=pl526_0
+      - perl-package-stash-xs=0.28=pl526hf484d3e_1
+      - perl-package-stash=0.38=pl526hf484d3e_1
+      - perl-parallel-forkmanager=2.02=pl526_0
+      - perl-params-check=0.38=pl526_1
+      - perl-params-util=1.07=pl526h6bb024c_4
+      - perl-parent=0.236=pl526_1
+      - perl-pathtools=3.75=pl526h14c3975_1
+      - perl-perl-ostype=1.010=pl526_1
+      - perl-role-tiny=2.000008=pl526_0
+      - perl-scalar-list-utils=1.52=pl526h516909a_0
+      - perl-storable=3.15=pl526h14c3975_0
+      - perl-sub-exporter-progressive=0.001013=pl526_0
+      - perl-sub-exporter=0.987=pl526_2
+      - perl-sub-identify=0.14=pl526h14c3975_0
+      - perl-sub-install=0.928=pl526_2
+      - perl-sub-name=0.21=pl526_1
+      - perl-sub-quote=2.006003=pl526_1
+      - perl-text-abbrev=1.02=pl526_0
+      - perl-text-parsewords=3.30=pl526_0
+      - perl-threaded=5.26.0=0
+      - perl-try-tiny=0.30=pl526_1
+      - perl-version=0.9924=pl526_0
+      - perl-xsloader=0.24=pl526_0
+      - perl-yaml=1.29=pl526_0
+      - perl=5.26.2=h516909a_1006
+      - pip=20.0.2=py_2
+      - python=3.8.2=h8356626_5_cpython
+      - python_abi=3.8=1_cp38
+      - readline=8.0=hf8c457e_0
+      - scipio=1.4=pl526_0
+      - setuptools=46.1.1=py38h32f6830_0
+      - sqlite=3.30.1=hcee41ef_0
+      - suitesparse=4.5.6=h717dc36_1204
+      - tbb=2020.1=hc9558a2_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
+      - xz=5.2.4=h516909a_1002
+      - zlib=1.2.11=h516909a_1006
