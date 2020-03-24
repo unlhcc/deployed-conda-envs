@@ -30,3 +30,7 @@ env_specs:
     - lftp=4.8.3
     - openssl=1.0
     channels: []
+  lftp-4.9.1:
+    packages:
+    - lftp=4.9.1
+    channels: []
