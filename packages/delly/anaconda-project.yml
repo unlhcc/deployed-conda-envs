@@ -29,3 +29,7 @@ env_specs:
     packages:
     - delly=0.8.1
     channels: []
+  delly-0.8.3:
+    packages:
+    - delly=0.8.3
+    channels: []
