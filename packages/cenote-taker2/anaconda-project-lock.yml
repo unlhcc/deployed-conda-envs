@@ -15,9 +15,9 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  cenote-taker2-2020.03.26:
+  cenote-taker2-2020.04.01:
     locked: true
-    env_spec_hash: 226e88811c3b3bb63bbe4cb06736621ebae7b1dd
+    env_spec_hash: 2d0390284b51ff9dfc053dc079e7f5e41ac8ab44
     platforms:
     - linux-64
     packages:
@@ -33,7 +33,7 @@ env_specs:
       - bwa=0.7.17=hed695b0_7
       - bzip2=1.0.8=h516909a_2
       - ca-certificates=2019.11.28=hecc5488_0
-      - cenote-taker2=2020.03.26=0
+      - cenote-taker2=2020.04.01=0
       - certifi=2019.11.28=py36h9f0ad1d_1
       - circlator=1.5.5=py_2
       - coreutils=8.31=h516909a_0
@@ -64,6 +64,7 @@ env_specs:
       - libcurl=7.68.0=hda55be3_0
       - libdeflate=1.5=h516909a_0
       - libedit=3.1.20170329=hf8c457e_1001
+      - libfaketime=0.9.8=h516909a_0
       - libffi=3.2.1=he1b5a44_1007
       - libgcc-ng=9.2.0=h24d8f2e_2
       - libgd=2.2.5=h307a58e_1007
@@ -91,7 +92,7 @@ env_specs:
       - openjdk=11.0.1=h600c080_1018
       - openmp=8.0.1=0
       - openpyxl=3.0.3=py_0
-      - openssl=1.1.1e=h516909a_0
+      - openssl=1.1.1f=h516909a_0
       - pandas=1.0.0=py36hb3f55d8_0
       - parallel=20200322=0
       - pcre=8.44=he1b5a44_0
@@ -179,7 +180,7 @@ env_specs:
       - spades=3.14.0=h2d02072_0
       - sqlite=3.30.1=hcee41ef_0
       - tbb=2020.1=hc9558a2_0
-      - tbl2asn=25.7=0
+      - tbl2asn-forever=25.7.1f=0
       - tk=8.6.10=hed695b0_0
       - tornado=6.0.4=py36h8c4c3a4_1
       - trnascan-se=2.0.5=pl526h516909a_0

@@ -24,7 +24,7 @@ description: Cenote-Taker2 is a pipeline for divergent virus discovery and annot
 platforms:
 - linux-64
 env_specs:
-  cenote-taker2-2020.03.26:
+  cenote-taker2-2020.04.01:
     packages:
-    - cenote-taker2=2020.03.26
+    - cenote-taker2=2020.04.01
     channels: []
