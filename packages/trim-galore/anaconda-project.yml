@@ -41,3 +41,10 @@ env_specs:
     - python=2.7
     - trim-galore=0.6.4
     channels: []
+  trim-galore-0.6.5:
+    packages:
+    - trim-galore=0.6.5
+    - openjdk=11.0
+    - perl=5.26
+    - python=3.7
+    channels: []
