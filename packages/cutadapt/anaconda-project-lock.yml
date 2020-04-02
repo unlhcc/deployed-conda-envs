@@ -114,3 +114,35 @@ env_specs:
       - xopen=0.8.4=py37_0
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1006
+  cutadapt-2.9:
+    locked: true
+    env_spec_hash: 5045da7f59aa266bbc61428961fb5eb44d44a633
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - ca-certificates=2019.11.28=hecc5488_0
+      - certifi=2019.11.28=py37hc8dfbb8_1
+      - cutadapt=2.9=py37h516909a_0
+      - dnaio=0.4.1=py37h516909a_0
+      - ld_impl_linux-64=2.34=h53a641e_0
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1f=h516909a_0
+      - pigz=2.3.4=hed695b0_1
+      - pip=20.0.2=py_2
+      - python=3.7.6=h8356626_5_cpython
+      - python_abi=3.7=1_cp37m
+      - readline=8.0=hf8c457e_0
+      - setuptools=46.1.3=py37hc8dfbb8_0
+      - sqlite=3.30.1=hcee41ef_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.34.2=py_1
+      - xopen=0.9.0=py37hc8dfbb8_0
+      - xz=5.2.4=h516909a_1002
+      - zlib=1.2.11=h516909a_1006
