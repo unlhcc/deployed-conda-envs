@@ -28,4 +28,5 @@ env_specs:
   quake-0.3.5:
     packages:
     - quake=0.3.5
+    - kmer-jellyfish=2.3.0
     channels: []
