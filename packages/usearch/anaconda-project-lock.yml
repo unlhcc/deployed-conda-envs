@@ -26,3 +26,11 @@ env_specs:
       - usearch=11.0.667=1
 
 
+  usearch-10.0.240:
+    locked: true
+    env_spec_hash: 7b7bb4f6371b3a53fbfa5a11fb48fcc7e1ea5031
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - usearch=10.0.240=0

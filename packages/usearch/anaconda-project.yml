@@ -27,3 +27,7 @@ env_specs:
     packages:
     - usearch=11.0.667
     channels: []
+  usearch-10.0.240:
+    packages:
+    - usearch=10.0.240
+    channels: []
