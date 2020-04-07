@@ -13,7 +13,7 @@ name: fastqc
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: "fastqc - A Quality Control application for FastQ files"
+description: fastqc - A Quality Control application for FastQ files
 
 
 #
@@ -27,4 +27,8 @@ env_specs:
   fastqc-0.11.7:
     packages:
     - fastqc=0.11.7
+    channels: []
+  fastqc-0.10.1:
+    packages:
+    - fastqc=0.10.1
     channels: []

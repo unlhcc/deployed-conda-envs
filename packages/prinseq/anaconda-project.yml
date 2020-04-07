@@ -8,13 +8,13 @@
 #
 # Set the 'name' key to name your project
 #
-name: picard
+name: PRINSEQ
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: A set of Java command line tools for manipulating high-throughput sequencing
-  data (HTS) data and formats.
+description: PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic
+  sequence data.
 
 
 #
@@ -25,19 +25,7 @@ description: A set of Java command line tools for manipulating high-throughput s
 platforms:
 - linux-64
 env_specs:
-  picard-2.18.4:
+  prinseq-0.20.4:
     packages:
-    - picard=2.18.4
-    channels: []
-  picard-2.9.0:
-    packages:
-    - picard=2.9.0
-    channels: []
-  picard-2.22.2:
-    packages:
-    - picard=2.22.2
-    channels: []
-  picard-1.139:
-    packages:
-    - picard=1.139
+    - prinseq=0.20.4
     channels: []

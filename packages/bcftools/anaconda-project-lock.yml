@@ -8,57 +8,13 @@
 
 #
 # Set to false to ignore locked versions.
+#
 locking_enabled: true
 
-
-
+#
+# A key goes in here for each env spec.
+#
 env_specs:
-  bcftools-1.9:
-    locked: true
-    env_spec_hash: 4d4311b68c93aff931acdda0ee2a414a526cfa29
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - bcftools=1.9=ha228f0b_3
-      - bzip2=1.0.6=h14c3975_1002
-      - ca-certificates=2019.3.9=hecc5488_0
-      - curl=7.64.1=hf8cf82a_0
-      - krb5=1.16.3=h05b26f9_1001
-      - libcurl=7.64.1=hda55be3_0
-      - libdeflate=1.0=h14c3975_1
-      - libedit=3.1.20170329=hf8c457e_1001
-      - libgcc-ng=8.2.0=hdf63c60_1
-      - libssh2=1.8.2=h22169c7_2
-      - libstdcxx-ng=8.2.0=hdf63c60_1
-      - ncurses=6.1=hf484d3e_1002
-      - openssl=1.1.1b=h14c3975_1
-      - tk=8.6.9=h84994c4_1001
-      - xz=5.2.4=h14c3975_1001
-      - zlib=1.2.11=h14c3975_1004
-  bcftools-1.8:
-    locked: true
-    env_spec_hash: d31fbfe8404b09e327d0465a6c7c3dbd6659e86f
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - bcftools=1.8=h4da6232_3
-      - bzip2=1.0.6=h14c3975_1002
-      - ca-certificates=2019.3.9=hecc5488_0
-      - curl=7.64.0=h646f8bb_0
-      - krb5=1.16.3=hc83ff2d_1000
-      - libcurl=7.64.0=h01ee5af_0
-      - libdeflate=1.2=h14c3975_0
-      - libedit=3.1.20170329=hf8c457e_1001
-      - libgcc-ng=8.2.0=hdf63c60_1
-      - libssh2=1.8.0=h1ad7b7a_1003
-      - libstdcxx-ng=8.2.0=hdf63c60_1
-      - ncurses=6.1=hf484d3e_1002
-      - openssl=1.0.2r=h14c3975_0
-      - tk=8.6.9=h84994c4_1001
-      - xz=5.2.4=h14c3975_1001
-      - zlib=1.2.11=h14c3975_1004
   bcftools-1.3.1:
     locked: true
     env_spec_hash: 54745349d2115784efcae747239987a84e49632d
@@ -66,6 +22,125 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - bcftools=1.3.1=h84994c4_4
-      - libgcc-ng=8.2.0=hdf63c60_1
-      - zlib=1.2.11=h14c3975_1004
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - bcftools=1.3.1=h84994c4_5
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - zlib=1.2.11=h516909a_1006
+  bcftools-1.9:
+    locked: true
+    env_spec_hash: 4d4311b68c93aff931acdda0ee2a414a526cfa29
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
+      - bcftools=1.9=h68d8f2e_9
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2020.4.5.1=hecc5488_0
+      - curl=7.68.0=hf8cf82a_0
+      - gsl=2.5=h294904e_1
+      - htslib=1.9=h4da6232_3
+      - krb5=1.16.4=h2fd8d38_0
+      - libblas=3.8.0=16_openblas
+      - libcblas=3.8.0=16_openblas
+      - libcurl=7.68.0=hda55be3_0
+      - libdeflate=1.5=h516909a_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - libopenblas=0.3.9=h5ec1e0e_0
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1f=h516909a_0
+      - perl=5.26.2=h516909a_1006
+      - tk=8.6.10=hed695b0_0
+      - xz=5.2.4=h516909a_1002
+      - zlib=1.2.11=h516909a_1006
+  bcftools-1.8:
+    locked: true
+    env_spec_hash: d31fbfe8404b09e327d0465a6c7c3dbd6659e86f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - bcftools=1.8=h4da6232_3
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2020.4.5.1=hecc5488_0
+      - curl=7.64.0=h646f8bb_0
+      - krb5=1.16.3=hc83ff2d_1000
+      - libcurl=7.64.0=h01ee5af_0
+      - libdeflate=1.5=h516909a_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - libssh2=1.8.0=h1ad7b7a_1003
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.0.2r=h14c3975_0
+      - tk=8.6.10=hed695b0_0
+      - xz=5.2.4=h516909a_1002
+      - zlib=1.2.11=h516909a_1006
+  bcftools-1.2:
+    locked: true
+    env_spec_hash: dd98647836ee6b87160fad23fe68b03b3ec0e42a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - bcftools=1.2=h02bfda8_4
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2020.4.5.1=hecc5488_0
+      - curl=7.68.0=hf8cf82a_0
+      - krb5=1.16.4=h2fd8d38_0
+      - libcurl=7.68.0=hda55be3_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1f=h516909a_0
+      - tk=8.6.10=hed695b0_0
+      - xz=5.2.4=h516909a_1002
+      - zlib=1.2.11=h516909a_1006
+  bcftools-1.10.2:
+    locked: true
+    env_spec_hash: f1a7eb09305c7062b26d008f919a9d1dc1273139
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
+      - bcftools=1.10.2=hd2cd319_0
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2020.4.5.1=hecc5488_0
+      - gsl=2.5=h294904e_1
+      - htslib=1.10.2=h78d89cc_0
+      - krb5=1.16.4=h2fd8d38_0
+      - libblas=3.8.0=16_openblas
+      - libcblas=3.8.0=16_openblas
+      - libcurl=7.68.0=hda55be3_0
+      - libdeflate=1.3=h516909a_0
+      - libedit=3.1.20170329=hf8c457e_1001
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - libopenblas=0.3.9=h5ec1e0e_0
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - llvm-openmp=9.0.1=hc9558a2_2
+      - ncurses=6.1=hf484d3e_1002
+      - openssl=1.1.1f=h516909a_0
+      - perl=5.26.2=h516909a_1006
+      - tk=8.6.10=hed695b0_0
+      - xz=5.2.4=h516909a_1002
+      - zlib=1.2.11=h516909a_1006
