@@ -36,3 +36,11 @@ env_specs:
     - bcftools=1.8
     - openssl=1.0.2r
     channels: []
+  bcftools-1.10.2:
+    packages:
+    - bcftools=1.10.2
+    channels: []
+  bcftools-1.2:
+    packages:
+    - bcftools=1.2
+    channels: []
