@@ -1,0 +1,64 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  povray-3.7.0.8:
+    locked: true
+    env_spec_hash: a215b4a2fcfb94465449d60b99f4d653973a9b26
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
+      - boost-cpp=1.72.0=h8e57a91_0
+      - bzip2=1.0.8=h516909a_2
+      - gettext=0.19.8.1=hc5be6a0_1002
+      - icu=64.2=he1b5a44_1
+      - ilmbase=2.4.1=h8b12597_0
+      - jpeg=9c=h14c3975_1001
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libpng=1.6.37=hed695b0_1
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - libtiff=4.1.0=hc7e4089_6
+      - libuuid=2.32.1=h14c3975_1000
+      - libwebp-base=1.1.0=h516909a_3
+      - libxcb=1.13=h14c3975_1002
+      - llvm-openmp=9.0.1=hc9558a2_2
+      - lz4-c=1.8.3=he1b5a44_1001
+      - mkl=2020.0=166
+      - openexr=2.4.1=he513fc3_0
+      - povray=3.7.0.8=hcf7f066_0
+      - pthread-stubs=0.4=h14c3975_1001
+      - sdl=1.2.15=he1b5a44_0
+      - xorg-kbproto=1.0.7=h14c3975_1002
+      - xorg-libice=1.0.10=h516909a_0
+      - xorg-libsm=1.2.3=h84519dc_1000
+      - xorg-libx11=1.6.9=h516909a_0
+      - xorg-libxau=1.0.9=h14c3975_0
+      - xorg-libxdmcp=1.1.3=h516909a_0
+      - xorg-libxext=1.3.4=h516909a_0
+      - xorg-libxpm=3.5.13=h516909a_0
+      - xorg-libxt=1.1.5=h516909a_1003
+      - xorg-xextproto=7.3.0=h14c3975_1002
+      - xorg-xproto=7.0.31=h14c3975_1007
+      - xz=5.2.5=h516909a_0
+      - zlib=1.2.11=h516909a_1006
+      - zstd=1.4.4=h3b9ef0a_2
+
+
