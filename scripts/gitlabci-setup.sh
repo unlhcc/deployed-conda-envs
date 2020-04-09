@@ -2,7 +2,7 @@
 
 # install (Mini)conda
 tag=Linux
-curl -s -O https://repo.continuum.io/miniconda/Miniconda3-$MINICONDA_VER-$tag-x86_64.sh
+curl -L -O https://repo.continuum.io/miniconda/Miniconda3-$MINICONDA_VER-$tag-x86_64.sh
 bash Miniconda3-$MINICONDA_VER-$tag-x86_64.sh -b -p $ANACONDA_PREFIX
 source ${ANACONDA_PREFIX}/etc/profile.d/conda.sh
 
