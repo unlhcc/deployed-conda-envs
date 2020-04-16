@@ -1,0 +1,34 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: GenoDiver
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: Geno-Diver is a user-friendly software program designed to simulate complex
+  traits and population structures that resemble livestock species.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  genodiver-2018.11.12:
+    packages:
+    - genodiver=2018.11.12
+    - fastsimbac
+    - macs2
+    - r-base
+    channels: []

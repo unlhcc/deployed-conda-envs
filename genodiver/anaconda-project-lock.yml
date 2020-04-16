@@ -1,0 +1,106 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  genodiver-2018.11.12:
+    locked: true
+    env_spec_hash: 439eae8eb08bb942464eecc99b76dd22d60d084b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - _r-mutex=1.0.1=anacondar_1
+      - binutils_impl_linux-64=2.34=h53a641e_0
+      - binutils_linux-64=2.34=hc952b39_18
+      - boost-cpp=1.67.0=h3a22d5f_0
+      - boost=1.67.0=py36h3e44d54_0
+      - bwidget=1.9.14=0
+      - bzip2=1.0.8=h516909a_2
+      - ca-certificates=2020.4.5.1=hecc5488_0
+      - cairo=1.14.12=h8948797_3
+      - certifi=2020.4.5.1=py36h9f0ad1d_0
+      - curl=7.69.1=h33f0ec9_0
+      - eigen=3.3.7=hc9558a2_1001
+      - fastsimbac=1.0.1_bd3ad13d8f79=h6dcb523_0
+      - fontconfig=2.13.0=h9420a91_0
+      - freetype=2.10.1=he06d7ca_0
+      - fribidi=1.0.9=h516909a_0
+      - gcc_impl_linux-64=7.3.0=hd420e75_5
+      - gcc_linux-64=7.3.0=h553295d_18
+      - genodiver=2018.11.12=he513fc3_0
+      - gettext=0.19.8.1=hc5be6a0_1002
+      - gfortran_impl_linux-64=7.3.0=hdf63c60_5
+      - gfortran_linux-64=7.3.0=h553295d_18
+      - glib=2.64.2=h6f030ca_0
+      - graphite2=1.3.13=he1b5a44_1001
+      - gsl=2.4=h294904e_1006
+      - gxx_impl_linux-64=7.3.0=hdf63c60_5
+      - gxx_linux-64=7.3.0=h553295d_18
+      - harfbuzz=1.8.8=hffaf4a1_0
+      - icu=58.2=hf484d3e_1000
+      - intel-openmp=2020.0=166
+      - jpeg=9c=h14c3975_1001
+      - krb5=1.17.1=h2fd8d38_0
+      - ld_impl_linux-64=2.34=h53a641e_0
+      - libblas=3.8.0=14_openblas
+      - libcblas=3.8.0=14_openblas
+      - libcurl=7.69.1=hf7181ac_0
+      - libedit=3.1.20181209=hc058e9b_0
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgfortran-ng=7.3.0=hdf63c60_5
+      - libgomp=9.2.0=h24d8f2e_2
+      - libiconv=1.15=h516909a_1006
+      - liblapack=3.8.0=14_openblas
+      - libopenblas=0.3.7=h5ec1e0e_6
+      - libpng=1.6.37=hed695b0_1
+      - libssh2=1.8.2=h22169c7_2
+      - libstdcxx-ng=9.2.0=hdf63c60_2
+      - libtiff=4.1.0=hc7e4089_6
+      - libuuid=1.0.3=h1bed415_2
+      - libwebp-base=1.1.0=h516909a_3
+      - libxcb=1.13=h14c3975_1002
+      - libxml2=2.9.9=hea5a465_1
+      - llvm-openmp=8.0.1=hc9558a2_0
+      - lz4-c=1.9.2=he1b5a44_0
+      - macs2=2.2.7.1=py36h516909a_0
+      - make=4.3=h516909a_0
+      - mkl=2020.0=166
+      - ncurses=6.2=he6710b0_0
+      - numpy=1.18.1=py36h7314795_1
+      - openmp=8.0.1=0
+      - openssl=1.1.1f=h516909a_0
+      - pango=1.42.4=h049681c_0
+      - pcre=8.44=he1b5a44_0
+      - pip=20.0.2=py_2
+      - pixman=0.38.0=h516909a_1003
+      - pthread-stubs=0.4=h14c3975_1001
+      - python=3.6.10=hcf32534_1
+      - python_abi=3.6=1_cp36m
+      - r-base=3.5.3=h26b83e4_0
+      - readline=8.0=h7b6447c_0
+      - setuptools=46.1.3=py36h9f0ad1d_0
+      - sqlite=3.31.1=h7b6447c_0
+      - tk=8.6.10=hed695b0_0
+      - tktable=2.10=h555a92e_3
+      - wheel=0.34.2=py_1
+      - xorg-libxau=1.0.9=h14c3975_0
+      - xorg-libxdmcp=1.1.3=h516909a_0
+      - xz=5.2.5=h516909a_0
+      - zlib=1.2.11=h516909a_1006
+      - zstd=1.4.4=h6597ccf_3
