@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   genodiver-2018.11.12:
     locked: true
-    env_spec_hash: 439eae8eb08bb942464eecc99b76dd22d60d084b
+    env_spec_hash: 849d3ab918d46deb0b505abc53d9c908b4cd8bba
     platforms:
     - linux-64
     packages:
@@ -27,22 +27,21 @@ env_specs:
       - _r-mutex=1.0.1=anacondar_1
       - binutils_impl_linux-64=2.34=h53a641e_0
       - binutils_linux-64=2.34=hc952b39_18
-      - boost-cpp=1.67.0=h3a22d5f_0
-      - boost=1.67.0=py36h3e44d54_0
+      - boost-cpp=1.70.0=ha2d47e9_1
+      - boost=1.70.0=py38h9de70de_1
       - bwidget=1.9.14=0
       - bzip2=1.0.8=h516909a_2
       - ca-certificates=2020.4.5.1=hecc5488_0
       - cairo=1.14.12=h8948797_3
-      - certifi=2020.4.5.1=py36h9f0ad1d_0
+      - certifi=2020.4.5.1=py38h32f6830_0
       - curl=7.69.1=h33f0ec9_0
       - eigen=3.3.7=hc9558a2_1001
-      - fastsimbac=1.0.1_bd3ad13d8f79=h6dcb523_0
       - fontconfig=2.13.0=h9420a91_0
       - freetype=2.10.1=he06d7ca_0
       - fribidi=1.0.9=h516909a_0
       - gcc_impl_linux-64=7.3.0=hd420e75_5
       - gcc_linux-64=7.3.0=h553295d_18
-      - genodiver=2018.11.12=he513fc3_0
+      - genodiver=2018.11.12=he513fc3_1
       - gettext=0.19.8.1=hc5be6a0_1002
       - gfortran_impl_linux-64=7.3.0=hdf63c60_5
       - gfortran_linux-64=7.3.0=h553295d_18
@@ -78,11 +77,11 @@ env_specs:
       - libxml2=2.9.9=hea5a465_1
       - llvm-openmp=8.0.1=hc9558a2_0
       - lz4-c=1.9.2=he1b5a44_0
-      - macs2=2.2.7.1=py36h516909a_0
+      - macs-simulator=2019.10.17=h3e4de3e_0
       - make=4.3=h516909a_0
       - mkl=2020.0=166
       - ncurses=6.2=he6710b0_0
-      - numpy=1.18.1=py36h7314795_1
+      - numpy=1.18.1=py38h8854b6b_1
       - openmp=8.0.1=0
       - openssl=1.1.1f=h516909a_0
       - pango=1.42.4=h049681c_0
@@ -90,11 +89,11 @@ env_specs:
       - pip=20.0.2=py_2
       - pixman=0.38.0=h516909a_1003
       - pthread-stubs=0.4=h14c3975_1001
-      - python=3.6.10=hcf32534_1
-      - python_abi=3.6=1_cp36m
+      - python=3.8.2=he5300dc_6_cpython
+      - python_abi=3.8=1_cp38
       - r-base=3.5.3=h26b83e4_0
       - readline=8.0=h7b6447c_0
-      - setuptools=46.1.3=py36h9f0ad1d_0
+      - setuptools=46.1.3=py38h32f6830_0
       - sqlite=3.31.1=h7b6447c_0
       - tk=8.6.10=hed695b0_0
       - tktable=2.10=h555a92e_3

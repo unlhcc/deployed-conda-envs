@@ -28,7 +28,5 @@ env_specs:
   genodiver-2018.11.12:
     packages:
     - genodiver=2018.11.12
-    - fastsimbac
-    - macs2
     - r-base
     channels: []
