@@ -85,6 +85,23 @@ then
                 fi 
             fi
         done
+      NOTICE "Finding commands for $package"
+      apCommands=`anaconda-project list-commands --directory $package | tail -n +5 | cut -f 1 -d ' '`
+      if [ -z "$apCommands" ]
+      then
+        NOTICE "No commands found"
+      elif [ -n "$apCommands" ]
+      then
+        echo "Command(s) found"
+        for apCommand in $apCommands:
+        do
+            NOTICE "Found command named $apCommand"
+            cmdCommand="anaconda-project run --directory $package $apCommand"
+            cmdOut="$($cmdCommand 2>&1)"
+            echo "$cmdOut" | INFO
+        done
+        NOTICE "Finished running commands for $package"
+      fi
     done
     NOTICE "Finished testing changed packages."
 else
