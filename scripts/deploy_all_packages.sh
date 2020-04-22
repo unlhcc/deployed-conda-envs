@@ -67,7 +67,24 @@ do
             NOTICE "Finished preparing environment $spec"
           fi
       fi
+  done
+  NOTICE "Finding commands for $packageDir"
+  apCommands=`anaconda-project list-commands --directory $packageDir | tail -n +5 | cut -f 1 -d ' '`
+  if [ -z "$apCommands" ]
+  then
+    NOTICE "No commands found"
+  elif [ -n "$apCommands" ]
+  then
+    echo "Command(s) found"
+    for apCommand in $apCommands:
+    do
+           NOTICE "Found command named $apCommand"
+           cmdCommand="anaconda-project run --directory $packageDir $apCommand"
+           cmdOut="$($cmdCommand 2>&1)"
+           echo "$cmdOut" | INFO
     done
+    NOTICE "Finished running commands for $packageDir"
+  fi
   NOTICE "Leaving directory '$packageDir'"
 done
 
