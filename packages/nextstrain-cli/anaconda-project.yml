@@ -44,6 +44,12 @@ env_specs:
       - nextstrain-augur
       - nextstrain-cli==1.16.2
       - rethinkdb==2.3.0.post6
-    - gcc_linux-64
-    - gxx_linux-64
+    - biopython
+    - requests
+    - boto3
+    - treetime
+    - packaging
+    - netifaces
+    - jsonschema
     channels: []
+packages: []
