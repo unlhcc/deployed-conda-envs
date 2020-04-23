@@ -92,13 +92,14 @@ then
         NOTICE "No commands found"
       elif [ -n "$apCommands" ]
       then
-        echo "Command(s) found"
-        for apCommand in $apCommands:
+        NOTICE "Command(s) found"
+        for apCommand in $apCommands
         do
             NOTICE "Found command named $apCommand"
             cmdCommand="anaconda-project run --directory $package $apCommand"
-            cmdOut="$($cmdCommand 2>&1)"
-            echo "$cmdOut" | INFO
+            anaconda-project run --directory $package $apCommand
+#            cmdOut="$($cmdCommand 2>&1)"
+#            echo "$cmdOut" | INFO
         done
         NOTICE "Finished running commands for $package"
       fi

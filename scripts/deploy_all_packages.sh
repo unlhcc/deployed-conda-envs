@@ -76,7 +76,7 @@ do
   elif [ -n "$apCommands" ]
   then
     echo "Command(s) found"
-    for apCommand in $apCommands:
+    for apCommand in $apCommands
     do
            NOTICE "Found command named $apCommand"
            cmdCommand="anaconda-project run --directory $packageDir $apCommand"
