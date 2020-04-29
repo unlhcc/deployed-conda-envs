@@ -30,3 +30,8 @@ env_specs:
     - roary=3.12.0
     - perl=5.26
     channels: []
+  roary-3.13.0:
+    packages:
+    - roary=3.13.0
+    - perl=5.26
+    channels: []

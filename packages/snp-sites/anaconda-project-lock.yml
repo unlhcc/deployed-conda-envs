@@ -8,9 +8,8 @@
 
 #
 # Set to false to ignore locked versions.
+#
 locking_enabled: true
-
-
 
 #
 # A key goes in here for each env spec.
@@ -23,10 +22,25 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
-      - libgcc-ng=9.1.0=hdf63c60_0
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
       - snp-sites=2.4.1=h84994c4_1
-      - zlib=1.2.11=h516909a_1005
+      - zlib=1.2.11=h516909a_1006
+  snp-sites-2.5.1:
+    locked: true
+    env_spec_hash: dd3f91f9c8d1b8b96645a6a2e92b18507030cea5
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - libgcc-ng=9.2.0=h24d8f2e_2
+      - libgomp=9.2.0=h24d8f2e_2
+      - snp-sites=2.5.1=hed695b0_0
+      - zlib=1.2.11=h516909a_1006
   snp-sites-2.3.3:
     locked: true
     env_spec_hash: 668cf83105933d65cfb01f9c3576e3961597d502
@@ -34,11 +48,11 @@ env_specs:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
-      - libgcc-ng=9.1.0=hdf63c60_0
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=0_gnu
+      - libgcc-ng=9.2.0=h24d8f2e_2
       - libgcc=7.2.0=h69d50b8_2
-      - libstdcxx-ng=9.1.0=hdf63c60_0
+      - libgomp=9.2.0=h24d8f2e_2
+      - libstdcxx-ng=9.2.0=hdf63c60_2
       - snp-sites=2.3.3=1
-      - zlib=1.2.11=h516909a_1005
-
-
+      - zlib=1.2.11=h516909a_1006
