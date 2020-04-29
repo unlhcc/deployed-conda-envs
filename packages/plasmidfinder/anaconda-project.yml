@@ -31,3 +31,8 @@ env_specs:
     - python=3.6
     - perl=5.26
     channels: []
+  plasmidfinder-2.1:
+    packages:
+    - plasmidfinder=2.1
+    - python=3.7
+    channels: []

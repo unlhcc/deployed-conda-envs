@@ -31,3 +31,7 @@ env_specs:
     packages:
     - snp-sites=2.4.1
     channels: []
+  snp-sites-2.5.1:
+    packages:
+    - snp-sites=2.5.1
+    channels: []

@@ -28,3 +28,7 @@ env_specs:
     packages:
     - abricate=0.8.13
     channels: []
+  abricate-1.0.1:
+    packages:
+    - abricate=1.0.1
+    channels: []
