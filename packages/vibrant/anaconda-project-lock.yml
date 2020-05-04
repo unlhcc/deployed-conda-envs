@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   vibrant-1.2.1:
     locked: true
-    env_spec_hash: 886995b077e5813c7e5555a3c7fc930575867273
+    env_spec_hash: 6e5342d29303810dae3a64c518719d3eefabb534
     platforms:
     - linux-64
     packages:
@@ -49,7 +49,7 @@ env_specs:
       - llvm-openmp=10.0.0=hc9558a2_0
       - matplotlib-base=3.2.1=py37h30547a4_0
       - ncurses=6.1=hf484d3e_1002
-      - numpy=1.18.1=py37h8960a57_1
+      - numpy=1.18.4=py37h8960a57_0
       - openssl=1.1.1g=h516909a_0
       - pandas=0.25.3=py37hb3f55d8_0
       - patsy=0.5.1=py_0
@@ -77,7 +77,7 @@ env_specs:
       - zlib=1.2.11=h516909a_1006
   vibrant-1.0.1:
     locked: true
-    env_spec_hash: d1c1bfd85d0ec23c4c1257a87fa365d45d9c9743
+    env_spec_hash: 5f593a31749cec10f6c6212c61c9a528498a8e75
     platforms:
     - linux-64
     packages:
@@ -109,7 +109,7 @@ env_specs:
       - llvm-openmp=10.0.0=hc9558a2_0
       - matplotlib-base=3.2.1=py37h30547a4_0
       - ncurses=6.1=hf484d3e_1002
-      - numpy=1.18.1=py37h8960a57_1
+      - numpy=1.18.4=py37h8960a57_0
       - openssl=1.1.1g=h516909a_0
       - pandas=1.0.3=py37h0da4684_1
       - patsy=0.5.1=py_0
