@@ -29,10 +29,12 @@ env_specs:
     - vibrant=1.0.1
     - python=3.7
     - biopython=1.74
+    - scikit-learn=0.21.3
     channels: []
   vibrant-1.2.1:
     packages:
     - vibrant=1.2.1
     - python=3.7
     - biopython=1.76
+    - scikit-learn=0.21.3
     channels: []
