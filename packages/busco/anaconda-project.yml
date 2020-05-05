@@ -45,3 +45,10 @@ env_specs:
     - python=2.7
     - augustus=3.3.2
     channels: []
+  busco-4.0.6-py36:
+    packages:
+    - busco=4.0.6
+    - python=3.6
+    - r-base=3.6
+    - numpy=1.14
+    channels: []
