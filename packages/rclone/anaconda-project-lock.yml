@@ -34,3 +34,11 @@ env_specs:
     packages:
       linux-64:
       - rclone=1.50.2=h375a9b1_0
+  rclone-1.51.0:
+    locked: true
+    env_spec_hash: a64577070a8031f780ab3eee110a8c1fd49c273e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - rclone=1.51.0=h375a9b1_0
