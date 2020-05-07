@@ -34,9 +34,11 @@ env_specs:
     packages:
     - humann2=0.11.2
     - python=2.7
+    - metaphlan2=2.8
     channels: []
   humann2-2.8.1:
     packages:
     - humann2=2.8.1
     - python=2.7
+    - metaphlan2=2.8
     channels: []
