@@ -14,7 +14,7 @@ name: HUMAnN2
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: HUMAnN2 is the next generation of HUMAnN (HMP Unified Metabolic Analysis
-  Network).  
+  Network).
 
 
 #
@@ -33,5 +33,10 @@ env_specs:
   humann2-0.11.2:
     packages:
     - humann2=0.11.2
+    - python=2.7
+    channels: []
+  humann2-2.8.1:
+    packages:
+    - humann2=2.8.1
     - python=2.7
     channels: []
