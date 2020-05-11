@@ -28,3 +28,7 @@ env_specs:
     packages:
     - snp-dists=0.6.3
     channels: []
+  snp-dists-0.7.0:
+    packages:
+    - snp-dists=0.7.0
+    channels: []
