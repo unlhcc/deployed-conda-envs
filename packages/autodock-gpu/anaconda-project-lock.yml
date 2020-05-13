@@ -25,10 +25,8 @@ env_specs:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=0_gnu
-      - autodock-gpu=4.2.6.c135512=hfaa6200_0
+      - autodock-gpu=4.2.6.c135512=hfaa6200_1
       - cudatoolkit=10.0=0
       - libgcc-ng=9.2.0=h24d8f2e_2
       - libgomp=9.2.0=h24d8f2e_2
       - libstdcxx-ng=9.2.0=hdf63c60_2
-
-
