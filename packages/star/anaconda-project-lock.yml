@@ -8,24 +8,13 @@
 
 #
 # Set to false to ignore locked versions.
+#
 locking_enabled: true
-
-
 
 #
 # A key goes in here for each env spec.
 #
 env_specs:
-  star-2.5.4a:
-    locked: true
-    env_spec_hash: 78e7d0f39e7520b6351e023cb2985f7a63692de4
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - star=2.5.4a=0
-
-
   star-2.7.1a:
     locked: true
     env_spec_hash: 07c3de21e5149458b7a19e06679bb08da94c4eef
@@ -34,3 +23,19 @@ env_specs:
     packages:
       linux-64:
       - star=2.7.1a=0
+  star-2.7.3a:
+    locked: true
+    env_spec_hash: cc4bee3b13a699a2ade23dca9917a28ccb2f3681
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - star=2.7.3a=0
+  star-2.5.4a:
+    locked: true
+    env_spec_hash: 78e7d0f39e7520b6351e023cb2985f7a63692de4
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - star=2.5.4a=0

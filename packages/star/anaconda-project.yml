@@ -32,3 +32,7 @@ env_specs:
     packages:
     - star=2.7.1a
     channels: []
+  star-2.7.3a:
+    packages:
+    - star=2.7.3a
+    channels: []
