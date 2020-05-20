@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   spacy-2.2.3-py37:
     locked: true
-    env_spec_hash: 455f4166ef27d43c5e89529494b6da6d605bbc4f
+    env_spec_hash: 6adc5b794e0d6064cfe42c3ec5516cb175bf08b4
     platforms:
     - linux-64
     packages:
@@ -39,16 +39,16 @@ env_specs:
       - dbus=1.13.6=he372182_0
       - expat=2.2.9=he1b5a44_2
       - fontconfig=2.13.1=h86ecdb6_1001
-      - freetype=2.10.1=he06d7ca_0
+      - freetype=2.10.2=he06d7ca_0
       - gettext=0.19.8.1=hc5be6a0_1002
-      - glib=2.64.2=h6f030ca_0
+      - glib=2.64.2=h6f030ca_1
       - gst-plugins-base=1.14.5=h0935bb2_2
       - gstreamer=1.14.5=h36ae1b5_2
       - icu=64.2=he1b5a44_1
       - idna=2.9=py_1
       - importlib-metadata=1.6.0=py37hc8dfbb8_0
       - importlib_metadata=1.6.0=0
-      - joblib=0.14.1=py_0
+      - joblib=0.15.1=py_0
       - jpeg=9c=h14c3975_1001
       - jsonschema=3.2.0=py37hc8dfbb8_1
       - kiwisolver=1.2.0=py37h99015e2_0
@@ -58,7 +58,7 @@ env_specs:
       - libclang=9.0.1=default_hde54327_0
       - libffi=3.2.1=he1b5a44_1007
       - libgcc-ng=9.2.0=h24d8f2e_2
-      - libgfortran-ng=7.3.0=hdf63c60_5
+      - libgfortran-ng=7.5.0=hdf63c60_6
       - libiconv=1.15=h516909a_1006
       - liblapack=3.8.0=16_openblas
       - libllvm9=9.0.1=he513fc3_1
@@ -79,7 +79,7 @@ env_specs:
       - numpy=1.18.4=py37h8960a57_0
       - openssl=1.1.1g=h516909a_0
       - pcre=8.44=he1b5a44_0
-      - pip=20.1=pyh9f0ad1d_0
+      - pip=20.1.1=pyh9f0ad1d_0
       - plac=0.9.6=py_1
       - preshed=3.0.2=py37h3340039_2
       - pthread-stubs=0.4=h14c3975_1001
@@ -95,16 +95,20 @@ env_specs:
       - qt=5.12.5=hd8c4c69_1
       - readline=8.0=hf8c457e_0
       - requests=2.23.0=pyh8c360ce_2
-      - scikit-learn=0.22.2.post1=py37hcdab131_0
+      - scikit-learn=0.23.1=py37h8a51577_0
       - scikit-plot=0.3.7=py_1
       - scipy=1.4.1=py37ha3d9a3c_3
-      - setuptools=46.2.0=py37hc8dfbb8_0
+      - setuptools=46.4.0=py37hc8dfbb8_0
       - six=1.14.0=py_1
       - spacy-lookups-data=0.2.0=py_1
+      - spacy-model-en_core_web_lg=2.2.5=py_0
+      - spacy-model-en_core_web_md=2.2.5=py_0
+      - spacy-model-en_core_web_sm=2.2.5=py_0
       - spacy=2.2.3=py37hc9558a2_0
       - sqlite=3.30.1=hcee41ef_0
       - srsly=1.0.2=py37h3340039_0
       - thinc=7.3.0=py37hc9558a2_0
+      - threadpoolctl=2.0.0=pyh5ca1d4c_0
       - tk=8.6.10=hed695b0_0
       - tornado=6.0.4=py37h8f50634_1
       - tqdm=4.46.0=pyh9f0ad1d_0
@@ -118,7 +122,7 @@ env_specs:
       - zlib=1.2.11=h516909a_1006
   spacy-2.2.3-py36:
     locked: true
-    env_spec_hash: c4d4137587057e8b10182f58157327eaa0e118ff
+    env_spec_hash: 4cc51ba88c6f309bc3846f9601444cb095bf520a
     platforms:
     - linux-64
     packages:
@@ -139,16 +143,16 @@ env_specs:
       - dbus=1.13.6=he372182_0
       - expat=2.2.9=he1b5a44_2
       - fontconfig=2.13.1=h86ecdb6_1001
-      - freetype=2.10.1=he06d7ca_0
+      - freetype=2.10.2=he06d7ca_0
       - gettext=0.19.8.1=hc5be6a0_1002
-      - glib=2.64.2=h6f030ca_0
+      - glib=2.64.2=h6f030ca_1
       - gst-plugins-base=1.14.5=h0935bb2_2
       - gstreamer=1.14.5=h36ae1b5_2
       - icu=64.2=he1b5a44_1
       - idna=2.9=py_1
       - importlib-metadata=1.6.0=py36h9f0ad1d_0
       - importlib_metadata=1.6.0=0
-      - joblib=0.14.1=py_0
+      - joblib=0.15.1=py_0
       - jpeg=9c=h14c3975_1001
       - jsonschema=3.2.0=py36h9f0ad1d_1
       - kiwisolver=1.2.0=py36hdb11119_0
@@ -158,7 +162,7 @@ env_specs:
       - libclang=9.0.1=default_hde54327_0
       - libffi=3.2.1=he1b5a44_1007
       - libgcc-ng=9.2.0=h24d8f2e_2
-      - libgfortran-ng=7.3.0=hdf63c60_5
+      - libgfortran-ng=7.5.0=hdf63c60_6
       - libiconv=1.15=h516909a_1006
       - liblapack=3.8.0=16_openblas
       - libllvm9=9.0.1=he513fc3_1
@@ -179,7 +183,7 @@ env_specs:
       - numpy=1.18.4=py36h7314795_0
       - openssl=1.1.1g=h516909a_0
       - pcre=8.44=he1b5a44_0
-      - pip=20.1=pyh9f0ad1d_0
+      - pip=20.1.1=pyh9f0ad1d_0
       - plac=0.9.6=py_1
       - preshed=3.0.2=py36h831f99a_2
       - pthread-stubs=0.4=h14c3975_1001
@@ -195,16 +199,20 @@ env_specs:
       - qt=5.12.5=hd8c4c69_1
       - readline=8.0=hf8c457e_0
       - requests=2.23.0=pyh8c360ce_2
-      - scikit-learn=0.22.2.post1=py36hcdab131_0
+      - scikit-learn=0.23.1=py36h0e1014b_0
       - scikit-plot=0.3.7=py_1
       - scipy=1.4.1=py36h2d22cac_3
-      - setuptools=46.2.0=py36h9f0ad1d_0
+      - setuptools=46.4.0=py36h9f0ad1d_0
       - six=1.14.0=py_1
       - spacy-lookups-data=0.2.0=py_1
+      - spacy-model-en_core_web_lg=2.2.5=py_0
+      - spacy-model-en_core_web_md=2.2.5=py_0
+      - spacy-model-en_core_web_sm=2.2.5=py_0
       - spacy=2.2.3=py36hc9558a2_0
       - sqlite=3.30.1=hcee41ef_0
       - srsly=1.0.2=py36h831f99a_0
       - thinc=7.3.0=py36hc9558a2_0
+      - threadpoolctl=2.0.0=pyh5ca1d4c_0
       - tk=8.6.10=hed695b0_0
       - tornado=6.0.4=py36h8c4c3a4_1
       - tqdm=4.46.0=pyh9f0ad1d_0

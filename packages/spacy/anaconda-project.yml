@@ -33,6 +33,9 @@ env_specs:
     - scikit-learn
     - scikit-plot
     - spacy-lookups-data=0.2.0
+    - spacy-model-en_core_web_sm=2.2.5
+    - spacy-model-en_core_web_md=2.2.5
+    - spacy-model-en_core_web_lg=2.2.5
     channels: []
   spacy-2.2.3-py37:
     packages:
@@ -43,4 +46,7 @@ env_specs:
     - scikit-learn
     - scikit-plot
     - spacy-lookups-data=0.2.0
+    - spacy-model-en_core_web_sm=2.2.5
+    - spacy-model-en_core_web_md=2.2.5
+    - spacy-model-en_core_web_lg=2.2.5
     channels: []
