@@ -18,7 +18,7 @@ NOTICE  "Finding changed packages according to git..."
 # Get a unique list of top-level directories for any changed files
 # Get the directory of any changed file
 declare -a dirListA
-for entry in $(git diff  --name-only master HEAD packages/ ':!packages/*/SKIP_DEPLOY');
+for entry in $(git diff --name-only origin/master HEAD -- packages/ ':!packages/*/SKIP_DEPLOY');
 do
   i=`dirname $entry`
   dirListA+=("$i")
