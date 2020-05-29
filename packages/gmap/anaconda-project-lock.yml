@@ -55,10 +55,11 @@ env_specs:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=0_gnu
       - bzip2=1.0.8=h516909a_2
-      - gmap=2020.04.08=pl526h1296035_0
+      - gmap=2020.04.08=pl526h2f06484_1
       - libgcc-ng=9.2.0=h24d8f2e_2
       - libgomp=9.2.0=h24d8f2e_2
       - perl=5.26.2=h516909a_1006
+      - zlib=1.2.11=h516909a_1006
   gmap-2015.12.31:
     locked: true
     env_spec_hash: bedca115b828b6823859daa136451cb5f3211019
