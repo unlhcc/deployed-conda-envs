@@ -653,7 +653,7 @@ env_specs:
 
   bioconductor-4.0:
     locked: true
-    env_spec_hash: a5bb8a4e1984cf8c73ff5e485af9f78b0c0ebb89
+    env_spec_hash: 07e725edb209b88f0d47ea6d7eb34600d990e223
     platforms:
     - linux-64
     packages:
@@ -754,6 +754,7 @@ env_specs:
       - python_abi=3.8=1_cp38
       - r-ape=5.3=r40h51c796c_3
       - r-aplot=0.0.4=r40h6115d3f_1
+      - r-argparse=2.0.1=r40h6115d3f_2
       - r-assertthat=0.2.1=r40h6115d3f_2
       - r-backports=1.1.7=r40hcdcec82_0
       - r-base=4.0.0=hdca8982_3
@@ -775,10 +776,12 @@ env_specs:
       - r-evaluate=0.14=r40h6115d3f_2
       - r-fansi=0.4.1=r40hcdcec82_1
       - r-farver=2.0.3=r40h0357c0b_1
+      - r-findpython=1.0.5=r40h6115d3f_2
       - r-formatr=1.7=r40h6115d3f_2
       - r-futile.logger=1.4.3=r40h6115d3f_1003
       - r-futile.options=1.0.1=r40h6115d3f_1002
       - r-generics=0.0.2=r40h6115d3f_1003
+      - r-getopt=1.20.3=r40_2
       - r-ggplot2=3.3.1=r40h6115d3f_0
       - r-glue=1.4.1=r40hcdcec82_0
       - r-gtable=0.3.0=r40h6115d3f_3
