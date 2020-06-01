@@ -904,3 +904,11 @@ env_specs:
     - picrust2=2.3.0_b
     - q2-picrust2=2019.10
     channels: [qiime2/label/r2019.10, conda-forge, bioconda, defaults, gavinmdouglas]
+  qiime2-2020.2.0:
+    packages:
+    - qiime2=2020.2.0
+    channels:
+    - qiime2
+    - conda-forge
+    - bioconda
+    - defaults
