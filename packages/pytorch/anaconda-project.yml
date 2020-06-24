@@ -70,3 +70,15 @@ env_specs:
     - scikit-learn
     - scikit-plot
     channels: []
+  pytorch-1.5.1-py37:
+    packages:
+    - pytorch=1.5.1
+    - python=3.7
+    - cudatoolkit=10.2
+    - numpy
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - torchvision=0.6.1
+    channels: []
