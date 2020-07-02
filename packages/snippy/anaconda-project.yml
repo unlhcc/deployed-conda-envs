@@ -14,7 +14,7 @@ name: Snippy
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: Snippy finds SNPs between a haploid reference genome and your NGS sequence
-  reads.     
+  reads.
 
 
 #
@@ -28,4 +28,8 @@ env_specs:
   snippy-4.3.6:
     packages:
     - snippy=4.3.6
+    channels: []
+  snippy-4.6.0:
+    packages:
+    - snippy=4.6.0
     channels: []
