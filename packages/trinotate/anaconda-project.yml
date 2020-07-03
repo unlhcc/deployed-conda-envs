@@ -26,8 +26,7 @@ description: Trinotate is a comprehensive annotation suite designed for automati
 platforms:
 - linux-64
 env_specs:
-  trinotate-3.1.0:
+  trinotate-3.2.0:
     packages:
-    - trinotate=3.1.0
-    - perl=5.22.0
+    - trinotate=3.2.0
     channels: []
