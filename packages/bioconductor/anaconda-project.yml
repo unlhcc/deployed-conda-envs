@@ -360,4 +360,5 @@ env_specs:
     - bioconductor-snpstats
     - bioconductor-ggtree
     - r-argparse
+    - r-gplots
     channels: []
