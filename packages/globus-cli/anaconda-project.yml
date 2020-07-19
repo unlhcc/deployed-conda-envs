@@ -32,3 +32,7 @@ env_specs:
     packages:
     - globus-cli=1.10.1
     channels: []
+  globus-cli-1.13.0:
+    packages:
+    - globus-cli=1.13.0
+    channels: []
