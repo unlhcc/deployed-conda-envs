@@ -1,0 +1,32 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: VGAS
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: VGAS (viral genome annotation system) is a system combing ab initio method
+  and similarity-based method, which can perform the functions of virus gene finding
+  and function annotating merely depending on the gene sequence itself.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  vgas-2020.07.22:
+    packages:
+    - vgas=0.0.2020.07.22
+    channels: []
