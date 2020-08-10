@@ -35,4 +35,9 @@ env_specs:
     - widgetsnbextension
     - iprogress
     - poppler
+    - spacy-lookups-data=0.3.0
+    - spacy-model-en_core_web_sm=2.3.1
+    - spacy-model-en_core_web_lg=2.3.1
+    - spacy-model-en_core_web_md=2.3.1
+    - spacy-model-en_vectors_web_lg=2.1.0
     channels: []
