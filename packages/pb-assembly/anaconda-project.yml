@@ -27,5 +27,6 @@ env_specs:
   pb-assembly-0.0.8:
     packages:
     - pb-assembly=0.0.8
-    - python=3.7
+    - smrtlink-tools
     channels: []
+packages: []
