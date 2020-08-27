@@ -24,13 +24,13 @@ description: GPU-accelerated micromagnetic simulator
 platforms:
 - linux-64
 env_specs:
-  mumax3-3.10.2ae87b9:
-    packages:
-    - mumax3=3.10.2ae87b9
-    - python=3.8
-    channels: []
   mumax3-3.9.3:
     packages:
     - mumax3=3.9.3
+    - python=3.8
+    channels: []
+  mumax3-3.10:
+    packages:
+    - mumax3=3.10
     - python=3.8
     channels: []
