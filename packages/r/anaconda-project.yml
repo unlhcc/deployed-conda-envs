@@ -33,6 +33,7 @@ env_specs:
     - r-irkernel=1.0.2
     - r-r.utils=2.9.0
     - r-devtools=2.2.2
+    - r-udunits2=0.13
     channels: []
   r-4.0.0:
     packages:
@@ -43,4 +44,5 @@ env_specs:
     - r-irkernel=1.1
     - r-r.utils=2.9.2
     - r-devtools=2.3.0
+    - r-udunits2=0.13
     channels: []
