@@ -45,6 +45,7 @@ env_specs:
     - r-r.utils=2.9.2
     - r-devtools=2.3.0
     - r-udunits2=0.13
+    - r-units=0.6
     channels: []
   r-3.6.3:
     packages:
@@ -56,4 +57,5 @@ env_specs:
     - r-r.utils=2.10.1
     - r-devtools=2.3.1
     - r-udunits2=0.13
+    - r-units=0.6
     channels: []
