@@ -275,6 +275,12 @@ env_specs:
       - tensorflow-estimator==2.3.0
       - keras-preprocessing==1.1.2
       - keras-applications==1.0.8
+      - google-pasta
+      - h5py==2.10.0
+      - wrapt
+      - opt_einsum
+      - astunparse
+      - termcolor
     channels: []
   tensorflow-gpu-2.3.0-py38:
     packages:
@@ -297,4 +303,10 @@ env_specs:
       - tensorflow-estimator==2.3.0
       - keras-preprocessing==1.1.2
       - keras-applications==1.0.8
+      - google-pasta
+      - h5py==2.10.0
+      - wrapt
+      - opt_einsum
+      - astunparse
+      - termcolor
     channels: []
