@@ -1624,7 +1624,7 @@ env_specs:
       - zlib=1.2.11=h516909a_1006
   tensorflow-2.3.0-py38:
     locked: true
-    env_spec_hash: 75a9e0fdc4376b1ab4f97adee3ec55e4ca05c8f2
+    env_spec_hash: 464ba3d08a231b3617300afc0df1829c6811be60
     platforms:
     - linux-64
     packages:
@@ -1738,7 +1738,7 @@ env_specs:
       - zstd=1.4.5=h6597ccf_2
   tensorflow-2.3.0-py37:
     locked: true
-    env_spec_hash: a8fc103a8ffa8b6172a2c824ed343cd081ad12fb
+    env_spec_hash: 61c81287f07815797c0adc092a2ed45a97b5fc5c
     platforms:
     - linux-64
     packages:
