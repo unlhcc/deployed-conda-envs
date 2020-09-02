@@ -254,3 +254,47 @@ env_specs:
     - pip:
       - tensorflow-probability==0.10.1
     channels: []
+  tensorflow-gpu-2.3.0-py37:
+    packages:
+    - python=3.7
+    - scipy=1.4.1
+    - numpy=1.18
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorboard=2.3.0
+    - cloudpickle=1.3.0
+    - gast=0.3.3
+    - cudatoolkit=10.1
+    - cudnn=7.6
+    - pip:
+      - tensorflow-gpu==2.3.0
+      - tensorflow-probability==0.11.0
+      - tensorflow-estimator==2.3.0
+      - keras-preprocessing==1.1.2
+      - keras-applications==1.0.8
+    channels: []
+  tensorflow-gpu-2.3.0-py38:
+    packages:
+    - python=3.8
+    - scipy=1.4.1
+    - numpy=1.18
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorboard=2.3.0
+    - cloudpickle=1.3.0
+    - gast=0.3.3
+    - cudatoolkit=10.1
+    - cudnn=7.6
+    - pip:
+      - tensorflow-gpu==2.3.0
+      - tensorflow-probability==0.11.0
+      - tensorflow-estimator==2.3.0
+      - keras-preprocessing==1.1.2
+      - keras-applications==1.0.8
+    channels: []
