@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   metaphlan-3.0.3:
     locked: true
-    env_spec_hash: a8e2645cb44741150dfc07d45b6b5592aa6d9bf9
+    env_spec_hash: 0021e833a0065f6ecbe80fbba1ea9d0971191873
     platforms:
     - linux-64
     packages:
@@ -29,7 +29,7 @@ env_specs:
       - biopython=1.77=py37h8f50634_1
       - blast=2.10.0=pl526h3066fca_0
       - boost-cpp=1.70.0=h7b93d67_3
-      - bowtie2=2.4.1=py37h8270d21_3
+      - bowtie2=2.3.5.1=py37he513fc3_0
       - brotlipy=0.7.0=py37h8f50634_1000
       - bx-python=0.8.9=py37h73d7ac5_2
       - bzip2=1.0.8=h516909a_3
@@ -188,7 +188,7 @@ env_specs:
       - six=1.15.0=pyh9f0ad1d_0
       - sqlite=3.33.0=h4cf870e_0
       - statsmodels=0.12.0=py37h8f50634_0
-      - tbb=2020.1=hc9558a2_0
+      - tbb=2020.2=hc9558a2_0
       - tk=8.6.10=hed695b0_0
       - tornado=6.0.4=py37h8f50634_1
       - trimal=1.4.1=hc9558a2_4
