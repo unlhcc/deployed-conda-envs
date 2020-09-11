@@ -28,4 +28,6 @@ env_specs:
     packages:
     - umi_tools=1.0.1
     - python=3.8
+    - samtools
+    - bowtie
     channels: []
