@@ -28,3 +28,7 @@ env_specs:
     packages:
     - stringmlst=0.6.2
     channels: []
+  stringmlst-0.6.3:
+    packages:
+    - stringmlst=0.6.3
+    channels: []

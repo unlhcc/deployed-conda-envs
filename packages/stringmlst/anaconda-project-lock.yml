@@ -15,6 +15,56 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
+  stringmlst-0.6.3:
+    locked: true
+    env_spec_hash: 7f54a0e44e90189f41e3d780b54686e89cd908fe
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bedtools=2.29.2=hc088bd4_0
+      - bwa=0.7.17=hed695b0_7
+      - bzip2=1.0.8=h516909a_3
+      - c-ares=1.16.1=h516909a_3
+      - ca-certificates=2020.6.20=hecda079_0
+      - certifi=2020.6.20=py38h32f6830_0
+      - htslib=1.10.2=hd3b49d5_1
+      - icu=67.1=he1b5a44_0
+      - krb5=1.17.1=hfafb76e_3
+      - ld_impl_linux-64=2.34=hc38a660_9
+      - libcurl=7.71.1=hcdd3856_5
+      - libdeflate=1.6=h516909a_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.3.0=h24d8f2e_16
+      - libgomp=9.3.0=h24d8f2e_16
+      - libiconv=1.16=h516909a_0
+      - libnghttp2=1.41.0=h8cfc5f6_2
+      - libssh2=1.9.0=hab1572f_5
+      - libstdcxx-ng=9.3.0=hdf63c60_16
+      - libxml2=2.9.10=h68273f3_2
+      - libxslt=1.1.33=h572872d_1
+      - lxml=4.5.2=py38hbb43d70_0
+      - ncurses=6.2=he1b5a44_1
+      - openssl=1.1.1g=h516909a_1
+      - perl=5.30.3=h516909a_1
+      - pip=20.2.3=py_0
+      - pyfaidx=0.5.9.1=pyh864c0ab_1
+      - python=3.8.5=h1103e12_7_cpython
+      - python_abi=3.8=1_cp38
+      - readline=8.0=he28a2e2_2
+      - samtools=1.10=h2e538c0_3
+      - setuptools=49.6.0=py38h32f6830_0
+      - six=1.15.0=pyh9f0ad1d_0
+      - sqlite=3.33.0=h4cf870e_0
+      - stringmlst=0.6.3=py_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.35.1=pyh9f0ad1d_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1009
   stringmlst-0.6.2:
     locked: true
     env_spec_hash: a2085f9b0a8ddcc8b0b551a27209721d3ef3b408
@@ -23,43 +73,45 @@ env_specs:
     packages:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
-      - _openmp_mutex=4.5=0_gnu
+      - _openmp_mutex=4.5=1_gnu
       - bedtools=2.29.2=hc088bd4_0
       - bwa=0.7.17=hed695b0_7
-      - bzip2=1.0.8=h516909a_2
+      - bzip2=1.0.8=h516909a_3
+      - c-ares=1.16.1=h516909a_3
       - ca-certificates=2020.6.20=hecda079_0
-      - certifi=2020.6.20=py38h32f6830_0
-      - curl=7.69.1=h33f0ec9_0
-      - htslib=1.9=h4da6232_3
+      - certifi=2020.6.20=py37hc8dfbb8_0
+      - htslib=1.10.2=hd3b49d5_1
       - icu=67.1=he1b5a44_0
-      - krb5=1.17.1=h2fd8d38_0
-      - ld_impl_linux-64=2.34=h53a641e_5
-      - libcurl=7.69.1=hf7181ac_0
+      - krb5=1.17.1=hfafb76e_3
+      - ld_impl_linux-64=2.34=hc38a660_9
+      - libcurl=7.71.1=hcdd3856_5
       - libdeflate=1.6=h516909a_0
-      - libedit=3.1.20191231=h46ee950_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
       - libffi=3.2.1=he1b5a44_1007
-      - libgcc-ng=9.2.0=h24d8f2e_2
-      - libgomp=9.2.0=h24d8f2e_2
-      - libiconv=1.15=h516909a_1006
-      - libssh2=1.9.0=hab1572f_2
-      - libstdcxx-ng=9.2.0=hdf63c60_2
-      - libxml2=2.9.10=h72b56ed_1
+      - libgcc-ng=9.3.0=h24d8f2e_16
+      - libgomp=9.3.0=h24d8f2e_16
+      - libiconv=1.16=h516909a_0
+      - libnghttp2=1.41.0=h8cfc5f6_2
+      - libssh2=1.9.0=hab1572f_5
+      - libstdcxx-ng=9.3.0=hdf63c60_16
+      - libxml2=2.9.10=h68273f3_2
       - libxslt=1.1.33=h572872d_1
-      - lxml=4.5.1=py38hbb43d70_0
-      - ncurses=6.1=hf484d3e_1002
-      - openssl=1.1.1g=h516909a_0
-      - perl=5.26.2=h516909a_1006
-      - pip=20.1.1=py_1
-      - pyfaidx=0.5.8=py_1
-      - python=3.8.3=cpython_he5300dc_0
-      - python_abi=3.8=1_cp38
-      - readline=8.0=hf8c457e_0
-      - samtools=1.9=h10a08f8_12
-      - setuptools=47.3.1=py38h32f6830_0
+      - lxml=4.5.2=py37he3881c9_0
+      - ncurses=6.2=he1b5a44_1
+      - openssl=1.1.1g=h516909a_1
+      - perl=5.30.3=h516909a_1
+      - pip=20.2.3=py_0
+      - pyfaidx=0.5.9.1=pyh864c0ab_1
+      - python=3.7.8=h6f2ec95_1_cpython
+      - python_abi=3.7=1_cp37m
+      - readline=8.0=he28a2e2_2
+      - samtools=1.10=h2e538c0_3
+      - setuptools=49.6.0=py37hc8dfbb8_0
       - six=1.15.0=pyh9f0ad1d_0
-      - sqlite=3.30.1=hcee41ef_0
-      - stringmlst=0.6.2=py_1
+      - sqlite=3.33.0=h4cf870e_0
+      - stringmlst=0.6.2=py37_0
       - tk=8.6.10=hed695b0_0
-      - wheel=0.34.2=py_1
-      - xz=5.2.5=h516909a_0
-      - zlib=1.2.11=h516909a_1006
+      - wheel=0.35.1=pyh9f0ad1d_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1009
