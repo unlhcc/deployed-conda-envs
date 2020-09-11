@@ -1,0 +1,80 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  umi_tools-1.0.1:
+    locked: true
+    env_spec_hash: 7852a0d38d19b78979faace4144233e5989954e1
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bzip2=1.0.8=h516909a_3
+      - c-ares=1.16.1=h516909a_3
+      - ca-certificates=2020.6.20=hecda079_0
+      - certifi=2020.6.20=py38h32f6830_0
+      - cycler=0.10.0=py_2
+      - freetype=2.10.2=he06d7ca_0
+      - future=0.18.2=py38h32f6830_1
+      - icu=67.1=he1b5a44_0
+      - kiwisolver=1.2.0=py38hbf85e49_0
+      - krb5=1.17.1=hfafb76e_3
+      - ld_impl_linux-64=2.34=hc38a660_9
+      - libblas=3.8.0=17_openblas
+      - libcblas=3.8.0=17_openblas
+      - libcurl=7.71.1=hcdd3856_5
+      - libdeflate=1.6=h516909a_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.3.0=h24d8f2e_16
+      - libgfortran-ng=7.5.0=hdf63c60_16
+      - libgomp=9.3.0=h24d8f2e_16
+      - liblapack=3.8.0=17_openblas
+      - libnghttp2=1.41.0=h8cfc5f6_2
+      - libopenblas=0.3.10=pthreads_hb3c22a3_4
+      - libpng=1.6.37=hed695b0_2
+      - libssh2=1.9.0=hab1572f_5
+      - libstdcxx-ng=9.3.0=hdf63c60_16
+      - matplotlib-base=3.2.2=py38h5d868c9_1
+      - ncurses=6.2=he1b5a44_1
+      - numpy=1.19.1=py38hbc27379_2
+      - openssl=1.1.1g=h516909a_1
+      - pandas=1.1.2=py38h950e882_0
+      - pip=20.2.3=py_0
+      - pyparsing=2.4.7=pyh9f0ad1d_0
+      - pysam=0.16.0.1=py38hbdc2ae9_1
+      - python-dateutil=2.8.1=py_0
+      - python=3.8.5=h1103e12_7_cpython
+      - python_abi=3.8=1_cp38
+      - pytz=2020.1=pyh9f0ad1d_0
+      - readline=8.0=he28a2e2_2
+      - regex=2020.7.14=py38h1e0a361_0
+      - scipy=1.5.2=py38h8c5af15_0
+      - setuptools=49.6.0=py38h32f6830_0
+      - six=1.15.0=pyh9f0ad1d_0
+      - sqlite=3.33.0=h4cf870e_0
+      - tk=8.6.10=hed695b0_0
+      - tornado=6.0.4=py38h1e0a361_1
+      - umi_tools=1.0.1=py38h0213d0e_2
+      - wheel=0.35.1=pyh9f0ad1d_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1009
+
+
