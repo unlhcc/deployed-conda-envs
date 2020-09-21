@@ -1,0 +1,93 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  pysam-0.16.0.1-py38:
+    locked: true
+    env_spec_hash: dcac9ee53fdc57c1fc978045e53427394fc6867f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bzip2=1.0.8=h516909a_3
+      - c-ares=1.16.1=h516909a_3
+      - ca-certificates=2020.6.20=hecda079_0
+      - certifi=2020.6.20=py38h32f6830_0
+      - krb5=1.17.1=hfafb76e_3
+      - ld_impl_linux-64=2.35=h769bd43_9
+      - libcurl=7.71.1=hcdd3856_6
+      - libdeflate=1.6=h516909a_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.3.0=h24d8f2e_16
+      - libgomp=9.3.0=h24d8f2e_16
+      - libnghttp2=1.41.0=h8cfc5f6_2
+      - libssh2=1.9.0=hab1572f_5
+      - libstdcxx-ng=9.3.0=hdf63c60_16
+      - ncurses=6.2=he1b5a44_1
+      - openssl=1.1.1g=h516909a_1
+      - pip=20.2.3=py_0
+      - pysam=0.16.0.1=py38hbdc2ae9_1
+      - python=3.8.5=h1103e12_8_cpython
+      - python_abi=3.8=1_cp38
+      - readline=8.0=he28a2e2_2
+      - setuptools=49.6.0=py38h32f6830_1
+      - sqlite=3.33.0=h4cf870e_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.35.1=pyh9f0ad1d_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1009
+  pysam-0.16.0.1-py37:
+    locked: true
+    env_spec_hash: e3fad24f08ebe1d3a6f6c201ed42cba4ce451360
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bzip2=1.0.8=h516909a_3
+      - c-ares=1.16.1=h516909a_3
+      - ca-certificates=2020.6.20=hecda079_0
+      - certifi=2020.6.20=py37hc8dfbb8_0
+      - krb5=1.17.1=hfafb76e_3
+      - ld_impl_linux-64=2.35=h769bd43_9
+      - libcurl=7.71.1=hcdd3856_6
+      - libdeflate=1.6=h516909a_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.3.0=h24d8f2e_16
+      - libgomp=9.3.0=h24d8f2e_16
+      - libnghttp2=1.41.0=h8cfc5f6_2
+      - libssh2=1.9.0=hab1572f_5
+      - libstdcxx-ng=9.3.0=hdf63c60_16
+      - ncurses=6.2=he1b5a44_1
+      - openssl=1.1.1g=h516909a_1
+      - pip=20.2.3=py_0
+      - pysam=0.16.0.1=py37hc334e0b_1
+      - python=3.7.8=h6f2ec95_1_cpython
+      - python_abi=3.7=1_cp37m
+      - readline=8.0=he28a2e2_2
+      - setuptools=49.6.0=py37hc8dfbb8_1
+      - sqlite=3.33.0=h4cf870e_0
+      - tk=8.6.10=hed695b0_0
+      - wheel=0.35.1=pyh9f0ad1d_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1009
