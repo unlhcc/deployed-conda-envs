@@ -27,4 +27,11 @@ env_specs:
     packages:
     - vcontact2=0.9.19
     - python=3.7
+    - mcl=14.137
+    - blast=2.10.1
+    - diamond=2.0.4
     channels: []
+commands:
+  default:
+    unix: curl -sSL https://paccanarolab.org/static_content/clusterone/cluster_one-1.0.jar > $CONDA_PREFIX/bin/cluster_one-1.0.jar
+    env_spec: vcontact2-0.9.19
