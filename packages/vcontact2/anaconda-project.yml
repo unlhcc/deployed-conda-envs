@@ -33,5 +33,5 @@ env_specs:
     channels: []
 commands:
   default:
-    unix: curl -sSL https://paccanarolab.org/static_content/clusterone/cluster_one-1.0.jar > $CONDA_PREFIX/bin/cluster_one-1.0.jar
+    unix: curl -sSL https://paccanarolab.org/static_content/clusterone/cluster_one-1.0.jar > $CONDA_PREFIX/bin/cluster_one-1.0.jar && chmod +x $CONDA_PREFIX/bin/cluster_one-1.0.jar
     env_spec: vcontact2-0.9.19
