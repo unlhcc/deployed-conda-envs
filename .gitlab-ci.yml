@@ -1,5 +1,6 @@
 variables:
   PACKAGE_DEPLOY_ROOT: "/util/opt/anaconda/deployed-conda-envs"
+  HCC_APPS_DB_BCRF_PATH: "/work/HCC/BCRF/app_specific"
 
 stages:
   - test

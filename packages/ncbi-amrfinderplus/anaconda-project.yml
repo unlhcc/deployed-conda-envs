@@ -29,3 +29,7 @@ env_specs:
     packages:
     - ncbi-amrfinderplus=3.8.4
     channels: []
+commands:
+  name:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/ncbi-amrfinderplus && amrfinder_update -d $HCC_APPS_DB_BCRF_PATH/ncbi-amrfinderplus
+    env_spec: ncbi-amrfinderplus-3.8.4
