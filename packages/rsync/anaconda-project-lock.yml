@@ -33,3 +33,38 @@ env_specs:
       - zlib=1.2.11=h516909a_1010
 
 
+  rsync-3.2.3:
+    locked: true
+    env_spec_hash: 7e9c5704ed4cb09ac91221b7f420df513dda717b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - ca-certificates=2020.6.20=hecda079_0
+      - certifi=2020.6.20=py39h079e4ff_2
+      - ld_impl_linux-64=2.35=h769bd43_9
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.3.0=h5dbcf3e_17
+      - libgomp=9.3.0=h5dbcf3e_17
+      - libiconv=1.16=h516909a_0
+      - libstdcxx-ng=9.3.0=h2ae2ef3_17
+      - lz4-c=1.9.2=he1b5a44_3
+      - lz4=3.1.0=py39h3d00fa9_1
+      - ncurses=6.2=he1b5a44_2
+      - openssl=1.1.1h=h516909a_0
+      - pip=20.2.4=py_0
+      - popt=1.16=h299ea2f_2002
+      - python=3.9.0=h2a148a8_4_cpython
+      - python_abi=3.9=1_cp39
+      - readline=8.0=he28a2e2_2
+      - rsync=3.2.3=hfd46bb4_0
+      - setuptools=49.6.0=py39h079e4ff_2
+      - sqlite=3.33.0=h4cf870e_1
+      - tk=8.6.10=hed695b0_1
+      - tzdata=2020b=h516909a_0
+      - wheel=0.35.1=pyh9f0ad1d_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
+      - zstd=1.4.4=h6597ccf_3
