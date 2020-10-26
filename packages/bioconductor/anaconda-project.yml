@@ -361,6 +361,7 @@ env_specs:
     - bioconductor-ggtree
     - r-argparse
     - r-gplots
-    - bioconductor-encodexplorer=2.14.0
-    - bioconductor-encodexplorerdata=0.99.5
+    - bioconductor-encodexplorer
+    - bioconductor-encodexplorerdata
+    - bioconductor-geoquery
     channels: []
