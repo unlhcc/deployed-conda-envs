@@ -653,7 +653,7 @@ env_specs:
 
   bioconductor-4.0:
     locked: true
-    env_spec_hash: e84decdb87c42b262a154da76b9349f7aa16f965
+    env_spec_hash: 91f731f000def6f9f6731571232473d95b733afb
     platforms:
     - linux-64
     packages:
@@ -694,6 +694,7 @@ env_specs:
       - bioconductor-rhdf5=2.32.0=r40h5f743cb_0
       - bioconductor-rhdf5lib=1.10.0=r40h037d062_0
       - bioconductor-rhtslib=1.20.0=r40h037d062_0
+      - bioconductor-rnaseqpower=1.28.0=r40_0
       - bioconductor-rsamtools=2.4.0=r40h5f743cb_0
       - bioconductor-rtracklayer=1.48.0=r40h037d062_0
       - bioconductor-s4vectors=0.26.0=r40h037d062_0
