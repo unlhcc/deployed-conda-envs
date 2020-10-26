@@ -364,4 +364,5 @@ env_specs:
     - bioconductor-encodexplorer
     - bioconductor-encodexplorerdata
     - bioconductor-geoquery
+    - bioconductor-rnaseqpower
     channels: []
