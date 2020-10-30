@@ -365,4 +365,6 @@ env_specs:
     - bioconductor-encodexplorerdata
     - bioconductor-geoquery
     - bioconductor-rnaseqpower
+    - bioconductor-biomart
+    - bioconductor-affy
     channels: []
