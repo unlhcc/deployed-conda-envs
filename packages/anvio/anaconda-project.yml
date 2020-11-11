@@ -37,5 +37,5 @@ env_specs:
     channels: []
 commands:
   name:
-    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/6.2/COG && anvi-setup-ncbi-cogs --cog-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/6.2/COG/ --reset
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/6.2/COG && anvi-setup-ncbi-cogs --cog-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/6.2/COG/ --reset --just-do-it
     env_spec: anvio-6.2
