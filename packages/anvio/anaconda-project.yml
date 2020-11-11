@@ -30,3 +30,8 @@ env_specs:
     - anvio=6.1
     - python=3.6
     channels: []
+  anvio-6.2:
+    packages:
+    - anvio=6.2
+    - python=3.6
+    channels: []
