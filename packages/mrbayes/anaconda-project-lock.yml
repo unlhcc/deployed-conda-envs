@@ -53,7 +53,7 @@ env_specs:
       - libxml2=2.9.10=h68273f3_2
       - lz4-c=1.9.2=he1b5a44_3
       - mpi=1.0=openmpi
-      - mrbayes=3.2.7=hefd459d_1
+      - mrbayes=3.2.7=no_avx2fma_hefd459d_2
       - ncurses=6.2=h58526e2_3
       - openjdk=11.0.8=hacce0ff_0
       - openmpi=4.0.5=h2c4babf_3
