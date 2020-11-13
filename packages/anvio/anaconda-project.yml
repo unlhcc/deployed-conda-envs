@@ -34,8 +34,12 @@ env_specs:
     packages:
     - anvio=6.2
     - python=3.6
+    - cherrypy=8.0.0
+    - pyani=0.2.10
+    - snakemake-minimal=5.10.0
     channels: []
 commands:
   name:
-    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/6.2/COG && anvi-setup-ncbi-cogs --cog-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/6.2/COG/ --reset --just-do-it
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/6.2/COG && anvi-setup-ncbi-cogs --cog-data-dir
+      $HCC_APPS_DB_BCRF_PATH/anvio/6.2/COG/ --reset --just-do-it
     env_spec: anvio-6.2
