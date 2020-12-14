@@ -14,7 +14,7 @@ name: PyTorch
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: PyTorch is an optimized tensor library for deep learning using GPUs and
-  CPUs.
+  CPUs.      
 
 
 
@@ -93,4 +93,28 @@ env_specs:
     - scikit-learn
     - scikit-plot
     - torchvision=0.7.0
+    channels: []
+  pytorch-1.7.1-py37:
+    packages:
+    - python=3.7
+    - pytorch=1.7.1
+    - torchvision=0.8.2
+    - cudatoolkit=10.2
+    - numpy
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    channels: []
+  pytorch-1.7.1-py38:
+    packages:
+    - python=3.8
+    - pytorch=1.7.1
+    - torchvision=0.8.2
+    - cudatoolkit=10.2
+    - numpy
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
     channels: []
