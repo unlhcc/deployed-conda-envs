@@ -14,16 +14,25 @@ name: AutoDock-GPU
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: AutoDock for GPUs using OpenCL.
-env_specs:
-  autodock-gpu-4.2.6.c135512:
-    platforms:
-    - linux-64
-    packages:
-    - autodock-gpu=4.2.6.c135512
-    channels: []
+
 
 #
 # In the platforms section, list platforms the project should work on
 # Examples: "linux-64", "osx-64", "win-64"
 # Use `anaconda-project add-platforms` to add platforms.
 #
+platforms:
+- linux-64
+env_specs:
+  autodock-gpu-4.2.6.c135512:
+    packages:
+    - autodock-gpu=4.2.6.c135512
+    channels: []
+  autodock-gpu-1.2:
+    packages:
+    - autodock-gpu=1.2
+    channels: []
+  autodock-gpu-1.3:
+    packages:
+    - autodock-gpu=1.3
+    channels: []
