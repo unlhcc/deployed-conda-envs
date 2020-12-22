@@ -35,11 +35,13 @@ env_specs:
     - humann2=0.11.2
     - python=2.7
     - metaphlan2=2.8
+    - glpk=4.65
     channels: []
   humann2-2.8.1:
     packages:
     - humann2=2.8.1
     - python=2.7
     - metaphlan2=2.6
+    - glpk=4.65
     channels: []
 packages: []
