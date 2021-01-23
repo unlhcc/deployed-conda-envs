@@ -1,0 +1,62 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  fastani-1.32:
+    locked: true
+    env_spec_hash: 38ce885d1348b70e8b352eca638d3c5c8ddfb0a3
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - boost-cpp=1.70.0=h7b93d67_3
+      - boost=1.70.0=py38h9de70de_1
+      - bzip2=1.0.8=h7f98852_4
+      - ca-certificates=2020.12.5=ha878542_0
+      - certifi=2020.12.5=py38h578d9bd_1
+      - fastani=1.32=he1c1bb9_0
+      - icu=67.1=he1b5a44_0
+      - ld_impl_linux-64=2.35.1=hea4e1c9_1
+      - libblas=3.9.0=7_openblas
+      - libcblas=3.9.0=7_openblas
+      - libffi=3.3=h58526e2_2
+      - libgcc-ng=9.3.0=h2828fa1_18
+      - libgfortran-ng=9.3.0=hff62375_18
+      - libgfortran5=9.3.0=hff62375_18
+      - libgomp=9.3.0=h2828fa1_18
+      - liblapack=3.9.0=7_openblas
+      - libopenblas=0.3.12=pthreads_h4812303_1
+      - libstdcxx-ng=9.3.0=h6de172a_18
+      - lz4-c=1.9.3=h9c3ff4c_0
+      - ncurses=6.2=h58526e2_4
+      - numpy=1.19.5=py38h18fd61f_1
+      - openssl=1.1.1i=h7f98852_0
+      - pip=20.3.3=pyhd8ed1ab_0
+      - python=3.8.6=hffdb5ce_4_cpython
+      - python_abi=3.8=1_cp38
+      - readline=8.0=he28a2e2_2
+      - setuptools=49.6.0=py38h578d9bd_3
+      - sqlite=3.34.0=h74cdb3f_0
+      - tk=8.6.10=h21135ba_1
+      - wheel=0.36.2=pyhd3deb0d_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
+      - zstd=1.4.8=ha95c52a_1
+
+
