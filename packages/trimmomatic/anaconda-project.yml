@@ -36,3 +36,7 @@ env_specs:
     packages:
     - trimmomatic=0.38
     channels: []
+  trimmomatic-0.39:
+    packages:
+    - trimmomatic=0.39
+    channels: []
