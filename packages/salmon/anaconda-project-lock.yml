@@ -108,3 +108,21 @@ env_specs:
       - wheel=0.31.0=py35_0
       - xz=5.2.3=0
       - zlib=1.2.11=0
+  salmon-1.4.0:
+    locked: true
+    env_spec_hash: e819fff34bf593d99ab9114de4dce2f2f8574e34
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bzip2=1.0.8=h7f98852_4
+      - icu=64.2=he1b5a44_1
+      - jemalloc=5.2.1=h9c3ff4c_5
+      - libgcc-ng=9.3.0=h2828fa1_18
+      - libgomp=9.3.0=h2828fa1_18
+      - libstdcxx-ng=9.3.0=h6de172a_18
+      - salmon=1.4.0=hf69c8f4_0
+      - tbb=2020.2=h4bd325d_3
+      - zlib=1.2.11=h516909a_1010
