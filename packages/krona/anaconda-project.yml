@@ -29,3 +29,7 @@ env_specs:
     packages:
     - krona=2.7.1
     channels: []
+commands:
+  download_db:
+    unix: ktUpdateTaxonomy.sh
+    env_spec: krona-2.7.1
