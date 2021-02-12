@@ -32,3 +32,8 @@ env_specs:
     packages:
     - awscli=1.11.120
     channels: []
+  awscli-1.19.5:
+    packages:
+    - awscli=1.19.5
+    - python=3.8
+    channels: []
