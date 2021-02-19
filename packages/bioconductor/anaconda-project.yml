@@ -367,4 +367,5 @@ env_specs:
     - bioconductor-rnaseqpower
     - bioconductor-biomart
     - bioconductor-affy
+    - bioconductor-methylkit
     channels: []
