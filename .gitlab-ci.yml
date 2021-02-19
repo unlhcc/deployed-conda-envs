@@ -13,6 +13,7 @@ test:
   variables:
     ANACONDA_PREFIX: "/anaconda"
     MINICONDA_VER: "4.6.14"
+    HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master
   tags:
@@ -29,6 +30,7 @@ test-el8:
   variables:
     ANACONDA_PREFIX: "/anaconda"
     MINICONDA_VER: "4.6.14"
+    HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master
   tags:
