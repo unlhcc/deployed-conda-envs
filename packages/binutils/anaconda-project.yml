@@ -28,3 +28,7 @@ env_specs:
     packages:
     - binutils=2.30
     channels: []
+  binutils-2.35.1:
+    packages:
+    - binutils=2.35.1
+    channels: []
