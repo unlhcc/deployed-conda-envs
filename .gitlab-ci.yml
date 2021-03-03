@@ -48,7 +48,7 @@ deploy-crane:
     url: https://crane.unl.edu
   image: unlhcc/crane-build-el6
   variables:
-    ANACONDA_PREFIX: "/util/opt/anaconda/4.6/envs/anaconda-project-0.8.2"
+    ANACONDA_PREFIX: "/util/opt/anaconda/4.8/envs/anaconda-project-0.9.1"
     DEPLOY_HOST: "CRANE"
   only:
     - master
@@ -76,7 +76,7 @@ deploy-rhino:
     url: https://rhino.unl.edu
   image: unlhcc/rhino-build-el7
   variables:
-    ANACONDA_PREFIX: "/util/opt/anaconda/4.6/envs/anaconda-project-0.8.2"
+    ANACONDA_PREFIX: "/util/opt/anaconda/4.8/envs/anaconda-project-0.9.1"
     DEPLOY_HOST: "RHINO"
   only:
     - master
@@ -104,7 +104,7 @@ deploy-crane-el8:
     url: https://crane.unl.edu
   image: unlhcc/crane-build-el8
   variables:
-    ANACONDA_PREFIX: "/util/opt/anaconda/4.6/envs/anaconda-project-0.8.2"
+    ANACONDA_PREFIX: "/util/opt/anaconda/4.8/envs/anaconda-project-0.9.1"
     DEPLOY_HOST: "CRANE"
   only:
     - master
