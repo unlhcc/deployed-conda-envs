@@ -9,7 +9,7 @@ source ${ANACONDA_PREFIX}/etc/profile.d/conda.sh
 # install anaconda-project and friends
 conda config --system --set auto_update_conda False
 conda activate base
-conda install -q -y anaconda-project=0.8.2 anaconda-client=1.6.14 git
+conda install -q -y anaconda-project=0.9.1 anaconda-client=1.7.2 git
 
 # set the channel order
 conda config --system --add channels bioconda
