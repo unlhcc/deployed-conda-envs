@@ -64,7 +64,7 @@ then
             then
                 ERROR "'default' environment spec should not be present!"
                 exit 1
-            elif [ -f $package/SKIP_PREPARE ] && [ `grep -w "$spec" $package/SKIP_PREPARE` ]
+            elif [ -f $package/SKIP_PREPARE ] && [ `grep -x "$spec" $package/SKIP_PREPARE` ]
             then
                 NOTICE "Skipping preparing environment $spec"
                 continue		
