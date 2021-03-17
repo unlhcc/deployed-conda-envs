@@ -350,3 +350,45 @@ env_specs:
     - pip:
       - tensorflow-probability==0.10.1
     channels: []
+  tensorflow-gpu-2.4.1-py37:
+    packages:
+    - tensorflow-gpu=2.4.1
+    - python=3.7
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.12.1
+    - cudatoolkit=10.1
+    channels: []
+  tensorflow-gpu-2.4.1-py38:
+    packages:
+    - tensorflow-gpu=2.4.1
+    - python=3.8
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.12.1
+    - cudatoolkit=10.1
+    channels: []
+  tensorflow-gpu-2.4.1-py39:
+    packages:
+    - tensorflow-gpu=2.4.1
+    - python=3.9
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.12.1
+    - cudatoolkit=10.1
+    channels: []
