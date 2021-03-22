@@ -14,7 +14,7 @@ name: metaWRAP
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: MetaWRAP is a flexible pipeline for genome-resolved metagenomic data
-  analysis.  
+  analysis.
 
 
 #
@@ -35,3 +35,8 @@ env_specs:
     - perl=5.26
     - perl-lwp-simple=6.15
     channels: []
+  metawrap-1.3.2:
+    packages:
+    - metawrap-mg=1.3.2
+    channels:
+    - ursky
