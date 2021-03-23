@@ -28,3 +28,14 @@ env_specs:
     packages:
     - virsorter=1.0.6
     channels: []
+  virsorter-2.1:
+    packages:
+    - virsorter=2.1
+    - wget
+    channels: []
+
+#commands:
+#  virsorter-2.1-db:
+#    unix: rm -rf $HCC_APPS_DB_BCRF_PATH/app_specific/virsorter/2.1/virsorter-data
+#     && virsorter setup -j 4 -d $HCC_APPS_DB_BCRF_PATH/app_specific/virsorter/2.1/virsorter-data
+#    env_spec: virsorter-2.1
