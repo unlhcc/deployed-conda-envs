@@ -2,7 +2,8 @@
 
 set -euo pipefail
 
-export PATH=$ANACONDA_PREFIX/bin:$PATH
+source $ANACONDA_PREFIX/etc/profile.d/conda.sh
+conda activate base
 script_path="$(dirname "$( readlink -e ${BASH_SOURCE[0]} )" )"
 # ooh, pretty colors
 source $script_path/b-log.sh
