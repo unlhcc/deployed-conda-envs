@@ -3,7 +3,8 @@
 set -euo pipefail
 if [ ! -z ${GITLAB_CI+set} ]
 then
-    export PATH=$ANACONDA_PREFIX/bin:$PATH
+    source $ANACONDA_PREFIX/etc/profile.d/conda.sh
+    conda activate base
 fi
 script_path="$(dirname "$( readlink -e ${BASH_SOURCE[0]} )" )"
 # ooh, pretty colors
@@ -97,9 +98,8 @@ then
         do
             NOTICE "Found command named $apCommand"
             cmdCommand="anaconda-project run --directory $package $apCommand"
-            anaconda-project run --directory $package $apCommand
-#            cmdOut="$($cmdCommand 2>&1)"
-#            echo "$cmdOut" | INFO
+            INFO "Running command $cmdCommand"
+            $cmdCommand 2>&1 | INFO
         done
         NOTICE "Finished running commands for $package"
       fi
