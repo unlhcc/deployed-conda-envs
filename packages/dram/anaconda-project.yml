@@ -30,12 +30,12 @@ env_specs:
     - dram=1.0.6
     - python=3.7
     channels: []
-  dram-1.1.1:
+  dram-1.2.0:
     packages:
-    - dram=1.1.1
-    - python=3.7
+    - dram=1.2.0
+    - python=3.8
     channels: []
 #commands:
 #  download-db:
-#    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/dram/1.1.1 && DRAM-setup.py prepare_databases --output_dir $HCC_APPS_DB_BCRF_PATH/dram/1.1.1
-#    env_spec: dram-1.1.1
+#    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/dram/1.2.0 && DRAM-setup.py prepare_databases --output_dir $HCC_APPS_DB_BCRF_PATH/dram/1.2.0
+#    env_spec: dram-1.2.0
