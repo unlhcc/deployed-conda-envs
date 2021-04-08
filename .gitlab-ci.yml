@@ -7,9 +7,9 @@ stages:
   - deploy
   - sync-to-github
 
-test:
+test-rhino:
   stage: test
-  image: unlhcc/crane-build-el6
+  image: unlhcc/rhino-build-el7
   variables:
     ANACONDA_PREFIX: "/anaconda"
     MINICONDA_VER: "4.6.14"
@@ -24,7 +24,7 @@ test:
     - scripts/test_changed_packages.sh
   retry: 2
 
-test-el8:
+test-crane-el8:
   stage: test
   image: unlhcc/crane-build-el8
   variables:
@@ -39,34 +39,6 @@ test-el8:
     - scripts/gitlabci-setup.sh
   script:
     - scripts/test_changed_packages.sh
-  retry: 2
-
-deploy-crane:
-  stage: deploy
-  environment:
-    name: crane_production
-    url: https://crane.unl.edu
-  image: unlhcc/crane-build-el6
-  variables:
-    ANACONDA_PREFIX: "/util/opt/anaconda/4.8/envs/anaconda-project-0.9.1"
-    DEPLOY_HOST: "CRANE"
-  only:
-    - master
-  tags:
-    - crane
-  before_script:
-    - eval $(ssh-agent -s) > /dev/null
-    - mkdir -p ~/.ssh
-    - chown 700 ~/.ssh
-    - echo $SSH_KNOWN_HOSTS > ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
-    - ssh-add <(echo "$SSH_PRIVATE_KEY" | base64 --decode)
-  script:
-    - cd $PACKAGE_DEPLOY_ROOT
-    - git checkout master
-    - git fetch
-    - git checkout $CI_COMMIT_SHA
-    - scripts/deploy_all_packages.sh
   retry: 2
 
 deploy-rhino:
