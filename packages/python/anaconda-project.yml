@@ -49,13 +49,6 @@ env_specs:
     - jasper=1.900.1
     channels:
     - defaults
-  python-3.8:
-    packages:
-    - python=3.8
-    - anaconda=2020.02
-    - pandas-datareader=0.8.1
-    - jasper=1.900.1
-    channels: []
   python-3.7:
     packages:
     - python=3.7
@@ -66,6 +59,13 @@ env_specs:
     packages:
     - anaconda=2020.02
     - python=3.6
+    - pandas-datareader=0.9.0
+    - jasper=1.900.1
+    channels: []
+  python-3.8:
+    packages:
+    - anaconda=2020.11
+    - python=3.8
     - pandas-datareader=0.9.0
     - jasper=1.900.1
     channels: []
