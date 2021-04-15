@@ -1,0 +1,32 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  bison-3.7.5:
+    locked: true
+    env_spec_hash: 01245a021fc124ec9a6333b34db54f0a6186e416
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bison=3.7.5=h2531618_1
+      - flex=2.6.4=h58526e2_1004
+      - libgcc-ng=9.3.0=h2828fa1_19
+      - libgomp=9.3.0=h2828fa1_19
+      - libstdcxx-ng=9.3.0=h6de172a_19
+      - m4=1.4.18=h516909a_1001
