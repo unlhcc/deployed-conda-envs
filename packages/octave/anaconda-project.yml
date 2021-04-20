@@ -44,3 +44,10 @@ env_specs:
     - python=3.7
     - boost=1.73.0
     channels: []
+  octave-6.2.0:
+    packages:
+    - octave=6.2.0
+    - octave_kernel=0.32.0
+    - python=3.8
+    - boost=1.75.0
+    channels: []
