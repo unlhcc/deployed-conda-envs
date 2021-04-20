@@ -33,3 +33,7 @@ env_specs:
     packages:
     - gnuplot=5.2.3
     channels: []
+  gnuplot-5.4.1:
+    packages:
+    - gnuplot=5.4.1
+    channels: []
