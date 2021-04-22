@@ -29,3 +29,8 @@ env_specs:
     - dedalus=2.1905
     - python=3.7
     channels: []
+  dedalus-2.2006-py37:
+    packages:
+    - dedalus=2.2006
+    - python=3.7
+    channels: []
