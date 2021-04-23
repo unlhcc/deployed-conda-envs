@@ -56,7 +56,7 @@ do
 	  continue
       else
           NOTICE "Preparing environment $spec"
-          prepareCommand="anaconda-project prepare --directory $packageDir --env-spec $spec"
+          prepareCommand="anaconda-project prepare --refresh --directory $packageDir --env-spec $spec"
           prepareOut="$($prepareCommand)"
           if [[ "$prepareOut" = *"Potential issues"* ]]
           then
