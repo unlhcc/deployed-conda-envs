@@ -52,4 +52,9 @@ env_specs:
     - netifaces
     - jsonschema
     channels: []
+  nextstrain-cli-3.0.3:
+    packages:
+    - nextstrain-cli=3.0.3
+    - python=3.8
+    channels: []
 packages: []
