@@ -32,3 +32,7 @@ env_specs:
     - python=3.6
     - r-tidyverse
     channels: []
+  picrust2-2.4.1:
+    packages:
+    - picrust2=2.4.1
+    channels: []
