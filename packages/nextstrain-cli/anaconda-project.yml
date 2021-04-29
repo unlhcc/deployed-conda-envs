@@ -56,5 +56,8 @@ env_specs:
     packages:
     - nextstrain-cli=3.0.3
     - python=3.8
+    - snakemake=6.2
+    - auspice=2.23.0
     channels: []
 packages: []
+commands: {}
