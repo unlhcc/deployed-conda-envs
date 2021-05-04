@@ -67,6 +67,10 @@ env_specs:
     - gfortran_linux-64=7.5.0
     - python=3.8
     - r-gmp=0.6_2
+    - r-xgboost=1.4.0
+    - r-data.table=1.14.0
+    - r-plotly=4.9.3
+    - r-mlr3=0.11.0
     channels: []
   r-4.0.2:
     packages:
