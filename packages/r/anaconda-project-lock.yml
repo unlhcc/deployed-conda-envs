@@ -493,7 +493,7 @@ env_specs:
       - zstd=1.4.5=h6597ccf_2
   r-3.6.3:
     locked: true
-    env_spec_hash: da2d507a5f18c6041b353cccd96a4df929cb3145
+    env_spec_hash: 6d124c88f6b576838437fdbca8a1b559bff52fb7
     platforms:
     - linux-64
     packages:
@@ -619,7 +619,7 @@ env_specs:
       - r-clipr=0.7.1=r36h142f84f_0
       - r-cluster=2.1.0=r36h31ca83e_4
       - r-codetools=0.2_18=r36hc72bb7e_0
-      - r-colorspace=2.0_0=r36h9e2df91_0
+      - r-colorspace=2.0_1=r36hcfec24a_0
       - r-commonmark=1.7=r36hcdcec82_1002
       - r-covr=3.5.1=r36h0357c0b_0
       - r-cpp11=0.2.7=r36hc72bb7e_0
@@ -679,6 +679,7 @@ env_specs:
       - r-lgr=0.4.2=r36hc72bb7e_0
       - r-lifecycle=1.0.0=r36hc72bb7e_0
       - r-listenv=0.8.0=r36h6115d3f_1
+      - r-littler=0.3.12=r36h8312697_1
       - r-loo=2.4.1=r36hc72bb7e_0
       - r-lubridate=1.7.10=r36h03ef668_0
       - r-magrittr=2.0.1=r36hcfec24a_1
@@ -1049,7 +1050,7 @@ env_specs:
       - zstd=1.4.5=h6597ccf_2
   r-4.0.3:
     locked: true
-    env_spec_hash: 7e727e31eae3a2d58cf373f807e8ffa669ee7000
+    env_spec_hash: 2910374a17c7b0e356bf7f7d3e6e9d0afc3ff898
     platforms:
     - linux-64
     packages:
@@ -1175,7 +1176,7 @@ env_specs:
       - r-clipr=0.7.1=r40h142f84f_0
       - r-cluster=2.1.1=r40h859d828_0
       - r-codetools=0.2_18=r40hc72bb7e_0
-      - r-colorspace=2.0_0=r40h9e2df91_0
+      - r-colorspace=2.0_1=r40hcfec24a_0
       - r-commonmark=1.7=r40hcdcec82_1002
       - r-covr=3.5.1=r40h0357c0b_0
       - r-cpp11=0.2.7=r40hc72bb7e_0
@@ -1235,6 +1236,7 @@ env_specs:
       - r-lgr=0.4.2=r40hc72bb7e_0
       - r-lifecycle=1.0.0=r40hc72bb7e_0
       - r-listenv=0.8.0=r40h6115d3f_1
+      - r-littler=0.3.12=r40h8312697_1
       - r-loo=2.4.1=r40hc72bb7e_0
       - r-lubridate=1.7.10=r40h03ef668_0
       - r-magrittr=2.0.1=r40hcfec24a_1
