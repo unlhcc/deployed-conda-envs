@@ -71,6 +71,7 @@ env_specs:
     - r-data.table=1.14.0
     - r-plotly=4.9.3
     - r-mlr3=0.11.0
+    - r-littler=0.3.12
     channels: []
   r-4.0.2:
     packages:
@@ -108,4 +109,5 @@ env_specs:
     - r-plotly=4.9.3
     - r-mlr3=0.11.0
     - r-data.table=1.14.0
+    - r-littler=0.3.12
     channels: []
