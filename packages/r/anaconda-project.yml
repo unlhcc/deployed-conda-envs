@@ -72,6 +72,12 @@ env_specs:
     - r-plotly=4.9.3
     - r-mlr3=0.11.0
     - r-littler=0.3.12
+    - r-rjava=1.0
+    - r-doparallel=1.0.16
+    - r-superlearner=2.0
+    - r-gbm=2.1.8
+    - r-rda=1.0.2
+    - r-ranger=0.12.1
     channels: []
   r-4.0.2:
     packages:
@@ -110,4 +116,18 @@ env_specs:
     - r-mlr3=0.11.0
     - r-data.table=1.14.0
     - r-littler=0.3.12
+    - r-rjava=1.0
+    - r-doparallel=1.0.16
+    - r-superlearner=2.0
+    - r-gbm=2.1.8
+    - r-rda=1.0.2
+    - r-ranger=0.12.1
     channels: []
+
+commands:
+  javareconf-r3.6.3:
+    unix: R CMD javareconf
+    env_spec: r-3.6.3
+  javareconf-r4.0.3:
+    unix: R CMD javareconf
+    env_spec: r-4.0.3
