@@ -28,3 +28,7 @@ env_specs:
     packages:
     - cenote-taker2=2020.04.01
     channels: []
+  cenote-taker2-2.1.2:
+    packages:
+    - cenote-taker2=2.1.2
+    channels: []
