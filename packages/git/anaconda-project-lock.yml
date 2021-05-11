@@ -108,7 +108,7 @@ env_specs:
       - zlib=1.2.11=h516909a_1010
   git-2.30.2:
     locked: true
-    env_spec_hash: d0a32aae0e0da4a495a9d22b02a5cdb97fcdd73f
+    env_spec_hash: 41ca8f348646780a0e661685c9ce29e33b7fe62b
     platforms:
     - linux-64
     packages:
@@ -120,6 +120,7 @@ env_specs:
       - curl=7.76.1=h979ede3_1
       - expat=2.3.0=h9c3ff4c_0
       - gettext=0.19.8.1=h0b5b191_1005
+      - git-lfs=2.13.2=h06a4308_0
       - git=2.30.2=pl5320h24fefe6_1
       - krb5=1.17.2=h926e7f8_0
       - libcurl=7.76.1=hc4aaa36_1
