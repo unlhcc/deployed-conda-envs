@@ -914,6 +914,7 @@ env_specs:
     - defaults
   qiime2-2021.2:
     channels:
+    - gavinmdouglas        
     - qiime2/label/r2021.2
     - conda-forge
     - bioconda
@@ -1165,6 +1166,7 @@ env_specs:
     - perl-xsloader=0.24
     - pexpect=4.8.0
     - pickleshare=0.7.5
+    - picrust2=2.4.1
     - pigz=2.5
     - pillow=8.1.0
     - pip=21.0.1
@@ -1212,6 +1214,7 @@ env_specs:
     - q2-taxa=2021.2.0
     - q2-types=2021.2.0
     - q2-vsearch=2021.2.0
+    - q2-picrust2=2021.2  
     - q2cli=2021.2.0
     - q2templates=2021.2.0
     - qiime2=2021.2.0
