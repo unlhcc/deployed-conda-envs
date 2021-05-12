@@ -45,3 +45,17 @@ env_specs:
       - libiconv=1.16=h516909a_0
       - nano=5.5=hcd50048_0
       - ncurses=6.2=h58526e2_4
+  nano-5.7:
+    locked: true
+    env_spec_hash: 4a71a7e3f9806e59dc0cd41f5649715316ea4586
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - libgcc-ng=9.3.0=h2828fa1_19
+      - libgomp=9.3.0=h2828fa1_19
+      - libiconv=1.16=h516909a_0
+      - nano=5.7=h9c542c7_0
+      - ncurses=6.2=h58526e2_4
