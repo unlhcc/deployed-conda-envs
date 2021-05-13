@@ -1,0 +1,135 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  groopm-0.3.4:
+    locked: true
+    env_spec_hash: 15b877a36addbe401f6037da265187a73b443c92
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - backports.functools_lru_cache=1.6.1=py_0
+      - backports=1.0=py_2
+      - backports_abc=0.5=py_1
+      - bamm=1.7.3=py27hf4361d6_8
+      - blosc=1.21.0=h9c3ff4c_0
+      - bwa=0.7.17=h5bf99c6_8
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.17.1=h7f98852_1
+      - ca-certificates=2020.12.5=ha878542_0
+      - cairo=1.16.0=hcf35c78_1003
+      - certifi=2019.11.28=py27h8c360ce_1
+      - curl=7.76.1=h979ede3_1
+      - cycler=0.10.0=py_2
+      - expat=2.2.10=h9c3ff4c_0
+      - fontconfig=2.13.1=hba837de_1005
+      - freetype=2.10.4=h0708190_1
+      - fribidi=1.0.10=h36c2ea0_0
+      - funcsigs=1.0.2=py_3
+      - functools32=3.2.3.2=py_3
+      - futures=3.3.0=py27h8c360ce_1
+      - gettext=0.19.8.1=hf34092f_1004
+      - glib=2.66.3=h58526e2_0
+      - graphite2=1.3.13=h58526e2_1001
+      - groopm=0.3.4=py27_0
+      - harfbuzz=2.4.0=h9f30f68_3
+      - hdf5=1.10.5=nompi_h7c3c948_1111
+      - htslib=1.12=h9093b5e_1
+      - icu=64.2=he1b5a44_1
+      - jpeg=9d=h36c2ea0_0
+      - kiwisolver=1.1.0=py27h9e3301b_1
+      - krb5=1.17.2=h926e7f8_0
+      - ld_impl_linux-64=2.35.1=hea4e1c9_2
+      - libblas=3.9.0=8_openblas
+      - libcblas=3.9.0=8_openblas
+      - libcurl=7.76.1=hc4aaa36_1
+      - libdeflate=1.7=h7f98852_5
+      - libedit=3.1.20191231=h46ee950_2
+      - libev=4.33=h516909a_1
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=9.3.0=h2828fa1_19
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.5.0=h14aa051_19
+      - libgfortran4=7.5.0=h14aa051_19
+      - libglib=2.66.3=hbe7bbb4_0
+      - libgomp=9.3.0=h2828fa1_19
+      - libiconv=1.16=h516909a_0
+      - liblapack=3.9.0=8_openblas
+      - libnghttp2=1.43.0=h812cca2_0
+      - libopenblas=0.3.12=pthreads_hb3c22a3_1
+      - libpng=1.6.37=h21135ba_2
+      - libssh2=1.9.0=ha56f1ee_6
+      - libstdcxx-ng=9.3.0=h6de172a_19
+      - libtiff=4.2.0=hdc55705_1
+      - libuuid=2.32.1=h7f98852_1000
+      - libwebp-base=1.2.0=h7f98852_2
+      - libxcb=1.13=h7f98852_1003
+      - libxml2=2.9.10=hee79883_0
+      - lz4-c=1.9.3=h9c3ff4c_0
+      - lzo=2.10=h516909a_1000
+      - matplotlib-base=2.2.5=py27h250f245_1
+      - matplotlib=2.2.5=ha770c72_3
+      - mock=3.0.5=py27h8c360ce_1
+      - ncurses=6.1=hf484d3e_1002
+      - numexpr=2.7.1=py27hb3f55d8_0
+      - numpy=1.16.5=py27h95a1406_0
+      - olefile=0.46=pyh9f0ad1d_1
+      - openssl=1.1.1k=h7f98852_0
+      - pango=1.42.4=h7062337_4
+      - pcre=8.44=he1b5a44_0
+      - perl=5.32.0=h36c2ea0_0
+      - pillow=6.2.1=py27hd70f55b_1
+      - pip=20.1.1=pyh9f0ad1d_0
+      - pixman=0.38.0=h516909a_1003
+      - pthread-stubs=0.4=h36c2ea0_1001
+      - pyparsing=2.4.7=pyh9f0ad1d_0
+      - pyqt=4.11.4=py27_3
+      - pytables=3.5.2=py27h9f153d1_2
+      - python-dateutil=2.8.1=py_0
+      - python=2.7.15=h5a48372_1011_cpython
+      - python_abi=2.7=1_cp27mu
+      - pytz=2020.1=pyh9f0ad1d_0
+      - qt=4.8.7=h3cb0e74_0
+      - readline=8.0=h46ee950_1
+      - samtools=1.7=1
+      - scipy=1.2.1=py27h921218d_2
+      - setuptools=44.0.0=py27_0
+      - singledispatch=3.6.1=pyh44b312d_0
+      - sip=4.18=py27_1
+      - six=1.16.0=pyh6c4a22f_0
+      - sqlite=3.32.3=hcee41ef_1
+      - subprocess32=3.5.4=py27h516909a_0
+      - tk=8.6.10=h21135ba_1
+      - tornado=5.1.1=py27h14c3975_1000
+      - wheel=0.36.2=pyhd3deb0d_0
+      - xorg-kbproto=1.0.7=h7f98852_1002
+      - xorg-libice=1.0.10=h7f98852_0
+      - xorg-libsm=1.2.3=hd9c2040_1000
+      - xorg-libx11=1.7.0=h7f98852_0
+      - xorg-libxau=1.0.9=h7f98852_0
+      - xorg-libxdmcp=1.1.3=h7f98852_0
+      - xorg-libxext=1.3.4=h7f98852_1
+      - xorg-libxrender=0.9.10=h7f98852_1003
+      - xorg-libxt=1.2.1=h7f98852_2
+      - xorg-renderproto=0.11.1=h7f98852_1002
+      - xorg-xextproto=7.3.0=h7f98852_1002
+      - xorg-xproto=7.0.31=h7f98852_1007
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
+      - zstd=1.4.9=ha95c52a_0
