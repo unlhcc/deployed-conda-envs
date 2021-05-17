@@ -33,3 +33,7 @@ env_specs:
     packages:
     - beagle=5.1_24Aug19.3e8
     channels: []
+  beagle-5.2_21Apr21.304:
+    packages:
+    - beagle=5.2_21Apr21.304
+    channels: []

@@ -108,3 +108,12 @@ env_specs:
       - zstd=1.4.0=h3b9ef0a_0
 
 
+  beagle-5.2_21Apr21.304:
+    locked: true
+    env_spec_hash: db6986faca5d03a4237058e5286c23332782052f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - beagle=5.2_21Apr21.304=hdfd78af_0
+      - openjdk=10.0.2=h14c3975_1015
