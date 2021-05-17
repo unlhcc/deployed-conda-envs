@@ -1,0 +1,25 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  sortmerna-4.3.2:
+    locked: true
+    env_spec_hash: 5bc20141802f40c84adc80bce82f56d4fe5b3678
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - sortmerna=4.3.2=h9ee0642_1
