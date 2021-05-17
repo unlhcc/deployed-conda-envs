@@ -14,7 +14,7 @@ name: emacs
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: GNU Emacs, the extensible, customizable, self-documenting real-time display
-  editor.    
+  editor.
 
 
 #
@@ -28,4 +28,8 @@ env_specs:
   emacs-26.2:
     packages:
     - emacs=26.2
+    channels: []
+  emacs-27.2:
+    packages:
+    - emacs=27.2
     channels: []
