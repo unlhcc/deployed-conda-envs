@@ -14,7 +14,7 @@ name: dm-sonnet
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: Sonnet is a library built on top of TensorFlow for building complex neural
-  networks.  
+  networks.
 
 
 #
@@ -112,4 +112,30 @@ env_specs:
     - scikit-plot
     - tqdm
     - python=3.6
+    channels: []
+  dm-sonnet-2.0.0-py38:
+    packages:
+    - python=3.8
+    - dm-sonnet=2.0.0
+    - tensorflow=2.4
+    - scipy=1.6
+    - numpy=1.20
+    - scikit-learn=0.24
+    - matplotlib=3.4
+    - scikit-plot=0.3
+    - pandas=1.2
+    - ipykernel
+    channels: []
+  dm-sonnet-2.0.0-py39:
+    packages:
+    - python=3.9
+    - dm-sonnet=2.0.0
+    - tensorflow=2.4
+    - scipy=1.6
+    - numpy=1.20
+    - scikit-learn=0.24
+    - matplotlib=3.4
+    - scikit-plot=0.3
+    - pandas=1.2
+    - ipykernel
     channels: []
