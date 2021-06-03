@@ -51,3 +51,23 @@ env_specs:
       - wheel=0.33.4=py37_0
       - xz=5.2.4=h14c3975_1001
       - zlib=1.2.11=h516909a_1005
+  diamond-2.0.9:
+    locked: true
+    env_spec_hash: d192ee069f03f11e5d77805291909395da939fe9
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - boost-cpp=1.74.0=h312852a_4
+      - bzip2=1.0.8=h7f98852_4
+      - diamond=2.0.9=hdcc8f71_0
+      - icu=68.1=h58526e2_0
+      - libgcc-ng=9.3.0=h2828fa1_19
+      - libgomp=9.3.0=h2828fa1_19
+      - libstdcxx-ng=9.3.0=h6de172a_19
+      - lz4-c=1.9.3=h9c3ff4c_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
+      - zstd=1.5.0=ha95c52a_0
