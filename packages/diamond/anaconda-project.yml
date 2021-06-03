@@ -29,3 +29,7 @@ env_specs:
     packages:
     - diamond=0.9.25
     channels: []
+  diamond-2.0.9:
+    packages:
+    - diamond=2.0.9
+    channels: []
