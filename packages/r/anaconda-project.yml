@@ -78,6 +78,7 @@ env_specs:
     - r-gbm=2.1.8
     - r-rda=1.0.2
     - r-ranger=0.12.1
+    - r-rmpfr=0.8
     channels: []
   r-4.0.2:
     packages:
@@ -122,6 +123,7 @@ env_specs:
     - r-gbm=2.1.8
     - r-rda=1.0.2
     - r-ranger=0.12.1
+    - r-rmpfr=0.8
     channels: []
 
 commands:
