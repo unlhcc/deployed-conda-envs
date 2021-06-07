@@ -59,7 +59,8 @@ env_specs:
     - r-udunits2=0.13
     - r-units=0.6
     - r-rcppparallel=5.0.2
-    - gdal=3.2.0
+    - gdal=3.1
+    - r-rgdal=1.5
     - r-v8=3.4.0
     - r-rstan=2.21.2
     - gcc_linux-64=7.5.0
@@ -105,7 +106,8 @@ env_specs:
     - r-units=0.6
     - r-rcppparallel=5.0.2
     - r-gmp=0.6_2
-    - gdal=3.2.0
+    - gdal=3.2.2
+    - r-rgdal=1.5
     - r-v8=3.4.0
     - r-rstan=2.21.2
     - gcc_linux-64=9.3.0
