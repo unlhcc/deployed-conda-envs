@@ -17,7 +17,7 @@ test-rhino:
   except:
     - master
   tags:
-    - docker
+    - rhino
   before_script:
     - scripts/gitlabci-setup.sh
   script:
@@ -34,7 +34,7 @@ test-crane-el8:
   except:
     - master
   tags:
-    - docker
+    - crane-el8
   before_script:
     - scripts/gitlabci-setup.sh
   script:
@@ -46,6 +46,7 @@ deploy-rhino:
   environment:
     name: rhino_production
     url: https://rhino.unl.edu
+  resource_group: production-rhino
   image: unlhcc/rhino-build-el7
   variables:
     ANACONDA_PREFIX: "/util/opt/anaconda/4.8/envs/anaconda-project-0.9.1"
@@ -74,6 +75,7 @@ deploy-crane-el8:
   environment:
     name: crane_el8_production
     url: https://crane.unl.edu
+  resource_group: production-crane-el8
   image: unlhcc/crane-build-el8
   variables:
     ANACONDA_PREFIX: "/util/opt/anaconda/4.8/envs/anaconda-project-0.9.1"
