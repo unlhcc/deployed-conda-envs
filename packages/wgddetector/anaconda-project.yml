@@ -27,4 +27,5 @@ env_specs:
   wgddetector-1.1:
     packages:
     - wgddetector=1.1
+    - perl-bioperl=1.7
     channels: []
