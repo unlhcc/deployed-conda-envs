@@ -140,3 +140,48 @@ env_specs:
       - wheel=0.34.2=py_1
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h516909a_1006
+  globus-cli-2.0.0:
+    locked: true
+    env_spec_hash: 47c800968003dc7d11eac4e74661ad1449b1b115
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - brotlipy=0.7.0=py38h497a2fe_1001
+      - ca-certificates=2021.5.30=ha878542_0
+      - certifi=2021.5.30=py38h578d9bd_0
+      - cffi=1.14.5=py38ha65f79e_0
+      - chardet=4.0.0=py38h578d9bd_1
+      - click=7.1.2=pyh9f0ad1d_0
+      - configobj=5.0.6=py_0
+      - cryptography=2.9.2=py38h1ba5d50_0
+      - globus-cli=2.0.0=pyhd8ed1ab_0
+      - globus-sdk=2.0.1=pyhd8ed1ab_0
+      - idna=2.10=pyh9f0ad1d_0
+      - jmespath=0.10.0=pyh9f0ad1d_0
+      - ld_impl_linux-64=2.35.1=hea4e1c9_2
+      - libffi=3.3=h58526e2_2
+      - libgcc-ng=9.3.0=h2828fa1_19
+      - libgomp=9.3.0=h2828fa1_19
+      - libstdcxx-ng=9.3.0=h6de172a_19
+      - ncurses=6.2=h58526e2_4
+      - openssl=1.1.1k=h7f98852_0
+      - pip=21.1.2=pyhd8ed1ab_0
+      - pycparser=2.20=pyh9f0ad1d_2
+      - pyjwt=1.7.1=py_0
+      - pyopenssl=19.1.0=py38_0
+      - pysocks=1.7.1=py38h578d9bd_3
+      - python=3.8.10=h49503c6_1_cpython
+      - python_abi=3.8=1_cp38
+      - readline=8.1=h46c0cb4_0
+      - requests=2.25.1=pyhd3deb0d_0
+      - setuptools=49.6.0=py38h578d9bd_3
+      - six=1.16.0=pyh6c4a22f_0
+      - sqlite=3.35.5=h74cdb3f_0
+      - tk=8.6.10=h21135ba_1
+      - urllib3=1.26.5=pyhd8ed1ab_0
+      - wheel=0.36.2=pyhd3deb0d_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
