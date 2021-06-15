@@ -34,3 +34,7 @@ env_specs:
     packages:
     - ensembl-vep=99.2
     channels: []
+  ensembl-vep-104.3:
+    packages:
+    - ensembl-vep=104.3
+    channels: []
