@@ -32,7 +32,7 @@ env_specs:
     channels: []
 commands:
   midas-1.3-db:
-    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/app_specific/midas/1.3/ &&
-      curl -L http://lighthouse.ucsf.edu/MIDAS/midas_db.tar.gz | tar -zx -C $HCC_APPS_DB_BCRF_PATH/app_specific/midas/1.3/ &&
-      cd $HCC_APPS_DB_BCRF_PATH/app_specific/midas/1.3/MIDAS && tar -zxvf midas_db_v1.2.tar.gz
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/midas/1.3/ &&
+      curl -L http://lighthouse.ucsf.edu/MIDAS/midas_db.tar.gz | tar -zx -C $HCC_APPS_DB_BCRF_PATH/midas/1.3/ &&
+      cd $HCC_APPS_DB_BCRF_PATH/midas/1.3/MIDAS && tar -zxvf midas_db_v1.2.tar.gz
     env_spec: midas-1.3.2

@@ -56,7 +56,7 @@ env_specs:
       - libssh2=1.9.0=ha56f1ee_6
       - libstdcxx-ng=9.3.0=h6de172a_19
       - lz4-c=1.9.3=h9c3ff4c_0
-      - midas=1.3.2=pyh864c0ab_4
+      - midas=1.3.2=pyh5e36f6f_5
       - ncurses=6.2=h58526e2_4
       - numpy=1.20.3=py39hdbf815f_1
       - openssl=1.1.1k=h7f98852_0
