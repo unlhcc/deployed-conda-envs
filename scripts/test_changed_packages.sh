@@ -97,6 +97,11 @@ then
         for apCommand in $apCommands
         do
             NOTICE "Found command named $apCommand"
+            if [ -f $package/SKIP_COMMANDS_TEST ] && [ `grep -x "$apCommand" $package/SKIP_COMMANDS_TEST` ]
+            then
+                NOTICE "Skipping command $apCommand"
+                continue
+            fi
             cmdCommand="anaconda-project run --directory $package $apCommand"
             INFO "Running command $cmdCommand"
             $cmdCommand 2>&1 | INFO

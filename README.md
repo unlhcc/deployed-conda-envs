@@ -308,6 +308,16 @@ Re-creating these environments will cause errors. To avoid this, create a file c
 `SKIP_PREPARE` alongside the yaml files in the package's directory. Add the names of the
 environments that shouldn't be re-created to the file, one name per line.
 
+Skip running commands
+---------------------
+
+By default, all commands are run, even for environments that are listed in `SKIP_PREPARE`.
+To skip commands, create one or both files named `SKIP_COMMANDS_TEST` and/or
+`SKIP_COMMANDS_DEPLOY`.  The former will skip commands during the CI test stage, and the
+latter will skip them during the deploy on the clusters. This can be useful when
+downloading a large database, for example, to only run that command during the final deploy.
+Add the commands to skip, one command name per line.
+
 Generating a Lmod file
 ----------------------
 
