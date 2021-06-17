@@ -30,3 +30,7 @@ env_specs:
     packages:
     - biom-format=2.1.6
     channels: []
+  biom-format-2.1.10:
+    packages:
+    - biom-format=2.1.10
+    channels: []
