@@ -56,23 +56,23 @@ env_specs:
       - libssh2=1.9.0=ha56f1ee_6
       - libstdcxx-ng=9.3.0=h6de172a_19
       - lz4-c=1.9.3=h9c3ff4c_0
-      - midas=1.3.2=pyh5e36f6f_5
+      - midas=1.3.2=pyh5e36f6f_6
       - ncurses=6.2=h58526e2_4
-      - numpy=1.20.3=py39hdbf815f_1
+      - numpy=1.21.0=py39hdbf815f_0
       - openssl=1.1.1k=h7f98852_0
-      - pandas=1.2.4=py39hde0f152_0
+      - pandas=1.2.5=py39hde0f152_0
       - perl=5.32.1=0_h7f98852_perl5
       - pip=21.1.2=pyhd8ed1ab_0
       - pysam=0.16.0.1=py39h051187c_3
       - python-dateutil=2.8.1=py_0
-      - python=3.9.4=hffdb5ce_0_cpython
-      - python_abi=3.9=1_cp39
+      - python=3.9.5=h49503c6_0_cpython
+      - python_abi=3.9=2_cp39
       - pytz=2021.1=pyhd8ed1ab_0
       - readline=8.1=h46c0cb4_0
       - samtools=1.12=h9aed4be_1
       - setuptools=49.6.0=py39hf3d152e_3
       - six=1.16.0=pyh6c4a22f_0
-      - sqlite=3.35.5=h74cdb3f_0
+      - sqlite=3.36.0=h9cd32fc_0
       - tbb=2020.2=h4bd325d_4
       - tk=8.6.10=h21135ba_1
       - tzdata=2021a=he74cb21_0
