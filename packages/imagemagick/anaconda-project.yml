@@ -30,3 +30,7 @@ env_specs:
     - imagemagick=7.0.8_10
     - fftw=3.3.8
     channels: []
+  imagemagick-7.1.0_2:
+    packages:
+    - imagemagick=7.1.0_2
+    channels: []
