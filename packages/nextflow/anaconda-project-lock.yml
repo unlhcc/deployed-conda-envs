@@ -75,7 +75,7 @@ env_specs:
       - zstd=1.4.4=h6597ccf_3
   nextflow-21.04.0:
     locked: true
-    env_spec_hash: ef653b9968523c051a644640138f665c1af152c4
+    env_spec_hash: 275f1061679b42b95158289b8df957a055a4eeb8
     platforms:
     - linux-64
     packages:
@@ -121,7 +121,7 @@ env_specs:
       - lz4-c=1.9.3=h9c3ff4c_0
       - ncurses=6.2=h58526e2_4
       - nextflow=21.04.0=h4a94de4_0
-      - openjdk=11.0.9.1=h5cc2fde_1
+      - openjdk=11.0.8=hacce0ff_0
       - openssl=1.1.1k=h7f98852_0
       - pcre=8.45=h9c3ff4c_0
       - pixman=0.40.0=h36c2ea0_0
