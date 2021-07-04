@@ -33,3 +33,8 @@ env_specs:
     packages:
     - gradle=3.3
     channels: []
+  gradle-7.1.0:
+    packages:
+    - gradle=7.1.0
+    - openjdk=11
+    channels: []
