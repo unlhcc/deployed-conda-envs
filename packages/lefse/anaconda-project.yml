@@ -31,3 +31,7 @@ env_specs:
     packages:
     - lefse=1.0.8.post1
     channels: []
+  lefse-1.1.1:
+    packages:
+    - lefse=1.1.1
+    channels: []
