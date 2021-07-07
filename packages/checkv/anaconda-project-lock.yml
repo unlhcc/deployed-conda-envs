@@ -143,3 +143,55 @@ env_specs:
       - zstd=1.4.8=ha95c52a_1
 
 
+  checkv-0.8.1:
+    locked: true
+    env_spec_hash: 122a359840a717f69e1666af47aa8113d671efd2
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - biopython=1.79=py37h5e8e339_0
+      - blast=2.5.0=hc0b0e79_3
+      - boost-cpp=1.76.0=h312852a_1
+      - boost=1.76.0=py37hda21425_0
+      - bzip2=1.0.8=h7f98852_4
+      - ca-certificates=2021.5.30=ha878542_0
+      - certifi=2021.5.30=py37h89c1867_0
+      - checkv=0.8.1=pyhdfd78af_0
+      - diamond=0.9.14=h2e03b76_4
+      - hmmer=3.3.2=h1b792b2_1
+      - icu=68.1=h58526e2_0
+      - importlib-metadata=4.6.1=py37h89c1867_0
+      - kcounter=0.1.1=py37h73a75cf_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_1
+      - libblas=3.9.0=9_openblas
+      - libcblas=3.9.0=9_openblas
+      - libffi=3.3=h58526e2_2
+      - libgcc-ng=9.3.0=h2828fa1_19
+      - libgfortran-ng=9.3.0=hff62375_19
+      - libgfortran5=9.3.0=hff62375_19
+      - libgomp=9.3.0=h2828fa1_19
+      - liblapack=3.9.0=9_openblas
+      - libopenblas=0.3.15=pthreads_h8fe5266_1
+      - libstdcxx-ng=9.3.0=h6de172a_19
+      - lz4-c=1.9.3=h9c3ff4c_0
+      - ncurses=6.2=h58526e2_4
+      - numpy=1.21.0=py37h038b26d_0
+      - openssl=1.1.1k=h7f98852_0
+      - pip=21.1.3=pyhd8ed1ab_0
+      - prodigal=2.6.3=h779adbc_3
+      - psutil=5.8.0=py37h5e8e339_1
+      - python=3.7.10=hffdb5ce_100_cpython
+      - python_abi=3.7=2_cp37m
+      - readline=8.1=h46c0cb4_0
+      - setuptools=49.6.0=py37h89c1867_3
+      - sqlite=3.36.0=h9cd32fc_0
+      - tk=8.6.10=h21135ba_1
+      - typing_extensions=3.10.0.0=pyha770c72_0
+      - wheel=0.36.2=pyhd3deb0d_0
+      - xz=5.2.5=h516909a_1
+      - zipp=3.5.0=pyhd8ed1ab_0
+      - zlib=1.2.11=h516909a_1010
+      - zstd=1.5.0=ha95c52a_0
