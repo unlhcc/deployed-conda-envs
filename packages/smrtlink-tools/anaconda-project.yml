@@ -33,3 +33,7 @@ env_specs:
     packages:
     - smrtlink-tools=7.0.1.66975
     channels: []
+  smrtlink-tools-10.1.0.119588:
+    packages:
+    - smrtlink-tools=10.1.0.119588
+    channels: []
