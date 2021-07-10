@@ -81,6 +81,7 @@ env_specs:
     - r-ranger=0.12.1
     - r-rmpfr=0.8
     - r-slam=0.1_48
+    - r-rglpk=0.6_4
     channels: []
   r-4.0.2:
     packages:
