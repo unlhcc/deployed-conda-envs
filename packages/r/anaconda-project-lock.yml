@@ -493,7 +493,7 @@ env_specs:
       - zstd=1.4.5=h6597ccf_2
   r-3.6.3:
     locked: true
-    env_spec_hash: 5553c895f322a2ca5a4e980b43fd277fd871b6e6
+    env_spec_hash: d1a067b7a464c7766eff66afeedc3ab144671e08
     platforms:
     - linux-64
     packages:
@@ -528,6 +528,7 @@ env_specs:
       - gfortran_impl_linux-64=7.5.0=h56cb351_19
       - gfortran_linux-64=7.5.0=h78c8a43_31
       - giflib=5.2.1=h36c2ea0_2
+      - glpk=4.65=h9202a9a_1004
       - gmp=6.2.1=h58526e2_0
       - graphite2=1.3.13=h58526e2_1001
       - gsl=2.6=he838d99_2
@@ -753,6 +754,7 @@ env_specs:
       - r-reshape2=1.4.4=r36h0357c0b_1
       - r-rex=1.2.0=r36h6115d3f_1
       - r-rgdal=1.5_16=r36h1d62995_1
+      - r-rglpk=0.6_4=r36hdde5ff0_0
       - r-rjava=1.0_4=r36hcfec24a_0
       - r-rlang=0.4.11=r36hcfec24a_0
       - r-rmarkdown=2.8=r36hc72bb7e_0
