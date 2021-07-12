@@ -33,3 +33,7 @@ env_specs:
     packages:
     - bamtools=2.4.1
     channels: []
+  bamtools-2.5.1:
+    packages:
+    - bamtools=2.5.1
+    channels: []

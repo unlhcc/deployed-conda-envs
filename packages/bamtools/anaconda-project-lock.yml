@@ -42,3 +42,17 @@ env_specs:
       - zlib=1.2.11=0
 
 
+  bamtools-2.5.1:
+    locked: true
+    env_spec_hash: 4b37655a210aaaa8627266d2cd12779c5893c976
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bamtools=2.5.1=h9a82719_9
+      - libgcc-ng=9.3.0=h2828fa1_19
+      - libgomp=9.3.0=h2828fa1_19
+      - libstdcxx-ng=9.3.0=h6de172a_19
+      - zlib=1.2.11=h516909a_1010
