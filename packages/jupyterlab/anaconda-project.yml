@@ -14,7 +14,7 @@ name: jupyterlab
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: JupyterLab is a next-generation web-based user interface for Project
-  Jupyter.   
+  Jupyter.
 
 
 #
@@ -31,4 +31,11 @@ env_specs:
     - python=3.8
     - notebook=6.1.4
     - jupyter_conda=3.4.1
+    channels: []
+  jupyterlab-3.0.16:
+    packages:
+    - jupyterlab=3.0.16
+    - python=3.8
+    - notebook=6.4.0
+    - jupyter_conda=5.1.1
     channels: []
