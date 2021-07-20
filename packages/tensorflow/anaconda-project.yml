@@ -331,4 +331,43 @@ env_specs:
     - ipykernel
     - tensorflow-probability=0.12.1
     channels: []
+  tensorflow-2.5.0-py37:
+    packages:
+    - python=3.7
+    - tensorflow=2.5.0=mkl*
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.13.0
+    channels: []
+  tensorflow-2.5.0-py38:
+    packages:
+    - python=3.8
+    - tensorflow=2.5.0=mkl*
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.13.0
+    channels: []
+  tensorflow-2.5.0-py39:
+    packages:
+    - python=3.9
+    - tensorflow=2.5.0=mkl*
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.13.0
+    channels: []
 packages: []

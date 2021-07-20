@@ -14,3 +14,6 @@ tensorflow-2.2.0-py36
 tensorflow-2.2.0-py37
 tensorflow-2.3.0-py37
 tensorflow-2.3.0-py38
+tensorflow-2.4.1-py37
+tensorflow-2.4.1-py38
+tensorflow-2.4.1-py39
