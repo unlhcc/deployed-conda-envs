@@ -38,4 +38,15 @@ env_specs:
     - python=3.8
     - notebook=6.4.0
     - jupyter_conda=5.1.1
+    - nodejs=16.5
+    - mamba=0.15
+    - hcc-jupyter-kernels=2021.07.22
+    - jupyterlab-git=0.30.1
+    - jupyterlab_widgets=1.0.0
+    - jupyterlab-python-file=0.5.5
+    - jupyterlab_code_formatter=1.4.10
+    - jupyterlab_miami_nights=0.3.2
+    - black=21
+    - r-formatr=1.11
+    - rpy2=3.4
     channels: []
