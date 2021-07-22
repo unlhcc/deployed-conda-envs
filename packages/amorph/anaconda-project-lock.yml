@@ -24,7 +24,7 @@ env_specs:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=1_gnu
-      - amorph=0.0.2021.05.10=h8245a5e_0
+      - amorph=0.0.2021.05.10=h8245a5e_1
       - ca-certificates=2021.5.30=ha878542_0
       - certifi=2021.5.30=py39hf3d152e_0
       - cycler=0.10.0=py_2
