@@ -49,4 +49,5 @@ env_specs:
     - black=21
     - r-formatr=1.11
     - rpy2=3.4
+    - git=2.32
     channels: []
