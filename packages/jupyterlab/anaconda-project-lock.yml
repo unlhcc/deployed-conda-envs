@@ -116,7 +116,7 @@ env_specs:
 
   jupyterlab-3.0.16:
     locked: true
-    env_spec_hash: 004a19285dc810f31a4561def8319bdf4b4f88a4
+    env_spec_hash: 67b6b5a8e70bc8481b1b9fd1c8faa2046641c0ab
     platforms:
     - linux-64
     packages:
@@ -154,7 +154,7 @@ env_specs:
       - cryptography=3.4.7=py38ha5dfef3_0
       - curl=7.77.0=hea6ffbf_0
       - dataclasses=0.8=pyhc8e2a94_1
-      - debugpy=1.4.0=py38h709712a_0
+      - debugpy=1.4.1=py38h709712a_0
       - decorator=5.0.9=pyhd8ed1ab_0
       - defusedxml=0.7.1=pyhd8ed1ab_0
       - entrypoints=0.3=pyhd8ed1ab_1003
@@ -181,7 +181,7 @@ env_specs:
       - gxx_impl_linux-64=9.3.0=hd87eabc_19
       - gxx_linux-64=9.3.0=h3fbe746_32
       - harfbuzz=2.8.2=h83ec7ef_0
-      - hcc-jupyter-kernels=2021.07.22=h121872b_0
+      - hcc-jupyter-kernels=2021.07.23=h121872b_0
       - icu=68.1=h58526e2_0
       - idna=3.1=pyhd3deb0d_0
       - importlib-metadata=4.6.1=py38h578d9bd_0
