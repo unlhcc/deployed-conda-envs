@@ -116,7 +116,7 @@ env_specs:
 
   jupyterlab-3.0.16:
     locked: true
-    env_spec_hash: 67b6b5a8e70bc8481b1b9fd1c8faa2046641c0ab
+    env_spec_hash: 6a1564a72c090efc7a1d8bc6859ad16a67d55a6d
     platforms:
     - linux-64
     packages:
@@ -129,12 +129,13 @@ env_specs:
       - argon2-cffi=20.1.0=py38h497a2fe_2
       - async_generator=1.10=py_0
       - attrs=21.2.0=pyhd8ed1ab_0
+      - autopep8=1.5.7=pyhd8ed1ab_0
       - babel=2.9.1=pyh44b312d_0
       - backcall=0.2.0=pyh9f0ad1d_0
       - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
       - backports=1.0=py_2
       - binutils_impl_linux-64=2.36.1=h193b22a_1
-      - binutils_linux-64=2.36=hf3e587d_32
+      - binutils_linux-64=2.36=hf3e587d_33
       - black=21.7b0=pyhd8ed1ab_0
       - bleach=3.3.1=pyhd8ed1ab_0
       - brotlipy=0.7.0=py38h497a2fe_1001
@@ -157,6 +158,7 @@ env_specs:
       - debugpy=1.4.1=py38h709712a_0
       - decorator=5.0.9=pyhd8ed1ab_0
       - defusedxml=0.7.1=pyhd8ed1ab_0
+      - deprecation=2.1.0=pyh9f0ad1d_0
       - entrypoints=0.3=pyhd8ed1ab_1003
       - expat=2.4.1=h9c3ff4c_0
       - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
@@ -169,17 +171,17 @@ env_specs:
       - freetype=2.10.4=h0708190_1
       - fribidi=1.0.10=h36c2ea0_0
       - gcc_impl_linux-64=9.3.0=h70c0ae5_19
-      - gcc_linux-64=9.3.0=hf25ea35_32
+      - gcc_linux-64=9.3.0=hf25ea35_33
       - gettext=0.19.8.1=h0b5b191_1005
       - gfortran_impl_linux-64=9.3.0=hc4a2995_19
-      - gfortran_linux-64=9.3.0=hdc58fab_32
+      - gfortran_linux-64=9.3.0=hdc58fab_33
       - git=2.32.0=pl5321hc30692c_0
       - gitdb=4.0.7=pyhd8ed1ab_0
       - gitpython=3.1.19=pyhd8ed1ab_0
       - graphite2=1.3.13=h58526e2_1001
       - gsl=2.6=he838d99_2
       - gxx_impl_linux-64=9.3.0=hd87eabc_19
-      - gxx_linux-64=9.3.0=h3fbe746_32
+      - gxx_linux-64=9.3.0=h3fbe746_33
       - harfbuzz=2.8.2=h83ec7ef_0
       - hcc-jupyter-kernels=2021.07.23=h121872b_0
       - icu=68.1=h58526e2_0
@@ -188,17 +190,20 @@ env_specs:
       - ipykernel=6.0.3=py38hd0cf306_0
       - ipython=7.25.0=py38hd0cf306_1
       - ipython_genutils=0.2.0=py_1
+      - isort=5.9.2=pyhd8ed1ab_0
       - jbig=2.1=h7f98852_2003
       - jedi=0.18.0=py38h578d9bd_2
       - jinja2=3.0.1=pyhd8ed1ab_0
       - jpeg=9d=h36c2ea0_0
       - json5=0.9.5=pyh9f0ad1d_0
       - jsonschema=3.2.0=pyhd8ed1ab_3
+      - jupyter-packaging=0.10.4=pyhd8ed1ab_0
       - jupyter-server-mathjax=0.2.3=pyhd8ed1ab_0
       - jupyter_client=6.1.12=pyhd8ed1ab_0
       - jupyter_conda=5.1.1=hd8ed1ab_0
       - jupyter_core=4.7.1=py38h578d9bd_0
       - jupyter_server=1.10.1=pyhd8ed1ab_0
+      - jupyterlab-drawio=0.9.0=pyhd8ed1ab_0
       - jupyterlab-git=0.30.1=pyhd8ed1ab_0
       - jupyterlab-python-file=0.5.5=pyhd8ed1ab_0
       - jupyterlab=3.0.16=pyhd8ed1ab_0
@@ -206,6 +211,7 @@ env_specs:
       - jupyterlab_miami_nights=0.3.2=pyhd8ed1ab_0
       - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
       - jupyterlab_server=2.6.1=pyhd8ed1ab_0
+      - jupyterlab_vim=0.14.2=pyhd8ed1ab_0
       - jupyterlab_widgets=1.0.0=pyhd8ed1ab_1
       - kernel-headers_linux-64=2.6.32=he073ed8_14
       - krb5=1.19.1=hcc1bbae_0
@@ -220,11 +226,11 @@ env_specs:
       - libev=4.33=h516909a_1
       - libffi=3.3=h58526e2_2
       - libgcc-devel_linux-64=9.3.0=h7864c58_19
-      - libgcc-ng=11.1.0=hc902ee8_0
+      - libgcc-ng=11.1.0=hc902ee8_1
       - libgfortran-ng=9.4.0=h69a702a_0
       - libgfortran5=9.4.0=h62347ff_0
       - libglib=2.68.3=h3e27bee_0
-      - libgomp=11.1.0=hc902ee8_0
+      - libgomp=11.1.0=hc902ee8_1
       - libiconv=1.16=h516909a_0
       - liblapack=3.9.0=9_openblas
       - libnghttp2=1.43.0=h812cca2_0
@@ -234,7 +240,7 @@ env_specs:
       - libsolv=0.7.19=h780b84a_5
       - libssh2=1.9.0=ha56f1ee_6
       - libstdcxx-devel_linux-64=9.3.0=hb016644_19
-      - libstdcxx-ng=11.1.0=h56837e0_0
+      - libstdcxx-ng=11.1.0=h56837e0_1
       - libtiff=4.3.0=hf544144_1
       - libuuid=2.32.1=h7f98852_1000
       - libuv=1.41.1=h7f98852_0
@@ -277,6 +283,7 @@ env_specs:
       - prompt-toolkit=3.0.19=pyha770c72_0
       - pthread-stubs=0.4=h36c2ea0_1001
       - ptyprocess=0.7.0=pyhd3deb0d_0
+      - pycodestyle=2.7.0=pyhd8ed1ab_0
       - pycosat=0.6.3=py38h497a2fe_1006
       - pycparser=2.20=pyh9f0ad1d_2
       - pygments=2.9.0=pyhd8ed1ab_0
@@ -289,8 +296,34 @@ env_specs:
       - python_abi=3.8=2_cp38
       - pytz=2021.1=pyhd8ed1ab_0
       - pyzmq=22.1.0=py38h2035c66_0
+      - r-assertthat=0.2.1=r41hc72bb7e_2
+      - r-backports=1.2.1=r41hcfec24a_0
       - r-base=4.1.0=hb67fd72_2
+      - r-cli=3.0.1=r41hc72bb7e_0
+      - r-crayon=1.4.1=r41hc72bb7e_0
+      - r-digest=0.6.27=r41h03ef668_0
+      - r-ellipsis=0.3.2=r41hcfec24a_0
+      - r-fansi=0.4.2=r41hcfec24a_0
       - r-formatr=1.11=r41hc72bb7e_0
+      - r-glue=1.4.2=r41hcfec24a_0
+      - r-lifecycle=1.0.0=r41hc72bb7e_0
+      - r-magrittr=2.0.1=r41hcfec24a_1
+      - r-pillar=1.6.1=r41hc72bb7e_0
+      - r-pkgconfig=2.0.3=r41hc72bb7e_1
+      - r-purrr=0.3.4=r41hcfec24a_1
+      - r-r.cache=0.15.0=r41hc72bb7e_0
+      - r-r.methodss3=1.8.1=r41hc72bb7e_0
+      - r-r.oo=1.24.0=r41hc72bb7e_0
+      - r-r.utils=2.10.1=r41hc72bb7e_0
+      - r-rematch2=2.1.2=r41hc72bb7e_1
+      - r-rlang=0.4.11=r41hcfec24a_0
+      - r-rprojroot=2.0.2=r41hc72bb7e_0
+      - r-styler=1.5.1=r41hc72bb7e_0
+      - r-tibble=3.1.3=r41hcfec24a_0
+      - r-utf8=1.2.1=r41hcfec24a_0
+      - r-vctrs=0.3.8=r41hcfec24a_1
+      - r-withr=2.4.2=r41hc72bb7e_0
+      - r-xfun=0.24=r41h03ef668_0
       - readline=8.1=h46c0cb4_0
       - regex=2021.7.6=py38h497a2fe_0
       - reproc-cpp=14.2.1=h58526e2_0
@@ -312,7 +345,9 @@ env_specs:
       - testpath=0.5.0=pyhd8ed1ab_0
       - tk=8.6.10=h21135ba_1
       - tktable=2.10=hb7b940f_3
+      - toml=0.10.2=pyhd8ed1ab_0
       - tomli=1.1.0=pyhd8ed1ab_0
+      - tomlkit=0.7.2=py38h578d9bd_0
       - tornado=6.1=py38h497a2fe_1
       - tqdm=4.61.2=pyhd8ed1ab_1
       - traitlets=5.0.5=py_0
@@ -338,6 +373,7 @@ env_specs:
       - xorg-xproto=7.0.31=h7f98852_1007
       - xz=5.2.5=h516909a_1
       - yaml=0.2.5=h516909a_0
+      - yapf=0.31.0=pyhd8ed1ab_0
       - zeromq=4.3.4=h9c3ff4c_0
       - zipp=3.5.0=pyhd8ed1ab_0
       - zlib=1.2.11=h516909a_1010
