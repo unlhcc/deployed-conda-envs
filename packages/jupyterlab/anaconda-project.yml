@@ -58,4 +58,6 @@ env_specs:
     - jupyterlab_vim=0.14
     - ipympl=0.7
     - jupyterlab-slurm=2.0
+    - jupyter-archive=3.0
+    - jupyterlab-latex=3.0
     channels: []
