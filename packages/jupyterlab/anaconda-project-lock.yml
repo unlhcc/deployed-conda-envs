@@ -116,7 +116,7 @@ env_specs:
 
   jupyterlab-3.0.16:
     locked: true
-    env_spec_hash: 3ca480c6081ed2133d6417fffa2eeee859cd1eb0
+    env_spec_hash: 3fa617a3e65727d96e5975ccc1fad256857410d8
     platforms:
     - linux-64
     packages:
@@ -153,7 +153,7 @@ env_specs:
       - conda-package-handling=1.7.3=py38h497a2fe_0
       - conda=4.10.3=py38h578d9bd_0
       - cryptography=3.4.7=py38ha5dfef3_0
-      - curl=7.77.0=hea6ffbf_0
+      - curl=7.78.0=hea6ffbf_0
       - cycler=0.10.0=py_2
       - dataclasses=0.8=pyhc8e2a94_1
       - debugpy=1.4.1=py38h709712a_0
@@ -185,7 +185,7 @@ env_specs:
       - gxx_impl_linux-64=9.3.0=hd87eabc_19
       - gxx_linux-64=9.3.0=h3fbe746_33
       - harfbuzz=2.8.2=h83ec7ef_0
-      - hcc-jupyter-kernels=2021.07.23=h121872b_0
+      - hcc-jupyter-kernels=2021.07.27=h121872b_0
       - icu=68.1=h58526e2_0
       - idna=3.1=pyhd3deb0d_0
       - importlib-metadata=4.6.1=py38h578d9bd_0
@@ -229,17 +229,17 @@ env_specs:
       - libarchive=3.5.1=hccf745f_2
       - libblas=3.9.0=9_openblas
       - libcblas=3.9.0=9_openblas
-      - libcurl=7.77.0=h2574ce0_0
+      - libcurl=7.78.0=h2574ce0_0
       - libdeflate=1.7=h7f98852_5
       - libedit=3.1.20191231=he28a2e2_2
       - libev=4.33=h516909a_1
       - libffi=3.3=h58526e2_2
       - libgcc-devel_linux-64=9.3.0=h7864c58_19
-      - libgcc-ng=11.1.0=hc902ee8_1
+      - libgcc-ng=11.1.0=hc902ee8_2
       - libgfortran-ng=9.4.0=h69a702a_0
       - libgfortran5=9.4.0=h62347ff_0
       - libglib=2.68.3=h3e27bee_0
-      - libgomp=11.1.0=hc902ee8_1
+      - libgomp=11.1.0=hc902ee8_2
       - libiconv=1.16=h516909a_0
       - libimagequant=2.15.1=h7f98852_0
       - liblapack=3.9.0=9_openblas
@@ -250,7 +250,7 @@ env_specs:
       - libsolv=0.7.19=h780b84a_5
       - libssh2=1.9.0=ha56f1ee_6
       - libstdcxx-devel_linux-64=9.3.0=hb016644_19
-      - libstdcxx-ng=11.1.0=h56837e0_1
+      - libstdcxx-ng=11.1.0=h56837e0_2
       - libtiff=4.3.0=hf544144_1
       - libuuid=2.32.1=h7f98852_1000
       - libuv=1.41.1=h7f98852_0
@@ -292,7 +292,7 @@ env_specs:
       - pexpect=4.8.0=pyh9f0ad1d_2
       - pickleshare=0.7.5=py_1003
       - pillow=8.2.0=py38he53ce19_1000
-      - pip=21.1.3=pyhd8ed1ab_0
+      - pip=21.2.1=pyhd8ed1ab_0
       - pixman=0.40.0=h36c2ea0_0
       - prometheus_client=0.11.0=pyhd8ed1ab_0
       - prompt-toolkit=3.0.19=pyha770c72_0
