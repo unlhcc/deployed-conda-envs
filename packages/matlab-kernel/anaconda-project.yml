@@ -34,3 +34,13 @@ env_specs:
     - matlab-kernel=0.16.7
     - python=3.6
     channels: []
+  matlab-kernel-0.16.11-r2020a:
+    packages:
+    - matlab-kernel=0.16.11
+    - python=3.8
+    channels: []
+
+commands:
+  setup_r2020a:
+    unix: pushd /util/opt/matlab/r2020a/extern/engines/python && python setup.py install
+    env_spec: matlab-kernel-0.16.11-r2020a
