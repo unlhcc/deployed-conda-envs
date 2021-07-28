@@ -80,7 +80,7 @@ do
     for apCommand in $apCommands
     do
            NOTICE "Found command named $apCommand"
-           if [ -f $packageDir/SKIP_COMMANDS_TEST ] && [ `grep -x "$apCommand" $packageDir/SKIP_COMMANDS_DEPLOY` ]
+           if [ -f $packageDir/SKIP_COMMANDS_DEPLOY ] && [ `grep -x "$apCommand" $packageDir/SKIP_COMMANDS_DEPLOY` ]
            then
                 NOTICE "Skipping command $apCommand"
                 continue
