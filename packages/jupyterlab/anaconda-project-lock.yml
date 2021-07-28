@@ -116,7 +116,7 @@ env_specs:
 
   jupyterlab-3.0.16:
     locked: true
-    env_spec_hash: 3fa617a3e65727d96e5975ccc1fad256857410d8
+    env_spec_hash: 22a89746e4958b64f6dfd562aa60bbf11e1d2f25
     platforms:
     - linux-64
     packages:
@@ -134,7 +134,7 @@ env_specs:
       - backcall=0.2.0=pyh9f0ad1d_0
       - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
       - backports=1.0=py_2
-      - binutils_impl_linux-64=2.36.1=h193b22a_1
+      - binutils_impl_linux-64=2.36.1=h193b22a_2
       - binutils_linux-64=2.36=hf3e587d_33
       - black=21.7b0=pyhd8ed1ab_0
       - bleach=3.3.1=pyhd8ed1ab_0
@@ -159,7 +159,6 @@ env_specs:
       - debugpy=1.4.1=py38h709712a_0
       - decorator=5.0.9=pyhd8ed1ab_0
       - defusedxml=0.7.1=pyhd8ed1ab_0
-      - deprecation=2.1.0=pyh9f0ad1d_0
       - entrypoints=0.3=pyhd8ed1ab_1003
       - expat=2.4.1=h9c3ff4c_0
       - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
@@ -179,13 +178,13 @@ env_specs:
       - giflib=5.2.1=h36c2ea0_2
       - git=2.32.0=pl5321hc30692c_0
       - gitdb=4.0.7=pyhd8ed1ab_0
-      - gitpython=3.1.19=pyhd8ed1ab_0
+      - gitpython=3.1.20=pyhd8ed1ab_0
       - graphite2=1.3.13=h58526e2_1001
       - gsl=2.6=he838d99_2
       - gxx_impl_linux-64=9.3.0=hd87eabc_19
       - gxx_linux-64=9.3.0=h3fbe746_33
       - harfbuzz=2.8.2=h83ec7ef_0
-      - hcc-jupyter-kernels=2021.07.27=h121872b_0
+      - hcc-jupyter-kernels=2021.07.28=h121872b_0
       - icu=68.1=h58526e2_0
       - idna=3.1=pyhd3deb0d_0
       - importlib-metadata=4.6.1=py38h578d9bd_0
@@ -202,7 +201,6 @@ env_specs:
       - json5=0.9.5=pyh9f0ad1d_0
       - jsonschema=3.2.0=pyhd8ed1ab_3
       - jupyter-archive=3.0.1=pyhd8ed1ab_0
-      - jupyter-packaging=0.10.4=pyhd8ed1ab_0
       - jupyter-server-mathjax=0.2.3=pyhd8ed1ab_0
       - jupyter_client=6.1.12=pyhd8ed1ab_0
       - jupyter_conda=5.1.1=hd8ed1ab_0
@@ -212,23 +210,21 @@ env_specs:
       - jupyterlab-git=0.30.1=pyhd8ed1ab_0
       - jupyterlab-latex=3.0.0=pyhd8ed1ab_1
       - jupyterlab-python-file=0.5.5=pyhd8ed1ab_0
-      - jupyterlab-slurm=2.0.0=pyh121872b_0
       - jupyterlab=3.0.16=pyhd8ed1ab_0
       - jupyterlab_code_formatter=1.4.10=pyhd8ed1ab_1
       - jupyterlab_miami_nights=0.3.2=pyhd8ed1ab_0
       - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
       - jupyterlab_server=2.6.1=pyhd8ed1ab_0
-      - jupyterlab_vim=0.14.2=pyhd8ed1ab_0
       - jupyterlab_widgets=1.0.0=pyhd8ed1ab_1
       - kernel-headers_linux-64=2.6.32=he073ed8_14
       - kiwisolver=1.3.1=py38h1fd1430_1
-      - krb5=1.19.1=hcc1bbae_0
+      - krb5=1.19.2=hcc1bbae_0
       - lcms2=2.12=hddcbb42_0
-      - ld_impl_linux-64=2.36.1=hea4e1c9_1
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
       - lerc=2.2.1=h9c3ff4c_0
       - libarchive=3.5.1=hccf745f_2
-      - libblas=3.9.0=9_openblas
-      - libcblas=3.9.0=9_openblas
+      - libblas=3.9.0=10_openblas
+      - libcblas=3.9.0=10_openblas
       - libcurl=7.78.0=h2574ce0_0
       - libdeflate=1.7=h7f98852_5
       - libedit=3.1.20191231=he28a2e2_2
@@ -242,9 +238,9 @@ env_specs:
       - libgomp=11.1.0=hc902ee8_2
       - libiconv=1.16=h516909a_0
       - libimagequant=2.15.1=h7f98852_0
-      - liblapack=3.9.0=9_openblas
+      - liblapack=3.9.0=10_openblas
       - libnghttp2=1.43.0=h812cca2_0
-      - libopenblas=0.3.15=pthreads_h8fe5266_1
+      - libopenblas=0.3.17=pthreads_h8fe5266_1
       - libpng=1.6.37=h21135ba_2
       - libsodium=1.0.18=h36c2ea0_1
       - libsolv=0.7.19=h780b84a_5
@@ -362,7 +358,6 @@ env_specs:
       - tktable=2.10=hb7b940f_3
       - toml=0.10.2=pyhd8ed1ab_0
       - tomli=1.1.0=pyhd8ed1ab_0
-      - tomlkit=0.7.2=py38h578d9bd_0
       - tornado=6.1=py38h497a2fe_1
       - tqdm=4.61.2=pyhd8ed1ab_1
       - traitlets=5.0.5=py_0
