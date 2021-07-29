@@ -24,7 +24,8 @@ description: A command line tool for interacting with cloud storage services.
 platforms:
 - linux-64
 env_specs:
-  gsutil-4.65:
+  google-could-sdk-350.0.0:
     packages:
-    - gsutil=4.65
+    - python=3.9
+    - google-cloud-sdk=350.0.0
     channels: []
