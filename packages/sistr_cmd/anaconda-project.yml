@@ -35,3 +35,8 @@ env_specs:
     - sistr_cmd=1.1.0
     - python=3.7
     channels: []
+  sistr_cmd-1.1.1:
+    packages:
+    - sistr_cmd=1.1.1
+    - python=3.8
+    channels: []
