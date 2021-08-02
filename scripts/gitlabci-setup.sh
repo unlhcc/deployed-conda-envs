@@ -1,15 +1,12 @@
 #!/bin/bash
 
-# install (Mini)conda
-tag=Linux
-curl -L -O https://repo.continuum.io/miniconda/Miniconda3-$MINICONDA_VER-$tag-x86_64.sh
-bash Miniconda3-$MINICONDA_VER-$tag-x86_64.sh -b -p $ANACONDA_PREFIX
-source ${ANACONDA_PREFIX}/etc/profile.d/conda.sh
+# bootstrap anaconda-project env
+curl -L  https://micromamba.snakepit.net/api/micromamba/linux-64/latest  | tar -jx -C /usr/local
+micromamba create -y -q -p $ANACONDA_PREFIX conda=$MINICONDA_VER python=$PY_VER anaconda-project=$AP_VER anaconda-client=$AC_VER git -c conda-forge
 
-# install anaconda-project and friends
-conda config --system --set auto_update_conda False
+# activate env
+source ${ANACONDA_PREFIX}/etc/profile.d/conda.sh
 conda activate base
-conda install -q -y anaconda-project=0.9.1 anaconda-client=1.7.2 git
 
 # set the channel order
 conda config --system --add channels bioconda
