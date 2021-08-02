@@ -11,7 +11,10 @@ test-rhino:
   image: unlhcc/rhino-build-el7
   variables:
     ANACONDA_PREFIX: "/anaconda"
-    MINICONDA_VER: "py38_4.9.2"
+    PY_VER: "3.8"
+    AP_VER: "0.9.1"
+    AC_VER: "1.7.2"
+    MINICONDA_VER: "4.9.2"
     HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master
@@ -28,7 +31,10 @@ test-crane-el8:
   image: unlhcc/crane-build-el8
   variables:
     ANACONDA_PREFIX: "/anaconda"
-    MINICONDA_VER: "py38_4.9.2"
+    PY_VER: "3.8"
+    AP_VER: "0.9.1"
+    AC_VER: "1.7.2"
+    MINICONDA_VER: "4.9.2"
     HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master
