@@ -382,3 +382,38 @@ env_specs:
     - bioconductor-edger
     - bioconductor-genomicalignments
     channels: []
+  bioconductor-3.13:
+    packages:
+    - bioconductor-biocversion=3.13
+    - r=4.1
+    - r-base=4.1
+    - r-nlme
+    - bioconductor-rhdf5
+    - bioconductor-preprocesscore
+    - bioconductor-genomicranges
+    - bioconductor-ballgown
+    - bioconductor-deseq2
+    - bioconductor-snpstats
+    - bioconductor-ggtree
+    - r-argparse
+    - r-gplots
+    - bioconductor-encodexplorerdata
+    - bioconductor-geoquery
+    - bioconductor-rnaseqpower
+    - bioconductor-biomart
+    - bioconductor-affy
+    - bioconductor-methylkit
+    - r-cli
+    - r-devtools
+    - r-remotes
+    - r-tidyverse
+    - r-ggplot2
+    - r-rcppeigen
+    - r-matrixmodels
+    - bioconductor-matrixgenerics
+    - bioconductor-graph
+    - bioconductor-rsamtools
+    - bioconductor-rtracklayer
+    - bioconductor-edger
+    - bioconductor-genomicalignments
+    channels: []
