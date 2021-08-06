@@ -1,0 +1,200 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+locking_enabled: true
+
+
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  rosettafold-1.0.0:
+    locked: true
+    env_spec_hash: d2f45dcf12780e2f3c6fad6ad2b2dfe46bcc5733
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - biopython=1.78
+      - biocore::blast-legacy=2.2.26
+      - hhsuite
+      - psipred=4.01
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=4.5=1_gnu
+      - blas=1.0=mkl
+      - brotlipy=0.7.0=py38h497a2fe_1001
+      - bzip2=1.0.8=h7b6447c_0
+      - ca-certificates=2021.5.25=h06a4308_1
+      - certifi=2021.5.30=py38h06a4308_0
+      - cffi=1.14.5=py38ha65f79e_0
+      - chardet=4.0.0=py38h578d9bd_1
+      - cryptography=3.4.7=py38ha5dfef3_0
+      - cudatoolkit=11.1.74=h6bb024c_0
+      - ffmpeg=4.3=hf484d3e_0
+      - freetype=2.10.4=h5ab3b9f_0
+      - gmp=6.2.1=h2531618_2
+      - gnutls=3.6.15=he1e5248_0
+      - googledrivedownloader=0.4=pyhd3deb0d_1
+      - idna=2.10=pyh9f0ad1d_0
+      - intel-openmp=2021.2.0=h06a4308_610
+      - jinja2=3.0.1=pyhd8ed1ab_0
+      - joblib=1.0.1=pyhd8ed1ab_0
+      - jpeg=9b=h024ee3a_2
+      - lame=3.100=h7b6447c_0
+      - lcms2=2.12=h3be6417_0
+      - ld_impl_linux-64=2.35.1=h7274673_9
+      - libffi=3.3=he6710b0_2
+      - libgcc-ng=9.3.0=h5101ec6_17
+      - libgfortran-ng=7.5.0=h14aa051_19
+      - libgfortran4=7.5.0=h14aa051_19
+      - libgomp=9.3.0=h5101ec6_17
+      - libiconv=1.15=h63c8f33_5
+      - libidn2=2.3.1=h27cfd23_0
+      - libpng=1.6.37=hbc83047_0
+      - libstdcxx-ng=9.3.0=hd4cf53a_17
+      - libtasn1=4.16.0=h27cfd23_0
+      - libtiff=4.2.0=h85742a9_0
+      - libunistring=0.9.10=h27cfd23_0
+      - libuv=1.40.0=h7b6447c_0
+      - libwebp-base=1.2.0=h27cfd23_0
+      - lz4-c=1.9.3=h2531618_0
+      - markupsafe=2.0.1=py38h497a2fe_0
+      - mkl=2021.2.0=h06a4308_296
+      - mkl-service=2.3.0=py38h27cfd23_1
+      - mkl_fft=1.3.0=py38h42c9631_2
+      - mkl_random=1.2.1=py38ha9443f7_2
+      - ncurses=6.2=he6710b0_1
+      - nettle=3.7.3=hbbd107a_1
+      - networkx=2.5=py_0
+      - ninja=1.10.2=hff7bd54_1
+      - numpy=1.20.2=py38h2d18471_0
+      - numpy-base=1.20.2=py38hfae3a4d_0
+      - olefile=0.46=py_0
+      - openh264=2.1.0=hd408876_0
+      - openssl=1.1.1k=h27cfd23_0
+      - packaging=20.9=pyhd3eb1b0_0
+      - pandas=1.2.5=py38h1abd341_0
+      - pillow=8.2.0=py38he98fc37_0
+      - pip=21.1.3=py38h06a4308_0
+      - pycparser=2.20=pyh9f0ad1d_2
+      - pyopenssl=20.0.1=pyhd8ed1ab_0
+      - pyparsing=2.4.7=pyh9f0ad1d_0
+      - pysocks=1.7.1=py38h578d9bd_3
+      - python=3.8.10=h12debd9_8
+      - python-dateutil=2.8.1=py_0
+      - python-louvain=0.15=pyhd3deb0d_0
+      - python_abi=3.8=2_cp38
+      - pytorch=1.9.0=py3.8_cuda11.1_cudnn8.0.5_0
+      - pytorch-cluster=1.5.9=py38_torch_1.9.0_cu111
+      - pytorch-geometric=1.7.2=py38_torch_1.9.0_cu111
+      - pytorch-scatter=2.0.7=py38_torch_1.9.0_cu111
+      - pytorch-sparse=0.6.10=py38_torch_1.9.0_cu111
+      - pytorch-spline-conv=1.2.1=py38_torch_1.9.0_cu111
+      - pytz=2021.1=pyhd8ed1ab_0
+      - readline=8.1=h27cfd23_0
+      - requests=2.25.1=pyhd3deb0d_0
+      - rdflib=6.0.0=py38h578d9bd_0
+      - scikit-learn=0.24.2=py38ha9443f7_0
+      - setuptools=52.0.0=py38h06a4308_0
+      - six=1.16.0=pyhd3eb1b0_0
+      - sqlite=3.36.0=hc218d9a_0
+      - threadpoolctl=2.1.0=pyh5ca1d4c_0
+      - tk=8.6.10=hbc83047_0
+      - torchaudio=0.9.0=py38
+      - torchvision=0.10.0=py38_cu111
+      - tqdm=4.61.1=pyhd8ed1ab_0
+      - typing_extensions=3.10.0.0=pyh06a4308_0
+      - urllib3=1.26.6=pyhd8ed1ab_0
+      - wheel=0.36.2=pyhd3eb1b0_0
+      - xz=5.2.5=h7b6447c_0
+      - zlib=1.2.11=h7b6447c_3
+      - zstd=1.4.9=haebb681_0
+  folding-1.0.0:
+    locked: true
+    env_spec_hash: 6130fd8c322872e3fd8bfcfe4d5b49d9373c9843
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=4.5=1_gnu
+      - _tflow_select=2.1.0=gpu
+      - absl-py=0.13.0=py37h06a4308_0
+      - astor=0.8.1=py37h06a4308_0
+      - blas=1.0=mkl
+      - bottleneck=1.3.2=py37heb32a55_1
+      - c-ares=1.17.1=h27cfd23_0
+      - ca-certificates=2021.7.5=h06a4308_1
+      - cached-property=1.5.2=py_0
+      - certifi=2021.5.30=py37h06a4308_0
+      - coverage=5.5=py37h27cfd23_2
+      - cudatoolkit=10.1.243=h6bb024c_0
+      - cudnn=7.6.5=cuda10.1_0
+      - cupti=10.1.168=0
+      - cython=0.29.24=py37h295c915_0
+      - gast=0.5.0=pyhd3eb1b0_0
+      - google-pasta=0.2.0=py_0
+      - grpcio=1.36.1=py37h2157cd5_1
+      - h5py=3.2.1=py37h6c542dc_0
+      - hdf5=1.10.6=hb1b8bf9_0
+      - importlib-metadata=3.10.0=py37h06a4308_0
+      - intel-openmp=2021.3.0=h06a4308_3350
+      - joblib=1.0.1=pyhd3eb1b0_0
+      - keras-applications=1.0.8=py_1
+      - keras-preprocessing=1.1.2=pyhd3eb1b0_0
+      - ld_impl_linux-64=2.35.1=h7274673_9
+      - libffi=3.3=he6710b0_2
+      - libgcc-ng=9.3.0=h5101ec6_17
+      - libgfortran-ng=7.5.0=ha8ba4b0_17
+      - libgfortran4=7.5.0=ha8ba4b0_17
+      - libgomp=9.3.0=h5101ec6_17
+      - libprotobuf=3.17.2=h4ff587b_1
+      - libstdcxx-ng=9.3.0=hd4cf53a_17
+      - markdown=3.3.4=py37h06a4308_0
+      - mkl=2021.3.0=h06a4308_520
+      - mkl-service=2.4.0=py37h7f8727e_0
+      - mkl_fft=1.3.0=py37h42c9631_2
+      - mkl_random=1.2.2=py37h51133e4_0
+      - ncurses=6.2=he6710b0_1
+      - numexpr=2.7.3=py37h22e1b3c_1
+      - numpy=1.20.3=py37hf144106_0
+      - numpy-base=1.20.3=py37h74d4b33_0
+      - openssl=1.1.1k=h27cfd23_0
+      - pandas=1.3.0=py37h295c915_0
+      - parallel=20210622=ha770c72_0
+      - perl=5.26.2=h14c3975_0
+      - pip=21.1.3=py37h06a4308_0
+      - protobuf=3.17.2=py37h295c915_0
+      - pyrosetta=2021.29+release.d8f5566
+      - python=3.7.10=h12debd9_4
+      - python-dateutil=2.8.2=pyhd3eb1b0_0
+      - pytz=2021.1=pyhd3eb1b0_0
+      - readline=8.1=h27cfd23_0
+      - scikit-learn=0.24.2=py37ha9443f7_0
+      - scipy=1.6.2=py37had2a1c9_1
+      - setuptools=52.0.0=py37h06a4308_0
+      - six=1.16.0=pyhd3eb1b0_0
+      - sqlite=3.36.0=hc218d9a_0
+      - tensorboard=1.14.0=py37hf484d3e_0
+      - tensorflow=1.14.0=gpu_py37h74c33d7_0
+      - tensorflow-base=1.14.0=gpu_py37he45bfe2_0
+      - tensorflow-estimator=1.14.0=py_0
+      - tensorflow-gpu=1.14.0=h0d30ee6_0
+      - termcolor=1.1.0=py37h06a4308_1
+      - threadpoolctl=2.2.0=pyhb85f177_0
+      - tk=8.6.10=hbc83047_0
+      - typing_extensions=3.10.0.0=pyh06a4308_0
+      - werkzeug=1.0.1=pyhd3eb1b0_0
+      - wheel=0.36.2=pyhd3eb1b0_0
+      - wrapt=1.12.1=py37h7b6447c_1
+      - xz=5.2.5=h7b6447c_0
+      - zipp=3.5.0=pyhd3eb1b0_0
+      - zlib=1.2.11=h7b6447c_3
