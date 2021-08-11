@@ -86,7 +86,7 @@ env_specs:
       - gxx_impl_linux-64=9.4.0=h03d3576_8
       - gxx_linux-64=9.4.0=h0316aca_0
       - harfbuzz=2.8.2=h83ec7ef_0
-      - hcc-jupyter-kernels=2021.08.10=h121872b_1
+      - hcc-jupyter-kernels=2021.08.10=h121872b_2
       - icu=68.1=h58526e2_0
       - idna=3.1=pyhd3deb0d_0
       - importlib-metadata=4.6.3=py38h578d9bd_0
