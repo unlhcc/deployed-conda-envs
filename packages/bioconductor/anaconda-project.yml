@@ -416,4 +416,5 @@ env_specs:
     - bioconductor-rtracklayer
     - bioconductor-edger
     - bioconductor-genomicalignments
+    - bioconductor-rsubread
     channels: []
