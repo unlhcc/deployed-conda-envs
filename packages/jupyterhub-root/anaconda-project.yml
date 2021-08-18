@@ -44,3 +44,14 @@ env_specs:
     - ipython=7.6.1
     - metakernel=0.24.2
     channels: []
+  jupyterhub-root-1.4.2:
+    packages:
+    - jupyterhub=1.4.2
+    - python=3.6
+    - notebook=6.4.3
+    - sas_kernel=2.2.0
+    - saspy=3.1.0
+    - r-irkernel=1.0.1
+    - r-base=3.5
+    - matlab-kernel=0.16.7
+    channels: []
