@@ -27,7 +27,7 @@ platforms:
 env_specs:
   jupyterlab-3.0.16:
     packages:
-    - jupyterlab=3.0.16
+    - jupyterlab=3.0.17
     - python=3.8
     - notebook=6.4.0
     - jupyter_conda=5.1.1
