@@ -170,6 +170,7 @@ env_specs:
     - r-rglpk=0.6_4
     - r-ggplot2=3.3.5
     - r-rcpparmadillo=0.10.6.0.0
+    - r-cairo=1.5
     channels: []
 
   r-4.1.0:
@@ -202,6 +203,7 @@ env_specs:
     - r-rmpfr=0.8_4
     - r-slam=0.1_48
     - r-rcpparmadillo=0.10.6.0.0
+    - r-cairo=1.5
     channels: []
 
 commands:
