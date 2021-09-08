@@ -41,3 +41,16 @@ env_specs:
     - ipykernel
     - cudatoolkit=10.1
     channels: []
+  pytorch-gpu-1.9.0-py38:
+    packages:
+    - python=3.8
+    - pytorch-gpu=1.9.0
+    - torchvision=0.10.0
+    - cudatoolkit=11.2
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    channels: []
