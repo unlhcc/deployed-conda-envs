@@ -28,3 +28,7 @@ env_specs:
     packages:
     - vsearch=2.10.0
     channels: []
+  vsearch-2.18.0:
+    packages:
+    - vsearch=2.18.0
+    channels: []

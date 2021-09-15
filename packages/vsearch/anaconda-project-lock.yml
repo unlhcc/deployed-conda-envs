@@ -30,3 +30,18 @@ env_specs:
       - zlib=1.2.11=h470a237_3
 
 
+  vsearch-2.18.0:
+    locked: true
+    env_spec_hash: 710407e7c801ee1563141948f0e4c985793ad221
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bzip2=1.0.8=h7f98852_4
+      - libgcc-ng=11.2.0=h1d223b6_8
+      - libgomp=11.2.0=h1d223b6_8
+      - libstdcxx-ng=11.2.0=he4da1e4_8
+      - vsearch=2.18.0=h95f258a_0
+      - zlib=1.2.11=h516909a_1010
