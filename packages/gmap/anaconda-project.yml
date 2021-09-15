@@ -41,3 +41,7 @@ env_specs:
     packages:
     - gmap=2020.04.08
     channels: []
+  gmap-2021.08.25:
+    packages:
+    - gmap=2021.08.25
+    channels: []
