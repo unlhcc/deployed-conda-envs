@@ -1,0 +1,32 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: VirHostMatcher-Net
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: VirHostMatcher-Net is a network-based computational tool for predicting
+  virus-host interactions.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  virhostmatcher-net-0.0.2021.08.29:
+    packages:
+    - virhostmatcher-net=0.0.2021.08.29
+    - python=3.9
+    channels: []
