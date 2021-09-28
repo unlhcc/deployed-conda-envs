@@ -33,3 +33,7 @@ env_specs:
     packages:
     - scons=2.5.1
     channels: []
+  scons-4.2.0:
+    packages:
+    - scons=4.2.0
+    channels: []
