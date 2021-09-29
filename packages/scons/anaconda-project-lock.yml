@@ -74,9 +74,97 @@ env_specs:
       - tk=8.6.11=h27826a3_1
       - wheel=0.37.0=pyhd8ed1ab_1
       - zlib=1.2.11=h516909a_1010
-  scons-4.2.0:
+  scons-3.1.2-py27:
     locked: true
-    env_spec_hash: 01dc615bdf2be79b39c466e6100701f0465a9fa7
+    env_spec_hash: dde21e81256ceb83084869a5afc05c1d5e10d929
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - ca-certificates=2021.5.30=ha878542_0
+      - certifi=2019.11.28=py27h8c360ce_1
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=11.2.0=h1d223b6_9
+      - libgomp=11.2.0=h1d223b6_9
+      - libstdcxx-ng=11.2.0=he4da1e4_9
+      - ncurses=6.2=h58526e2_4
+      - openssl=1.1.1l=h7f98852_0
+      - pip=20.1.1=pyh9f0ad1d_0
+      - python=2.7.15=h5a48372_1011_cpython
+      - python_abi=2.7=1_cp27mu
+      - readline=8.1=h46c0cb4_0
+      - scons=3.1.2=py27h8c360ce_1
+      - setuptools=44.0.0=py27_0
+      - six=1.16.0=pyh6c4a22f_0
+      - sqlite=3.36.0=h9cd32fc_2
+      - tk=8.6.11=h27826a3_1
+      - wheel=0.37.0=pyhd8ed1ab_1
+      - zlib=1.2.11=h516909a_1010
+  scons-3.1.2-py38:
+    locked: true
+    env_spec_hash: 7a0039c638179927ff99c0eab80fb68ff0d08127
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - ca-certificates=2021.5.30=ha878542_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libffi=3.4.2=h9c3ff4c_4
+      - libgcc-ng=11.2.0=h1d223b6_9
+      - libgomp=11.2.0=h1d223b6_9
+      - libstdcxx-ng=11.2.0=he4da1e4_9
+      - ncurses=6.2=h58526e2_4
+      - openssl=1.1.1l=h7f98852_0
+      - pip=21.2.4=pyhd8ed1ab_0
+      - python=3.8.12=hb7a2778_0_cpython
+      - python_abi=3.8=2_cp38
+      - readline=8.1=h46c0cb4_0
+      - scons=3.1.2=py38h32f6830_1
+      - setuptools=58.0.4=py38h578d9bd_2
+      - six=1.16.0=pyh6c4a22f_0
+      - sqlite=3.36.0=h9cd32fc_2
+      - tk=8.6.11=h27826a3_1
+      - wheel=0.37.0=pyhd8ed1ab_1
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
+  scons-3.1.2-py39:
+    locked: true
+    env_spec_hash: 2f5a3ab99e896f6881d847c355e8f3e4a00c1517
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - ca-certificates=2021.5.30=ha878542_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libffi=3.4.2=h9c3ff4c_4
+      - libgcc-ng=11.2.0=h1d223b6_9
+      - libgomp=11.2.0=h1d223b6_9
+      - libstdcxx-ng=11.2.0=he4da1e4_9
+      - ncurses=6.2=h58526e2_4
+      - openssl=1.1.1l=h7f98852_0
+      - pip=21.2.4=pyhd8ed1ab_0
+      - python=3.9.7=hb7a2778_2_cpython
+      - python_abi=3.9=2_cp39
+      - readline=8.1=h46c0cb4_0
+      - scons=3.1.2=py39h06a4308_0
+      - setuptools=58.0.4=py39hf3d152e_2
+      - six=1.16.0=pyh6c4a22f_0
+      - sqlite=3.36.0=h9cd32fc_2
+      - tk=8.6.11=h27826a3_1
+      - tzdata=2021a=he74cb21_1
+      - wheel=0.37.0=pyhd8ed1ab_1
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
+  scons-4.2.0-py39:
+    locked: true
+    env_spec_hash: a795eba3d377d8c960f601ab2d3d97062a1572bf
     platforms:
     - linux-64
     packages:
@@ -101,6 +189,64 @@ env_specs:
       - sqlite=3.36.0=h9cd32fc_2
       - tk=8.6.11=h27826a3_1
       - tzdata=2021a=he74cb21_1
+      - wheel=0.37.0=pyhd8ed1ab_1
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
+  scons-4.2.0-py38:
+    locked: true
+    env_spec_hash: 2a219534bac9d3fce3fae38ff953c9a0299faf72
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - ca-certificates=2021.5.30=ha878542_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libffi=3.4.2=h9c3ff4c_4
+      - libgcc-ng=11.2.0=h1d223b6_9
+      - libgomp=11.2.0=h1d223b6_9
+      - libstdcxx-ng=11.2.0=he4da1e4_9
+      - ncurses=6.2=h58526e2_4
+      - openssl=1.1.1l=h7f98852_0
+      - pip=21.2.4=pyhd8ed1ab_0
+      - python=3.8.12=hb7a2778_0_cpython
+      - python_abi=3.8=2_cp38
+      - readline=8.1=h46c0cb4_0
+      - scons=4.2.0=py38h578d9bd_0
+      - setuptools=58.0.4=py38h578d9bd_2
+      - six=1.16.0=pyh6c4a22f_0
+      - sqlite=3.36.0=h9cd32fc_2
+      - tk=8.6.11=h27826a3_1
+      - wheel=0.37.0=pyhd8ed1ab_1
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h516909a_1010
+  scons-4.2.0-py37:
+    locked: true
+    env_spec_hash: 8f16358aed0609894fdc18679cf356e66e2822d8
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - ca-certificates=2021.5.30=ha878542_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libffi=3.4.2=h9c3ff4c_4
+      - libgcc-ng=11.2.0=h1d223b6_9
+      - libgomp=11.2.0=h1d223b6_9
+      - libstdcxx-ng=11.2.0=he4da1e4_9
+      - ncurses=6.2=h58526e2_4
+      - openssl=1.1.1l=h7f98852_0
+      - pip=21.2.4=pyhd8ed1ab_0
+      - python=3.7.10=hb7a2778_101_cpython
+      - python_abi=3.7=2_cp37m
+      - readline=8.1=h46c0cb4_0
+      - scons=4.2.0=py37h89c1867_0
+      - setuptools=58.0.4=py37h89c1867_2
+      - six=1.16.0=pyh6c4a22f_0
+      - sqlite=3.36.0=h9cd32fc_2
+      - tk=8.6.11=h27826a3_1
       - wheel=0.37.0=pyhd8ed1ab_1
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h516909a_1010
