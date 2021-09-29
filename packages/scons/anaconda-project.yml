@@ -35,8 +35,39 @@ env_specs:
     - scons=2.5.1
     - six
     channels: []
-  scons-4.2.0:
+  scons-3.1.2-py27:
+    packages:
+    - scons=3.1.2
+    - python=2.7
+    - six
+    channels: []
+  scons-3.1.2-py38:
+    packages:
+    - scons=3.1.2
+    - python=3.8
+    - six
+    channels: []
+  scons-3.1.2-py39:
+    packages:
+    - scons=3.1.2
+    - python=3.9
+    - six
+    channels: []
+  scons-4.2.0-py39:
     packages:
     - scons=4.2.0
+    - python=3.9
+    - six
+    channels: []
+  scons-4.2.0-py38:
+    packages:
+    - scons=4.2.0
+    - python=3.8
+    - six
+    channels: []
+  scons-4.2.0-py37:
+    packages:
+    - scons=4.2.0
+    - python=3.7
     - six
     channels: []
