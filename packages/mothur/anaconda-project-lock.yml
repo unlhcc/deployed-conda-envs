@@ -159,3 +159,70 @@ env_specs:
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h516909a_1010
       - zstd=1.5.0=ha95c52a_0
+  mothur-1.46.1:
+    locked: true
+    env_spec_hash: 95d18a199bd4c7f401b1acbc96a5f3283b2bedc2
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - blast-legacy=2.2.26=h9ee0642_3
+      - boost-cpp=1.74.0=h312852a_4
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.17.2=h7f98852_0
+      - ca-certificates=2021.5.30=ha878542_0
+      - curl=7.79.1=h2574ce0_1
+      - gsl=2.6=he838d99_2
+      - hdf5=1.10.6=nompi_h6a2412b_1114
+      - icu=68.1=h58526e2_0
+      - krb5=1.19.2=hcc1bbae_2
+      - libblas=3.9.0=11_linux64_openblas
+      - libcblas=3.9.0=11_linux64_openblas
+      - libcurl=7.79.1=h2574ce0_1
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libgcc-ng=11.2.0=h1d223b6_9
+      - libgfortran-ng=11.2.0=h69a702a_9
+      - libgfortran5=11.2.0=h5c6108e_9
+      - libgomp=11.2.0=h1d223b6_9
+      - libiconv=1.16=h516909a_0
+      - libnghttp2=1.43.0=h812cca2_1
+      - libopenblas=0.3.17=pthreads_h8fe5266_1
+      - libssh2=1.10.0=ha56f1ee_2
+      - libstdcxx-ng=11.2.0=he4da1e4_9
+      - libxml2=2.9.12=h72842e0_0
+      - lz4-c=1.9.3=h9c3ff4c_1
+      - mothur=1.46.1=h7165306_0
+      - ncbi-ngs-sdk=2.11.1=hff44eed_0
+      - ncurses=6.2=h58526e2_4
+      - openssl=1.1.1l=h7f98852_0
+      - ossuuid=1.6.2=hf484d3e_1000
+      - perl-app-cpanminus=1.7044=pl526_1
+      - perl-business-isbn-data=20140910.003=pl526_0
+      - perl-business-isbn=3.004=pl526_0
+      - perl-carp=1.38=pl526_3
+      - perl-constant=1.33=pl526_1
+      - perl-data-dumper=2.173=pl526_0
+      - perl-encode=2.88=pl526_1
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-makemaker=7.36=pl526_1
+      - perl-file-path=2.16=pl526_0
+      - perl-file-temp=0.2304=pl526_2
+      - perl-mime-base64=3.15=pl526_1
+      - perl-parent=0.236=pl526_1
+      - perl-uri=1.76=pl526_0
+      - perl-xml-libxml=2.0132=pl526h7ec2d77_1
+      - perl-xml-namespacesupport=1.12=pl526_0
+      - perl-xml-sax-base=1.09=pl526_0
+      - perl-xml-sax=1.02=pl526_0
+      - perl-xsloader=0.24=pl526_0
+      - perl=5.26.2=h36c2ea0_1008
+      - readline=8.1=h46c0cb4_0
+      - sra-tools=2.11.0=pl5262h314213e_0
+      - tk=8.6.11=h27826a3_1
+      - vsearch=2.15.2=h95f258a_1
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h36c2ea0_1011
+      - zstd=1.5.0=ha95c52a_0
