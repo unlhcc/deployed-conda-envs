@@ -33,3 +33,7 @@ env_specs:
     packages:
     - maxquant=1.6.10.43
     channels: []
+  maxquant-2.0.1.0:
+    packages:
+    - maxquant=2.0.1.0
+    channels: []
