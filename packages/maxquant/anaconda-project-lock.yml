@@ -125,3 +125,36 @@ env_specs:
       - wheel=0.37.0=pyhd8ed1ab_1
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h36c2ea0_1011
+  maxquant-2.0.3.0:
+    locked: true
+    env_spec_hash: e1f28b5ed68c3400dc1f55b5e77b4830479bb06a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - c-ares=1.17.2=h7f98852_0
+      - ca-certificates=2021.5.30=ha878542_0
+      - dotnet-aspnetcore=2.1.30=h73ebe80_0
+      - dotnet-runtime=2.1.30=h73ebe80_0
+      - dotnet-sdk=2.1.818=h73ebe80_0
+      - dotnet=2.1.818=ha770c72_0
+      - icu=68.1=h58526e2_0
+      - krb5=1.19.2=h48eae69_2
+      - libcurl=7.79.1=h494985f_1
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libgcc-ng=11.2.0=h1d223b6_9
+      - libgomp=11.2.0=h1d223b6_9
+      - libnghttp2=1.43.0=ha19adfc_1
+      - libssh2=1.10.0=ha35d2d1_2
+      - libstdcxx-ng=11.2.0=he4da1e4_9
+      - liburcu=0.12=h516909a_0
+      - libzlib=1.2.11=h36c2ea0_1013
+      - lttng-ust=2.10=hfb453c0_0
+      - maxquant=2.0.3.0=h121872b_1000
+      - ncurses=6.2=h58526e2_4
+      - openssl=3.0.0=h7f98852_1
+      - tk=8.6.11=h27826a3_1
+      - zlib=1.2.11=h36c2ea0_1013
