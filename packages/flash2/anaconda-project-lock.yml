@@ -1,0 +1,31 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  flash2-2.2.00:
+    locked: true
+    env_spec_hash: 6de2e97a5c100c926c9a1841f96b7ff18e88afd7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - flash2=2.2.00=h5bf99c6_3
+      - libgcc-ng=11.2.0=h1d223b6_10
+      - libgomp=11.2.0=h1d223b6_10
+      - libzlib=1.2.11=h36c2ea0_1013
+      - zlib=1.2.11=h36c2ea0_1013
