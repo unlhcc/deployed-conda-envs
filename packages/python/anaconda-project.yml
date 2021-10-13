@@ -73,3 +73,12 @@ env_specs:
     - gitpython
     - pyyaml
     channels: []
+  python-3.9:
+    packages:
+    - anaconda=2021.05
+    - python=3.9
+    - gitpython
+    - pyyaml
+    - pandas-datareader=0.10.0
+    - jasper=1.900.1
+    channels: []
