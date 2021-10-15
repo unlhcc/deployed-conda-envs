@@ -28,3 +28,7 @@ env_specs:
     channels: []
     packages:
     - eigen=3.3.3
+  eigen-3.4.0:
+    packages:
+    - eigen=3.4.0
+    channels: []
