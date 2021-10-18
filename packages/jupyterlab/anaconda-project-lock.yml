@@ -18,7 +18,7 @@ locking_enabled: true
 env_specs:
   jupyterlab-3.0.16:
     locked: true
-    env_spec_hash: 59eaebe57d5cf5bf03e3006a7fa89e7d311fba75
+    env_spec_hash: 57fc3328c8cb4ce37bc2f25e95a3ee4790363d04
     platforms:
     - linux-64
     packages:
@@ -87,7 +87,7 @@ env_specs:
       - gxx_impl_linux-64=9.4.0=h03d3576_8
       - gxx_linux-64=9.4.0=h0316aca_0
       - harfbuzz=2.9.0=h83ec7ef_0
-      - hcc-jupyter-kernels=2021.10.12=h121872b_0
+      - hcc-jupyter-kernels=2021.10.13=h121872b_1
       - icu=68.1=h58526e2_0
       - idna=3.1=pyhd3deb0d_0
       - importlib-metadata=4.6.4=py38h578d9bd_0
