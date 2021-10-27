@@ -14,7 +14,7 @@ name: OrthoFinder
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: OrthoFinder is a fast, accurate and comprehensive analysis tool for comparative
-  genomics.  
+  genomics.
 
 
 #
@@ -32,4 +32,8 @@ env_specs:
   orthofinder-2.2.6:
     packages:
     - orthofinder=2.2.6
+    channels: []
+  orthofinder-2.5.4:
+    packages:
+    - orthofinder=2.5.4
     channels: []
