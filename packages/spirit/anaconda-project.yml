@@ -26,34 +26,34 @@ platforms:
 env_specs:
   spirit-2.1.1-py36:
     packages:
-    - spirit=2.1.1
+    - spirit=2.1.1=py36h87ed12b_1
     - python=3.6
-    - scipy
     - numpy
+    - scipy
+    - pandas
     - matplotlib
     - scikit-learn
     - scikit-plot
-    - pandas
     channels: []
   spirit-2.1.1-py37:
     packages:
-    - spirit=2.1.1
+    - spirit=2.1.1=py37ha9b39e8_1
     - python=3.7
-    - scipy
     - numpy
+    - scipy
+    - pandas
     - matplotlib
     - scikit-learn
     - scikit-plot
-    - pandas
     channels: []
   spirit-2.1.1-py38:
     packages:
-    - spirit=2.1.1
+    - spirit=2.1.1=py38hb05af5d_1
     - python=3.8
-    - scipy
     - numpy
+    - scipy
+    - pandas
     - matplotlib
     - scikit-learn
     - scikit-plot
-    - pandas
     channels: []
