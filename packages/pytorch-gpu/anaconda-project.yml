@@ -54,3 +54,31 @@ env_specs:
     - pandas
     - ipykernel
     channels: []
+  pytorch-gpu-1.10.0-py38:
+    packages:
+    - pytorch-gpu=1.10.0
+    - torchvision=0.11.1=py38hf765aab_1001
+    - python=3.8
+    - numpy
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - ipykernel
+    - cudatoolkit=11.2
+    - tensorflow-gpu=2.6.0
+    channels: []
+  pytorch-gpu-1.10.0-py39:
+    packages:
+    - pytorch-gpu=1.10.0
+    - torchvision=0.11.1=py39ha3891b1_1001
+    - python=3.9
+    - numpy
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - ipykernel
+    - cudatoolkit=11.2
+    - tensorflow-gpu=2.6.0
+    channels: []
