@@ -370,4 +370,30 @@ env_specs:
     - ipykernel
     - tensorflow-probability=0.13.0
     channels: []
+  tensorflow-2.6.0-py38:
+    packages:
+    - tensorflow=2.6.0=mkl*
+    - python=3.8
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.14.1
+    channels: []
+  tensorflow-2.6.0-py39:
+    packages:
+    - tensorflow=2.6.0=mkl*
+    - python=3.9
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.14.1
+    channels: []
 packages: []
