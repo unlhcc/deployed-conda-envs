@@ -204,6 +204,8 @@ env_specs:
     - r-slam=0.1_48
     - r-rcpparmadillo=0.10.6.0.0
     - r-cairo=1.5
+    - r-rgdal=1.5_23
+    - r-raster=3.5_2
     channels: []
 
 commands:
