@@ -60,7 +60,7 @@ env_specs:
     - r-units=0.6
     - r-rcppparallel=5.0.2
     - gdal=3.1
-    - r-rgdal=1.5
+    - r-rgdal=1.5_16
     - r-v8=3.4.0
     - r-rstan=2.21.2
     - gcc_linux-64=7.5.0
@@ -84,6 +84,7 @@ env_specs:
     - r-rglpk=0.6_4
     - r-ggplot2=3.3.3
     - r-rcpparmadillo=0.10.4.0.0
+    - r-raster=3.4_5
     channels: []
   r-4.0.2:
     packages:
