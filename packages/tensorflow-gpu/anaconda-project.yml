@@ -390,7 +390,7 @@ env_specs:
     - pandas
     - ipykernel
     - tensorflow-probability=0.14.1
-    - cudatoolkit=11.5
+    - cudatoolkit=11.2
     channels: []
   tensorflow-gpu-2.6.0-py39:
     packages:
@@ -404,5 +404,5 @@ env_specs:
     - pandas
     - ipykernel
     - tensorflow-probability=0.14.1
-    - cudatoolkit=11.5
+    - cudatoolkit=11.2
     channels: []
