@@ -133,4 +133,33 @@ env_specs:
       - termcolor
       - keras==2.4.3
     channels: []
-
+  keras-gpu-2.6.0-py38:
+    packages:
+    - tensorflow-gpu=2.6.0
+    - python=3.8
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.14.1
+    - cudatoolkit=11.2
+    - keras=2.6.0
+    - cloudpickle
+  keras-gpu-2.6.0-py39:
+    packages:
+    - tensorflow-gpu=2.6.0
+    - python=3.9
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - tensorflow-probability=0.14.1
+    - cudatoolkit=11.2
+    - keras=2.6.0
+    - cloudpickle
