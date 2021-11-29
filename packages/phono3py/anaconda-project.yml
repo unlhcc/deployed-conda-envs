@@ -13,7 +13,8 @@ name: phono3py
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Phono3py is another open source package for phonon-phonon interaction and lattice thermal conductivity calculations.
+description: Phono3py is another open source package for phonon-phonon interaction
+  and lattice thermal conductivity calculations.
 
 
 #
@@ -38,4 +39,14 @@ env_specs:
     packages:
     - phono3py=1.18.1
     - python=2.7
+    channels: []
+  phono3py-2.1.0-py38:
+    packages:
+    - phono3py=2.1.0
+    - python=3.8
+    channels: []
+  phono3py-2.1.0-py39:
+    packages:
+    - phono3py=2.1.0
+    - python=3.9
     channels: []
