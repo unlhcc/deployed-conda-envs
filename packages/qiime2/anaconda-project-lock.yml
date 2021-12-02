@@ -1481,7 +1481,7 @@ env_specs:
       - zstd=1.4.8=ha95c52a_1
   qiime2-2021.4:
     locked: true
-    env_spec_hash: 8ff9c709fba49a9b5b3ae0db571f54708e9462a0
+    env_spec_hash: 9bf7acfc8b21e9179a43469a8f44262d10e6d489
     platforms:
     - linux-64
     packages:
@@ -1798,6 +1798,7 @@ env_specs:
       - q2-quality-control=2021.4.0=py38_0
       - q2-quality-filter=2021.4.0=py38_0
       - q2-sample-classifier=2021.4.0=py38_0
+      - q2-srs=2021.4.0=pyh121872b_0
       - q2-taxa=2021.4.0=py38_0
       - q2-types=2021.4.0=py38_0
       - q2-vsearch=2021.4.0=py38_0
