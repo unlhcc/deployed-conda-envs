@@ -1481,7 +1481,7 @@ env_specs:
       - zstd=1.4.8=ha95c52a_1
   qiime2-2021.4:
     locked: true
-    env_spec_hash: 9bf7acfc8b21e9179a43469a8f44262d10e6d489
+    env_spec_hash: 58abdf32bff5407da03578375634d945402c6560
     platforms:
     - linux-64
     packages:
@@ -1817,7 +1817,7 @@ env_specs:
       - r-assertthat=0.2.1=r40hc72bb7e_2
       - r-backports=1.2.1=r40hcfec24a_0
       - r-base64enc=0.1_3=r40hcfec24a_1004
-      - r-base=4.0.3=h349a78a_8
+      - r-base=4.0.5=h8cab1ac_0
       - r-bh=1.75.0_0=r40hc72bb7e_0
       - r-bitops=1.0_6=r40hcdcec82_1004
       - r-brio=1.1.1=r40hcfec24a_0
