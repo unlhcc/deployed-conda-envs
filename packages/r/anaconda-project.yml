@@ -145,7 +145,7 @@ env_specs:
     - r-devtools=2.3.2
     - r-udunits2=0.13
     - r-units=0.6
-    - r-rcppparallel=5.0.2
+    - r-rcppparallel=5.1.4
     - r-gmp=0.6_2
     - gdal=3.2.2
     - r-rgdal=1.5_23
@@ -173,6 +173,7 @@ env_specs:
     - r-rcpparmadillo=0.10.6.0.0
     - r-cairo=1.5
     - r-raster=3.5_2
+    - r-bh=1.75
     channels: []
 
   r-4.1.0:
@@ -243,6 +244,7 @@ env_specs:
     - r-cairo=1.5_12.2
     - r-rgdal=1.5_23
     - r-raster=3.5_2
+    - r-bh=1.75
     channels: []
 
 commands:

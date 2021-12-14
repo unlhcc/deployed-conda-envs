@@ -1432,7 +1432,7 @@ env_specs:
 
   r-4.0.5:
     locked: true
-    env_spec_hash: 2eb09c9ff7fc6ca2bdf4a23cb5a3baedd6b84770
+    env_spec_hash: 87a3b99ae9c7e7dc6358a13e2136d013a0ef9dfd
     platforms:
     - linux-64
     packages:
@@ -1500,7 +1500,7 @@ env_specs:
       - libgfortran-ng=9.4.0=h69a702a_11
       - libgfortran5=9.4.0=h62347ff_11
       - libgit2=1.1.1=h3974521_0
-      - libglib=2.70.0=h174f98d_1
+      - libglib=2.70.2=h174f98d_0
       - libgomp=11.2.0=h1d223b6_11
       - libiconv=1.16=h516909a_0
       - libkml=1.3.0=h238a007_1014
@@ -1510,7 +1510,7 @@ env_specs:
       - libnsl=2.0.0=h7f98852_0
       - libopenblas=0.3.18=pthreads_h8fe5266_0
       - libpng=1.6.37=h21135ba_2
-      - libpq=13.3=hd57d9b9_3
+      - libpq=13.5=hd57d9b9_1
       - librttopo=1.1.0=h1185371_6
       - libsodium=1.0.18=h36c2ea0_1
       - libspatialite=5.0.1=h20cb978_4
@@ -1534,7 +1534,7 @@ env_specs:
       - openjdk=11.0.1=h516909a_1016
       - openjpeg=2.4.0=hb52868f_1
       - openssl=1.1.1l=h7f98852_0
-      - pandoc=2.16.1=h7f98852_0
+      - pandoc=2.16.2=h7f98852_0
       - pango=1.48.10=h54213e6_2
       - pcre2=10.36=h032f7d1_1
       - pcre=8.45=h9c3ff4c_0
@@ -1542,23 +1542,24 @@ env_specs:
       - pixman=0.40.0=h36c2ea0_0
       - poppler-data=0.4.11=hd8ed1ab_0
       - poppler=21.03.0=h93df280_0
-      - postgresql=13.3=h2510834_3
+      - postgresql=13.5=h2510834_1
       - proj=8.0.0=h277dcde_0
       - pthread-stubs=0.4=h36c2ea0_1001
       - python=3.8.12=hb7a2778_2_cpython
       - python_abi=3.8=2_cp38
       - r-askpass=1.1=r40hcfec24a_2
       - r-assertthat=0.2.1=r40hc72bb7e_2
-      - r-backports=1.3.0=r40hcfec24a_0
+      - r-backports=1.4.1=r40hcfec24a_0
       - r-base64enc=0.1_3=r40hcfec24a_1004
       - r-base=4.0.5=h9e01966_1
+      - r-bh=1.75.0_0=r40hc72bb7e_0
       - r-bit64=4.0.5=r40hcfec24a_0
       - r-bit=4.0.4=r40hcfec24a_0
       - r-bitops=1.0_7=r40hcfec24a_0
       - r-blob=1.2.2=r40hc72bb7e_0
       - r-boot=1.3_28=r40hc72bb7e_0
       - r-brew=1.0_6=r40hc72bb7e_1003
-      - r-brio=1.1.2=r40hcfec24a_0
+      - r-brio=1.1.3=r40hcfec24a_0
       - r-broom=0.7.10=r40hc72bb7e_0
       - r-cachem=1.0.6=r40hcfec24a_0
       - r-cairo=1.5_12.2=r40hcfec24a_0
@@ -1575,9 +1576,9 @@ env_specs:
       - r-colorspace=2.0_2=r40hcfec24a_0
       - r-commonmark=1.7=r40hcfec24a_1002
       - r-covr=3.5.1=r40h03ef668_0
-      - r-cpp11=0.4.1=r40hc72bb7e_0
+      - r-cpp11=0.4.2=r40hc72bb7e_0
       - r-crayon=1.4.2=r40hc72bb7e_0
-      - r-credentials=1.3.1=r40hc72bb7e_0
+      - r-credentials=1.3.2=r40hc72bb7e_0
       - r-crosstalk=1.2.0=r40hc72bb7e_0
       - r-curl=4.3.2=r40hcfec24a_0
       - r-cvauc=1.1.0=r40hc72bb7e_1003
@@ -1587,10 +1588,10 @@ env_specs:
       - r-desc=1.4.0=r40hc72bb7e_0
       - r-devtools=2.3.2=r40h6115d3f_0
       - r-diffobj=0.3.5=r40hcfec24a_0
-      - r-digest=0.6.28=r40h03ef668_0
+      - r-digest=0.6.29=r40h03ef668_0
       - r-doparallel=1.0.16=r40hc72bb7e_0
       - r-dplyr=1.0.7=r40h03ef668_0
-      - r-dt=0.19=r40hc72bb7e_0
+      - r-dt=0.20=r40hc72bb7e_0
       - r-ellipsis=0.3.2=r40hcfec24a_0
       - r-evaluate=0.14=r40hc72bb7e_2
       - r-fansi=0.5.0=r40hcfec24a_0
@@ -1599,7 +1600,7 @@ env_specs:
       - r-forcats=0.5.1=r40hc72bb7e_0
       - r-foreach=1.5.1=r40hc72bb7e_0
       - r-foreign=0.8_81=r40hcfec24a_0
-      - r-fs=1.5.0=r40h03ef668_0
+      - r-fs=1.5.2=r40h03ef668_0
       - r-future.apply=1.8.1=r40hc72bb7e_0
       - r-future=1.23.0=r40hc72bb7e_0
       - r-gam=1.20=r40h859d828_1
@@ -1608,10 +1609,10 @@ env_specs:
       - r-gert=1.3.2=r40hbd84cd2_0
       - r-ggplot2=3.3.5=r40hc72bb7e_0
       - r-gh=1.3.0=r40hc72bb7e_0
-      - r-git2r=0.28.0=r40hf628c3e_1
+      - r-git2r=0.29.0=r40hf628c3e_0
       - r-gitcreds=0.1.1=r40hc72bb7e_0
       - r-globals=0.14.0=r40hc72bb7e_0
-      - r-glue=1.5.0=r40hcfec24a_0
+      - r-glue=1.5.1=r40hcfec24a_0
       - r-gmp=0.6_2.1=r40h03ef668_0
       - r-gplots=3.1.1=r40hc72bb7e_0
       - r-gridextra=2.3=r40hc72bb7e_1003
@@ -1647,15 +1648,15 @@ env_specs:
       - r-magrittr=2.0.1=r40hcfec24a_1
       - r-markdown=1.1=r40hcfec24a_1
       - r-mass=7.3_54=r40hcfec24a_0
-      - r-matrix=1.3_4=r40he454529_0
+      - r-matrix=1.4_0=r40he454529_0
       - r-matrixstats=0.61.0=r40hcfec24a_0
-      - r-memoise=2.0.0=r40hc72bb7e_0
+      - r-memoise=2.0.1=r40hc72bb7e_0
       - r-mgcv=1.8_38=r40he454529_0
       - r-mime=0.12=r40hcfec24a_0
       - r-mlbench=2.1_3=r40h7f98852_0
       - r-mlr3=0.11.0=r40hc72bb7e_0
       - r-mlr3measures=0.4.0=r40hc72bb7e_0
-      - r-mlr3misc=0.9.4=r40hcfec24a_0
+      - r-mlr3misc=0.9.5=r40hcfec24a_0
       - r-modelr=0.1.8=r40hc72bb7e_0
       - r-munsell=0.5.0=r40hc72bb7e_1003
       - r-nlme=3.1_153=r40h859d828_0
@@ -1664,12 +1665,12 @@ env_specs:
       - r-openssl=1.4.5=r40he36bf35_1
       - r-palmerpenguins=0.1.0=r40hc72bb7e_0
       - r-paradox=0.7.1=r40hc72bb7e_0
-      - r-parallelly=1.28.1=r40hc72bb7e_0
+      - r-parallelly=1.29.0=r40hc72bb7e_0
       - r-pbdzmq=0.3_6=r40h42bf92c_0
       - r-pillar=1.6.4=r40hc72bb7e_0
-      - r-pkgbuild=1.2.0=r40hc72bb7e_0
+      - r-pkgbuild=1.3.0=r40hc72bb7e_0
       - r-pkgconfig=2.0.3=r40hc72bb7e_1
-      - r-pkgload=1.2.3=r40h03ef668_0
+      - r-pkgload=1.2.4=r40h03ef668_0
       - r-plotly=4.9.3=r40hc72bb7e_0
       - r-praise=1.0.0=r40hc72bb7e_1004
       - r-prettyunits=1.1.1=r40hc72bb7e_1
@@ -1691,20 +1692,20 @@ env_specs:
       - r-rcpp=1.0.7=r40h03ef668_0
       - r-rcpparmadillo=0.10.6.0.0=r40h306847c_0
       - r-rcppeigen=0.3.3.9.1=r40h306847c_0
-      - r-rcppparallel=5.0.2=r40h0357c0b_0
+      - r-rcppparallel=5.1.4=r40h03ef668_0
       - r-rda=1.0.2_2.1=r40hc72bb7e_1002
-      - r-readr=2.1.0=r40h03ef668_0
+      - r-readr=2.1.1=r40h03ef668_0
       - r-readxl=1.3.1=r40h2713e49_4
       - r-recommended=4.0=r40hd8ed1ab_1004
       - r-rematch2=2.1.2=r40hc72bb7e_1
       - r-rematch=1.0.1=r40hc72bb7e_1003
-      - r-remotes=2.4.1=r40hc72bb7e_0
+      - r-remotes=2.4.2=r40hc72bb7e_0
       - r-repr=1.1.3=r40h785f33e_0
       - r-reprex=2.0.1=r40hc72bb7e_0
-      - r-rex=1.2.0=r40hc72bb7e_1
+      - r-rex=1.2.1=r40hc72bb7e_0
       - r-rgdal=1.5_23=r40ha276019_0
       - r-rglpk=0.6_4=r40hdde5ff0_1
-      - r-rjava=1.0_5=r40hcfec24a_0
+      - r-rjava=1.0_6=r40hcfec24a_0
       - r-rlang=0.4.12=r40hcfec24a_0
       - r-rmarkdown=2.11=r40hc72bb7e_0
       - r-rmpfr=0.8_7=r40h788b0ad_0
@@ -1718,18 +1719,18 @@ env_specs:
       - r-rvest=1.0.2=r40hc72bb7e_0
       - r-scales=1.1.1=r40hc72bb7e_0
       - r-selectr=0.4_2=r40hc72bb7e_1
-      - r-sessioninfo=1.2.1=r40hc72bb7e_0
+      - r-sessioninfo=1.2.2=r40hc72bb7e_0
       - r-slam=0.1_48=r40hbfbffee_0
-      - r-sp=1.4_5=r40hcfec24a_0
+      - r-sp=1.4_6=r40hcfec24a_0
       - r-spatial=7.3_14=r40hcfec24a_0
       - r-stanheaders=2.21.0_7=r40h5ee154c_0
-      - r-stringi=1.7.5=r40hcabe038_0
+      - r-stringi=1.7.6=r40hcabe038_0
       - r-stringr=1.4.0=r40hc72bb7e_2
       - r-superlearner=2.0_28=r40hc72bb7e_0
       - r-survival=3.2_13=r40hcfec24a_0
       - r-sys=3.4=r40hcfec24a_0
       - r-terra=1.2_10=r40h7c6b07b_0
-      - r-testthat=3.1.0=r40h03ef668_0
+      - r-testthat=3.1.1=r40h03ef668_0
       - r-tibble=3.1.6=r40hcfec24a_0
       - r-tidyr=1.1.4=r40h03ef668_0
       - r-tidyselect=1.1.1=r40hc72bb7e_0
@@ -1738,34 +1739,34 @@ env_specs:
       - r-tzdb=0.2.0=r40h03ef668_0
       - r-udunits2=0.13.1=r40hcfec24a_0
       - r-units=0.6_7=r40h0357c0b_0
-      - r-usethis=2.1.3=r40hc72bb7e_0
+      - r-usethis=2.1.5=r40hc72bb7e_0
       - r-utf8=1.2.2=r40hcfec24a_0
       - r-uuid=1.0_3=r40hcfec24a_0
       - r-v8=3.4.0=r40h17f85f1_2
       - r-vctrs=0.3.8=r40hcfec24a_1
       - r-viridislite=0.4.0=r40hc72bb7e_0
-      - r-vroom=1.5.6=r40h03ef668_0
+      - r-vroom=1.5.7=r40h03ef668_0
       - r-waldo=0.3.1=r40hc72bb7e_0
       - r-whisker=0.4=r40hc72bb7e_1
-      - r-withr=2.4.2=r40hc72bb7e_0
+      - r-withr=2.4.3=r40hc72bb7e_0
       - r-xfun=0.28=r40h03ef668_0
       - r-xgboost=1.4.0=r40h9c3ff4c_0
-      - r-xml2=1.3.2=r40h03ef668_1
+      - r-xml2=1.3.3=r40h03ef668_0
       - r-xopen=1.0.0=r40hc72bb7e_1003
       - r-yaml=2.2.1=r40hcfec24a_1
       - r-zip=2.2.0=r40hcfec24a_0
       - r=4.0=r40hd8ed1ab_1004
       - readline=8.1=h46c0cb4_0
       - sed=4.8=he412f7d_0
-      - setuptools=58.5.3=py38h578d9bd_0
-      - sqlite=3.36.0=h9cd32fc_2
+      - setuptools=59.4.0=py38h578d9bd_0
+      - sqlite=3.37.0=h9cd32fc_0
       - sysroot_linux-64=2.12=he073ed8_15
       - tiledb=2.2.9=h91fcb0e_0
       - tk=8.6.11=h27826a3_1
       - tktable=2.10=hb7b940f_3
       - tzcode=2021e=h7f98852_0
       - tzdata=2021e=he74cb21_0
-      - udunits2=2.2.27.27=hc3e0081_2
+      - udunits2=2.2.27.27=hc3e0081_3
       - wheel=0.37.0=pyhd8ed1ab_1
       - xerces-c=3.2.3=h9d8b166_3
       - xorg-kbproto=1.0.7=h7f98852_1002
@@ -2147,7 +2148,7 @@ env_specs:
       - zstd=1.5.0=ha95c52a_0
   r-4.1.1:
     locked: true
-    env_spec_hash: 9806a9a644a087af494c0a6a79637678863f86ad
+    env_spec_hash: b666bba4017c7d140a57b8856f5dc7d9ad869d2e
     platforms:
     - linux-64
     packages:
@@ -2268,6 +2269,7 @@ env_specs:
       - r-backports=1.3.0=r41hcfec24a_0
       - r-base64enc=0.1_3=r41hcfec24a_1004
       - r-base=4.1.1=hb93adac_1
+      - r-bh=1.75.0_0=r41hc72bb7e_0
       - r-bit64=4.0.5=r41hcfec24a_0
       - r-bit=4.0.4=r41hcfec24a_0
       - r-bitops=1.0_7=r41hcfec24a_0
