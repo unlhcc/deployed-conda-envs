@@ -28,5 +28,5 @@ env_specs:
     packages:
     - n2p2=2.1.4
     - python=3.9
-    - openmpi=4.1.*=external_*
+    - openmpi=4.1.*=external_1000
     channels: []
