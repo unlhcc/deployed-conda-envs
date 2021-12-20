@@ -152,6 +152,22 @@ blast-2.7.1
 When adding additional versions, etc. `anaconda-project` will not recreate
 the `default` environment.
 
+#### Adding an MPI-based package
+
+Packages from conda-forge [support using an external MPI library](https://conda-forge.org/docs/user/tipsandtricks.html#using-external-message-passing-interface-mpi-libraries)
+via "dummy" openmpi and mpich packages.  Currently only packages that were built using
+openmpi 4.1 are supported on HCC clusters.  At install time, an HCC-built dummy openmpi 4.1
+package is used instead of the conda-forge openmpi.  This dummy package is empty, but allows
+the solver to produce correct environments.  The system-wide openmpi/4.1 provided via
+module is then used to run the package's binaries in order to correctly use the
+high-speed fabric, interface with SLURM, etc.  When adding the enviroment spec, the package
+spec `"openmpi=4.1.*=external_*"` is used to specify this dummy package.  For example,
+to add an environment for cp2k 8.2.0 (with python 3.8), run
+
+```
+anaconda-project add-env-spec -n cp2k-8.2.0 cp2k=8.2.0 python=3.8 "openmpi=4.1.*=external_*"
+```
+
 ### Test the environment
 
 The new environment is created in the `envs` subdirectory.  To test it, run
