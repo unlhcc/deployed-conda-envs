@@ -1,0 +1,37 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  ucsc-bigwigaverageoverbed-377:
+    locked: true
+    env_spec_hash: 97b9eb58dad63b14ac348fc2ee4322c83c00f000
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - ca-certificates=2021.10.8=ha878542_0
+      - libgcc-ng=11.2.0=h1d223b6_11
+      - libgomp=11.2.0=h1d223b6_11
+      - libpng=1.6.37=h21135ba_2
+      - libstdcxx-ng=11.2.0=he4da1e4_11
+      - libuuid=2.32.1=h7f98852_1000
+      - libzlib=1.2.11=h36c2ea0_1013
+      - mysql-connector-c=6.1.11=h6eb9d5d_1007
+      - openssl=1.1.1l=h7f98852_0
+      - ucsc-bigwigaverageoverbed=377=h0b8a92a_2
+      - zlib=1.2.11=h36c2ea0_1013
