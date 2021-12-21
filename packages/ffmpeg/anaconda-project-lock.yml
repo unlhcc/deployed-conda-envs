@@ -40,7 +40,7 @@ env_specs:
       - zlib=1.2.11=h516909a_1010
   ffmpeg-4.4.1:
     locked: true
-    env_spec_hash: 9eb15566f9bc65dc73fe9db42610d3a5c9329bcc
+    env_spec_hash: 8137f628f3465b59d14b74eee1e958d3375ab985
     platforms:
     - linux-64
     packages:
@@ -57,7 +57,6 @@ env_specs:
       - lame=3.100=h7f98852_1001
       - libdrm=2.4.109=h7f98852_0
       - libgcc-ng=11.2.0=h1d223b6_11
-      - libgcc=7.2.0=h69d50b8_2
       - libgomp=11.2.0=h1d223b6_11
       - libiconv=1.16=h516909a_0
       - libpciaccess=0.16=h516909a_0
@@ -71,6 +70,6 @@ env_specs:
       - openh264=2.1.1=h780b84a_0
       - svt-av1=0.8.7=h9c3ff4c_1
       - x264=1!161.3030=h7f98852_1
-      - x265=1.9=0
+      - x265=3.5=h4bd325d_1
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h36c2ea0_1013
