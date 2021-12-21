@@ -38,3 +38,39 @@ env_specs:
       - openh264=2.1.1=h780b84a_0
       - x264=1!161.3030=h7f98852_0
       - zlib=1.2.11=h516909a_1010
+  ffmpeg-4.4.1:
+    locked: true
+    env_spec_hash: 9eb15566f9bc65dc73fe9db42610d3a5c9329bcc
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - aom=3.2.0=h9c3ff4c_2
+      - bzip2=1.0.8=h7f98852_4
+      - ffmpeg=4.4.1=h6987444_0
+      - freetype=2.10.4=h0708190_1
+      - gmp=6.2.1=h58526e2_0
+      - gnutls=3.6.13=h85f3911_1
+      - icu=69.1=h9c3ff4c_0
+      - lame=3.100=h7f98852_1001
+      - libdrm=2.4.109=h7f98852_0
+      - libgcc-ng=11.2.0=h1d223b6_11
+      - libgcc=7.2.0=h69d50b8_2
+      - libgomp=11.2.0=h1d223b6_11
+      - libiconv=1.16=h516909a_0
+      - libpciaccess=0.16=h516909a_0
+      - libpng=1.6.37=h21135ba_2
+      - libstdcxx-ng=11.2.0=he4da1e4_11
+      - libva=2.13.0=h7f98852_1
+      - libvpx=1.11.0=h9c3ff4c_3
+      - libxml2=2.9.12=h885dcf4_1
+      - libzlib=1.2.11=h36c2ea0_1013
+      - nettle=3.6=he412f7d_0
+      - openh264=2.1.1=h780b84a_0
+      - svt-av1=0.8.7=h9c3ff4c_1
+      - x264=1!161.3030=h7f98852_1
+      - x265=1.9=0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h36c2ea0_1013
