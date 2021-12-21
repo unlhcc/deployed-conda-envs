@@ -1,0 +1,61 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  cp2k-8.2.0:
+    locked: true
+    env_spec_hash: 1a40dadf8ba47adac71b937d25c552c106e54615
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
+      - ca-certificates=2021.10.8=ha878542_0
+      - cp2k=8.2.0=py38_nompi_1001
+      - fftw=3.3.10=nompi_h77c792f_102
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libblas=3.9.0=12_linux64_openblas
+      - libcblas=3.9.0=12_linux64_openblas
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=11.2.0=h1d223b6_11
+      - libgfortran-ng=11.2.0=h69a702a_11
+      - libgfortran5=11.2.0=h5c6108e_11
+      - liblapack=3.9.0=12_linux64_openblas
+      - libnsl=2.0.0=h7f98852_0
+      - libopenblas=0.3.18=openmp_h3d5035f_0
+      - libstdcxx-ng=11.2.0=he4da1e4_11
+      - libxc=5.1.7=py38hb99dbf8_2
+      - libxsmm=1.17=h2877050_0
+      - libzlib=1.2.11=h36c2ea0_1013
+      - llvm-openmp=12.0.1=h4bd325d_1
+      - mpi=1.0=openmpi
+      - ncurses=6.2=h58526e2_4
+      - numpy=1.21.5=py38h87f13fb_0
+      - openblas=0.3.18=openmp_h35c1ac2_0
+      - openmpi=4.1.2=external_1000
+      - openssl=3.0.0=h7f98852_2
+      - pip=21.3.1=pyhd8ed1ab_0
+      - python=3.8.12=hf930737_2_cpython
+      - python_abi=3.8=2_cp38
+      - readline=8.1=h46c0cb4_0
+      - setuptools=60.0.3=py38h578d9bd_0
+      - spglib=1.16.3=py38h6c62de6_0
+      - sqlite=3.37.0=h9cd32fc_0
+      - tk=8.6.11=h27826a3_1
+      - wheel=0.37.0=pyhd8ed1ab_1
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h36c2ea0_1013
