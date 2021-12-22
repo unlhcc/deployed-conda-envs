@@ -38,3 +38,7 @@ env_specs:
     packages:
     - sra-tools=2.8.2
     channels: []
+  sra-tools-2.11.0:
+    packages:
+    - sra-tools=2.11.0
+    channels: []
