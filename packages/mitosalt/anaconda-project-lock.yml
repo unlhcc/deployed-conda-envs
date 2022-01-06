@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   mitosalt-1.1.1:
     locked: true
-    env_spec_hash: 87e1695cc6cef4244ec67ef36d0ca5ee0e608ea6
+    env_spec_hash: 4b1c183f2a59c1129eadef2aa236d128280762d9
     platforms:
     - linux-64
     packages:
@@ -63,7 +63,7 @@ env_specs:
       - last=941=py36h470a237_2
       - lcms2=2.12=hddcbb42_0
       - ld_impl_linux-64=2.36.1=hea4e1c9_2
-      - ldc=1.20.0=h9a1ace1_1
+      - ldc=1.13.0=h02c9852_1
       - lerc=3.0=h9c3ff4c_0
       - libcurl=7.64.0=h01ee5af_0
       - libdeflate=1.8=h7f98852_0
@@ -107,7 +107,7 @@ env_specs:
       - r-plotrix=3.7_3=r351h6115d3f_1000
       - r-rcolorbrewer=1.1_2=r35h6115d3f_1002
       - readline=7.0=0
-      - sambamba=0.6.8=h682856c_0
+      - sambamba=0.6.8=h89e63da_2
       - samtools=1.8=h46bd0b3_5
       - setuptools=58.0.4=py36h5fab9bb_2
       - sqlite=3.20.1=2
