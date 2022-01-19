@@ -31,3 +31,9 @@ env_specs:
     - python=3.7
     - star=2.5
     channels: []
+  rmats-4.1.2:
+    packages:
+    - rmats=4.1.2
+    - python=3.9
+    - star=2.5
+    channels: []
