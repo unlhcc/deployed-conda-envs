@@ -29,6 +29,7 @@ env_specs:
     packages:
     - jupyterlab=3.0.17
     - python=3.8
+    - ipython=7.31
     - notebook=6.4.0
     - jupyter_conda=5.1.1
     - nodejs=16.5
