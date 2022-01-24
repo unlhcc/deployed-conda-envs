@@ -455,4 +455,6 @@ env_specs:
     - bioconductor-genomicalignments
     - bioconductor-rsubread
     - bioconductor-dada2=1.22
+    - bioconductor-chipenrich
+    - bioconductor-chipenrich.data
     channels: []
