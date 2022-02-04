@@ -50,5 +50,12 @@ env_specs:
     - perl=5.26
     - tbl2asn-forever
     channels: []
+  prokka-1.14.6:
+    packages:
+    - prokka=1.14.6
+    - python=3.7
+    - perl=5.26
+    - tbl2asn-forever
+    channels: []
 packages: []
 channels: []
