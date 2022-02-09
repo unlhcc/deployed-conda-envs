@@ -27,3 +27,15 @@ env_specs:
       - libgcc-ng=7.2.0=hdf63c60_3
       - libgcc=7.2.0=h69d50b8_2
       - libstdcxx-ng=7.2.0=hdf63c60_3
+  fasttree-2.1.11:
+    locked: true
+    env_spec_hash: 40474cba1d3db975bf3c9c20b5b79368065d3575
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - fasttree=2.1.11=h779adbc_0
+      - libgcc-ng=11.2.0=h1d223b6_12
+      - libgomp=11.2.0=h1d223b6_12

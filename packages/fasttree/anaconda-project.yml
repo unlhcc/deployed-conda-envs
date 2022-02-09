@@ -29,3 +29,7 @@ env_specs:
     packages:
     - fasttree=2.1.10
     channels: []
+  fasttree-2.1.11:
+    packages:
+    - fasttree=2.1.11
+    channels: []
