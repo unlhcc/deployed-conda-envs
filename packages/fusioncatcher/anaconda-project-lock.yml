@@ -1,0 +1,87 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  fusioncatcher-1.33:
+    locked: true
+    env_spec_hash: ac77a266085d61e97e8c5355bfc03c20fa9490c9
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bbmap=38.44=h14c3975_0
+      - biopython=1.76=py27h516909a_0
+      - blas=1.0=mkl
+      - blat=35=2
+      - bowtie2=2.3.5.1=py27he513fc3_0
+      - bowtie=1.2.3=py27h2bce143_2
+      - bwa=0.7.12=1
+      - ca-certificates=2021.10.8=ha878542_0
+      - certifi=2019.11.28=py27h8c360ce_1
+      - coreutils=9.0=h7f98852_0
+      - et_xmlfile=1.0.1=py_1001
+      - fastqtk=0.27=h2e03b76_0
+      - fusioncatcher-seqtk=1.2=h5bf99c6_2
+      - fusioncatcher=1.33=hdfd78af_3
+      - grep=3.4=h9d02d08_1
+      - intel-openmp=2022.0.1=h06a4308_3633
+      - jdcal=1.4.1=py_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=11.2.0=h1d223b6_12
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.5.0=h14aa051_20
+      - libgfortran4=7.5.0=h14aa051_20
+      - libgomp=11.2.0=h1d223b6_12
+      - libpng=1.6.37=h21135ba_2
+      - libstdcxx-ng=11.2.0=he4da1e4_12
+      - libuuid=2.32.1=h7f98852_1000
+      - libzlib=1.2.11=h36c2ea0_1013
+      - lzo=2.10=h516909a_1000
+      - lzop=1.04=h3753786_2
+      - mkl=2018.0.3=1
+      - mysql-connector-c=6.1.11=h6eb9d5d_1007
+      - ncurses=6.3=h9c3ff4c_0
+      - numpy=1.13.1=py27hd1b6e02_2
+      - oases=0.2.09=h470a237_1
+      - openjdk=11.0.1=h516909a_1016
+      - openpyxl=2.5.0a2=py27_0
+      - openssl=1.1.1l=h7f98852_0
+      - parallel=20171222=pl5.22.2.1_1
+      - pcre=8.45=h9c3ff4c_0
+      - perl=5.22.2.1=0
+      - picard=2.10.6=py27_0
+      - pigz=2.3.4=hed695b0_1
+      - pip=20.1.1=pyh9f0ad1d_0
+      - python=2.7.15=h5a48372_1011_cpython
+      - python_abi=2.7=1_cp27mu
+      - readline=8.1=h46c0cb4_0
+      - samtools=0.1.19=2
+      - setuptools=44.0.0=py27_0
+      - sqlite=3.37.0=h9cd32fc_0
+      - sra-tools=2.9.6=hf484d3e_0
+      - star=2.7.2b=0
+      - tbb=2020.2=h4bd325d_4
+      - tk=8.6.11=h27826a3_1
+      - ucsc-fatotwobit=377=ha8a8165_5
+      - ucsc-liftover=377=ha8a8165_4
+      - velvet=1.2.10=h5bf99c6_4
+      - wheel=0.37.1=pyhd8ed1ab_0
+      - xlrd=1.0.0=py27_1
+      - zip=3.0=h7f98852_1
+      - zlib=1.2.11=h36c2ea0_1013
