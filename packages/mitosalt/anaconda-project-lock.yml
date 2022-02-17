@@ -46,7 +46,7 @@ env_specs:
       - gcc_impl_linux-64=7.5.0=hda68d29_13
       - gcc_linux-64=7.5.0=h47867f9_33
       - gettext=0.19.8.1=hf34092f_1004
-      - gfortran_impl_linux-64=7.5.0=h56cb351_19
+      - gfortran_impl_linux-64=7.5.0=h56cb351_20
       - gfortran_linux-64=7.5.0=h78c8a43_33
       - giflib=5.2.1=h36c2ea0_2
       - glib=2.56.2=had28632_1001
@@ -57,7 +57,7 @@ env_specs:
       - hisat2=2.1.0=py36hc9558a2_4
       - icu=58.2=hf484d3e_1000
       - jbig=2.1=h7f98852_2003
-      - jpeg=9d=h36c2ea0_0
+      - jpeg=9e=h7f98852_0
       - kernel-headers_linux-64=2.6.32=he073ed8_15
       - krb5=1.16.3=hc83ff2d_1000
       - last=941=py36h470a237_2
@@ -66,28 +66,28 @@ env_specs:
       - ldc=1.13.0=h02c9852_1
       - lerc=3.0=h9c3ff4c_0
       - libcurl=7.64.0=h01ee5af_0
-      - libdeflate=1.8=h7f98852_0
+      - libdeflate=1.10=h7f98852_0
       - libedit=3.1.20170329=0
       - libffi=3.2.1=he1b5a44_1007
-      - libgcc-ng=11.2.0=h1d223b6_11
-      - libgfortran-ng=7.5.0=h14aa051_19
-      - libgfortran4=7.5.0=h14aa051_19
-      - libgomp=11.2.0=h1d223b6_11
+      - libgcc-ng=11.2.0=h1d223b6_12
+      - libgfortran-ng=7.5.0=h14aa051_20
+      - libgfortran4=7.5.0=h14aa051_20
+      - libgomp=11.2.0=h1d223b6_12
       - libiconv=1.16=h516909a_0
       - libimagequant=2.15.1=h7f98852_0
       - libpng=1.6.37=h21135ba_2
       - libssh2=1.8.0=h1ad7b7a_1003
-      - libstdcxx-ng=11.2.0=he4da1e4_11
-      - libtiff=4.3.0=h6f004c6_2
+      - libstdcxx-ng=11.2.0=he4da1e4_12
+      - libtiff=4.3.0=h542a066_3
       - libuuid=2.32.1=h7f98852_1000
-      - libwebp-base=1.2.1=h7f98852_0
-      - libwebp=1.2.1=h3452ae3_0
+      - libwebp-base=1.2.2=h7f98852_1
+      - libwebp=1.2.2=h3452ae3_0
       - libxcb=1.13=h7f98852_1004
       - libxml2=2.9.9=h13577e0_2
       - libzlib=1.2.11=h36c2ea0_1013
       - lz4-c=1.9.3=h9c3ff4c_1
       - make=4.3=hd18ef5c_1
-      - mitosalt=1.1.1=h121872b_0
+      - mitosalt=1.1.1=h121872b_1
       - mysql-connector-c=6.1.11=hab6429c_1002
       - ncurses=5.9=10
       - openjdk=11.0.1=h516909a_1016
@@ -112,7 +112,7 @@ env_specs:
       - setuptools=58.0.4=py36h5fab9bb_2
       - sqlite=3.20.1=2
       - sysroot_linux-64=2.12=he073ed8_15
-      - tk=8.6.11=h27826a3_1
+      - tk=8.6.12=h27826a3_0
       - tktable=2.10=hb7b940f_3
       - ucsc-bedgraphtobigwig=366=hdd26221_0
       - ucsc-fasize=366=h5eb252a_0
@@ -131,4 +131,4 @@ env_specs:
       - xorg-xproto=7.0.31=h7f98852_1007
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h36c2ea0_1013
-      - zstd=1.5.1=ha95c52a_0
+      - zstd=1.5.2=ha95c52a_0
