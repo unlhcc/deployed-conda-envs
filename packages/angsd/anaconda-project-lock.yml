@@ -1,0 +1,47 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  angsd-0.935:
+    locked: true
+    env_spec_hash: 31c842bc82d997f5106e8e3aca6f659f4f608d42
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - angsd=0.935=hb264ae4_3
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.18.1=h7f98852_0
+      - ca-certificates=2021.10.8=ha878542_0
+      - htslib=1.14=h9753748_2
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.19.2=h3790be6_4
+      - libcurl=7.81.0=h2574ce0_0
+      - libdeflate=1.10=h7f98852_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libgcc-ng=11.2.0=h1d223b6_12
+      - libgomp=11.2.0=h1d223b6_12
+      - libnghttp2=1.47.0=h727a467_0
+      - libssh2=1.10.0=ha56f1ee_2
+      - libstdcxx-ng=11.2.0=he4da1e4_12
+      - libzlib=1.2.11=h36c2ea0_1013
+      - ncurses=6.3=h9c3ff4c_0
+      - openssl=1.1.1l=h7f98852_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h36c2ea0_1013
