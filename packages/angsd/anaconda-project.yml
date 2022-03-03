@@ -28,3 +28,7 @@ env_specs:
     packages:
     - angsd=0.935
     channels: []
+  angsd-0.937:
+    packages:
+    - angsd=0.937
+    channels: []
