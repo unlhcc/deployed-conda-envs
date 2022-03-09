@@ -51,7 +51,7 @@ env_specs:
     - ipympl=0.7
     - jupyter-archive=3.0
     - jupyterlab-latex=3.0
-    - hcc-jupyter-kernels=2021.12.10
+    - hcc-jupyter-kernels=2022.03.01
     channels: []
 # Remove the default python3 kernel as we provide that in the hcc-jupyter-kernels package
 commands:
