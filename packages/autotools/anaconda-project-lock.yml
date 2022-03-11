@@ -17,19 +17,29 @@ locking_enabled: true
 env_specs:
   autotools-1.0:
     locked: true
-    env_spec_hash: caa55e5fa4121cb12ebd9673eb909e20782d5305
+    env_spec_hash: e4b5ccab7cf3daf7833febe98cdb8e37e81c95b1
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=1_gnu
-      - autoconf=2.69=pl5320h36c2ea0_10
-      - automake=1.16.2=pl5320ha770c72_3
-      - libgcc-ng=9.3.0=h2828fa1_19
-      - libgomp=9.3.0=h2828fa1_19
-      - libtool=2.4.6=h58526e2_1007
+      - autoconf=2.69=pl5321hd708f79_11
+      - automake=1.16.5=pl5321ha770c72_0
+      - gettext=0.21.0=hf68c758_0
+      - icu=69.1=h9c3ff4c_0
+      - libgcc-ng=11.2.0=h1d223b6_13
+      - libgomp=11.2.0=h1d223b6_13
+      - libiconv=1.16=h516909a_0
+      - libnsl=2.0.0=h7f98852_0
+      - libstdcxx-ng=11.2.0=he4da1e4_13
+      - libtool=2.4.6=h9c3ff4c_1008
+      - libxml2=2.9.12=h885dcf4_1
+      - libzlib=1.2.11=h36c2ea0_1013
       - m4=1.4.18=h516909a_1001
       - make=4.3=hd18ef5c_1
       - patch=2.7.6=h7f98852_1002
-      - perl=5.32.0=h36c2ea0_0
+      - perl=5.32.1=2_h7f98852_perl5
+      - pkg-config=0.29.2=h36c2ea0_1008
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h36c2ea0_1013
