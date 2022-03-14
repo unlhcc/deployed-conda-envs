@@ -169,6 +169,8 @@ env_specs:
     - scikit-plot
     - ipykernel
     - tensorflow-cpu=2.6.0
+    - pandas
+    - seaborn
     channels:
     - pytorch
   pytorch-1.10.0-py39:
@@ -183,5 +185,7 @@ env_specs:
     - scikit-plot
     - ipykernel
     - tensorflow-cpu=2.6.0
+    - pandas
+    - seaborn
     channels:
     - pytorch
