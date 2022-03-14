@@ -99,6 +99,8 @@ env_specs:
     - ipykernel
     - cudatoolkit=11.2
     - tensorflow-gpu=2.6.0
+    - pandas
+    - seaborn
     channels: []
   pytorch-gpu-1.10.0-py38:
     packages:
@@ -113,4 +115,6 @@ env_specs:
     - ipykernel
     - cudatoolkit=11.2
     - tensorflow-gpu=2.6.0
+    - pandas
+    - seaborn
     channels: []
