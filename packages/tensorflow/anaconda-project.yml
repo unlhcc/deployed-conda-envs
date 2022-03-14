@@ -408,6 +408,7 @@ env_specs:
     - scikit-plot
     - pandas
     - ipykernel
+    - seaborn
     channels: []
   tensorflow-2.7.0-py39:
     packages:
@@ -421,5 +422,6 @@ env_specs:
     - scikit-plot
     - pandas
     - ipykernel
+    - seaborn
     channels: []
 packages: []
