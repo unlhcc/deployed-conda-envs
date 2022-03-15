@@ -411,26 +411,28 @@ env_specs:
     - tensorflow-gpu=2.7.0
     - python=3.8
     - cudatoolkit=11.2
-    - matplotlib=3.5.1
-    - scipy=1.8.0
-    - numpy=1.22.2
-    - scikit-learn=1.0.2
-    - scikit-plot=0.3.7
-    - pandas=1.4.1
-    - ipykernel=6.9.1
+    - matplotlib
+    - scipy
+    - numpy
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
     - tensorflow-probability=0.15.0
+    - seaborn
     channels: []
   tensorflow-gpu-2.7.0-py39:
     packages:
     - tensorflow-gpu=2.7.0
     - python=3.9
     - cudatoolkit=11.2
-    - matplotlib=3.5.1
-    - scipy=1.8.0
-    - numpy=1.22.2
-    - scikit-learn=1.0.2
-    - scikit-plot=0.3.7
-    - pandas=1.4.1
-    - ipykernel=6.9.1
+    - matplotlib
+    - scipy
+    - numpy
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
     - tensorflow-probability=0.15.0
+    - seaborn
     channels: []
