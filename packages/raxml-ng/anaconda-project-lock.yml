@@ -15,9 +15,9 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  raxml-ng-1.0.2:
+  raxml-ng-1.1.0:
     locked: true
-    env_spec_hash: eaa05f58c5e530db30331d0c19c2c1f7d575a42e
+    env_spec_hash: 3d1cd29bc06ecd0f959556db8e6c2fa9f979b931
     platforms:
     - linux-64
     packages:
@@ -25,12 +25,25 @@ env_specs:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=1_gnu
       - gmp=6.2.1=h58526e2_0
-      - libgcc-ng=9.3.0=h2828fa1_19
-      - libgfortran-ng=9.3.0=hff62375_19
-      - libgfortran5=9.3.0=hff62375_19
-      - libgomp=9.3.0=h2828fa1_19
-      - libstdcxx-ng=9.3.0=h6de172a_19
+      - libgcc-ng=11.2.0=h1d223b6_14
+      - libgomp=11.2.0=h1d223b6_14
+      - libstdcxx-ng=11.2.0=he4da1e4_14
       - mpi=1.0=openmpi
-      - openmpi=4.1.0=hbfc84c5_4
-      - raxml-ng=1.0.2=h32fcf60_1
-      - zlib=1.2.11=h516909a_1010
+      - openmpi=4.1.2=external_1000
+      - raxml-ng=1.1.0=h22e3c99_1
+  raxml-ng-1.0.3:
+    locked: true
+    env_spec_hash: a2bdd75ecaa46fb8c4c65a2ba81beeb407311ca9
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - gmp=6.2.1=h58526e2_0
+      - libgcc-ng=11.2.0=h1d223b6_14
+      - libgomp=11.2.0=h1d223b6_14
+      - libstdcxx-ng=11.2.0=he4da1e4_14
+      - mpi=1.0=openmpi
+      - openmpi=4.1.2=external_1000
+      - raxml-ng=1.0.3=h32fcf60_0

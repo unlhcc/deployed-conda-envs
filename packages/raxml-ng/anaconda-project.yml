@@ -25,7 +25,13 @@ description: RAxML-NG is a phylogenetic tree inference tool which uses maximum-l
 platforms:
 - linux-64
 env_specs:
-  raxml-ng-1.0.2:
+  raxml-ng-1.1.0:
     packages:
-    - raxml-ng=1.0.2
+    - raxml-ng=1.1.0
+    - openmpi=4.1.*=external_1000
+    channels: []
+  raxml-ng-1.0.3:
+    packages:
+    - raxml-ng=1.0.3
+    - openmpi=4.1.*=external_1000
     channels: []
