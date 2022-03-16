@@ -1,0 +1,110 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  raptorx-3dmodeling-2022.01.26:
+    locked: true
+    env_spec_hash: 1948b2b429547fc00f3fbb83bdf0bbe67870b9c1
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
+      - backports.functools_lru_cache=1.6.1=py_0
+      - backports=1.0=py_2
+      - backports_abc=0.5=py_1
+      - biopython=1.76=py27h516909a_0
+      - ca-certificates=2021.10.8=ha878542_0
+      - certifi=2019.11.28=py27h8c360ce_1
+      - cudatoolkit=8.0=0
+      - cudnn=7.0.5=cuda8.0_0
+      - cycler=0.10.0=py_2
+      - freetype=2.10.4=h0708190_1
+      - functools32=3.2.3.2=py_3
+      - futures=3.3.0=py27h8c360ce_1
+      - gettext=0.19.8.1=hf34092f_1004
+      - hhsuite=3.3.0=py27pl5321h95a95ce_5
+      - icu=64.2=he1b5a44_1
+      - jbig=2.1=h7f98852_2003
+      - joblib=0.14.1=pyh9f0ad1d_0
+      - jpeg=9e=h7f98852_0
+      - kiwisolver=1.1.0=py27h9e3301b_1
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - lerc=3.0=h9c3ff4c_0
+      - libblas=3.9.0=8_openblas
+      - libcblas=3.9.0=8_openblas
+      - libdeflate=1.10=h7f98852_0
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=11.2.0=h1d223b6_14
+      - libgfortran-ng=7.5.0=h14aa051_20
+      - libgfortran4=7.5.0=h14aa051_20
+      - libgpuarray=0.7.6=h7f98852_1003
+      - libidn2=2.3.2=h7f98852_0
+      - liblapack=3.9.0=8_openblas
+      - libnsl=2.0.0=h7f98852_0
+      - libopenblas=0.3.12=pthreads_hb3c22a3_1
+      - libpng=1.6.37=h21135ba_2
+      - libstdcxx-ng=11.2.0=he4da1e4_14
+      - libtiff=4.3.0=h542a066_3
+      - libunistring=0.9.10=h7f98852_0
+      - libwebp-base=1.2.2=h7f98852_1
+      - libzlib=1.2.11=h36c2ea0_1013
+      - llvm-openmp=13.0.1=he0ac6c6_1
+      - lz4-c=1.9.3=h9c3ff4c_1
+      - mako=1.0.14=py_0
+      - markupsafe=1.1.1=py27hdf8410d_1
+      - matplotlib-base=2.2.5=py27h250f245_1
+      - mkl-service=2.3.0=py27h516909a_0
+      - mkl=2019.5=281
+      - msgpack-python=1.0.0=py27h9e3301b_1
+      - ncurses=6.3=h9c3ff4c_0
+      - numpy=1.14.6=py27h95a1406_1201
+      - olefile=0.46=pyh9f0ad1d_1
+      - openssl=1.1.1l=h7f98852_0
+      - parallel=20220222=ha770c72_0
+      - perl=5.32.1=2_h7f98852_perl5
+      - pillow=6.2.1=py27hd70f55b_1
+      - pip=20.1.1=pyh9f0ad1d_0
+      - posix_ipc=1.0.5=py27h7eb2403_0
+      - pygpu=0.7.6=py27hc1659b7_1000
+      - pyparsing=2.4.7=pyh9f0ad1d_0
+      - python-dateutil=2.8.1=py_0
+      - python=2.7.15=h5a48372_1011_cpython
+      - python_abi=2.7=1_cp27mu
+      - pytz=2020.1=pyh9f0ad1d_0
+      - raptorx-3dmodeling=2022.01.26=py27h368bae6_0
+      - readline=8.1=h46c0cb4_0
+      - scikit-learn=0.20.3=py27ha8026db_1
+      - scikit-plot=0.3.7=py_1
+      - scipy=1.2.1=py27h921218d_2
+      - setuptools=44.0.0=py27_0
+      - shared-ndarray=1.1.1=pyh121872b_0
+      - singledispatch=3.6.1=pyh44b312d_0
+      - six=1.16.0=pyh6c4a22f_0
+      - sqlite=3.37.1=h4ff8645_0
+      - subprocess32=3.5.4=py27h516909a_0
+      - theano=1.0.3=py27hfc679d8_1
+      - tk=8.6.12=h27826a3_0
+      - toolchain=2.4.0=0
+      - toolchain_c_linux-64=2.4.0=0
+      - toolchain_cxx_linux-64=2.4.0=0
+      - tornado=5.1.1=py27h14c3975_1000
+      - wget=1.20.3=ha56f1ee_1
+      - wheel=0.37.1=pyhd8ed1ab_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h36c2ea0_1013
+      - zstd=1.5.2=ha95c52a_0
