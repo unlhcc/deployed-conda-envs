@@ -34,4 +34,11 @@ env_specs:
     packages:
     - afni=21.1.06
     - r-tidyverse
+    - r-base=4.1
+    channels: []
+  afni-22.0.21:
+    packages:
+    - afni=22.0.21
+    - r-tidyverse
+    - r-base=4.1
     channels: []
