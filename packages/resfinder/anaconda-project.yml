@@ -29,3 +29,7 @@ env_specs:
     packages:
     - resfinder=4.1.11
     channels: []
+commands:
+  resfinder-db:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/resfinder && export RESFINDER_DB=$HCC_APPS_DB_BCRF_PATH/resfinder && download-db.sh
+    env_spec: resfinder-4.1.11
