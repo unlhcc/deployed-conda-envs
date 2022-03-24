@@ -139,3 +139,40 @@ env_specs:
       - perl=5.32.0=h36c2ea0_0
       - tk=8.6.10=h21135ba_1
       - zlib=1.2.11=h516909a_1010
+  git-2.35.1:
+    locked: true
+    env_spec_hash: 8fc4407d42504b141b08b242a76e8d7163394361
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_gnu
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.18.1=h7f98852_0
+      - ca-certificates=2021.10.8=ha878542_0
+      - curl=7.82.0=h2283fc2_0
+      - expat=2.4.7=h27087fc_0
+      - gettext=0.19.8.1=h73d1719_1008
+      - git-lfs=3.1.2=ha770c72_0
+      - git=2.35.1=pl5321h04cb727_0
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.19.3=h08a2579_0
+      - libcurl=7.82.0=h2283fc2_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=11.2.0=h1d223b6_14
+      - libgomp=11.2.0=h1d223b6_14
+      - libiconv=1.16=h516909a_0
+      - libnghttp2=1.47.0=he49606f_0
+      - libnsl=2.0.0=h7f98852_0
+      - libssh2=1.10.0=ha35d2d1_2
+      - libstdcxx-ng=11.2.0=he4da1e4_14
+      - libzlib=1.2.11=h36c2ea0_1013
+      - ncurses=6.3=h9c3ff4c_0
+      - openssl=3.0.2=h166bdaf_1
+      - pcre2=10.37=h032f7d1_0
+      - perl=5.32.1=2_h7f98852_perl5
+      - tk=8.6.12=h27826a3_0
+      - zlib=1.2.11=h36c2ea0_1013
