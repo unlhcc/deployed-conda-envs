@@ -36,3 +36,7 @@ env_specs:
     packages:
     - nano=5.7
     channels: []
+  nano-6.2:
+    packages:
+    - nano=6.2
+    channels: []
