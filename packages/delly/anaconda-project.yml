@@ -14,7 +14,7 @@ name: delly
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: Structural variant discovery by integrated paired-end and split-read
-  analysis.  
+  analysis.
 
 
 #
@@ -32,4 +32,8 @@ env_specs:
   delly-0.8.3:
     packages:
     - delly=0.8.3
+    channels: []
+  delly-0.9.1:
+    packages:
+    - delly=0.9.1
     channels: []
