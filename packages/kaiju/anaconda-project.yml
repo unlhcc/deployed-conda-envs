@@ -32,3 +32,7 @@ env_specs:
     - perl=5.26
     - python=3.8
     channels: []
+  kaiju-1.8.2:
+    packages:
+    - kaiju=1.8.2
+    channels: []
