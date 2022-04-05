@@ -1840,3 +1840,38 @@ env_specs:
     - conda-forge
     - bioconda
     - defaults
+  qiime2-2022.2.0:
+    packages:
+    - qiime2=2022.2.0
+    - q2-alignment=2022.2.0
+    - q2-composition=2022.2.0
+    - q2-cutadapt=2022.2.0
+    - q2-dada2=2022.2.0
+    - q2-deblur=2022.2.0
+    - q2-demux=2022.2.0
+    - q2-diversity=2022.2.0
+    - q2-diversity-lib=2022.2.0
+    - q2-emperor=2022.2.0
+    - q2-feature-classifier=2022.2.0
+    - q2-feature-table=2022.2.0
+    - q2-fragment-insertion=2022.2.0
+    - q2-gneiss=2022.2.0
+    - q2-longitudinal=2022.2.0
+    - q2-metadata=2022.2.0
+    - q2-mystery-stew=2022.2.0
+    - q2-phylogeny=2022.2.0
+    - q2-quality-control=2022.2.0
+    - q2-quality-filter=2022.2.0
+    - q2-sample-classifier=2022.2.0
+    - q2-taxa=2022.2.0
+    - q2-types=2022.2.0
+    - q2-vsearch=2022.2.0
+    - q2cli=2022.2.0
+    - q2galaxy=2022.2.0
+    - q2templates=2022.2.0
+    channels:
+    - qiime2/label/r2022.2
+    - conda-forge
+    - bioconda
+    - defaults
+    - hcc
