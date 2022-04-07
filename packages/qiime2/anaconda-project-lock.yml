@@ -2404,7 +2404,7 @@ env_specs:
       - zstd=1.5.2=ha95c52a_0
   qiime2-2022.2.0:
     locked: true
-    env_spec_hash: 591ff04474a93c98e32557396f62ce04e44a7e8c
+    env_spec_hash: 8b83a902ff320a80fce72fffd5fe6e524702c63d
     platforms:
     - linux-64
     packages:
@@ -2427,6 +2427,7 @@ env_specs:
       - bioconductor-biobase=2.54.0=r41h5c21468_1
       - bioconductor-biocgenerics=0.40.0=r41hdfd78af_0
       - bioconductor-biocparallel=1.28.3=r41h619a076_0
+      - bioconductor-biomformat=1.22.0=r41hdfd78af_0
       - bioconductor-biostrings=2.62.0=r41h5c21468_1
       - bioconductor-dada2=1.22.0=r41h619a076_1
       - bioconductor-delayedarray=0.20.0=r41h5c21468_1
@@ -2436,6 +2437,11 @@ env_specs:
       - bioconductor-genomicranges=1.46.1=r41h5c21468_0
       - bioconductor-iranges=2.28.0=r41h5c21468_1
       - bioconductor-matrixgenerics=1.6.0=r41hdfd78af_0
+      - bioconductor-multtest=2.50.0=r41h5c21468_1
+      - bioconductor-phyloseq=1.38.0=r41hdfd78af_0
+      - bioconductor-rhdf5=2.38.0=r41h8b353c4_2
+      - bioconductor-rhdf5filters=1.6.0=r41h619a076_1
+      - bioconductor-rhdf5lib=1.16.0=r41h5c21468_1
       - bioconductor-rhtslib=1.26.0=r41h5c21468_1
       - bioconductor-rsamtools=2.10.0=r41h619a076_1
       - bioconductor-s4vectors=0.32.3=r41h5c21468_0
@@ -2477,7 +2483,7 @@ env_specs:
       - deicode=0.2.4=py38h32f6830_0
       - dendropy=4.5.2=pyh3252c3a_0
       - dill=0.3.4=pyhd8ed1ab_0
-      - dnaio=0.8.0=py38hbff2b2d_0
+      - dnaio=0.8.1=py38hbff2b2d_0
       - emperor=1.0.3=py38h578d9bd_0
       - entrez-direct=16.2=he881be0_0
       - entrypoints=0.4=pyhd8ed1ab_0
@@ -2503,6 +2509,7 @@ env_specs:
       - gfortran_impl_linux-64=10.3.0=h73f4979_14
       - gfortran_linux-64=10.3.0=hb09a455_9
       - giflib=5.2.1=h36c2ea0_2
+      - gmp=6.2.1=h58526e2_0
       - gneiss=0.4.6=py_0
       - graphite2=1.3.13=h58526e2_1001
       - gsl=2.7=he838d99_0
@@ -2534,7 +2541,7 @@ env_specs:
       - joblib=1.1.0=pyhd8ed1ab_0
       - jpeg=9e=h7f98852_0
       - jsonschema=4.4.0=pyhd8ed1ab_0
-      - jupyter_client=7.2.1=pyhd8ed1ab_0
+      - jupyter_client=7.2.2=pyhd8ed1ab_1
       - jupyter_core=4.9.2=py38h578d9bd_0
       - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
       - jupyterlab_widgets=1.1.0=pyhd8ed1ab_0
@@ -2562,6 +2569,7 @@ env_specs:
       - libgcc=7.2.0=h69d50b8_2
       - libgfortran-ng=11.2.0=h69a702a_14
       - libgfortran5=11.2.0=h5c6108e_14
+      - libgit2=1.4.2=h6529ace_0
       - libglib=2.70.2=h174f98d_4
       - libgomp=11.2.0=h1d223b6_14
       - libiconv=1.16=h516909a_0
@@ -2612,7 +2620,7 @@ env_specs:
       - nbconvert-pandoc=6.4.5=pyhd8ed1ab_2
       - nbconvert=6.4.5=pyhd8ed1ab_2
       - nbformat=5.3.0=pyhd8ed1ab_0
-      - ncurses=6.3=h9c3ff4c_0
+      - ncurses=6.3=h27087fc_1
       - nest-asyncio=1.5.5=pyhd8ed1ab_0
       - networkx=2.7.1=pyhd8ed1ab_0
       - nose=1.3.7=py_1006
@@ -2637,9 +2645,9 @@ env_specs:
       - perl-archive-tar=2.40=pl5321hdfd78af_0
       - perl-carp=1.50=pl5321hd8ed1ab_0
       - perl-common-sense=3.75=pl5321hdfd78af_0
-      - perl-compress-raw-bzip2=2.101=pl5321h87f3376_1
-      - perl-compress-raw-zlib=2.101=pl5321h87f3376_2
-      - perl-encode=3.16=pl5321hec16e2b_1
+      - perl-compress-raw-bzip2=2.103=pl5321h87f3376_0
+      - perl-compress-raw-zlib=2.103=pl5321h87f3376_0
+      - perl-encode=3.17=pl5321hec16e2b_0
       - perl-exporter-tiny=1.002002=pl5321hdfd78af_0
       - perl-exporter=5.74=pl5321hd8ed1ab_0
       - perl-extutils-makemaker=7.64=pl5321hd8ed1ab_0
@@ -2717,77 +2725,143 @@ env_specs:
       - q2templates=2022.2.0=py38_0
       - qiime2=2022.2.0=py38_0
       - qt=5.12.9=h1304e3e_6
+      - r-ade4=1.7_18=r41he454529_0
+      - r-ape=5.6_2=r41h43535f1_0
+      - r-askpass=1.1=r41hcfec24a_2
+      - r-assertthat=0.2.1=r41hc72bb7e_2
       - r-backports=1.4.1=r41hcfec24a_0
+      - r-base64enc=0.1_3=r41hcfec24a_1004
       - r-base=4.1.3=hd930d0e_0
       - r-bh=1.78.0_0=r41hc72bb7e_0
       - r-bitops=1.0_7=r41hcfec24a_0
       - r-breakaway=3.0=r41hc72bb7e_1
+      - r-brew=1.0_7=r41hc72bb7e_0
       - r-brio=1.1.3=r41hcfec24a_0
+      - r-cachem=1.0.6=r41hcfec24a_0
       - r-callr=3.7.0=r41hc72bb7e_0
       - r-cli=3.2.0=r41h03ef668_0
+      - r-clipr=0.8.0=r41hc72bb7e_0
       - r-cluster=2.1.3=r41h8da6f51_0
+      - r-codetools=0.2_18=r41hc72bb7e_0
       - r-colorspace=2.0_3=r41h06615bd_0
+      - r-commonmark=1.8.0=r41h06615bd_0
+      - r-covr=3.5.1=r41h03ef668_0
+      - r-cpp11=0.4.2=r41hc72bb7e_0
       - r-crayon=1.5.1=r41hc72bb7e_0
+      - r-credentials=1.3.2=r41hc72bb7e_0
+      - r-crosstalk=1.2.0=r41hc72bb7e_0
+      - r-curl=4.3.2=r41hcfec24a_0
+      - r-data.table=1.14.2=r41hcfec24a_0
       - r-desc=1.4.1=r41hc72bb7e_0
+      - r-devtools=2.4.3=r41hc72bb7e_0
       - r-diffobj=0.3.5=r41hcfec24a_0
       - r-digest=0.6.29=r41h03ef668_0
+      - r-dplyr=1.0.8=r41h7525677_0
+      - r-dt=0.22=r41hc72bb7e_0
       - r-ellipsis=0.3.2=r41hcfec24a_0
       - r-evaluate=0.15=r41hc72bb7e_0
       - r-fansi=1.0.3=r41h06615bd_0
       - r-farver=2.1.0=r41h03ef668_0
+      - r-fastmap=1.1.0=r41h03ef668_0
+      - r-foreach=1.5.2=r41hc72bb7e_0
       - r-formatr=1.12=r41hc72bb7e_0
+      - r-fs=1.5.2=r41h7525677_1
       - r-futile.logger=1.4.3=r41hc72bb7e_1003
       - r-futile.options=1.0.1=r41hc72bb7e_1002
+      - r-generics=0.1.2=r41hc72bb7e_0
+      - r-gert=1.5.0=r41h30f61c7_1
       - r-ggplot2=3.3.5=r41hc72bb7e_0
+      - r-gh=1.3.0=r41hc72bb7e_0
+      - r-git2r=0.30.1=r41h96773ce_0
+      - r-gitcreds=0.1.1=r41hc72bb7e_0
       - r-glue=1.6.2=r41h06615bd_0
       - r-gtable=0.3.0=r41hc72bb7e_3
+      - r-highr=0.9=r41hc72bb7e_0
+      - r-hms=1.1.1=r41hc72bb7e_0
+      - r-htmltools=0.5.2=r41h03ef668_0
+      - r-htmlwidgets=1.5.4=r41hc72bb7e_0
+      - r-httr=1.4.2=r41hc72bb7e_0
       - r-hwriter=1.3.2=r41hc72bb7e_1003
+      - r-igraph=1.3.0=r41hf10d5bd_0
+      - r-ini=0.3.1=r41hc72bb7e_1003
       - r-isoband=0.2.5=r41h03ef668_0
+      - r-iterators=1.0.14=r41hc72bb7e_0
       - r-jpeg=0.1_9=r41hcfec24a_0
+      - r-jquerylib=0.1.4=r41hc72bb7e_0
       - r-jsonlite=1.8.0=r41h06615bd_0
+      - r-knitr=1.38=r41hc72bb7e_0
       - r-labeling=0.4.2=r41hc72bb7e_1
       - r-lambda.r=1.2.4=r41hc72bb7e_1
+      - r-later=1.2.0=r41h03ef668_0
       - r-lattice=0.20_45=r41hcfec24a_0
       - r-latticeextra=0.6_29=r41hc72bb7e_1
+      - r-lazyeval=0.2.2=r41hcfec24a_2
       - r-lifecycle=1.0.1=r41hc72bb7e_0
       - r-magrittr=2.0.3=r41h06615bd_0
       - r-mass=7.3_56=r41h06615bd_0
       - r-matrix=1.4_1=r41h0154571_0
       - r-matrixstats=0.61.0=r41hcfec24a_0
+      - r-memoise=2.0.1=r41hc72bb7e_0
       - r-mgcv=1.8_40=r41h0154571_0
+      - r-mime=0.12=r41hcfec24a_0
       - r-munsell=0.5.0=r41hc72bb7e_1004
       - r-nlme=3.1_157=r41h8da6f51_0
+      - r-openssl=2.0.0=r41hfaab4ff_0
       - r-permute=0.9_7=r41hc72bb7e_0
       - r-pillar=1.7.0=r41hc72bb7e_0
+      - r-pixmap=0.4_12=r41hc72bb7e_0
+      - r-pkgbuild=1.3.1=r41hc72bb7e_0
       - r-pkgconfig=2.0.3=r41hc72bb7e_1
       - r-pkgload=1.2.4=r41h03ef668_0
       - r-plyr=1.8.7=r41h7525677_0
       - r-png=0.1_7=r41hcfec24a_1004
       - r-praise=1.0.0=r41hc72bb7e_1005
+      - r-prettyunits=1.1.1=r41hc72bb7e_1
       - r-processx=3.5.3=r41h06615bd_0
+      - r-progress=1.2.2=r41hc72bb7e_2
+      - r-promises=1.2.0.1=r41h03ef668_0
       - r-ps=1.6.0=r41hcfec24a_0
+      - r-purrr=0.3.4=r41hcfec24a_1
       - r-r6=2.5.1=r41hc72bb7e_0
+      - r-rappdirs=0.3.3=r41hcfec24a_0
+      - r-rcmdcheck=1.4.0=r41h785f33e_0
       - r-rcolorbrewer=1.1_3=r41h785f33e_0
       - r-rcpp=1.0.8.3=r41h7525677_0
       - r-rcppparallel=5.1.5=r41h03ef668_0
       - r-rcurl=1.98_1.6=r41hcfec24a_0
       - r-rematch2=2.1.2=r41hc72bb7e_1
+      - r-remotes=2.4.2=r41hc72bb7e_0
       - r-reshape2=1.4.4=r41h03ef668_1
+      - r-rex=1.2.1=r41hc72bb7e_0
       - r-rlang=1.0.2=r41h7525677_0
+      - r-roxygen2=7.1.2=r41h03ef668_0
       - r-rprojroot=2.0.3=r41hc72bb7e_0
       - r-rstudioapi=0.13=r41hc72bb7e_0
+      - r-rversions=2.1.1=r41hc72bb7e_0
       - r-scales=1.1.1=r41hc72bb7e_0
+      - r-sessioninfo=1.2.2=r41hc72bb7e_0
       - r-snow=0.4_4=r41hc72bb7e_0
+      - r-sp=1.4_6=r41hcfec24a_0
       - r-stringi=1.7.6=r41h337692f_1
       - r-stringr=1.4.0=r41hc72bb7e_2
+      - r-survival=3.3_1=r41h06615bd_0
+      - r-sys=3.4=r41hcfec24a_0
       - r-testthat=3.1.3=r41h7525677_0
       - r-tibble=3.1.6=r41hcfec24a_0
+      - r-tidyselect=1.1.2=r41hc72bb7e_0
+      - r-usethis=2.1.5=r41hc72bb7e_0
       - r-utf8=1.2.2=r41hcfec24a_0
       - r-vctrs=0.4.0=r41h7525677_0
       - r-vegan=2.5_7=r41h52d45c5_0
       - r-viridislite=0.4.0=r41hc72bb7e_0
       - r-waldo=0.4.0=r41hc72bb7e_0
+      - r-whisker=0.4=r41hc72bb7e_1
       - r-withr=2.5.0=r41hc72bb7e_0
+      - r-xfun=0.30=r41h7525677_0
+      - r-xml2=1.3.3=r41h03ef668_0
+      - r-xopen=1.0.0=r41hc72bb7e_1003
+      - r-yaml=2.3.5=r41h06615bd_0
+      - r-zip=2.2.0=r41hcfec24a_0
       - raxml=8.2.12=hec16e2b_4
       - readline=8.1=h46c0cb4_0
       - requests=2.27.1=pyhd8ed1ab_0
