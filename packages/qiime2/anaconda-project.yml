@@ -1873,6 +1873,14 @@ env_specs:
     - r-breakaway
     - pip:
       - git+https://github.com/statdivlab/q2-breakaway.git#egg=q2-breakaway
+    - bioconductor-phyloseq
+    - r-devtools
+    - r-tibble
+    - r-magrittr
+    - r-dplyr
+    - r-withr
+    - r-testthat
+    - r-praise
     channels:
     - qiime2/label/r2022.2
     - conda-forge
