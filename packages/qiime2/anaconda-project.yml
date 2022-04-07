@@ -1869,6 +1869,10 @@ env_specs:
     - q2cli=2022.2.0
     - q2galaxy=2022.2.0
     - q2templates=2022.2.0
+    - deicode
+    - r-breakaway
+    - pip:
+      - git+https://github.com/statdivlab/q2-breakaway.git#egg=q2-breakaway
     channels:
     - qiime2/label/r2022.2
     - conda-forge
