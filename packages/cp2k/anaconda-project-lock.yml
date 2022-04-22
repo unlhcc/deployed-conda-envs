@@ -62,3 +62,64 @@ env_specs:
       - wheel=0.37.1=pyhd8ed1ab_0
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h166bdaf_1014
+  cp2k-9.1.0:
+    locked: true
+    env_spec_hash: 1800add7128303630416cdbac728ab704fdf454d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=1_llvm
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.18.1=h7f98852_0
+      - ca-certificates=2021.10.8=ha878542_0
+      - cp2k=9.1.0=py39_openmpi_0
+      - fftw=3.3.10=nompi_h77c792f_102
+      - gsl=2.7=he838d99_0
+      - hdf5=1.12.1=nompi_h4df4325_104
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.19.3=h08a2579_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libblas=3.9.0=14_linux64_openblas
+      - libcblas=3.9.0=14_linux64_openblas
+      - libcurl=7.82.0=h2283fc2_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=11.2.0=h1d223b6_15
+      - libgfortran-ng=11.2.0=h69a702a_15
+      - libgfortran5=11.2.0=h5c6108e_15
+      - liblapack=3.9.0=14_linux64_openblas
+      - libnghttp2=1.47.0=he49606f_0
+      - libnsl=2.0.0=h7f98852_0
+      - libopenblas=0.3.20=openmp_h74cd887_0
+      - libssh2=1.10.0=ha35d2d1_2
+      - libstdcxx-ng=11.2.0=he4da1e4_15
+      - libuuid=2.32.1=h7f98852_1000
+      - libxc=5.2.2=py39h7f737d4_0
+      - libxsmm=1.17=h2877050_0
+      - libzlib=1.2.11=h166bdaf_1014
+      - llvm-openmp=13.0.1=he0ac6c6_1
+      - mpi=1.0=openmpi
+      - ncurses=6.3=h27087fc_1
+      - numpy=1.22.3=py39h18676bf_2
+      - openblas=0.3.20=openmp_h53a8fd6_0
+      - openmpi=4.1.2=external_1000
+      - openssl=3.0.2=h166bdaf_1
+      - pip=22.0.4=pyhd8ed1ab_0
+      - python=3.9.12=h2660328_1_cpython
+      - python_abi=3.9=2_cp39
+      - readline=8.1=h46c0cb4_0
+      - scalapack=2.2.0=h67de57e_1
+      - setuptools=62.1.0=py39hf3d152e_0
+      - sirius=7.3.1=hc0b6a57_0
+      - spfft=1.0.6=h07fa59a_0
+      - spglib=1.16.3=py39hd257fcd_1
+      - spla=1.5.4=h1f7a26d_0
+      - sqlite=3.38.2=h4ff8645_0
+      - tk=8.6.12=h27826a3_0
+      - tzdata=2022a=h191b570_0
+      - wheel=0.37.1=pyhd8ed1ab_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h166bdaf_1014
