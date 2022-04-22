@@ -26,7 +26,7 @@ platforms:
 env_specs:
   cp2k-8.2.0:
     packages:
-    - cp2k=8.2.0
+    - cp2k=8.2.0=py38_openmpi_0
     - python=3.8
     - openmpi=4.1.*=external_*
     channels: []
