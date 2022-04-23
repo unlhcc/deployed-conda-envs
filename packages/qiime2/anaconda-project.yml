@@ -1883,6 +1883,7 @@ env_specs:
     - r-withr
     - r-testthat
     - r-praise
+    - dokdo=1.13.0
     channels:
     - qiime2/label/r2022.2
     - conda-forge
