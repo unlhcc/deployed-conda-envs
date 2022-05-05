@@ -81,7 +81,7 @@ env_specs:
       - zlib=1.2.11=h166bdaf_1014
   cp2k-8.2.0:
     locked: true
-    env_spec_hash: 1a40dadf8ba47adac71b937d25c552c106e54615
+    env_spec_hash: 5fe25cdf0b821f0b0bbf8db8f521e5a42e050301
     platforms:
     - linux-64
     packages:
@@ -90,7 +90,7 @@ env_specs:
       - _openmp_mutex=4.5=2_kmp_llvm
       - bzip2=1.0.8=h7f98852_4
       - ca-certificates=2021.10.8=ha878542_0
-      - cp2k=8.2.0=nompi_2000
+      - cp2k=8.2.0=openmpi_2000
       - fftw=3.3.10=nompi_h77c792f_102
       - gawk=5.1.0=h7f98852_0
       - gsl=2.7=he838d99_0
@@ -122,8 +122,9 @@ env_specs:
       - python=3.8.13=ha86cf86_0_cpython
       - python_abi=3.8=2_cp38
       - readline=8.1=h46c0cb4_0
+      - scalapack=2.2.0=h67de57e_1
       - setuptools=62.1.0=py38h578d9bd_0
-      - spglib=1.16.3=py38h71d37f0_1
+      - spglib=1.16.4=py38h71d37f0_0
       - sqlite=3.38.4=h4ff8645_0
       - tk=8.6.12=h27826a3_0
       - wheel=0.37.1=pyhd8ed1ab_0
