@@ -42,3 +42,8 @@ env_specs:
     packages:
     - sra-tools=2.11.0
     channels: []
+
+commands:
+  no-cache-2.11.0:
+    unix: echo '/repository/user/main/public/cache-disabled = "true"' >> ${CONDA_PREFIX}/bin/ncbi/default.kfg
+    env_spec: sra-tools-2.11.0
