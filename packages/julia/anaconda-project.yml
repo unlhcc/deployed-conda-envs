@@ -48,6 +48,10 @@ env_specs:
     packages:
     - julia=1.6.1
     channels: []
+  julia-1.7.2:
+    packages:
+    - julia=1.7.2
+    channels: []
 commands:
   add-ijulia:
     unix: julia -e "using Pkg;Pkg.add([\"IJulia\"])"
@@ -55,3 +59,6 @@ commands:
   fix-startup:
     unix: sed -i s/pushfirst/#pushfirst/g ${CONDA_PREFIX}/etc/julia/startup.jl
     env_spec: julia-1.6.1
+  add-ijulia-1.7.2:
+    unix: julia -e "using Pkg;Pkg.add([\"IJulia\"])"
+    env_spec: julia-1.7.2
