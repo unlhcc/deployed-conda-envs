@@ -219,3 +219,70 @@ env_specs:
       - wheel=0.36.2=pyhd3deb0d_0
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h516909a_1010
+  julia-1.7.2:
+    locked: true
+    env_spec_hash: 5599079e9f5eb4152d994658ae93235a1cf7c1f1
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - arpack=3.7.0=hdefa2d7_2
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.18.1=h7f98852_0
+      - ca-certificates=2021.10.8=ha878542_0
+      - certifi=2016.9.26=py36_0
+      - curl=7.83.1=h7bff187_0
+      - expat=2.4.8=h27087fc_0
+      - gettext=0.19.8.1=h73d1719_1008
+      - git=2.35.3=pl5321h36853c3_0
+      - gmp=6.2.1=h58526e2_0
+      - julia=1.7.2=h35b96e5_1
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.19.3=h3790be6_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libblas=3.9.0=14_linux64_openblas
+      - libcblas=3.9.0=14_linux64_openblas
+      - libcurl=7.83.1=h7bff187_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libgfortran-ng=12.1.0=h69a702a_16
+      - libgfortran5=12.1.0=hdcd56e2_16
+      - libgit2=1.4.3=h6529ace_0
+      - libgomp=12.1.0=h8d9b700_16
+      - libiconv=1.16=h516909a_0
+      - liblapack=3.9.0=14_linux64_openblas
+      - libnghttp2=1.47.0=h727a467_0
+      - libnsl=2.0.0=h7f98852_0
+      - libopenblas-ilp64=0.3.20=pthreads_h44c56fb_0
+      - libopenblas=0.3.20=pthreads_h78a6416_0
+      - libssh2=1.10.0=ha56f1ee_2
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - libunwind=1.6.2=h9c3ff4c_0
+      - libutf8proc=2.7.0=h7f98852_0
+      - libzlib=1.2.11=h166bdaf_1014
+      - mbedtls=2.26.0=h7eb2403_0
+      - metis=5.1.0=h58526e2_1006
+      - mpfr=4.1.0=h5cefa2a_0
+      - ncurses=6.3=h27087fc_1
+      - openblas-ilp64=0.3.20=pthreads_h3d04fff_0
+      - openlibm=0.7.3=h7eb2403_0
+      - openssl=1.1.1o=h166bdaf_0
+      - p7zip=16.02=h9c3ff4c_1001
+      - pcre2=10.37=h032f7d1_0
+      - perl=5.32.1=2_h7f98852_perl5
+      - pip=20.0.2=py36_1
+      - python=3.6.15=hb7a2778_0_cpython
+      - python_abi=3.6=2_cp36m
+      - readline=8.1=h46c0cb4_0
+      - setuptools=49.6.0=py36h5fab9bb_3
+      - sqlite=3.38.5=h4ff8645_0
+      - suitesparse=5.10.1=h9e50725_1
+      - tbb=2021.5.0=h924138e_1
+      - tk=8.6.12=h27826a3_0
+      - wheel=0.37.1=pyhd8ed1ab_0
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h166bdaf_1014
