@@ -15,7 +15,7 @@ locking_enabled: true
 env_specs:
   jupyterlab-3.0.16:
     locked: true
-    env_spec_hash: c6dc1d1be9c22c658a6b76fcdce02ec0db20fe7d
+    env_spec_hash: a03eece0557980451834d3713356b6e7bbaf6ecd
     platforms:
     - linux-64
     packages:
@@ -87,7 +87,7 @@ env_specs:
       - gxx_impl_linux-64=9.4.0=h03d3576_16
       - gxx_linux-64=9.4.0=h0316aca_9
       - harfbuzz=3.1.1=h83ec7ef_0
-      - hcc-jupyter-kernels=2022.05.16=h121872b_0
+      - hcc-jupyter-kernels=2022.05.17=h121872b_1
       - icu=68.2=h9c3ff4c_0
       - idna=3.3=pyhd8ed1ab_0
       - importlib-metadata=4.11.3=py38h578d9bd_1
@@ -263,7 +263,7 @@ env_specs:
       - ruamel_yaml=0.15.80=py38h497a2fe_1006
       - sed=4.8=he412f7d_0
       - send2trash=1.8.0=pyhd8ed1ab_0
-      - setuptools=62.2.0=py38h578d9bd_0
+      - setuptools=62.3.1=py38h578d9bd_0
       - simplegeneric=0.8.1=py_1
       - six=1.16.0=pyh6c4a22f_0
       - smmap=3.0.5=pyh44b312d_0
@@ -271,7 +271,7 @@ env_specs:
       - soupsieve=2.3.1=pyhd8ed1ab_0
       - sqlite=3.38.5=h4ff8645_0
       - sysroot_linux-64=2.12=he073ed8_15
-      - terminado=0.13.3=py38h578d9bd_1
+      - terminado=0.15.0=py38h578d9bd_0
       - tinycss2=1.1.1=pyhd8ed1ab_0
       - tk=8.6.12=h27826a3_0
       - tktable=2.10=hb7b940f_3
@@ -309,4 +309,4 @@ env_specs:
       - zeromq=4.3.4=h9c3ff4c_1
       - zipp=3.8.0=pyhd8ed1ab_0
       - zlib=1.2.11=h166bdaf_1014
-      - zstd=1.5.2=ha95c52a_0
+      - zstd=1.5.2=h8a70e8d_1
