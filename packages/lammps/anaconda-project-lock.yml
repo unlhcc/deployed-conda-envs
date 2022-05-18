@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   lammps-2021.09.29:
     locked: true
-    env_spec_hash: dc1808688eeb0995c42251eef5ade428c56547ad
+    env_spec_hash: 8ab0361953151aca28b9b8dc2e46ebe9f1ef2538
     platforms:
     - linux-64
     packages:
@@ -44,7 +44,7 @@ env_specs:
       - giflib=5.2.1=h36c2ea0_2
       - gmp=6.2.1=h58526e2_0
       - gnutls=3.6.13=h85f3911_1
-      - gsl=2.6=he838d99_2
+      - gsl=2.7=he838d99_0
       - hdf5=1.10.6=nompi_h6a2412b_1114
       - importlib-metadata=4.11.3=py38h578d9bd_1
       - itsdangerous=2.1.2=pyhd8ed1ab_0
@@ -56,7 +56,7 @@ env_specs:
       - kiwisolver=1.4.2=py38h43d8883_1
       - krb5=1.19.3=h3790be6_0
       - lame=3.100=h7f98852_1001
-      - lammps=2021.09.29=py38he88b4a9_openmpi_1000
+      - lammps=2021.09.29=py38h362876a_openmpi_1001
       - lcms2=2.12=hddcbb42_0
       - ld_impl_linux-64=2.36.1=hea4e1c9_2
       - lerc=3.0=h9c3ff4c_0
@@ -75,7 +75,6 @@ env_specs:
       - libgfortran5=12.1.0=hdcd56e2_16
       - libgomp=12.1.0=h8d9b700_16
       - libidn2=2.3.2=h7f98852_0
-      - libimagequant=2.15.1=h7f98852_0
       - liblapack=3.9.0=14_linux64_openblas
       - libnghttp2=1.47.0=h727a467_0
       - libnsl=2.0.0=h7f98852_0
@@ -96,7 +95,7 @@ env_specs:
       - mlip=1.0=hf1f3868_2
       - mpi=1.0=openmpi
       - munkres=1.1.4=pyh9f0ad1d_0
-      - n2p2=2.1.4=py38hf66c1d1_0
+      - n2p2=2.1.4=py38h37d0a30_2
       - ncurses=6.3=h27087fc_1
       - nettle=3.6=he412f7d_0
       - numpy=1.22.3=py38h99721a1_2
@@ -105,10 +104,10 @@ env_specs:
       - openmpi=4.1.3=external_3
       - openssl=1.1.1o=h166bdaf_0
       - packaging=21.3=pyhd8ed1ab_0
-      - pillow=8.3.1=py38heb63a30_1000
+      - pillow=9.1.1=py38h0ee0e06_0
       - pip=22.1=pyhd8ed1ab_0
       - pkg-config=0.29.2=h36c2ea0_1008
-      - plumed=2.6.2=h73c09e9_0
+      - plumed=2.7.3=mpi_openmpi_heb59b2d_0
       - pthread-stubs=0.4=h36c2ea0_1001
       - pyparsing=3.0.9=pyhd8ed1ab_0
       - python-dateutil=2.8.2=pyhd8ed1ab_0
