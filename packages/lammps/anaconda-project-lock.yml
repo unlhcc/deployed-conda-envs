@@ -11,9 +11,6 @@
 #
 locking_enabled: true
 
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   lammps-2021.09.29:
     locked: true
@@ -29,8 +26,8 @@ env_specs:
       - brotli=1.0.9=h166bdaf_7
       - bzip2=1.0.8=h7f98852_4
       - c-ares=1.18.1=h7f98852_0
-      - ca-certificates=2021.10.8=ha878542_0
-      - certifi=2021.10.8=py38h578d9bd_2
+      - ca-certificates=2022.5.18=ha878542_0
+      - certifi=2022.5.18=py38h578d9bd_0
       - click=8.1.3=py38h578d9bd_0
       - cycler=0.11.0=pyhd8ed1ab_0
       - f90wrap=0.2.7=py38h1a1499a_2
@@ -56,7 +53,7 @@ env_specs:
       - kiwisolver=1.4.2=py38h43d8883_1
       - krb5=1.19.3=h3790be6_0
       - lame=3.100=h7f98852_1001
-      - lammps=2021.09.29=py38h362876a_openmpi_1001
+      - lammps=2021.09.29=py38h362876a_openmpi_1002
       - lcms2=2.12=hddcbb42_0
       - ld_impl_linux-64=2.36.1=hea4e1c9_2
       - lerc=3.0=h9c3ff4c_0
@@ -105,9 +102,9 @@ env_specs:
       - openssl=1.1.1o=h166bdaf_0
       - packaging=21.3=pyhd8ed1ab_0
       - pillow=9.1.1=py38h0ee0e06_0
-      - pip=22.1=pyhd8ed1ab_0
+      - pip=22.0.4=pyhd8ed1ab_0
       - pkg-config=0.29.2=h36c2ea0_1008
-      - plumed=2.7.3=mpi_openmpi_heb59b2d_0
+      - plumed=2.7.4=mpi_openmpi_h0b6bd24_1000
       - pthread-stubs=0.4=h36c2ea0_1001
       - pyparsing=3.0.9=pyhd8ed1ab_0
       - python-dateutil=2.8.2=pyhd8ed1ab_0
@@ -125,7 +122,6 @@ env_specs:
       - wget=1.20.3=ha56f1ee_1
       - wheel=0.37.1=pyhd8ed1ab_0
       - x264=1!161.3030=h7f98852_1
-      - xdrfile=1.1.4=h7f98852_1
       - xorg-libxau=1.0.9=h7f98852_0
       - xorg-libxdmcp=1.1.3=h7f98852_0
       - xz=5.2.5=h516909a_1
