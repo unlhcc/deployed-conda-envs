@@ -54,3 +54,28 @@ env_specs:
       - zlib=1.2.11=h14c3975_1004
 
 
+  masurca-4.0.9:
+    locked: true
+    env_spec_hash: 028ee52428232f8eb210ba68ed0e6f9216d6e112
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - boost-cpp=1.74.0=h75c5d50_8
+      - bzip2=1.0.8=h7f98852_4
+      - grep=3.4=hcb20899_2
+      - icu=70.1=h27087fc_0
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libgomp=12.1.0=h8d9b700_16
+      - libnsl=2.0.0=h7f98852_0
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - libzlib=1.2.11=h166bdaf_1014
+      - lz4-c=1.9.3=h9c3ff4c_1
+      - masurca=4.0.9=pl5321h6e1a2d6_0
+      - pcre=8.45=h9c3ff4c_0
+      - perl=5.32.1=2_h7f98852_perl5
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.11=h166bdaf_1014
+      - zstd=1.5.2=h8a70e8d_1
