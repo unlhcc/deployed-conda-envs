@@ -33,3 +33,7 @@ env_specs:
     packages:
     - gdc-client=1.4.0
     channels: []
+  gdc-client-1.6.1:
+    packages:
+    - gdc-client=1.6.1
+    channels: []

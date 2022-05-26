@@ -140,3 +140,66 @@ env_specs:
       - xz=5.2.4=h14c3975_1001
       - yaml=0.1.7=h14c3975_1001
       - zlib=1.2.11=h14c3975_1004
+  gdc-client-1.6.1:
+    locked: true
+    env_spec_hash: cf8c762923f52e08cc2a9dd3291594e1e05f18d8
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - attrs=21.4.0=pyhd8ed1ab_0
+      - brotlipy=0.7.0=py37h540881e_1004
+      - ca-certificates=2022.5.18.1=ha878542_0
+      - certifi=2022.5.18.1=py37h89c1867_0
+      - cffi=1.15.0=py37h036bc23_0
+      - charset-normalizer=2.0.12=pyhd8ed1ab_0
+      - cryptography=2.8=py37hb09aad4_2
+      - gdc-client=1.6.1=pyhdfd78af_0
+      - icu=70.1=h27087fc_0
+      - idna=3.3=pyhd8ed1ab_0
+      - importlib-metadata=4.11.4=py37h89c1867_0
+      - importlib_resources=5.7.1=pyhd8ed1ab_1
+      - intervaltree=3.0.2=py_0
+      - jsonschema=4.5.1=pyhd8ed1ab_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libgomp=12.1.0=h8d9b700_16
+      - libiconv=1.16=h516909a_0
+      - libnsl=2.0.0=h7f98852_0
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - libxml2=2.9.14=h22db469_0
+      - libxslt=1.1.33=h8affb1d_4
+      - libzlib=1.2.11=h166bdaf_1014
+      - lxml=4.8.0=py37h540881e_3
+      - ncurses=6.3=h27087fc_1
+      - ndg-httpsclient=0.5.1=py_1
+      - openssl=1.1.1o=h166bdaf_0
+      - pip=22.1.1=pyhd8ed1ab_0
+      - progressbar2=4.0.0=pyhd8ed1ab_0
+      - pyasn1=0.4.8=py_0
+      - pycparser=2.21=pyhd8ed1ab_0
+      - pyopenssl=18.0.0=py37_1000
+      - pyrsistent=0.18.1=py37h540881e_1
+      - pysocks=1.7.1=py37h89c1867_5
+      - python-utils=3.2.2=pyhd8ed1ab_0
+      - python=3.7.12=hb7a2778_100_cpython
+      - python_abi=3.7=2_cp37m
+      - pyyaml=3.13=py37h14c3975_1001
+      - readline=8.1=h46c0cb4_0
+      - requests=2.27.1=pyhd8ed1ab_0
+      - setuptools=62.3.2=py37h89c1867_0
+      - six=1.16.0=pyh6c4a22f_0
+      - sortedcontainers=2.4.0=pyhd8ed1ab_0
+      - sqlite=3.38.5=h4ff8645_0
+      - termcolor=1.1.0=py_2
+      - tk=8.6.12=h27826a3_0
+      - typing_extensions=4.2.0=pyha770c72_1
+      - urllib3=1.26.9=pyhd8ed1ab_0
+      - wheel=0.37.1=pyhd8ed1ab_0
+      - xz=5.2.5=h516909a_1
+      - yaml=0.1.7=h14c3975_1001
+      - zipp=3.8.0=pyhd8ed1ab_0
+      - zlib=1.2.11=h166bdaf_1014
