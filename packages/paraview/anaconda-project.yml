@@ -60,3 +60,21 @@ env_specs:
     - pandas
     - ipykernel
     channels: []
+  paraview-5.10.1-py37:
+    packages:
+    - paraview=5.10.1=*_qt
+    - hcc-python-stack
+    - python=3.7
+    channels: []
+  paraview-5.10.1-py38:
+    packages:
+    - paraview=5.10.1=*_qt
+    - hcc-python-stack
+    - python=3.8
+    channels: []
+  paraview-5.10.1-py39:
+    packages:
+    - paraview=5.10.1=*_qt
+    - hcc-python-stack
+    - python=3.9
+    channels: []
