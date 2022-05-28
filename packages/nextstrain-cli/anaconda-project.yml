@@ -63,3 +63,19 @@ env_specs:
     - awscli=1.19.101
     - git
     channels: []
+  nextstrain-cli-3.2.5:
+    packages:
+    - nextstrain-cli=3.2.5
+    - python=3.8
+    - snakemake=7.8.0
+    - auspice=2.37.1
+    - biopython=1.79
+    - augur=15.0.2
+    - nextalign=1.11.0
+    - awscli=1.24.10
+    - git=2.35.3
+    - bx-python=0.8.13
+    - fasttree=2.1.11
+    - iqtree=2.2.0.3
+    - mafft=7.505
+    channels: []
