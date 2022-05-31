@@ -29,3 +29,7 @@ env_specs:
     packages:
     - beast2=2.4.5
     channels: []
+  beast2-2.6.3:
+    packages:
+    - beast2=2.6.3
+    channels: []
