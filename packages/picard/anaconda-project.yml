@@ -41,3 +41,8 @@ env_specs:
     packages:
     - picard=1.139
     channels: []
+  picard-2.13:
+    packages:
+    - picard=2.13
+    - python=3.6
+    channels: []
