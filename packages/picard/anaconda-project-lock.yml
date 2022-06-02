@@ -216,3 +216,87 @@ env_specs:
     packages:
       linux-64:
       - picard=1.139=0
+  picard-2.13:
+    locked: true
+    env_spec_hash: 42ac4a80b7a40a963b4a076251b5fb628cbd0716
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - alsa-lib=1.2.6.1=h7f98852_0
+      - ca-certificates=2022.5.18.1=ha878542_0
+      - cairo=1.16.0=ha61ee94_1011
+      - expat=2.4.8=h27087fc_0
+      - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+      - font-ttf-inconsolata=3.000=h77eed37_0
+      - font-ttf-source-code-pro=2.038=h77eed37_0
+      - font-ttf-ubuntu=0.83=hab24e00_0
+      - fontconfig=2.14.0=h8e229c2_0
+      - fonts-conda-ecosystem=1=0
+      - fonts-conda-forge=1=0
+      - freetype=2.10.4=h0708190_1
+      - gettext=0.19.8.1=h73d1719_1008
+      - giflib=5.2.1=h36c2ea0_2
+      - graphite2=1.3.13=h58526e2_1001
+      - harfbuzz=4.3.0=hf9f4e7c_0
+      - icu=70.1=h27087fc_0
+      - jpeg=9e=h166bdaf_1
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.19.3=h3790be6_0
+      - lcms2=2.12=hddcbb42_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - lerc=3.0=h9c3ff4c_0
+      - libcups=2.3.3=hf5a7f15_1
+      - libdeflate=1.10=h7f98852_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libglib=2.70.2=h174f98d_4
+      - libgomp=12.1.0=h8d9b700_16
+      - libiconv=1.16=h516909a_0
+      - libnsl=2.0.0=h7f98852_0
+      - libpng=1.6.37=h21135ba_2
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - libtiff=4.4.0=h0fcbabc_0
+      - libuuid=2.32.1=h7f98852_1000
+      - libwebp-base=1.2.2=h7f98852_1
+      - libxcb=1.13=h7f98852_1004
+      - libzlib=1.2.12=h166bdaf_0
+      - lz4-c=1.9.3=h9c3ff4c_1
+      - ncurses=6.3=h27087fc_1
+      - openjdk=11.0.9.1=hc6918da_3
+      - openssl=1.1.1o=h166bdaf_0
+      - pcre=8.45=h9c3ff4c_0
+      - picard=2.13=1
+      - pip=21.3.1=pyhd8ed1ab_0
+      - pixman=0.40.0=h36c2ea0_0
+      - pthread-stubs=0.4=h36c2ea0_1001
+      - python=3.6.15=hb7a2778_0_cpython
+      - python_abi=3.6=2_cp36m
+      - readline=8.1=h46c0cb4_0
+      - setuptools=58.0.4=py36h5fab9bb_2
+      - sqlite=3.38.5=h4ff8645_0
+      - tk=8.6.12=h27826a3_0
+      - wheel=0.37.1=pyhd8ed1ab_0
+      - xorg-fixesproto=5.0=h7f98852_1002
+      - xorg-inputproto=2.3.2=h7f98852_1002
+      - xorg-kbproto=1.0.7=h7f98852_1002
+      - xorg-libice=1.0.10=h7f98852_0
+      - xorg-libsm=1.2.3=hd9c2040_1000
+      - xorg-libx11=1.7.2=h7f98852_0
+      - xorg-libxau=1.0.9=h7f98852_0
+      - xorg-libxdmcp=1.1.3=h7f98852_0
+      - xorg-libxext=1.3.4=h7f98852_1
+      - xorg-libxfixes=5.0.3=h7f98852_1004
+      - xorg-libxi=1.7.10=h7f98852_0
+      - xorg-libxrender=0.9.10=h7f98852_1003
+      - xorg-libxtst=1.2.3=h7f98852_1002
+      - xorg-recordproto=1.14.2=h7f98852_1002
+      - xorg-renderproto=0.11.1=h7f98852_1002
+      - xorg-xextproto=7.3.0=h7f98852_1002
+      - xorg-xproto=7.0.31=h7f98852_1007
+      - xz=5.2.5=h516909a_1
+      - zlib=1.2.12=h166bdaf_0
+      - zstd=1.5.2=h8a70e8d_1
