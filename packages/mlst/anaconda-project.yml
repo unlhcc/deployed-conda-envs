@@ -36,3 +36,7 @@ env_specs:
     - python=3.7
     - perl=5.26.2
     channels: []
+  mlst-2.22.0:
+    packages:
+    - mlst=2.22.0
+    channels: []
