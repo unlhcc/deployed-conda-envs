@@ -15,7 +15,7 @@ test-crane-el8:
     PY_VER: "3.8"
     AP_VER: "0.9.1"
     AC_VER: "1.7.2"
-    MINICONDA_VER: "4.9.2"
+    MINICONDA_VER: "4.10"
     HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master
@@ -35,7 +35,7 @@ test-swan:
     PY_VER: "3.8"
     AP_VER: "0.9.1"
     AC_VER: "1.7.2"
-    MINICONDA_VER: "4.9.2"
+    MINICONDA_VER: "4.10"
     HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master
