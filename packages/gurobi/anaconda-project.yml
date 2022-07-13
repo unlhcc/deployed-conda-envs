@@ -35,6 +35,7 @@ env_specs:
     - scikit-learn
     - scikit-plot
     - scikit-image
+    - coin-or-osi=0.108.7
     channels: []
   gurobi-9.0.3-py37:
     packages:
@@ -46,16 +47,19 @@ env_specs:
     - scikit-learn
     - scikit-plot
     - scikit-image
+    - coin-or-osi=0.108.7
     channels: []
   gurobi-9.5.1-py38:
     packages:
     - gurobi=9.5.1
     - python=3.8
     - hcc-python-stack=1.0
+    - coin-or-osi=0.108.7
     channels: []
   gurobi-9.5.1-py39:
     packages:
     - gurobi=9.5.1
     - python=3.9
     - hcc-python-stack=1.0
+    - coin-or-osi=0.108.7
     channels: []
