@@ -14,7 +14,7 @@ name: SnpEff
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: SnpEff is a genomic variant annotations and functional effect prediction
-  toolbox.   
+  toolbox.
 
 #
 # In the platforms section, list platforms the project should work on
@@ -28,4 +28,9 @@ env_specs:
     packages:
     - snpeff=4.3.1t
     - snpsift=4.3.1t
+    channels: []
+  snpeff-5.1:
+    packages:
+    - snpeff=5.1
+    - snpsift=5.1
     channels: []
