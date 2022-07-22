@@ -42,3 +42,7 @@ env_specs:
     - python=3.9
     - hcc-python-stack
     channels: []
+  saga-gis-2.3:
+    packages:
+    - saga-gis=2.3
+    channels: []
