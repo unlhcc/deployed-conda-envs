@@ -28,3 +28,7 @@ env_specs:
     packages:
     - tophat=2.1.1
     channels: []
+  tophat-2.0.14:
+    packages:
+    - tophat=2.0.14
+    channels: []
