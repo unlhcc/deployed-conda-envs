@@ -30,3 +30,7 @@ env_specs:
     packages:
     - guppy=6.0.1
     channels: []
+  guppy-6.2.1:
+    packages:
+    - guppy=6.2.1
+    channels: []
