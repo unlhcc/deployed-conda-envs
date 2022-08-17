@@ -31,3 +31,9 @@ env_specs:
     - rgi=5.1.0
     - openssl
     channels: []
+  rgi-5.2.1:
+    packages:
+    - rgi=5.2.1
+    - python=3.8
+    - openssl
+    channels: []
