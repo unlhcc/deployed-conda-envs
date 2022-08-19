@@ -33,3 +33,8 @@ env_specs:
     packages:
     - deeptools=3.0.2
     channels: []
+  deeptools-3.5.1:
+    packages:
+    - deeptools=3.5.1
+    - python=3.9
+    channels: []
