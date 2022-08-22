@@ -14,7 +14,7 @@ name: maker
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: MAKER Genome Annotation Pipeline for prokaryotic and small eukaryotic
-  species.   
+  species.
 
 
 #
@@ -34,3 +34,8 @@ env_specs:
     packages:
     - maker=2.31.10
     - perl=5.26
+  maker-3.01.03:
+    packages:
+    - maker=3.01.03
+    - perl=5.26
+    channels: []
