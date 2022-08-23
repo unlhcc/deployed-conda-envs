@@ -1,0 +1,90 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  transcriptm-0.2:
+    locked: true
+    env_spec_hash: 14e07a28f59121a03752f5a292b8ad111156fd4d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bamm=1.7.3=py27h9dd0a77_11
+      - bedtools=2.30.0=h468198e_3
+      - bwa=0.7.17=h7132678_9
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.18.1=h7f98852_0
+      - ca-certificates=2022.6.15=ha878542_0
+      - certifi=2019.11.28=py27h8c360ce_1
+      - dirseq=0.4.3=hdfd78af_0
+      - expat=2.4.8=h27087fc_0
+      - fastqc=0.11.9=hdfd78af_1
+      - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+      - fontconfig=2.14.0=h8e229c2_0
+      - freetype=2.12.1=hca18f0e_0
+      - fxtract=2.4=h131032e_0
+      - gmp=6.2.1=h58526e2_0
+      - htslib=1.15.1=h9753748_0
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.19.3=h3790be6_0
+      - ld_impl_linux-64=2.36.1=hea4e1c9_2
+      - libblas=3.9.0=16_linux64_openblas
+      - libcblas=3.9.0=16_linux64_openblas
+      - libcurl=7.83.1=h7bff187_0
+      - libdeflate=1.10=h7f98852_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libffi=3.2.1=he1b5a44_1007
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libgfortran-ng=12.1.0=h69a702a_16
+      - libgfortran5=12.1.0=hdcd56e2_16
+      - libgomp=12.1.0=h8d9b700_16
+      - liblapack=3.9.0=16_linux64_openblas
+      - libnghttp2=1.47.0=hdcd2b5c_1
+      - libnsl=2.0.0=h7f98852_0
+      - libopenblas=0.3.21=pthreads_h78a6416_2
+      - libpng=1.6.37=h753d276_4
+      - libsqlite=3.39.2=h753d276_1
+      - libssh2=1.10.0=haa6b8db_3
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - libuuid=2.32.1=h7f98852_1000
+      - libzlib=1.2.12=h166bdaf_2
+      - ncurses=6.3=h27087fc_1
+      - numpy=1.16.5=py27h95a1406_0
+      - openjdk=11.0.1=h516909a_1016
+      - openssl=1.1.1q=h166bdaf_0
+      - pcre=8.45=h9c3ff4c_0
+      - perl=5.32.1=2_h7f98852_perl5
+      - pip=20.1.1=pyh9f0ad1d_0
+      - python=2.7.15=h5a48372_1011_cpython
+      - python_abi=2.7=1_cp27mu
+      - readline=8.1.2=h0f457ee_0
+      - ruby=2.4.5=h48a8d5d_1003
+      - ruffus=2.8.4=pyh864c0ab_1
+      - samtools=1.15.1=h1170115_0
+      - setuptools=44.0.0=py27_0
+      - sortmerna=2.0=he860b03_4
+      - sqlite=3.39.2=h4ff8645_1
+      - tempdir=0.7.1=py27_0
+      - tk=8.6.12=h27826a3_0
+      - transcriptm=0.2=pyhdfd78af_0
+      - trimmomatic=0.39=hdfd78af_2
+      - wheel=0.37.1=pyhd8ed1ab_0
+      - xz=5.2.6=h166bdaf_0
+      - yaml=0.1.7=h14c3975_1001
+      - zlib=1.2.12=h166bdaf_2
