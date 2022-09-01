@@ -41,7 +41,7 @@ env_specs:
       - libgomp=12.1.0=h8d9b700_16
       - liblapack=3.9.0=16_linux64_openblas
       - libnsl=2.0.0=h7f98852_0
-      - libopenblas=0.3.21=pthreads_h78a6416_2
+      - libopenblas=0.3.21=pthreads_h78a6416_3
       - libsqlite=3.39.2=h753d276_1
       - libstdcxx-ng=12.1.0=ha89aaad_16
       - libuuid=2.32.1=h7f98852_1000
@@ -50,7 +50,7 @@ env_specs:
       - numpy=1.23.2=py310h53a5b5f_0
       - openssl=3.0.5=h166bdaf_1
       - pip=22.2.2=pyhd8ed1ab_0
-      - provean=1.1.5=h87f3376_0
+      - provean=1.1.5=h87f3376_1
       - python=3.10.6=ha86cf86_0_cpython
       - python_abi=3.10=2_cp310
       - readline=8.1.2=h0f457ee_0
