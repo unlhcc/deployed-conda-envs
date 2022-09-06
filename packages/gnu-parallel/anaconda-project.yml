@@ -29,3 +29,7 @@ env_specs:
     packages:
     - parallel=20180522
     channels: []
+  gnu-parallel-20220722:
+    packages:
+    - parallel=20220722
+    channels: []

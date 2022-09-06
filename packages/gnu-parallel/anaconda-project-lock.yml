@@ -28,3 +28,17 @@ env_specs:
       - perl=5.26.2=h470a237_0
 
 
+  gnu-parallel-20220722:
+    locked: true
+    env_spec_hash: 8d7afd33437bb654cb1831170d0b22247efa1362
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libgomp=12.1.0=h8d9b700_16
+      - libnsl=2.0.0=h7f98852_0
+      - parallel=20220722=ha770c72_0
+      - perl=5.32.1=2_h7f98852_perl5
