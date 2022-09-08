@@ -31,3 +31,7 @@ env_specs:
     packages:
     - guppy-gpu=6.2.1
     channels: []
+  guppy-gpu-6.3.4:
+    packages:
+    - guppy-gpu=6.3.4
+    channels: []
