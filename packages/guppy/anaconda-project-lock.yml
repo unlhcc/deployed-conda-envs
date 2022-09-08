@@ -31,3 +31,11 @@ env_specs:
     packages:
       linux-64:
       - guppy=6.2.1=h5e1937b_0
+  guppy-6.3.4:
+    locked: true
+    env_spec_hash: de69d4752420073d25eb1693e573aed4bb97ad6b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - guppy=6.3.4=h5e1937b_0
