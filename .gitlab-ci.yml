@@ -2,6 +2,7 @@ variables:
   PACKAGE_DEPLOY_ROOT: "/util/opt/anaconda/deployed-conda-envs"
   HCC_APPS_DB_BCRF_PATH: "/work/HCC/BCRF/app_specific"
   CONDA_OVERRIDE_CUDA: "11.2"
+  MAMBA_NO_BANNER: 1
 
 stages:
   - test
@@ -16,6 +17,7 @@ test-crane-el8:
     AP_VER: "0.9.1"
     AC_VER: "1.7.2"
     MINICONDA_VER: "4.10"
+    MAMBA_VER: "0.24"
     HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master
@@ -36,6 +38,7 @@ test-swan:
     AP_VER: "0.9.1"
     AC_VER: "1.7.2"
     MINICONDA_VER: "4.10"
+    MAMBA_VER: "0.24"
     HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master
