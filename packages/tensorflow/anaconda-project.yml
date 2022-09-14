@@ -424,4 +424,32 @@ env_specs:
     - ipykernel
     - seaborn
     channels: []
+  tensorflow-2.8.2-py38:
+    packages:
+    - tensorflow=2.8.2
+    - python=3.8
+    - hcc-python-stack
+    - tensorflow-probability=0.16.0
+    channels: []
+  tensorflow-2.8.2-py39:
+    packages:
+    - tensorflow=2.8.2
+    - python=3.9
+    - hcc-python-stack
+    - tensorflow-probability=0.16.0
+    channels: []
+  tensorflow-2.9.1-py38:
+    packages:
+    - tensorflow=2.9.1
+    - python=3.8
+    - hcc-python-stack
+    - tensorflow-probability=0.17.0
+    channels: []
+  tensorflow-2.9.1-py39:
+    packages:
+    - tensorflow=2.9.1
+    - python=3.9
+    - hcc-python-stack
+    - tensorflow-probability=0.17.0
+    channels: []
 packages: []
