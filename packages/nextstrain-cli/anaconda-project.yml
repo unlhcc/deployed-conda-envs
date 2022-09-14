@@ -79,3 +79,19 @@ env_specs:
     - iqtree=2.2.0.3
     - mafft=7.505
     channels: []
+  nextstrain-cli-4.2.0:
+    packages:
+    - nextstrain-cli=4.2.0
+    - python=3.10
+    - snakemake=7.14.0
+    - auspice=2.37.3
+    - biopython=1.79
+    - augur=17.1.0
+    - nextalign=2.5.0
+    - awscli=1.25.73
+    - git=2.37.3
+    - bx-python=0.9.0
+    - fasttree=2.1.11
+    - iqtree=2.2.0.3
+    - mafft=7.505
+    channels: []
