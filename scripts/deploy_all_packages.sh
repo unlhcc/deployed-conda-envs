@@ -25,6 +25,9 @@ fi
 # Sort and unique the directory list
 dirList="$(printf '%s\n' ${dirListA[@]} | sort | uniq)"
 
+# Use mamba for speed
+export CONDA_EXE=mamba
+
 NOTICE "Beginning package deployment"
 for packageDir in $dirList;
 do
