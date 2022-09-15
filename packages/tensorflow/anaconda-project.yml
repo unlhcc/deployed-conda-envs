@@ -440,16 +440,16 @@ env_specs:
     channels: []
   tensorflow-2.9.1-py38:
     packages:
-    - tensorflow=2.9.1
+    - tensorflow=2.9.1=mkl*
     - python=3.8
-    - hcc-python-stack
     - tensorflow-probability=0.17.0
+    - hcc-python-stack
     channels: []
   tensorflow-2.9.1-py39:
     packages:
-    - tensorflow=2.9.1
+    - tensorflow=2.9.1=mkl*
     - python=3.9
-    - hcc-python-stack
     - tensorflow-probability=0.17.0
+    - hcc-python-stack
     channels: []
-packages: []
+
