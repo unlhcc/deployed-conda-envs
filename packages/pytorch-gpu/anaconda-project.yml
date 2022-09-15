@@ -118,3 +118,19 @@ env_specs:
     - pandas
     - seaborn
     channels: []
+  pytorch-gpu-1.12.1-py38:
+    packages:
+    - pytorch-gpu=1.12.1
+    - python=3.8
+    - cudatoolkit=11.2
+    - tensorflow=2.9.1=cuda*
+    - hcc-python-stack
+    channels: []
+  pytorch-gpu-1.12.1-py39:
+    packages:
+    - pytorch-gpu=1.12.1
+    - python=3.9
+    - cudatoolkit=11.2
+    - tensorflow=2.9.1=cuda*
+    - hcc-python-stack
+    channels: []
