@@ -283,6 +283,41 @@ env_specs:
     - r-bh=1.78
     channels: []
 
+  r-4.2.0:
+    packages:
+    - r-base=4.2.0
+    - r-tidyverse
+    - r-irkernel
+    - r-checkpoint
+    - r-r.utils
+    - r-devtools
+    - r-udunits2
+    - r-units
+    - r-ggplot2
+    - r-rcppparallel
+    - r-gmp
+    - r-v8
+    - r-rstan
+    - r-xgboost
+    - r-plotly
+    - r-data.table
+    - r-littler
+    - r-rjava
+    - r-doparallel
+    - r-gbm
+    - r-rmpfr
+    - r-slam
+    - r-rcpparmadillo
+    - r-cairo
+    - r-rgdal
+    - r-raster
+    - r-bh
+    channels: ['pkgs/r']
+#    - r-mlr3
+#    - r-superlearner
+#    - r-rda
+#    - r-ranger
+
 commands:
   javareconf-r3.6.3:
     unix: R CMD javareconf
@@ -302,3 +337,6 @@ commands:
   javareconf-r4.1.3:
     unix: R CMD javareconf
     env_spec: r-4.1.3
+  javareconf-r4.2.0:
+    unix: R CMD javareconf
+    env_spec: r-4.2.0
