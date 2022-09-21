@@ -209,3 +209,24 @@ env_specs:
       - perl-xsloader=0.24=pl526_0
       - perl=5.26.2=h516909a_1006
       - zlib=1.2.11=h516909a_1006
+  entrez-direct-16.2:
+    locked: true
+    env_spec_hash: 4322ff0f4f6c9226fbd56f496d596aa90e28b584
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - ca-certificates=2022.9.14=ha878542_0
+      - entrez-direct=16.2=he881be0_1
+      - gettext=0.19.8.1=h73d1719_1008
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libgomp=12.1.0=h8d9b700_16
+      - libidn2=2.3.3=h166bdaf_0
+      - libunistring=0.9.10=h7f98852_0
+      - libzlib=1.2.12=h166bdaf_3
+      - openssl=3.0.5=h166bdaf_2
+      - wget=1.20.3=ha35d2d1_1
+      - zlib=1.2.12=h166bdaf_3
