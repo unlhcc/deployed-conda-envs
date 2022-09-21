@@ -211,7 +211,7 @@ env_specs:
       - zlib=1.2.11=h516909a_1006
   entrez-direct-16.2:
     locked: true
-    env_spec_hash: 4322ff0f4f6c9226fbd56f496d596aa90e28b584
+    env_spec_hash: 1303c41c2915a5d391b0d35d454cc0f6926c80ab
     platforms:
     - linux-64
     packages:
@@ -225,8 +225,10 @@ env_specs:
       - libgcc-ng=12.1.0=h8d9b700_16
       - libgomp=12.1.0=h8d9b700_16
       - libidn2=2.3.3=h166bdaf_0
+      - libnsl=2.0.0=h7f98852_0
       - libunistring=0.9.10=h7f98852_0
       - libzlib=1.2.12=h166bdaf_3
       - openssl=3.0.5=h166bdaf_2
+      - perl=5.32.1=2_h7f98852_perl5
       - wget=1.20.3=ha35d2d1_1
       - zlib=1.2.12=h166bdaf_3
