@@ -312,6 +312,7 @@ env_specs:
     - r-rgdal
     - r-raster
     - r-bh
+    - sysroot_linux-64=2.17
     channels: ['pkgs/r']
 #    - r-mlr3
 #    - r-superlearner
