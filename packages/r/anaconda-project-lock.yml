@@ -2885,7 +2885,7 @@ env_specs:
 
   r-4.2.0:
     locked: true
-    env_spec_hash: 46f76a82609d719aebb670ca271c66146f069fbc
+    env_spec_hash: e66dadeaf53a404f9c43447057aab269cce36e3b
     platforms:
     - linux-64
     packages:
@@ -2893,6 +2893,7 @@ env_specs:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
       - _r-mutex=1.0.0=anacondar_1
+      - _sysroot_linux-64_curr_repodata_hack=3=h5bd9786_13
       - binutils_impl_linux-64=2.36.1=h193b22a_2
       - binutils_linux-64=2.36=hf3e587d_10
       - blas=1.1=openblas
@@ -2936,7 +2937,7 @@ env_specs:
       - jpeg=9e=h166bdaf_2
       - json-c=0.13.1=hbfbb72e_1002
       - kealib=1.4.14=hcc255d8_2
-      - kernel-headers_linux-64=2.6.32=he073ed8_15
+      - kernel-headers_linux-64=3.10.0=h4a8ded7_13
       - keyutils=1.6.1=h166bdaf_0
       - krb5=1.19.3=h3790be6_0
       - ld_impl_linux-64=2.36.1=hea4e1c9_2
@@ -3174,7 +3175,7 @@ env_specs:
       - readline=8.1.2=h0f457ee_0
       - setuptools=65.3.0=pyhd8ed1ab_1
       - sqlite=3.39.3=h4ff8645_0
-      - sysroot_linux-64=2.12=he073ed8_15
+      - sysroot_linux-64=2.17=h4a8ded7_13
       - tiledb=2.3.4=he87e0bf_0
       - tk=8.6.12=h27826a3_0
       - tktable=2.10=hb7b940f_3
