@@ -40,4 +40,5 @@ env_specs:
   entrez-direct-16.2:
     packages:
     - entrez-direct=16.2
+    - perl
     channels: []
