@@ -1,0 +1,32 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  tpmcalculator-0.0.4:
+    locked: true
+    env_spec_hash: f97a73647775c306cb10174f426fca7afd99631a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - bamtools=2.5.1=h9a82719_9
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - tpmcalculator=0.0.4=h6fbe174_1
+      - zlib=1.2.12=h5eee18b_3
