@@ -28,4 +28,5 @@ env_specs:
   freecad-0.20.1:
     packages:
     - freecad=0.20.1
+    - matplotlib
     channels: []
