@@ -1,0 +1,65 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  abinit-9.6.2:
+    locked: true
+    env_spec_hash: d5f282666ceb8b6f7772dcbc247e303344bcf94e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - abinit=9.6.2=mpi_openmpi_h6fcf8af_1001
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.18.1=h7f98852_0
+      - ca-certificates=2022.9.14=ha878542_0
+      - curl=7.83.1=h7bff187_0
+      - fftw=3.3.10=mpi_openmpi_hdeb57f9_5
+      - hdf4=4.2.15=h9772cbc_4
+      - hdf5=1.12.2=mpi_openmpi_hb3f3608_0
+      - icu=70.1=h27087fc_0
+      - jpeg=9e=h166bdaf_2
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.19.3=h3790be6_0
+      - libblas=3.9.0=16_linux64_openblas
+      - libcurl=7.83.1=h7bff187_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libgfortran-ng=12.1.0=h69a702a_16
+      - libgfortran5=12.1.0=hdcd56e2_16
+      - libgomp=12.1.0=h8d9b700_16
+      - libiconv=1.16=h516909a_0
+      - liblapack=3.9.0=16_linux64_openblas
+      - libnetcdf=4.8.1=mpi_openmpi_h1cecd2a_4
+      - libnghttp2=1.47.0=hdcd2b5c_1
+      - libopenblas=0.3.21=pthreads_h78a6416_3
+      - libssh2=1.10.0=haa6b8db_3
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - libxc=4.3.4=h86c2bf4_2
+      - libxml2=2.9.14=h22db469_4
+      - libzip=1.9.2=hc869a4a_1
+      - libzlib=1.2.12=h166bdaf_3
+      - mpi=1.0=openmpi
+      - ncurses=6.3=h27087fc_1
+      - netcdf-fortran=4.6.0=mpi_openmpi_hc58b31e_0
+      - openmpi=4.1.4=external_1
+      - openssl=1.1.1q=h166bdaf_0
+      - wannier90=3.1.0=mpi_openmpi_h216e84a_1000
+      - xmlf90=1.5.4=he2924d7_0
+      - xz=5.2.6=h166bdaf_0
