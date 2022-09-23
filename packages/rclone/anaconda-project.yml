@@ -36,3 +36,7 @@ env_specs:
     packages:
     - rclone=1.51.0
     channels: []
+  rclone-1.59.2:
+    packages:
+    - rclone=1.59.2
+    channels: []
