@@ -101,7 +101,7 @@ env_specs:
     - jupyterlab_miami_nights=0.3.2
     - jupyter-archive=3.3.1
     - jupyterlab-latex=3.1.0
-    - hcc-jupyter-kernels=2022.09.15
+    - hcc-jupyter-kernels=2022.09.24
     - jupyterlmod=3.0.0
     channels: []
 # Remove the default python3 kernel as we provide that in the hcc-jupyter-kernels package
