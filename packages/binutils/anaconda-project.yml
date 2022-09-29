@@ -31,4 +31,10 @@ env_specs:
   binutils-2.35.1:
     packages:
     - binutils=2.35.1
+    - sysroot_linux-64=2.17
+    channels: []
+  binutils-2.38:
+    packages:
+    - binutils=2.38
+    - sysroot_linux-64=2.17
     channels: []
