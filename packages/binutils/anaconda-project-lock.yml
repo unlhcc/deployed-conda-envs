@@ -28,13 +28,28 @@ env_specs:
 
   binutils-2.35.1:
     locked: true
-    env_spec_hash: 89a06c96407202c57c36235c851636e613d69858
+    env_spec_hash: 4672bd4f5d05750c992e04a643daf181029857a7
     platforms:
     - linux-64
     packages:
       linux-64:
+      - _sysroot_linux-64_curr_repodata_hack=3=h5bd9786_13
       - binutils=2.35.1=hdd6e379_2
       - binutils_impl_linux-64=2.35.1=h193b22a_2
-      - kernel-headers_linux-64=2.6.32=h77966d4_13
+      - kernel-headers_linux-64=3.10.0=h4a8ded7_13
       - ld_impl_linux-64=2.35.1=hea4e1c9_2
-      - sysroot_linux-64=2.12=h77966d4_13
+      - sysroot_linux-64=2.17=h4a8ded7_13
+  binutils-2.38:
+    locked: true
+    env_spec_hash: 33a7e67bdeb8d4fb33df54d9ea590076aafbeaea
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _sysroot_linux-64_curr_repodata_hack=3=h5bd9786_13
+      - binutils=2.38=h1680402_1
+      - binutils_impl_linux-64=2.38=h2a08ee3_1
+      - kernel-headers_linux-64=3.10.0=h4a8ded7_13
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - sysroot_linux-64=2.17=h4a8ded7_13
