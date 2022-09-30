@@ -12,113 +12,127 @@ locking_enabled: true
 
 
 
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   ncl-6.6.2:
     locked: true
-    env_spec_hash: da597ce1e47f6df262e72de77fed68f7454f3987
+    env_spec_hash: 73c971f21496cad9d38368588c7f16c00f218990
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
-      - _openmp_mutex=4.5=1_gnu
-      - boost-cpp=1.74.0=h9359b55_0
+      - _openmp_mutex=4.5=2_gnu
+      - boost-cpp=1.74.0=h312852a_4
       - bzip2=1.0.8=h7f98852_4
-      - c-ares=1.17.1=h7f98852_1
-      - ca-certificates=2020.12.5=ha878542_0
-      - cairo=1.16.0=h488836b_1006
-      - cfitsio=3.470=h2e3daa1_7
-      - curl=7.76.1=h979ede3_1
-      - esmf=8.0.1=nompi_hcaa3220_2
-      - expat=2.3.0=h9c3ff4c_0
-      - fontconfig=2.13.1=hba837de_1005
-      - freetype=2.10.4=h0708190_1
-      - freexl=1.0.6=h7f98852_0
-      - geos=3.8.1=he1b5a44_0
-      - geotiff=1.6.0=h5d11630_3
-      - gettext=0.19.8.1=h0b5b191_1005
+      - c-ares=1.18.1=h7f98852_0
+      - ca-certificates=2022.9.24=ha878542_0
+      - cairo=1.16.0=h6cf1ce9_1008
+      - cfitsio=3.470=hb418390_7
+      - curl=7.83.1=h7bff187_0
+      - esmf=8.2.0=nompi_h61edca3_0
+      - expat=2.4.9=h27087fc_0
+      - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+      - font-ttf-inconsolata=3.000=h77eed37_0
+      - font-ttf-source-code-pro=2.038=h77eed37_0
+      - font-ttf-ubuntu=0.83=hab24e00_0
+      - fontconfig=2.14.0=hc2a2eb6_1
+      - fonts-conda-ecosystem=1=0
+      - fonts-conda-forge=1=0
+      - freetype=2.12.1=hca18f0e_0
+      - freexl=1.0.6=h166bdaf_1
+      - geos=3.9.1=h9c3ff4c_2
+      - geotiff=1.7.0=h4f31c25_0
+      - gettext=0.19.8.1=h27087fc_1009
       - giflib=5.2.1=h36c2ea0_2
-      - gsl=2.6=he838d99_2
-      - hdf4=4.2.13=h10796ff_1005
-      - hdf5=1.10.6=nompi_h7c3c948_1111
-      - hdfeos2=2.20=h64bfcee_1000
-      - hdfeos5=5.1.16=hb4ce793_7
-      - icu=67.1=he1b5a44_0
+      - gsl=2.7=he838d99_0
+      - hdf4=4.2.15=h9772cbc_4
+      - hdf5=1.12.1=nompi_h2386368_104
+      - hdfeos2=2.20=hca1e490_1001
+      - hdfeos5=5.1.16=h3fd3831_9
+      - icu=68.2=h9c3ff4c_0
       - jasper=1.900.1=h07fcdf6_1006
-      - jpeg=9d=h36c2ea0_0
-      - json-c=0.13.1=hbfbb72e_1002
-      - kealib=1.4.14=hcc255d8_2
-      - krb5=1.17.2=h926e7f8_0
-      - libblas=3.9.0=8_openblas
-      - libcblas=3.9.0=8_openblas
-      - libcurl=7.76.1=hc4aaa36_1
+      - jpeg=9e=h166bdaf_2
+      - json-c=0.15=h98cffda_0
+      - kealib=1.4.15=hfe1a663_0
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.19.3=h3790be6_0
+      - lcms2=2.12=hddcbb42_0
+      - lerc=4.0.0=h27087fc_0
+      - libblas=3.9.0=16_linux64_openblas
+      - libcblas=3.9.0=16_linux64_openblas
+      - libcurl=7.83.1=h7bff187_0
       - libdap4=3.20.6=hd7c4107_2
+      - libdeflate=1.14=h166bdaf_0
       - libedit=3.1.20191231=he28a2e2_2
       - libev=4.33=h516909a_1
-      - libffi=3.3=h58526e2_2
-      - libgcc-ng=9.3.0=h2828fa1_19
-      - libgdal=3.1.4=h50e41a3_1
-      - libgfortran-ng=7.5.0=h14aa051_19
-      - libgfortran4=7.5.0=h14aa051_19
-      - libglib=2.68.1=h3e27bee_0
-      - libgomp=9.3.0=h2828fa1_19
-      - libiconv=1.16=h516909a_0
-      - libkml=1.3.0=h238a007_1013
-      - libnetcdf=4.7.4=nompi_h56d31a8_107
-      - libnghttp2=1.43.0=h812cca2_0
-      - libopenblas=0.3.12=pthreads_hb3c22a3_1
-      - libpng=1.6.37=h21135ba_2
-      - libpq=12.3=h255efa7_3
-      - librttopo=1.1.0=hb271727_4
-      - libspatialite=5.0.1=h6ec7341_0
-      - libssh2=1.9.0=ha56f1ee_6
-      - libstdcxx-ng=9.3.0=h6de172a_19
-      - libtiff=4.2.0=hdc55705_1
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.1.0=h8d9b700_16
+      - libgdal=3.3.2=hd2dd7ad_2
+      - libgfortran-ng=12.1.0=h69a702a_16
+      - libgfortran5=12.1.0=hdcd56e2_16
+      - libglib=2.74.0=h7a41b64_0
+      - libgomp=12.1.0=h8d9b700_16
+      - libiconv=1.17=h166bdaf_0
+      - libkml=1.3.0=h238a007_1014
+      - libnetcdf=4.8.1=nompi_h329d8a1_102
+      - libnghttp2=1.47.0=hdcd2b5c_1
+      - libnsl=2.0.0=h7f98852_0
+      - libopenblas=0.3.21=pthreads_h78a6416_3
+      - libpng=1.6.38=h753d276_0
+      - libpq=13.5=hd57d9b9_1
+      - librttopo=1.1.0=h1185371_6
+      - libspatialite=5.0.1=h8694cbe_6
+      - libsqlite=3.39.3=h753d276_0
+      - libssh2=1.10.0=haa6b8db_3
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - libtiff=4.4.0=h55922b4_4
       - libuuid=2.32.1=h7f98852_1000
-      - libwebp-base=1.2.0=h7f98852_2
-      - libxcb=1.13=h7f98852_1003
-      - libxml2=2.9.10=h68273f3_2
-      - lz4-c=1.9.3=h9c3ff4c_0
+      - libwebp-base=1.2.4=h166bdaf_0
+      - libxcb=1.13=h7f98852_1004
+      - libxml2=2.9.12=h72842e0_0
+      - libzip=1.9.2=hc869a4a_1
+      - libzlib=1.2.12=h166bdaf_3
+      - lz4-c=1.9.3=h9c3ff4c_1
       - ncarg-rangs=1.1=0
-      - ncl=6.6.2=h087f628_23
-      - ncurses=6.2=h58526e2_4
-      - netcdf-fortran=4.5.3=nompi_hfef6a68_101
-      - openjpeg=2.4.0=hf7af979_0
-      - openssl=1.1.1k=h7f98852_0
-      - pcre=8.44=he1b5a44_0
-      - pixman=0.38.0=h516909a_1003
-      - poppler-data=0.4.10=0
-      - poppler=0.89.0=h2de54a5_5
-      - postgresql=12.3=hc2f5b80_3
-      - proj=7.1.1=h966b41f_3
+      - ncl=6.6.2=h92b1912_30
+      - ncurses=6.3=h27087fc_1
+      - netcdf-fortran=4.5.4=nompi_h2b6e579_100
+      - nspr=4.32=h9c3ff4c_1
+      - nss=3.78=h2350873_0
+      - openjpeg=2.5.0=h7d73246_1
+      - openssl=1.1.1q=h166bdaf_0
+      - pcre2=10.37=hc3806b6_1
+      - pcre=8.45=h9c3ff4c_0
+      - pixman=0.40.0=h36c2ea0_0
+      - poppler-data=0.4.11=hd8ed1ab_0
+      - poppler=21.09.0=ha39eefc_3
+      - postgresql=13.5=h2510834_1
+      - proj=8.0.1=h277dcde_0
       - pthread-stubs=0.4=h36c2ea0_1001
-      - readline=8.1=h46c0cb4_0
-      - sqlite=3.35.5=h74cdb3f_0
-      - tiledb=2.1.6=h91fcb0e_1
-      - tk=8.6.10=h21135ba_1
-      - tzcode=2021a=h7f98852_1
-      - udunits2=2.2.27.27=h975c496_1
-      - xerces-c=3.2.3=hfe33f54_1
+      - readline=8.1.2=h0f457ee_0
+      - sqlite=3.39.3=h4ff8645_0
+      - tiledb=2.3.4=he87e0bf_0
+      - tzcode=2022d=h166bdaf_0
+      - tzdata=2022d=h191b570_0
+      - udunits2=2.2.28=hc3e0081_0
+      - xerces-c=3.2.3=h9d8b166_3
       - xorg-imake=1.0.7=0
       - xorg-kbproto=1.0.7=h7f98852_1002
       - xorg-libice=1.0.10=h7f98852_0
       - xorg-libsm=1.2.3=hd9c2040_1000
-      - xorg-libx11=1.6.12=h516909a_0
+      - xorg-libx11=1.7.2=h7f98852_0
       - xorg-libxau=1.0.9=h7f98852_0
-      - xorg-libxaw=1.0.14=h7f98852_0
+      - xorg-libxaw=1.0.14=h7f98852_1
       - xorg-libxdmcp=1.1.3=h7f98852_0
-      - xorg-libxext=1.3.4=h516909a_0
-      - xorg-libxmu=1.1.3=h516909a_0
-      - xorg-libxpm=3.5.13=h516909a_0
-      - xorg-libxrender=0.9.10=h516909a_1002
-      - xorg-libxt=1.1.5=h516909a_1003
-      - xorg-makedepend=1.0.6=he1b5a44_1
+      - xorg-libxext=1.3.4=h7f98852_1
+      - xorg-libxmu=1.1.3=h7f98852_0
+      - xorg-libxpm=3.5.13=h7f98852_0
+      - xorg-libxrender=0.9.10=h7f98852_1003
+      - xorg-libxt=1.2.1=h7f98852_2
+      - xorg-makedepend=1.0.6=h27087fc_2
       - xorg-renderproto=0.11.1=h7f98852_1002
       - xorg-xextproto=7.3.0=h7f98852_1002
       - xorg-xproto=7.0.31=h7f98852_1007
-      - xz=5.2.5=h516909a_1
-      - zlib=1.2.11=h516909a_1010
-      - zstd=1.4.9=ha95c52a_0
+      - xz=5.2.6=h166bdaf_0
+      - zlib=1.2.12=h166bdaf_3
+      - zstd=1.5.2=h6239696_4

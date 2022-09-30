@@ -28,4 +28,6 @@ env_specs:
     packages:
     - ncl=6.6.2
     - ncarg-rangs=1.1
+    - libnetcdf=*=nompi*
+    - jasper=1.900.1*
     channels: []
