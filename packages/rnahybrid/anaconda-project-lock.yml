@@ -24,6 +24,31 @@ env_specs:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
+      - expat=2.4.9=h27087fc_0
+      - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+      - font-ttf-inconsolata=3.000=h77eed37_0
+      - font-ttf-source-code-pro=2.038=h77eed37_0
+      - font-ttf-ubuntu=0.83=hab24e00_0
+      - fontconfig=2.14.0=hc2a2eb6_1
+      - fonts-conda-ecosystem=1=0
+      - fonts-conda-forge=1=0
+      - freetype=2.12.1=hca18f0e_0
+      - giflib=5.2.1=h36c2ea0_2
+      - icu=70.1=h27087fc_0
+      - jpeg=9e=h166bdaf_2
+      - lerc=4.0.0=h27087fc_0
+      - libdeflate=1.14=h166bdaf_0
       - libgcc-ng=12.1.0=h8d9b700_16
+      - libgd=2.3.3=h18fbbfe_3
       - libgomp=12.1.0=h8d9b700_16
-      - rnahybrid=2.1.2=hec16e2b_0
+      - libpng=1.6.38=h753d276_0
+      - libstdcxx-ng=12.1.0=ha89aaad_16
+      - libtiff=4.4.0=h55922b4_4
+      - libuuid=2.32.1=h7f98852_1000
+      - libwebp-base=1.2.4=h166bdaf_0
+      - libwebp=1.2.4=h522a892_0
+      - libzlib=1.2.12=h166bdaf_4
+      - rnahybrid=2.1.2=hec16e2b_1
+      - xz=5.2.6=h166bdaf_0
+      - zlib=1.2.12=h166bdaf_4
+      - zstd=1.5.2=h6239696_4
