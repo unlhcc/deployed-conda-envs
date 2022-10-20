@@ -59,3 +59,10 @@ env_specs:
     - r-base
     - numpy
     channels: []
+  busco-5.4.3-py39:
+    packages:
+    - busco=5.4.3
+    - python=3.9
+    - r-base
+    - numpy
+    channels: []
