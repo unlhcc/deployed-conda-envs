@@ -36,3 +36,9 @@ env_specs:
     - gromacs=2022.3=nompi_cuda*
     - cudatoolkit=11.4
     channels: []
+commands:
+  gromacs-2022.3-mpi-gmx:
+    unix: ln -frsv ${CONDA_PREFIX}/bin.AVX_256/gmx_mpi_d ${CONDA_PREFIX}/bin.AVX_256/gmx &&
+          ln -frsv ${CONDA_PREFIX}/bin.AVX2_256/gmx_mpi_d ${CONDA_PREFIX}/bin.AVX2_256/gmx &&
+          ln -frsv ${CONDA_PREFIX}/bin.SSE2/gmx_mpi_d ${CONDA_PREFIX}/bin.SSE2/gmx
+    env_spec: gromacs-2022.3-mpi
