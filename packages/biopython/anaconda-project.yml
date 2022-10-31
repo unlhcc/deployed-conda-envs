@@ -96,6 +96,7 @@ env_specs:
     - pandas
     - ipykernel
     - python=3.6
+    - networkx
     channels: []
   biopython-1.79-py37:
     packages:
@@ -108,6 +109,7 @@ env_specs:
     - pandas
     - ipykernel
     - python=3.7
+    - networkx
     channels: []
   biopython-1.79-py38:
     packages:
@@ -120,6 +122,7 @@ env_specs:
     - pandas
     - ipykernel
     - python=3.8
+    - networkx
     channels: []
   biopython-1.79-py39:
     packages:
@@ -132,4 +135,5 @@ env_specs:
     - pandas
     - ipykernel
     - python=3.9
+    - networkx
     channels: []
