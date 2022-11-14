@@ -30,4 +30,14 @@ env_specs:
     - eman2=2022.11.06
     - python=3.9
     - openmpi=4.1.*=external_*
+    - biopython=1.79
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - networkx
+    - mrcfile
     channels: []
