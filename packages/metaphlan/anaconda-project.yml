@@ -37,3 +37,9 @@ env_specs:
     - python=3.9
     - bowtie2=2.4
     channels: []
+  metaphlan-4.0.3:
+    packages:
+    - metaphlan=4.0.3
+    - python=3.9
+    - bowtie2=2.4
+    channels: []
