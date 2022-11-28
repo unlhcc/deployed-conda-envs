@@ -29,3 +29,8 @@ env_specs:
     packages:
     - maaslin2=0.3.0
     channels: []
+  maaslin2-0.99.12:
+    packages:
+    - maaslin2=0.99.12
+    - r-base=3.6
+    channels: []
