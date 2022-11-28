@@ -41,3 +41,8 @@ env_specs:
     - humann=3.6
     - python=3.9
     channels: []
+commands:
+  update_db:
+    unix: humann_config --update database_folders nucleotide $HCC_APPS_DB_BCRF_PATH/humann/3/v31_201901/chocophlan/
+      && humann_config --update database_folders protein $HCC_APPS_DB_BCRF_PATH/humann/3/v31_201901/uniref/uniref90/
+    env_spec: humann-3.6
