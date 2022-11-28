@@ -36,3 +36,8 @@ env_specs:
     - humann=3.1.1
     - python=3.9
     channels: []
+  humann-3.6:
+    packages:
+    - humann=3.6
+    - python=3.9
+    channels: []
