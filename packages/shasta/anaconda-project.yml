@@ -29,3 +29,7 @@ env_specs:
     packages:
     - shasta=0.8.0
     channels: []
+  shasta-0.11.1:
+    packages:
+    - shasta=0.11.1
+    channels: []
