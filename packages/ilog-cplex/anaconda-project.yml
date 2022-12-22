@@ -59,6 +59,15 @@ env_specs:
     - scikit-plot
     - pandas
     channels: []
+  ilog-cplex-22.1.0:
+    packages:
+    - python=3.8
+    - certifi=2019.9.11
+    - chardet=3.0.4
+    - idna=2.8
+    - six=1.12.0
+    - hcc-python-stack
+    channels: []
 
 commands:
   install-cplex-python-12.10:
@@ -71,3 +80,8 @@ commands:
       && pip install /util/opt/IBM-ILOG-CPLEX/20.10/cplex/python/3.8/x86-64_linux/
       -vv --no-deps
     env_spec: ilog-cplex-20.10
+  install-cplex-python-22.1.0:
+    unix: pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/python/docplex/ -vv --no-deps
+      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.8/x86-64_linux/
+      -vv --no-deps
+    env_spec: ilog-cplex-22.1.0
