@@ -195,6 +195,7 @@ env_specs:
     - python=3.8
     - tensorflow-cpu=2.9.1
     - hcc-python-stack
+    - torchvision=0.13.0=cpu_py38*
     channels: []
   pytorch-1.12.1-py39:
     packages:
@@ -202,4 +203,21 @@ env_specs:
     - python=3.9
     - tensorflow-cpu=2.9.1
     - hcc-python-stack
+    - torchvision=0.13.0=cpu_py39*
+    channels: []
+  pytorch-1.13.0-py39:
+    packages:
+    - pytorch=1.13.0=cpu_py39*
+    - python=3.9
+    - tensorflow-cpu=2.10.0
+    - hcc-python-stack
+    - torchvision=0.14.0=cpu_py39*
+    channels: []
+  pytorch-1.13.0-py310:
+    packages:
+    - pytorch=1.13.0=cpu_py310*
+    - python=3.10
+    - tensorflow-cpu=2.10.0
+    - hcc-python-stack
+    - torchvision=0.14.0=cpu_py310*
     channels: []
