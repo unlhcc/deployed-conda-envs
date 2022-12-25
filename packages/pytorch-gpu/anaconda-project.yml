@@ -125,6 +125,7 @@ env_specs:
     - cudatoolkit=11.2
     - tensorflow=2.9.1=cuda*
     - hcc-python-stack
+    - torchvision=0.13.0=cuda112py38*
     channels: []
   pytorch-gpu-1.12.1-py39:
     packages:
@@ -133,4 +134,23 @@ env_specs:
     - cudatoolkit=11.2
     - tensorflow=2.9.1=cuda*
     - hcc-python-stack
+    - torchvision=0.13.0=cuda112py39*
+    channels: []
+  pytorch-gpu-1.13.0-py39:
+    packages:
+    - pytorch-gpu=1.13.0
+    - python=3.9
+    - cudatoolkit=11.2
+    - hcc-python-stack
+    - torchvision=0.14.0=cuda112py39*
+    - tensorflow=2.10.0=cuda112py39*
+    channels: []
+  pytorch-gpu-1.13.0-py310:
+    packages:
+    - pytorch-gpu=1.13.0
+    - python=3.10
+    - cudatoolkit=11.2
+    - hcc-python-stack
+    - torchvision=0.14.0=cuda112py310*
+    - tensorflow=2.10.0=cuda112py310*
     channels: []
