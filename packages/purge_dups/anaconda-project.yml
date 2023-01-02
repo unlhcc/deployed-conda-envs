@@ -27,5 +27,5 @@ platforms:
 env_specs:
   purge_dups-1.2.6:
     packages:
-    - purge_dups=1.2.6
+    - purge_dups=1.2.6=py39*
     channels: []
