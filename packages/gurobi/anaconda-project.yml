@@ -63,3 +63,19 @@ env_specs:
     - hcc-python-stack=1.0
     - coin-or-osi=0.108.7
     channels: []
+  gurobi-10.0.0-py39:
+    packages:
+    - gurobi=10.0.0
+    - python=3.9
+    - hcc-python-stack=1.0
+    - coin-or-osi=0.108.7
+    channels:
+    - Gurobi
+  gurobi-10.0.0-py310:
+    packages:
+    - gurobi=10.0.0
+    - python=3.10
+    - hcc-python-stack=1.0
+    - coin-or-osi=0.108.7
+    channels:
+    - Gurobi
