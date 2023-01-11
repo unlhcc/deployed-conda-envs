@@ -1,6 +1,10 @@
 #!/bin/bash
 
 set -euo pipefail
+
+# avoid unbound var error on libxml2 activation
+export XML_CATALOG_FILES=""
+
 if [ ! -z ${GITLAB_CI+set} ]
 then
     source $ANACONDA_PREFIX/etc/profile.d/conda.sh
