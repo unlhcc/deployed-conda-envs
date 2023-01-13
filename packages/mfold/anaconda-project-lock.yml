@@ -1,0 +1,30 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  mfold-3.6:
+    locked: true
+    env_spec_hash: c26b20c173de3ddab5e497b80567c786fceeb991
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libstdcxx-ng=12.2.0=h46fd767_19
+      - mfold=3.6=h87f3376_0
