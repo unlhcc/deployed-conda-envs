@@ -27,3 +27,7 @@ env_specs:
     packages:
     - feh=3.3
     channels: []
+  feh-3.9.1:
+    packages:
+    - feh=3.9.1
+    channels: []
