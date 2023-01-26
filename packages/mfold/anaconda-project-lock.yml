@@ -25,6 +25,8 @@ env_specs:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
       - libgcc-ng=12.2.0=h65d4601_19
+      - libgfortran-ng=12.2.0=h69a702a_19
+      - libgfortran5=12.2.0=h337968e_19
       - libgomp=12.2.0=h65d4601_19
       - libstdcxx-ng=12.2.0=h46fd767_19
-      - mfold=3.6=h87f3376_0
+      - mfold=3.6=h1aed7a7_1
