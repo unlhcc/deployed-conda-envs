@@ -1,0 +1,225 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  bertopic-0.13.0:
+    locked: true
+    env_spec_hash: 81ec21d7940a2633c1a46ded0f040eefce1f5ea0
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - aiohttp=3.8.3=py38h0a891b7_1
+      - aiosignal=1.3.1=pyhd8ed1ab_0
+      - appdirs=1.4.4=pyh9f0ad1d_0
+      - arrow-cpp=10.0.1=h27aab58_4_cpu
+      - async-timeout=4.0.2=pyhd8ed1ab_0
+      - attrs=22.2.0=pyh71513ae_0
+      - aws-c-auth=0.6.21=hd93a3ba_3
+      - aws-c-cal=0.5.20=hff2c3d7_3
+      - aws-c-common=0.8.5=h166bdaf_0
+      - aws-c-compression=0.2.16=hf5f93bc_0
+      - aws-c-event-stream=0.2.18=h57874a7_0
+      - aws-c-http=0.7.0=h96ef541_0
+      - aws-c-io=0.13.12=h57ca295_1
+      - aws-c-mqtt=0.7.13=h0b5698f_12
+      - aws-c-s3=0.2.1=h82cbbf9_4
+      - aws-c-sdkutils=0.1.7=hf5f93bc_0
+      - aws-checksums=0.1.14=h6027aba_0
+      - aws-crt-cpp=0.18.16=h3d32c11_9
+      - aws-sdk-cpp=1.9.379=ha834a50_8
+      - bertopic=0.13.0=pyhd8ed1ab_0
+      - brotlipy=0.7.0=py38h0a891b7_1005
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.18.1=h7f98852_0
+      - ca-certificates=2022.12.7=ha878542_0
+      - catalogue=2.0.8=py38h578d9bd_1
+      - certifi=2022.12.7=pyhd8ed1ab_0
+      - cffi=1.15.1=py38h4a40e3a_3
+      - charset-normalizer=2.1.1=pyhd8ed1ab_0
+      - click=8.1.3=unix_pyhd8ed1ab_2
+      - colorama=0.4.6=pyhd8ed1ab_0
+      - commonmark=0.9.1=py_0
+      - confection=0.0.4=py38h6f1a3b6_1
+      - cryptography=39.0.0=py38h3d167d9_0
+      - cudatoolkit=11.4.4=h5e1937b_3
+      - cudnn=8.4.1.50=hed8a83a_0
+      - cymem=2.0.7=py38hfa26641_1
+      - cython-blis=0.7.9=py38h26c90d9_1
+      - cython=0.29.33=py38h8dc9893_0
+      - dataclasses=0.8=pyhc8e2a94_3
+      - datasets=2.9.0=pyhd8ed1ab_0
+      - dill=0.3.6=pyhd8ed1ab_1
+      - filelock=3.9.0=pyhd8ed1ab_0
+      - freetype=2.12.1=hca18f0e_1
+      - frozenlist=1.3.3=py38h0a891b7_0
+      - fsspec=2023.1.0=pyhd8ed1ab_0
+      - future=0.18.3=pyhd8ed1ab_0
+      - gensim=4.3.0=py38hdc8b05c_1
+      - gflags=2.2.2=he1b5a44_1004
+      - giflib=5.2.1=h36c2ea0_2
+      - glog=0.6.0=h6f12383_0
+      - hdbscan=0.8.29=py38h26c90d9_1
+      - huggingface_hub=0.12.0=pyhd8ed1ab_0
+      - icu=70.1=h27087fc_0
+      - idna=3.4=pyhd8ed1ab_0
+      - importlib-metadata=6.0.0=pyha770c72_0
+      - importlib_metadata=6.0.0=hd8ed1ab_0
+      - intel-openmp=2022.1.0=h9e868ea_3769
+      - jinja2=3.1.2=pyhd8ed1ab_1
+      - joblib=1.2.0=pyhd8ed1ab_0
+      - jpeg=9e=h166bdaf_2
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.20.1=h81ceb04_0
+      - langcodes=3.3.0=pyhd8ed1ab_0
+      - lcms2=2.14=hfd0df8a_1
+      - ld_impl_linux-64=2.40=h41732ed_0
+      - lerc=4.0.0=h27087fc_0
+      - libabseil=20220623.0=cxx17_h05df665_6
+      - libarrow=10.0.1=h86614e7_4_cpu
+      - libblas=3.9.0=16_linux64_openblas
+      - libbrotlicommon=1.0.9=h166bdaf_8
+      - libbrotlidec=1.0.9=h166bdaf_8
+      - libbrotlienc=1.0.9=h166bdaf_8
+      - libcblas=3.9.0=16_linux64_openblas
+      - libcrc32c=1.1.2=h9c3ff4c_0
+      - libcurl=7.87.0=hdc1c0ab_0
+      - libdeflate=1.17=h0b41bf4_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libevent=2.1.10=h28343ad_4
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgfortran-ng=12.2.0=h69a702a_19
+      - libgfortran5=12.2.0=h337968e_19
+      - libgomp=12.2.0=h65d4601_19
+      - libgoogle-cloud=2.5.0=h21dfe5b_1
+      - libgrpc=1.51.1=h30feacc_0
+      - libhwloc=2.8.0=h32351e8_1
+      - libiconv=1.17=h166bdaf_0
+      - libimagequant=2.17.0=h7f98852_1
+      - liblapack=3.9.0=16_linux64_openblas
+      - libllvm11=11.1.0=he0ac6c6_5
+      - libnghttp2=1.51.0=hff17c54_0
+      - libnsl=2.0.0=h7f98852_0
+      - libopenblas=0.3.21=pthreads_h78a6416_3
+      - libpng=1.6.39=h753d276_0
+      - libprotobuf=3.21.12=h3eb15da_0
+      - libsentencepiece=0.1.97=h43f1d4c_0
+      - libsqlite=3.40.0=h753d276_0
+      - libssh2=1.10.0=hf14f497_3
+      - libstdcxx-ng=12.2.0=h46fd767_19
+      - libthrift=0.16.0=he500d00_2
+      - libtiff=4.5.0=h6adf6a1_2
+      - libutf8proc=2.8.0=h166bdaf_0
+      - libuuid=2.32.1=h7f98852_1000
+      - libwebp-base=1.2.4=h166bdaf_0
+      - libwebp=1.2.4=h1daa5a0_1
+      - libxcb=1.13=h7f98852_1004
+      - libxml2=2.10.3=h7463322_0
+      - libzlib=1.2.13=h166bdaf_4
+      - llvmlite=0.39.1=py38h38d86a4_1
+      - lz4-c=1.9.4=hcb278e6_0
+      - magma=2.5.4=hc72dce7_4
+      - markupsafe=2.1.2=py38h1de0b5d_0
+      - mkl=2022.1.0=hc2b9512_224
+      - multidict=6.0.4=py38h1de0b5d_0
+      - multiprocess=0.70.14=py38h0a891b7_3
+      - murmurhash=1.0.9=py38hfa26641_1
+      - nccl=2.14.3.1=h0800d71_0
+      - ncurses=6.3=h27087fc_1
+      - ninja=1.11.0=h924138e_0
+      - nltk=3.8.1=pyhd8ed1ab_0
+      - numba=0.56.4=py38h9a4aae9_0
+      - numpy=1.23.5=py38h7042d01_0
+      - openjpeg=2.4.0=h3ad879b_0
+      - openssl=3.0.7=h0b41bf4_2
+      - orc=1.8.2=hfdbbad2_0
+      - packaging=23.0=pyhd8ed1ab_0
+      - pandas=1.5.3=py38hdc8b05c_0
+      - parquet-cpp=1.5.1=2
+      - pathy=0.10.1=pyhd8ed1ab_0
+      - pillow=9.0.0.post1=py38h458aeec_1000
+      - pip=22.3.1=pyhd8ed1ab_0
+      - plotly=5.13.0=pyhd8ed1ab_0
+      - pooch=1.6.0=pyhd8ed1ab_0
+      - preshed=3.0.8=py38hfa26641_1
+      - pthread-stubs=0.4=h36c2ea0_1001
+      - pyarrow=10.0.1=py38h03a3090_4_cpu
+      - pycparser=2.21=pyhd8ed1ab_0
+      - pydantic=1.10.4=py38h1de0b5d_1
+      - pygments=2.14.0=pyhd8ed1ab_0
+      - pynndescent=0.5.8=pyh1a96a4e_0
+      - pyopenssl=23.0.0=pyhd8ed1ab_0
+      - pysocks=1.7.1=pyha2e5f31_6
+      - python-dateutil=2.8.2=pyhd8ed1ab_0
+      - python-xxhash=3.2.0=py38h1de0b5d_0
+      - python=3.8.15=he550d4f_1_cpython
+      - python_abi=3.8=3_cp38
+      - pytorch=1.12.1=cuda112py38hd94e077_201
+      - pytz=2022.7.1=pyhd8ed1ab_0
+      - pyyaml=5.4.1=py38h0a891b7_4
+      - re2=2022.06.01=h27087fc_1
+      - readline=8.1.2=h0f457ee_0
+      - regex=2022.10.31=py38h0a891b7_0
+      - requests=2.28.2=pyhd8ed1ab_0
+      - responses=0.18.0=pyhd8ed1ab_0
+      - rich=12.6.0=pyhd8ed1ab_0
+      - s2n=1.3.31=h3358134_0
+      - sacremoses=0.0.53=pyhd8ed1ab_0
+      - scikit-learn=1.2.1=py38h1e1a916_0
+      - scipy=1.10.0=py38h10c12cc_0
+      - sentence-transformers=2.2.2=pyhd8ed1ab_0
+      - sentencepiece-python=0.1.97=py38h0c9c4f8_0
+      - sentencepiece-spm=0.1.97=h43f1d4c_0
+      - sentencepiece=0.1.97=h578d9bd_0
+      - setuptools=66.1.1=pyhd8ed1ab_0
+      - shellingham=1.5.0.post1=pyhd8ed1ab_0
+      - six=1.16.0=pyh6c4a22f_0
+      - sleef=3.5.1=h9b69904_2
+      - smart_open=5.2.1=pyhd8ed1ab_0
+      - snappy=1.1.9=hbd366e4_2
+      - spacy-legacy=3.0.12=pyhd8ed1ab_0
+      - spacy-loggers=1.0.4=pyhd8ed1ab_0
+      - spacy=3.5.0=py38h507a481_0
+      - srsly=2.4.5=py38hfa26641_1
+      - tbb=2021.7.0=h924138e_1
+      - tenacity=8.1.0=pyhd8ed1ab_0
+      - thinc=8.1.7=py38h507a481_0
+      - threadpoolctl=3.1.0=pyh8a188c0_0
+      - tk=8.6.12=h27826a3_0
+      - tokenizers=0.13.2=py38haefcc50_0
+      - torchvision=0.13.0=cuda112py38h53e7b36_0
+      - tqdm=4.64.1=pyhd8ed1ab_0
+      - transformers=4.26.0=pyhd8ed1ab_0
+      - typer=0.7.0=pyhd8ed1ab_0
+      - typing-extensions=4.4.0=hd8ed1ab_0
+      - typing_extensions=4.4.0=pyha770c72_0
+      - umap-learn=0.5.3=py38h578d9bd_0
+      - urllib3=1.26.14=pyhd8ed1ab_0
+      - wasabi=1.1.1=py38h578d9bd_1
+      - wheel=0.38.4=pyhd8ed1ab_0
+      - xorg-libxau=1.0.9=h7f98852_0
+      - xorg-libxdmcp=1.1.3=h7f98852_0
+      - xxhash=0.8.1=h0b41bf4_0
+      - xz=5.2.6=h166bdaf_0
+      - yaml=0.2.5=h7f98852_2
+      - yarl=1.8.2=py38h0a891b7_0
+      - zipp=3.11.0=pyhd8ed1ab_0
+      - zlib=1.2.13=h166bdaf_4
+      - zstd=1.5.2=h3eb15da_6
