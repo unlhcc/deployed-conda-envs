@@ -452,4 +452,37 @@ env_specs:
     - tensorflow-probability=0.17.0
     - hcc-python-stack
     channels: []
-
+  tensorflow-2.10.0-py38:
+    packages:
+    - tensorflow=2.10.0=mkl*
+    - python=3.8
+    - tensorflow-probability=0.18.0
+    - hcc-python-stack
+    channels: []
+  tensorflow-2.10.0-py39:
+    packages:
+    - tensorflow=2.10.0=mkl*
+    - python=3.9
+    - tensorflow-probability=0.18.0
+    - hcc-python-stack
+    channels: []
+  tensorflow-2.11.0-py38:
+    packages:
+    - tensorflow=2.11.0=cpu*
+    - python=3.8
+    - hcc-python-stack
+    - cloudpickle=2.2.1
+    - dm-tree
+    - pip:
+      - tensorflow-probability==0.19.0
+    channels: []
+  tensorflow-2.11.0-py39:
+    packages:
+    - tensorflow=2.11.0=cpu*
+    - python=3.9
+    - hcc-python-stack
+    - cloudpickle=2.2.1
+    - dm-tree
+    - pip:
+      - tensorflow-probability==0.19.0
+    channels: []
