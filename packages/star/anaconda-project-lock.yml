@@ -47,3 +47,11 @@ env_specs:
     packages:
       linux-64:
       - star=2.7.6a=0
+  star-2.7.10b:
+    locked: true
+    env_spec_hash: e00adad94dd0a21366fc86c3a3ded507bf55fe8c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - star=2.7.10b=h9ee0642_0
