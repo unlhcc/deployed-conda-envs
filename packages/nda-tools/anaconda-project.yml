@@ -30,4 +30,5 @@ env_specs:
     - python=3.9
     - secretstorage
     - keyring
+    - keyrings.alt
     channels: []
