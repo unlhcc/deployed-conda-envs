@@ -17,15 +17,15 @@ locking_enabled: true
 env_specs:
   nda-tools-0.2.23:
     locked: true
-    env_spec_hash: 9c97789f366f343ca1fb9c296371f83370201626
+    env_spec_hash: b11ca03642484db0d04bceca2cc932e7a407cab3
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
-      - boto3=1.26.76=pyhd8ed1ab_0
-      - botocore=1.29.76=pyhd8ed1ab_0
+      - boto3=1.26.80=pyhd8ed1ab_0
+      - botocore=1.29.80=pyhd8ed1ab_0
       - brotlipy=0.7.0=py39hb9d737c_1005
       - bzip2=1.0.8=h7f98852_4
       - ca-certificates=2022.12.7=ha878542_0
@@ -56,7 +56,7 @@ env_specs:
       - libuuid=2.32.1=h7f98852_1000
       - libzlib=1.2.13=h166bdaf_4
       - mock=5.0.1=pyhd8ed1ab_0
-      - more-itertools=9.0.0=pyhd8ed1ab_0
+      - more-itertools=9.1.0=pyhd8ed1ab_0
       - ncurses=6.3=h27087fc_1
       - nda-tools=0.2.23=pyh7cba7a3_0
       - openssl=3.0.8=h0b41bf4_0
@@ -83,4 +83,4 @@ env_specs:
       - wheel=0.38.4=pyhd8ed1ab_0
       - xz=5.2.6=h166bdaf_0
       - yaml=0.2.5=h7f98852_2
-      - zipp=3.14.0=pyhd8ed1ab_0
+      - zipp=3.15.0=pyhd8ed1ab_0
