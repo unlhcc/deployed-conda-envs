@@ -28,4 +28,6 @@ env_specs:
     packages:
     - nda-tools=0.2.23
     - python=3.9
+    - secretstorage
+    - keyring
     channels: []
