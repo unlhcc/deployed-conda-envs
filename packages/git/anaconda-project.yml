@@ -49,3 +49,8 @@ env_specs:
     - git=2.35.1
     - git-lfs=3.1.2
     channels: []
+  git-2.39.2:
+    packages:
+    - git=2.39.2
+    - git-lfs=3.3.0
+    channels: []
