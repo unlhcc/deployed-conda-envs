@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   lammps-2021.09.29:
     locked: true
-    env_spec_hash: 8ab0361953151aca28b9b8dc2e46ebe9f1ef2538
+    env_spec_hash: d3c4a65de4ac1365be0b9f35898b5024b24bd033
     platforms:
     - linux-64
     packages:
@@ -59,7 +59,7 @@ env_specs:
       - giflib=5.2.1=h5eee18b_3
       - gmp=6.2.1=h295c915_3
       - gnutls=3.7.8=hf3e180e_0
-      - gsl=2.7.1=h6e86dc7_1
+      - gsl=2.7=he838d99_0
       - hdf5=1.12.1=h70be1eb_2
       - icu=58.2=he6710b0_3
       - idna=3.4=py38h06a4308_0
