@@ -31,3 +31,10 @@ env_specs:
     - python=3.8
     - gsl=2.7=he838d99_0
     channels: []
+  lammps-2022.06.23:
+    packages:
+    - lammps=2022.06.23
+    - openmpi=*=external*
+    - python=3.8
+    - gsl=2.7=he838d99_0
+    channels: []
