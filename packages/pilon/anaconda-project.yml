@@ -14,7 +14,7 @@ name: Pilon
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: Pilon is an automated genome assembly improvement and variant detection
-  tool.      
+  tool.
 
 
 #
@@ -30,4 +30,10 @@ env_specs:
     - pilon=1.23
     - python=3.7
     - openjdk=11.0.1
+    channels: []
+  pilon-1.24:
+    packages:
+    - pilon=1.24
+    - python=3.9
+    - openjdk
     channels: []
