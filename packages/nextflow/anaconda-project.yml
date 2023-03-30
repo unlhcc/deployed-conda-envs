@@ -43,3 +43,7 @@ env_specs:
     packages:
     - nextflow=22.10.1
     channels: []
+  nextflow-22.10.6:
+    packages:
+    - nextflow=22.10.6
+    channels: []
