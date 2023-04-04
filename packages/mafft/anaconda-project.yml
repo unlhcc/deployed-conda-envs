@@ -28,3 +28,7 @@ env_specs:
     packages:
     - mafft=7.407
     channels: []
+  mafft-7.520:
+    packages:
+    - mafft=7.520
+    channels: []
