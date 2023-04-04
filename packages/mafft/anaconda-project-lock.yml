@@ -26,3 +26,15 @@ env_specs:
       - mafft=7.407=1
 
 
+  mafft-7.520:
+    locked: true
+    env_spec_hash: 61a9784d24b61e429dd6e96ab78b3c18a769a1a2
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - mafft=7.520=hec16e2b_0

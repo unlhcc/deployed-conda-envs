@@ -28,3 +28,7 @@ env_specs:
     packages:
     - muscle=3.8.1551
     channels: []
+  muscle-5.1:
+    packages:
+    - muscle=5.1
+    channels: []
