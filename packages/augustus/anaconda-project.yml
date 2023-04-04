@@ -38,3 +38,7 @@ env_specs:
     - augustus=3.4.0
     - scipio=1.4
     channels: []
+  augustus-3.5.0:
+    packages:
+    - augustus=3.5.0
+    channels: []
