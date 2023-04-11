@@ -54,9 +54,9 @@ env_specs:
       - zlib=1.2.11=h14c3975_1004
 
 
-  masurca-4.0.9:
+  masurca-4.1.0:
     locked: true
-    env_spec_hash: 028ee52428232f8eb210ba68ed0e6f9216d6e112
+    env_spec_hash: b6787ce3677c269a2ee53c3a66169858f0d71f28
     platforms:
     - linux-64
     packages:
@@ -64,18 +64,67 @@ env_specs:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
       - boost-cpp=1.74.0=h75c5d50_8
+      - bwa=0.7.17=h7132678_9
       - bzip2=1.0.8=h7f98852_4
-      - grep=3.4=hcb20899_2
+      - ca-certificates=2022.12.7=ha878542_0
+      - flye=2.9.2=py310h590eda1_0
+      - grep=3.10=h5823315_0
       - icu=70.1=h27087fc_0
-      - libgcc-ng=12.1.0=h8d9b700_16
-      - libgomp=12.1.0=h8d9b700_16
+      - k8=0.2.5=hd03093a_2
+      - ld_impl_linux-64=2.40=h41732ed_0
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
       - libnsl=2.0.0=h7f98852_0
-      - libstdcxx-ng=12.1.0=ha89aaad_16
-      - libzlib=1.2.11=h166bdaf_1014
-      - lz4-c=1.9.3=h9c3ff4c_1
-      - masurca=4.0.9=pl5321h6e1a2d6_0
-      - pcre=8.45=h9c3ff4c_0
+      - libnuma=2.0.16=h0b41bf4_1
+      - libsqlite=3.40.0=h753d276_0
+      - libstdcxx-ng=12.2.0=h46fd767_19
+      - libuuid=2.38.1=h0b41bf4_0
+      - libzlib=1.2.13=h166bdaf_4
+      - masurca=4.1.0=pl5321h6e1a2d6_0
+      - minimap2=2.24=h7132678_1
+      - ncurses=6.3=h27087fc_1
+      - numactl=2.0.16=h0b41bf4_1
+      - openssl=3.1.0=h0b41bf4_0
+      - pcre2=10.40=hc3806b6_0
       - perl=5.32.1=2_h7f98852_perl5
-      - xz=5.2.5=h516909a_1
-      - zlib=1.2.11=h166bdaf_1014
-      - zstd=1.5.2=h8a70e8d_1
+      - pip=23.0.1=pyhd8ed1ab_0
+      - python=3.10.10=he550d4f_0_cpython
+      - python_abi=3.10=3_cp310
+      - readline=8.2=h8228510_1
+      - setuptools=67.6.1=pyhd8ed1ab_0
+      - tk=8.6.12=h27826a3_0
+      - tzdata=2023c=h71feb2d_0
+      - wheel=0.40.0=pyhd8ed1ab_0
+      - xz=5.2.6=h166bdaf_0
+      - zlib=1.2.13=h166bdaf_4
+      - zstd=1.5.2=h3eb15da_6
+  masurca-4.0.9:
+    locked: true
+    env_spec_hash: 3a1fb0fa2640771352620efda8f61ee7c741e138
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - boost-cpp=1.74.0=h75c5d50_8
+      - bwa=0.7.17=h7132678_9
+      - bzip2=1.0.8=h7f98852_4
+      - grep=3.10=h5823315_0
+      - icu=70.1=h27087fc_0
+      - k8=0.2.5=hd03093a_2
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libnsl=2.0.0=h7f98852_0
+      - libnuma=2.0.16=h0b41bf4_1
+      - libstdcxx-ng=12.2.0=h46fd767_19
+      - libzlib=1.2.13=h166bdaf_4
+      - masurca=4.0.9=pl5321h6e1a2d6_1
+      - minimap2=2.24=h7132678_1
+      - numactl=2.0.16=h0b41bf4_1
+      - pcre2=10.40=hc3806b6_0
+      - perl=5.32.1=2_h7f98852_perl5
+      - xz=5.2.6=h166bdaf_0
+      - zlib=1.2.13=h166bdaf_4
+      - zstd=1.5.2=h3eb15da_6
