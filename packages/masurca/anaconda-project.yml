@@ -29,7 +29,13 @@ env_specs:
     packages:
     - masurca=3.3.1
     channels: []
+  masurca-4.1.0:
+    packages:
+    - masurca=4.1.0
+    - numactl
+    channels: []
   masurca-4.0.9:
     packages:
     - masurca=4.0.9
+    - numactl
     channels: []
