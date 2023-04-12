@@ -82,3 +82,12 @@ env_specs:
     - pandas-datareader=0.10.0
     - jasper=1.900.1
     channels: []
+  python-3.10:
+    packages:
+    - anaconda=2023.03
+    - python=3.10
+    - gitpython
+    - pyyaml
+    - pandas-datareader=0.10.0
+    - jasper=1.900.1
+    channels: []
