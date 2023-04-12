@@ -458,3 +458,53 @@ env_specs:
     - bioconductor-chipenrich
     - bioconductor-chipenrich.data
     channels: []
+  bioconductor-3.16:
+    packages:
+    - bioconductor-biocversion=3.16
+    - r=4.2
+    - r-base=4.2
+    - r-tidyverse
+    - r-gridextra
+    - r-stringr
+    - r-pheatmap
+    - r-vegan
+    - r-knitr
+    - r-readr
+    - r-tidyr
+    - r-dplyr
+    - r-rstatix
+    - r-nlme
+    - r-argparse
+    - r-gplots
+    - r-cli
+    - r-devtools
+    - r-remotes
+    - r-ggplot2
+    - r-rcppeigen
+    - r-matrixmodels
+    - bioconductor-rhdf5
+    - bioconductor-dada2
+    - bioconductor-phyloseq
+    - bioconductor-deseq2
+    - bioconductor-biostrings
+    - bioconductor-preprocesscore
+    - bioconductor-genomicranges
+    - bioconductor-ballgown
+    - bioconductor-snpstats
+    - bioconductor-ggtree
+    - bioconductor-encodexplorerdata
+    - bioconductor-geoquery
+    - bioconductor-rnaseqpower
+    - bioconductor-biomart
+    - bioconductor-affy
+    - bioconductor-methylkit
+    - bioconductor-matrixgenerics
+    - bioconductor-graph
+    - bioconductor-rsamtools
+    - bioconductor-rtracklayer
+    - bioconductor-edger
+    - bioconductor-genomicalignments
+    - bioconductor-rsubread
+    - bioconductor-chipenrich
+    - bioconductor-chipenrich.data
+    channels: []
