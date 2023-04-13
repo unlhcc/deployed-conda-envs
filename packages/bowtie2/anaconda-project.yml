@@ -49,3 +49,9 @@ env_specs:
     - python=3.9
     - perl=5.26
     channels: []
+  bowtie2-2.5.1:
+    packages:
+    - bowtie2=2.5.1
+    - python=3.9
+    - perl=5.26
+    channels: []
