@@ -44,3 +44,7 @@ env_specs:
     packages:
     - bcftools=1.2
     channels: []
+  bcftools-1.17:
+    packages:
+    - bcftools=1.17
+    channels: []
