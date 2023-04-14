@@ -34,3 +34,15 @@ env_specs:
     - python=3.9
     channels:
     - https://conda.deepmodeling.org
+  deepmd-kit-2.2.1-py39:
+    packages:
+    - deepmd-kit=2.2.1=*cpu*
+    - tensorflow=2.11=*cpu*
+    - python=3.9
+    channels: []
+  deepmd-kit-2.2.1-py310:
+    packages:
+    - deepmd-kit=2.2.1=*cpu*
+    - tensorflow=2.11=*cpu*
+    - python=3.10
+    channels: []
