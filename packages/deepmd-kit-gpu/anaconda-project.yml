@@ -35,3 +35,17 @@ env_specs:
     - python=3.9
     channels:
     - https://conda.deepmodeling.org
+  deepmd-kit-gpu-2.2.1-py39:
+    packages:
+    - deepmd-kit=2.2.1=*cuda*
+    - cudatoolkit=11.2
+    - tensorflow=2.11
+    - python=3.9
+    channels: []
+  deepmd-kit-gpu-2.2.1-py310:
+    packages:
+    - deepmd-kit=2.2.1=*cuda*
+    - cudatoolkit=11.2
+    - tensorflow=2.11
+    - python=3.10
+    channels: []
