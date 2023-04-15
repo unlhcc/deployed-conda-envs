@@ -36,7 +36,7 @@ env_specs:
       - ca-certificates=2022.12.7=ha878542_0
       - cairo=1.16.0=hcf35c78_1003
       - certifi=2019.11.28=py27h8c360ce_1
-      - cgmaptools=0.1.2=h12d950e_0
+      - cgmaptools=0.1.2=h12d950e_1
       - curl=7.76.1=h979ede3_1
       - cycler=0.10.0=py_2
       - expat=2.5.0=hcb278e6_1
