@@ -60,3 +60,9 @@ commands:
     unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/7.1/COG && anvi-setup-ncbi-cogs --cog-data-dir
       $HCC_APPS_DB_BCRF_PATH/anvio/7.1/COG/ --reset --just-do-it
     env_spec: anvio-7.1
+  anvio-scg-db-7.1:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/7.1/SCG && anvi-setup-scg-taxonomy --reset --scgs-taxonomy-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/7.1/SCG/
+    env_spec: anvio-7.1
+  anvio-scg-db-7:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/7/SCG && anvi-setup-scg-taxonomy --reset --scgs-taxonomy-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/7/SCG/
+    env_spec: anvio-7
