@@ -1,0 +1,43 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+env_specs:
+  sparta-18Jul2022:
+    locked: true
+    env_spec_hash: eeae345d00cffdbeaa324226234f4916a38d650c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_kmp_llvm
+      - jpeg=9e=h5eee18b_1
+      - kokkos=4.0.00=hf52228f_0
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libpng=1.6.39=h5eee18b_0
+      - libstdcxx-ng=12.2.0=h46fd767_19
+      - libzlib=1.2.13=h166bdaf_4
+      - llvm-openmp=16.0.1=h417c0b6_0
+      - lz4-c=1.9.4=h6a678d5_0
+      - mkl=2022.2.1=h84fe81f_16997
+      - mpi=1.0=openmpi
+      - openmpi=4.1.5=external_1
+      - sparta=18Jul2022=mpi_openmpi_h3206e33_0
+      - tbb=2021.8.0=hdb19cb5_0
+      - xz=5.2.10=h5eee18b_1
+      - zlib=1.2.13=h166bdaf_4
+      - zstd=1.5.5=hc292b87_0
+#
+# A key goes in here for each env spec.
+#
+
