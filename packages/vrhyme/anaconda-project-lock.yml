@@ -24,16 +24,24 @@ env_specs:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
+      - aria2=1.36.0=h8b6cd97_3
       - bowtie2=2.5.1=py39h3321a2d_0
+      - brotlipy=0.7.0=py39hb9d737c_1005
       - bwa=0.7.17=h7132678_9
       - bzip2=1.0.8=h7f98852_4
       - c-ares=1.18.1=h7f98852_0
       - ca-certificates=2022.12.7=ha878542_0
       - capnproto=0.10.2=h6239696_0
+      - certifi=2022.12.7=pyhd8ed1ab_0
+      - cffi=1.15.1=py39he91dace_3
+      - charset-normalizer=3.1.0=pyhd8ed1ab_0
+      - cryptography=39.0.0=py39hd598818_0
       - gawk=5.1.0=h7f98852_0
       - gettext=0.21.1=h27087fc_0
       - gsl=2.7=he838d99_0
       - htslib=1.17=h6bc39ce_0
+      - icu=72.1=hcb278e6_0
+      - idna=3.4=pyhd8ed1ab_0
       - joblib=1.2.0=pyhd8ed1ab_0
       - keyutils=1.6.1=h166bdaf_0
       - krb5=1.20.1=hf9c8cef_0
@@ -49,6 +57,8 @@ env_specs:
       - libgfortran-ng=12.2.0=h69a702a_19
       - libgfortran5=12.2.0=h337968e_19
       - libgomp=12.2.0=h65d4601_19
+      - libhwloc=2.9.1=hd6dc26d_0
+      - libiconv=1.17=h166bdaf_0
       - libidn2=2.3.4=h166bdaf_0
       - liblapack=3.9.0=16_linux64_openblas
       - libllvm11=11.1.0=he0ac6c6_5
@@ -60,36 +70,47 @@ env_specs:
       - libstdcxx-ng=12.2.0=h46fd767_19
       - libunistring=0.9.10=h7f98852_0
       - libuuid=2.38.1=h0b41bf4_0
+      - libxml2=2.10.4=hfdac1af_0
       - libzlib=1.2.13=h166bdaf_4
       - llvmlite=0.39.1=py39h7d9a04d_1
       - mash=2.3=hd3113c8_4
-      - mmseqs2=13.45111=pl5321hf1761c0_2
+      - mmseqs2=14.7e284=pl5321hf1761c0_0
       - ncurses=6.3=h27087fc_1
       - networkx=3.1=pyhd8ed1ab_0
       - numba=0.56.4=py39h71a7301_1
       - numpy=1.23.5=py39h3d75532_0
       - openssl=1.1.1t=h0b41bf4_0
+      - packaging=23.1=pyhd8ed1ab_0
       - pandas=2.0.0=py39h2ad29b5_0
       - perl=5.32.1=2_h7f98852_perl5
-      - pip=23.0.1=pyhd8ed1ab_0
+      - pip=23.1=pyhd8ed1ab_0
+      - platformdirs=3.2.0=pyhd8ed1ab_0
+      - pooch=1.7.0=pyha770c72_3
       - prodigal=2.6.3=hec16e2b_4
+      - pycparser=2.21=pyhd8ed1ab_0
+      - pyopenssl=23.1.1=pyhd8ed1ab_0
       - pysam=0.21.0=py39h9abd093_0
+      - pysocks=1.7.1=pyha2e5f31_6
       - python-dateutil=2.8.2=pyhd8ed1ab_0
       - python-tzdata=2023.3=pyhd8ed1ab_0
       - python=3.9.15=h47a2c10_0_cpython
       - python_abi=3.9=3_cp39
       - pytz=2023.3=pyhd8ed1ab_0
       - readline=8.2=h8228510_1
+      - requests=2.28.2=pyhd8ed1ab_1
       - samtools=1.17=h00cdaf9_0
       - scikit-learn=1.2.2=py39hd189fd4_1
-      - scipy=1.9.3=py39hddc5342_2
+      - scipy=1.10.1=py39he83f1e1_0
       - setuptools=67.6.1=pyhd8ed1ab_0
       - six=1.16.0=pyh6c4a22f_0
-      - tbb=2021.7.0=h924138e_0
+      - tbb=2021.9.0=hf52228f_0
       - threadpoolctl=3.1.0=pyh8a188c0_0
       - tk=8.6.12=h27826a3_0
+      - typing-extensions=4.5.0=hd8ed1ab_0
+      - typing_extensions=4.5.0=pyha770c72_0
       - tzdata=2023c=h71feb2d_0
-      - vrhyme=1.1.0=pyhdfd78af_0
+      - urllib3=1.26.15=pyhd8ed1ab_0
+      - vrhyme=1.1.0=pyhdfd78af_1
       - wget=1.20.3=ha56f1ee_1
       - wheel=0.40.0=pyhd8ed1ab_0
       - xz=5.2.6=h166bdaf_0
