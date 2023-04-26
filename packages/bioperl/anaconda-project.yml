@@ -37,4 +37,5 @@ env_specs:
     packages:
     - perl-bioperl=1.7.8
     - perl-bio-procedural=1.7.4
+    - perl=5.32
     channels: []
