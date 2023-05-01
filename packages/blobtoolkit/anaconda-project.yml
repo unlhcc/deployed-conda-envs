@@ -28,4 +28,6 @@ env_specs:
     packages:
     - blobtoolkit=4.1.4
     - python=3.11
+    - geckodriver-autoinstaller=0.1.0
+    - chromedriver-binary-auto=0.2.3
     channels: []

@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   blobtoolkit-4.1.4-py311:
     locked: true
-    env_spec_hash: 2a494f33686dd0ecedfa53ad0ac3ffc750d7080d
+    env_spec_hash: 0b6ca3afa6476e7e1b82cd069ff249836a82dfa6
     platforms:
     - linux-64
     packages:
@@ -34,12 +34,15 @@ env_specs:
       - certifi=2022.12.7=pyhd8ed1ab_0
       - cffi=1.15.1=py311h409f033_3
       - charset-normalizer=3.1.0=pyhd8ed1ab_0
+      - chromedriver-binary-auto=0.2.3=pyha67ce8c_0
+      - chromedriver-binary=2.38=0
       - colorama=0.4.6=pyhd8ed1ab_0
       - cryptography=40.0.2=py311h9b4c7bb_0
       - docopt=0.6.2=py_1
       - exceptiongroup=1.1.1=pyhd8ed1ab_0
       - firefox=112.0=hcb278e6_0
       - freetype=2.12.1=hca18f0e_1
+      - geckodriver-autoinstaller=0.1.0=pyh121872b_0
       - geckodriver=0.33.0=hd2f7af9_0
       - h11=0.14.0=pyhd8ed1ab_0
       - idna=3.4=pyhd8ed1ab_0
