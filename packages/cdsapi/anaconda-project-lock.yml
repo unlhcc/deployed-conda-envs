@@ -1,0 +1,150 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  cdsapi-0.6.1-py311:
+    locked: true
+    env_spec_hash: 44730d38bce932f9d166f80731c2416f09584499
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - brotlipy=0.7.0=py311hd4cff14_1005
+      - bzip2=1.0.8=h7f98852_4
+      - ca-certificates=2022.12.7=ha878542_0
+      - cdsapi=0.6.1=pyhd8ed1ab_0
+      - certifi=2022.12.7=pyhd8ed1ab_0
+      - cffi=1.15.1=py311h409f033_3
+      - charset-normalizer=3.1.0=pyhd8ed1ab_0
+      - colorama=0.4.6=pyhd8ed1ab_0
+      - cryptography=40.0.2=py311h9b4c7bb_0
+      - idna=3.4=pyhd8ed1ab_0
+      - ld_impl_linux-64=2.40=h41732ed_0
+      - libexpat=2.5.0=hcb278e6_1
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libnsl=2.0.0=h7f98852_0
+      - libsqlite=3.40.0=h753d276_1
+      - libuuid=2.38.1=h0b41bf4_0
+      - libzlib=1.2.13=h166bdaf_4
+      - ncurses=6.3=h27087fc_1
+      - openssl=3.1.0=hd590300_2
+      - pip=23.1.2=pyhd8ed1ab_0
+      - pycparser=2.21=pyhd8ed1ab_0
+      - pyopenssl=23.1.1=pyhd8ed1ab_0
+      - pysocks=1.7.1=pyha2e5f31_6
+      - python=3.11.3=h2755cc3_0_cpython
+      - python_abi=3.11=3_cp311
+      - readline=8.2=h8228510_1
+      - requests=2.29.0=pyhd8ed1ab_0
+      - setuptools=67.7.2=pyhd8ed1ab_0
+      - tk=8.6.12=h27826a3_0
+      - tqdm=4.65.0=pyhd8ed1ab_1
+      - tzdata=2023c=h71feb2d_0
+      - urllib3=1.26.15=pyhd8ed1ab_0
+      - wheel=0.40.0=pyhd8ed1ab_0
+      - xz=5.2.6=h166bdaf_0
+  cdsapi-0.6.1-py39:
+    locked: true
+    env_spec_hash: 603974bbd6e9ba02a465f00fc262dc269a60f2cf
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - brotlipy=0.7.0=py39hb9d737c_1005
+      - bzip2=1.0.8=h7f98852_4
+      - ca-certificates=2022.12.7=ha878542_0
+      - cdsapi=0.6.1=pyhd8ed1ab_0
+      - certifi=2022.12.7=pyhd8ed1ab_0
+      - cffi=1.15.1=py39he91dace_3
+      - charset-normalizer=3.1.0=pyhd8ed1ab_0
+      - colorama=0.4.6=pyhd8ed1ab_0
+      - cryptography=40.0.2=py39h079d5ae_0
+      - idna=3.4=pyhd8ed1ab_0
+      - ld_impl_linux-64=2.40=h41732ed_0
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libnsl=2.0.0=h7f98852_0
+      - libsqlite=3.40.0=h753d276_1
+      - libuuid=2.38.1=h0b41bf4_0
+      - libzlib=1.2.13=h166bdaf_4
+      - ncurses=6.3=h27087fc_1
+      - openssl=3.1.0=hd590300_2
+      - pip=23.1.2=pyhd8ed1ab_0
+      - pycparser=2.21=pyhd8ed1ab_0
+      - pyopenssl=23.1.1=pyhd8ed1ab_0
+      - pysocks=1.7.1=pyha2e5f31_6
+      - python=3.9.16=h2782a2a_0_cpython
+      - python_abi=3.9=3_cp39
+      - readline=8.2=h8228510_1
+      - requests=2.29.0=pyhd8ed1ab_0
+      - setuptools=67.7.2=pyhd8ed1ab_0
+      - tk=8.6.12=h27826a3_0
+      - tqdm=4.65.0=pyhd8ed1ab_1
+      - tzdata=2023c=h71feb2d_0
+      - urllib3=1.26.15=pyhd8ed1ab_0
+      - wheel=0.40.0=pyhd8ed1ab_0
+      - xz=5.2.6=h166bdaf_0
+  cdsapi-0.6.1-py310:
+    locked: true
+    env_spec_hash: bccd0cc4b017abaa1dd5abeba45afb3aaa05fb7a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - brotlipy=0.7.0=py310h5764c6d_1005
+      - bzip2=1.0.8=h7f98852_4
+      - ca-certificates=2022.12.7=ha878542_0
+      - cdsapi=0.6.1=pyhd8ed1ab_0
+      - certifi=2022.12.7=pyhd8ed1ab_0
+      - cffi=1.15.1=py310h255011f_3
+      - charset-normalizer=3.1.0=pyhd8ed1ab_0
+      - colorama=0.4.6=pyhd8ed1ab_0
+      - cryptography=40.0.2=py310h34c0648_0
+      - idna=3.4=pyhd8ed1ab_0
+      - ld_impl_linux-64=2.40=h41732ed_0
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libnsl=2.0.0=h7f98852_0
+      - libsqlite=3.40.0=h753d276_1
+      - libuuid=2.38.1=h0b41bf4_0
+      - libzlib=1.2.13=h166bdaf_4
+      - ncurses=6.3=h27087fc_1
+      - openssl=3.1.0=hd590300_2
+      - pip=23.1.2=pyhd8ed1ab_0
+      - pycparser=2.21=pyhd8ed1ab_0
+      - pyopenssl=23.1.1=pyhd8ed1ab_0
+      - pysocks=1.7.1=pyha2e5f31_6
+      - python=3.10.10=he550d4f_0_cpython
+      - python_abi=3.10=3_cp310
+      - readline=8.2=h8228510_1
+      - requests=2.29.0=pyhd8ed1ab_0
+      - setuptools=67.7.2=pyhd8ed1ab_0
+      - tk=8.6.12=h27826a3_0
+      - tqdm=4.65.0=pyhd8ed1ab_1
+      - tzdata=2023c=h71feb2d_0
+      - urllib3=1.26.15=pyhd8ed1ab_0
+      - wheel=0.40.0=pyhd8ed1ab_0
+      - xz=5.2.6=h166bdaf_0
