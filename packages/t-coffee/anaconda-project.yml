@@ -24,6 +24,10 @@ description: A collection of tools for Multiple Alignments of DNA, RNA, Protein 
 platforms:
 - linux-64
 env_specs:
+  t-coffee-13.39.0.d675aed:
+    packages:
+    - t-coffee=13.39.0.d675aed
+    channels: []
   t-coffee-13.45.0.4846264:
     packages:
     - t-coffee=13.45.0.4846264
