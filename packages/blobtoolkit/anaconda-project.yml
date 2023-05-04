@@ -24,10 +24,13 @@ description: Interactive quality assessment of genome assemblies.
 platforms:
 - linux-64
 env_specs:
-  blobtoolkit-4.1.4-py311:
+  blobtoolkit-4.1.4-py39:
     packages:
     - blobtoolkit=4.1.4
-    - python=3.11
-    - geckodriver-autoinstaller=0.1.0
-    - chromedriver-binary-auto=0.2.3
+    - python=3.9
+    channels: []
+  blobtoolkit-4.1.4-py310:
+    packages:
+    - blobtoolkit=4.1.4
+    - python=3.10
     channels: []
