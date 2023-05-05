@@ -34,3 +34,59 @@ env_specs:
     - cobra=0.17.1
     - python=3.6
     channels: []
+  cobra-0.26.3-py310:
+    packages:
+    - cobra=0.26.3
+    - hcc-python-stack
+    - python=3.10
+    - certifi
+    - chardet
+    - idna
+    - six
+    - coin-or-osi=0.108.7
+    - gurobi=10.0.1
+    channels:
+    - Gurobi
+  cobra-0.26.3-py39:
+    packages:
+    - cobra=0.26.3
+    - hcc-python-stack
+    - python=3.9
+    - certifi
+    - chardet
+    - idna
+    - six
+    - coin-or-osi=0.108.7
+    - gurobi=10.0.1
+    channels:
+    - Gurobi
+  cobra-0.26.3-py38:
+    packages:
+    - cobra=0.26.3
+    - hcc-python-stack
+    - python=3.8
+    - certifi
+    - chardet
+    - idna
+    - six
+    - coin-or-osi=0.108.7
+    - gurobi=10.0.1
+    channels:
+    - Gurobi
+
+commands:
+  install-cplex-py38-22.1.0:
+    unix: pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/python/docplex/ -vv --no-deps
+      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.8/x86-64_linux/
+      -vv --no-deps
+    env_spec: cobra-0.26.3-py38
+  install-cplex-py39-22.1.0:
+    unix: pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/python/docplex/ -vv --no-deps
+      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.8/x86-64_linux/
+      -vv --no-deps
+    env_spec: cobra-0.26.3-py39
+  install-cplex-py310-22.1.0:
+    unix: pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/python/docplex/ -vv --no-deps
+      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.8/x86-64_linux/
+      -vv --no-deps
+    env_spec: cobra-0.26.3-py310
