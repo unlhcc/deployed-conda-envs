@@ -88,9 +88,9 @@ do
                 NOTICE "Skipping command $apCommand"
                 continue
            fi
-           anaconda-project run --directory $packageDir $apCommand
-           #cmdOut="$($cmdCommand 2>&1)"
-           #echo "$cmdOut" | INFO
+           cmdCommand="anaconda-project run --directory $packageDir $apCommand"
+           cmdOut="$($cmdCommand 2>&1)"
+           echo "$cmdOut" | INFO
     done
     NOTICE "Finished running commands for $packageDir"
   fi
