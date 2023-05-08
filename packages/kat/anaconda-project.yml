@@ -28,3 +28,7 @@ env_specs:
     packages:
     - kat=2.4.2
     channels: []
+  kat-2.4.0:
+    packages:
+    - kat=2.4.0
+    channels: []
