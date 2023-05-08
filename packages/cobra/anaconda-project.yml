@@ -81,11 +81,11 @@ commands:
     env_spec: cobra-0.26.3-py38
   install-cplex-py39-22.1.0:
     unix: pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/python/docplex/ -vv --no-deps
-      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.8/x86-64_linux/ -vv --no-deps
+      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.9/x86-64_linux/ -vv --no-deps
     env_spec: cobra-0.26.3-py39
   install-cplex-py310-22.1.0:
     unix: pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/python/docplex/ -vv --no-deps
-      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.8/x86-64_linux/ -vv --no-deps
+      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.10/x86-64_linux/ -vv --no-deps
     env_spec: cobra-0.26.3-py310
 
 
