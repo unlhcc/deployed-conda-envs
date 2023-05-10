@@ -54,52 +54,9 @@ env_specs:
       - zlib=1.2.11=h14c3975_1004
 
 
-  masurca-4.1.0-py27:
+  masurca-4.1.0:
     locked: true
-    env_spec_hash: 4c7db9b482d3a0f5acfb42f7ce68f498054edfc2
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - _libgcc_mutex=0.1=conda_forge
-      - _openmp_mutex=4.5=2_gnu
-      - boost-cpp=1.74.0=h75c5d50_8
-      - bwa=0.7.17=h7132678_9
-      - bzip2=1.0.8=h7f98852_4
-      - ca-certificates=2023.5.7=hbcca054_0
-      - certifi=2019.11.28=py27h8c360ce_1
-      - flye=2.9.2=py27hd63410e_0
-      - grep=3.10=h5823315_0
-      - icu=70.1=h27087fc_0
-      - k8=0.2.5=hd03093a_2
-      - ld_impl_linux-64=2.40=h41732ed_0
-      - libffi=3.2.1=he1b5a44_1007
-      - libgcc-ng=12.2.0=h65d4601_19
-      - libgomp=12.2.0=h65d4601_19
-      - libnsl=2.0.0=h7f98852_0
-      - libsqlite=3.41.2=h2797004_1
-      - libstdcxx-ng=12.2.0=h46fd767_19
-      - libzlib=1.2.13=h166bdaf_4
-      - masurca=4.1.0=pl5321h6e1a2d6_0
-      - minimap2=2.26=h7132678_0
-      - ncurses=6.3=h27087fc_1
-      - openssl=1.1.1t=h0b41bf4_0
-      - pcre2=10.40=hc3806b6_0
-      - perl=5.32.1=2_h7f98852_perl5
-      - pip=20.1.1=pyh9f0ad1d_0
-      - python=2.7.15=h5a48372_1011_cpython
-      - python_abi=2.7=1_cp27mu
-      - readline=8.2=h8228510_1
-      - setuptools=44.0.0=py27_0
-      - sqlite=3.41.2=h2c6b66d_1
-      - tk=8.6.12=h27826a3_0
-      - wheel=0.37.1=pyhd8ed1ab_0
-      - xz=5.2.6=h166bdaf_0
-      - zlib=1.2.13=h166bdaf_4
-      - zstd=1.5.2=h3eb15da_6
-  masurca-4.1.0-py39:
-    locked: true
-    env_spec_hash: 87b4c8961b8f47dbda8612677ddef9061e45dc90
+    env_spec_hash: 386e3a173c57a47d9df3b83a547302185c7e2af7
     platforms:
     - linux-64
     packages:
@@ -119,6 +76,7 @@ env_specs:
       - libgcc-ng=12.2.0=h65d4601_19
       - libgomp=12.2.0=h65d4601_19
       - libnsl=2.0.0=h7f98852_0
+      - libnuma=2.0.16=h0b41bf4_1
       - libsqlite=3.41.2=h2797004_1
       - libstdcxx-ng=12.2.0=h46fd767_19
       - libuuid=2.38.1=h0b41bf4_0
@@ -126,6 +84,7 @@ env_specs:
       - masurca=4.1.0=pl5321h6e1a2d6_0
       - minimap2=2.26=h7132678_0
       - ncurses=6.3=h27087fc_1
+      - numactl=2.0.16=h0b41bf4_1
       - openssl=3.1.0=hd590300_3
       - pcre2=10.40=hc3806b6_0
       - perl=5.32.1=2_h7f98852_perl5
@@ -140,9 +99,9 @@ env_specs:
       - xz=5.2.6=h166bdaf_0
       - zlib=1.2.13=h166bdaf_4
       - zstd=1.5.2=h3eb15da_6
-  masurca-4.0.9-py39:
+  masurca-4.0.9:
     locked: true
-    env_spec_hash: 911762111d6a5781fd783500a0b570688b53847a
+    env_spec_hash: 7eb2258510e7a55cc56ff287c98547cca8518288
     platforms:
     - linux-64
     packages:
@@ -153,6 +112,7 @@ env_specs:
       - bwa=0.7.17=h7132678_9
       - bzip2=1.0.8=h7f98852_4
       - ca-certificates=2023.5.7=hbcca054_0
+      - flye=2.9.2=py39h6935b12_0
       - grep=3.10=h5823315_0
       - icu=70.1=h27087fc_0
       - k8=0.2.5=hd03093a_2
@@ -161,6 +121,7 @@ env_specs:
       - libgcc-ng=12.2.0=h65d4601_19
       - libgomp=12.2.0=h65d4601_19
       - libnsl=2.0.0=h7f98852_0
+      - libnuma=2.0.16=h0b41bf4_1
       - libsqlite=3.41.2=h2797004_1
       - libstdcxx-ng=12.2.0=h46fd767_19
       - libuuid=2.38.1=h0b41bf4_0
@@ -168,58 +129,18 @@ env_specs:
       - masurca=4.0.9=pl5321h6e1a2d6_1
       - minimap2=2.26=h7132678_0
       - ncurses=6.3=h27087fc_1
+      - numactl=2.0.16=h0b41bf4_1
       - openssl=3.1.0=hd590300_3
       - pcre2=10.40=hc3806b6_0
       - perl=5.32.1=2_h7f98852_perl5
       - pip=23.1.2=pyhd8ed1ab_0
       - python=3.9.16=h2782a2a_0_cpython
+      - python_abi=3.9=3_cp39
       - readline=8.2=h8228510_1
       - setuptools=67.7.2=pyhd8ed1ab_0
       - tk=8.6.12=h27826a3_0
       - tzdata=2023c=h71feb2d_0
       - wheel=0.40.0=pyhd8ed1ab_0
-      - xz=5.2.6=h166bdaf_0
-      - zlib=1.2.13=h166bdaf_4
-      - zstd=1.5.2=h3eb15da_6
-  masurca-4.0.9-py27:
-    locked: true
-    env_spec_hash: dd7da1fd6f8219027dc31045a9beeb86c67555c5
-    platforms:
-    - linux-64
-    packages:
-      linux-64:
-      - _libgcc_mutex=0.1=conda_forge
-      - _openmp_mutex=4.5=2_gnu
-      - boost-cpp=1.74.0=h75c5d50_8
-      - bwa=0.7.17=h7132678_9
-      - bzip2=1.0.8=h7f98852_4
-      - ca-certificates=2023.5.7=hbcca054_0
-      - certifi=2019.11.28=py27h8c360ce_1
-      - grep=3.10=h5823315_0
-      - icu=70.1=h27087fc_0
-      - k8=0.2.5=hd03093a_2
-      - ld_impl_linux-64=2.40=h41732ed_0
-      - libffi=3.2.1=he1b5a44_1007
-      - libgcc-ng=12.2.0=h65d4601_19
-      - libgomp=12.2.0=h65d4601_19
-      - libnsl=2.0.0=h7f98852_0
-      - libsqlite=3.41.2=h2797004_1
-      - libstdcxx-ng=12.2.0=h46fd767_19
-      - libzlib=1.2.13=h166bdaf_4
-      - masurca=4.0.9=pl5321h6e1a2d6_1
-      - minimap2=2.26=h7132678_0
-      - ncurses=6.3=h27087fc_1
-      - openssl=1.1.1t=h0b41bf4_0
-      - pcre2=10.40=hc3806b6_0
-      - perl=5.32.1=2_h7f98852_perl5
-      - pip=20.1.1=pyh9f0ad1d_0
-      - python=2.7.15=h5a48372_1011_cpython
-      - python_abi=2.7=1_cp27mu
-      - readline=8.2=h8228510_1
-      - setuptools=44.0.0=py27_0
-      - sqlite=3.41.2=h2c6b66d_1
-      - tk=8.6.12=h27826a3_0
-      - wheel=0.37.1=pyhd8ed1ab_0
       - xz=5.2.6=h166bdaf_0
       - zlib=1.2.13=h166bdaf_4
       - zstd=1.5.2=h3eb15da_6
