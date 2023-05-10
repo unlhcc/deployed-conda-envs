@@ -29,13 +29,23 @@ env_specs:
     packages:
     - masurca=3.3.1
     channels: []
-  masurca-4.1.0:
+  masurca-4.1.0-py27:
     packages:
     - masurca=4.1.0
-    - numactl
+    - python=2.7
     channels: []
-  masurca-4.0.9:
+  masurca-4.1.0-py39:
+    packages:
+    - masurca=4.1.0
+    - python=3.9
+    channels: []
+  masurca-4.0.9-py39:
     packages:
     - masurca=4.0.9
-    - numactl
+    - python=3.9
+    channels: []
+  masurca-4.0.9-py27:
+    packages:
+    - masurca=4.0.9
+    - python=2.7
     channels: []
