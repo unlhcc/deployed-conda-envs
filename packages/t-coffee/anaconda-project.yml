@@ -30,5 +30,5 @@ env_specs:
     channels: []
   t-coffee-13.45.0.4846264:
     packages:
-    - t-coffee=13.45.0.4846264=h87f3376_4
+    - t-coffee=13.45.0.4846264=h30f3f09_6
     channels: []
