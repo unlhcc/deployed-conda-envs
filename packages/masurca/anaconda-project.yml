@@ -32,14 +32,15 @@ env_specs:
   masurca-4.1.0:
     packages:
     - masurca=4.1.0
-    - python=3.9
+    - python=2.7
     - flye
     - numactl
     channels: []
   masurca-4.0.9:
     packages:
     - masurca=4.0.9
-    - python=3.9
+    - python=2.7
     - flye
     - numactl
     channels: []
+packages: []
