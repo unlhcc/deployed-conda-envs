@@ -65,8 +65,8 @@ conda config --add channels bioconda
 conda config --add channels hcc
 ```
 
-**NOTE**:  _Starting with anaconda project 0.11.0, the default behavior is to ignore
-channels in the conda config files_, requiring all channels to be explicitly listed
+**NOTE**:  _**Starting with anaconda project 0.11.0, the default behavior is to ignore
+channels in the conda config files**_, requiring all channels to be explicitly listed
 in `anaconda-project.yml`.  To restore the old behavior, set the [enviroment
 variable](https://anaconda-project.readthedocs.io/en/latest/config.html#environment-variables)
 `ANACONDA_PROJECT_DISABLE_OVERRIDE_CHANNELS`, i.e.
