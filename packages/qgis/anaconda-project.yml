@@ -29,3 +29,7 @@ env_specs:
     packages:
     - qgis=3.18.3
     channels: []
+  qgis-3.30.2:
+    packages:
+    - qgis=3.30.2
+    channels: []
