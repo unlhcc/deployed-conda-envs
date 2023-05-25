@@ -210,3 +210,160 @@ env_specs:
       - openssl=3.0.8=h0b41bf4_0
       - pcre2=10.40=hc3806b6_0
       - perl=5.32.1=2_h7f98852_perl5
+  git-2.30.9:
+    locked: true
+    env_spec_hash: bbc342127851eaaf4609ff583a01443cc09b2ae2
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - c-ares=1.19.0=h5eee18b_0
+      - ca-certificates=2023.01.10=h06a4308_0
+      - curl=7.88.1=h5eee18b_0
+      - expat=2.5.0=hcb278e6_1
+      - gettext=0.21.0=h39681ba_1
+      - git-lfs=2.13.3=h06a4308_0
+      - git=2.30.9=pl5321hed7219a_0
+      - icu=58.2=he6710b0_3
+      - krb5=1.19.4=h568e23c_0
+      - libcurl=7.88.1=h91b91d3_0
+      - libedit=3.1.20221030=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.5.0=hcb278e6_1
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libiconv=1.16=h7f8727e_2
+      - libnghttp2=1.46.0=hce63b2e_0
+      - libnsl=2.0.0=h5eee18b_0
+      - libssh2=1.10.0=h8f2d780_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libxml2=2.10.3=hcbfbd50_0
+      - libzlib=1.2.13=h166bdaf_4
+      - ncurses=6.4=h6a678d5_0
+      - openssl=1.1.1t=h7f8727e_0
+      - pcre=8.45=h295c915_0
+      - perl=5.32.1=0_h5eee18b_perl5
+      - tk=8.6.12=h1ccaba5_0
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=h166bdaf_4
+  git-2.35.8:
+    locked: true
+    env_spec_hash: ac0aa77f7b01bfec23714b6cf94811387a578727
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.0=h5eee18b_0
+      - ca-certificates=2023.01.10=h06a4308_0
+      - curl=7.88.1=h5eee18b_0
+      - expat=2.5.0=hcb278e6_1
+      - gdbm=1.18=hd4cb3f1_4
+      - gettext=0.21.0=h39681ba_1
+      - git-lfs=3.1.4=ha770c72_0
+      - git=2.35.8=pl5321h2cb3681_0
+      - icu=58.2=he6710b0_3
+      - krb5=1.19.4=h568e23c_0
+      - libcurl=7.88.1=h91b91d3_0
+      - libedit=3.1.20221030=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.5.0=hcb278e6_1
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libiconv=1.16=h7f8727e_2
+      - libnghttp2=1.46.0=hce63b2e_0
+      - libssh2=1.10.0=h8f2d780_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libxml2=2.10.3=hcbfbd50_0
+      - libzlib=1.2.13=h166bdaf_4
+      - ncurses=6.4=h6a678d5_0
+      - openssl=1.1.1t=h7f8727e_0
+      - pcre2=10.37=he7ceb23_1
+      - perl=5.34.0=h5eee18b_2
+      - readline=8.2=h5eee18b_0
+      - tk=8.6.12=h1ccaba5_0
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=h166bdaf_4
+  git-2.39.3:
+    locked: true
+    env_spec_hash: e9ebd78dfd3f63a9206d15c5e219c7cb9b4a5aec
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.0=h5eee18b_0
+      - ca-certificates=2023.01.10=h06a4308_0
+      - curl=7.88.1=h5eee18b_0
+      - gdbm=1.18=hd4cb3f1_4
+      - gettext=0.21.0=h39681ba_1
+      - git-lfs=3.3.0=ha770c72_0
+      - git=2.39.3=pl5321h2cb3681_0
+      - icu=58.2=he6710b0_3
+      - krb5=1.19.4=h568e23c_0
+      - libcurl=7.88.1=h91b91d3_0
+      - libedit=3.1.20221030=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.5.0=hcb278e6_1
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libiconv=1.16=h7f8727e_2
+      - libnghttp2=1.46.0=hce63b2e_0
+      - libssh2=1.10.0=h8f2d780_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libxml2=2.10.3=hcbfbd50_0
+      - libzlib=1.2.13=h166bdaf_4
+      - ncurses=6.4=h6a678d5_0
+      - openssl=1.1.1t=h7f8727e_0
+      - pcre2=10.37=he7ceb23_1
+      - perl=5.34.0=h5eee18b_2
+      - readline=8.2=h5eee18b_0
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=h166bdaf_4
+  git-2.40.1:
+    locked: true
+    env_spec_hash: f8b7a996004c0d5a6d656e8ed7b4878fad8762fc
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.0=h5eee18b_0
+      - ca-certificates=2023.01.10=h06a4308_0
+      - curl=8.1.1=h409715c_0
+      - gdbm=1.18=hd4cb3f1_4
+      - gettext=0.21.0=h39681ba_1
+      - git-lfs=3.3.0=ha770c72_0
+      - git=2.40.1=pl5321h86e50cf_0
+      - icu=58.2=he6710b0_3
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.20.1=h81ceb04_0
+      - libcurl=8.1.1=h409715c_0
+      - libedit=3.1.20221030=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.5.0=hcb278e6_1
+      - libgcc-ng=12.2.0=h65d4601_19
+      - libgomp=12.2.0=h65d4601_19
+      - libiconv=1.17=h166bdaf_0
+      - libnghttp2=1.52.0=h61bc06f_0
+      - libssh2=1.10.0=hf14f497_3
+      - libstdcxx-ng=12.2.0=h46fd767_19
+      - libxml2=2.10.3=hcbfbd50_0
+      - libzlib=1.2.13=h166bdaf_4
+      - lz4-c=1.9.4=h6a678d5_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.1.0=hd590300_3
+      - pcre2=10.40=hc3806b6_0
+      - perl=5.34.0=h5eee18b_2
+      - readline=8.2=h5eee18b_0
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=h166bdaf_4
+      - zstd=1.5.5=hc292b87_0
