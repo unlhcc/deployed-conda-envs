@@ -1,0 +1,31 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: jasper
+
+#
+# Set a one-sentence-or-so 'description' key with project details
+#
+description: A reference implementation of the codec specified in the JPEG-2000 Part-1
+  standard.
+
+
+#
+# In the platforms section, list platforms the project should work on
+# Examples: "linux-64", "osx-64", "win-64"
+# Use `anaconda-project add-platforms` to add platforms.
+#
+platforms:
+- linux-64
+env_specs:
+  jasper-4.0.0:
+    packages:
+    - jasper=4.0.0
+    channels: []
