@@ -1,0 +1,47 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  tciaclient-0.0.3-py38:
+    locked: true
+    env_spec_hash: 93413855a1c766770e4783f9f0432900f0598c4b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7f98852_4
+      - ca-certificates=2023.5.7=hbcca054_0
+      - ld_impl_linux-64=2.40=h41732ed_0
+      - libffi=3.4.2=h7f98852_5
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgomp=13.1.0=he5830b7_0
+      - libnsl=2.0.0=h7f98852_0
+      - libsqlite=3.42.0=h2797004_0
+      - libuuid=2.38.1=h0b41bf4_0
+      - libzlib=1.2.13=h166bdaf_4
+      - ncurses=6.4=hcb278e6_0
+      - openssl=3.1.1=hd590300_1
+      - packaging=23.1=pyhd8ed1ab_0
+      - pip=23.1.2=pyhd8ed1ab_0
+      - python=3.8.16=he550d4f_1_cpython
+      - readline=8.2=h8228510_1
+      - setuptools=67.7.2=pyhd8ed1ab_0
+      - tciaclient=0.0.3=pyhdfd78af_0
+      - tk=8.6.12=h27826a3_0
+      - wheel=0.40.0=pyhd8ed1ab_0
+      - xz=5.2.6=h166bdaf_0
