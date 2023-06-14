@@ -39,8 +39,8 @@ env_specs:
     channels:
     - Gurobi
 commands:
-  install-cplex-py36-22.1.0:
-    unix: pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/python/docplex/ -vv --no-deps
-      && pip install /util/opt/IBM-ILOG-CPLEX/22.1.0/cplex/python/3.6/x86-64_linux/
+  install-cplex-py36-12.10:
+    unix: pip install /util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/python/docplex/
+      -vv --no-deps && pip install /util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/cplex/python/3.6/x86-64_linux/
       -vv --no-deps
     env_spec: smetana-1.2.0-py36
