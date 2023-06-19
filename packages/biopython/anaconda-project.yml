@@ -141,3 +141,45 @@ env_specs:
     - networkx
     - mrcfile
     channels: []
+  biopython-1.81-py39:
+    packages:
+    - biopython=1.81
+    - python=3.9
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - networkx
+    - mrcfile
+    channels: []
+  biopython-1.81-py310:
+    packages:
+    - biopython=1.81
+    - python=3.10
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - networkx
+    - mrcfile
+    channels: []
+  biopython-1.81-py311:
+    packages:
+    - biopython=1.81
+    - python=3.11
+    - scipy
+    - numpy
+    - matplotlib
+    - scikit-learn
+    - scikit-plot
+    - pandas
+    - ipykernel
+    - networkx
+    - mrcfile
+    channels: []
