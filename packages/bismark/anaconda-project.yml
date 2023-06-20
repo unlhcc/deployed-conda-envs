@@ -29,3 +29,8 @@ env_specs:
     packages:
     - bismark=0.24.1
     channels: []
+  bismark-0.19.1:
+    packages:
+    - bismark=0.19.1
+    - bowtie
+    channels: []
