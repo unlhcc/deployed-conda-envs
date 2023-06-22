@@ -1,0 +1,48 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  nquire-2018.04.05:
+    locked: true
+    env_spec_hash: 717cba81c63bebcdd455d3ec85e5bda786eb654e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.19.1=hd590300_0
+      - ca-certificates=2023.5.7=hbcca054_0
+      - htslib=1.17=h81da01d_2
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.20.1=h81ceb04_0
+      - libcurl=8.1.2=h409715c_0
+      - libdeflate=1.18=h0b41bf4_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgomp=13.1.0=he5830b7_0
+      - libnghttp2=1.52.0=h61bc06f_0
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-ng=13.1.0=hfd8a6a1_0
+      - libzlib=1.2.13=hd590300_5
+      - ncurses=6.4=hcb278e6_0
+      - nquire=0.0.2018.04.05=ha4bb2bd_0
+      - openssl=3.1.1=hd590300_1
+      - xz=5.2.6=h166bdaf_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.2=h3eb15da_6
