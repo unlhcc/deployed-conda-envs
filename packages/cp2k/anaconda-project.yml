@@ -36,6 +36,12 @@ env_specs:
     - openmpi=4.1.*=external_*
     - python=3.9
     channels: []
+  cp2k-2023.1:
+    packages:
+    - cp2k=2023.1=openmpi*
+    - openmpi=4.1.*=external_*
+    - python=3.9
+    channels: []
 
 commands:
   symlink-8.2.0:
@@ -44,3 +50,6 @@ commands:
   symlink-9.1.0:
     unix: ln -s ${CONDA_PREFIX}/bin/cp2k.psmp ${CONDA_PREFIX}/bin/cp2k && ln -s ${CONDA_PREFIX}/bin/cp2k_shell.psmp ${CONDA_PREFIX}/bin/cp2k_shell
     env_spec: cp2k-9.1.0
+  symlink-2023.1:
+    unix: ln -s ${CONDA_PREFIX}/bin/cp2k.psmp ${CONDA_PREFIX}/bin/cp2k && ln -s ${CONDA_PREFIX}/bin/cp2k_shell.psmp ${CONDA_PREFIX}/bin/cp2k_shell
+    env_spec: cp2k-2023.1
