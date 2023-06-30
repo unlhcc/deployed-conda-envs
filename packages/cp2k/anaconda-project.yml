@@ -41,7 +41,7 @@ env_specs:
     - cp2k=2023.1=openmpi*
     - openmpi=4.1.*=external_*
     - python=3.9
-    channels: []
+    channels: [conda-forge]
 
 commands:
   symlink-8.2.0:
