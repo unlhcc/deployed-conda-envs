@@ -9,19 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: Nextflow
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: Nextflow is a bioinformatics workflow manager that enables the development
   of portable and reproducible workflows.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -46,4 +35,8 @@ env_specs:
   nextflow-22.10.6:
     packages:
     - nextflow=22.10.6
+    channels: []
+  nextflow-23.04.1:
+    packages:
+    - nextflow=23.04.1
     channels: []
