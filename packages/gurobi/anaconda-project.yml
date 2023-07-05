@@ -79,3 +79,21 @@ env_specs:
     - coin-or-osi=0.108.7
     channels:
     - Gurobi
+  gurobi-10.0.2-py39:
+    packages:
+    - gurobi=10.0.2
+    - python=3.9
+    - hcc-python-stack=1.0
+    - coin-or-osi=0.108.7
+    - gurobi-matlab=10.0.2
+    channels:
+    - Gurobi
+  gurobi-10.0.2-py310:
+    packages:
+    - gurobi=10.0.2
+    - python=3.10
+    - hcc-python-stack=1.0
+    - coin-or-osi=0.108.7
+    - gurobi-matlab=10.0.2
+    channels:
+    - Gurobi
