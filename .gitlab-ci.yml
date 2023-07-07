@@ -8,27 +8,6 @@ stages:
   - test
   - deploy
 
-test-crane-el8:
-  stage: test
-  image: unlhcc/crane-build-el8
-  variables:
-    ANACONDA_PREFIX: "/anaconda"
-    PY_VER: "3.8"
-    AP_VER: "0.9.1"
-    AC_VER: "1.7.2"
-    MINICONDA_VER: "4.10"
-    MAMBA_VER: "0.24"
-    HCC_APPS_DB_BCRF_PATH: "/tmp"
-  except:
-    - master
-  tags:
-    - crane-el8
-  before_script:
-    - scripts/gitlabci-setup.sh
-  script:
-    - scripts/test_changed_packages.sh
-  retry: 2
-
 test-swan:
   stage: test
   image: unlhcc/swan-build
@@ -48,35 +27,6 @@ test-swan:
     - scripts/gitlabci-setup.sh
   script:
     - scripts/test_changed_packages.sh
-  retry: 2
-
-deploy-crane-el8:
-  stage: deploy
-  environment:
-    name: crane_el8_production
-    url: https://crane.unl.edu
-  resource_group: production-crane-el8
-  image: unlhcc/crane-build-el8
-  variables:
-    ANACONDA_PREFIX: "/util/opt/anaconda/4.8/envs/anaconda-project-0.9.1"
-    DEPLOY_HOST: "CRANE"
-  only:
-    - master
-  tags:
-    - crane-el8
-  before_script:
-    - eval $(ssh-agent -s) > /dev/null
-    - mkdir -p ~/.ssh
-    - chown 700 ~/.ssh
-    - echo $SSH_KNOWN_HOSTS > ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
-    - ssh-add <(echo "$SSH_PRIVATE_KEY" | base64 --decode)
-  script:
-    - cd $PACKAGE_DEPLOY_ROOT
-    - git checkout master
-    - git fetch
-    - git checkout $CI_COMMIT_SHA
-    - scripts/deploy_all_packages.sh
   retry: 2
 
 deploy-swan:
