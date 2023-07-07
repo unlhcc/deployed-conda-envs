@@ -48,4 +48,6 @@ env_specs:
     - r-tidyverse
     - r-base=4.2
     - python=3.9
+    - ffmpeg
+    - netpbm
     channels: [conda-forge]
