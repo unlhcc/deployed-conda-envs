@@ -51,3 +51,10 @@ env_specs:
     - ffmpeg
     - netpbm
     channels: [conda-forge]
+  afni-23.1.10:
+    packages:
+    - afni=23.1.10
+    - python=3.9
+    - r-base=4.2
+    - python=3.9
+    channels: [conda-forge]
