@@ -29,3 +29,17 @@ env_specs:
       - zlib=1.2.11=h470a237_3
 
 
+  iqtree-2.2.2.7:
+    locked: true
+    env_spec_hash: 73944e30f3c80e804c6ccc1425e003e95741fb10
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - iqtree=2.2.2.7=h21ec9f0_2
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgomp=13.1.0=he5830b7_0
+      - libstdcxx-ng=13.1.0=hfd8a6a1_0
+      - libzlib=1.2.13=hd590300_5
