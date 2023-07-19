@@ -10,10 +10,6 @@
 # Set to false to ignore locked versions.
 #
 locking_enabled: true
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   guppy-gpu-6.2.1:
     locked: true
@@ -31,3 +27,11 @@ env_specs:
     packages:
       linux-64:
       - guppy-gpu=6.3.4=h110a97b_0
+  guppy-gpu-6.5.7:
+    locked: true
+    env_spec_hash: c4d79100fd92bbe1260db98696f3fe66dd8833b8
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - guppy-gpu=6.5.7=h110a97b_0
