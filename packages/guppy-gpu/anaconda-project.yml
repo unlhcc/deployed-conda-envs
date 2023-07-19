@@ -9,20 +9,9 @@
 # Set the 'name' key to name your project
 #
 name: guppy
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: "Guppy is a data processing toolkit that contains the Oxford Nanopore\
   \ Technologies\u2019 basecalling algorithms, and several bioinformatic post-processing\
   \ features."
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 
@@ -34,4 +23,8 @@ env_specs:
   guppy-gpu-6.3.4:
     packages:
     - guppy-gpu=6.3.4
+    channels: []
+  guppy-gpu-6.5.7:
+    packages:
+    - guppy-gpu=6.5.7
     channels: []

@@ -10,10 +10,6 @@
 # Set to false to ignore locked versions.
 #
 locking_enabled: true
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   guppy-6.0.1:
     locked: true
@@ -39,3 +35,11 @@ env_specs:
     packages:
       linux-64:
       - guppy=6.3.4=h5e1937b_0
+  guppy-6.5.7:
+    locked: true
+    env_spec_hash: c7776d9b858d459ebea503eceaa9ffe297a4966c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - guppy=6.5.7=h5e1937b_0
