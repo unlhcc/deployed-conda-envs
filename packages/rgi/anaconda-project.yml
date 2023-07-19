@@ -37,3 +37,16 @@ env_specs:
     - python=3.8
     - openssl
     channels: []
+  rgi-6.0.2:
+    packages:
+    - rgi=6.0.2
+    channels: []
+commands:
+  rgi-db:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/rgi/6.0.2 && cd $HCC_APPS_DB_BCRF_PATH/rgi/6.0.2 && wget https://card.mcmaster.ca/latest/data
+      && tar -xvf data ./card.json && wget -O wildcard_data.tar.bz2 https://card.mcmaster.ca/latest/variants
+      && mkdir -p wildcard && tar -xjf wildcard_data.tar.bz2 -C wildcard && gunzip
+      wildcard/*.gz && rgi card_annotation -i card.json > card_annotation.log 2>&1
+      && rgi wildcard_annotation -i wildcard --card_json card.json -v 3.2.7 > wildcard_annotation.log
+      2>&1
+    env_spec: rgi-6.0.2
