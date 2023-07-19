@@ -1,0 +1,37 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+env_specs:
+  beagle-lib-4.0.0:
+    locked: true
+    env_spec_hash: 8d00da865e248151012257154e8be06fe32e368f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - beagle-lib=4.0.0=h4ac6f70_2
+      - dbus=1.13.18=hb2f20db_0
+      - expat=2.4.9=h6a678d5_0
+      - freetype=2.12.1=h4a9f257_0
+      - glib=2.69.1=he621ea3_2
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgomp=13.1.0=he5830b7_0
+      - libpng=1.6.39=h5eee18b_0
+      - libstdcxx-ng=13.1.0=hfd8a6a1_0
+      - libtool=2.4.6=h6a678d5_1009
+      - libxcb=1.15=h7f8727e_0
+      - openjdk=11.0.13=h87a67e3_0
+      - pcre=8.45=h295c915_0
+      - zlib=1.2.13=h5eee18b_0
