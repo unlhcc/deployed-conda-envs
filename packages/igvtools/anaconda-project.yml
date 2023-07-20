@@ -9,22 +9,16 @@
 # Set the 'name' key to name your project
 #
 name: IGVtools
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: Command line tools for IGV.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
   igvtools-2.5.3:
     packages:
     - igvtools=2.5.3
+    channels: []
+  igvtools-2.14.1:
+    packages:
+    - igvtools=2.14.1
+    - openjdk=11
     channels: []
