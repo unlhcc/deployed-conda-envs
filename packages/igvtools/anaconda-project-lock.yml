@@ -74,7 +74,7 @@ env_specs:
       - zstd=1.5.0=ha95c52a_0
   igvtools-2.14.1:
     locked: true
-    env_spec_hash: fe58cc467317ea435f43885bcd651afd588dbb62
+    env_spec_hash: cc4089af3deacf43ad6c9931382c2786981f0e9e
     platforms:
     - linux-64
     packages:
@@ -85,6 +85,7 @@ env_specs:
       - expat=2.4.9=h6a678d5_0
       - freetype=2.12.1=h4a9f257_0
       - glib=2.69.1=he621ea3_2
+      - igv=2.13.2=hdfd78af_0
       - igvtools=2.14.1=hdfd78af_0
       - libffi=3.4.4=h6a678d5_0
       - libgcc-ng=11.2.0=h1234567_1
