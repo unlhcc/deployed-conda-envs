@@ -9,12 +9,6 @@
 #
 # Set to false to ignore locked versions.
 locking_enabled: true
-
-
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   julia-1.1.1:
     locked: true
@@ -286,3 +280,63 @@ env_specs:
       - wheel=0.37.1=pyhd8ed1ab_0
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h166bdaf_1014
+  julia-1.9.2:
+    locked: true
+    env_spec_hash: 3af2b971cacc06dfebd6f2f03610704b1a0274bf
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - arpack=3.7.0=hdefa2d7_2
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.0=h5eee18b_0
+      - ca-certificates=2023.05.30=h06a4308_0
+      - curl=7.88.1=hdc1c0ab_1
+      - gdbm=1.18=hd4cb3f1_4
+      - gettext=0.21.0=h39681ba_1
+      - git=2.41.0=pl5321h86e50cf_0
+      - gmp=6.2.1=h295c915_3
+      - icu=58.2=he6710b0_3
+      - julia=1.9.2=hb81c242_0
+      - krb5=1.20.1=h143b758_1
+      - libblas=3.9.0=16_linux64_openblas
+      - libcblas=3.9.0=16_linux64_openblas
+      - libcurl=7.88.1=hdc1c0ab_1
+      - libedit=3.1.20221030=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.5.0=hcb278e6_1
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgfortran-ng=13.1.0=h69a702a_0
+      - libgfortran5=13.1.0=h15d22d2_0
+      - libgit2=1.6.4=h747ad27_0
+      - libgomp=13.1.0=he5830b7_0
+      - libiconv=1.17=h166bdaf_0
+      - liblapack=3.9.0=16_linux64_openblas
+      - libnghttp2=1.52.0=h2d74bed_1
+      - libopenblas-ilp64=0.3.23=pthreads_h5c82d6a_0
+      - libopenblas=0.3.21=h043d6bf_0
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-ng=13.1.0=hfd8a6a1_0
+      - libunwind=1.6.2=h9c3ff4c_0
+      - libutf8proc=2.8.0=h166bdaf_0
+      - libxml2=2.10.3=hcbfbd50_0
+      - libzlib=1.2.13=hd590300_5
+      - lz4-c=1.9.4=h6a678d5_0
+      - mbedtls=3.3.0=hcb278e6_0
+      - metis=5.1.0=hf484d3e_4
+      - mpfr=4.2.0=hb012696_0
+      - ncurses=6.4=h6a678d5_0
+      - openblas-ilp64=0.3.23=pthreads_h3d04fff_0
+      - openlibm=0.8.1=h7f98852_0
+      - openssl=3.1.1=hd590300_1
+      - p7zip=16.02=h6a678d5_0
+      - pcre2=10.40=hc3806b6_0
+      - perl=5.34.0=h5eee18b_2
+      - readline=8.2=h5eee18b_0
+      - suitesparse=5.10.1=h9e50725_1
+      - tbb=2021.8.0=hdb19cb5_0
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.5=hc292b87_0

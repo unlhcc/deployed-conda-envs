@@ -9,19 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: Julia
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: Julia is a high-level, high-performance dynamic programming language
   for numerical computing.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -52,6 +41,11 @@ env_specs:
     packages:
     - julia=1.7.2
     channels: []
+  julia-1.9.2:
+    packages:
+    - julia=1.9.2
+    - openlibm>=0.8
+    channels: []
 commands:
   add-ijulia:
     unix: julia -e "using Pkg;Pkg.add([\"IJulia\"])"
@@ -62,3 +56,7 @@ commands:
   add-ijulia-1.7.2:
     unix: julia -e "using Pkg;Pkg.add([\"IJulia\"])"
     env_spec: julia-1.7.2
+  add-pkgs-julia-1.9.2:
+    unix: julia -e "using Pkg;Pkg.add([\"IJulia\"]);Pkg.add([\"CSV\"])"
+    env_spec: julia-1.9.2
+packages: []
