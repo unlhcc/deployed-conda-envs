@@ -15,7 +15,7 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  demultiplex-1.1.2:
+  demultiplex-1.2.2:
     locked: true
     env_spec_hash: 748c1d7fc20f478c5732fc872c7af9250f6095ce
     platforms:
