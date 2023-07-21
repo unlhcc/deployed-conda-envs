@@ -1,0 +1,78 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  demultiplex-1.1.2:
+    locked: true
+    env_spec_hash: 748c1d7fc20f478c5732fc872c7af9250f6095ce
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - biopython=1.78=py39h7f8727e_0
+      - blas=1.0=openblas
+      - brotlipy=0.7.0=py39h27cfd23_1003
+      - ca-certificates=2023.05.30=h06a4308_0
+      - certifi=2023.5.7=py39h06a4308_0
+      - cffi=1.15.1=py39h5eee18b_3
+      - charset-normalizer=2.0.4=pyhd3eb1b0_0
+      - cryptography=41.0.2=py39h22a60cf_0
+      - demultiplex=1.2.2=pyhdfd78af_0
+      - dict-trie=1.0.1=pyhd8ed1ab_0
+      - fastools=1.1.5=pyh7cba7a3_0
+      - idna=3.4=py39h06a4308_0
+      - isa-l=2.30.0=h7f8727e_0
+      - jit-open=1.0.2=pyhd8ed1ab_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libgomp=13.1.0=he5830b7_0
+      - libopenblas=0.3.21=h043d6bf_0
+      - libstdcxx-ng=13.1.0=hfd8a6a1_0
+      - lz4-c=1.9.4=h6a678d5_0
+      - ncurses=6.4=h6a678d5_0
+      - numpy-base=1.25.0=py39h8a23956_0
+      - numpy=1.25.0=py39heeff2f4_0
+      - openssl=3.0.9=h7f8727e_0
+      - pbzip2=1.1.13=0
+      - pigz=2.6=h27cfd23_0
+      - pip=23.1.2=py39h06a4308_0
+      - pycparser=2.21=pyhd3eb1b0_0
+      - pyopenssl=23.2.0=pyhd8ed1ab_1
+      - pysocks=1.7.1=py39h06a4308_0
+      - python-isal=1.1.0=py39h5eee18b_0
+      - python-levenshtein=0.12.2=py39h27cfd23_0
+      - python=3.9.17=h955ad1f_0
+      - python_abi=3.9=2_cp39
+      - readline=8.2=h5eee18b_0
+      - regex=2022.7.9=py39h5eee18b_0
+      - requests=2.29.0=py39h06a4308_0
+      - setuptools=67.8.0=py39h06a4308_0
+      - sqlite=3.41.2=h5eee18b_0
+      - tk=8.6.12=h1ccaba5_0
+      - tssv=1.1.2=py39h1f90b4d_3
+      - tzdata=2023c=h04d1e81_0
+      - urllib3=1.26.16=py39h06a4308_0
+      - wheel=0.38.4=py39h06a4308_0
+      - xopen=1.7.0=py39hf3d152e_2
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=h5eee18b_0
+      - zstandard=0.19.0=py39h5eee18b_0
+      - zstd=1.5.5=hc292b87_0
