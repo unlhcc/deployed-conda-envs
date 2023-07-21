@@ -23,8 +23,9 @@ description: Demultiplex any number of FASTA or a FASTQ files based on a list of
 #
 platforms:
 - linux-64
+
 env_specs:
-  demultiplex-1.1.2:
+  demultiplex-1.2.2:
     packages:
     - demultiplex=1.2.2
     - python=3.9
