@@ -17,13 +17,14 @@ locking_enabled: true
 env_specs:
   metaxa-2.2.3:
     locked: true
-    env_spec_hash: 0fb62658bdedbcdc1e4b0587b38798ecb3cbd1f0
+    env_spec_hash: 8a5bd8f4863c75cf395b19f1780b802a449db112
     platforms:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
-      - _openmp_mutex=5.1=1_gnu
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - blast-legacy=2.2.22=1
       - blast=2.2.31=1
       - boost=1.73.0=py310h06a4308_12
       - bzip2=1.0.8=h7b6447c_0
@@ -33,22 +34,22 @@ env_specs:
       - ld_impl_linux-64=2.38=h1181459_1
       - libboost=1.73.0=h28710b8_12
       - libffi=3.4.4=h6a678d5_0
-      - libgcc-ng=11.2.0=h1234567_1
-      - libgomp=11.2.0=h1234567_1
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgomp=13.1.0=he5830b7_0
       - libnsl=2.0.0=h5eee18b_0
       - libstdcxx-ng=11.2.0=h1234567_1
       - libuuid=1.41.5=h5eee18b_0
       - lz4-c=1.9.4=h6a678d5_0
-      - mafft=7.505=hec16e2b_0
+      - mafft=7.520=h031d066_2
       - metaxa=2.2.3=pl5321hdfd78af_1
       - ncurses=6.4=h6a678d5_0
       - openssl=3.0.9=h7f8727e_0
-      - perl=5.32.1=2_h7f98852_perl5
-      - pip=23.1.2=py310h06a4308_0
+      - perl=5.32.1=4_hd590300_perl5
+      - pip=23.2.1=py310h06a4308_0
       - py-boost=1.73.0=py310h00e6091_12
       - python=3.10.12=h955ad1f_0
       - readline=8.2=h5eee18b_0
-      - setuptools=67.8.0=py310h06a4308_0
+      - setuptools=68.0.0=py310h06a4308_0
       - sqlite=3.41.2=h5eee18b_0
       - tk=8.6.12=h1ccaba5_0
       - tzdata=2023c=h04d1e81_0
