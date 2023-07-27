@@ -1,0 +1,33 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch.
+description: package description
+platforms:
+- linux-64
+env_specs:
+  transformers-gpu-4.31.0-py39:
+    packages:
+    - transformers=4.31.0
+    - python=3.9
+    - cudatoolkit=11.2
+    - tensorflow-gpu=2.12.1=cuda112*
+    - pytorch=2.0.0=cuda112*
+    - hcc-python-stack
+    channels: []
+  transformers-gpu-4.31.0-py310:
+    packages:
+    - transformers=4.31.0
+    - python=3.10
+    - cudatoolkit=11.2
+    - tensorflow-gpu=2.12.1=cuda112*
+    - pytorch=2.0.0=cuda112*
+    - hcc-python-stack
+    channels: []
