@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   mitoz-3.6:
     locked: true
-    env_spec_hash: a73ac8f5445d44afd9ec0882d3caf5f39c97fee2
+    env_spec_hash: b0af7e6f34c9b0e661d39f37094bd066a3e6399d
     platforms:
     - linux-64
     packages:
@@ -45,8 +45,8 @@ env_specs:
       - clustalo=1.2.4=h87f3376_5
       - clustalw=2.1=h9f5acd7_7
       - coreutils=8.32=h7b6447c_0
-      - cryptography=41.0.2=py38h22a60cf_0
-      - curl=7.88.1=h5eee18b_1
+      - cryptography=41.0.2=py38h774aba0_0
+      - curl=7.88.1=h5eee18b_0
       - dbus=1.13.18=hb2f20db_0
       - entrez-direct=16.2=he881be0_1
       - ete3=3.1.3=pyhd8ed1ab_0
@@ -54,12 +54,15 @@ env_specs:
       - fastp=0.23.2=hb7a2d85_2
       - fontconfig=2.14.1=hef1e5e3_0
       - freetype=2.12.1=h4a9f257_0
+      - gettext=0.21.0=hf68c758_0
       - giflib=5.2.1=h5eee18b_3
-      - glib=2.69.1=he621ea3_2
+      - glib-tools=2.70.2=h780b84a_4
+      - glib=2.70.2=h780b84a_4
       - gst-plugins-base=1.14.1=h6a678d5_1
       - gstreamer=1.14.1=h5eee18b_1
       - hmmer=3.1b2=3
       - html5lib=1.1=pyhd3eb1b0_0
+      - htslib=1.16=h6bc39ce_0
       - icu=58.2=he6710b0_3
       - idna=3.4=py38h06a4308_0
       - infernal=1.1.1=0
@@ -68,35 +71,37 @@ env_specs:
       - joblib=0.17.0=py_0
       - jpeg=9e=h5eee18b_1
       - kernel-headers_linux-64=3.10.0=h57e8cba_10
-      - krb5=1.20.1=h143b758_1
+      - krb5=1.19.4=h568e23c_0
       - ld_impl_linux-64=2.38=h1181459_1
       - lerc=3.0=h295c915_0
       - libblas=3.9.0=1_h6e990d7_netlib
       - libcblas=3.9.0=3_h893e4fe_netlib
       - libclang=10.0.1=default_hb85057a_2
-      - libcurl=7.88.1=h251f7ec_1
+      - libcurl=7.88.1=h91b91d3_0
       - libdb=6.2.32=h6a678d5_1
       - libdeflate=1.17=h5eee18b_0
       - libedit=3.1.20221030=h5eee18b_0
       - libev=4.33=h7f8727e_1
-      - libevent=2.1.12=hdbd6064_1
+      - libevent=2.1.12=h8f2d780_0
       - libffi=3.4.4=h6a678d5_0
       - libgcc-ng=13.1.0=he5830b7_0
       - libgd=2.3.3=h6a678d5_2
       - libgfortran-ng=7.5.0=ha8ba4b0_17
       - libgfortran4=7.5.0=ha8ba4b0_17
       - libgfortran=3.0.0=1
+      - libglib=2.70.2=h174f98d_4
       - libgomp=13.1.0=he5830b7_0
+      - libiconv=1.16=h7f8727e_2
       - libidn11=1.33=h7b6447c_0
       - libidn2=2.3.4=h5eee18b_0
       - liblapack=3.9.0=3_h893e4fe_netlib
       - libllvm10=10.0.1=hbcb73fb_5
       - libmklml=2019.0.5=h06a4308_0
-      - libnghttp2=1.52.0=h2d74bed_1
+      - libnghttp2=1.52.0=ha637b67_1
       - libnsl=2.0.0=h5eee18b_0
       - libpng=1.6.39=h5eee18b_0
-      - libpq=12.15=hdbd6064_1
-      - libssh2=1.10.0=hdbd6064_2
+      - libpq=12.9=h16c4e8d_3
+      - libssh2=1.10.0=h37d81fd_2
       - libstdcxx-ng=11.2.0=h1234567_1
       - libtiff=4.5.0=h6a678d5_2
       - libunistring=0.9.10=h27cfd23_0
@@ -127,7 +132,7 @@ env_specs:
       - numpy=1.19.5=py38h8246c76_3
       - openjdk=11.0.13=h87a67e3_0
       - openmp=8.0.1=0
-      - openssl=3.0.9=h7f8727e_0
+      - openssl=1.1.1u=h7f8727e_0
       - packaging=23.0=py38h06a4308_0
       - paml=4.10.6=h031d066_2
       - pcre=8.45=h295c915_0
@@ -207,7 +212,7 @@ env_specs:
       - perl-module-implementation=0.09=pl5321hdfd78af_3
       - perl-module-runtime=0.016=pl5321hdfd78af_2
       - perl-net-http=6.22=pl5321hdfd78af_0
-      - perl-net-ssleay=1.92=pl5321hf14f497_1
+      - perl-net-ssleay=1.92=pl5321h0e0aaa8_1
       - perl-ntlm=1.09=pl5321hdfd78af_5
       - perl-number-format=1.76=pl5321hdfd78af_0
       - perl-params-validate=1.31=pl5321h031d066_2
@@ -255,15 +260,15 @@ env_specs:
       - pyqt5-sip=12.11.0=py38h6a678d5_1
       - pyqt=5.15.7=py38h6a678d5_1
       - pysocks=1.7.1=py38h06a4308_0
-      - python=3.8.17=h955ad1f_0
+      - python=3.8.16=h7a1cb2a_3
       - python_abi=3.8=2_cp38
       - pytorch=1.7.1=cpu_py38h6a09485_0
       - qt-main=5.15.2=h327a75a_7
       - qt-webengine=5.15.9=hd2b0992_4
       - qtwebkit=5.212=h4eab89a_4
       - readline=8.2=h5eee18b_0
-      - requests=2.29.0=py38h06a4308_0
-      - samtools=1.1=h50ea8bc_8
+      - requests=2.31.0=py38h06a4308_0
+      - samtools=1.15.1=h6899075_1
       - scikit-learn=1.1.3=py38h6a678d5_1
       - scipy=1.6.2=py38h91f5cce_0
       - seqkit=2.5.0=h9ee0642_0
@@ -289,9 +294,9 @@ env_specs:
       - urllib3=1.26.16=py38h06a4308_0
       - viennarna=2.5.0=py38pl5321h3b68952_2
       - webencodings=0.5.1=py38_1
-      - wget=1.21.4=h251f7ec_1
+      - wget=1.21.4=h91b91d3_1
       - wheel=0.38.4=py38h06a4308_0
-      - wise2=2.4.1=h08bb679_0
+      - wise2=2.4.1=h40d77a6_1
       - xorg-kbproto=1.0.7=h7f98852_1002
       - xorg-libice=1.1.1=hd590300_0
       - xorg-libsm=1.2.4=h7391055_0
@@ -303,6 +308,6 @@ env_specs:
       - xorg-renderproto=0.11.1=h7f98852_1002
       - xorg-xextproto=7.3.0=h0b41bf4_1003
       - xorg-xproto=7.0.31=h27cfd23_1007
-      - xz=5.4.2=h5eee18b_0
+      - xz=5.2.10=h5eee18b_1
       - zlib=1.2.13=hd590300_5
       - zstd=1.5.5=hc292b87_0
