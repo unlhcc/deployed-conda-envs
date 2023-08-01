@@ -17,8 +17,10 @@ env_specs:
   ashs-1.0.0:
     packages:
     - ashs=1.0.0
+    - parallel
     channels: []
   ashs-2.0.0:
     packages:
     - ashs=2.0.0
+    - parallel
     channels: []
