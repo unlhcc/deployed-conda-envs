@@ -23,3 +23,9 @@ env_specs:
     - openjdk=11
     - igv=2.13.2
     channels: []
+  igvtools-2.16.2:
+    packages:
+    - igvtools=2.16.2
+    - igv=2.16.2
+    - openjdk=11
+    channels: []
