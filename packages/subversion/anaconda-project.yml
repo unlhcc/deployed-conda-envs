@@ -18,4 +18,12 @@ env_specs:
     - subversion=1.10.8
     - python=2.7
     - perl
+    - sqlite=3.42.0
+    channels: []
+  subversion-1.14.2:
+    packages:
+    - subversion=1.14.2
+    - python=2.7
+    - perl
+    - sqlite=3.42.0
     channels: []

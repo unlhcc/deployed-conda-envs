@@ -13,7 +13,7 @@ locking_enabled: true
 env_specs:
   subversion-1.10.8:
     locked: true
-    env_spec_hash: ec5ac4fb75d320aaf8dc9a66b1daecd2f3bff8ef
+    env_spec_hash: 2dea3089790ceed83d1422377e800ccc8b79030e
     platforms:
     - linux-64
     packages:
@@ -60,8 +60,60 @@ env_specs:
       - readline=8.2=h5eee18b_0
       - serf=1.3.9=ha066f01_0
       - setuptools=44.0.0=py27_0
-      - sqlite=3.41.2=h5eee18b_0
+      - sqlite=3.42.0=h2c6b66d_0
       - subversion=1.10.8=pl5321hd53d1a9_0
+      - tk=8.6.12=h1ccaba5_0
+      - wheel=0.37.1=pyhd3eb1b0_0
+      - zlib=1.2.13=hd590300_5
+  subversion-1.14.2:
+    locked: true
+    env_spec_hash: 60c08ce9af114b37ceb25f01e4cdb2ece003077e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7b6447c_0
+      - ca-certificates=2023.05.30=h06a4308_0
+      - certifi=2020.6.20=pyhd3eb1b0_3
+      - cyrus-sasl=2.1.28=h52b45da_1
+      - expat=2.5.0=hcb278e6_1
+      - gettext=0.21.1=h27087fc_0
+      - gnupg=2.3.6=h001bf7b_0
+      - krb5=1.20.1=h143b758_1
+      - libapr=1.7.0=hf178f73_5
+      - libaprutil=1.6.1=hfefca11_5
+      - libassuan=2.5.6=h59595ed_0
+      - libdb=6.2.32=h6a678d5_1
+      - libedit=3.1.20221030=h5eee18b_0
+      - libexpat=2.5.0=hcb278e6_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgcrypt=1.10.1=h166bdaf_0
+      - libgomp=13.1.0=he5830b7_0
+      - libgpg-error=1.47=h71f35ed_0
+      - libiconv=1.17=h166bdaf_0
+      - libksba=1.4.0=hcb278e6_0
+      - libmagic=5.39=h753d276_1
+      - libnsl=2.0.0=h5eee18b_0
+      - libsqlite=3.42.0=h2797004_0
+      - libstdcxx-ng=13.1.0=hfd8a6a1_0
+      - libutf8proc=2.8.0=h166bdaf_0
+      - libzlib=1.2.13=hd590300_5
+      - lz4-c=1.9.4=h6a678d5_0
+      - ncurses=6.4=h6a678d5_0
+      - npth=1.6=h59595ed_1002
+      - ntbtls=0.3.1=h3eb15da_0
+      - openssl=3.0.10=h7f8727e_0
+      - perl=5.32.1=0_h5eee18b_perl5
+      - pip=19.3.1=py27_0
+      - python=2.7.18=h42bf7aa_3
+      - readline=8.2=h5eee18b_0
+      - serf=1.3.9=hb3fec43_2
+      - setuptools=44.0.0=py27_0
+      - sqlite=3.42.0=h2c6b66d_0
+      - subversion=1.14.2=pl5321h7174519_3
       - tk=8.6.12=h1ccaba5_0
       - wheel=0.37.1=pyhd3eb1b0_0
       - zlib=1.2.13=hd590300_5
