@@ -925,7 +925,7 @@ env_specs:
 
   jupyterlab-4.0.4:
     locked: true
-    env_spec_hash: 8f429b409453cad58ad2091c121e9f2094b2cd16
+    env_spec_hash: 616a58ade81c1c4f078d466228627bf21293a966
     platforms:
     - linux-64
     packages:
@@ -1029,7 +1029,6 @@ env_specs:
       - jupyter-lsp=2.2.0=pyhd8ed1ab_0
       - jupyter-server-mathjax=0.2.6=pyh5bfe37b_1
       - jupyter_client=8.3.0=pyhd8ed1ab_0
-      - jupyter_conda=5.2.1=hd8ed1ab_0
       - jupyter_core=5.3.1=py39hf3d152e_0
       - jupyter_events=0.7.0=pyhd8ed1ab_2
       - jupyter_server=2.7.0=pyhd8ed1ab_0
@@ -1097,7 +1096,6 @@ env_specs:
       - lzo=2.10=h516909a_1000
       - make=4.3=hd18ef5c_1
       - mamba=1.4.9=py39hc5d2bb1_0
-      - mamba_gator=5.2.1=pyhd8ed1ab_0
       - markupsafe=2.1.3=py39hd1e30aa_0
       - matplotlib-base=3.7.2=py39h0126182_0
       - matplotlib-inline=0.1.6=pyhd8ed1ab_0

@@ -108,7 +108,6 @@ env_specs:
     packages:
     - jupyterlab=4.0.4
     - python=3.9
-    - jupyter_conda=5.2.1
     - nodejs=18.16.1
     - mamba=1.4.9
     - git=2.41.0
