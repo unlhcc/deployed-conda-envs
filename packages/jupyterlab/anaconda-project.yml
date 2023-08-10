@@ -104,6 +104,32 @@ env_specs:
     - jupyterlmod=3.0.0
     - hcc-jupyter-kernels=2023.08.08
     channels: []
+  jupyterlab-4.0.4:
+    packages:
+    - jupyterlab=4.0.4
+    - python=3.9
+    - jupyter_conda=5.2.1
+    - nodejs=18.16.1
+    - mamba=1.4.9
+    - git=2.41.0
+    - black=23.7.0
+    - r-formatr=1.14
+    - rpy2=3.5.11
+    - yapf=0.40.1
+    - isort=5.12.0
+    - r-styler=1.10.1
+    - autopep8=2.0.2
+    - ipympl=0.9.3
+    - jupyterlab-git=0.41.0
+    - jupyterlab_widgets=3.0.8
+    - jupyterlab-python-file=0.5.5
+    - jupyterlab_code_formatter=2.2.1
+    - jupyterlab_miami_nights=0.4.0
+    - jupyter-archive=3.3.4
+    - jupyterlab-latex=3.1.0
+    - jupyterlmod=3.0.0
+    - hcc-jupyter-kernels=2023.08.08
+    channels: [conda-forge]
 # Remove the default python3 kernel as we provide that in the hcc-jupyter-kernels package
 commands:
   remove-default-kernel:
@@ -118,4 +144,10 @@ commands:
   jupyter-build-3.4.5:
     unix: jupyter lab build
     env_spec: jupyterlab-3.4.5
+  remove-default-kernel-4.0.4:
+    unix: rm -rfv ${CONDA_PREFIX}/share/jupyter/kernels/python3
+    env_spec: jupyterlab-4.0.4
+  jupyter-build-4.0.4:
+    unix: jupyter lab build
+    env_spec: jupyterlab-4.0.4
 packages: []
