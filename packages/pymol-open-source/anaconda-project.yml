@@ -57,3 +57,24 @@ env_specs:
     - scikit-plot
     - pandas
     channels: []
+  pymol-open-source-2.5.0-py39:
+    packages:
+    - pymol-open-source=2.5.0
+    - python=3.9
+    - hcc-python-stack
+    channels:
+    - conda-forge
+  pymol-open-source-2.5.0-py310:
+    packages:
+    - pymol-open-source=2.5.0
+    - python=3.10
+    - hcc-python-stack
+    channels:
+    - conda-forge
+  pymol-open-source-2.5.0-py311:
+    packages:
+    - pymol-open-source=2.5.0
+    - python=3.11
+    - hcc-python-stack
+    channels:
+    - conda-forge
