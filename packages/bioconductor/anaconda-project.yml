@@ -9,19 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: Bioconductor
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: Bioconductor provides tools for the analysis and comprehension of high-throughput
   genomic data.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -507,4 +496,59 @@ env_specs:
     - bioconductor-rsubread
     - bioconductor-chipenrich
     - bioconductor-chipenrich.data
-    channels: []
+    - bioconductor-ancombc
+    - gsl
+    channels:
+    - nodefaults
+  bioconductor-3.17:
+    packages:
+    - bioconductor-biocversion=3.17
+    - r-base=4.3
+    - r-tidyverse
+    - r-gridextra
+    - r-stringr
+    - r-pheatmap
+    - r-vegan
+    - r-knitr
+    - r-readr
+    - r-tidyr
+    - r-dplyr
+    - r-rstatix
+    - r-nlme
+    - r-argparse
+    - r-gplots
+    - r-cli
+    - r-devtools
+    - r-remotes
+    - r-ggplot2
+    - r-rcppeigen
+    - r-matrixmodels
+    - bioconductor-rhdf5
+    - bioconductor-dada2
+    - bioconductor-phyloseq
+    - bioconductor-deseq2
+    - bioconductor-biostrings
+    - bioconductor-preprocesscore
+    - bioconductor-genomicranges
+    - bioconductor-ballgown
+    - bioconductor-snpstats
+    - bioconductor-ggtree
+    - bioconductor-encodexplorerdata
+    - bioconductor-geoquery
+    - bioconductor-rnaseqpower
+    - bioconductor-biomart
+    - bioconductor-affy
+    - bioconductor-methylkit
+    - bioconductor-matrixgenerics
+    - bioconductor-graph
+    - bioconductor-rsamtools
+    - bioconductor-rtracklayer
+    - bioconductor-edger
+    - bioconductor-genomicalignments
+    - bioconductor-rsubread
+    - bioconductor-chipenrich
+    - bioconductor-chipenrich.data
+    - bioconductor-ancombc
+    - gsl
+    channels:
+    - nodefaults
