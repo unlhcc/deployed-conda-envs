@@ -9,18 +9,7 @@
 # Set the 'name' key to name your project
 #
 name: mashmap
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: A fast approximate aligner for long DNA sequences.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -28,3 +17,9 @@ env_specs:
     packages:
     - mashmap=2.0
     channels: []
+  mashmap-3.1.1:
+    packages:
+    - mashmap=3.1.1
+    - gsl
+    channels:
+    - nodefaults
