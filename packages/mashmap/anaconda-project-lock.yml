@@ -9,12 +9,6 @@
 #
 # Set to false to ignore locked versions.
 locking_enabled: true
-
-
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   mashmap-2.0:
     locked: true
@@ -32,3 +26,41 @@ env_specs:
       - zlib=1.2.11=h14c3975_1004
 
 
+  mashmap-3.1.1:
+    locked: true
+    env_spec_hash: 35e72c7fe2567d56174d91f0b1217784bd128724
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7f98852_4
+      - c-ares=1.19.1=hd590300_0
+      - ca-certificates=2023.7.22=hbcca054_0
+      - gsl=2.7=he838d99_0
+      - htslib=1.17=h81da01d_2
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.21.2=h659d440_0
+      - libblas=3.9.0=17_linux64_openblas
+      - libcblas=3.9.0=17_linux64_openblas
+      - libcurl=8.2.1=hca28451_0
+      - libdeflate=1.18=h0b41bf4_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=h516909a_1
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgfortran-ng=13.1.0=h69a702a_0
+      - libgfortran5=13.1.0=h15d22d2_0
+      - libgomp=13.1.0=he5830b7_0
+      - libnghttp2=1.52.0=h61bc06f_0
+      - libopenblas=0.3.23=pthreads_h80387f5_0
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-ng=13.1.0=hfd8a6a1_0
+      - libzlib=1.2.13=hd590300_5
+      - mashmap=3.1.1=h7093193_0
+      - ncurses=6.4=hcb278e6_0
+      - openblas=0.3.23=pthreads_h855a84d_0
+      - openssl=3.1.2=hd590300_0
+      - xz=5.2.6=h166bdaf_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.2=hfc55251_7
