@@ -9,12 +9,6 @@
 #
 # Set to false to ignore locked versions.
 locking_enabled: true
-
-
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   tassel-5.2.40:
     locked: true
@@ -29,3 +23,20 @@ env_specs:
       - tassel=5.2.40=1
 
 
+  tassel-5.2.89:
+    locked: true
+    env_spec_hash: b1f083072e49151f4184e85768feadcbb13011c9
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - gdbm=1.18=hd4cb3f1_4
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - ncurses=6.4=h6a678d5_0
+      - openjdk=8.0.152=h7b6447c_3
+      - perl=5.34.0=h5eee18b_2
+      - readline=8.2=h5eee18b_0
+      - tassel=5.2.89=hdfd78af_0
