@@ -29,3 +29,8 @@ env_specs:
     packages:
     - pomoxis=0.1.7
     channels: []
+  pomoxis-0.3.13:
+    packages:
+    - pomoxis=0.3.13
+    - python=3.9
+    channels: []
