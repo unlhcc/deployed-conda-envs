@@ -1,0 +1,54 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+env_specs:
+  fleur-6.2:
+    locked: true
+    env_spec_hash: 2973d31218d3d3e7981c7fb7b066797831eb383e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_kmp_llvm
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2023.08.22=h06a4308_0
+      - fftw=3.3.10=nompi_hc118613_108
+      - fleur=6.2=hbb340d8_5
+      - hdf5=1.14.2=mpi_openmpi_h327c9cf_0
+      - icu=73.2=h59595ed_0
+      - krb5=1.20.1=h143b758_1
+      - libaec=1.0.6=hcb278e6_1
+      - libblas=3.9.0=16_linux64_openblas
+      - libcurl=8.2.1=h251f7ec_0
+      - libedit=3.1.20221030=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libgcc-ng=13.1.0=he5830b7_0
+      - libgfortran-ng=13.1.0=h69a702a_0
+      - libgfortran5=13.1.0=h15d22d2_0
+      - libiconv=1.17=h166bdaf_0
+      - liblapack=3.9.0=16_linux64_openblas
+      - libnghttp2=1.52.0=h2d74bed_1
+      - libopenblas=0.3.21=openmp_h74cd887_3
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-ng=13.1.0=hfd8a6a1_0
+      - libxml2=2.11.5=h232c23b_1
+      - libzlib=1.2.13=hd590300_5
+      - llvm-openmp=14.0.6=h9e868ea_0
+      - mpi=1.0=openmpi
+      - ncurses=6.4=h6a678d5_0
+      - openblas=0.3.21=openmp_h53a8fd6_3
+      - openmpi=4.1.5=external_1
+      - openssl=3.1.2=hd590300_0
+      - scalapack=2.2.0=h67de57e_1
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
