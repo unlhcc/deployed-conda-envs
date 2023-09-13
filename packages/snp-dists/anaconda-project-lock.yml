@@ -10,10 +10,6 @@
 # Set to false to ignore locked versions.
 #
 locking_enabled: true
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   snp-dists-0.7.0:
     locked: true
@@ -41,3 +37,17 @@ env_specs:
       - libgomp=9.2.0=h24d8f2e_2
       - snp-dists=0.6.3=h84994c4_1
       - zlib=1.2.11=h516909a_1006
+  snp-dists-0.8.2:
+    locked: true
+    env_spec_hash: 7043d27c15ec14d97dbe13598aeabed7c0615901
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_kmp_llvm
+      - libgcc-ng=13.2.0=h807b86a_0
+      - libzlib=1.2.13=hd590300_5
+      - llvm-openmp=14.0.6=h9e868ea_0
+      - snp-dists=0.8.2=he4a0461_3
+      - zlib=1.2.13=hd590300_5
