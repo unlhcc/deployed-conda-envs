@@ -34,3 +34,13 @@ env_specs:
     - ffmpeg=4.4.1
     - x265=3.5
     channels: []
+  ffmpeg-5.1.2:
+    packages:
+    - ffmpeg=5.1.2
+    channels:
+    - conda-forge
+  ffmpeg-6.0.0:
+    packages:
+    - ffmpeg=6.0.0
+    channels:
+    - conda-forge
