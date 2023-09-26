@@ -13,7 +13,7 @@ locking_enabled: true
 env_specs:
   cp2k-9.1.0:
     locked: true
-    env_spec_hash: 5e7453d08e27a15de82c2ae20186b72b0a2f06f6
+    env_spec_hash: 9de8c5123d03bdf7357a2a100d5c3327df81642a
     platforms:
     - linux-64
     packages:
@@ -70,7 +70,7 @@ env_specs:
       - setuptools=68.2.2=pyhd8ed1ab_0
       - sirius=7.3.1=hce7c52c_1
       - spfft=1.0.6=h07fa59a_0
-      - spglib=2.1.0=py39hfa71449_0
+      - spglib=1.16.5=py39hd257fcd_0
       - spla=1.5.5=hd76ae26_0
       - tk=8.6.13=h2797004_0
       - tzdata=2023c=h71feb2d_0
@@ -131,7 +131,7 @@ env_specs:
       - zlib=1.2.11=h166bdaf_1014
   cp2k-2023.1:
     locked: true
-    env_spec_hash: 5a2ec34df9cb6833eac542e893983a3bb099295d
+    env_spec_hash: 34cd009797ed04ad79fa8faf753150e920ead828
     platforms:
     - linux-64
     packages:
@@ -188,7 +188,7 @@ env_specs:
       - setuptools=68.2.2=pyhd8ed1ab_0
       - sirius=7.3.1=hce7c52c_1
       - spfft=1.0.6=h07fa59a_0
-      - spglib=2.1.0=py39hfa71449_0
+      - spglib=1.16.5=py39hd257fcd_0
       - spla=1.5.5=hd76ae26_0
       - tk=8.6.13=h2797004_0
       - tzdata=2023c=h71feb2d_0
