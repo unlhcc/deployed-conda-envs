@@ -28,6 +28,7 @@ env_specs:
     - plumed=2.9.0=*openmpi*
     - py-plumed=2.9.0
     - gsl
+    - spglib=1.*
     channels:
     - nodefaults
   cp2k-2023.1:
@@ -39,6 +40,7 @@ env_specs:
     - plumed=2.9.0=*openmpi*
     - py-plumed=2.9.0
     - gsl
+    - spglib=1.*
     channels: [conda-forge, nodefaults]
 commands:
   symlink-8.2.0:
