@@ -9,18 +9,7 @@
 # Set the 'name' key to name your project
 #
 name: cp2k
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: Quantum chemistry and solid state physics software package
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -35,21 +24,33 @@ env_specs:
     - cp2k=9.1.0
     - openmpi=4.1.*=external_*
     - python=3.9
-    channels: []
+    - i-pi=2.4.0
+    - plumed=2.9.0=*openmpi*
+    - py-plumed=2.9.0
+    - gsl
+    channels:
+    - nodefaults
   cp2k-2023.1:
     packages:
     - cp2k=2023.1=openmpi*
     - openmpi=4.1.*=external_*
     - python=3.9
-    channels: [conda-forge]
-
+    - i-pi=2.4.0
+    - plumed=2.9.0=*openmpi*
+    - py-plumed=2.9.0
+    - gsl
+    channels: [conda-forge, nodefaults]
 commands:
   symlink-8.2.0:
-    unix: ln -s ${CONDA_PREFIX}/bin/cp2k.psmp ${CONDA_PREFIX}/bin/cp2k && ln -s ${CONDA_PREFIX}/bin/cp2k_shell.psmp ${CONDA_PREFIX}/bin/cp2k_shell
+    unix: ln -s ${CONDA_PREFIX}/bin/cp2k.psmp ${CONDA_PREFIX}/bin/cp2k && ln -s ${CONDA_PREFIX}/bin/cp2k_shell.psmp
+      ${CONDA_PREFIX}/bin/cp2k_shell
     env_spec: cp2k-8.2.0
   symlink-9.1.0:
-    unix: ln -s ${CONDA_PREFIX}/bin/cp2k.psmp ${CONDA_PREFIX}/bin/cp2k && ln -s ${CONDA_PREFIX}/bin/cp2k_shell.psmp ${CONDA_PREFIX}/bin/cp2k_shell
+    unix: ln -s ${CONDA_PREFIX}/bin/cp2k.psmp ${CONDA_PREFIX}/bin/cp2k && ln -s ${CONDA_PREFIX}/bin/cp2k_shell.psmp
+      ${CONDA_PREFIX}/bin/cp2k_shell
     env_spec: cp2k-9.1.0
   symlink-2023.1:
-    unix: ln -s ${CONDA_PREFIX}/bin/cp2k.psmp ${CONDA_PREFIX}/bin/cp2k && ln -s ${CONDA_PREFIX}/bin/cp2k_shell.psmp ${CONDA_PREFIX}/bin/cp2k_shell
+    unix: ln -s ${CONDA_PREFIX}/bin/cp2k.psmp ${CONDA_PREFIX}/bin/cp2k && ln -s ${CONDA_PREFIX}/bin/cp2k_shell.psmp
+      ${CONDA_PREFIX}/bin/cp2k_shell
     env_spec: cp2k-2023.1
+packages: []
