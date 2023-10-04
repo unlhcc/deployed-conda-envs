@@ -9,19 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: DeePMD-kit
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: Deep learning package for many-body potential energy representation and
   molecular dynamics.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -46,3 +35,10 @@ env_specs:
     - tensorflow=2.11=*cpu*
     - python=3.10
     channels: []
+  deepmd-kit-2.2.4-py310:
+    packages:
+    - deepmd-kit=2.2.4=*cpu*
+    - python=3.10
+    - lammps-dp
+    channels:
+    - https://conda.deepmodeling.org
