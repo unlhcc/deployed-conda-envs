@@ -42,3 +42,10 @@ env_specs:
     - lammps-dp
     channels:
     - https://conda.deepmodeling.org
+  deepmd-kit-2.2.5-py310:
+    packages:
+    - deepmd-kit=2.2.5=*cpu*
+    - python=3.10
+    - lammps-dp
+    channels:
+    - https://conda.deepmodeling.org
