@@ -41,8 +41,16 @@ env_specs:
   deepmd-kit-gpu-2.2.4-py310:
     packages:
     - deepmd-kit=2.2.4=*cuda112*
+    - lammps
     - python=3.10
+    - tensorflow=*=*cuda112*
     - cudatoolkit=11.2
-    - lammps-dp
-    channels:
-    - https://conda.deepmodeling.org
+    channels: []
+  deepmd-kit-gpu-2.2.5-py310:
+    packages:
+    - deepmd-kit=2.2.5=*cuda112*
+    - lammps
+    - python=3.10
+    - tensorflow=*=*cuda112*
+    - cudatoolkit=11.2
+    channels: []
