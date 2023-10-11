@@ -9,12 +9,6 @@
 #
 # Set to false to ignore locked versions.
 locking_enabled: true
-
-
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   aria2-1.23.0:
     locked: true
@@ -77,20 +71,17 @@ env_specs:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
-      - aria2=1.36.0=h3f1041a_2
-      - c-ares=1.18.1=h7f98852_0
-      - ca-certificates=2022.5.18.1=ha878542_0
-      - icu=70.1=h27087fc_0
-      - libgcc-ng=12.1.0=h8d9b700_16
-      - libgomp=12.1.0=h8d9b700_16
-      - libiconv=1.16=h516909a_0
-      - libssh2=1.10.0=ha35d2d1_2
-      - libstdcxx-ng=12.1.0=ha89aaad_16
-      - libxml2=2.9.14=h22db469_0
-      - libzlib=1.2.11=h166bdaf_1014
-      - ncurses=6.3=h27087fc_1
-      - openssl=3.0.3=h166bdaf_0
-      - readline=8.1=h46c0cb4_0
-      - sqlite=3.38.5=h4ff8645_0
-      - xz=5.2.5=h516909a_1
-      - zlib=1.2.11=h166bdaf_1014
+      - aria2=1.36.0=h43d1f13_4
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2023.08.22=h06a4308_0
+      - icu=73.2=h59595ed_0
+      - libgcc-ng=13.2.0=h807b86a_2
+      - libgomp=13.2.0=h807b86a_2
+      - libiconv=1.17=h166bdaf_0
+      - libsqlite=3.43.2=h2797004_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-ng=13.2.0=h7e041cc_2
+      - libxml2=2.11.5=h232c23b_1
+      - libzlib=1.2.13=hd590300_5
+      - openssl=3.1.3=hd590300_0
+      - xz=5.4.2=h5eee18b_0
