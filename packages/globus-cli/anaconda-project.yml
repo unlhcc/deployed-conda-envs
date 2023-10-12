@@ -40,3 +40,7 @@ env_specs:
     packages:
     - globus-cli=2.0.0
     channels: []
+  globus-cli-3.18.0:
+    packages:
+    - globus-cli=3.18.0
+    channels: []
