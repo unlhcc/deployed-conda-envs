@@ -11,9 +11,9 @@
 #
 locking_enabled: true
 env_specs:
-  fair-esm-2.0.0-py39:
+  fair-esm-gpu-2.0.0-py39:
     locked: true
-    env_spec_hash: 552a44fba61a858713e2302db95a7d57de41ec8b
+    env_spec_hash: 11488a56d94240354315813aa6a1523923183f5c
     platforms:
     - linux-64
     packages:
@@ -46,6 +46,10 @@ env_specs:
       - cloudpickle=2.2.1=py39h06a4308_0
       - contourpy=1.0.5=py39hdb19cb5_0
       - cryptography=41.0.3=py39hdda0065_0
+      - cuda-version=11.2=hb11dac2_2
+      - cudatoolkit=11.2.2=h5e1937b_5
+      - cudnn=8.9.2.26=cuda11_0
+      - cutlass=2.9.1=hed8a83a_0
       - cycler=0.11.0=pyhd3eb1b0_0
       - cytoolz=0.12.0=py39h5eee18b_0
       - dask-core=2023.6.0=py39h06a4308_0
@@ -116,7 +120,11 @@ env_specs:
       - libgfortran-ng=13.2.0=h69a702a_2
       - libgfortran5=13.2.0=ha4646dd_2
       - libiconv=1.16=h7f8727e_2
+      - liblapack=3.9.0=18_linux64_openblas
       - libllvm14=14.0.6=hdb19cb5_3
+      - libmagma=2.7.1=hc72dce7_6
+      - libmagma_sparse=2.7.1=hc72dce7_6
+      - libmlir14=14.0.6=h9e868ea_0
       - libnghttp2=1.57.0=h2d74bed_0
       - libopenblas=0.3.24=pthreads_h413a1c8_0
       - libpng=1.6.39=h5eee18b_0
@@ -134,10 +142,12 @@ env_specs:
       - libxml2=2.10.4=hf1b16e4_1
       - libzlib=1.2.13=hd590300_5
       - libzopfli=1.0.3=he6710b0_0
+      - lit=14.0.6=py39h06a4308_3
       - llvm-openmp=17.0.2=h4dfa4b3_0
       - llvmlite=0.40.1=py39he621ea3_0
       - locket=1.0.0=py39h06a4308_0
       - lz4-c=1.9.4=h6a678d5_0
+      - magma=2.7.1=ha770c72_6
       - markupsafe=2.1.1=py39h7f8727e_0
       - matplotlib-base=3.7.2=py39h1128e8f_0
       - mkl=2022.2.1=h84fe81f_16997
@@ -146,6 +156,7 @@ env_specs:
       - mpmath=1.3.0=py39h06a4308_0
       - msgpack-python=1.0.3=py39hd09550d_0
       - munkres=1.1.4=py_0
+      - nccl=2.19.3.1=h0800d71_0
       - ncurses=6.4=h6a678d5_0
       - networkx=3.1=py39h06a4308_0
       - ninja-base=1.10.2=hd09550d_5
@@ -173,7 +184,7 @@ env_specs:
       - poppler=22.12.0=h9614445_3
       - psutil=5.9.0=py39h5eee18b_0
       - pycparser=2.21=pyhd3eb1b0_0
-      - pyg-lib=0.2.0=cpu_py39h0bc3d9e_3
+      - pyg-lib=0.2.0=cuda112py39h25fd382_3
       - pyopenssl=23.2.0=py39h06a4308_0
       - pyparsing=3.0.9=py39h06a4308_0
       - pysocks=1.7.1=py39h06a4308_0
@@ -181,7 +192,7 @@ env_specs:
       - python-tzdata=2023.3=pyhd3eb1b0_0
       - python=3.9.18=h955ad1f_0
       - python_abi=3.9=2_cp39
-      - pytorch=2.0.0=cpu_mkl_py39h1d6e76c_103
+      - pytorch=2.0.0=cuda112py39h1b337e0_303
       - pytorch_geometric=2.3.1=pyhd8ed1ab_0
       - pytz=2023.3.post1=py39h06a4308_0
       - pywavelets=1.4.1=py39h5eee18b_0
@@ -205,9 +216,10 @@ env_specs:
       - tifffile=2023.4.12=py39h06a4308_0
       - tk=8.6.12=h1ccaba5_0
       - toolz=0.12.0=py39h06a4308_0
-      - torch-scatter=2.1.1=py39h228b0e4_1
+      - torch-scatter=2.1.1=py39h0f6ad10_1
       - tqdm=4.65.0=py39hb070fc8_0
       - trimesh=4.0.0=pyhd8ed1ab_0
+      - triton=2.0.0=cuda112py39hafd0abc_1
       - typing_extensions=4.7.1=py39h06a4308_0
       - tzdata=2023c=h04d1e81_0
       - urllib3=1.26.16=py39h06a4308_0
@@ -221,7 +233,7 @@ env_specs:
       - zstd=1.5.5=hc292b87_0
   fair-esm-gpu-2.0.0-py310:
     locked: true
-    env_spec_hash: 5e189698c346663015934440098b52ed7723543a
+    env_spec_hash: 78d5bf9881b3397bc418f751b611aeb910d6670d
     platforms:
     - linux-64
     packages:
@@ -254,6 +266,10 @@ env_specs:
       - cloudpickle=2.2.1=py310h06a4308_0
       - contourpy=1.0.5=py310hdb19cb5_0
       - cryptography=41.0.3=py310hdda0065_0
+      - cuda-version=11.2=hb11dac2_2
+      - cudatoolkit=11.2.2=h5e1937b_5
+      - cudnn=8.9.2.26=cuda11_0
+      - cutlass=2.9.1=hed8a83a_0
       - cycler=0.11.0=pyhd3eb1b0_0
       - cytoolz=0.12.0=py310h5eee18b_0
       - dask-core=2023.6.0=py310h06a4308_0
@@ -322,7 +338,11 @@ env_specs:
       - libgfortran-ng=13.2.0=h69a702a_2
       - libgfortran5=13.2.0=ha4646dd_2
       - libiconv=1.16=h7f8727e_2
+      - liblapack=3.9.0=18_linux64_openblas
       - libllvm14=14.0.6=hdb19cb5_3
+      - libmagma=2.7.1=hc72dce7_6
+      - libmagma_sparse=2.7.1=hc72dce7_6
+      - libmlir14=14.0.6=h9e868ea_0
       - libnghttp2=1.57.0=h2d74bed_0
       - libopenblas=0.3.24=pthreads_h413a1c8_0
       - libpng=1.6.39=h5eee18b_0
@@ -340,10 +360,12 @@ env_specs:
       - libxml2=2.10.4=hf1b16e4_1
       - libzlib=1.2.13=hd590300_5
       - libzopfli=1.0.3=he6710b0_0
+      - lit=14.0.6=py310h06a4308_3
       - llvm-openmp=17.0.2=h4dfa4b3_0
       - llvmlite=0.40.1=py310he621ea3_0
       - locket=1.0.0=py310h06a4308_0
       - lz4-c=1.9.4=h6a678d5_0
+      - magma=2.7.1=ha770c72_6
       - markupsafe=2.1.1=py310h7f8727e_0
       - matplotlib-base=3.7.2=py310h1128e8f_0
       - mkl=2022.2.1=h84fe81f_16997
@@ -352,6 +374,7 @@ env_specs:
       - mpmath=1.3.0=py310h06a4308_0
       - msgpack-python=1.0.3=py310hd09550d_0
       - munkres=1.1.4=py_0
+      - nccl=2.19.3.1=h0800d71_0
       - ncurses=6.4=h6a678d5_0
       - networkx=3.1=py310h06a4308_0
       - ninja-base=1.10.2=hd09550d_5
@@ -379,7 +402,7 @@ env_specs:
       - poppler=22.12.0=h9614445_3
       - psutil=5.9.0=py310h5eee18b_0
       - pycparser=2.21=pyhd3eb1b0_0
-      - pyg-lib=0.2.0=cpu_py310hc8c8140_3
+      - pyg-lib=0.2.0=cuda112py310hb5b3e64_2
       - pyopenssl=23.2.0=py310h06a4308_0
       - pyparsing=3.0.9=py310h06a4308_0
       - pysocks=1.7.1=py310h06a4308_0
@@ -387,7 +410,7 @@ env_specs:
       - python-tzdata=2023.3=pyhd3eb1b0_0
       - python=3.10.13=h955ad1f_0
       - python_abi=3.10=2_cp310
-      - pytorch=2.0.0=cpu_mkl_py310h2f53f51_103
+      - pytorch=2.0.0=cuda112py310h402320e_303
       - pytorch_geometric=2.3.1=pyhd8ed1ab_0
       - pytz=2023.3.post1=py310h06a4308_0
       - pywavelets=1.4.1=py310h5eee18b_0
@@ -411,9 +434,10 @@ env_specs:
       - tifffile=2023.4.12=py310h06a4308_0
       - tk=8.6.12=h1ccaba5_0
       - toolz=0.12.0=py310h06a4308_0
-      - torch-scatter=2.1.1=py310h2103909_1
+      - torch-scatter=2.1.1=py310h04d2b56_1
       - tqdm=4.65.0=py310h2f386ee_0
       - trimesh=4.0.0=pyhd8ed1ab_0
+      - triton=2.0.0=cuda112py310h08c069c_1
       - typing_extensions=4.7.1=py310h06a4308_0
       - tzdata=2023c=h04d1e81_0
       - urllib3=1.26.16=py310h06a4308_0
