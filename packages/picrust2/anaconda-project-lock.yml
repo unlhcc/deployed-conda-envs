@@ -9,12 +9,6 @@
 #
 # Set to false to ignore locked versions.
 locking_enabled: true
-
-
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   picrust2-2.2.0_b:
     locked: true
@@ -383,3 +377,144 @@ env_specs:
       - zipp=3.4.1=pyhd8ed1ab_0
       - zlib=1.2.11=h516909a_1010
       - zstd=1.4.9=ha95c52a_0
+  picrust2-2.5.2:
+    locked: true
+    env_spec_hash: b4fe20051b907b9cdfb2ca070f72971bd160aed1
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - _r-mutex=1.0.0=anacondar_1
+      - _sysroot_linux-64_curr_repodata_hack=3=haa98f57_10
+      - appdirs=1.4.4=pyhd3eb1b0_0
+      - binutils_impl_linux-64=2.38=h2a08ee3_1
+      - binutils_linux-64=2.38.0=hc2dff05_0
+      - biom-format=2.1.15=py38h01eb140_0
+      - blas=1.0=openblas
+      - bottleneck=1.3.5=py38h7deecbd_0
+      - brotlipy=0.7.0=py38h27cfd23_1003
+      - bwidget=1.9.11=1
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.0=h5eee18b_0
+      - ca-certificates=2023.05.30=h06a4308_0
+      - cairo=1.16.0=hb05425b_5
+      - certifi=2023.7.22=py38h06a4308_0
+      - cffi=1.15.1=py38h5eee18b_3
+      - charset-normalizer=2.0.4=pyhd3eb1b0_0
+      - click=8.0.4=py38h06a4308_0
+      - coverage=7.2.2=py38h5eee18b_0
+      - cryptography=41.0.2=py38h22a60cf_0
+      - curl=7.88.1=hdbd6064_2
+      - dbus=1.13.18=hb2f20db_0
+      - dendropy=4.6.1=pyhdfd78af_0
+      - epa-ng=0.3.8=hdcf5f25_4
+      - exceptiongroup=1.0.4=py38h06a4308_0
+      - expat=2.5.0=h6a678d5_0
+      - fontconfig=2.14.1=h4c34cd2_2
+      - freetype=2.12.1=h4a9f257_0
+      - fribidi=1.0.10=h7b6447c_0
+      - gappa=0.8.0=hdcf5f25_3
+      - gcc_impl_linux-64=11.2.0=h1234567_1
+      - gcc_linux-64=11.2.0=h5c386dc_0
+      - gfortran_impl_linux-64=11.2.0=h1234567_1
+      - gfortran_linux-64=11.2.0=hc2dff05_0
+      - glib=2.69.1=he621ea3_2
+      - glpk=4.65=h276157c_3
+      - gmp=6.2.1=h295c915_3
+      - graphite2=1.3.14=h295c915_1
+      - gxx_impl_linux-64=11.2.0=h1234567_1
+      - gxx_linux-64=11.2.0=hc2dff05_0
+      - h5py=3.9.0=py38he06866b_0
+      - harfbuzz=4.3.0=hf52aaf7_1
+      - hdf5=1.12.1=h2b7332f_3
+      - hmmer=3.1b2=3
+      - icu=58.2=he6710b0_3
+      - idna=3.4=py38h06a4308_0
+      - iniconfig=1.1.1=pyhd3eb1b0_0
+      - joblib=1.2.0=py38h06a4308_0
+      - jpeg=9e=h5eee18b_1
+      - kernel-headers_linux-64=3.10.0=h57e8cba_10
+      - krb5=1.20.1=h143b758_1
+      - ld_impl_linux-64=2.38=h1181459_1
+      - lerc=3.0=h295c915_0
+      - libcurl=7.88.1=h251f7ec_2
+      - libdeflate=1.17=h5eee18b_0
+      - libedit=3.1.20221030=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-devel_linux-64=11.2.0=h1234567_1
+      - libgcc-ng=13.2.0=h807b86a_2
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libgomp=13.2.0=h807b86a_2
+      - libidn2=2.3.4=h5eee18b_0
+      - libnghttp2=1.52.0=h2d74bed_1
+      - libopenblas=0.3.21=h043d6bf_0
+      - libpng=1.6.39=h5eee18b_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-devel_linux-64=11.2.0=h1234567_1
+      - libstdcxx-ng=13.2.0=h7e041cc_2
+      - libtiff=4.5.1=h6a678d5_0
+      - libunistring=0.9.10=h27cfd23_0
+      - libuuid=1.41.5=h5eee18b_0
+      - libwebp-base=1.2.4=h5eee18b_1
+      - libxcb=1.15=h7f8727e_0
+      - libxml2=2.10.4=hcbfbd50_0
+      - libzlib=1.2.13=hd590300_5
+      - lz4-c=1.9.4=h6a678d5_0
+      - make=4.2.1=h1bed415_1
+      - ncurses=6.4=h6a678d5_0
+      - numexpr=2.8.4=py38hd2a5715_1
+      - numpy-base=1.24.3=py38h1e6e340_0
+      - numpy=1.24.3=py38hf838250_0
+      - openjdk=11.0.13=h87a67e3_0
+      - openssl=3.0.10=h7f8727e_2
+      - packaging=23.1=py38h06a4308_0
+      - pandas=2.0.3=py38h1128e8f_0
+      - pango=1.50.7=h05da053_0
+      - pcre2=10.37=he7ceb23_1
+      - pcre=8.45=h295c915_0
+      - picrust2=2.5.2=pyhdfd78af_0
+      - pip=23.2.1=py38h06a4308_0
+      - pixman=0.40.0=h7f8727e_1
+      - pluggy=1.0.0=py38h06a4308_1
+      - pooch=1.4.0=pyhd3eb1b0_0
+      - py=1.11.0=pyhd3eb1b0_0
+      - pycparser=2.21=pyhd3eb1b0_0
+      - pyopenssl=23.2.0=py38h06a4308_0
+      - pysocks=1.7.1=py38h06a4308_0
+      - pytest-cov=4.0.0=py38h06a4308_0
+      - pytest=7.4.0=py38h06a4308_0
+      - python-dateutil=2.8.2=pyhd3eb1b0_0
+      - python-tzdata=2023.3=pyhd3eb1b0_0
+      - python=3.8.17=h955ad1f_0
+      - python_abi=3.8=2_cp38
+      - pytz=2022.7=py38h06a4308_0
+      - r-base=4.2.0=h1ae530e_0
+      - r-castor=1.7.11=r42ha503ecb_0
+      - r-lattice=0.20_45=r42h76d94ec_0
+      - r-matrix=1.4_1=r42h76d94ec_0
+      - r-naturalsort=0.1.3=r42h142f84f_0
+      - r-rcpp=1.0.8.3=r42h884c59f_0
+      - r-rcppeigen=0.3.3.9.2=r42h884c59f_0
+      - r-rspectra=0.16_1=r42h884c59f_0
+      - readline=8.2=h5eee18b_0
+      - requests=2.31.0=py38h06a4308_0
+      - scipy=1.10.1=py38h32ae08f_1
+      - sepp=4.3.10=py38h3252c3a_2
+      - setuptools=68.0.0=py38h06a4308_0
+      - six=1.16.0=pyhd3eb1b0_1
+      - sqlite=3.41.2=h5eee18b_0
+      - sysroot_linux-64=2.17=h57e8cba_10
+      - tk=8.6.12=h1ccaba5_0
+      - tktable=2.10=h14c3975_0
+      - toml=0.10.2=pyhd3eb1b0_0
+      - tomli=2.0.1=py38h06a4308_0
+      - urllib3=1.26.16=py38h06a4308_0
+      - wget=1.21.4=h251f7ec_1
+      - wheel=0.38.4=py38h06a4308_0
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.5=hc292b87_0

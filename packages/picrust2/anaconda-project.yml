@@ -9,20 +9,9 @@
 # Set the 'name' key to name your project
 #
 name: picrust2
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: 'PICRUSt2 (Phylogenetic Investigation of Communities by Reconstruction
   of Unobserved States) is a software for predicting functional abundances based only
   on marker gene sequences. '
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -35,4 +24,8 @@ env_specs:
   picrust2-2.4.1:
     packages:
     - picrust2=2.4.1
+    channels: []
+  picrust2-2.5.2:
+    packages:
+    - picrust2=2.5.2
     channels: []
