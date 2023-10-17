@@ -22,7 +22,7 @@ env_specs:
     - biotite
     - pytorch=2.0.0=*cpu*
     channels: []
-  fair-esm-gpu-2.0.0-py310:
+  fair-esm-2.0.0-py310:
     packages:
     - fair-esm=2.0.0
     - python=3.10

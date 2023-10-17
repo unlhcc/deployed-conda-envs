@@ -219,7 +219,7 @@ env_specs:
       - zipp=3.11.0=py39h06a4308_0
       - zlib=1.2.13=hd590300_5
       - zstd=1.5.5=hc292b87_0
-  fair-esm-gpu-2.0.0-py310:
+  fair-esm-2.0.0-py310:
     locked: true
     env_spec_hash: 5e189698c346663015934440098b52ed7723543a
     platforms:
@@ -306,12 +306,12 @@ env_specs:
       - libabseil=20230802.1=cxx17_h59595ed_0
       - libaec=1.0.4=he6710b0_1
       - libavif=0.11.1=h5eee18b_0
-      - libblas=3.9.0=18_linux64_openblas
+      - libblas=3.9.0=19_linux64_openblas
       - libboost=1.82.0=h109eef0_2
       - libbrotlicommon=1.0.9=h5eee18b_7
       - libbrotlidec=1.0.9=h5eee18b_7
       - libbrotlienc=1.0.9=h5eee18b_7
-      - libcblas=3.9.0=18_linux64_openblas
+      - libcblas=3.9.0=19_linux64_openblas
       - libcurl=8.4.0=h251f7ec_0
       - libdeflate=1.17=h5eee18b_1
       - libedit=3.1.20221030=h5eee18b_0
@@ -366,14 +366,14 @@ env_specs:
       - openssl=3.0.11=h7f8727e_2
       - opt_einsum=3.3.0=pyhd3eb1b0_1
       - packaging=23.1=py310h06a4308_0
-      - pandas=2.0.3=py310h1128e8f_0
+      - pandas=2.1.1=py310h1128e8f_0
       - pango=1.50.7=h05da053_0
       - parallel-hashmap=1.33=hca92ed8_0
       - partd=1.4.0=py310h06a4308_0
       - patsy=0.5.3=py310h06a4308_0
       - pcre=8.45=h295c915_0
       - pillow=10.0.1=py310ha6cbd5a_0
-      - pip=23.2.1=py310h06a4308_0
+      - pip=23.3=py310h06a4308_0
       - pixman=0.40.0=h7f8727e_1
       - poppler-data=0.4.11=h06a4308_1
       - poppler=22.12.0=h9614445_3
