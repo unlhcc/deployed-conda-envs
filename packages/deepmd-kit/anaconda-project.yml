@@ -49,3 +49,10 @@ env_specs:
     - python=3.10
     - tensorflow=*=*cpu*
     channels: []
+  deepmd-kit-2.2.5-py39:
+    packages:
+    - deepmd-kit=2.2.5=*cpu*
+    - lammps
+    - python=3.9
+    - tensorflow=*=*cpu*
+    channels: []
