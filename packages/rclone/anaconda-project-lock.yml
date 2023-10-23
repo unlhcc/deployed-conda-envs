@@ -9,12 +9,6 @@
 #
 # Set to false to ignore locked versions.
 locking_enabled: true
-
-
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   rclone-1.44:
     locked: true
@@ -50,3 +44,11 @@ env_specs:
     packages:
       linux-64:
       - rclone=1.59.2=h519d9b9_0
+  rclone-1.64.2:
+    locked: true
+    env_spec_hash: 739faaaddafb121ff3b5142ac9833710e551008f
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - rclone=1.64.2=h519d9b9_0
