@@ -29,3 +29,7 @@ env_specs:
     packages:
     - dcm2niix=1.0.20190902
     channels: []
+  dcm2niix-1.0.20230411:
+    packages:
+    - dcm2niix=1.0.20230411
+    channels: []
