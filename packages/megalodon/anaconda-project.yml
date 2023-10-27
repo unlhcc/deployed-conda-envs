@@ -29,7 +29,7 @@ env_specs:
     packages:
     - python=3.8
     - megalodon=2.4.1
-    - guppy=6.0.1
+    - guppy=6.5.7
     - ont-fast5-api=4.0.0
     - cython=0.29
     - pytorch=1.10
