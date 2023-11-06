@@ -1,0 +1,30 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+env_specs:
+  dorado-gpu-0.4.2:
+    locked: true
+    env_spec_hash: 1d965e45fa0378e6fa102f4cdf9e5af5467e4940
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - dorado-gpu=0.4.2=h110a97b_0
+      - k8=0.2.5=hd03093a_2
+      - libgcc-ng=13.2.0=h807b86a_2
+      - libgomp=13.2.0=h807b86a_2
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libzlib=1.2.13=hd590300_5
+      - minimap2=2.26=he4a0461_2
+      - zlib=1.2.13=hd590300_5
