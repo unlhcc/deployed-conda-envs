@@ -17,4 +17,8 @@ env_specs:
   dorado-gpu-0.4.2:
     packages:
     - dorado-gpu=0.4.2
+    - python=3.8
+    - pip:
+      - lib-pod5
+      - pod5
     channels: []
