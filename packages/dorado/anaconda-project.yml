@@ -17,4 +17,8 @@ env_specs:
   dorado-0.4.2:
     packages:
     - dorado=0.4.2
+    - python=3.8
+    - pip:
+      - lib-pod5
+      - pod5
     channels: []
