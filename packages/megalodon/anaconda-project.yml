@@ -13,7 +13,8 @@ name: megalodon
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: "Megalodon is a research command line tool to extract high accuracy modified base and sequence variant calls from raw nanopore reads."
+description: Megalodon is a research command line tool to extract high accuracy modified
+  base and sequence variant calls from raw nanopore reads.
 
 
 #
@@ -42,4 +43,22 @@ env_specs:
     - pip:
       - ont-remora==0.1.2
       - ont-pyguppy-client-lib==6.0.1
+    channels: []
+  megalodon-2.5.0:
+    packages:
+    - megalodon=2.5.0
+    - python=3.9
+    - guppy=6.5.7
+    - ont-fast5-api
+    - cython
+    - pytorch=1.10=*cpu*
+    - flatbuffers
+    - python-flatbuffers
+    - onnx
+    - onnxruntime
+    - protobuf
+    - tabulate
+    - pip:
+      - ont-remora==3.0.0
+      - ont-pyguppy-client-lib==7.1.4
     channels: []
