@@ -142,7 +142,7 @@ env_specs:
       - thop==0.1.1-2209072238
   megalodon-2.5.0:
     locked: true
-    env_spec_hash: f4f34fb9e238b0df704b550c7c9c16d0181356ec
+    env_spec_hash: 37616bb4bce2ada55631668f01d02ffe78f0b738
     platforms:
     - linux-64
     packages:
