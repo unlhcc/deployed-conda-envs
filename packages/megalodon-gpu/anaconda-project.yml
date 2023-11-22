@@ -42,5 +42,5 @@ env_specs:
     - cudatoolkit=11.2
     - pip:
       - ont-remora==3.0.0
-      - ont-pyguppy-client-lib==7.1.4
+      - ont-pyguppy-client-lib==6.5.7
     channels: []
