@@ -90,3 +90,52 @@ env_specs:
       - wheel=0.37.1=pyhd8ed1ab_0
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h166bdaf_1014
+  kaiju-1.10.0:
+    locked: true
+    env_spec_hash: 69eeded7cf09fb52e32b83635627dc23bc176539
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=hd590300_5
+      - c-ares=1.22.1=hd590300_0
+      - ca-certificates=2023.11.17=hbcca054_0
+      - curl=8.4.0=hca28451_0
+      - gdbm=1.18=h0a1914f_2
+      - gettext=0.21.1=h27087fc_0
+      - kaiju=1.10.0=h43eeafb_0
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.21.2=h659d440_0
+      - ld_impl_linux-64=2.40=h41732ed_0
+      - libcurl=8.4.0=hca28451_0
+      - libedit=3.1.20221030=h5eee18b_0
+      - libev=4.33=h516909a_1
+      - libexpat=2.5.0=hcb278e6_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-ng=13.2.0=h807b86a_3
+      - libgomp=13.2.0=h807b86a_3
+      - libidn2=2.3.4=h166bdaf_0
+      - libnghttp2=1.58.0=h47da74e_0
+      - libnsl=2.0.1=hd590300_0
+      - libsqlite=3.44.2=h2797004_0
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-ng=13.2.0=h7e041cc_3
+      - libunistring=0.9.10=h7f98852_0
+      - libuuid=2.38.1=h0b41bf4_0
+      - libzlib=1.2.13=hd590300_5
+      - ncurses=6.4=h59595ed_2
+      - openssl=3.2.0=hd590300_0
+      - perl=5.34.0=h5eee18b_2
+      - pip=23.3.1=pyhd8ed1ab_0
+      - python=3.12.0=hab00c5b_0_cpython
+      - readline=8.2=h8228510_1
+      - setuptools=68.2.2=pyhd8ed1ab_0
+      - tk=8.6.13=noxft_h4845f30_101
+      - tzdata=2023c=h71feb2d_0
+      - wget=1.21.4=h251f7ec_1
+      - wheel=0.42.0=pyhd8ed1ab_0
+      - xz=5.4.2=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.5=hfc55251_0
