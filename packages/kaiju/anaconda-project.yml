@@ -36,3 +36,10 @@ env_specs:
     packages:
     - kaiju=1.8.2
     channels: []
+  kaiju-1.10.0:
+    packages:
+    - kaiju=1.10.0
+    channels:
+    - conda-forge
+    - bioconda
+    - hcc
