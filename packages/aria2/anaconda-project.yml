@@ -31,3 +31,7 @@ env_specs:
     packages:
     - aria2=1.36.0
     channels: []
+  aria2-1.37.0:
+    packages:
+    - aria2=1.37.0
+    channels: []
