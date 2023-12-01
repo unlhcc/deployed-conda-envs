@@ -28,3 +28,7 @@ env_specs:
     packages:
     - seqkit=0.10.1
     channels: []
+  seqkit-2.6.1:
+    packages:
+    - seqkit=2.6.1
+    channels: []

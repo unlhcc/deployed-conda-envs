@@ -24,3 +24,11 @@ env_specs:
     packages:
       linux-64:
       - seqkit=0.10.1=1
+  seqkit-2.6.1:
+    locked: true
+    env_spec_hash: 6e195303e00d8f89f3bd3e6440eb4a1b0bc58dd8
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - seqkit=2.6.1=h9ee0642_0
