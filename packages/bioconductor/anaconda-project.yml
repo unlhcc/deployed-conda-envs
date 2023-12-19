@@ -550,5 +550,6 @@ env_specs:
     - bioconductor-chipenrich.data
     - bioconductor-ancombc
     - gsl
+    - bioconductor-variantannotation
     channels:
     - nodefaults
