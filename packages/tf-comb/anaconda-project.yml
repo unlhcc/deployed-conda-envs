@@ -42,3 +42,21 @@ env_specs:
     - python=3.8
     - hcc-python-stack
     channels: []
+  tf-comb-1.1-py38:
+    packages:
+    - tf-comb=1.1
+    - python=3.8
+    - hcc-python-stack
+    channels: []
+  tf-comb-1.1-py39:
+    packages:
+    - tf-comb=1.1
+    - python=3.9
+    - hcc-python-stack
+    channels: []
+  tf-comb-1.1-py310:
+    packages:
+    - tf-comb=1.1
+    - python=3.10
+    - hcc-python-stack
+    channels: []
