@@ -57,3 +57,7 @@ env_specs:
     packages:
     - samtools=1.17
     channels: []
+  samtools-1.19:
+    packages:
+    - samtools=1.19
+    channels: []
