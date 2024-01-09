@@ -491,20 +491,20 @@ env_specs:
     - tensorflow=2.15.0=cpu*
     - python=3.10
     - hcc-python-stack
-    - cloudpickle
-    - dm-tree
-    - protobuf
+    - cloudpickle=3.0.0
+    - dm-tree=0.1.8
     - pip:
       - tensorflow-probability==0.23.0
-    channels: []
+    channels:
+    - nodefaults
   tensorflow-2.15.0-py311:
     packages:
     - tensorflow=2.15.0=cpu*
     - python=3.11
     - hcc-python-stack
-    - cloudpickle
-    - dm-tree
-    - protobuf
+    - cloudpickle=3.0.0
+    - dm-tree=0.1.8
     - pip:
       - tensorflow-probability==0.23.0
-    channels: []
+    channels:
+    - nodefaults
