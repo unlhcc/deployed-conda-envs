@@ -28,3 +28,7 @@ tensorflow-2.8.2-py38
 tensorflow-2.8.2-py39
 tensorflow-2.9.1-py38
 tensorflow-2.9.1-py39
+tensorflow-2.10.0-py38
+tensorflow-2.10.0-py39
+tensorflow-2.11.0-py38
+tensorflow-2.11.0-py39
