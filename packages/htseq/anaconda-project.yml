@@ -71,3 +71,13 @@ env_specs:
     - htseq=2.0.2
     - python=3.10
     channels: []
+  htseq-2.0.5-py39:
+    packages:
+    - htseq=2.0.5
+    - python=3.9
+    channels: []
+  htseq-2.0.5-py310:
+    packages:
+    - htseq=2.0.5
+    - python=3.10
+    channels: []
