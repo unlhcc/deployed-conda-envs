@@ -90,3 +90,23 @@ env_specs:
       - libgomp=11.2.0=h1d223b6_8
       - perl=5.26.2=h36c2ea0_1008
       - zlib=1.2.11=h516909a_1010
+  gmap-2023.10.10:
+    locked: true
+    env_spec_hash: c5441eb4fdaad2205ec22e45b118649d0b6e53a3
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7b6447c_0
+      - gmap=2023.10.10=h9d449c0_1
+      - libgcc-ng=13.2.0=h807b86a_3
+      - libgomp=13.2.0=h807b86a_3
+      - libnsl=2.0.0=h5eee18b_0
+      - libzlib=1.2.13=hd590300_5
+      - perl-constant=1.33=pl5321hd8ed1ab_0
+      - perl-exporter=5.74=pl5321hd8ed1ab_0
+      - perl-file-util=4.201720=pl5321hdfd78af_0
+      - perl-lib=0.63=pl5321hd8ed1ab_0
+      - perl=5.32.1=0_h5eee18b_perl5
