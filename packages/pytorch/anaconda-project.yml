@@ -221,3 +221,21 @@ env_specs:
     - hcc-python-stack
     - torchvision=0.14.0=cpu_py310*
     channels: []
+  pytorch-2.0.0-py310:
+    packages:
+    - pytorch=2.0.0=*cpu*
+    - python=3.10
+    - hcc-python-stack
+    - torchvision=0.15.2=*cpu*
+    - tensorflow=2.13.1=cpu*
+    channels:
+    - nodefaults
+  pytorch-2.0.0-py311:
+    packages:
+    - pytorch=2.0.0=*cpu*
+    - python=3.11
+    - hcc-python-stack
+    - torchvision=0.15.2=*cpu*
+    - tensorflow=2.13.1=cpu*
+    channels:
+    - nodefaults
