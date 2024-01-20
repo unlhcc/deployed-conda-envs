@@ -154,3 +154,23 @@ env_specs:
     - torchvision=0.14.0=cuda112py310*
     - tensorflow=2.10.0=cuda112py310*
     channels: []
+  pytorch-gpu-2.0.0-py310:
+    packages:
+    - pytorch=2.0.0=*cuda112*
+    - python=3.10
+    - cudatoolkit=11.2
+    - hcc-python-stack
+    - torchvision=0.15.2=*cuda112*
+    - tensorflow-gpu=2.13.1=cuda112*
+    channels:
+    - nodefaults
+  pytorch-gpu-2.0.0-py311:
+    packages:
+    - pytorch=2.0.0=*cuda112*
+    - python=3.11
+    - cudatoolkit=11.2
+    - hcc-python-stack
+    - torchvision=0.15.2=*cuda112*
+    - tensorflow-gpu=2.13.1=cuda112*
+    channels:
+    - nodefaults
