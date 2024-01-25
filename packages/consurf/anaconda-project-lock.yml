@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   consurf-1.0.0:
     locked: true
-    env_spec_hash: 3014da2f263cda26dc753d54d56da1fdfd4e20bf
+    env_spec_hash: 36213ca9686290bac1d8a35921de65bc32b1d0ef
     platforms:
     - linux-64
     packages:
@@ -26,6 +26,7 @@ env_specs:
       - _openmp_mutex=4.5=2_gnu
       - biopython=1.78=py39h7f8727e_0
       - blas=1.0=openblas
+      - blast-legacy=2.2.26=h9ee0642_3
       - brotli-python=1.0.9=py39h6a678d5_7
       - ca-certificates=2023.12.12=h06a4308_0
       - cd-hit=4.8.1=h43eeafb_9
