@@ -28,4 +28,10 @@ env_specs:
     packages:
     - consurf=1.0.0
     - python=3.9
+    - blast-legacy=2.2.26
     channels: []
+
+commands:
+  set-links-consurf-1.0.0:
+    unix: cp -av ${PROJECT_DIR}/GENERAL_CONSTANTS.py ${CONDA_PREFIX}/bin
+    env_spec: consurf-1.0.0
