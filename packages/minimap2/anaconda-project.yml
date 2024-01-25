@@ -29,3 +29,7 @@ env_specs:
     packages:
     - minimap2=2.16
     channels: []
+  minimap2-2.26:
+    packages:
+    - minimap2=2.26
+    channels: []
