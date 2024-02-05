@@ -55,3 +55,7 @@ env_specs:
     packages:
     - trinity=2.13.2
     channels: []
+  trinity-2.15.1:
+    packages:
+    - trinity=2.15.1
+    channels: []
