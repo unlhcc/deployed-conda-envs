@@ -1,0 +1,49 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  foldseek-8.ef4e960:
+    locked: true
+    env_spec_hash: c5cf3cc3af5ba759e29aaaffa975de58a294f981
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - aria2=1.37.0=h347180d_1
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.26.0=hd590300_0
+      - ca-certificates=2023.12.12=h06a4308_0
+      - foldseek=8.ef4e960=pl5321hb365157_0
+      - gawk=5.1.0=h7b6447c_0
+      - icu=73.2=h59595ed_0
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgomp=13.2.0=h807b86a_5
+      - libiconv=1.17=hd590300_2
+      - libidn2=2.3.4=h5eee18b_0
+      - libnsl=2.0.0=h5eee18b_0
+      - libsqlite=3.44.2=h2797004_0
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libunistring=0.9.10=h27cfd23_0
+      - libxml2=2.12.5=h232c23b_0
+      - libzlib=1.2.13=hd590300_5
+      - openssl=3.2.1=hd590300_0
+      - perl=5.32.1=0_h5eee18b_perl5
+      - wget=1.21.4=h251f7ec_1
+      - xz=5.4.5=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
