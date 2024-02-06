@@ -26,3 +26,26 @@ env_specs:
       - aspera-cli=3.7.7=0
 
 
+  aspera-cli-4.14.0:
+    locked: true
+    env_spec_hash: b3ce96b7a97501ac80e27ab3cf51838ced09542d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - aspera-cli=4.14.0=hdfd78af_1
+      - ca-certificates=2023.12.12=h06a4308_0
+      - gdbm=1.18=hd4cb3f1_4
+      - gmp=6.2.1=h295c915_3
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.0.13=h7f8727e_0
+      - readline=8.2=h5eee18b_0
+      - ruby=3.2.2=h2d74bed_0
+      - yaml=0.2.5=h7b6447c_0
+      - zlib=1.2.13=h5eee18b_0
