@@ -1,0 +1,165 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  qualimap-2.3:
+    locked: true
+    env_spec_hash: bbc9da542f9636c59b94639b82dc88851b85cab3
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - _r-mutex=1.0.0=anacondar_1
+      - _sysroot_linux-64_curr_repodata_hack=3=haa98f57_10
+      - argcomplete=1.12.3=pyhd3eb1b0_0
+      - binutils_impl_linux-64=2.38=h2a08ee3_1
+      - binutils_linux-64=2.38.0=hc2dff05_0
+      - bioconductor-biobase=2.62.0=r43ha9d7317_1
+      - bioconductor-biocgenerics=0.48.1=r43hdfd78af_2
+      - bioconductor-biocio=1.12.0=r43hdfd78af_0
+      - bioconductor-biocparallel=1.36.0=r43hf17093f_1
+      - bioconductor-biostrings=2.70.1=r43ha9d7317_1
+      - bioconductor-data-packages=20231203=hdfd78af_0
+      - bioconductor-delayedarray=0.28.0=r43ha9d7317_1
+      - bioconductor-genomeinfodb=1.38.1=r43hdfd78af_1
+      - bioconductor-genomeinfodbdata=1.2.11=r43hdfd78af_1
+      - bioconductor-genomicalignments=1.38.0=r43ha9d7317_0
+      - bioconductor-genomicranges=1.54.1=r43ha9d7317_1
+      - bioconductor-iranges=2.36.0=r43ha9d7317_1
+      - bioconductor-matrixgenerics=1.14.0=r43hdfd78af_1
+      - bioconductor-noiseq=2.46.0=r43hdfd78af_0
+      - bioconductor-rhtslib=2.4.0=r43ha9d7317_1
+      - bioconductor-rsamtools=2.18.0=r43hf17093f_1
+      - bioconductor-rtracklayer=1.62.0=r43ha9d7317_0
+      - bioconductor-s4arrays=1.2.0=r43ha9d7317_1
+      - bioconductor-s4vectors=0.40.2=r43ha9d7317_1
+      - bioconductor-sparsearray=1.2.2=r43ha9d7317_1
+      - bioconductor-summarizedexperiment=1.32.0=r43hdfd78af_0
+      - bioconductor-xvector=0.42.0=r43ha9d7317_1
+      - bioconductor-zlibbioc=1.48.0=r43ha9d7317_1
+      - blas=1.0=openblas
+      - bwidget=1.9.16=h9eba36c_0
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2023.12.12=h06a4308_0
+      - cairo=1.16.0=hb05425b_5
+      - curl=8.5.0=hdbd6064_0
+      - dbus=1.13.18=hb2f20db_0
+      - expat=2.5.0=h6a678d5_0
+      - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
+      - font-ttf-inconsolata=2.001=hcb22688_0
+      - font-ttf-source-code-pro=2.030=hd3eb1b0_0
+      - font-ttf-ubuntu=0.83=h8b1ccd4_0
+      - fontconfig=2.14.1=h4c34cd2_2
+      - fonts-anaconda=1=h8fa9717_0
+      - fonts-conda-ecosystem=1=hd3eb1b0_0
+      - freetype=2.12.1=h4a9f257_0
+      - fribidi=1.0.10=h7b6447c_0
+      - gcc_impl_linux-64=11.2.0=h1234567_1
+      - gcc_linux-64=11.2.0=h5c386dc_0
+      - gfortran_impl_linux-64=11.2.0=h7a446d4_16
+      - gfortran_linux-64=11.2.0=hc2dff05_0
+      - glib=2.69.1=he621ea3_2
+      - graphite2=1.3.14=h295c915_1
+      - gxx_impl_linux-64=11.2.0=h1234567_1
+      - gxx_linux-64=11.2.0=hc2dff05_0
+      - harfbuzz=4.3.0=hf52aaf7_2
+      - icu=73.1=h6a678d5_0
+      - importlib-metadata=2.0.0=py_1
+      - importlib_metadata=2.0.0=1
+      - jpeg=9e=h5eee18b_1
+      - jq=1.6=h27cfd23_1000
+      - kernel-headers_linux-64=3.10.0=h57e8cba_10
+      - krb5=1.20.1=h143b758_1
+      - ld_impl_linux-64=2.38=h1181459_1
+      - lerc=3.0=h295c915_0
+      - libblas=3.9.0=21_linux64_openblas
+      - libcurl=8.5.0=h251f7ec_0
+      - libdeflate=1.17=h5eee18b_1
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-devel_linux-64=11.2.0=h1234567_1
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgfortran-ng=13.2.0=h69a702a_5
+      - libgfortran5=13.2.0=ha4646dd_5
+      - libgomp=13.2.0=h807b86a_5
+      - liblapack=3.9.0=21_linux64_openblas
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libopenblas=0.3.26=pthreads_h413a1c8_0
+      - libpng=1.6.39=h5eee18b_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-devel_linux-64=11.2.0=h1234567_1
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libtiff=4.5.1=h6a678d5_0
+      - libuuid=1.41.5=h5eee18b_0
+      - libwebp-base=1.3.2=h5eee18b_0
+      - libxcb=1.15=h7f8727e_0
+      - libxml2=2.10.4=hf1b16e4_1
+      - lz4-c=1.9.4=h6a678d5_0
+      - make=4.2.1=h1bed415_1
+      - ncurses=6.4=h6a678d5_0
+      - oniguruma=6.9.7.1=h27cfd23_0
+      - openjdk=11.0.13=h87a67e3_0
+      - openssl=3.0.13=h7f8727e_0
+      - pango=1.50.7=h05da053_0
+      - pcre2=10.42=hebb0a14_0
+      - pcre=8.45=h295c915_0
+      - pip=23.3.1=py312h06a4308_0
+      - pixman=0.40.0=h7f8727e_1
+      - python=3.12.1=h996f2a0_0
+      - pyyaml=6.0.1=py312h5eee18b_0
+      - qualimap=2.3=hdfd78af_0
+      - r-abind=1.4_5=r43h142f84f_0
+      - r-base=4.3.1=h1ae530e_0
+      - r-bh=1.81.0_1=r43h6115d3f_0
+      - r-bitops=1.0_7=r43h76d94ec_0
+      - r-codetools=0.2_19=r43h6115d3f_0
+      - r-cpp11=0.4.6=r43h6115d3f_0
+      - r-crayon=1.5.2=r43h6115d3f_0
+      - r-formatr=1.14=r43h6115d3f_0
+      - r-futile.logger=1.4.3=r43h6115d3f_0
+      - r-futile.options=1.0.1=r43h142f84f_0
+      - r-getopt=1.20.4=r43h6115d3f_0
+      - r-lambda.r=1.2.4=r43h142f84f_0
+      - r-lattice=0.22_5=r43h76d94ec_0
+      - r-matrix=1.6_1.1=r43h76d94ec_0
+      - r-matrixstats=1.0.0=r43h76d94ec_0
+      - r-optparse=1.7.3=r43h142f84f_0
+      - r-rcurl=1.98_1.12=r43h76d94ec_0
+      - r-restfulr=0.0.15=r43h56115f1_3
+      - r-rjson=0.2.21=r43h884c59f_0
+      - r-snow=0.4_4=r43h142f84f_0
+      - r-xml=3.99_0.14=r43h76d94ec_0
+      - r-yaml=2.3.7=r43h76d94ec_0
+      - readline=8.2=h5eee18b_0
+      - setuptools=68.2.2=py312h06a4308_0
+      - sqlite=3.41.2=h5eee18b_0
+      - sysroot_linux-64=2.17=h57e8cba_10
+      - tk=8.6.12=h1ccaba5_0
+      - tktable=2.10=h3d55465_1
+      - toml=0.10.2=pyhd3eb1b0_0
+      - tzdata=2023d=h04d1e81_0
+      - wheel=0.41.2=py312h06a4308_0
+      - xmltodict=0.13.0=py312h06a4308_0
+      - xz=5.4.5=h5eee18b_0
+      - yaml=0.2.5=h7b6447c_0
+      - yq=2.12.0=pyhd3eb1b0_0
+      - zipp=3.11.0=py312h06a4308_0
+      - zlib=1.2.13=h5eee18b_0
+      - zstd=1.5.5=hc292b87_0
