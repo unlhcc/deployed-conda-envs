@@ -1,0 +1,69 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  crossmap-0.7.0:
+    locked: true
+    env_spec_hash: 60ac51a9bf4a6c192fb1df936c54b0f205d8499e
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - blas=1.0=openblas
+      - bx-python=0.10.0=py310h551a815_0
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2023.12.12=h06a4308_0
+      - crossmap=0.7.0=pyhdfd78af_0
+      - krb5=1.20.1=h143b758_1
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libcurl=8.5.0=h251f7ec_0
+      - libdeflate=1.18=h0b41bf4_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libgomp=13.2.0=h807b86a_5
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libopenblas=0.3.21=h043d6bf_0
+      - libpng=1.6.39=h5eee18b_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libuuid=1.41.5=h5eee18b_0
+      - libzlib=1.2.13=hd590300_5
+      - mysql-connector-c=6.1.11=h659d440_1008
+      - ncurses=6.4=h6a678d5_0
+      - numpy-base=1.26.3=py310h8a23956_0
+      - numpy=1.26.3=py310heeff2f4_0
+      - openssl=3.2.1=hd590300_0
+      - pip=23.3.1=py310h06a4308_0
+      - pybigwig=0.3.22=py310h79000e5_1
+      - pysam=0.22.0=py310h41dec4a_0
+      - python=3.10.13=h955ad1f_0
+      - python_abi=3.10=2_cp310
+      - readline=8.2=h5eee18b_0
+      - setuptools=68.2.2=py310h06a4308_0
+      - sqlite=3.41.2=h5eee18b_0
+      - tk=8.6.12=h1ccaba5_0
+      - tzdata=2023d=h04d1e81_0
+      - ucsc-wigtobigwig=447=h2a80c09_1
+      - wheel=0.41.2=py310h06a4308_0
+      - xz=5.4.5=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
