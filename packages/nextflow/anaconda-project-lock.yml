@@ -416,3 +416,38 @@ env_specs:
       - openssl=1.1.1u=h7f8727e_0
       - pcre=8.45=h295c915_0
       - zlib=1.2.13=h5eee18b_0
+  nextflow-23.10.1:
+    locked: true
+    env_spec_hash: b5f90ea5f8bd6c9c84e9a3103aa6ef00d9befe73
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2023.12.12=h06a4308_0
+      - coreutils=8.32=h7b6447c_0
+      - curl=8.5.0=hdbd6064_0
+      - dbus=1.13.18=hb2f20db_0
+      - expat=2.5.0=h6a678d5_0
+      - freetype=2.12.1=h4a9f257_0
+      - glib=2.69.1=he621ea3_2
+      - krb5=1.20.1=h143b758_1
+      - libcurl=8.5.0=h251f7ec_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libpng=1.6.39=h5eee18b_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libxcb=1.15=h7f8727e_0
+      - ncurses=6.4=h6a678d5_0
+      - nextflow=23.10.1=hdfd78af_0
+      - openjdk=11.0.13=h87a67e3_0
+      - openssl=3.0.13=h7f8727e_0
+      - pcre=8.45=h295c915_0
+      - zlib=1.2.13=h5eee18b_0
