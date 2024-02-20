@@ -224,3 +224,66 @@ env_specs:
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h516909a_1010
       - zstd=1.4.9=ha95c52a_0
+  cmake-3.20.5:
+    locked: true
+    env_spec_hash: c51b74afc4c85c87a847ff43544a5a445f24aa46
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2023.12.12=h06a4308_0
+      - cmake=3.20.5=h8897547_0
+      - expat=2.5.0=h6a678d5_0
+      - krb5=1.20.1=h143b758_1
+      - libcurl=8.5.0=h251f7ec_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libuv=1.44.2=h5eee18b_0
+      - lz4-c=1.9.4=h6a678d5_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.0.13=h7f8727e_0
+      - rhash=1.4.3=hdbd6064_0
+      - xz=5.4.5=h5eee18b_0
+      - zlib=1.2.13=h5eee18b_0
+      - zstd=1.5.5=hc292b87_0
+  cmake-3.28.3:
+    locked: true
+    env_spec_hash: a2790259634f942101a1fdf664a6151d9682a5cb
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7b6447c_0
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2023.12.12=h06a4308_0
+      - cmake=3.28.3=hcfe8598_0
+      - krb5=1.20.1=h143b758_1
+      - libcurl=8.5.0=h251f7ec_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.5.0=hcb278e6_1
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgomp=13.2.0=h807b86a_5
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libuv=1.47.0=hd590300_0
+      - libzlib=1.2.13=hd590300_5
+      - lz4-c=1.9.4=h6a678d5_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.0.13=h7f8727e_0
+      - rhash=1.4.4=hd590300_0
+      - xz=5.4.5=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.5=hc292b87_0
