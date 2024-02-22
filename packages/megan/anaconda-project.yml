@@ -29,4 +29,11 @@ env_specs:
     packages:
     - megan=6.12.3
     - openjdk=8
+    - javafx-sdk
+    channels: []
+  megan-6.25.9:
+    packages:
+    - megan=6.25.9
+    - openjdk
+    - javafx-sdk
     channels: []
