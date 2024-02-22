@@ -1,0 +1,71 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  fastq-screen-0.15.3:
+    locked: true
+    env_spec_hash: 9866c65ffecb3cb1970c9554176338d24d836ad5
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - bowtie2=2.4.5=py39hd2f7db1_2
+      - bowtie=1.3.1=py39hd400a0c_1
+      - ca-certificates=2023.12.12=h06a4308_0
+      - expat=2.5.0=h6a678d5_0
+      - fastq-screen=0.15.3=pl5321hdfd78af_0
+      - fontconfig=2.14.1=hef1e5e3_0
+      - freetype=2.11.0=h70c0345_0
+      - icu=70.1=h27087fc_0
+      - jbig=2.1=hdba287a_0
+      - jpeg=9e=h5eee18b_1
+      - ld_impl_linux-64=2.38=h1181459_1
+      - lerc=3.0=h295c915_0
+      - libdeflate=1.10=h7f98852_0
+      - libffi=3.3=he6710b0_2
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgd=2.3.3=h695aa2c_1
+      - libgomp=11.2.0=h1234567_1
+      - libiconv=1.16=h7f8727e_2
+      - libnsl=2.0.0=h5eee18b_0
+      - libpng=1.6.37=hbc83047_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libtiff=4.3.0=h542a066_3
+      - libwebp-base=1.3.2=h5eee18b_0
+      - libxml2=2.9.14=h22db469_0
+      - libzlib=1.2.11=h166bdaf_1014
+      - lz4-c=1.9.4=h6a678d5_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=1.1.1w=h7f8727e_0
+      - perl-gd=2.76=pl5321h5b5514e_1
+      - perl-gdgraph=1.54=pl5321hdfd78af_1
+      - perl-gdtextutil=0.86=pl5321hec16e2b_7
+      - perl=5.32.1=0_h5eee18b_perl5
+      - pip=23.3.1=py39h06a4308_0
+      - python=3.9.12=h12debd9_0
+      - python_abi=3.9=2_cp39
+      - readline=8.2=h5eee18b_0
+      - setuptools=68.2.2=py39h06a4308_0
+      - sqlite=3.38.2=hc218d9a_0
+      - tbb=2020.3=hfd86e86_0
+      - tk=8.6.11=h1ccaba5_0
+      - tzdata=2023d=h04d1e81_0
+      - wheel=0.41.2=py39h06a4308_0
+      - xz=5.4.5=h5eee18b_0
+      - zlib=1.2.11=h166bdaf_1014
+      - zstd=1.5.2=h8a70e8d_1
