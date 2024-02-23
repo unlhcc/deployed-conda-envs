@@ -1,0 +1,36 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  magicblast-1.7.0:
+    locked: true
+    env_spec_hash: 5ea458dcfec636743a7b47e7f60139af4e6dc409
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h7b6447c_0
+      - icu=58.2=he6710b0_3
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgomp=13.2.0=h807b86a_5
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libxml2=2.9.14=h74e7548_0
+      - libzlib=1.2.13=hd590300_5
+      - magicblast=1.7.0=hf1761c0_0
+      - xz=5.4.5=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
