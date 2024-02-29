@@ -1,0 +1,43 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  revbayes-1.2.2:
+    locked: true
+    env_spec_hash: e3d69be7ddd0e906b892ed479923a6c846b29f51
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - boost-cpp=1.84.0=h44aadfe_1
+      - bzip2=1.0.8=h5eee18b_5
+      - icu=73.2=h59595ed_0
+      - libboost-devel=1.84.0=h00ab1b0_1
+      - libboost-headers=1.84.0=ha770c72_1
+      - libboost=1.84.0=h8013b2b_1
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgomp=13.2.0=h807b86a_5
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libzlib=1.2.13=hd590300_5
+      - lz4-c=1.9.4=h6a678d5_0
+      - mpi=1.0=openmpi
+      - openmpi=4.1.6=external_1
+      - revbayes=1.2.2=h3128f2b_0
+      - xz=5.4.6=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.5=hc292b87_0
