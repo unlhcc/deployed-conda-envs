@@ -46,6 +46,11 @@ env_specs:
     - julia=1.9.2
     - openlibm>=0.8
     channels: []
+  julia-1.10.2:
+    packages:
+    - julia=1.10.2
+    - openlibm>=0.8
+    channels: []
 commands:
   add-ijulia:
     unix: julia -e "using Pkg;Pkg.add([\"IJulia\"])"
@@ -59,4 +64,7 @@ commands:
   add-pkgs-julia-1.9.2:
     unix: julia -e "using Pkg;Pkg.add([\"IJulia\"]);Pkg.add([\"CSV\"])"
     env_spec: julia-1.9.2
+  add-pkgs-julia-1.10.2:
+    unix: julia -e "using Pkg;Pkg.add([\"IJulia\"]);Pkg.add([\"CSV\"])"
+    env_spec: julia-1.10.2
 packages: []
