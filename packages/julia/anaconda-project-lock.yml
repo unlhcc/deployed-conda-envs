@@ -340,3 +340,62 @@ env_specs:
       - xz=5.4.2=h5eee18b_0
       - zlib=1.2.13=hd590300_5
       - zstd=1.5.5=hc292b87_0
+  julia-1.10.2:
+    locked: true
+    env_spec_hash: afd0a73946f1add00f7cf928baff4d713a34d70d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - arpack=3.8.0=nompi_h0baa96a_101
+      - blas=1.0=openblas
+      - bzip2=1.0.8=h5eee18b_5
+      - c-ares=1.27.0=hd590300_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - curl=8.5.0=hdbd6064_0
+      - gdbm=1.18=hd4cb3f1_4
+      - gettext=0.21.0=h39681ba_1
+      - git=2.44.0=pl5321h709897a_0
+      - gmp=6.3.0=h59595ed_1
+      - icu=73.1=h6a678d5_0
+      - julia=1.10.2=h5490d3b_0
+      - krb5=1.20.1=h143b758_1
+      - libblas=3.9.0=21_linux64_openblas
+      - libcurl=8.5.0=h251f7ec_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.6.2=h59595ed_0
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgfortran-ng=13.2.0=h69a702a_5
+      - libgfortran5=13.2.0=ha4646dd_5
+      - libgit2=1.7.2=h65212e3_2
+      - libgomp=13.2.0=h807b86a_5
+      - libiconv=1.17=hd590300_2
+      - liblapack=3.9.0=21_linux64_openblas
+      - libnghttp2=1.58.0=h47da74e_1
+      - libopenblas-ilp64=0.3.26=pthreads_h384dd9e_0
+      - libopenblas=0.3.26=pthreads_h413a1c8_0
+      - libopenlibm4=0.8.1=hd590300_1
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libunwind=1.6.2=h9c3ff4c_0
+      - libutf8proc=2.8.0=h166bdaf_0
+      - libxml2=2.10.4=hf1b16e4_1
+      - libzlib=1.2.13=hd590300_5
+      - mbedtls=3.5.1=h59595ed_0
+      - metis=5.1.0=hf484d3e_4
+      - mpfr=4.2.1=h9458935_0
+      - ncurses=6.4=h6a678d5_0
+      - openblas-ilp64=0.3.26=pthreads_h3d04fff_0
+      - openlibm=0.8.1=hd590300_1
+      - openssl=3.2.1=hd590300_1
+      - p7zip=16.02=h6a678d5_0
+      - pcre2=10.43=hcad00b1_0
+      - perl=5.34.0=h5eee18b_2
+      - readline=8.2=h5eee18b_0
+      - suitesparse=5.10.1=he2db622_2
+      - tbb=2021.8.0=hdb19cb5_0
+      - xz=5.4.6=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
