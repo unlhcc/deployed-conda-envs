@@ -925,7 +925,7 @@ env_specs:
 
   jupyterlab-4.0.4:
     locked: true
-    env_spec_hash: 90d2017d9e02bacfafae15b9a67eeda9b189791f
+    env_spec_hash: 7dc5442054c36b6cb7136c150b316f810b3bfea6
     platforms:
     - linux-64
     packages:
@@ -999,13 +999,13 @@ env_specs:
       - gsl=2.7=he838d99_0
       - gxx_impl_linux-64=13.2.0=h338b0a0_5
       - harfbuzz=7.3.0=hdb3a94d_0
-      - hcc-jupyter-kernels=2024.03.19=h121872b_0
+      - hcc-jupyter-kernels=2024.01.19=h121872b_0
       - icu=72.1=hcb278e6_0
       - idna=3.6=pyhd8ed1ab_0
       - importlib-metadata=7.0.2=pyha770c72_0
-      - importlib-resources=6.3.1=pyhd8ed1ab_0
+      - importlib-resources=6.3.2=pyhd8ed1ab_0
       - importlib_metadata=7.0.2=hd8ed1ab_0
-      - importlib_resources=6.3.1=pyhd8ed1ab_0
+      - importlib_resources=6.3.2=pyhd8ed1ab_0
       - ipykernel=6.29.3=pyhd33586a_0
       - ipympl=0.9.3=pyhd8ed1ab_0
       - ipython=8.18.1=pyh707e725_3
@@ -1144,7 +1144,7 @@ env_specs:
       - python-dateutil=2.9.0=pyhd8ed1ab_0
       - python-fastjsonschema=2.19.1=pyhd8ed1ab_0
       - python-json-logger=2.0.7=pyhd8ed1ab_0
-      - python=3.9.18=h0755675_1_cpython
+      - python=3.9.19=h0755675_0_cpython
       - python_abi=3.9=4_cp39
       - pytz=2024.1=pyhd8ed1ab_0
       - pyyaml=6.0.1=py39hd1e30aa_1
