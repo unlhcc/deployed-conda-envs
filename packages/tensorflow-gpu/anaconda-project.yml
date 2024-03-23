@@ -508,8 +508,8 @@ env_specs:
     channels: []
   tensorflow-gpu-2.15.0-py310:
     packages:
-    - tensorflow-gpu=2.15.0=cuda118*
-    - cudatoolkit=11.8
+    - tensorflow-gpu=2.15.0=cuda120*
+    - cuda-version=12.2
     - python=3.10
     - hcc-python-stack
     - cloudpickle=3.0.0
@@ -520,8 +520,8 @@ env_specs:
     - nodefaults
   tensorflow-gpu-2.15.0-py311:
     packages:
-    - tensorflow-gpu=2.15.0=cuda118*
-    - cudatoolkit=11.8
+    - tensorflow-gpu=2.15.0=cuda120*
+    - cuda-version=12.2
     - python=3.11
     - hcc-python-stack
     - cloudpickle=3.0.0
