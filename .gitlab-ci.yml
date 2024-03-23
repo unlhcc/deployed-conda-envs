@@ -1,7 +1,7 @@
 variables:
   PACKAGE_DEPLOY_ROOT: "/util/opt/anaconda/deployed-conda-envs"
   HCC_APPS_DB_BCRF_PATH: "/work/HCC/BCRF/app_specific"
-  CONDA_OVERRIDE_CUDA: "11.2"
+  CONDA_OVERRIDE_CUDA: "12.2"
   MAMBA_NO_BANNER: 1
 
 stages:
