@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   perl-pcap-3.5.2:
     locked: true
-    env_spec_hash: f4f599f7c0a435b6fa620f7bbc371d871e0d9162
+    env_spec_hash: a361b4f90c289c6872f03ff8e80d92e997dd2a8f
     platforms:
     - linux-64
     packages:
@@ -150,6 +150,7 @@ env_specs:
       - perl-bioperl=1.7.8=hdfd78af_1
       - perl-business-isbn-data=20210112.006=pl5321hd8ed1ab_0
       - perl-business-isbn=3.007=pl5321hd8ed1ab_0
+      - perl-capture-tiny=0.48=pl5321ha770c72_1
       - perl-carp=1.50=pl5321hd8ed1ab_0
       - perl-class-data-inheritable=0.09=pl5321ha770c72_0
       - perl-class-inspector=1.36=pl5321hdfd78af_0
