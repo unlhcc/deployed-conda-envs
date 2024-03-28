@@ -57,6 +57,24 @@ env_specs:
     - python=3.8
     - r-data.table=1.13.4
     channels: []
+  r-asreml-4.2-r43:
+    packages:
+    - r=4.3
+    - r-base=4.3
+    - r-data.table=1.14
+    - r-r.utils
+    - r-irkernel
+    - r-tidyverse
+    - r-devtools
+    - r-ggplot2
+    - r-matrix
+    - r-checkpoint
+    - r-udunits2
+    - r-units
+    - r-rcppparallel
+    - r-jsonlite
+    - python=3.9
+    channels: []
 commands:
   asreml_install36:
     unix: R --vanilla  -e 'install.packages("https://unl.box.com/shared/static/2wz69on3p31eani3wi6s1rsrkw7zqgnp.tgz",repos=NULL)'
@@ -64,3 +82,6 @@ commands:
   asreml_install40:
     unix: R --vanilla  -e 'install.packages("https://unl.box.com/shared/static/vee5mx1r9bxvuytlw5mko1lq3wt48ly8.tgz",repos=NULL)'
     env_spec: r-asreml-4.1-r40
+  asreml_install-4.2-r43:
+    unix: R --vanilla  -e 'install.packages("https://uofnelincoln.sharepoint.com/:u:/s/UNL-HollandComputingCenter/ESfe237sdtdNiKPICNNsvS4BpGztuSm9Pzqp0j-iDflPdg?e=U5vhD7&download=1",repos=NULL)'
+    env_spec: r-asreml-4.2-r43
