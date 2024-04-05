@@ -9,22 +9,16 @@
 # Set the 'name' key to name your project
 #
 name: SHAPEIT
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: SHAPEIT is a fast and accurate method for estimation of haplotypes (aka
   phasing) from genotype or sequencing data.
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
   shapeit-2.r837:
     packages:
     - shapeit=2.r837
+    channels: []
+  shapeit-5.1.1:
+    packages:
+    - shapeit5=5.1.1
     channels: []

@@ -9,12 +9,6 @@
 #
 # Set to false to ignore locked versions.
 locking_enabled: true
-
-
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   shapeit-2.r837:
     locked: true
@@ -45,3 +39,36 @@ env_specs:
       - zlib=1.2.11=0
 
 
+  shapeit-5.1.1:
+    locked: true
+    env_spec_hash: 77c5c8b90f4ee6b214641504f2490df7a3a32905
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - boost-cpp=1.74.0=h75c5d50_8
+      - bzip2=1.0.8=h5eee18b_5
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - htslib=1.19.1=h81da01d_2
+      - icu=70.1=h27087fc_0
+      - krb5=1.20.1=h143b758_1
+      - libcurl=8.5.0=h251f7ec_0
+      - libdeflate=1.18=h0b41bf4_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgomp=13.2.0=h807b86a_5
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libzlib=1.2.13=hd590300_5
+      - lz4-c=1.9.4=h6a678d5_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.2.1=hd590300_1
+      - shapeit5=5.1.1=hb60d31d_0
+      - xz=5.4.6=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.5=hc292b87_0
