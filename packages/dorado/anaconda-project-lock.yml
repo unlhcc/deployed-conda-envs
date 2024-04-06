@@ -54,3 +54,33 @@ env_specs:
       - pytz==2023.3.post1
       - tqdm==4.66.1
       - vbz-h5py-plugin==1.0.1
+  dorado-0.6.0:
+    locked: true
+    env_spec_hash: 2ff381ce01aadc63f81afd64e0f20a83bf15ee76
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - ca-certificates=2024.3.11=h06a4308_0
+      - dorado=0.6.0=h5e1937b_0
+      - k8=0.2.5=hdcf5f25_4
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-ng=13.2.0=h807b86a_5
+      - libgomp=13.2.0=h807b86a_5
+      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libzlib=1.2.13=hd590300_5
+      - minimap2=2.28=he4a0461_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.0.13=h7f8727e_0
+      - pip=23.3.1=py38h06a4308_0
+      - python=3.8.19=h955ad1f_0
+      - readline=8.2=h5eee18b_0
+      - setuptools=68.2.2=py38h06a4308_0
+      - sqlite=3.41.2=h5eee18b_0
+      - tk=8.6.12=h1ccaba5_0
+      - wheel=0.41.2=py38h06a4308_0
+      - xz=5.4.6=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
