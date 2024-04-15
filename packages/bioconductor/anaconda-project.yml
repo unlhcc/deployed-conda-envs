@@ -502,7 +502,7 @@ env_specs:
     - nodefaults
   bioconductor-3.17:
     packages:
-    - bioconductor-biocversion=3.17
+    - bioconductor-biocversion=3.17.1
     - r-base=4.3
     - r-tidyverse
     - r-gridextra
@@ -513,6 +513,7 @@ env_specs:
     - r-readr
     - r-tidyr
     - r-dplyr
+    - r-dbplyr=2.3.3
     - r-rstatix
     - r-nlme
     - r-argparse
@@ -553,3 +554,58 @@ env_specs:
     - bioconductor-variantannotation
     channels:
     - nodefaults
+  bioconductor-3.18:
+    packages:
+    - bioconductor-biocversion=3.18.1
+    - r-base=4.3
+    - r-tidyverse
+    - r-gridextra
+    - r-stringr
+    - r-pheatmap
+    - r-vegan
+    - r-knitr
+    - r-readr
+    - r-tidyr
+    - r-dplyr
+    - r-dbplyr=2.3.3
+    - r-rstatix
+    - r-nlme
+    - r-argparse
+    - r-gplots
+    - r-cli
+    - r-devtools
+    - r-remotes
+    - r-ggplot2
+    - r-rcppeigen
+    - r-matrixmodels
+    - bioconductor-rhdf5
+    - bioconductor-dada2
+    - bioconductor-phyloseq
+    - bioconductor-deseq2
+    - bioconductor-biostrings
+    - bioconductor-preprocesscore
+    - bioconductor-genomicranges
+    - bioconductor-ballgown
+    - bioconductor-snpstats
+    - bioconductor-ggtree
+    - bioconductor-encodexplorerdata
+    - bioconductor-geoquery
+    - bioconductor-rnaseqpower
+    - bioconductor-biomart
+    - bioconductor-affy
+    - bioconductor-methylkit
+    - bioconductor-matrixgenerics
+    - bioconductor-graph
+    - bioconductor-rsamtools
+    - bioconductor-rtracklayer
+    - bioconductor-edger
+    - bioconductor-genomicalignments
+    - bioconductor-rsubread
+    - bioconductor-chipenrich
+    - bioconductor-chipenrich.data
+    - bioconductor-ancombc
+    - gsl
+    - bioconductor-variantannotation
+    channels:
+    - nodefaults
+packages: []
