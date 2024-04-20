@@ -1,0 +1,86 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  getorganelle-1.7.7.1:
+    locked: true
+    env_spec_hash: 10e1a06f28eae44dada8edd3d067155bb90f878b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - _sysroot_linux-64_curr_repodata_hack=3=haa98f57_10
+      - blas=1.0=openblas
+      - blast=2.5.0=hc0b0e79_3
+      - boost=1.71.0=py39h06a4308_1
+      - bowtie2=2.4.5=py39hd2f7db1_2
+      - brotli-python=1.0.9=py39h6a678d5_7
+      - bzip2=1.0.8=h5eee18b_5
+      - ca-certificates=2024.3.11=h06a4308_0
+      - certifi=2024.2.2=py39h06a4308_0
+      - charset-normalizer=2.0.4=pyhd3eb1b0_0
+      - gdbm=1.18=hd4cb3f1_4
+      - getorganelle=1.7.7.1=pyhdfd78af_0
+      - gmp=6.2.1=h295c915_3
+      - gmpy2=2.1.2=py39heeb90bb_0
+      - icu=58.2=he6710b0_3
+      - idna=3.4=py39h06a4308_0
+      - kernel-headers_linux-64=3.10.0=h57e8cba_10
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libboost=1.71.0=haf77d95_1
+      - libffi=3.3=he6710b0_2
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libopenblas=0.3.21=h043d6bf_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libzlib=1.2.11=h166bdaf_1014
+      - llvm-openmp=8.0.1=hc9558a2_0
+      - lz4-c=1.9.4=h6a678d5_0
+      - mpc=1.1.0=h10f8cd9_1
+      - mpfr=4.0.2=hb69a4c5_1
+      - mpmath=1.3.0=py39h06a4308_0
+      - ncurses=6.4=h6a678d5_0
+      - numpy-base=1.26.4=py39h8a23956_0
+      - numpy=1.26.4=py39heeff2f4_0
+      - openmp=8.0.1=0
+      - openssl=1.1.1w=h7f8727e_0
+      - perl=5.34.0=h5eee18b_2
+      - pigz=2.6=h27cfd23_0
+      - pip=23.3.1=py39h06a4308_0
+      - py-boost=1.71.0=py39h51133e4_1
+      - pysocks=1.7.1=py39h06a4308_0
+      - python=3.9.0=hdb3f193_2
+      - python_abi=3.9=2_cp39
+      - readline=8.2=h5eee18b_0
+      - requests=2.31.0=py39h06a4308_1
+      - scipy=1.12.0=py39heeff2f4_0
+      - setuptools=68.2.2=py39h06a4308_0
+      - spades=3.15.4=h95f258a_0
+      - sqlite=3.38.2=hc218d9a_0
+      - sympy=1.12=py39h06a4308_0
+      - sysroot_linux-64=2.17=h57e8cba_10
+      - tbb=2020.2=hff7bd54_0
+      - tk=8.6.11=h1ccaba5_0
+      - tzdata=2024a=h04d1e81_0
+      - urllib3=2.1.0=py39h06a4308_1
+      - wheel=0.41.2=py39h06a4308_0
+      - xz=5.4.6=h5eee18b_0
+      - zlib=1.2.11=h166bdaf_1014
+      - zstd=1.5.2=h8a70e8d_1
