@@ -2834,7 +2834,7 @@ env_specs:
       - zstd=1.5.5=hfc55251_0
   bioconductor-3.18:
     locked: true
-    env_spec_hash: 62417e2eb8b10a53a22bf61dc7fe00a341a75dc2
+    env_spec_hash: aa71ab829704f9ed37f6d5d48631431b1dfef1c0
     platforms:
     - linux-64
     packages:
@@ -2842,26 +2842,27 @@ env_specs:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
       - _r-mutex=1.0.1=anacondar_1
-      - argcomplete=3.2.3=pyhd8ed1ab_0
+      - argcomplete=3.3.0=pyhd8ed1ab_0
       - aws-c-auth=0.7.17=he0b1f16_2
       - aws-c-cal=0.6.11=heb1d5e4_0
       - aws-c-common=0.9.15=hd590300_0
       - aws-c-compression=0.2.18=hce8ee76_3
       - aws-c-event-stream=0.4.2=h01f5eca_8
       - aws-c-http=0.8.1=hdb68c23_10
-      - aws-c-io=0.14.7=h62f3060_4
+      - aws-c-io=0.14.7=hbfbeace_6
       - aws-c-mqtt=0.10.3=h50844eb_4
       - aws-c-s3=0.5.7=hb7bd14b_1
       - aws-c-sdkutils=0.1.15=hce8ee76_3
       - aws-checksums=0.1.18=hce8ee76_3
       - aws-crt-cpp=0.26.6=hf567797_4
       - aws-sdk-cpp=1.11.267=hbf3e495_6
-      - binutils_impl_linux-64=2.40=hf600244_0
+      - binutils_impl_linux-64=2.40=ha885e6a_0
       - bioconductor-affy=1.80.0=r43ha9d7317_0
       - bioconductor-affyio=1.72.0=r43ha9d7317_0
       - bioconductor-ancombc=2.4.0=r43hdfd78af_0
       - bioconductor-annotate=1.80.0=r43hdfd78af_0
       - bioconductor-annotationdbi=1.64.1=r43hdfd78af_0
+      - bioconductor-apeglm=1.24.0=r43hf17093f_0
       - bioconductor-ballgown=2.34.0=r43hdfd78af_0
       - bioconductor-beachmat=2.18.0=r43hf17093f_0
       - bioconductor-biobase=2.62.0=r43ha9d7317_1
@@ -2886,12 +2887,13 @@ env_specs:
       - bioconductor-decontam=1.22.0=r43hdfd78af_0
       - bioconductor-delayedarray=0.28.0=r43ha9d7317_1
       - bioconductor-delayedmatrixstats=1.24.0=r43hdfd78af_0
-      - bioconductor-deseq2=1.42.0=r43hf17093f_0
+      - bioconductor-deseq2=1.42.0=r43hf17093f_1
       - bioconductor-dirichletmultinomial=1.44.0=r43hee7dd41_0
       - bioconductor-edger=4.0.2=r43hf17093f_0
       - bioconductor-encodexplorerdata=0.99.5=r43hdfd78af_8
       - bioconductor-fastseg=1.48.0=r43hf17093f_0
       - bioconductor-genefilter=1.84.0=r43ha1e849b_0
+      - bioconductor-genelendatabase=1.38.0=r43hdfd78af_0
       - bioconductor-genomeinfodb=1.38.1=r43hdfd78af_1
       - bioconductor-genomeinfodbdata=1.2.11=r43hdfd78af_1
       - bioconductor-genomicalignments=1.38.0=r43ha9d7317_0
@@ -2899,6 +2901,8 @@ env_specs:
       - bioconductor-genomicranges=1.54.1=r43ha9d7317_1
       - bioconductor-geoquery=2.70.0=r43hdfd78af_0
       - bioconductor-ggtree=3.10.0=r43hdfd78af_0
+      - bioconductor-go.db=3.18.0=r43hdfd78af_0
+      - bioconductor-goseq=1.54.0=r43hdfd78af_0
       - bioconductor-graph=1.80.0=r43ha9d7317_0
       - bioconductor-iranges=2.36.0=r43ha9d7317_1
       - bioconductor-keggrest=1.42.0=r43hdfd78af_0
@@ -2957,30 +2961,30 @@ env_specs:
       - fonts-conda-forge=1=0
       - freetype=2.12.1=h267a509_2
       - fribidi=1.0.10=h36c2ea0_0
-      - gcc_impl_linux-64=13.2.0=h338b0a0_5
+      - gcc_impl_linux-64=13.2.0=h1d3d475_6
       - gettext-tools=0.22.5=h59595ed_2
       - gettext=0.22.5=h59595ed_2
       - gflags=2.2.2=he1b5a44_1004
-      - gfortran_impl_linux-64=13.2.0=h76e1118_5
+      - gfortran_impl_linux-64=13.2.0=h0a8b748_6
       - glog=0.7.0=hed5481d_0
       - glpk=5.0=h445213a_0
       - gmp=6.3.0=h59595ed_1
       - graphite2=1.3.13=h59595ed_1003
       - gsl=2.7=he838d99_0
-      - gxx_impl_linux-64=13.2.0=h338b0a0_5
+      - gxx_impl_linux-64=13.2.0=h1d3d475_6
       - harfbuzz=8.3.0=h3d44ed6_0
       - icu=73.2=h59595ed_0
       - jq=1.7.1=hd590300_0
       - kernel-headers_linux-64=2.6.32=he073ed8_17
       - keyutils=1.6.1=h166bdaf_0
       - krb5=1.21.2=h659d440_0
-      - ld_impl_linux-64=2.40=h41732ed_0
+      - ld_impl_linux-64=2.40=h55db66e_0
       - lerc=4.0.0=h27087fc_0
       - libabseil=20240116.1=cxx17_h59595ed_2
-      - libarrow-acero=14.0.2=hac33072_16_cpu
-      - libarrow-dataset=14.0.2=hac33072_16_cpu
-      - libarrow-substrait=14.0.2=h9241762_16_cpu
-      - libarrow=14.0.2=he70291f_16_cpu
+      - libarrow-acero=14.0.2=hbabe93e_18_cpu
+      - libarrow-dataset=14.0.2=hbabe93e_18_cpu
+      - libarrow-substrait=14.0.2=he4f5ca8_18_cpu
+      - libarrow=14.0.2=h07fc4ce_18_cpu
       - libasprintf-devel=0.22.5=h661eb56_2
       - libasprintf=0.22.5=h661eb56_2
       - libblas=3.9.0=22_linux64_openblas
@@ -2996,41 +3000,41 @@ env_specs:
       - libevent=2.1.12=hf998b51_1
       - libexpat=2.6.2=h59595ed_0
       - libffi=3.4.2=h7f98852_5
-      - libgcc-devel_linux-64=13.2.0=ha9c7c90_105
-      - libgcc-ng=13.2.0=h807b86a_5
+      - libgcc-devel_linux-64=13.2.0=h95c4c6d_106
+      - libgcc-ng=13.2.0=hc881cc4_6
       - libgettextpo-devel=0.22.5=h59595ed_2
       - libgettextpo=0.22.5=h59595ed_2
-      - libgfortran-ng=13.2.0=h69a702a_5
-      - libgfortran5=13.2.0=ha4646dd_5
+      - libgfortran-ng=13.2.0=h69a702a_6
+      - libgfortran5=13.2.0=h43f5ff8_6
       - libgit2=1.7.2=h76de150_0
       - libglib=2.78.4=h783c2da_0
-      - libgomp=13.2.0=h807b86a_5
-      - libgoogle-cloud-storage=2.22.0=hc7a4891_1
-      - libgoogle-cloud=2.22.0=h9be4e54_1
-      - libgrpc=1.62.1=h15f2491_0
+      - libgomp=13.2.0=hc881cc4_6
+      - libgoogle-cloud-storage=2.23.0=hc7a4891_1
+      - libgoogle-cloud=2.23.0=h9be4e54_1
+      - libgrpc=1.62.2=h15f2491_0
       - libiconv=1.17=hd590300_2
       - libjpeg-turbo=3.0.0=hd590300_1
       - liblapack=3.9.0=22_linux64_openblas
       - libnghttp2=1.58.0=h47da74e_1
       - libnsl=2.0.1=hd590300_0
       - libopenblas=0.3.27=pthreads_h413a1c8_0
-      - libparquet=14.0.2=h6a7eafb_16_cpu
+      - libparquet=14.0.2=hacf5a1f_18_cpu
       - libpng=1.6.43=h2797004_0
       - libprotobuf=4.25.3=h08a7969_0
       - libre2-11=2023.09.01=h5a48ba9_2
-      - libsanitizer=13.2.0=h7e041cc_5
-      - libsqlite=3.45.2=h2797004_0
+      - libsanitizer=13.2.0=h95c4c6d_6
+      - libsqlite=3.45.3=h2797004_0
       - libssh2=1.11.0=h0841786_0
-      - libstdcxx-devel_linux-64=13.2.0=ha9c7c90_105
-      - libstdcxx-ng=13.2.0=h7e041cc_5
+      - libstdcxx-devel_linux-64=13.2.0=h95c4c6d_106
+      - libstdcxx-ng=13.2.0=h95c4c6d_6
       - libthrift=0.19.0=hb90f79a_1
       - libtiff=4.6.0=h1dd3fc0_3
       - libutf8proc=2.8.0=h166bdaf_0
       - libuuid=2.38.1=h0b41bf4_0
-      - libwebp-base=1.3.2=hd590300_1
+      - libwebp-base=1.4.0=hd590300_0
       - libxcb=1.15=h0b41bf4_0
       - libxcrypt=4.4.36=hd590300_1
-      - libxml2=2.12.6=h232c23b_1
+      - libxml2=2.12.6=h232c23b_2
       - libzlib=1.2.13=hd590300_5
       - lz4-c=1.9.4=hcb278e6_0
       - make=4.3=hd18ef5c_1
@@ -3047,7 +3051,7 @@ env_specs:
       - pip=24.0=pyhd8ed1ab_0
       - pixman=0.43.2=h59595ed_0
       - pthread-stubs=0.4=h36c2ea0_1001
-      - python=3.12.2=hab00c5b_0_cpython
+      - python=3.12.3=hab00c5b_0_cpython
       - python_abi=3.12=4_cp312
       - pyyaml=6.0.1=py312h98912ed_1
       - r-abind=1.4_5=r43hc72bb7e_1005
@@ -3056,6 +3060,7 @@ env_specs:
       - r-aplot=0.2.2=r43hc72bb7e_0
       - r-argparse=2.2.3=r43hc72bb7e_0
       - r-arrow=14.0.1=r43h59595ed_0
+      - r-ashr=2.2_63=r43ha503ecb_0
       - r-askpass=1.2.0=r43h57805ef_0
       - r-assertthat=0.2.1=r43hc72bb7e_4
       - r-backports=1.4.1=r43h57805ef_2
@@ -3065,6 +3070,7 @@ env_specs:
       - r-bdsmatrix=1.3_7=r43h57805ef_0
       - r-beeswarm=0.4.0=r43h57805ef_3
       - r-bh=1.84.0_0=r43hc72bb7e_0
+      - r-biasedurn=2.0.11=r43ha503ecb_0
       - r-bibtex=0.5.1=r43hc72bb7e_1
       - r-biocmanager=1.30.22=r43hc72bb7e_0
       - r-bit64=4.0.5=r43h57805ef_2
@@ -3123,6 +3129,7 @@ env_specs:
       - r-ellipsis=0.3.2=r43h57805ef_2
       - r-emdbook=1.3.13=r43hc72bb7e_0
       - r-energy=1.7_11=r43ha503ecb_1
+      - r-etrunct=0.1=r43hc72bb7e_1005
       - r-evaluate=0.23=r43hc72bb7e_0
       - r-exact=3.2=r43hc72bb7e_2
       - r-expm=0.999_9=r43hd9ac46e_0
@@ -3149,7 +3156,7 @@ env_specs:
       - r-gert=2.0.1=r43hc25a090_0
       - r-ggbeeswarm=0.7.2=r43hc72bb7e_1
       - r-ggfun=0.1.4=r43hc72bb7e_0
-      - r-ggplot2=3.5.0=r43hc72bb7e_0
+      - r-ggplot2=3.5.1=r43hc72bb7e_0
       - r-ggplotify=0.1.2=r43hc72bb7e_0
       - r-ggrastr=1.0.2=r43hc72bb7e_1
       - r-ggrepel=0.9.5=r43ha503ecb_0
@@ -3166,7 +3173,7 @@ env_specs:
       - r-gridextra=2.3=r43hc72bb7e_1005
       - r-gridgraphics=0.5_1=r43hc72bb7e_2
       - r-gsl=2.1_8=r43h92c42c9_1
-      - r-gtable=0.3.4=r43hc72bb7e_0
+      - r-gtable=0.3.5=r43hc72bb7e_0
       - r-gtools=3.9.5=r43h57805ef_0
       - r-hardhat=1.3.1=r43hc72bb7e_0
       - r-haven=2.5.4=r43ha503ecb_0
@@ -3184,6 +3191,7 @@ env_specs:
       - r-igraph=2.0.2=r43hbec7d4a_0
       - r-ini=0.3.1=r43hc72bb7e_1005
       - r-interp=1.1_6=r43hcf54a89_0
+      - r-invgamma=1.1=r43hc72bb7e_3
       - r-ipred=0.9_14=r43h57805ef_1
       - r-irlba=2.3.5.1=r43h316c678_1
       - r-isoband=0.2.7=r43ha503ecb_2
@@ -3203,7 +3211,7 @@ env_specs:
       - r-lazyeval=0.2.2=r43h57805ef_4
       - r-lifecycle=1.0.4=r43hc72bb7e_0
       - r-listenv=0.9.1=r43hc72bb7e_0
-      - r-lme4=1.1_35.2=r43ha503ecb_0
+      - r-lme4=1.1_35.3=r43ha503ecb_0
       - r-lmertest=3.1_3=r43hc72bb7e_2
       - r-lmom=3.0=r43h61816a4_0
       - r-locfit=1.5_9.9=r43h57805ef_0
@@ -3220,6 +3228,7 @@ env_specs:
       - r-mime=0.12=r43h57805ef_2
       - r-miniui=0.1.1.1=r43hc72bb7e_1004
       - r-minqa=1.2.6=r43hcf54a89_0
+      - r-mixsqp=0.3_54=r43h08d816e_0
       - r-modelmetrics=1.2.2.2=r43ha503ecb_3
       - r-modelr=0.1.11=r43hc72bb7e_1
       - r-multcomp=1.4_25=r43hc72bb7e_0
@@ -3229,7 +3238,7 @@ env_specs:
       - r-nloptr=2.0.3=r43hcf54a89_2
       - r-nnet=7.3_19=r43h57805ef_1
       - r-numderiv=2016.8_1.1=r43hc72bb7e_5
-      - r-openssl=2.1.1=r43hb353fa6_0
+      - r-openssl=2.1.2=r43hd7d0243_0
       - r-osqp=0.6.3.2=r43ha503ecb_0
       - r-parallelly=1.37.1=r43h57805ef_0
       - r-patchwork=1.2.0=r43hc72bb7e_0
@@ -3240,7 +3249,7 @@ env_specs:
       - r-pixmap=0.4_12=r43hc72bb7e_2
       - r-pkgbuild=1.4.4=r43hc72bb7e_0
       - r-pkgconfig=2.0.3=r43hc72bb7e_3
-      - r-pkgdown=2.0.8=r43hc72bb7e_0
+      - r-pkgdown=2.0.9=r43hc72bb7e_0
       - r-pkgload=1.3.4=r43hc72bb7e_0
       - r-pkgmaker=0.32.10=r43hc72bb7e_1
       - r-plogr=0.2.0=r43hc72bb7e_1005
@@ -3271,10 +3280,11 @@ env_specs:
       - r-rcolorbrewer=1.1_3=r43h785f33e_2
       - r-rcpp=1.0.12=r43h7df8631_0
       - r-rcppannoy=0.0.22=r43ha503ecb_0
-      - r-rcpparmadillo=0.12.8.2.0=r43h08d816e_0
+      - r-rcpparmadillo=0.12.8.2.1=r43h08d816e_0
       - r-rcppeigen=0.3.4.0.0=r43h08d816e_0
       - r-rcpphnsw=0.6.0=r43ha503ecb_0
       - r-rcppml=0.3.7=r43ha503ecb_1
+      - r-rcppnumerical=0.6_0=r43ha503ecb_0
       - r-rcppparallel=5.1.6=r43ha503ecb_1
       - r-rcppprogress=0.4.2=r43hc72bb7e_3
       - r-rcurl=1.98_1.14=r43hf9611b0_0
@@ -3324,21 +3334,22 @@ env_specs:
       - r-statmod=1.5.0=r43hd8f1df9_1
       - r-stringi=1.8.3=r43h9facbd6_0
       - r-stringr=1.5.1=r43h785f33e_0
-      - r-survival=3.5_8=r43h57805ef_0
+      - r-survival=3.6_4=r43hb1dbf0f_0
       - r-svglite=2.1.3=r43h329214f_0
       - r-sys=3.4.2=r43h57805ef_1
       - r-systemfonts=1.0.5=r43haf97adc_0
-      - r-testthat=3.2.1=r43ha503ecb_0
+      - r-testthat=3.2.1.1=r43ha503ecb_0
       - r-textshaping=0.3.7=r43hd87b9d6_0
       - r-th.data=1.1_2=r43hc72bb7e_1
       - r-tibble=3.2.1=r43h57805ef_2
       - r-tidyr=1.3.1=r43ha503ecb_0
-      - r-tidyselect=1.2.0=r43hc72bb7e_1
+      - r-tidyselect=1.2.1=r43hc72bb7e_0
       - r-tidytree=0.4.6=r43hc72bb7e_0
       - r-tidyverse=2.0.0=r43h785f33e_1
       - r-timechange=0.3.0=r43ha503ecb_0
       - r-timedate=4032.109=r43hc72bb7e_0
       - r-tinytex=0.50=r43hc72bb7e_0
+      - r-truncnorm=1.0_9=r43h57805ef_1
       - r-tzdb=0.4.0=r43ha503ecb_1
       - r-urlchecker=1.0.1=r43hc72bb7e_2
       - r-usethis=2.2.3=r43hc72bb7e_0
@@ -3367,7 +3378,7 @@ env_specs:
       - r-zoo=1.8_12=r43h57805ef_1
       - re2=2023.09.01=h7f4b329_2
       - readline=8.2=h8228510_1
-      - s2n=1.4.10=h06160fa_0
+      - s2n=1.4.12=h06160fa_0
       - sed=4.8=he412f7d_0
       - setuptools=69.5.1=pyhd8ed1ab_0
       - snappy=1.2.0=hdb0a2a9_1
@@ -3393,6 +3404,6 @@ env_specs:
       - xorg-xproto=7.0.31=h7f98852_1007
       - xz=5.2.6=h166bdaf_0
       - yaml=0.2.5=h7f98852_2
-      - yq=3.3.0=pyhd8ed1ab_0
+      - yq=3.4.1=pyhd8ed1ab_0
       - zlib=1.2.13=hd590300_5
       - zstd=1.5.5=hfc55251_0
