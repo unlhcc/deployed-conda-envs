@@ -606,6 +606,7 @@ env_specs:
     - bioconductor-ancombc
     - gsl
     - bioconductor-variantannotation
+    - bioconductor-goseq
     channels:
     - nodefaults
 packages: []
