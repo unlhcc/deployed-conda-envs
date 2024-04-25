@@ -1,0 +1,138 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  trycycler-0.5.5.:
+    locked: true
+    env_spec_hash: 11715168ed03a3d5f813e020d9a6092a0934d7eb
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - _r-mutex=1.0.0=anacondar_1
+      - _sysroot_linux-64_curr_repodata_hack=3=haa98f57_10
+      - binutils_impl_linux-64=2.38=h2a08ee3_1
+      - binutils_linux-64=2.38.0=hc2dff05_0
+      - blas=1.0=openblas
+      - bwidget=1.9.16=h9eba36c_0
+      - bzip2=1.0.8=h5eee18b_5
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - cairo=1.16.0=hb05425b_5
+      - capnproto=0.9.1=ha19adfc_4
+      - curl=8.5.0=hdbd6064_0
+      - expat=2.6.2=h6a678d5_0
+      - fontconfig=2.14.1=h4c34cd2_2
+      - freetype=2.12.1=h4a9f257_0
+      - fribidi=1.0.10=h7b6447c_0
+      - gcc_impl_linux-64=11.2.0=h1234567_1
+      - gcc_linux-64=11.2.0=h5c386dc_0
+      - gfortran_impl_linux-64=11.2.0=h1234567_1
+      - gfortran_linux-64=11.2.0=hc2dff05_0
+      - glib-tools=2.78.4=h6a678d5_0
+      - glib=2.78.4=h6a678d5_0
+      - graphite2=1.3.14=h295c915_1
+      - gsl=2.7.1=h6e86dc7_1
+      - gxx_impl_linux-64=11.2.0=h1234567_1
+      - gxx_linux-64=11.2.0=hc2dff05_0
+      - harfbuzz=4.3.0=hf52aaf7_2
+      - icu=73.1=h6a678d5_0
+      - jpeg=9e=h5eee18b_1
+      - k8=0.2.5=hdcf5f25_4
+      - kernel-headers_linux-64=3.10.0=h57e8cba_10
+      - krb5=1.20.1=h143b758_1
+      - lcms2=2.12=h3be6417_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - lerc=3.0=h295c915_0
+      - libblas=3.9.0=16_linux64_openblas
+      - libcblas=3.9.0=16_linux64_openblas
+      - libcurl=8.5.0=h251f7ec_0
+      - libdeflate=1.17=h5eee18b_1
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_0
+      - libgcc-devel_linux-64=11.2.0=h1234567_1
+      - libgcc-ng=13.2.0=hc881cc4_6
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libglib=2.78.4=hdc74915_0
+      - libgomp=13.2.0=hc881cc4_6
+      - libiconv=1.16=h7f8727e_2
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libopenblas=0.3.21=h043d6bf_0
+      - libpng=1.6.39=h5eee18b_0
+      - libssh2=1.10.0=hdbd6064_2
+      - libstdcxx-devel_linux-64=11.2.0=h1234567_1
+      - libstdcxx-ng=13.2.0=h95c4c6d_6
+      - libtiff=4.5.1=h6a678d5_0
+      - libuuid=1.41.5=h5eee18b_0
+      - libwebp-base=1.3.2=h5eee18b_0
+      - libxcb=1.15=h7f8727e_0
+      - libxml2=2.10.4=hfdd30dd_2
+      - libzlib=1.2.13=hd590300_5
+      - lz4-c=1.9.4=h6a678d5_0
+      - make=4.2.1=h1bed415_1
+      - mash=2.3=ha9a2dd8_3
+      - miniasm=0.3=he4a0461_3
+      - minimap2=2.28=he4a0461_0
+      - muscle=3.8.1551=h7d875b9_6
+      - ncurses=6.4=h6a678d5_0
+      - numpy-base=1.26.4=py310h8a23956_0
+      - numpy=1.26.4=py310heeff2f4_0
+      - openjpeg=2.4.0=h3ad879b_0
+      - openssl=3.0.13=h7f8727e_0
+      - pango=1.50.7=h05da053_0
+      - pcre2=10.42=hebb0a14_0
+      - pillow=10.2.0=py310h5eee18b_0
+      - pip=23.3.1=py310h06a4308_0
+      - pixman=0.40.0=h7f8727e_1
+      - python-edlib=1.3.9=py310h0dbaff4_6
+      - python=3.10.14=h955ad1f_0
+      - python_abi=3.10=2_cp310
+      - r-ape=5.7_1=r43h884c59f_0
+      - r-base=4.3.1=h1ae530e_0
+      - r-cli=3.6.1=r43h884c59f_0
+      - r-cpp11=0.4.6=r43h6115d3f_0
+      - r-digest=0.6.33=r43h884c59f_0
+      - r-fastmatch=1.1_4=r43h76d94ec_0
+      - r-generics=0.1.3=r43h142f84f_0
+      - r-glue=1.6.2=r43h76d94ec_0
+      - r-igraph=1.5.1=r43hb5eb8f6_0
+      - r-lattice=0.22_5=r43h76d94ec_0
+      - r-lifecycle=1.0.3=r43h142f84f_0
+      - r-magrittr=2.0.3=r43h76d94ec_0
+      - r-matrix=1.6_1.1=r43h76d94ec_0
+      - r-nlme=3.1_163=r43h640688f_0
+      - r-phangorn=2.11.1=r43h884c59f_0
+      - r-pkgconfig=2.0.3=r43h6115d3f_0
+      - r-quadprog=1.5_8=r43h640688f_0
+      - r-rcpp=1.0.11=r43h884c59f_0
+      - r-rlang=1.1.1=r43h884c59f_0
+      - readline=8.2=h5eee18b_0
+      - scipy=1.12.0=py310heeff2f4_0
+      - setuptools=68.2.2=py310h06a4308_0
+      - sqlite=3.41.2=h5eee18b_0
+      - sysroot_linux-64=2.17=h57e8cba_10
+      - tk=8.6.12=h1ccaba5_0
+      - tktable=2.10=h3d55465_1
+      - trycycler=0.5.5=pyhdfd78af_0
+      - tzdata=2024a=h04d1e81_0
+      - wheel=0.41.2=py310h06a4308_0
+      - xz=5.4.6=h5eee18b_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.5=hc292b87_0

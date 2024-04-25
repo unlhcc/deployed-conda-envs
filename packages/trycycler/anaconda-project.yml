@@ -8,12 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: Unicycler
+name: Trycycler
 
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Unicycler is an assembly pipeline for bacterial genomes.
+description: A tool for generating consensus long-read assemblies for bacterial genomes.
 
 
 #
@@ -24,15 +24,8 @@ description: Unicycler is an assembly pipeline for bacterial genomes.
 platforms:
 - linux-64
 env_specs:
-  unicycler-0.4.7:
+  trycycler-0.5.5.:
     packages:
-    - unicycler=0.4.7
-    channels: []
-  unicycler-0.4.8:
-    packages:
-    - unicycler=0.4.8
-    channels: []
-  unicycler-0.5.0:
-    packages:
-    - unicycler=0.5.0
+    - trycycler=0.5.5
+    - python=3.10
     channels: []
