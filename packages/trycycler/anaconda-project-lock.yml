@@ -15,7 +15,7 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  trycycler-0.5.5.:
+  trycycler-0.5.5:
     locked: true
     env_spec_hash: 11715168ed03a3d5f813e020d9a6092a0934d7eb
     platforms:

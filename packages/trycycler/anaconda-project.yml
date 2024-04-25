@@ -24,7 +24,7 @@ description: A tool for generating consensus long-read assemblies for bacterial 
 platforms:
 - linux-64
 env_specs:
-  trycycler-0.5.5.:
+  trycycler-0.5.5:
     packages:
     - trycycler=0.5.5
     - python=3.10
