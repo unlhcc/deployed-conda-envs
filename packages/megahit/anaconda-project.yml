@@ -37,3 +37,7 @@ env_specs:
     packages:
     - megahit=1.2.8
     channels: []
+  megahit-1.2.9:
+    packages:
+    - megahit=1.2.9
+    channels: []
