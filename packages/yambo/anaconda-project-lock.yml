@@ -17,14 +17,13 @@ locking_enabled: true
 env_specs:
   yambo-5.2.3:
     locked: true
-    env_spec_hash: 5fef8b7c53e901bfc65e7ebf8491da6b6858d7ff
+    env_spec_hash: 0e2759ca9f0f09a7e57da0369f331601d48bac38
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
-      - blas=1.0=openblas
       - bzip2=1.0.8=h5eee18b_5
       - c-ares=1.19.1=h5eee18b_0
       - ca-certificates=2024.3.11=h06a4308_0
@@ -69,10 +68,10 @@ env_specs:
       - scalapack=2.2.0=h67de57e_1
       - scotch=6.0.9=hb2e6521_2
       - slepc=3.17.1=real_h85d5af1_100
-      - suitesparse=5.10.1=he2db622_2
+      - suitesparse=5.10.1=hd8046ac_0
       - superlu=5.2.2=h00795ac_0
       - superlu_dist=7.2.0=h34f6f4d_0
-      - tbb=2021.8.0=hdb19cb5_0
+      - tbb=2020.2=hff7bd54_0
       - yambo=5.2.3=h6d9b495_0
       - yaml=0.2.5=h7b6447c_0
       - zlib=1.2.13=hd590300_5
