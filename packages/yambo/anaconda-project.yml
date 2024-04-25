@@ -35,4 +35,5 @@ env_specs:
     packages:
     - yambo=5.2.3
     - openmpi=4.1.*=external_*
+    - tbb=2020.2
     channels: []
