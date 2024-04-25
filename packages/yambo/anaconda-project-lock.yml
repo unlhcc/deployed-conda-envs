@@ -1,0 +1,78 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  yambo-5.2.3:
+    locked: true
+    env_spec_hash: 5fef8b7c53e901bfc65e7ebf8491da6b6858d7ff
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - blas=1.0=openblas
+      - bzip2=1.0.8=h5eee18b_5
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - curl=8.2.1=h37d81fd_0
+      - fftw=3.3.10=mpi_openmpi_h4a81ba8_8
+      - gmp=6.2.1=h295c915_3
+      - hdf4=4.2.13=h3ca952b_2
+      - hdf5=1.10.6=mpi_openmpi_hd9270da_1014
+      - hypre=2.24.0=mpi_openmpi_ha709252_1
+      - jpeg=9e=h5eee18b_1
+      - krb5=1.20.1=h568e23c_1
+      - libblas=3.9.0=22_linux64_openblas
+      - libcblas=3.9.0=22_linux64_openblas
+      - libcurl=8.2.1=h91b91d3_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libgcc-ng=13.2.0=hc881cc4_6
+      - libgfortran-ng=13.2.0=h69a702a_6
+      - libgfortran5=13.2.0=h43f5ff8_6
+      - libgomp=13.2.0=hc881cc4_6
+      - liblapack=3.9.0=22_linux64_openblas
+      - libnetcdf=4.7.4=mpi_openmpi_hfaf6618_7
+      - libnghttp2=1.52.0=ha637b67_1
+      - libopenblas=0.3.27=pthreads_h413a1c8_0
+      - libssh2=1.10.0=h37d81fd_2
+      - libstdcxx-ng=13.2.0=h95c4c6d_6
+      - libxc-c=6.2.2=cpu_h1b64f48_4
+      - libxc=6.2.2=cpu_h22af20a_4
+      - libzlib=1.2.13=hd590300_5
+      - metis=5.1.0=hf484d3e_4
+      - mpfr=4.0.2=hb69a4c5_1
+      - mpi=1.0=openmpi
+      - mumps-include=5.2.1=ha770c72_11
+      - mumps-mpi=5.2.1=hfb3545b_11
+      - ncurses=6.4=h6a678d5_0
+      - netcdf-fortran=4.5.3=mpi_openmpi_hdd2867b_3
+      - openmpi=4.1.6=external_1
+      - openssl=1.1.1w=h7f8727e_0
+      - parmetis=4.0.3=he9a3056_1005
+      - petsc=3.17.1=real_h11d90dd_100
+      - ptscotch=6.0.9=h0a9c416_2
+      - scalapack=2.2.0=h67de57e_1
+      - scotch=6.0.9=hb2e6521_2
+      - slepc=3.17.1=real_h85d5af1_100
+      - suitesparse=5.10.1=he2db622_2
+      - superlu=5.2.2=h00795ac_0
+      - superlu_dist=7.2.0=h34f6f4d_0
+      - tbb=2021.8.0=hdb19cb5_0
+      - yambo=5.2.3=h6d9b495_0
+      - yaml=0.2.5=h7b6447c_0
+      - zlib=1.2.13=hd590300_5
