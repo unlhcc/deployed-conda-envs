@@ -72,6 +72,6 @@ env_specs:
       - superlu=5.2.2=h00795ac_0
       - superlu_dist=7.2.0=h34f6f4d_0
       - tbb=2020.2=hff7bd54_0
-      - yambo=5.2.3=h6d9b495_0
+      - yambo=5.2.3=h6d9b495_1
       - yaml=0.2.5=h7b6447c_0
       - zlib=1.2.13=hd590300_5
