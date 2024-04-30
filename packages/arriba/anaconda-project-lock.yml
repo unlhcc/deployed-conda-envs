@@ -1,0 +1,170 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  arriba-2.4.0:
+    locked: true
+    env_spec_hash: bafd4cd59c428b658a93086d838f7e98b1b1d1d7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - _r-mutex=1.0.0=anacondar_1
+      - _sysroot_linux-64_curr_repodata_hack=3=haa98f57_10
+      - argcomplete=1.12.3=pyhd3eb1b0_0
+      - arriba=2.4.0=h0033a41_2
+      - binutils_impl_linux-64=2.38=h2a08ee3_1
+      - bioconductor-biobase=2.62.0=r43ha9d7317_1
+      - bioconductor-biocgenerics=0.48.1=r43hdfd78af_2
+      - bioconductor-biocparallel=1.36.0=r43hf17093f_1
+      - bioconductor-biostrings=2.70.1=r43ha9d7317_1
+      - bioconductor-data-packages=20231203=hdfd78af_0
+      - bioconductor-delayedarray=0.28.0=r43ha9d7317_1
+      - bioconductor-genomeinfodb=1.38.1=r43hdfd78af_1
+      - bioconductor-genomeinfodbdata=1.2.11=r43hdfd78af_1
+      - bioconductor-genomicalignments=1.38.0=r43ha9d7317_0
+      - bioconductor-genomicranges=1.54.1=r43ha9d7317_1
+      - bioconductor-iranges=2.36.0=r43ha9d7317_1
+      - bioconductor-matrixgenerics=1.14.0=r43hdfd78af_1
+      - bioconductor-rhtslib=2.4.0=r43ha9d7317_1
+      - bioconductor-rsamtools=2.18.0=r43hf17093f_1
+      - bioconductor-s4arrays=1.2.0=r43ha9d7317_1
+      - bioconductor-s4vectors=0.40.2=r43ha9d7317_1
+      - bioconductor-sparsearray=1.2.2=r43ha9d7317_1
+      - bioconductor-summarizedexperiment=1.32.0=r43hdfd78af_0
+      - bioconductor-xvector=0.42.0=r43ha9d7317_1
+      - bioconductor-zlibbioc=1.48.0=r43ha9d7317_1
+      - bwidget=1.9.16=h9eba36c_0
+      - bzip2=1.0.8=h5eee18b_5
+      - c-ares=1.28.1=hd590300_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - cairo=1.18.0=h3faef2a_0
+      - curl=8.7.1=hca28451_0
+      - expat=2.6.2=h6a678d5_0
+      - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
+      - font-ttf-inconsolata=2.001=hcb22688_0
+      - font-ttf-source-code-pro=2.030=hd3eb1b0_0
+      - font-ttf-ubuntu=0.83=h8b1ccd4_0
+      - fontconfig=2.14.2=h14ed4e7_0
+      - fonts-anaconda=1=h8fa9717_0
+      - fonts-conda-ecosystem=1=hd3eb1b0_0
+      - freetype=2.12.1=h4a9f257_0
+      - fribidi=1.0.10=h7b6447c_0
+      - gcc_impl_linux-64=11.2.0=h1234567_1
+      - gettext=0.21.0=h39681ba_1
+      - gfortran_impl_linux-64=11.2.0=h1234567_1
+      - graphite2=1.3.14=h295c915_1
+      - gxx_impl_linux-64=11.2.0=h1234567_1
+      - harfbuzz=8.4.0=h3d44ed6_0
+      - htslib=1.20=h81da01d_0
+      - icu=73.2=h59595ed_0
+      - importlib-metadata=4.11.3=py39h06a4308_0
+      - importlib_metadata=4.11.3=hd3eb1b0_0
+      - jq=1.6=h27cfd23_1000
+      - kernel-headers_linux-64=3.10.0=h57e8cba_10
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.21.2=h659d440_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - lerc=4.0.0=h27087fc_0
+      - libblas=3.9.0=16_linux64_openblas
+      - libcurl=8.7.1=hca28451_0
+      - libdeflate=1.20=hd590300_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-devel_linux-64=11.2.0=h1234567_1
+      - libgcc-ng=13.2.0=hc881cc4_6
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libglib=2.80.0=hf2295e7_6
+      - libgomp=13.2.0=hc881cc4_6
+      - libiconv=1.17=hd590300_2
+      - libjpeg-turbo=3.0.0=hd590300_1
+      - liblapack=3.9.0=16_linux64_openblas
+      - libnghttp2=1.58.0=h47da74e_1
+      - libopenblas=0.3.21=h043d6bf_0
+      - libpng=1.6.43=h2797004_0
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-devel_linux-64=11.2.0=h1234567_1
+      - libstdcxx-ng=13.2.0=h95c4c6d_6
+      - libtiff=4.6.0=h1dd3fc0_3
+      - libuuid=2.38.1=h0b41bf4_0
+      - libwebp-base=1.3.2=h5eee18b_0
+      - libxcb=1.15=h7f8727e_0
+      - libxml2=2.10.4=hfdd30dd_2
+      - libzlib=1.2.13=hd590300_5
+      - lz4-c=1.9.4=h6a678d5_0
+      - make=4.2.1=h1bed415_1
+      - ncurses=6.4.20240210=h59595ed_0
+      - oniguruma=6.9.7.1=h27cfd23_0
+      - openssl=3.3.0=hd590300_0
+      - pango=1.52.2=ha41ecd1_0
+      - pcre2=10.43=hcad00b1_0
+      - pip=23.3.1=py39h06a4308_0
+      - pixman=0.43.2=h59595ed_0
+      - python=3.9.19=h955ad1f_0
+      - pyyaml=6.0.1=py39h5eee18b_0
+      - r-abind=1.4_5=r43h142f84f_0
+      - r-base=4.3.3=hf0d99cb_1
+      - r-bh=1.81.0_1=r43h6115d3f_0
+      - r-bitops=1.0_7=r43h76d94ec_0
+      - r-circlize=0.4.15=r43h6115d3f_0
+      - r-codetools=0.2_19=r43h6115d3f_0
+      - r-colorspace=2.1_0=r43h76d94ec_0
+      - r-cpp11=0.4.6=r43h6115d3f_0
+      - r-crayon=1.5.2=r43h6115d3f_0
+      - r-formatr=1.14=r43h6115d3f_0
+      - r-futile.logger=1.4.3=r43h6115d3f_0
+      - r-futile.options=1.0.1=r43h142f84f_0
+      - r-globaloptions=0.1.2=r43h142f84f_0
+      - r-lambda.r=1.2.4=r43h142f84f_0
+      - r-lattice=0.22_5=r43h76d94ec_0
+      - r-matrix=1.6_1.1=r43h76d94ec_0
+      - r-matrixstats=1.0.0=r43h76d94ec_0
+      - r-rcurl=1.98_1.12=r43h76d94ec_0
+      - r-shape=1.4.6=r43h142f84f_0
+      - r-snow=0.4_4=r43h142f84f_0
+      - readline=8.2=h5eee18b_0
+      - samtools=1.20=h50ea8bc_0
+      - sed=4.8=h7b6447c_0
+      - setuptools=68.2.2=py39h06a4308_0
+      - sqlite=3.45.3=h5eee18b_0
+      - star=2.7.11b=h43eeafb_1
+      - sysroot_linux-64=2.17=h57e8cba_10
+      - tk=8.6.13=noxft_h4845f30_101
+      - tktable=2.10=h3d55465_1
+      - toml=0.10.2=pyhd3eb1b0_0
+      - tzdata=2024a=h04d1e81_0
+      - wheel=0.41.2=py39h06a4308_0
+      - xmltodict=0.13.0=py39h06a4308_0
+      - xorg-kbproto=1.0.7=h7f98852_1002
+      - xorg-libice=1.1.1=hd590300_0
+      - xorg-libsm=1.2.4=h7391055_0
+      - xorg-libx11=1.8.9=h8ee46fc_0
+      - xorg-libxext=1.3.4=h0b41bf4_2
+      - xorg-libxrender=0.9.11=hd590300_0
+      - xorg-libxt=1.3.0=hd590300_1
+      - xorg-renderproto=0.11.1=h7f98852_1002
+      - xorg-xextproto=7.3.0=h0b41bf4_1003
+      - xorg-xproto=7.0.31=h27cfd23_1007
+      - xz=5.4.6=h5eee18b_0
+      - yaml=0.2.5=h7b6447c_0
+      - yq=2.12.0=pyhd3eb1b0_0
+      - zipp=3.17.0=py39h06a4308_0
+      - zlib=1.2.13=hd590300_5
+      - zstd=1.5.5=hc292b87_0
