@@ -10,10 +10,6 @@
 # Set to false to ignore locked versions.
 #
 locking_enabled: true
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   star-fusion-1.9.0:
     locked: true
@@ -114,3 +110,116 @@ env_specs:
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h516909a_1006
       - zstd=1.4.5=h6597ccf_2
+  star-fusion-1.13.0:
+    locked: true
+    env_spec_hash: 7297db3651df7f38641dd616e0ad46b0bbe712ec
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bbmap=39.01=h92535d8_1
+      - bcftools=1.6=0
+      - blas=1.0=openblas
+      - blast=2.12.0=pl5262h3289130_0
+      - bowtie2=2.3.5.1=py27he513fc3_0
+      - bowtie=1.2.3=py27h2bce143_2
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - certifi=2020.6.20=pyhd3eb1b0_3
+      - curl=7.88.1=h37d81fd_2
+      - dbus=1.13.18=hb2f20db_0
+      - entrez-direct=21.6=he881be0_0
+      - expat=2.6.2=h6a678d5_0
+      - freetype=2.12.1=h4a9f257_0
+      - glib-tools=2.78.4=h6a678d5_0
+      - glib=2.78.4=h6a678d5_0
+      - gmap=2021.08.25=pl5262h36cd882_0
+      - htslib=1.6=h42e7767_0
+      - icu=64.2=he1b5a44_1
+      - igv-reports=1.0.1=pyh864c0ab_1
+      - intervaltree=3.1.0=pyhd3eb1b0_0
+      - kmer-jellyfish=2.3.0=h9f5acd7_3
+      - krb5=1.20.1=h568e23c_1
+      - libcurl=7.88.1=h91b91d3_2
+      - libdb=6.2.32=h6a678d5_1
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=13.2.0=hc881cc4_6
+      - libgcc=7.2.0=h69d50b8_2
+      - libgfortran-ng=7.5.0=ha8ba4b0_17
+      - libgfortran4=7.5.0=ha8ba4b0_17
+      - libglib=2.78.4=hdc74915_0
+      - libgomp=13.2.0=hc881cc4_6
+      - libiconv=1.16=h5eee18b_3
+      - libidn2=2.3.4=h5eee18b_0
+      - libnghttp2=1.52.0=ha637b67_1
+      - libopenblas=0.3.18=hf726d26_0
+      - libpng=1.6.39=h5eee18b_0
+      - libssh2=1.10.0=h37d81fd_2
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libunistring=0.9.10=h27cfd23_0
+      - libxcb=1.15=h7f8727e_0
+      - ncurses=6.4=h6a678d5_0
+      - numpy-base=1.16.6=py27h2f8d375_0
+      - numpy=1.16.6=py27h30dfecb_0
+      - openjdk=11.0.13=h87a67e3_0
+      - openssl=1.1.1w=h7f8727e_0
+      - pbzip2=1.1.13=0
+      - pcre2=10.42=hebb0a14_0
+      - pcre=8.45=h295c915_0
+      - perl-archive-tar=2.32=pl526_0
+      - perl-business-isbn-data=20140910.003=pl526_0
+      - perl-business-isbn=3.004=pl526_0
+      - perl-carp-assert=0.21=pl526_0
+      - perl-carp=1.38=pl526_3
+      - perl-common-sense=3.74=pl526_2
+      - perl-compress-raw-bzip2=2.087=pl526he1b5a44_0
+      - perl-compress-raw-zlib=2.087=pl526hc9558a2_0
+      - perl-constant=1.33=pl526_1
+      - perl-data-dumper=2.173=pl526_0
+      - perl-db-file=1.855=pl526h516909a_0
+      - perl-encode=2.88=pl526_1
+      - perl-exporter-tiny=1.002001=pl526_0
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-makemaker=7.36=pl526_1
+      - perl-io-compress=2.087=pl526he1b5a44_0
+      - perl-io-gzip=0.20=pl526h1341992_2
+      - perl-io-zlib=1.10=pl526_2
+      - perl-json-xs=2.34=pl526h6bb024c_3
+      - perl-json=4.02=pl526_0
+      - perl-list-moreutils-xs=0.428=pl526_0
+      - perl-list-moreutils=0.428=pl526_1
+      - perl-mime-base64=3.15=pl526_1
+      - perl-parent=0.236=pl526_1
+      - perl-pathtools=3.75=pl526h14c3975_1
+      - perl-scalar-list-utils=1.52=pl526h516909a_0
+      - perl-set-intervaltree=0.12=pl526he1b5a44_0
+      - perl-types-serialiser=1.0=pl526_2
+      - perl-uri=1.76=pl526_0
+      - perl-xsloader=0.24=pl526_0
+      - perl=5.26.2=h14c3975_0
+      - pip=19.3.1=py27_0
+      - pysam=0.11.2.2=py27_1
+      - python=2.7.18=h42bf7aa_3
+      - python_abi=2.7=1_cp27mu
+      - readline=8.2=h5eee18b_0
+      - requests=2.13.0=py27_0
+      - salmon=0.15.0=hf69c8f4_0
+      - samtools=1.5=1
+      - setuptools=44.0.0=py27_0
+      - sortedcontainers=2.4.0=pyhd3eb1b0_0
+      - sqlite=3.45.3=h5eee18b_0
+      - star-fusion=1.13.0=hdfd78af_0
+      - star=2.7.8a=h9ee0642_1
+      - tbb=2020.3=hfd86e86_0
+      - tk=8.6.12=h1ccaba5_0
+      - trimmomatic=0.39=hdfd78af_2
+      - trinity=2.8.5=h8b12597_5
+      - wget=1.21.4=h91b91d3_1
+      - wheel=0.37.1=pyhd3eb1b0_0
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1
