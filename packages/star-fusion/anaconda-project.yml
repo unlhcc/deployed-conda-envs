@@ -9,22 +9,15 @@
 # Set the 'name' key to name your project
 #
 name: STAR-Fusion
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: STAR-Fusion fusion variant caller.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
   star-fusion-1.9.0:
     packages:
     - star-fusion=1.9.0
+    channels: []
+  star-fusion-1.13.0:
+    packages:
+    - star-fusion=1.13.0
     channels: []
