@@ -607,6 +607,8 @@ env_specs:
     - gsl
     - bioconductor-variantannotation
     - bioconductor-goseq
+    - bioconductor-monocle
+    - bioconductor-cicero
     channels:
     - nodefaults
 packages: []
