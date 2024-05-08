@@ -1,0 +1,51 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  salsa2-2.3:
+    locked: true
+    env_spec_hash: 64017b4a8f9b5bce4cd0543af4efef64479898c3
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - boost-cpp=1.74.0=h359cf19_6
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2024.3.11=h06a4308_0
+      - certifi=2020.6.20=pyhd3eb1b0_3
+      - decorator=5.1.0=pyhd3eb1b0_0
+      - icu=69.1=h9c3ff4c_0
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - lz4-c=1.9.4=h6a678d5_1
+      - ncurses=6.4=h6a678d5_0
+      - networkx=1.11=py27_1
+      - pip=19.3.1=py27_0
+      - python=2.7.18=h42bf7aa_3
+      - python_abi=2.7=1_cp27mu
+      - readline=8.2=h5eee18b_0
+      - salsa2=2.3=py27h16ec135_1
+      - setuptools=44.0.0=py27_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h39e8969_0
+      - wheel=0.37.1=pyhd3eb1b0_0
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1
+      - zstd=1.5.5=hc292b87_2
