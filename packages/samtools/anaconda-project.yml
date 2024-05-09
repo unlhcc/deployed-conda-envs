@@ -60,4 +60,10 @@ env_specs:
   samtools-1.19:
     packages:
     - samtools=1.19
-    channels: []
+    channels:
+    - nodefaults
+  samtools-1.20:
+    packages:
+    - samtools=1.20
+    channels:
+    - nodefaults
