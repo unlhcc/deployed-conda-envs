@@ -189,33 +189,61 @@ env_specs:
       - zlib=1.2.13=h166bdaf_4
   samtools-1.19:
     locked: true
-    env_spec_hash: 035c1183f0567deaefd799adc99053fa807e0788
+    env_spec_hash: 8a4d3be6e2c13485e5b6a643e5604ec47ac83273
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
-      - bzip2=1.0.8=h7b6447c_0
-      - c-ares=1.24.0=hd590300_0
-      - ca-certificates=2023.12.12=h06a4308_0
-      - htslib=1.19=h81da01d_0
+      - bzip2=1.0.8=hd590300_5
+      - c-ares=1.28.1=hd590300_0
+      - ca-certificates=2024.2.2=hbcca054_0
+      - htslib=1.20=h81da01d_0
       - keyutils=1.6.1=h166bdaf_0
       - krb5=1.21.2=h659d440_0
-      - libcurl=8.5.0=hca28451_0
-      - libdeflate=1.19=hd590300_0
-      - libedit=3.1.20230828=h5eee18b_0
-      - libev=4.33=h7f8727e_1
-      - libgcc-ng=13.2.0=h807b86a_3
-      - libgomp=13.2.0=h807b86a_3
+      - libcurl=8.7.1=hca28451_0
+      - libdeflate=1.20=hd590300_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=hd590300_2
+      - libgcc-ng=13.2.0=h77fa898_7
+      - libgomp=13.2.0=h77fa898_7
       - libnghttp2=1.58.0=h47da74e_1
       - libssh2=1.11.0=h0841786_0
-      - libstdcxx-ng=13.2.0=h7e041cc_3
+      - libstdcxx-ng=13.2.0=hc0a3c3a_7
       - libzlib=1.2.13=hd590300_5
-      - lz4-c=1.9.4=h6a678d5_0
-      - ncurses=6.4=h6a678d5_0
-      - openssl=3.2.0=hd590300_1
-      - samtools=1.19=h50ea8bc_0
-      - xz=5.4.5=h5eee18b_0
-      - zlib=1.2.13=hd590300_5
-      - zstd=1.5.5=hc292b87_0
+      - ncurses=6.5=h59595ed_0
+      - openssl=3.3.0=hd590300_0
+      - samtools=1.19.2=h50ea8bc_1
+      - xz=5.2.6=h166bdaf_0
+      - zstd=1.5.6=ha6fb4c9_0
+  samtools-1.20:
+    locked: true
+    env_spec_hash: 2f4fc0674f5bd9c09605475a0f988a17bcd74a5d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=hd590300_5
+      - c-ares=1.28.1=hd590300_0
+      - ca-certificates=2024.2.2=hbcca054_0
+      - htslib=1.20=h81da01d_0
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.21.2=h659d440_0
+      - libcurl=8.7.1=hca28451_0
+      - libdeflate=1.20=hd590300_0
+      - libedit=3.1.20191231=he28a2e2_2
+      - libev=4.33=hd590300_2
+      - libgcc-ng=13.2.0=h77fa898_7
+      - libgomp=13.2.0=h77fa898_7
+      - libnghttp2=1.58.0=h47da74e_1
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-ng=13.2.0=hc0a3c3a_7
+      - libzlib=1.2.13=hd590300_5
+      - ncurses=6.5=h59595ed_0
+      - openssl=3.3.0=hd590300_0
+      - samtools=1.20=h50ea8bc_0
+      - xz=5.2.6=h166bdaf_0
+      - zstd=1.5.6=ha6fb4c9_0
