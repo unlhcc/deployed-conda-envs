@@ -1,0 +1,68 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  ultraplex-1.2.9:
+    locked: true
+    env_spec_hash: d0fd511bd484e91edf203face129b725548521ba
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2024.3.11=h06a4308_0
+      - cffi=1.16.0=py39h5eee18b_1
+      - dill=0.3.8=py39h06a4308_0
+      - dnaio=1.2.0=py39hf95cd2a_1
+      - isa-l=2.30.0=h7f8727e_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=13.2.0=h77fa898_7
+      - libgomp=13.2.0=h77fa898_7
+      - libstdcxx-ng=13.2.0=hc0a3c3a_7
+      - lz4-c=1.9.4=h6a678d5_1
+      - multiprocess=0.70.15=py39h06a4308_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.0.13=h7f8727e_1
+      - packaging=23.2=py39h06a4308_0
+      - pbzip2=1.1.13=h1fcc475_2
+      - pigz=2.6=h27cfd23_0
+      - pip=24.0=py39h06a4308_0
+      - pycparser=2.21=pyhd3eb1b0_0
+      - python-isal=1.6.1=py39hd1e30aa_0
+      - python-zlib-ng=0.4.3=py39h520f041_0
+      - python=3.9.19=h955ad1f_1
+      - python_abi=3.9=2_cp39
+      - readline=8.2=h5eee18b_0
+      - setuptools-scm=8.0.4=py39h06a4308_0
+      - setuptools=69.5.1=py39h06a4308_0
+      - setuptools_scm=8.0.4=hd3eb1b0_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h39e8969_0
+      - tomli=2.0.1=py39h06a4308_0
+      - typing-extensions=4.11.0=py39h06a4308_0
+      - typing_extensions=4.11.0=py39h06a4308_0
+      - tzdata=2024a=h04d1e81_0
+      - ultraplex=1.2.9=py39hf95cd2a_1
+      - wheel=0.43.0=py39h06a4308_0
+      - xopen=2.0.1=py39hf3d152e_0
+      - xz=5.4.6=h5eee18b_1
+      - zlib-ng=2.0.7=h5eee18b_0
+      - zlib=1.2.13=h5eee18b_1
+      - zstandard=0.22.0=py39h2c38b39_0
+      - zstd=1.5.5=hc292b87_2
