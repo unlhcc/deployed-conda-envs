@@ -39,3 +39,8 @@ env_specs:
     - hisat2=2.2.0
     - python=3.7
     channels: []
+  hisat2-2.2.1:
+    packages:
+    - hisat2=2.2.1
+    - python=3.8
+    channels: []
