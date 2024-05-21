@@ -18,11 +18,13 @@ env_specs:
     - read2tree=0.1.5
     - python=3.10
     - biopython=1.81
+    - mafft=7.520
     channels: []
   read2tree-0.1.5-py39:
     packages:
     - read2tree=0.1.5
     - python=3.9
     - biopython=1.81
+    - mafft=7.520
     channels: []
 packages: []

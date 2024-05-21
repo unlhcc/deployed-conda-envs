@@ -13,7 +13,7 @@ locking_enabled: true
 env_specs:
   read2tree-0.1.5-py39:
     locked: true
-    env_spec_hash: ace98ce157db223631fb5eb77a92315e8b9efb2a
+    env_spec_hash: 10667ead3ebddc7fc5e0df230ccceb7500cb779d
     platforms:
     - linux-64
     packages:
@@ -82,7 +82,7 @@ env_specs:
       - libzlib=1.2.13=hd590300_5
       - lxml=5.2.1=py39hdbbb534_0
       - lz4-c=1.9.4=h6a678d5_1
-      - mafft=7.526=h4ab18f5_0
+      - mafft=7.520=h031d066_3
       - mysql=5.7.24=h721c034_2
       - natsort=7.1.1=pyhd3eb1b0_0
       - ncurses=6.5=h59595ed_0
@@ -139,7 +139,7 @@ env_specs:
       - zstd=1.5.5=hc292b87_2
   read2tree-0.1.5-py310:
     locked: true
-    env_spec_hash: 10faedc9fc324f7c7899b10199c1064b30b3e80d
+    env_spec_hash: 389e6ea399c154a77aba14abca673b58f91b7e7e
     platforms:
     - linux-64
     packages:
@@ -205,7 +205,7 @@ env_specs:
       - libzlib=1.2.13=hd590300_5
       - lxml=4.9.1=py310h1edc446_0
       - lz4-c=1.9.4=h6a678d5_1
-      - mafft=7.526=h4ab18f5_0
+      - mafft=7.520=h031d066_3
       - mysql=5.7.24=he378463_2
       - natsort=7.1.1=pyhd3eb1b0_0
       - ncurses=6.4=h6a678d5_0
