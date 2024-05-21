@@ -48,3 +48,9 @@ env_specs:
     - pbzip2=1.1.13
     - bzip2=1.0.8
     channels: []
+  bbmap-39.06:
+    packages:
+    - bbmap=39.06
+    - pbzip2=1.1.13
+    - bzip2=1.0.8
+    channels: []
