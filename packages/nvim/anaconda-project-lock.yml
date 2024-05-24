@@ -1,0 +1,48 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  nvim-0.9.5:
+    locked: true
+    env_spec_hash: ddaa7185009a6e4fb9c75f945aa66014452cd81a
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - gettext-tools=0.22.5=h59595ed_2
+      - gettext=0.22.5=h59595ed_2
+      - gtest=1.14.0=hdb19cb5_1
+      - libasprintf-devel=0.22.5=h661eb56_2
+      - libasprintf=0.22.5=h661eb56_2
+      - libgcc-ng=13.2.0=h77fa898_7
+      - libgettextpo-devel=0.22.5=h59595ed_2
+      - libgettextpo=0.22.5=h59595ed_2
+      - libgomp=13.2.0=h77fa898_7
+      - libmpack-lua=1.0.12=hd590300_0
+      - libstdcxx-ng=13.2.0=hc0a3c3a_7
+      - libtermkey=0.22=hd590300_1
+      - libtree-sitter=0.20.8=hd590300_0
+      - libuv=1.48.0=hd590300_0
+      - libvterm=0.3.3=hd590300_0
+      - libzlib=1.2.13=hd590300_5
+      - lua-lpeg=1.1.0=hd590300_0
+      - luajit-openresty=2.1_20240314=hd590300_0
+      - luv=1.44.2=hd590300_0
+      - msgpack-c=6.0.0=hfc55251_1
+      - nvim=0.9.5=h9acdc57_0
+      - unibilium=2.1.1=hd590300_1
