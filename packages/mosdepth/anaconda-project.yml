@@ -29,3 +29,7 @@ env_specs:
     - mosdepth=0.2.4
     - htslib=1.9
     channels: []
+  mosdepth-0.3.8:
+    packages:
+    - mosdepth=0.3.8
+    channels: []
