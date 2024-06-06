@@ -28,4 +28,10 @@ env_specs:
   cdo-1.9.7.1:
     packages:
     - cdo=1.9.7.1
+    - magics
+    channels: []
+  cdo-2.4.0:
+    packages:
+    - cdo=2.4.0
+    - magics=4.15.4
     channels: []
