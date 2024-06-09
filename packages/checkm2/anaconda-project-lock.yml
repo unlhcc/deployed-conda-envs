@@ -1,0 +1,131 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  checkm2-1.0.1:
+    locked: true
+    env_spec_hash: f0793f226f9203b48e4a9315c838099dee6886f7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - _tflow_select=2.3.0=mkl
+      - abseil-cpp=20230802.0=h6a678d5_2
+      - absl-py=2.1.0=py38h06a4308_0
+      - aiohttp=3.9.5=py38h5eee18b_0
+      - aiosignal=1.2.0=pyhd3eb1b0_0
+      - astor=0.8.1=py38h06a4308_0
+      - astunparse=1.6.3=py_0
+      - async-timeout=4.0.3=py38h06a4308_0
+      - attrs=23.1.0=py38h06a4308_0
+      - blas=1.0=openblas
+      - blinker=1.6.2=py38h06a4308_0
+      - boost-cpp=1.70.0=h7b93d67_3
+      - bottleneck=1.3.5=py38h7deecbd_0
+      - brotli-python=1.0.9=py38h6a678d5_8
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - cachetools=5.3.3=py38h06a4308_0
+      - certifi=2024.6.2=py38h06a4308_0
+      - cffi=1.16.0=py38h5eee18b_1
+      - charset-normalizer=2.0.4=pyhd3eb1b0_0
+      - checkm2=1.0.1=pyh7cba7a3_0
+      - click=8.1.7=py38h06a4308_0
+      - cryptography=42.0.5=py38hdda0065_1
+      - diamond=2.0.4=h56fc30b_0
+      - frozenlist=1.4.0=py38h5eee18b_0
+      - gast=0.4.0=pyhd3eb1b0_0
+      - google-auth-oauthlib=0.5.2=py38h06a4308_0
+      - google-auth=2.29.0=py38h06a4308_0
+      - google-pasta=0.2.0=pyhd3eb1b0_0
+      - grpc-cpp=1.48.2=he1ff14a_4
+      - grpcio=1.48.2=py38he1ff14a_4
+      - gtest=1.14.0=hdb19cb5_1
+      - h5py=2.10.0=py38hd6299e0_1
+      - hdf5=1.10.6=h3ffc7dd_1
+      - icu=67.1=he1b5a44_0
+      - idna=3.7=py38h06a4308_0
+      - importlib-metadata=7.0.1=py38h06a4308_0
+      - joblib=1.4.0=py38h06a4308_0
+      - keras-preprocessing=1.1.2=pyhd3eb1b0_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libopenblas=0.3.21=h043d6bf_0
+      - libprotobuf=3.20.3=he621ea3_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - lightgbm=3.2.1=py38h295c915_0
+      - lz4-c=1.9.4=h6a678d5_1
+      - markdown=3.4.1=py38h06a4308_0
+      - markupsafe=2.1.3=py38h5eee18b_0
+      - multidict=6.0.4=py38h5eee18b_0
+      - ncurses=6.4=h6a678d5_0
+      - numexpr=2.8.4=py38hd2a5715_1
+      - numpy-base=1.19.2=py38h21a3de8_1
+      - numpy=1.19.2=py38hc896f84_1
+      - oauthlib=3.2.2=py38h06a4308_0
+      - openssl=3.0.13=h7f8727e_2
+      - opt_einsum=3.3.0=pyhd3eb1b0_1
+      - packaging=23.2=py38h06a4308_0
+      - pandas=1.3.5=py38h8c16a72_0
+      - pip=24.0=py38h06a4308_0
+      - prodigal=2.6.3=hec16e2b_4
+      - protobuf=3.20.3=py38h6a678d5_0
+      - pyasn1-modules=0.2.8=py_0
+      - pyasn1=0.4.8=pyhd3eb1b0_0
+      - pycparser=2.21=pyhd3eb1b0_0
+      - pyjwt=2.8.0=py38h06a4308_0
+      - pyopenssl=24.0.0=py38h06a4308_0
+      - pysocks=1.7.1=py38h06a4308_0
+      - python-dateutil=2.9.0post0=py38h06a4308_2
+      - python-flatbuffers=2.0=pyhd3eb1b0_0
+      - python=3.8.19=h955ad1f_0
+      - pytz=2024.1=py38h06a4308_0
+      - re2=2022.04.01=h295c915_0
+      - readline=8.2=h5eee18b_0
+      - requests-oauthlib=1.3.0=py_0
+      - requests=2.32.2=py38h06a4308_0
+      - rsa=4.7.2=pyhd3eb1b0_1
+      - scikit-learn=0.23.2=py38h0573a6f_0
+      - scipy=1.9.3=py38h32ae08f_2
+      - setuptools=69.5.1=py38h06a4308_0
+      - six=1.16.0=pyhd3eb1b0_1
+      - sqlite=3.45.3=h5eee18b_0
+      - tensorboard-data-server=0.7.0=py38h52d8a92_0
+      - tensorboard-plugin-wit=1.8.1=py38h06a4308_0
+      - tensorboard=2.12.1=py38h06a4308_0
+      - tensorflow-base=2.4.1=mkl_py38h43e0292_0
+      - tensorflow-estimator=2.6.0=pyh7b7c402_0
+      - tensorflow=2.4.1=mkl_py38hb2083e0_0
+      - termcolor=2.1.0=py38h06a4308_0
+      - threadpoolctl=2.2.0=pyh0d69192_0
+      - tk=8.6.14=h39e8969_0
+      - tqdm=4.66.4=py38h2f386ee_0
+      - urllib3=2.2.1=py38h06a4308_0
+      - werkzeug=3.0.3=py38h06a4308_0
+      - wheel=0.43.0=py38h06a4308_0
+      - wrapt=1.14.1=py38h5eee18b_0
+      - xz=5.4.6=h5eee18b_1
+      - yarl=1.9.3=py38h5eee18b_0
+      - zipp=3.17.0=py38h06a4308_0
+      - zlib=1.2.13=h5eee18b_1
+      - zstd=1.4.9=haebb681_0
