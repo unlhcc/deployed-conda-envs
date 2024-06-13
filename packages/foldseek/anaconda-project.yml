@@ -13,7 +13,8 @@ name: Foldseek
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Foldseek enables fast and sensitive comparisons of large protein structure sets.
+description: Foldseek enables fast and sensitive comparisons of large protein structure
+  sets.
 
 
 #
@@ -27,4 +28,8 @@ env_specs:
   foldseek-8.ef4e960:
     packages:
     - foldseek=8.ef4e960
+    channels: []
+  foldseek-9.427df8a:
+    packages:
+    - foldseek=9.427df8a
     channels: []

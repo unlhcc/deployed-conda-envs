@@ -47,3 +47,35 @@ env_specs:
       - wget=1.21.4=h251f7ec_1
       - xz=5.4.5=h5eee18b_0
       - zlib=1.2.13=hd590300_5
+  foldseek-9.427df8a:
+    locked: true
+    env_spec_hash: fadc402e53af40813942224025eb97524bb496b3
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - aria2=1.37.0=h347180d_1
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.28.1=hd590300_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - foldseek=9.427df8a=pl5321hb365157_0
+      - gawk=5.1.0=h7b6447c_0
+      - icu=73.2=h59595ed_0
+      - libgcc-ng=13.2.0=h77fa898_8
+      - libgomp=13.2.0=h77fa898_8
+      - libiconv=1.17=hd590300_2
+      - libidn2=2.3.4=h5eee18b_0
+      - libnsl=2.0.0=h5eee18b_0
+      - libsqlite=3.46.0=hde9e2c9_0
+      - libssh2=1.11.0=h251f7ec_0
+      - libstdcxx-ng=13.2.0=hc0a3c3a_8
+      - libunistring=0.9.10=h27cfd23_0
+      - libxml2=2.12.7=hc051c1a_1
+      - libzlib=1.2.13=h4ab18f5_6
+      - openssl=3.3.1=h4ab18f5_0
+      - perl=5.32.1=0_h5eee18b_perl5
+      - wget=1.21.4=h251f7ec_1
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h4ab18f5_6
