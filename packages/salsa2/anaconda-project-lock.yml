@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   salsa2-2.3:
     locked: true
-    env_spec_hash: 64017b4a8f9b5bce4cd0543af4efef64479898c3
+    env_spec_hash: e15ebd9930586f1a430ce8f6d7be4864ee98c15d
     platforms:
     - linux-64
     packages:
