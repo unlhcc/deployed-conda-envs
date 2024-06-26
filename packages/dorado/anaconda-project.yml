@@ -30,3 +30,11 @@ env_specs:
       - lib-pod5
       - pod5
     channels: []
+  dorado-0.7.2:
+    packages:
+    - dorado=0.7.2
+    - python=3.10
+    - pip:
+      - lib-pod5
+      - pod5
+    channels: []
