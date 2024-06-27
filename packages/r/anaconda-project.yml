@@ -385,6 +385,39 @@ env_specs:
     - sysroot_linux-64=2.17
     channels: [conda-forge]
 
+  r-4.3.3:
+    packages:
+    - r-base=4.3.3
+    - r-tidyverse
+    - r-irkernel
+    - r-checkpoint
+    - r-r.utils
+    - r-devtools
+    - r-udunits2
+    - r-units
+    - r-ggplot2
+    - r-rcppparallel
+    - r-gmp
+    - r-v8
+    - r-rstan
+    - r-xgboost
+    - r-plotly
+    - r-data.table
+    - r-littler
+    - r-rjava
+    - r-doparallel
+    - r-gbm
+    - r-rmpfr
+    - r-slam
+    - r-rcpparmadillo
+    - r-cairo
+    - r-rgdal
+    - r-raster
+    - r-bh
+    - r-rsvg
+    - sysroot_linux-64=2.17
+    channels: [conda-forge]
+
 commands:
   javareconf-r3.6.3:
     unix: R CMD javareconf
@@ -413,3 +446,6 @@ commands:
   javareconf-r4.3.1:
     unix: R CMD javareconf
     env_spec: r-4.3.1
+  javareconf-r4.3.3:
+    unix: R CMD javareconf
+    env_spec: r-4.3.3
