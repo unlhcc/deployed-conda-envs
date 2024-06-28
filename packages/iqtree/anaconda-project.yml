@@ -33,3 +33,7 @@ env_specs:
     packages:
     - iqtree=2.2.2.7
     channels: []
+  iqtree-2.3.4:
+    packages:
+    - iqtree=2.3.4
+    channels: []
