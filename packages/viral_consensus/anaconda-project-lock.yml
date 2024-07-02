@@ -1,0 +1,48 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  viral_consensus-0.0.5:
+    locked: true
+    env_spec_hash: 3ea0997ef368106efc87148d542cee1655fe2f42
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.28.1=hd590300_0
+      - ca-certificates=2024.3.11=h06a4308_0
+      - htslib=1.20=h5efdd21_1
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.21.3=h659f571_0
+      - libcurl=8.8.0=hca28451_1
+      - libdeflate=1.20=hd590300_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libgcc-ng=14.1.0=h77fa898_0
+      - libgomp=14.1.0=h77fa898_0
+      - libnghttp2=1.58.0=h47da74e_1
+      - libssh2=1.11.0=h251f7ec_0
+      - libstdcxx-ng=14.1.0=hc0a3c3a_0
+      - libzlib=1.2.13=h4ab18f5_6
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.3.1=h4ab18f5_1
+      - viral_consensus=0.0.5=h43eeafb_1
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h4ab18f5_6
+      - zstd=1.5.6=ha6fb4c9_0
