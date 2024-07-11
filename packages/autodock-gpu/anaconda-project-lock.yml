@@ -80,8 +80,22 @@ env_specs:
       linux-64:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
-      - autodock-gpu=1.5.3=hf131f34_0
-      - cudatoolkit=11.4.4=h5e1937b_3
-      - libgcc-ng=12.2.0=h65d4601_19
-      - libgomp=12.2.0=h65d4601_19
-      - libstdcxx-ng=12.2.0=h46fd767_19
+      - autodock-gpu=1.5.3=hb2fec6a_1
+      - cudatoolkit=12.5.1=h5e1937b_0
+      - libgcc-ng=14.1.0=h77fa898_0
+      - libgomp=14.1.0=h77fa898_0
+      - libstdcxx-ng=14.1.0=hc0a3c3a_0
+  autodock-gpu-2024.03.05:
+    locked: true
+    env_spec_hash: b59fc4bf9302f6374c58a019a92bc4d0b310fd87
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - autodock-gpu=0.2024.03.05=hb2fec6a_0
+      - cudatoolkit=12.5.1=h5e1937b_0
+      - libgcc-ng=14.1.0=h77fa898_0
+      - libgomp=14.1.0=h77fa898_0
+      - libstdcxx-ng=14.1.0=hc0a3c3a_0

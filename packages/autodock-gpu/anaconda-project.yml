@@ -44,3 +44,7 @@ env_specs:
     packages:
     - autodock-gpu=1.5.3
     channels: []
+  autodock-gpu-2024.03.05:
+    packages:
+    - autodock-gpu=0.2024.03.05
+    channels: []
