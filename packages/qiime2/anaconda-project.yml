@@ -1890,3 +1890,49 @@ env_specs:
     - bioconda
     - defaults
     - hcc
+  qiime2-2024.5.0:
+    packages:
+    - qiime2=2024.5.0
+    - q2-composition=2024.5.0
+    - q2-alignment=2024.5.0
+    - q2-cutadapt=2024.5.0
+    - q2-dada2=2024.5.0
+    - q2-deblur=2024.5.0
+    - q2-demux=2024.5.0
+    - q2-diversity=2024.5.0
+    - q2-diversity-lib=2024.5.0
+    - q2-emperor=2024.5.0
+    - q2-feature-classifier=2024.5.0
+    - q2-feature-table=2024.5.0
+    - q2-fragment-insertion=2024.5.0
+    - q2-longitudinal=2024.5.0
+    - q2-metadata=2024.5.0
+    - q2-mystery-stew=2024.5.0
+    - q2-phylogeny=2024.5.0
+    - q2-quality-control=2024.5.0
+    - q2-quality-filter=2024.5.0
+    - q2-sample-classifier=2024.5.0
+    - q2-taxa=2024.5.0
+    - q2-types=2024.5.0
+    - q2-vsearch=2024.5.0
+    - q2cli=2024.5.0
+    - q2galaxy=2024.5.0
+    - q2templates=2024.5.0
+    - deicode
+    - bioconductor-phyloseq
+    - bioconductor-ancombc
+    - r-devtools
+    - r-breakaway
+    - r-tibble
+    - r-magrittr
+    - r-dplyr
+    - r-withr
+    - r-testthat
+    - r-praise
+    - python=3.9
+    - pip:
+      - git+https://github.com/statdivlab/q2-breakaway.git#egg=q2-breakaway
+      - git+https://github.com/mortonjt/q2-ancombc.git#egg=q2-ancombc
+    channels:
+    - qiime2
+    - nodefaults
