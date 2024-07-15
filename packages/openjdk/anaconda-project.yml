@@ -28,3 +28,11 @@ env_specs:
     packages:
     - openjdk=17.0.5.8
     channels: []
+  openjdk-22.0.1:
+    packages:
+    - openjdk=22.0.1
+    channels: []
+  openjdk-20.0.2:
+    packages:
+    - openjdk=20.0.2
+    channels: []
