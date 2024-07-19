@@ -28,3 +28,8 @@ env_specs:
     - ncurses
     channels:
     - nodefaults
+  emacs-29.3:
+    packages:
+    - emacs=29.3
+    channels:
+    - nodefaults
