@@ -1,0 +1,109 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  juicer-1.6:
+    locked: true
+    env_spec_hash: 599f54fa4198d87c7e2f2dd60ce4fef4808e68b4
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - alsa-lib=1.2.11=hd590300_1
+      - bwa=0.7.18=he4a0461_1
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.32.2=h4bc722e_0
+      - ca-certificates=2024.7.2=h06a4308_0
+      - cairo=1.18.0=h3faef2a_0
+      - coreutils=8.32=h7b6447c_0
+      - cudatoolkit=11.4.4=h5e1937b_4
+      - expat=2.6.2=h6a678d5_0
+      - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
+      - font-ttf-inconsolata=2.001=hcb22688_0
+      - font-ttf-source-code-pro=2.030=hd3eb1b0_0
+      - font-ttf-ubuntu=0.83=h8b1ccd4_0
+      - fontconfig=2.14.2=h14ed4e7_0
+      - fonts-anaconda=1=h8fa9717_0
+      - fonts-conda-ecosystem=1=hd3eb1b0_0
+      - freetype=2.12.1=h4a9f257_0
+      - giflib=5.2.2=hd590300_0
+      - graphite2=1.3.14=h295c915_1
+      - harfbuzz=8.5.0=hfac3d4d_0
+      - htslib=1.20=h5efdd21_2
+      - icu=73.2=h59595ed_0
+      - juicer=1.6=cuda_py310hbd92243_0
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.21.3=h659f571_0
+      - lcms2=2.16=hb7c19ff_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - lerc=4.0.0=h27087fc_0
+      - libcups=2.3.3=h4637d8d_4
+      - libcurl=8.8.0=hca28451_1
+      - libdeflate=1.20=hd590300_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=14.1.0=h77fa898_0
+      - libglib=2.80.2=hf974151_0
+      - libgomp=14.1.0=h77fa898_0
+      - libiconv=1.17=hd590300_2
+      - libjpeg-turbo=3.0.3=h5eee18b_0
+      - libnghttp2=1.58.0=h47da74e_1
+      - libnsl=2.0.0=h5eee18b_0
+      - libpng=1.6.43=h2797004_0
+      - libssh2=1.11.0=h251f7ec_0
+      - libstdcxx-ng=14.1.0=hc0a3c3a_0
+      - libtiff=4.6.0=h1dd3fc0_3
+      - libuuid=2.38.1=h0b41bf4_0
+      - libwebp-base=1.3.2=h5eee18b_0
+      - libxcb=1.15=h7f8727e_0
+      - libzlib=1.2.13=h4ab18f5_6
+      - ncurses=6.5=h59595ed_0
+      - openjdk=22.0.1=hb622114_0
+      - openssl=3.3.1=h4bc722e_2
+      - pcre2=10.43=hcad00b1_0
+      - perl=5.32.1=0_h5eee18b_perl5
+      - pip=24.0=py39h06a4308_0
+      - pixman=0.43.2=h59595ed_0
+      - python=3.9.19=h955ad1f_1
+      - readline=8.2=h5eee18b_0
+      - samtools=1.20=h50ea8bc_1
+      - setuptools=69.5.1=py39h06a4308_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h39e8969_0
+      - tzdata=2024a=h04d1e81_0
+      - wheel=0.43.0=py39h06a4308_0
+      - xorg-fixesproto=5.0=h7f98852_1002
+      - xorg-inputproto=2.3.2=h7f98852_1002
+      - xorg-kbproto=1.0.7=h7f98852_1002
+      - xorg-libice=1.1.1=hd590300_0
+      - xorg-libsm=1.2.4=h7391055_0
+      - xorg-libx11=1.8.9=h8ee46fc_0
+      - xorg-libxext=1.3.4=h0b41bf4_2
+      - xorg-libxfixes=5.0.3=h7f98852_1004
+      - xorg-libxi=1.7.10=h7f98852_0
+      - xorg-libxrender=0.9.11=hd590300_0
+      - xorg-libxt=1.3.0=hd590300_1
+      - xorg-libxtst=1.2.4=h4bc722e_0
+      - xorg-recordproto=1.14.2=h7f98852_1002
+      - xorg-renderproto=0.11.1=h7f98852_1002
+      - xorg-xextproto=7.3.0=h0b41bf4_1003
+      - xorg-xproto=7.0.31=h27cfd23_1007
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h4ab18f5_6
+      - zstd=1.5.6=ha6fb4c9_0
