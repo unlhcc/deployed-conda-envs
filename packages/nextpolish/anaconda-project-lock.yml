@@ -1,0 +1,71 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  nextpolish-1.4.1:
+    locked: true
+    env_spec_hash: a2c1c930831788a45729f9e4cc16dafe823083ab
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bwa=0.7.18=he4a0461_1
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.32.3=h4bc722e_0
+      - ca-certificates=2024.7.2=h06a4308_0
+      - gdbm=1.18=hd4cb3f1_4
+      - htslib=1.20=h5efdd21_2
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.21.3=h659f571_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libcurl=8.9.0=hdb1bdb2_0
+      - libdeflate=1.20=hd590300_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.6.2=h59595ed_0
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=14.1.0=h77fa898_0
+      - libgcc=7.2.0=h69d50b8_2
+      - libgomp=14.1.0=h77fa898_0
+      - libnghttp2=1.58.0=h47da74e_1
+      - libnsl=2.0.1=hd590300_0
+      - libsqlite=3.46.0=hde9e2c9_0
+      - libssh2=1.11.0=h0841786_0
+      - libstdcxx-ng=14.1.0=hc0a3c3a_0
+      - libuuid=2.38.1=h0b41bf4_0
+      - libxcrypt=4.4.36=hd590300_1
+      - libzlib=1.3.1=h4ab18f5_1
+      - minimap2=2.1.1=0
+      - ncurses=6.5=h59595ed_0
+      - nextpolish=1.4.1=py312ha5a3fb2_3
+      - openssl=3.3.1=h4bc722e_2
+      - paralleltask=0.1.1=pyhd8ed1ab_0
+      - perl=5.34.0=h5eee18b_2
+      - pip=24.0=py312h06a4308_0
+      - psutil=5.9.0=py312h5eee18b_0
+      - python=3.12.4=h194c7f8_0_cpython
+      - python_abi=3.12=4_cp312
+      - readline=8.2=h5eee18b_0
+      - samtools=1.20=h50ea8bc_1
+      - setuptools=69.5.1=py312h06a4308_0
+      - tk=8.6.13=noxft_h4845f30_101
+      - tzdata=2024a=h04d1e81_0
+      - wheel=0.43.0=py312h06a4308_0
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.3.1=h4ab18f5_1
+      - zstd=1.5.6=ha6fb4c9_0
