@@ -1,0 +1,155 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+env_specs:
+  merqury-1.3:
+    locked: true
+    env_spec_hash: f45306a831746f86b150eb46e575d451f163c005
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - _r-mutex=1.0.0=anacondar_1
+      - _sysroot_linux-64_curr_repodata_hack=3=haa98f57_10
+      - bedtools=2.31.1=hf5e1c6e_2
+      - binutils_impl_linux-64=2.38=h2a08ee3_1
+      - bwidget=1.9.16=h9eba36c_0
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.32.3=h4bc722e_0
+      - ca-certificates=2024.7.2=h06a4308_0
+      - cairo=1.18.0=h3faef2a_0
+      - curl=8.8.0=he654da7_1
+      - dbus=1.13.18=hb2f20db_0
+      - expat=2.6.2=h6a678d5_0
+      - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
+      - font-ttf-inconsolata=2.001=hcb22688_0
+      - font-ttf-source-code-pro=2.030=hd3eb1b0_0
+      - font-ttf-ubuntu=0.83=h8b1ccd4_0
+      - fontconfig=2.14.2=h14ed4e7_0
+      - fonts-anaconda=1=h8fa9717_0
+      - fonts-conda-ecosystem=1=hd3eb1b0_0
+      - freetype=2.12.1=h4a9f257_0
+      - fribidi=1.0.10=h7b6447c_0
+      - gawk=5.1.0=h7b6447c_0
+      - gcc_impl_linux-64=11.2.0=h1234567_1
+      - gettext=0.21.0=h39681ba_1
+      - gfortran_impl_linux-64=11.2.0=h7a446d4_16
+      - glib-tools=2.80.2=hb6ce0ca_0
+      - glib=2.80.2=hf974151_0
+      - graphite2=1.3.14=h295c915_1
+      - gxx_impl_linux-64=11.2.0=h1234567_1
+      - harfbuzz=9.0.0=hfac3d4d_0
+      - htslib=1.20=h5efdd21_2
+      - icu=73.2=h59595ed_0
+      - kernel-headers_linux-64=3.10.0=h57e8cba_10
+      - keyutils=1.6.1=h166bdaf_0
+      - krb5=1.21.3=h659f571_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - lerc=4.0.0=h27087fc_0
+      - libblas=3.9.0=23_linux64_openblas
+      - libcurl=8.8.0=hca28451_1
+      - libdeflate=1.20=hd590300_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-devel_linux-64=11.2.0=h1234567_1
+      - libgcc-ng=14.1.0=h77fa898_0
+      - libgfortran-ng=14.1.0=h69a702a_0
+      - libgfortran5=14.1.0=hc5f4f2c_0
+      - libglib=2.80.2=hf974151_0
+      - libgomp=14.1.0=h77fa898_0
+      - libiconv=1.17=hd590300_2
+      - libjpeg-turbo=3.0.3=h5eee18b_0
+      - liblapack=3.9.0=23_linux64_openblas
+      - libnghttp2=1.58.0=h47da74e_1
+      - libopenblas=0.3.27=pthreads_hac2b453_1
+      - libpng=1.6.43=h2797004_0
+      - libssh2=1.11.0=h251f7ec_0
+      - libstdcxx-devel_linux-64=11.2.0=h1234567_1
+      - libstdcxx-ng=14.1.0=hc0a3c3a_0
+      - libtiff=4.6.0=h1dd3fc0_3
+      - libuuid=2.38.1=h0b41bf4_0
+      - libwebp-base=1.3.2=h5eee18b_0
+      - libxcb=1.15=h7f8727e_0
+      - libxml2=2.10.4=hfdd30dd_2
+      - libzlib=1.2.13=h4ab18f5_6
+      - make=4.2.1=h1bed415_1
+      - merqury=1.3=hdfd78af_2
+      - meryl=1.3=hdbdd923_2
+      - mscorefonts=0.0.1=3
+      - ncurses=6.5=h59595ed_0
+      - openjdk=11.0.13=h87a67e3_0
+      - openssl=3.3.1=h4bc722e_2
+      - pango=1.54.0=h4c5309f_1
+      - pcre2=10.43=hcad00b1_0
+      - pip=24.0=py39h06a4308_0
+      - pixman=0.43.2=h59595ed_0
+      - python=3.9.19=h955ad1f_1
+      - r-argparse=2.2.3=r44hc72bb7e_1
+      - r-base=4.4.0=h019f4a6_1
+      - r-cli=3.6.3=r44h0d4f4ea_1
+      - r-colorspace=2.1_0=r44hb1dbf0f_2
+      - r-crayon=1.5.3=r44hc72bb7e_1
+      - r-ellipsis=0.3.2=r44hb1dbf0f_3
+      - r-fansi=1.0.6=r44hb1dbf0f_1
+      - r-farver=2.1.2=r44ha18555a_1
+      - r-findpython=1.0.8=r44hc72bb7e_2
+      - r-ggplot2=3.5.1=r44hc72bb7e_1
+      - r-glue=1.7.0=r44hb1dbf0f_1
+      - r-gtable=0.3.5=r44hc72bb7e_1
+      - r-isoband=0.2.7=r44ha18555a_3
+      - r-jsonlite=1.8.8=r44hb1dbf0f_1
+      - r-labeling=0.4.3=r44hc72bb7e_1
+      - r-lattice=0.22_6=r44hb1dbf0f_1
+      - r-lifecycle=1.0.4=r44hc72bb7e_1
+      - r-magrittr=2.0.3=r44hb1dbf0f_3
+      - r-mass=7.3_60.0.1=r44hb1dbf0f_1
+      - r-matrix=1.6_5=r44he966344_1
+      - r-mgcv=1.9_1=r44h0d28552_1
+      - r-munsell=0.5.1=r44hc72bb7e_1
+      - r-nlme=3.1_165=r44hbcb9c34_1
+      - r-pillar=1.9.0=r44hc72bb7e_2
+      - r-pkgconfig=2.0.3=r44hc72bb7e_4
+      - r-r6=2.5.1=r44hc72bb7e_3
+      - r-rcolorbrewer=1.1_3=r44h785f33e_3
+      - r-rlang=1.1.4=r44ha18555a_1
+      - r-scales=1.3.0=r44hc72bb7e_1
+      - r-tibble=3.2.1=r44hdb488b9_3
+      - r-utf8=1.2.4=r44hb1dbf0f_1
+      - r-vctrs=0.6.5=r44h0d4f4ea_1
+      - r-viridislite=0.4.2=r44hc72bb7e_2
+      - r-withr=3.0.0=r44hc72bb7e_1
+      - readline=8.2=h5eee18b_0
+      - samtools=1.20=h50ea8bc_1
+      - sed=4.8=h7b6447c_0
+      - setuptools=69.5.1=py39h06a4308_0
+      - sqlite=3.45.3=h5eee18b_0
+      - sysroot_linux-64=2.17=h57e8cba_10
+      - tk=8.6.14=h39e8969_0
+      - tktable=2.10=h3d55465_1
+      - tzdata=2024a=h04d1e81_0
+      - wheel=0.43.0=py39h06a4308_0
+      - xorg-kbproto=1.0.7=h7f98852_1002
+      - xorg-libice=1.1.1=hd590300_0
+      - xorg-libsm=1.2.4=h7391055_0
+      - xorg-libx11=1.8.9=h8ee46fc_0
+      - xorg-libxext=1.3.4=h0b41bf4_2
+      - xorg-libxrender=0.9.11=hd590300_0
+      - xorg-libxt=1.3.0=hd590300_1
+      - xorg-renderproto=0.11.1=h7f98852_1002
+      - xorg-xextproto=7.3.0=h0b41bf4_1003
+      - xorg-xproto=7.0.31=h27cfd23_1007
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h4ab18f5_6
+      - zstd=1.5.6=ha6fb4c9_0
