@@ -37,3 +37,7 @@ env_specs:
     packages:
     - orthofinder=2.5.4
     channels: []
+  orthofinder-2.5.5:
+    packages:
+    - orthofinder=2.5.5
+    channels: []
