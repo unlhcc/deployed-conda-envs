@@ -29,3 +29,8 @@ env_specs:
     - ninja=1.10.2
     - python=3.9
     channels: []
+  ninja-1.12.1:
+    packages:
+    - ninja=1.12.1
+    - python=3.12
+    channels: []
