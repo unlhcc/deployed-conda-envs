@@ -40,4 +40,6 @@ env_specs:
   orthofinder-2.5.5:
     packages:
     - orthofinder=2.5.5
-    channels: []
+    - python=3.10
+    channels:
+    - nodefaults
