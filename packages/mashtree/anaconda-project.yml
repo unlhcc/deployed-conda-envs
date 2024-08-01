@@ -28,4 +28,5 @@ env_specs:
     packages:
     - mashtree=1.4.6
     - perl=5.32
+    - gsl=2.5
     channels: []
