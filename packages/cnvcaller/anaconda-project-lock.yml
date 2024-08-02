@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   cnvcaller-2024.01.18:
     locked: true
-    env_spec_hash: 06294a1bcb9acd657b48b4758f8d6c7dc699be04
+    env_spec_hash: 84ddb33a1c9e872425a79a7f4c360528017fcf18
     platforms:
     - linux-64
     packages:
@@ -29,28 +29,29 @@ env_specs:
       - bottleneck=1.3.7=py38ha9d4c09_0
       - brotli-python=1.0.9=py38h6a678d5_8
       - c-ares=1.19.1=h5eee18b_0
-      - ca-certificates=2024.3.11=h06a4308_0
-      - certifi=2024.6.2=py38h06a4308_0
-      - charset-normalizer=2.0.4=pyhd3eb1b0_0
+      - ca-certificates=2024.7.2=h06a4308_0
+      - certifi=2024.7.4=py38h06a4308_0
+      - charset-normalizer=3.3.2=pyhd3eb1b0_0
       - click=8.1.7=py38h06a4308_0
       - cnvcaller=0.0.2024.01.18=py38pl5321hb17c4e4_0
       - curl=8.7.1=hdbd6064_0
-      - hdf5=1.12.1=h2b7332f_3
+      - hdf5=1.8.17=11
       - htslib=1.3.1=h0cf4675_7
       - idna=3.7=py38h06a4308_0
       - intel-openmp=2023.1.0=hdb19cb5_46306
-      - joblib=1.4.0=py38h06a4308_0
+      - joblib=1.4.2=py38h06a4308_0
       - krb5=1.20.1=h143b758_1
       - ld_impl_linux-64=2.38=h1181459_1
       - libcurl=8.7.1=h251f7ec_0
       - libedit=3.1.20230828=h5eee18b_0
       - libev=4.33=h7f8727e_1
       - libffi=3.4.4=h6a678d5_1
-      - libgcc-ng=13.2.0=h77fa898_7
+      - libgcc-ng=14.1.0=h77fa898_0
       - libgcc=7.2.0=h69d50b8_2
       - libgfortran-ng=11.2.0=h00389a5_1
       - libgfortran5=11.2.0=h1234567_1
-      - libgomp=13.2.0=h77fa898_7
+      - libgfortran=3.0.0=1
+      - libgomp=14.1.0=h77fa898_0
       - libnghttp2=1.57.0=h2d74bed_0
       - libnsl=2.0.0=h5eee18b_0
       - libssh2=1.11.0=h251f7ec_0
@@ -64,8 +65,8 @@ env_specs:
       - numexpr=2.8.4=py38hc78ab66_1
       - numpy-base=1.24.3=py38h060ed82_1
       - numpy=1.24.3=py38hf6e8229_1
-      - openssl=3.3.1=h4ab18f5_0
-      - packaging=23.2=py38h06a4308_0
+      - openssl=3.3.1=h4bc722e_2
+      - packaging=24.1=py38h06a4308_0
       - pandas=2.0.3=py38h1128e8f_0
       - perl=5.32.1=0_h5eee18b_perl5
       - pip=24.0=py38h06a4308_0
@@ -77,7 +78,7 @@ env_specs:
       - python=3.8.19=h955ad1f_0
       - pytz=2024.1=py38h06a4308_0
       - readline=8.2=h5eee18b_0
-      - requests=2.32.2=py38h06a4308_0
+      - requests=2.32.3=py38h06a4308_0
       - samtools=1.3.1=h0cf4675_11
       - scikit-learn=1.3.0=py38h1128e8f_1
       - scipy=1.10.1=py38hf6e8229_1
@@ -85,9 +86,9 @@ env_specs:
       - six=1.16.0=pyhd3eb1b0_1
       - sqlite=3.45.3=h5eee18b_0
       - tbb=2021.8.0=hdb19cb5_0
-      - threadpoolctl=2.2.0=pyh0d69192_0
+      - threadpoolctl=3.5.0=py38h2f386ee_0
       - tk=8.6.14=h39e8969_0
-      - urllib3=2.2.1=py38h06a4308_0
+      - urllib3=2.2.2=py38h06a4308_0
       - wheel=0.43.0=py38h06a4308_0
       - xz=5.4.6=h5eee18b_1
       - zlib=1.2.13=h4ab18f5_6

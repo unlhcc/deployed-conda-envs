@@ -30,4 +30,5 @@ env_specs:
     - cnvcaller=0.0.2024.01.18
     - python=3.8
     - perl
+    - hdf5=1.8.17
     channels: []
