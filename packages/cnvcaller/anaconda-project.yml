@@ -31,4 +31,5 @@ env_specs:
     - python=3.8
     - perl
     - hdf5=1.8.17
+    - blasr=5.3.5
     channels: []
