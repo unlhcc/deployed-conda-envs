@@ -9,6 +9,7 @@ source ${ANACONDA_PREFIX}/etc/profile.d/conda.sh
 conda activate base
 
 # set the channel order
+conda config --system --add channels nodefaults
 conda config --system --add channels bioconda
 conda config --system --add channels conda-forge
 conda config --system --add channels hcc
