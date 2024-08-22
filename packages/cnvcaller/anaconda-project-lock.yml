@@ -33,7 +33,7 @@ env_specs:
       - certifi=2024.7.4=py38h06a4308_0
       - charset-normalizer=3.3.2=pyhd3eb1b0_0
       - click=8.1.7=py38h06a4308_0
-      - cnvcaller=0.0.2024.01.18=py38pl5321hb17c4e4_1
+      - cnvcaller=0.0.2024.01.18=py38pl5321hb17c4e4_2
       - curl=8.7.1=hdbd6064_0
       - hdf5=1.8.17=11
       - htslib=1.3.1=h0cf4675_7
@@ -68,7 +68,7 @@ env_specs:
       - packaging=24.1=py38h06a4308_0
       - pandas=2.0.3=py38h1128e8f_0
       - perl=5.32.1=0_h5eee18b_perl5
-      - pip=24.0=py38h06a4308_0
+      - pip=24.2=py38h06a4308_0
       - platformdirs=3.10.0=py38h06a4308_0
       - pooch=1.7.0=py38h06a4308_0
       - pysocks=1.7.1=py38h06a4308_0
