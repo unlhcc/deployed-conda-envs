@@ -31,4 +31,5 @@ env_specs:
   aspera-cli-4.14.0:
     packages:
     - aspera-cli=4.14.0
+    - ruby=3.3
     channels: []
