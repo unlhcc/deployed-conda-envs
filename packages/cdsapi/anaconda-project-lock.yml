@@ -148,3 +148,96 @@ env_specs:
       - urllib3=1.26.15=pyhd8ed1ab_0
       - wheel=0.40.0=pyhd8ed1ab_0
       - xz=5.2.6=h166bdaf_0
+  cdsapi-0.7.2-py312:
+    locked: true
+    env_spec_hash: 64902ac2348aa19c09c25c63ffd2b7a26974ada7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - attrs=23.1.0=py312h06a4308_0
+      - brotli-python=1.0.9=py312h6a678d5_8
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2024.7.2=h06a4308_0
+      - cads-api-client=1.3.0=pyhd8ed1ab_0
+      - cdsapi=0.7.2=pyhd8ed1ab_1
+      - certifi=2024.7.4=py312h06a4308_0
+      - charset-normalizer=3.3.2=pyhd3eb1b0_0
+      - expat=2.6.2=h6a678d5_0
+      - idna=3.7=py312h06a4308_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libuuid=1.41.5=h5eee18b_0
+      - multiurl=0.3.1=pyhd8ed1ab_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.0.14=h5eee18b_0
+      - pip=24.2=py312h06a4308_0
+      - pysocks=1.7.1=py312h06a4308_0
+      - python-dateutil=2.9.0post0=py312h06a4308_2
+      - python=3.12.4=h5148396_1
+      - pytz=2024.1=py312h06a4308_0
+      - readline=8.2=h5eee18b_0
+      - requests=2.32.3=py312h06a4308_0
+      - setuptools=72.1.0=py312h06a4308_0
+      - six=1.16.0=pyhd3eb1b0_1
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h39e8969_0
+      - tqdm=4.66.5=py312he106c6f_0
+      - typing-extensions=4.11.0=py312h06a4308_0
+      - typing_extensions=4.11.0=py312h06a4308_0
+      - tzdata=2024a=h04d1e81_0
+      - urllib3=2.2.2=py312h06a4308_0
+      - wheel=0.43.0=py312h06a4308_0
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1
+  cdsapi-0.7.2-py310:
+    locked: true
+    env_spec_hash: 8e5d402f148c958bc6bdfe212f6df1d1fd230772
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - attrs=23.1.0=py310h06a4308_0
+      - brotli-python=1.0.9=py310h6a678d5_8
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2024.7.2=h06a4308_0
+      - cads-api-client=1.3.0=pyhd8ed1ab_0
+      - cdsapi=0.7.2=pyhd8ed1ab_1
+      - certifi=2024.7.4=py310h06a4308_0
+      - charset-normalizer=3.3.2=pyhd3eb1b0_0
+      - idna=3.7=py310h06a4308_0
+      - ld_impl_linux-64=2.38=h1181459_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libuuid=1.41.5=h5eee18b_0
+      - multiurl=0.3.1=pyhd8ed1ab_0
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.0.14=h5eee18b_0
+      - pip=24.2=py310h06a4308_0
+      - pysocks=1.7.1=py310h06a4308_0
+      - python-dateutil=2.9.0post0=py310h06a4308_2
+      - python=3.10.14=h955ad1f_1
+      - pytz=2024.1=py310h06a4308_0
+      - readline=8.2=h5eee18b_0
+      - requests=2.32.3=py310h06a4308_0
+      - setuptools=72.1.0=py310h06a4308_0
+      - six=1.16.0=pyhd3eb1b0_1
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h39e8969_0
+      - tqdm=4.66.5=py310h2f386ee_0
+      - typing-extensions=4.11.0=py310h06a4308_0
+      - typing_extensions=4.11.0=py310h06a4308_0
+      - tzdata=2024a=h04d1e81_0
+      - urllib3=2.2.2=py310h06a4308_0
+      - wheel=0.43.0=py310h06a4308_0
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1

@@ -39,3 +39,13 @@ env_specs:
     - cdsapi=0.6.1
     - python=3.9
     channels: []
+  cdsapi-0.7.2-py312:
+    packages:
+    - cdsapi=0.7.2
+    - python=3.12
+    channels: []
+  cdsapi-0.7.2-py310:
+    packages:
+    - cdsapi=0.7.2
+    - python=3.10
+    channels: []
