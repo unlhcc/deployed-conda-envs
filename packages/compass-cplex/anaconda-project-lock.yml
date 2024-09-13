@@ -29,11 +29,17 @@ env_specs:
       - blas=1.0=mkl
       - bottleneck=1.3.7=py38ha9d4c09_0
       - brotli-python=1.0.9=py38h6a678d5_8
+      - bzip2=1.0.8=h5eee18b_6
       - c-ares=1.19.1=h5eee18b_0
       - ca-certificates=2024.7.2=h06a4308_0
-      - certifi=2024.7.4=py38h06a4308_0
+      - certifi=2024.8.30=py38h06a4308_0
       - charset-normalizer=3.3.2=pyhd3eb1b0_0
-      - compass-cplex=0.2022.04.02=pyh121872b_0
+      - compass-cplex=0.2022.04.02=pyh121872b_1
+      - curl=8.9.1=hdbd6064_0
+      - expat=2.6.3=h6a678d5_0
+      - gdbm=1.18=hd4cb3f1_4
+      - gettext=0.21.0=hedfda30_2
+      - git=2.45.2=pl5340h9abc3c3_0
       - glpk=5.0=h445213a_0
       - gmp=6.3.0=hac33072_2
       - h5py=3.11.0=py38hbe37b52_0
@@ -73,9 +79,11 @@ env_specs:
       - numexpr=2.8.4=py38hc78ab66_1
       - numpy-base=1.24.3=py38h060ed82_1
       - numpy=1.24.3=py38hf6e8229_1
-      - openssl=3.0.14=h5eee18b_0
+      - openssl=3.0.15=h5eee18b_0
       - packaging=24.1=py38h06a4308_0
-      - pandas=2.0.3=py38h1128e8f_0
+      - pandas=1.5.3=py38h417a72b_0
+      - pcre2=10.42=hebb0a14_1
+      - perl=5.34.0=h5eee18b_2
       - pip=24.2=py38h06a4308_0
       - platformdirs=3.10.0=py38h06a4308_0
       - pooch=1.7.0=py38h06a4308_0
@@ -83,7 +91,6 @@ env_specs:
       - python-dateutil=2.9.0post0=py38h06a4308_2
       - python-igraph=0.11.5=py38h8746e1d_1
       - python-libsbml=5.20.2=py38h17151c0_2
-      - python-tzdata=2023.3=pyhd3eb1b0_0
       - python=3.8.19=h955ad1f_0
       - python_abi=3.8=2_cp38
       - pytz=2024.1=py38h06a4308_0
@@ -100,6 +107,6 @@ env_specs:
       - tk=8.6.14=h39e8969_0
       - tqdm=4.66.5=py38h2f386ee_0
       - urllib3=2.2.2=py38h06a4308_0
-      - wheel=0.43.0=py38h06a4308_0
+      - wheel=0.44.0=py38h06a4308_0
       - xz=5.4.6=h5eee18b_1
       - zlib=1.2.13=h4ab18f5_6
