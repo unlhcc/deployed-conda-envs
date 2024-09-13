@@ -13,7 +13,8 @@ name: Compass
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: Compass is an algorithm to characterize the metabolic state of cells based on single-cell RNA-Seq and flux balance analysis (FBA).
+description: Compass is an algorithm to characterize the metabolic state of cells
+  based on single-cell RNA-Seq and flux balance analysis (FBA).
 
 
 #
@@ -30,7 +31,6 @@ env_specs:
     - python=3.8
     channels: []
 commands:
-  install-cplex-python:
-    unix: pip install /util/opt/IBM-ILOG-CPLEX/20.10/python/docplex/ && pip install
-      /util/opt/IBM-ILOG-CPLEX/20.10/cplex/python/3.8/x86-64_linux/
+  install_cplex_add_db_mus_musculus:
+    unix: pip install /util/opt/IBM-ILOG-CPLEX/20.10/python/docplex/ && pip install /util/opt/IBM-ILOG-CPLEX/20.10/cplex/python/3.8/x86-64_linux/ && compass --precache --model RECON1_mat --species mus_musculus && compass --precache --model RECON2_mat --species mus_musculus && compass --precache --model RECON2.2 --species mus_musculus
     env_spec: compass-cplex-0.2022.04.02
