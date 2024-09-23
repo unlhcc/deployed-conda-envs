@@ -34,7 +34,11 @@ env_specs:
     packages:
     - ufcg=1.0.6
     - openjdk
-    channels: []
+    - augustus=3.5.0
+    - gsl
+    - libboost=1.85
+    channels:
+      - nodefaults
 commands:
   download_db:
     unix: ufcg download -t minimum
