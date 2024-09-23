@@ -30,3 +30,12 @@ env_specs:
     - ufcg=1.0.5
     - openjdk
     channels: []
+  ufcg-1.0.6:
+    packages:
+    - ufcg=1.0.6
+    - openjdk
+    channels: []
+commands:
+  download_db:
+    unix: ufcg download -t minimum
+    env_spec: ufcg-1.0.6
