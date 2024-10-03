@@ -8,20 +8,12 @@
 #
 # Set the 'name' key to name your project
 #
-name: MACS2
+name: MACS3
 description: MACS -- Model-based Analysis of ChIP-Seq
 platforms:
 - linux-64
 env_specs:
-  macs2-2.1.1.20160309:
+  macs3-3.0.2:
     packages:
-    - macs2=2.1.1.20160309
-    channels: []
-  macs2-2.1.0:
-    packages:
-    - macs2=2.1.0
-    channels: []
-  macs2-2.2.9.1:
-    packages:
-    - macs2=2.2.9.1
+    - macs3=3.0.2
     channels: []
