@@ -10,10 +10,6 @@
 # Set to false to ignore locked versions.
 #
 locking_enabled: true
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   sniffles-1.0.12:
     locked: true
@@ -30,3 +26,48 @@ env_specs:
       - sniffles=1.0.12=h8b12597_1
       - tclap=1.2.3=h9c3ff4c_0
       - zlib=1.2.11=h516909a_1010
+  sniffles-2.4:
+    locked: true
+    env_spec_hash: bf09aa4ad076101cd8dc2b7bb13b9106a4b17c34
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2024.9.24=h06a4308_0
+      - edlib=1.3.9=py310hbf28c38_2
+      - krb5=1.20.1=h143b758_1
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libcurl=8.9.1=h251f7ec_0
+      - libdeflate=1.21=h4bc722e_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=14.1.0=h69a702a_1
+      - libgcc=14.1.0=h77fa898_1
+      - libgomp=14.1.0=h77fa898_1
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libssh2=1.11.0=h251f7ec_0
+      - libstdcxx-ng=14.1.0=h4852527_1
+      - libstdcxx=14.1.0=hc0a3c3a_1
+      - libuuid=1.41.5=h5eee18b_0
+      - libzlib=1.2.13=h4ab18f5_6
+      - ncurses=6.4=h6a678d5_0
+      - openssl=3.3.2=hb9d3cd8_0
+      - pip=24.2=py310h06a4308_0
+      - psutil=6.0.0=py310ha75aee5_1
+      - pysam=0.22.1=py310h804392c_2
+      - python=3.10.15=he870216_1
+      - python_abi=3.10=2_cp310
+      - readline=8.2=h5eee18b_0
+      - setuptools=75.1.0=py310h06a4308_0
+      - sniffles=2.4=pyhdfd78af_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h39e8969_0
+      - tzdata=2024a=h04d1e81_0
+      - wheel=0.44.0=py310h06a4308_0
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h4ab18f5_6
