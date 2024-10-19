@@ -1,0 +1,23 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: Bakta
+description: Rapid & standardized annotation of bacterial genomes, MAGs & plasmids.
+platforms:
+- linux-64
+env_specs:
+  bakta-1.9.4:
+    packages:
+    - bakta=1.9.4
+    channels: []
+commands:
+  download-db:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/bakta/1.9.4 && bakta_db download --output $HCC_APPS_DB_BCRF_PATH/bakta/1.9.4
+    env_spec: bakta-1.9.4
