@@ -9,19 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: ffmpeg
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: A complete, cross-platform solution to record, convert and stream audio
   and video.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -44,3 +33,7 @@ env_specs:
     - ffmpeg=6.0.0
     channels:
     - conda-forge
+  ffmpeg-7.1.0:
+    packages:
+    - ffmpeg=7.1.0
+    channels: []
