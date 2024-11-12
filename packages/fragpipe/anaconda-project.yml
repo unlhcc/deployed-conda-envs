@@ -30,5 +30,9 @@ env_specs:
     - msfragger=4.0
     - ionquant=1.10.12
     - openjdk=11
+    - numpy
+    - pandas
+    - easypqp
+    - lxml
     channels:
     - nodefaults
