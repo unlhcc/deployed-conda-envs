@@ -49,3 +49,8 @@ env_specs:
     channels:
     - conda-forge
     - bioconda
+  metaphlan-4.1.1:
+    packages:
+    - metaphlan=4.1.1
+    channels:
+    - nodefaults
