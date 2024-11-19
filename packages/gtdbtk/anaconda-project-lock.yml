@@ -454,3 +454,69 @@ env_specs:
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h516909a_1010
       - zstd=1.4.9=ha95c52a_0
+  gtdbtk-2.4.0:
+    locked: true
+    env_spec_hash: 29b8532f05969bc8e6449861c6fbc3e441404289
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - blas=1.0=mkl
+      - boost-cpp=1.70.0=h7b93d67_3
+      - boost=1.70.0=py38h9de70de_1
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2024.9.24=h06a4308_0
+      - capnproto=1.0.1.1=h2d74bed_0
+      - dendropy=5.0.1=pyhdfd78af_0
+      - fastani=1.32=he1c1bb9_0
+      - fasttree=2.1.11=h031d066_4
+      - gsl=2.6=ha341630_0
+      - gtdbtk=2.4.0=pyhdfd78af_1
+      - hmmer=3.4=hdbdd923_2
+      - icu=67.1=he1b5a44_0
+      - intel-openmp=2023.1.0=hdb19cb5_46306
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libblas=3.9.0=1_h86c2bf4_netlib
+      - libcblas=3.9.0=8_h3b12eaf_netlib
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=14.2.0=h69a702a_1
+      - libgcc=14.2.0=h77fa898_1
+      - libgfortran-ng=14.2.0=h69a702a_1
+      - libgfortran5=14.2.0=hd5240d6_1
+      - libgfortran=14.2.0=h69a702a_1
+      - libgomp=14.2.0=h77fa898_1
+      - libidn2=2.3.4=h5eee18b_0
+      - libstdcxx-ng=14.2.0=h4852527_1
+      - libstdcxx=14.2.0=hc0a3c3a_1
+      - libunistring=0.9.10=h27cfd23_0
+      - lz4-c=1.9.4=h6a678d5_1
+      - mash=2.3=he348c14_1
+      - mkl-service=2.4.0=py38h5eee18b_1
+      - mkl=2023.1.0=h213fc3f_46344
+      - mkl_fft=1.3.8=py38h5eee18b_0
+      - mkl_random=1.2.4=py38hdb19cb5_0
+      - ncurses=6.4=h6a678d5_0
+      - numpy-base=1.24.3=py38h060ed82_1
+      - numpy=1.24.3=py38hf6e8229_1
+      - openssl=3.0.15=h5eee18b_0
+      - pip=24.2=py38h06a4308_0
+      - pplacer=1.1.alpha19=h9ee0642_2
+      - prodigal=2.6.3=h031d066_9
+      - pydantic=1.10.12=py38h5eee18b_1
+      - python=3.8.20=he870216_0
+      - readline=8.2=h5eee18b_0
+      - setuptools=75.1.0=py38h06a4308_0
+      - skani=0.2.2=h919a2d8_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tbb=2021.8.0=hdb19cb5_0
+      - tk=8.6.14=h39e8969_0
+      - tqdm=4.66.5=py38h2f386ee_0
+      - typing-extensions=4.11.0=py38h06a4308_0
+      - typing_extensions=4.11.0=py38h06a4308_0
+      - wget=1.24.5=h251f7ec_0
+      - wheel=0.44.0=py38h06a4308_0
+      - xz=5.4.6=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1
+      - zstd=1.4.9=haebb681_0
