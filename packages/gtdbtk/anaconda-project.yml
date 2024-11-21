@@ -58,5 +58,7 @@ commands:
     env_spec: gtdbtk-1.5.0
   download-db-2.4.0:
     unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/gtdbtk/release220/ && export GTDBTK_DATA_PATH=$HCC_APPS_DB_BCRF_PATH/gtdbtk/release220/
-      && download-db.sh
+      && cd $HCC_APPS_DB_BCRF_PATH/gtdbtk/release220/
+      && wget https://data.gtdb.ecogenomic.org/releases/release220/220.0/auxillary_files/gtdbtk_package/full_package/gtdbtk_r220_data.tar.gz
+      && tar -xvzf gtdbtk_r220_data.tar.gz -C . --strip 1 > /dev/null && rm gtdbtk_r220_data.tar.gz
     env_spec: gtdbtk-2.4.0
