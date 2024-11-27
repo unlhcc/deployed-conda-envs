@@ -30,3 +30,21 @@ env_specs:
     - pytorch=2.0.0=cpu*
     - hcc-python-stack
     channels: []
+  transformers-4.46.3-py310:
+    packages:
+    - transformers=4.46.3
+    - python=3.10
+    - tensorflow-cpu=2.*
+    - pytorch=2.*=cpu*
+    - hcc-python-stack
+    channels:
+    - nodefaults
+  transformers-4.46.3-py312:
+    packages:
+    - transformers=4.46.3
+    - python=3.12
+    - tensorflow-cpu=2.*
+    - pytorch=2.*=cpu*
+    - hcc-python-stack
+    channels:
+    - nodefaults
