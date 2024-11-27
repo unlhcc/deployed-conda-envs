@@ -31,3 +31,25 @@ env_specs:
     - pytorch=2.0.0=cuda112*
     - hcc-python-stack
     channels: []
+  transformers-gpu-4.46.3-py310:
+    packages:
+    - transformers=4.46.3
+    - python=3.10
+    - tensorflow=2.*=cuda11*
+    - pytorch=2.*=cuda11*
+    - hcc-python-stack
+    - cudatoolkit=11.*
+    - cuda-version=11.*
+    channels:
+    - nodefaults
+  transformers-gpu-4.46.3-py311:
+    packages:
+    - transformers=4.46.3
+    - python=3.11
+    - tensorflow=2.*=cuda11*
+    - pytorch=2.*=cuda11*
+    - hcc-python-stack
+    - cudatoolkit=11.*
+    - cuda-version=11.*
+    channels:
+    - nodefaults
