@@ -30,4 +30,6 @@ env_specs:
   braker3-3.0.8:
     packages:
     - braker3=3.0.8
+    - augustus=3.5.0
+    - genemark-et=4.3.3
     channels: []
