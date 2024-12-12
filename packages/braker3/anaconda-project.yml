@@ -33,4 +33,7 @@ env_specs:
     - augustus=3.5.0
     - genemark-et=4.3.3
     - prothint=2.6.0
-    channels: []
+    - cdbtools=0.99
+    - libboost=1.85
+    channels:
+    - nodefaults
