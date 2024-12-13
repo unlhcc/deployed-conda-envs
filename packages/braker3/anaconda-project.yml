@@ -31,7 +31,7 @@ env_specs:
     packages:
     - braker3=3.0.8
     - augustus=3.5.0
-    - genemark-et=4.3.3
+    - genemark-et=4.72
     - prothint=2.6.0
     - cdbtools=0.99
     - libboost=1.85
