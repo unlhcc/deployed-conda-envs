@@ -1,0 +1,107 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  lumpy-2022.03.15:
+    locked: true
+    env_spec_hash: 6eb051995f2048fd615db3a2665aa69b20b41cd7
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - blas=1.0=openblas
+      - blist=1.3.6=py39h27cfd23_2
+      - bottleneck=1.4.2=py39ha9d4c09_0
+      - brotli-bin=1.0.9=h5eee18b_8
+      - brotli=1.0.9=h5eee18b_8
+      - ca-certificates=2024.11.26=h06a4308_0
+      - contourpy=1.2.0=py39hdb19cb5_0
+      - cycler=0.11.0=pyhd3eb1b0_0
+      - dill=0.3.8=py39h06a4308_0
+      - fonttools=4.51.0=py39h5eee18b_0
+      - freetype=2.12.1=h4a9f257_0
+      - gf2x=1.3.0=h75e9656_1
+      - gmp=6.2.1=h295c915_3
+      - gmpy2=2.1.2=py39heeb90bb_0
+      - imageio=2.33.1=py39h06a4308_0
+      - importlib_resources=6.4.0=py39h06a4308_0
+      - jpeg=9e=h5eee18b_3
+      - kiwisolver=1.4.4=py39h6a678d5_0
+      - lcms2=2.16=hb9589c4_0
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - lerc=4.0.0=h6a678d5_0
+      - libbrotlicommon=1.0.9=h5eee18b_8
+      - libbrotlidec=1.0.9=h5eee18b_8
+      - libbrotlienc=1.0.9=h5eee18b_8
+      - libdeflate=1.22=h5eee18b_0
+      - libffi=3.4.4=h6a678d5_1
+      - libflint=2.8.4=hd3cd37b_ntl_100
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libopenblas=0.3.21=h043d6bf_0
+      - libpng=1.6.39=h5eee18b_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libtiff=4.5.1=hffd6297_1
+      - libwebp-base=1.3.2=h5eee18b_1
+      - lumpy=0.0.2022.03.15=py39h121872b_0
+      - lz4-c=1.9.4=h6a678d5_1
+      - matplotlib-base=3.9.2=py39hbfdbfaf_1
+      - mpc=1.2.1=h9f54685_0
+      - mpfr=4.1.0=h5cefa2a_0
+      - mpmath=1.3.0=py39h06a4308_0
+      - multiprocess=0.70.15=py39h06a4308_0
+      - ncurses=6.4=h6a678d5_0
+      - networkx=3.2.1=py39h06a4308_0
+      - ntl=11.4.3=hef3c4d3_1
+      - numexpr=2.10.1=py39hd28fd6d_0
+      - numpy-base=1.26.4=py39h8a23956_0
+      - numpy=1.26.4=py39heeff2f4_0
+      - openjpeg=2.5.2=he7f1fd0_0
+      - openssl=3.0.15=h5eee18b_0
+      - packaging=24.2=py39h06a4308_0
+      - pandas=2.2.3=py39h6a678d5_0
+      - pathos=0.3.0=py39h06a4308_0
+      - pillow=11.0.0=py39hcea889d_1
+      - pip=24.2=py39h06a4308_0
+      - pox=0.3.3=py39h06a4308_0
+      - ppft=1.7.6.7=py39h06a4308_0
+      - pybind11-abi=4=hd3eb1b0_1
+      - pyparsing=3.2.0=py39h06a4308_0
+      - python-dateutil=2.9.0post0=py39h06a4308_2
+      - python-tzdata=2023.3=pyhd3eb1b0_0
+      - python=3.9.21=he870216_1
+      - pytz=2024.1=py39h06a4308_0
+      - readline=8.2=h5eee18b_0
+      - scipy=1.13.1=py39heeff2f4_1
+      - seaborn=0.13.2=py39h06a4308_0
+      - setuptools=75.1.0=py39h06a4308_0
+      - six=1.16.0=pyhd3eb1b0_1
+      - sqlite=3.45.3=h5eee18b_0
+      - symengine=0.8.1=hc116c36_1
+      - sympy=1.13.2=py39h06a4308_0
+      - tk=8.6.14=h39e8969_0
+      - tqdm=4.66.5=py39h2f386ee_0
+      - tzdata=2024b=h04d1e81_0
+      - unicodedata2=15.1.0=py39h5eee18b_0
+      - wheel=0.44.0=py39h06a4308_0
+      - xz=5.4.6=h5eee18b_1
+      - zipp=3.21.0=py39h06a4308_0
+      - zlib=1.2.13=h5eee18b_1
+      - zstd=1.5.6=hc292b87_0
