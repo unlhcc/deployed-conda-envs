@@ -31,3 +31,9 @@ env_specs:
     - python=3.7
     - perl=5.26
     channels: []
+  stacks-2.68:
+    packages:
+    - stacks=2.68
+    - python
+    - perl
+    channels: []
