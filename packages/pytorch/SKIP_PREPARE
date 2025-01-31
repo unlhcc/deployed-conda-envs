@@ -20,3 +20,5 @@ pytorch-1.13.0-py39
 pytorch-1.13.0-py310
 pytorch-2.0.0-py310
 pytorch-2.0.0-py311
+pytorch-2.3.1-py39
+pytorch-2.3.1-py311
