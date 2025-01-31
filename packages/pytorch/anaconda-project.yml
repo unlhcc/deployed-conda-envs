@@ -257,3 +257,39 @@ env_specs:
     - tensorflow=2.17.0=*cpu*
     channels:
     - nodefaults
+  pytorch-2.5.1-py39:
+    packages:
+    - pytorch=2.5.1=*cpu*
+    - python=3.9
+    - hcc-python-stack
+    - torchvision=0.20.1=*cpu*
+    - torchaudio=2.5.1=*cpu*
+    channels:
+    - nodefaults
+  pytorch-2.5.1-py310:
+    packages:
+    - pytorch=2.5.1=*cpu*
+    - python=3.10
+    - hcc-python-stack
+    - torchvision=0.20.1=*cpu*
+    - torchaudio=2.5.1=*cpu*
+    channels:
+    - nodefaults
+  pytorch-2.5.1-py311:
+    packages:
+    - pytorch=2.5.1=*cpu*
+    - python=3.11
+    - hcc-python-stack
+    - torchvision=0.20.1=*cpu*
+    - torchaudio=2.5.1=*cpu*
+    channels:
+    - nodefaults
+  pytorch-2.5.1-py312:
+    packages:
+    - pytorch=2.5.1=*cpu*
+    - python=3.12
+    - hcc-python-stack
+    - torchvision=0.20.1=*cpu*
+    - torchaudio=2.5.1=*cpu*
+    channels:
+    - nodefaults

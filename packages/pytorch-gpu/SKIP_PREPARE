@@ -10,3 +10,5 @@ pytorch-gpu-1.13.0-py39
 pytorch-gpu-1.13.0-py310
 pytorch-gpu-2.0.0-py310
 pytorch-gpu-2.0.0-py311
+pytorch-gpu-2.3.1-py39
+pytorch-gpu-2.3.1-py311

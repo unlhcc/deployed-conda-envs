@@ -194,3 +194,43 @@ env_specs:
     - cudatoolkit=12
     channels:
     - nodefaults
+  pytorch-gpu-2.5.1-py39:
+    packages:
+    - pytorch=2.5.1=*cuda11*
+    - python=3.9
+    - hcc-python-stack
+    - torchvision=0.20.1=*cuda11*
+    - torchaudio=2.5.1=*cuda_11*
+    - cudatoolkit=11.8
+    channels:
+    - nodefaults
+  pytorch-gpu-2.5.1-py310:
+    packages:
+    - pytorch=2.5.1=*cuda11*
+    - python=3.10
+    - hcc-python-stack
+    - torchvision=0.20.1=*cuda11*
+    - torchaudio=2.5.1=*cuda_11*
+    - cudatoolkit=11.8
+    channels:
+    - nodefaults
+  pytorch-gpu-2.5.1-py311:
+    packages:
+    - pytorch=2.5.1=*cuda11*
+    - python=3.11
+    - hcc-python-stack
+    - torchvision=0.20.1=*cuda11*
+    - torchaudio=2.5.1=*cuda_11*
+    - cudatoolkit=11.8
+    channels:
+    - nodefaults
+  pytorch-gpu-2.5.1-py312:
+    packages:
+    - pytorch=2.5.1=*cuda11*
+    - python=3.12
+    - hcc-python-stack
+    - torchvision=0.20.1=*cuda11*
+    - torchaudio=2.5.1=*cuda_11*
+    - cudatoolkit=11.8
+    channels:
+    - nodefaults
