@@ -32,7 +32,7 @@ env_specs:
     - openjdk=11
     - numpy
     - pandas
-    - easypqp
+    - easypqp=0.1.50
     - lxml
     channels:
     - nodefaults
