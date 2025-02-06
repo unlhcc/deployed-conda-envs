@@ -32,3 +32,5 @@ tensorflow-2.10.0-py38
 tensorflow-2.10.0-py39
 tensorflow-2.11.0-py38
 tensorflow-2.11.0-py39
+tensorflow-2.15.0-py310
+tensorflow-2.15.0-py311

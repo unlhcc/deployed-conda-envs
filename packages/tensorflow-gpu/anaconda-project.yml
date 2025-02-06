@@ -530,3 +530,23 @@ env_specs:
       - tensorflow-probability==0.23.0
     channels:
     - nodefaults
+  tensorflow-gpu-2.17.0-py310:
+    packages:
+    - tensorflow=2.17.0=cuda120*
+    - python=3.10
+    - hcc-python-stack
+    - cloudpickle=3.0.0
+    - dm-tree=0.1.8
+    - tensorflow-probability=0.24.0
+    - cudatoolkit=12.4.1
+    channels: []
+  tensorflow-gpu-2.17.0-py311:
+    packages:
+    - tensorflow=2.17.0=cuda120*
+    - python=3.11
+    - hcc-python-stack
+    - cloudpickle=3.0.0
+    - dm-tree=0.1.8
+    - tensorflow-probability=0.24.0
+    - cudatoolkit=12.4.1
+    channels: []
