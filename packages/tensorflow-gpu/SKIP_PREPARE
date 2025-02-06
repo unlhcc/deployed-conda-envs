@@ -32,3 +32,5 @@ tensorflow-gpu-2.10.0-py38
 tensorflow-gpu-2.10.0-py39
 tensorflow-gpu-2.11.0-py38
 tensorflow-gpu-2.11.0-py39
+tensorflow-gpu-2.15.0-py310
+tensorflow-gpu-2.15.0-py311
