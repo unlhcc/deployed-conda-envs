@@ -1,0 +1,38 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  intel-opencl-rt-2025.0.4:
+    locked: true
+    env_spec_hash: 2041857cb7b231043c52cd024af318c66bc44306
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - icu=73.1=h6a678d5_0
+      - intel-cmplr-lib-rt=2025.0.4=he621ea3_1519
+      - intel-cmplr-lic-rt=2025.0.4=h06a4308_1519
+      - intel-opencl-rt=2025.0.4=h84d1d4e_1519
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libxml2=2.13.5=hfdd30dd_0
+      - ocl-icd=2.3.2=h5eee18b_1
+      - tbb=2022.0.0=hdb19cb5_0
+      - xz=5.6.4=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1
