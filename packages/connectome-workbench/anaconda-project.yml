@@ -36,3 +36,7 @@ env_specs:
     - connectome-workbench=1.3.2
     - xorg-libxdamage
     channels: []
+  connectome-workbench-2.0.1:
+    packages:
+    - connectome-workbench=2.0.1
+    channels: []
