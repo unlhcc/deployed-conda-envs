@@ -609,6 +609,7 @@ env_specs:
     - bioconductor-goseq
     - bioconductor-monocle
     - bioconductor-cicero
+    - bioconductor-diffbind
     channels:
     - nodefaults
 packages: []
