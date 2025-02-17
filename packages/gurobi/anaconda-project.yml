@@ -115,3 +115,21 @@ env_specs:
     - gurobi-matlab=11.0.0
     channels:
     - Gurobi
+  gurobi-12.0.1-py310:
+    packages:
+    - gurobi=12.0.1
+    - python=3.10
+    - hcc-python-stack=1.0
+    - coin-or-osi=0.108.11
+    - gurobi-matlab=12.0.1
+    channels:
+    - Gurobi
+  gurobi-12.0.1-py311:
+    packages:
+    - gurobi=12.0.1
+    - python=3.11
+    - hcc-python-stack=1.0
+    - coin-or-osi=0.108.11
+    - gurobi-matlab=12.0.1
+    channels:
+    - Gurobi
