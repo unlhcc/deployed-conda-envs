@@ -610,6 +610,7 @@ env_specs:
     - bioconductor-monocle
     - bioconductor-cicero
     - bioconductor-diffbind
+    - bioconductor-chipqc=1.38.0
     channels:
     - nodefaults
 packages: []
