@@ -2834,7 +2834,7 @@ env_specs:
       - zstd=1.5.5=hfc55251_0
   bioconductor-3.18:
     locked: true
-    env_spec_hash: c2af30648eefa5cd1968422f3b011ef375fe5e5d
+    env_spec_hash: 8ef8e6205d3d2e8f6ac2b4c86a1a87d48969f066
     platforms:
     - linux-64
     packages:
@@ -2948,6 +2948,7 @@ env_specs:
       - bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene=3.2.2=r43hdfd78af_17
       - bioconductor-txdb.hsapiens.ucsc.hg18.knowngene=3.2.2=r43hdfd78af_16
       - bioconductor-txdb.hsapiens.ucsc.hg19.knowngene=3.2.2=r43hdfd78af_16
+      - bioconductor-txdb.hsapiens.ucsc.hg38.knowngene=3.18.0=r43hdfd78af_0
       - bioconductor-txdb.mmusculus.ucsc.mm10.knowngene=3.10.0=r43hdfd78af_9
       - bioconductor-txdb.mmusculus.ucsc.mm9.knowngene=3.2.2=r43hdfd78af_16
       - bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene=3.2.2=r43hdfd78af_16

@@ -611,6 +611,7 @@ env_specs:
     - bioconductor-cicero
     - bioconductor-diffbind
     - bioconductor-chipqc=1.38.0
+    - bioconductor-txdb.hsapiens.ucsc.hg38.knowngene=*
     channels:
     - nodefaults
 packages: []
