@@ -2834,7 +2834,7 @@ env_specs:
       - zstd=1.5.5=hfc55251_0
   bioconductor-3.18:
     locked: true
-    env_spec_hash: a19d352fbb1044b4931061e5a26c0e6aad75dac4
+    env_spec_hash: c2af30648eefa5cd1968422f3b011ef375fe5e5d
     platforms:
     - linux-64
     packages:
@@ -2871,6 +2871,8 @@ env_specs:
       - bioconductor-bsgenome=1.70.1=r43hdfd78af_0
       - bioconductor-chipenrich.data=2.26.0=r43hdfd78af_0
       - bioconductor-chipenrich=2.26.0=r43hdfd78af_0
+      - bioconductor-chipqc=1.38.0=r43hdfd78af_0
+      - bioconductor-chipseq=1.52.0=r43ha9d7317_1
       - bioconductor-cicero=1.20.0=r43hdfd78af_0
       - bioconductor-dada2=1.30.0=r43hf17093f_0
       - bioconductor-data-packages=20250105.1=hdfd78af_0
@@ -2942,6 +2944,13 @@ env_specs:
       - bioconductor-systempiper=2.8.0=r43hdfd78af_0
       - bioconductor-treeio=1.26.0=r43hdfd78af_1
       - bioconductor-treesummarizedexperiment=2.10.0=r43hdfd78af_0
+      - bioconductor-txdb.celegans.ucsc.ce6.ensgene=3.2.2=r43hdfd78af_16
+      - bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene=3.2.2=r43hdfd78af_17
+      - bioconductor-txdb.hsapiens.ucsc.hg18.knowngene=3.2.2=r43hdfd78af_16
+      - bioconductor-txdb.hsapiens.ucsc.hg19.knowngene=3.2.2=r43hdfd78af_16
+      - bioconductor-txdb.mmusculus.ucsc.mm10.knowngene=3.10.0=r43hdfd78af_9
+      - bioconductor-txdb.mmusculus.ucsc.mm9.knowngene=3.2.2=r43hdfd78af_16
+      - bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene=3.2.2=r43hdfd78af_16
       - bioconductor-variantannotation=1.48.1=r43ha9d7317_1
       - bioconductor-xvector=0.42.0=r43ha9d7317_2
       - bioconductor-zlibbioc=1.48.0=r43ha9d7317_2
@@ -2969,14 +2978,14 @@ env_specs:
       - gxx_impl_linux-64=14.2.0=h2c03514_1
       - harfbuzz=9.0.0=hda332d3_1
       - icu=75.1=he02047a_0
-      - jq=1.7.1=hd590300_0
+      - jq=1.5=0
       - kernel-headers_linux-64=3.10.0=he073ed8_18
       - keyutils=1.6.1=h166bdaf_0
       - krb5=1.21.3=h659f571_0
       - ld_impl_linux-64=2.43=h712a8e2_2
       - lerc=4.0.0=h27087fc_0
-      - libblas=3.9.0=29_h59b9bed_openblas
-      - libcblas=3.9.0=29_he106b2a_openblas
+      - libblas=3.9.0=30_h59b9bed_openblas
+      - libcblas=3.9.0=30_he106b2a_openblas
       - libcurl=8.12.1=h332b0f4_0
       - libdeflate=1.23=h4ddbbb0_0
       - libedit=3.1.20250104=pl5321h7949ede_0
@@ -2993,16 +3002,16 @@ env_specs:
       - libglib=2.82.2=h2ff4ddf_1
       - libgomp=14.2.0=h77fa898_1
       - libhwloc=2.11.2=default_h0d58e46_1001
-      - libiconv=1.17=hd590300_2
+      - libiconv=1.18=h4ce23a2_0
       - libjpeg-turbo=3.0.0=hd590300_1
-      - liblapack=3.9.0=29_h7ac8fdf_openblas
+      - liblapack=3.9.0=30_h7ac8fdf_openblas
       - liblzma=5.6.4=hb9d3cd8_0
       - libmpdec=4.0.0=h4bc722e_0
       - libnghttp2=1.64.0=h161d5f1_0
-      - libopenblas=0.3.28=pthreads_h94d23a6_1
-      - libpng=1.6.46=h943b412_0
+      - libopenblas=0.3.29=pthreads_h94d23a6_0
+      - libpng=1.6.47=h943b412_0
       - libsanitizer=14.2.0=h2a3dede_1
-      - libsqlite=3.48.0=hee588c1_1
+      - libsqlite=3.49.1=hee588c1_1
       - libssh2=1.11.1=hf672d98_0
       - libstdcxx-devel_linux-64=14.2.0=h41c2201_101
       - libstdcxx-ng=14.2.0=h4852527_1
@@ -3012,7 +3021,7 @@ env_specs:
       - libuv=1.50.0=hb9d3cd8_0
       - libwebp-base=1.5.0=h851e524_0
       - libxcb=1.17.0=h8a09558_0
-      - libxml2=2.13.5=h8d12d68_1
+      - libxml2=2.13.6=h8d12d68_0
       - libzlib=1.3.1=hb9d3cd8_2
       - llvm-openmp=19.1.7=h024ca30_0
       - make=4.4.1=hb9d3cd8_2
@@ -3021,7 +3030,6 @@ env_specs:
       - ncurses=6.5=h2d0b736_3
       - nlopt=2.8.0=py313h129aefb_2
       - numpy=2.2.3=py313h17eae1a_0
-      - oniguruma=6.9.10=hb9d3cd8_0
       - openssl=3.4.1=h7b32b05_0
       - pandoc=3.6.3=ha770c72_0
       - pango=1.54.0=h3a902e7_3
@@ -3029,11 +3037,11 @@ env_specs:
       - pip=25.0.1=pyh145f28c_0
       - pixman=0.44.2=h29eaf8c_0
       - pthread-stubs=0.4=hb9d3cd8_1002
-      - python=3.13.2=hf636f53_100_cp313
+      - python=3.13.2=hf636f53_101_cp313
       - python_abi=3.13=5_cp313
       - pyyaml=6.0.2=py313h8060acc_2
       - r-abind=1.4_5=r43hc72bb7e_1006
-      - r-ade4=1.7_22=r43h0d28552_2
+      - r-ade4=1.7_23=r43h2ae2be5_0
       - r-amap=0.8_20=r43he59cc3e_0
       - r-ape=5.8_1=r43hb79369c_0
       - r-aplot=0.2.4=r43hc72bb7e_0
@@ -3224,6 +3232,7 @@ env_specs:
       - r-nlme=3.1_167=r43hb67ce94_0
       - r-nloptr=2.1.1=r43h9b87a3a_1
       - r-nnet=7.3_20=r43h2b5f3a1_0
+      - r-nozzle.r1=1.1_1.1=r43ha770c72_3
       - r-numderiv=2016.8_1.1=r43hc72bb7e_6
       - r-openssl=2.3.2=r43he8289e2_0
       - r-osqp=0.6.3.3=r43h93ab643_2
@@ -3260,7 +3269,7 @@ env_specs:
       - r-r.methodss3=1.8.2=r43hc72bb7e_3
       - r-r.oo=1.27.0=r43hc72bb7e_0
       - r-r.utils=2.12.3=r43hc72bb7e_1
-      - r-r6=2.6.0=r43hc72bb7e_0
+      - r-r6=2.6.1=r43hc72bb7e_0
       - r-ragg=1.3.3=r43h9aa3752_0
       - r-rann=2.6.2=r43h93ab643_0
       - r-rappdirs=0.3.3=r43hb1dbf0f_3
@@ -3330,7 +3339,7 @@ env_specs:
       - r-survival=3.8_3=r43h2b5f3a1_0
       - r-sys=3.4.3=r43h2b5f3a1_0
       - r-systemfonts=1.2.1=r43h5c043a3_0
-      - r-testthat=3.2.1.1=r43h0d4f4ea_1
+      - r-testthat=3.2.3=r43h93ab643_0
       - r-textshaping=0.4.0=r43ha47bcaa_2
       - r-th.data=1.1_3=r43hc72bb7e_0
       - r-tibble=3.2.1=r43hdb488b9_3
