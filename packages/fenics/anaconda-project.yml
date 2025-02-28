@@ -33,3 +33,12 @@ env_specs:
     - mshr
     - matplotlib
     channels: []
+  fenics-2019.1.0:
+    packages:
+    - fenics=2019.1.0
+    - python=3.10
+    - sympy>=1.1
+    - mshr
+    - matplotlib
+    - openmpi=4.1.*=external_*
+    channels: []
