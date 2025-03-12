@@ -1,0 +1,56 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+env_specs:
+  ibdseq-r1206:
+    locked: true
+    env_spec_hash: e24323d725620d28ee84db43054250015e822323
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2025.2.25=h06a4308_0
+      - dbus=1.13.18=hb2f20db_0
+      - expat=2.6.4=h6a678d5_0
+      - freetype=2.12.1=h4a9f257_0
+      - glib-tools=2.78.4=h6a678d5_0
+      - glib=2.78.4=h6a678d5_0
+      - ibdseq=r1206=hdfd78af_3
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=11.2.0=h1234567_1
+      - libglib=2.78.4=hdc74915_0
+      - libgomp=11.2.0=h1234567_1
+      - libiconv=1.16=h5eee18b_3
+      - libmpdec=4.0.0=h5eee18b_0
+      - libpng=1.6.39=h5eee18b_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libuuid=1.41.5=h5eee18b_0
+      - libxcb=1.15=h7f8727e_0
+      - ncurses=6.4=h6a678d5_0
+      - openjdk=11.0.13=h87a67e3_0
+      - openssl=3.0.16=h5eee18b_0
+      - pcre2=10.42=hebb0a14_1
+      - pip=25.0=py313h06a4308_0
+      - python=3.13.2=hf623796_100_cp313
+      - python_abi=3.13=0_cp313
+      - readline=8.2=h5eee18b_0
+      - setuptools=75.8.0=py313h06a4308_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h39e8969_0
+      - tzdata=2025a=h04d1e81_0
+      - wheel=0.45.1=py313h06a4308_0
+      - xz=5.6.4=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1
