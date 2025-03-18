@@ -234,14 +234,3 @@ env_specs:
     - cudatoolkit=11.8
     channels:
     - nodefaults
-  hcc-ai-ml-workshop-2025:
-    packages:
-    - pytorch=2.5.1=*cuda11*
-    - python=3.12
-    - hcc-python-stack
-    - torchvision=0.20.1=*cuda11*
-    - torchaudio=2.5.1=*cuda_11*
-    - cudatoolkit=11.8
-    - transformers
-    channels:
-    - nodefaults
