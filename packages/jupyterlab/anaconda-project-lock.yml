@@ -917,7 +917,7 @@ env_specs:
       - zstd=1.5.6=hc292b87_0
   jupyterlab-4.0.4:
     locked: true
-    env_spec_hash: 28f57d211b4354666b713c5b3b0dce422e821160
+    env_spec_hash: 468feb309c21afb12f30c2a3eb972af6802e1cec
     platforms:
     - linux-64
     packages:
@@ -925,13 +925,13 @@ env_specs:
       - _libgcc_mutex=0.1=conda_forge
       - _openmp_mutex=4.5=2_gnu
       - _r-mutex=1.0.1=anacondar_1
-      - anyio=4.8.0=pyhd8ed1ab_0
+      - anyio=4.9.0=pyh29332c3_0
       - argon2-cffi-bindings=21.2.0=py39h8cd3c5a_5
       - argon2-cffi=23.1.0=pyhd8ed1ab_1
       - arrow=1.3.0=pyhd8ed1ab_1
       - asttokens=3.0.0=pyhd8ed1ab_1
-      - async-lru=2.0.4=pyhd8ed1ab_1
-      - attrs=25.1.0=pyh71513ae_0
+      - async-lru=2.0.5=pyh29332c3_0
+      - attrs=25.3.0=pyh71513ae_0
       - autopep8=2.0.2=pyhd8ed1ab_0
       - babel=2.17.0=pyhd8ed1ab_0
       - beautifulsoup4=4.13.3=pyha770c72_0
@@ -957,13 +957,13 @@ env_specs:
       - colorama=0.4.6=pyhd8ed1ab_1
       - comm=0.2.2=pyhd8ed1ab_1
       - conda-package-handling=2.4.0=pyh7900ff3_2
-      - conda-package-streaming=0.11.0=pyhd8ed1ab_0
+      - conda-package-streaming=0.11.0=pyhd8ed1ab_1
       - conda=23.7.4=py39hf3d152e_0
       - contourpy=1.3.0=py39h74842e3_2
-      - cryptography=44.0.1=py39h7170ec2_0
+      - cryptography=44.0.2=py39h7170ec2_0
       - curl=8.12.1=h332b0f4_0
       - cycler=0.12.1=pyhd8ed1ab_1
-      - debugpy=1.8.12=py39hf88036b_0
+      - debugpy=1.8.13=py39hf88036b_0
       - decorator=5.2.1=pyhd8ed1ab_0
       - defusedxml=0.7.1=pyhd8ed1ab_0
       - exceptiongroup=1.2.2=pyhd8ed1ab_1
@@ -978,7 +978,7 @@ env_specs:
       - fonts-conda-forge=1=0
       - fonttools=4.56.0=py39h9399b63_0
       - fqdn=1.5.1=pyhd8ed1ab_1
-      - freetype=2.12.1=h267a509_2
+      - freetype=2.13.3=h48d6fc4_0
       - fribidi=1.0.10=h36c2ea0_0
       - gcc_impl_linux-64=14.2.0=hdb7739f_2
       - gettext-tools=0.23.1=h5888daf_0
@@ -992,7 +992,7 @@ env_specs:
       - gxx_impl_linux-64=14.2.0=h2ead766_2
       - h2=4.2.0=pyhd8ed1ab_0
       - harfbuzz=7.3.0=hdb3a94d_0
-      - hcc-jupyter-kernels=2025.02.28=h121872b_0
+      - hcc-jupyter-kernels=2025.03.18=h121872b_0
       - hpack=4.1.0=pyhd8ed1ab_0
       - hyperframe=6.1.0=pyhd8ed1ab_0
       - icu=72.1=hcb278e6_0
@@ -1009,7 +1009,7 @@ env_specs:
       - isoduration=20.11.0=pyhd8ed1ab_1
       - isort=5.12.0=pyhd8ed1ab_1
       - jedi=0.19.2=pyhd8ed1ab_1
-      - jinja2=3.1.5=pyhd8ed1ab_0
+      - jinja2=3.1.6=pyhd8ed1ab_0
       - json5=0.10.0=pyhd8ed1ab_1
       - jsonpatch=1.33=pyhd8ed1ab_1
       - jsonpointer=3.0.0=py39hf3d152e_1
@@ -1080,7 +1080,7 @@ env_specs:
       - libsanitizer=14.2.0=hed042b8_2
       - libsodium=1.0.20=h4ab18f5_0
       - libsolv=0.7.30=h3509ff9_0
-      - libsqlite=3.49.1=hee588c1_1
+      - libsqlite=3.49.1=hee588c1_2
       - libssh2=1.11.1=hf672d98_0
       - libstdcxx-devel_linux-64=14.2.0=h9c4974d_102
       - libstdcxx-ng=14.2.0=h4852527_2
@@ -1152,7 +1152,7 @@ env_specs:
       - python_abi=3.9=5_cp39
       - pytz=2025.1=pyhd8ed1ab_0
       - pyyaml=6.0.2=py39h9399b63_2
-      - pyzmq=26.2.1=py39h4e4fb57_0
+      - pyzmq=26.3.0=py39h4e4fb57_0
       - qhull=2020.2=h434a139_5
       - r-backports=1.5.0=r43hb1dbf0f_1
       - r-base=4.3.1=hc8cfde1_4
@@ -1228,7 +1228,7 @@ env_specs:
       - widgetsnbextension=4.0.13=pyhd8ed1ab_1
       - xorg-kbproto=1.0.7=hb9d3cd8_1003
       - xorg-libice=1.1.2=hb9d3cd8_0
-      - xorg-libsm=1.2.5=he73a12e_0
+      - xorg-libsm=1.2.6=he73a12e_0
       - xorg-libx11=1.8.9=h8ee46fc_0
       - xorg-libxau=1.0.12=hb9d3cd8_0
       - xorg-libxdmcp=1.1.5=hb9d3cd8_0
@@ -1247,5 +1247,5 @@ env_specs:
       - zeromq=4.3.5=h3b0a872_7
       - zipp=3.21.0=pyhd8ed1ab_1
       - zlib=1.3.1=hb9d3cd8_2
-      - zstandard=0.19.0=py39hb9d737c_0
+      - zstandard=0.23.0=py39h8cd3c5a_1
       - zstd=1.5.7=hb8e6e7a_1

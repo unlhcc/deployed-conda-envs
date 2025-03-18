@@ -127,7 +127,7 @@ env_specs:
     - jupyter-archive=3.3.4
     - jupyterlab-latex=3.1.0
     - jupyterlmod=3.0.0
-    - hcc-jupyter-kernels=2025.02.28
+    - hcc-jupyter-kernels=2025.03.18
     channels: [conda-forge]
 # Remove the default python3 kernel as we provide that in the hcc-jupyter-kernels package
 commands:
