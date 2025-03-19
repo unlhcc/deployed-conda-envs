@@ -1,0 +1,113 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  deepmriprep-0.1.0:
+    locked: true
+    env_spec_hash: 10133d51a9d448a3d7527986f61e79c875a5d7bd
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - bottleneck=1.4.2=py39ha9d4c09_0
+      - brotli-python=1.0.9=py39h6a678d5_9
+      - ca-certificates=2025.2.25=h06a4308_0
+      - certifi=2025.1.31=py39h06a4308_0
+      - cffi=1.17.1=py39h1fdaa30_1
+      - charset-normalizer=3.3.2=pyhd3eb1b0_0
+      - connected-components-3d=3.17.0=py39he5d7314_0
+      - cuda-version=11.4=h9a1adb1_3
+      - cudatoolkit=11.4.4=h5e1937b_4
+      - cudnn=8.9.2.26=cuda11_0
+      - customtkinter=5.2.2=pyh7cba7a3_0
+      - darkdetect=0.8.0=pyhd8ed1ab_1
+      - deepbet=1.0.2=cuda_py39h7962fad_0
+      - deepmriprep=0.1.0=cuda_py39hd69850c_0
+      - expat=2.6.4=h6a678d5_0
+      - fastremap=1.14.0=py39hda80f44_1
+      - fill-voids=2.0.8=py39hb5d108a_0
+      - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
+      - font-ttf-inconsolata=2.001=hcb22688_0
+      - font-ttf-source-code-pro=2.030=hd3eb1b0_0
+      - font-ttf-ubuntu=0.83=h8b1ccd4_0
+      - fontconfig=2.14.2=h14ed4e7_0
+      - fonts-anaconda=1=h8fa9717_0
+      - fonts-conda-ecosystem=1=hd3eb1b0_0
+      - freetype=2.12.1=h4a9f257_0
+      - idna=3.7=py39h06a4308_0
+      - importlib_resources=6.4.0=py39h06a4308_0
+      - intel-openmp=2022.1.0=h9e868ea_3769
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libblas=3.9.0=16_linux64_mkl
+      - libcblas=3.9.0=16_linux64_mkl
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=14.2.0=h69a702a_2
+      - libgcc=14.2.0=h767d61c_2
+      - libgomp=14.2.0=h767d61c_2
+      - liblapack=3.9.0=16_linux64_mkl
+      - libpng=1.6.39=h5eee18b_0
+      - libprotobuf=3.20.3=he621ea3_0
+      - libstdcxx-ng=14.2.0=h4852527_2
+      - libstdcxx=14.2.0=h8f9b012_2
+      - libuuid=2.38.1=h0b41bf4_0
+      - libxcb=1.17.0=h8a09558_0
+      - libzlib=1.2.13=h4ab18f5_6
+      - magma=2.5.4=hc72dce7_4
+      - mkl=2022.1.0=hc2b9512_224
+      - nccl=2.26.2.1=h03a54cd_0
+      - ncurses=6.4=h6a678d5_0
+      - nibabel=5.3.2=pyha770c72_1
+      - ninja-base=1.12.1=hdb19cb5_0
+      - ninja=1.12.1=h06a4308_0
+      - numexpr=2.8.3=mkl_py39h6189487_1
+      - numpy=1.26.4=py39h474f0d3_0
+      - openssl=3.0.16=h5eee18b_0
+      - packaging=24.2=py39h06a4308_0
+      - pandas=2.1.4=py39h1128e8f_0
+      - pip=25.0=py39h06a4308_0
+      - poetry-core=1.5.2=py39h06a4308_0
+      - pthread-stubs=0.3=h0ce48e5_1
+      - pycparser=2.21=pyhd3eb1b0_0
+      - pysocks=1.7.1=py39h06a4308_0
+      - python-dateutil=2.9.0post0=py39h06a4308_2
+      - python-tzdata=2023.3=pyhd3eb1b0_0
+      - python=3.9.19=h955ad1f_0
+      - python_abi=3.9=2_cp39
+      - pytorch=1.11.0=cuda112py39ha0cca9b_202
+      - pytz=2024.1=py39h06a4308_0
+      - readline=8.2=h5eee18b_0
+      - requests=2.32.3=py39h06a4308_1
+      - setuptools=75.8.0=py39h06a4308_0
+      - six=1.16.0=pyhd3eb1b0_1
+      - sleef=3.5.1=h5eee18b_2
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.13=xft_h2e05e87_1
+      - torchreg=0.1.2=cuda_py39hc8cc138_0
+      - tqdm=4.67.1=py39h2f386ee_0
+      - typing_extensions=4.12.2=py39h06a4308_0
+      - tzdata=2025a=h04d1e81_0
+      - urllib3=2.3.0=py39h06a4308_0
+      - wheel=0.45.1=py39h06a4308_0
+      - xorg-libx11=1.8.12=h4f16b4b_0
+      - xorg-libxau=1.0.12=hb9d3cd8_0
+      - xorg-libxdmcp=1.1.5=hb9d3cd8_0
+      - xorg-libxft=2.3.8=hf69aa0a_0
+      - xorg-libxrender=0.9.12=hb9d3cd8_0
+      - xz=5.6.4=h5eee18b_1
+      - zipp=3.21.0=py39h06a4308_0
+      - zlib=1.2.13=h4ab18f5_6
