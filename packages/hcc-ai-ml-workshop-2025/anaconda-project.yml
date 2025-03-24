@@ -33,5 +33,6 @@ env_specs:
     - torchaudio=2.5.1=*cuda_11*
     - cudatoolkit=11.8
     - transformers
+    - tensorboard
     channels:
     - nodefaults
