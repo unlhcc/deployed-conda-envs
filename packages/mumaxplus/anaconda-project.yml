@@ -28,9 +28,11 @@ env_specs:
     packages:
     - mumaxplus=1.0.0
     - python=3.10
+    - tqdm
     channels: []
   mumaxplus-1.0.0-py39:
     packages:
     - mumaxplus=1.0.0
     - python=3.9
+    - tqdm
     channels: []
