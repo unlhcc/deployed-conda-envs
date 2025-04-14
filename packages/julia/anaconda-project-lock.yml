@@ -399,3 +399,11 @@ env_specs:
       - tbb=2021.8.0=hdb19cb5_0
       - xz=5.4.6=h5eee18b_0
       - zlib=1.2.13=hd590300_5
+  julia-1.11.4:
+    locked: true
+    env_spec_hash: 11c1bafc52fe980b8999d75cc634ed9e673deb58
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - julia=1.11.4=h5e1937b_0
