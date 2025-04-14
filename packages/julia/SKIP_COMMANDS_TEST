@@ -1,4 +1,5 @@
 add-ijulia
 fix-startup
 add-ijulia-1.7.2
-add-ijulia-1.9.2
+add-pkgs-julia-1.9.2
+add-pkgs-julia-1.10.2
