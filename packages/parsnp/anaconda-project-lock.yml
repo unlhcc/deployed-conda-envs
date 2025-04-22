@@ -1,0 +1,79 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  parsnp-2.1.3:
+    locked: true
+    env_spec_hash: c824b8f64fba5aa4f11a42e60c781e99b816e18b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - biopython=1.78=py310h7f8727e_0
+      - blas-devel=3.9.0=31_h1ea3ea9_openblas
+      - blas=2.131=openblas
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2025.2.25=h06a4308_0
+      - capnproto=1.0.2=h766bdaa_3
+      - fastani=1.34=hb66fcc3_5
+      - fasttree=2.1.11=h7b50bb2_5
+      - gsl=2.7.1=h6e86dc7_1
+      - harvesttools=1.2=ha9fde67_2
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libblas=3.9.0=31_h59b9bed_openblas
+      - libcblas=3.9.0=31_he106b2a_openblas
+      - libexpat=2.7.0=h5888daf_0
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=14.2.0=h69a702a_2
+      - libgcc=14.2.0=h767d61c_2
+      - libgfortran5=14.2.0=hf1ad2bd_2
+      - libgfortran=14.2.0=h69a702a_2
+      - libgomp=14.2.0=h767d61c_2
+      - liblapack=3.9.0=31_h7ac8fdf_openblas
+      - liblapacke=3.9.0=31_he2f377e_openblas
+      - liblzma=5.8.1=hb9d3cd8_0
+      - libnsl=2.0.1=hd590300_0
+      - libopenblas=0.3.29=pthreads_h94d23a6_0
+      - libsqlite=3.49.1=hee588c1_2
+      - libstdcxx-ng=14.2.0=h4852527_2
+      - libstdcxx=14.2.0=h8f9b012_2
+      - libuuid=2.38.1=h0b41bf4_0
+      - libxcrypt=4.4.36=hd590300_1
+      - libzlib=1.3.1=hb9d3cd8_2
+      - llvm-openmp=8.0.1=hc9558a2_0
+      - mash=2.3=hb105d93_9
+      - ncurses=6.5=h2d0b736_3
+      - numpy-base=1.26.4=py310h8a23956_0
+      - numpy=1.26.4=py310heeff2f4_0
+      - openblas=0.3.29=pthreads_h6ec200e_0
+      - openmp=8.0.1=0
+      - openssl=3.5.0=h7b32b05_0
+      - parsnp=2.1.3=h077b44d_0
+      - phipack=1.1=h7b50bb2_5
+      - pip=25.0=py310h06a4308_0
+      - pyspoa=0.2.1=py310h275bdba_4
+      - python=3.10.17=hd6af730_0_cpython
+      - python_abi=3.10=7_cp310
+      - raxml=8.2.13=h7b50bb2_3
+      - readline=8.2=h5eee18b_0
+      - setuptools=75.8.0=py310h06a4308_0
+      - tk=8.6.13=noxft_h4845f30_101
+      - tqdm=4.67.1=py310h2f386ee_0
+      - tzdata=2025a=h04d1e81_0
+      - wheel=0.45.1=py310h06a4308_0
+      - zlib=1.3.1=hb9d3cd8_2
