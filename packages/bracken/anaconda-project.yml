@@ -31,3 +31,8 @@ env_specs:
     - bracken=2.6.0
     - python=3.7
     channels: []
+  bracken-3.1:
+    packages:
+    - bracken=3.1
+    - python=3.9
+    channels: []
