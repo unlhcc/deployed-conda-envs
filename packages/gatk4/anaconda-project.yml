@@ -92,3 +92,13 @@ env_specs:
     - r-gsalib
     - r-reshape
     channels: []
+  gatk4-4.6.2.0:
+    packages:
+    - gatk4=4.6.2.0
+    - python=3.10
+    - r-base=4.4
+    - r-gplots
+    - r-ggplot2
+    - r-gsalib
+    - r-reshape
+    channels: []
