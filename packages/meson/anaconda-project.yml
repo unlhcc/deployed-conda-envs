@@ -29,3 +29,7 @@ env_specs:
     - meson=0.61.1
     - python=3.9
     channels: []
+  meson-1.8:
+    packages:
+    - meson=1.8
+    channels: []
