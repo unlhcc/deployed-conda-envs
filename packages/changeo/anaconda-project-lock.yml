@@ -1,0 +1,120 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  changeo-1.3:
+    locked: true
+    env_spec_hash: 4efd4031c88152ba9b6d6741667c930c44c16c7c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - airr=1.5.1=pyh7cba7a3_0
+      - biopython=1.85=py313h536fd9c_1
+      - blas-devel=3.9.0=31_h1ea3ea9_openblas
+      - blas=2.131=openblas
+      - blast=2.12.0=pl5262h3289130_0
+      - bottleneck=1.4.2=py313hf0014fa_0
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.19.1=h5eee18b_0
+      - ca-certificates=2025.2.25=h06a4308_0
+      - changeo=1.3.1=pyhdfd78af_0
+      - curl=7.88.1=hdbd6064_2
+      - entrez-direct=22.4=he881be0_0
+      - expat=2.7.1=h6a678d5_0
+      - gettext=0.21.0=hedfda30_2
+      - icu=73.1=h6a678d5_0
+      - krb5=1.20.1=h143b758_1
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libblas=3.9.0=31_h59b9bed_openblas
+      - libcblas=3.9.0=31_he106b2a_openblas
+      - libcurl=7.88.1=h251f7ec_2
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=15.1.0=h69a702a_2
+      - libgcc=15.1.0=h767d61c_2
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libgomp=15.1.0=h767d61c_2
+      - libiconv=1.16=h5eee18b_3
+      - libidn2=2.3.4=h5eee18b_0
+      - liblapack=3.9.0=31_h7ac8fdf_openblas
+      - liblapacke=3.9.0=31_he2f377e_openblas
+      - libmpdec=4.0.0=h5eee18b_0
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libopenblas=0.3.29=ha39b09d_0
+      - libssh2=1.11.1=h251f7ec_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libstdcxx=15.1.0=h8f9b012_2
+      - libunistring=0.9.10=h27cfd23_0
+      - libuuid=1.41.5=h5eee18b_0
+      - libxml2=2.13.8=hfdd30dd_0
+      - muscle=5.3=h4ac6f70_0
+      - ncurses=6.4=h6a678d5_0
+      - nomkl=3.0=0
+      - numexpr=2.10.1=py313hd28fd6d_0
+      - numpy=2.2.5=py313h17eae1a_0
+      - openblas-devel=0.3.29=ha39b09d_0
+      - openblas=0.3.29=h06a4308_0
+      - openssl=3.0.16=h5eee18b_0
+      - packaging=24.2=py313h06a4308_0
+      - pandas=2.2.3=py313h6a678d5_0
+      - pcre2=10.42=hebb0a14_1
+      - pcre=8.45=h295c915_0
+      - perl-archive-tar=2.32=pl526_0
+      - perl-carp=1.38=pl526_3
+      - perl-common-sense=3.74=pl526_2
+      - perl-compress-raw-bzip2=2.087=pl526he1b5a44_0
+      - perl-compress-raw-zlib=2.087=pl526hc9558a2_0
+      - perl-exporter-tiny=1.002001=pl526_0
+      - perl-exporter=5.72=pl526_1
+      - perl-extutils-makemaker=7.36=pl526_1
+      - perl-io-compress=2.087=pl526he1b5a44_0
+      - perl-io-zlib=1.10=pl526_2
+      - perl-json-xs=2.34=pl526h6bb024c_3
+      - perl-json=4.02=pl526_0
+      - perl-list-moreutils-xs=0.428=pl526_0
+      - perl-list-moreutils=0.428=pl526_1
+      - perl-pathtools=3.75=pl526h14c3975_1
+      - perl-scalar-list-utils=1.52=pl526h516909a_0
+      - perl-types-serialiser=1.0=pl526_2
+      - perl-xsloader=0.24=pl526_0
+      - perl=5.26.2=h14c3975_0
+      - pip=25.1=pyhc872135_2
+      - presto=0.7.4=pyhdfd78af_0
+      - python-dateutil=2.9.0post0=py313h06a4308_2
+      - python-tzdata=2025.2=pyhd3eb1b0_0
+      - python=3.13.2=hf623796_100_cp313
+      - python_abi=3.13=0_cp313
+      - pytz=2024.1=py313h06a4308_0
+      - pyyaml=6.0.2=py313h5eee18b_0
+      - readline=8.2=h5eee18b_0
+      - scipy=1.15.2=py313h3a69d60_1
+      - setuptools=78.1.1=py313h06a4308_0
+      - six=1.17.0=py313h06a4308_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h39e8969_0
+      - tzdata=2025b=h04d1e81_0
+      - vsearch=2.18.0=h95f258a_0
+      - wget=1.25.0=h251f7ec_0
+      - wheel=0.45.1=py313h06a4308_0
+      - xz=5.6.4=h5eee18b_1
+      - yaml=0.2.5=h7b6447c_0
+      - yamlordereddictloader=0.4.0=py_0
+      - zlib=1.2.13=h5eee18b_1

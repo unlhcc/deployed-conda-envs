@@ -1,0 +1,19 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: Change-O
+description: Repertoire clonal assignment toolkit
+platforms:
+- linux-64
+env_specs:
+  changeo-1.3:
+    packages:
+    - changeo=1.3
+    channels: []
