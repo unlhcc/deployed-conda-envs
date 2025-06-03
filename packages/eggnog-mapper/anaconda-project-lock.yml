@@ -68,3 +68,74 @@ env_specs:
       - xz=5.2.5=h516909a_1
       - zlib=1.2.11=h516909a_1010
       - zstd=1.5.0=ha95c52a_0
+  eggnog-mapper-2.1.12:
+    locked: true
+    env_spec_hash: 4c6e6ec7e686567cfe1e71478f19ba7c87a2647d
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - aria2=1.37.0=h347180d_1
+      - biopython=1.78=py311h5eee18b_0
+      - blas=1.0=openblas
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.34.5=hb9d3cd8_0
+      - ca-certificates=2025.2.25=h06a4308_0
+      - diamond=2.1.10=h43eeafb_2
+      - easel=0.49=h7b50bb2_2
+      - eggnog-mapper=2.1.12=pyhdfd78af_2
+      - gawk=5.3.1=h5eee18b_0
+      - gettext=0.21.0=hedfda30_2
+      - gsl=2.7.1=h6e86dc7_1
+      - hmmer=3.4=hb6cb901_4
+      - icu=73.1=h6a678d5_0
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=15.1.0=h69a702a_2
+      - libgcc=15.1.0=h767d61c_2
+      - libgfortran-ng=8.2.0=hdf63c60_1
+      - libgfortran5=15.1.0=hcea5267_2
+      - libgomp=15.1.0=h767d61c_2
+      - libiconv=1.16=h5eee18b_3
+      - libidn2=2.3.4=h5eee18b_0
+      - libnsl=2.0.0=h5eee18b_0
+      - libopenblas=0.3.29=ha39b09d_0
+      - libsqlite=3.46.0=hde9e2c9_0
+      - libssh2=1.11.1=h251f7ec_0
+      - libstdcxx-ng=15.1.0=h4852527_2
+      - libstdcxx=15.1.0=h8f9b012_2
+      - libunistring=0.9.10=h27cfd23_0
+      - libuuid=1.41.5=h5eee18b_0
+      - libxcb=1.17.0=h9b100fa_0
+      - libxml2=2.13.8=hfdd30dd_0
+      - libzlib=1.2.13=h4ab18f5_6
+      - mmseqs2=16.747c6=pl5321h6a68c12_0
+      - mpi=1.0=openmpi
+      - ncurses=6.4=h6a678d5_0
+      - numpy-base=1.26.4=py311hbfb1bba_0
+      - numpy=1.26.4=py311h24aa872_0
+      - openmpi=4.1.6=hc5af2df_101
+      - openssl=3.5.0=h7b32b05_1
+      - pcre2=10.42=hebb0a14_1
+      - perl=5.32.1=0_h5eee18b_perl5
+      - pip=25.1=pyhc872135_2
+      - prodigal=2.6.3=h7b50bb2_10
+      - psutil=5.9.0=py311h5eee18b_1
+      - pthread-stubs=0.3=h0ce48e5_1
+      - python=3.11.11=he870216_0
+      - readline=8.2=h5eee18b_0
+      - setuptools=78.1.1=py311h06a4308_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h993c535_1
+      - tzdata=2025b=h04d1e81_0
+      - wget=1.25.0=h251f7ec_0
+      - wheel=0.45.1=py311h06a4308_0
+      - xlsxwriter=3.2.3=py311h06a4308_0
+      - xorg-libx11=1.8.12=h9b100fa_1
+      - xorg-libxau=1.0.12=h9b100fa_0
+      - xorg-libxdmcp=1.1.5=h9b100fa_0
+      - xorg-xorgproto=2024.1=h5eee18b_1
+      - xz=5.6.4=h5eee18b_1
+      - zlib=1.2.13=h4ab18f5_6
