@@ -51,6 +51,35 @@ env_specs:
     - python=3.6
     - diamond=0.9.14
     channels: []
+  anvio-8:
+    packages:
+    - anvio-minimal=8
+    - python=3.10
+    - diamond=0.9.14
+    - prodigal
+    - mcl
+    - muscle
+    - hmmer
+    - blast
+    - megahit
+    - spades
+    - bowtie2
+    - bwa
+    - samtools
+    - centrifuge
+    - trimal
+    - iqtree
+    - fastani
+    - trnascan-se
+    - r-base
+    - r-stringi
+    - r-tidyverse
+    - r-magrittr
+    - r-optparse
+    - bioconductor-qvalue
+    - fasttree
+    channels:
+    - nodefaults
 commands:
   anvio-db-7:
     unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/7/COG && anvi-setup-ncbi-cogs --cog-data-dir
@@ -61,8 +90,16 @@ commands:
       $HCC_APPS_DB_BCRF_PATH/anvio/7.1/COG/ --reset --just-do-it
     env_spec: anvio-7.1
   anvio-scg-db-7.1:
-    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/7.1/SCG && anvi-setup-scg-taxonomy --reset --scgs-taxonomy-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/7.1/SCG/
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/7.1/SCG && anvi-setup-scg-taxonomy
+      --reset --scgs-taxonomy-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/7.1/SCG/
     env_spec: anvio-7.1
   anvio-scg-db-7:
-    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/7/SCG && anvi-setup-scg-taxonomy --reset --scgs-taxonomy-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/7/SCG/
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/7/SCG && anvi-setup-scg-taxonomy --reset
+      --scgs-taxonomy-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/7/SCG/
     env_spec: anvio-7
+  anvio-db-8:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/8/COG && anvi-setup-ncbi-cogs --cog-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/8/COG/ --reset --just-do-it
+    env_spec: anvio-8
+  anvio-scg-db-8:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/anvio/8/SCG && anvi-setup-scg-taxonomy --reset --scgs-taxonomy-data-dir $HCC_APPS_DB_BCRF_PATH/anvio/8/SCG/
+    env_spec: anvio-8
