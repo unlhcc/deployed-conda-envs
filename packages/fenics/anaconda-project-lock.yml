@@ -150,7 +150,7 @@ env_specs:
       - zstd=1.5.6=hc292b87_0
   fenics-2019.1.0:
     locked: true
-    env_spec_hash: 22261ca984f3288f551de720970e101ca52276ce
+    env_spec_hash: 7528e39f81468b013f74e2b1320ee7181ce6e470
     platforms:
     - linux-64
     packages:
@@ -305,7 +305,7 @@ env_specs:
       - superlu_dist=8.2.1=h511944b_1
       - sympy=1.13.3=py310h06a4308_1
       - sysroot_linux-64=2.17=h57e8cba_10
-      - tbb=2022.0.0=hdb19cb5_0
+      - tbb=2020.3=hfd86e86_0
       - tk=8.6.14=h993c535_1
       - tomli=2.0.1=py310h06a4308_0
       - tornado=6.5.1=py310h5eee18b_0

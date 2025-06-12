@@ -43,4 +43,5 @@ env_specs:
     - matplotlib
     - openmpi=4.1.*=external_*
     - scipy
+    - tbb=2020.3
     channels: []
