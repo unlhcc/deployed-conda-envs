@@ -29,3 +29,7 @@ env_specs:
     packages:
     - npinv=1.24
     channels: []
+  npinv-1.28:
+    packages:
+    - npinv=1.28
+    channels: []
