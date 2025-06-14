@@ -131,71 +131,79 @@ env_specs:
       - zstd=1.5.5=hfc55251_0
   cp2k-9.1.0:
     locked: true
-    env_spec_hash: 5c1ca56616a2a49436d04fda12d9f9c5133b9384
+    env_spec_hash: f3ab18f5ac3d38783320208819fd5b1aa3fcd75e
     platforms:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=conda_forge
-      - _openmp_mutex=4.5=2_kmp_llvm
-      - bzip2=1.0.8=h7f98852_4
-      - c-ares=1.20.1=hd590300_0
-      - ca-certificates=2023.7.22=hbcca054_0
+      - _openmp_mutex=4.5=3_kmp_llvm
+      - bzip2=1.0.8=h4bc722e_7
+      - c-ares=1.34.5=hb9d3cd8_0
+      - ca-certificates=2025.4.26=hbd8a1cb_0
       - cp2k=9.1.0=openmpi_1001
-      - fftw=3.3.10=nompi_hc118613_108
-      - gawk=5.2.2=ha916aea_1
-      - gettext=0.21.1=h27087fc_0
-      - gmp=6.2.1=h58526e2_0
+      - fftw=3.3.10=nompi_hf1063bd_110
+      - gawk=5.3.1=hcd3d067_0
+      - gmp=6.3.0=hac33072_2
       - gsl=2.7=he838d99_0
       - hdf5=1.12.1=nompi_h4df4325_104
       - i-pi=2.4.0=pyhd8ed1ab_0
       - keyutils=1.6.1=h166bdaf_0
-      - krb5=1.21.2=h659d440_0
-      - ld_impl_linux-64=2.40=h41732ed_0
-      - libblas=3.9.0=19_linux64_openblas
-      - libcblas=3.9.0=19_linux64_openblas
-      - libcurl=8.4.0=hca28451_0
-      - libedit=3.1.20191231=he28a2e2_2
-      - libev=4.33=h516909a_1
-      - libffi=3.4.2=h7f98852_5
-      - libgcc-ng=13.2.0=h807b86a_2
-      - libgfortran-ng=13.2.0=h69a702a_2
-      - libgfortran5=13.2.0=ha4646dd_2
+      - krb5=1.21.3=h659f571_0
+      - ld_impl_linux-64=2.43=h1423503_5
+      - libasprintf=0.24.1=h8e693c7_0
+      - libblas=3.9.0=31_h59b9bed_openblas
+      - libcblas=3.9.0=31_he106b2a_openblas
+      - libcurl=8.8.0=hca28451_1
+      - libedit=3.1.20250104=pl5321h7949ede_0
+      - libev=4.33=hd590300_2
+      - libffi=3.4.6=h2dba641_1
+      - libgcc-ng=15.1.0=h69a702a_2
+      - libgcc=15.1.0=h767d61c_2
+      - libgettextpo=0.24.1=h5888daf_0
+      - libgfortran-ng=15.1.0=h69a702a_2
+      - libgfortran5=15.1.0=hcea5267_2
+      - libgfortran=15.1.0=h69a702a_2
       - libint-cp2k=2.6.0=hf099797_1
-      - liblapack=3.9.0=19_linux64_openblas
-      - libnghttp2=1.52.0=h61bc06f_0
+      - liblapack=3.9.0=31_h7ac8fdf_openblas
+      - liblzma-devel=5.8.1=hb9d3cd8_2
+      - liblzma=5.8.1=hb9d3cd8_2
+      - libnghttp2=1.58.0=h47da74e_1
       - libnsl=2.0.1=hd590300_0
-      - libopenblas=0.3.24=openmp_h2e9423c_0
-      - libsqlite=3.43.2=h2797004_0
+      - libopenblas=0.3.29=openmp_hd680484_0
+      - libsqlite=3.46.0=hde9e2c9_0
       - libssh2=1.11.0=h0841786_0
-      - libstdcxx-ng=13.2.0=h7e041cc_2
+      - libstdcxx-ng=15.1.0=h4852527_2
+      - libstdcxx=15.1.0=h8f9b012_2
       - libuuid=2.38.1=h0b41bf4_0
       - libxc=5.2.3=py39hea1df8f_2
+      - libxcrypt=4.4.36=hd590300_1
       - libxsmm=1.17=h2877050_0
-      - libzlib=1.2.13=hd590300_5
-      - llvm-openmp=17.0.3=h4dfa4b3_0
-      - mpfr=4.2.0=hb012696_0
+      - libzlib=1.2.13=h4ab18f5_6
+      - llvm-openmp=20.1.7=h024ca30_0
+      - mpfr=4.2.1=h90cbb55_3
       - mpi=1.0=openmpi
-      - ncurses=6.4=hcb278e6_0
+      - ncurses=6.5=h2d0b736_3
       - numpy=1.20.3=py39hd249d9e_2
-      - openblas=0.3.24=openmp_h82c68e4_0
+      - openblas=0.3.29=openmp_hd77311e_0
       - openmpi=4.1.6=external_1
-      - openssl=3.1.3=hd590300_0
-      - pip=23.3=pyhd8ed1ab_0
-      - plumed=2.9.0=mpi_openmpi_h7b2badc_0
-      - py-plumed=2.9.0=py39hd1e30aa_2
-      - python=3.9.18=h0755675_0_cpython
-      - python_abi=3.9=4_cp39
-      - readline=8.2=h8228510_1
+      - openssl=3.5.0=h7b32b05_1
+      - pip=25.1.1=pyh8b19718_0
+      - plumed=2.8.0=mpi_openmpi_h0b6bd24_1000
+      - py-plumed=2.8.0=py39h5a03fae_1
+      - python=3.9.19=h0755675_0_cpython
+      - python_abi=3.9=7_cp39
+      - readline=8.2=h8c095d6_2
       - scalapack=2.2.0=h67de57e_1
-      - setuptools=68.2.2=pyhd8ed1ab_0
+      - setuptools=80.9.0=pyhff2d567_0
       - sirius=7.3.1=hce7c52c_1
-      - spfft=1.0.6=h07fa59a_0
+      - spfft=1.1.0=haf78bf0_0
       - spglib=1.16.5=py39hd257fcd_0
       - spla=1.5.5=hd76ae26_0
-      - tk=8.6.13=h2797004_0
-      - tzdata=2023c=h71feb2d_0
-      - wheel=0.41.2=pyhd8ed1ab_0
-      - xz=5.2.6=h166bdaf_0
-      - zlib=1.2.13=hd590300_5
-      - zstd=1.5.5=hfc55251_0
+      - tk=8.6.13=noxft_h4845f30_101
+      - tzdata=2025b=h78e105d_0
+      - wheel=0.45.1=pyhd8ed1ab_1
+      - xz-gpl-tools=5.8.1=hbcc6ac9_2
+      - xz-tools=5.8.1=hb9d3cd8_2
+      - xz=5.8.1=hbcc6ac9_2
+      - zlib=1.2.13=h4ab18f5_6
+      - zstd=1.5.6=ha6fb4c9_0

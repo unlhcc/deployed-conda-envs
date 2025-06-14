@@ -36,8 +36,8 @@ env_specs:
     - openmpi=4.1.*=external_*
     - python=3.9
     - i-pi=2.4.0
-    - plumed=2.9.0=*openmpi*
-    - py-plumed=2.9.0
+    - plumed=2.8.0=*openmpi*
+    - py-plumed=2.8.0
     - gsl
     - spglib=1.*
     - numpy=1.20
