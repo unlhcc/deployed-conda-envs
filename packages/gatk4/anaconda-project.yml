@@ -91,6 +91,7 @@ env_specs:
     - r-ggplot2
     - r-gsalib
     - r-reshape
+    - gatktool
     channels: []
   gatk4-4.6.2.0:
     packages:
