@@ -101,4 +101,5 @@ env_specs:
     - r-ggplot2
     - r-gsalib
     - r-reshape
+    - gatktool
     channels: []

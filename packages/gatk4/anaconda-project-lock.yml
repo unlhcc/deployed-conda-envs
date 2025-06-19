@@ -1114,7 +1114,7 @@ env_specs:
       - zstd=1.5.5=hc292b87_0
   gatk4-4.6.2.0:
     locked: true
-    env_spec_hash: d0e5319a4fbf9c3dd6b75700abaf004ceee078c2
+    env_spec_hash: b573ba8fa82bbea39d752a5b2681b4f6432708cc
     platforms:
     - linux-64
     packages:
@@ -1130,7 +1130,7 @@ env_specs:
       - c-ares=1.34.5=hb9d3cd8_0
       - ca-certificates=2025.2.25=h06a4308_0
       - cairo=1.18.4=h3394656_0
-      - curl=8.13.0=h332b0f4_0
+      - curl=8.14.1=h332b0f4_0
       - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
       - font-ttf-inconsolata=2.001=hcb22688_0
       - font-ttf-source-code-pro=2.030=hd3eb1b0_0
@@ -1141,6 +1141,7 @@ env_specs:
       - freetype=2.13.3=ha770c72_1
       - fribidi=1.0.10=h7b6447c_0
       - gatk4=4.6.2.0=py310hdfd78af_0
+      - gatktool=0.0.1=py_0
       - gcc_impl_linux-64=11.2.0=h1234567_1
       - gettext=0.21.0=hedfda30_2
       - gfortran_impl_linux-64=11.2.0=h7a446d4_16
@@ -1148,7 +1149,7 @@ env_specs:
       - graphite2=1.3.14=h295c915_1
       - gsl=2.7.1=h6e86dc7_1
       - gxx_impl_linux-64=11.2.0=h1234567_1
-      - harfbuzz=11.1.0=h3beb420_0
+      - harfbuzz=11.2.1=h3beb420_0
       - icu=75.1=he02047a_0
       - kernel-headers_linux-64=3.10.0=h57e8cba_10
       - krb5=1.21.3=h143b758_0
@@ -1156,9 +1157,9 @@ env_specs:
       - ld_impl_linux-64=2.40=h12ee557_0
       - lerc=4.0.0=h6a678d5_0
       - libblas=3.9.0=31_h59b9bed_openblas
-      - libcups=2.3.3=h4637d8d_4
-      - libcurl=8.13.0=h332b0f4_0
-      - libdeflate=1.23=h86f0d12_0
+      - libcups=2.3.3=hb8b1518_5
+      - libcurl=8.14.1=h332b0f4_0
+      - libdeflate=1.24=h86f0d12_0
       - libedit=3.1.20230828=h5eee18b_0
       - libev=4.33=h7f8727e_1
       - libexpat=2.7.0=h5888daf_0
@@ -1171,22 +1172,22 @@ env_specs:
       - libgfortran-ng=15.1.0=h69a702a_2
       - libgfortran5=15.1.0=hcea5267_2
       - libgfortran=15.1.0=h69a702a_2
-      - libglib=2.84.1=h3618099_1
+      - libglib=2.84.2=h3618099_0
       - libgomp=15.1.0=h767d61c_2
       - libiconv=1.18=h4ce23a2_1
       - libjpeg-turbo=3.1.0=hb9d3cd8_0
       - liblapack=3.9.0=31_h7ac8fdf_openblas
-      - liblzma=5.8.1=hb9d3cd8_1
+      - liblzma=5.8.1=hb9d3cd8_2
       - libnghttp2=1.64.0=h161d5f1_0
-      - libnsl=2.0.1=hd590300_0
-      - libopenblas=0.3.29=pthreads_h94d23a6_0
-      - libpng=1.6.47=h943b412_0
-      - libsqlite=3.49.2=hee588c1_0
+      - libnsl=2.0.1=hb9d3cd8_1
+      - libopenblas=0.3.29=ha39b09d_0
+      - libpng=1.6.49=h943b412_0
+      - libsqlite=3.50.1=hee588c1_0
       - libssh2=1.11.1=hcf80075_0
       - libstdcxx-devel_linux-64=11.2.0=h1234567_1
       - libstdcxx-ng=15.1.0=h4852527_2
       - libstdcxx=15.1.0=h8f9b012_2
-      - libtiff=4.7.0=hd9ff511_4
+      - libtiff=4.7.0=hf01ce69_5
       - libuuid=2.38.1=h0b41bf4_0
       - libwebp-base=1.5.0=h851e524_0
       - libxcb=1.17.0=h9b100fa_0
@@ -1195,15 +1196,15 @@ env_specs:
       - libzlib=1.3.1=hb9d3cd8_2
       - make=4.2.1=h1bed415_1
       - ncurses=6.5=h2d0b736_3
-      - openjdk=17.0.14=h39bb4c0_2
+      - openjdk=17.0.15=h5ddf6bc_0
       - openssl=3.5.0=h7b32b05_1
       - pango=1.56.3=h9ac818e_1
       - pcre2=10.45=hc749103_0
       - pip=25.1=pyhc872135_2
-      - pixman=0.46.0=h29eaf8c_0
+      - pixman=0.46.2=h29eaf8c_0
       - pthread-stubs=0.3=h0ce48e5_1
-      - python=3.10.17=hd6af730_0_cpython
-      - r-base=4.4.3=h68b956c_1
+      - python=3.10.18=hd6af730_0_cpython
+      - r-base=4.4.3=h85845a0_2
       - r-bitops=1.0_9=r44h2b5f3a1_0
       - r-catools=1.18.3=r44h93ab643_0
       - r-cli=3.6.5=r44h93ab643_0
@@ -1238,8 +1239,8 @@ env_specs:
       - r-reshape=0.8.9=r44hc72bb7e_3
       - r-rlang=1.1.6=r44h93ab643_0
       - r-scales=1.4.0=r44hc72bb7e_0
-      - r-tibble=3.2.1=r44hdb488b9_3
-      - r-utf8=1.2.5=r44h2b5f3a1_0
+      - r-tibble=3.3.0=r44h2b5f3a1_0
+      - r-utf8=1.2.6=r44h2b5f3a1_0
       - r-vctrs=0.6.5=r44h0d4f4ea_1
       - r-viridislite=0.4.2=r44hc72bb7e_2
       - r-withr=3.0.2=r44hc72bb7e_0
@@ -1247,7 +1248,7 @@ env_specs:
       - sed=4.8=h7b6447c_0
       - setuptools=78.1.1=py310h06a4308_0
       - sysroot_linux-64=2.17=h57e8cba_10
-      - tk=8.6.13=noxft_h4845f30_101
+      - tk=8.6.13=noxft_hd72426e_102
       - tktable=2.10=h3d55465_1
       - tzdata=2025b=h04d1e81_0
       - wheel=0.45.1=py310h06a4308_0
