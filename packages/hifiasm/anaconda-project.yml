@@ -28,3 +28,7 @@ env_specs:
     packages:
     - hifiasm=0.19.8
     channels: []
+  hifiasm-0.25.0:
+    packages:
+    - hifiasm=0.25.0
+    channels: []
