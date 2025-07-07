@@ -28,3 +28,7 @@ env_specs:
     packages:
     - coverm=0.6.1
     channels: []
+  coverm-0.7.0:
+    packages:
+    - coverm=0.7.0
+    channels: []
