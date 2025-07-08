@@ -50,3 +50,8 @@ env_specs:
     - nextflow=24.04.3
     - openjdk=17
     channels: []
+  nextflow-25.04.6:
+    packages:
+    - nextflow=25.04.6
+    - openjdk=17
+    channels: []
