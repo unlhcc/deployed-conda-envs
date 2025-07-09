@@ -34,3 +34,8 @@ env_specs:
     - phylophlan=3.0.2
     - python=3.8
     channels: []
+  phylophlan-3.1.1:
+    packages:
+    - phylophlan=3.1.1
+    - python=3.8
+    channels: []
