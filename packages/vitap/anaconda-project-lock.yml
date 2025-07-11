@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   vitap-1.7.1:
     locked: true
-    env_spec_hash: a576db91eb1953a218fcb72d4fb333604da4f61b
+    env_spec_hash: ea4c5a1032b4fab61532aea7827b84a6c2268447
     platforms:
     - linux-64
     packages:
@@ -26,21 +26,21 @@ env_specs:
       - _openmp_mutex=5.1=1_gnu
       - biopython=1.78=py312h5eee18b_0
       - blas=1.0=openblas
-      - boost-cpp=1.74.0=h312852a_4
       - bottleneck=1.4.2=py312ha883a20_0
       - bzip2=1.0.8=h5eee18b_6
       - ca-certificates=2025.2.25=h06a4308_0
-      - diamond=2.0.11=hdcc8f71_0
+      - diamond=0.9.14=h2e03b76_4
       - entrez-direct=16.2=he881be0_1
       - expat=2.7.1=h6a678d5_0
-      - gettext=0.21.0=hf68c758_0
-      - icu=68.1=h2531618_0
+      - gettext=0.21.0=hedfda30_2
+      - icu=73.1=h6a678d5_0
       - ld_impl_linux-64=2.40=h12ee557_0
       - libffi=3.4.4=h6a678d5_1
-      - libgcc-ng=11.2.0=h1234567_1
+      - libgcc-ng=15.1.0=h69a702a_3
+      - libgcc=15.1.0=h767d61c_3
       - libgfortran-ng=11.2.0=h00389a5_1
       - libgfortran5=11.2.0=h1234567_1
-      - libgomp=11.2.0=h1234567_1
+      - libgomp=15.1.0=h767d61c_3
       - libiconv=1.16=h5eee18b_3
       - libidn2=2.3.4=h5eee18b_0
       - libopenblas=0.3.29=ha39b09d_0
@@ -48,8 +48,7 @@ env_specs:
       - libunistring=0.9.10=h27cfd23_0
       - libuuid=1.41.5=h5eee18b_0
       - libxcb=1.17.0=h9b100fa_0
-      - libxml2=2.9.12=h72842e0_0
-      - lz4-c=1.9.4=h6a678d5_1
+      - libxml2=2.13.8=hfdd30dd_0
       - ncurses=6.4=h6a678d5_0
       - networkx=3.4.2=py312h06a4308_0
       - numexpr=2.10.1=py312hd28fd6d_0
@@ -59,7 +58,7 @@ env_specs:
       - pandas=2.2.3=py312h6a678d5_0
       - pcre2=10.42=hebb0a14_1
       - pip=25.1=pyhc872135_2
-      - prodigal=2.6.3=hec16e2b_4
+      - prodigal=2.6.3=h7b50bb2_10
       - pthread-stubs=0.3=h0ce48e5_1
       - python-dateutil=2.9.0post0=py312h06a4308_2
       - python-tzdata=2025.2=pyhd3eb1b0_0
@@ -83,4 +82,3 @@ env_specs:
       - xorg-xorgproto=2024.1=h5eee18b_1
       - xz=5.6.4=h5eee18b_1
       - zlib=1.2.13=h5eee18b_1
-      - zstd=1.5.6=hc292b87_0
