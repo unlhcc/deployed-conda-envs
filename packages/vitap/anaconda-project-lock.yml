@@ -1,0 +1,86 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  vitap-1.7.1:
+    locked: true
+    env_spec_hash: a576db91eb1953a218fcb72d4fb333604da4f61b
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - biopython=1.78=py312h5eee18b_0
+      - blas=1.0=openblas
+      - boost-cpp=1.74.0=h312852a_4
+      - bottleneck=1.4.2=py312ha883a20_0
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2025.2.25=h06a4308_0
+      - diamond=2.0.11=hdcc8f71_0
+      - entrez-direct=16.2=he881be0_1
+      - expat=2.7.1=h6a678d5_0
+      - gettext=0.21.0=hf68c758_0
+      - icu=68.1=h2531618_0
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=11.2.0=h1234567_1
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libgomp=11.2.0=h1234567_1
+      - libiconv=1.16=h5eee18b_3
+      - libidn2=2.3.4=h5eee18b_0
+      - libopenblas=0.3.29=ha39b09d_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libunistring=0.9.10=h27cfd23_0
+      - libuuid=1.41.5=h5eee18b_0
+      - libxcb=1.17.0=h9b100fa_0
+      - libxml2=2.9.12=h72842e0_0
+      - lz4-c=1.9.4=h6a678d5_1
+      - ncurses=6.4=h6a678d5_0
+      - networkx=3.4.2=py312h06a4308_0
+      - numexpr=2.10.1=py312hd28fd6d_0
+      - numpy-base=1.26.4=py312he1a6c75_0
+      - numpy=1.26.4=py312h2809609_0
+      - openssl=3.0.16=h5eee18b_0
+      - pandas=2.2.3=py312h6a678d5_0
+      - pcre2=10.42=hebb0a14_1
+      - pip=25.1=pyhc872135_2
+      - prodigal=2.6.3=hec16e2b_4
+      - pthread-stubs=0.3=h0ce48e5_1
+      - python-dateutil=2.9.0post0=py312h06a4308_2
+      - python-tzdata=2025.2=pyhd3eb1b0_0
+      - python=3.12.11=h22baa00_0
+      - pytz=2025.2=py312h06a4308_0
+      - readline=8.2=h5eee18b_0
+      - scipy=1.15.3=py312h5e4e545_0
+      - seqkit=2.10.0=h9ee0642_0
+      - setuptools=78.1.1=py312h06a4308_0
+      - six=1.17.0=py312h06a4308_0
+      - sqlite=3.45.3=h5eee18b_0
+      - tk=8.6.14=h993c535_1
+      - tqdm=4.67.1=py312he106c6f_0
+      - tzdata=2025b=h04d1e81_0
+      - vitap=1.7.1=pyh7e72e81_0
+      - wget=1.25.0=h251f7ec_0
+      - wheel=0.45.1=py312h06a4308_0
+      - xorg-libx11=1.8.12=h9b100fa_1
+      - xorg-libxau=1.0.12=h9b100fa_0
+      - xorg-libxdmcp=1.1.5=h9b100fa_0
+      - xorg-xorgproto=2024.1=h5eee18b_1
+      - xz=5.6.4=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1
+      - zstd=1.5.6=hc292b87_0
