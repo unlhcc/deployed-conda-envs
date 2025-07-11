@@ -28,4 +28,5 @@ env_specs:
     packages:
     - vitap=1.7.1
     - python=3.12
+    - diamond=0.9.14
     channels: []
