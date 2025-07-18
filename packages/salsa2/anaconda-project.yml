@@ -28,4 +28,6 @@ env_specs:
     packages:
     - salsa2=2.3
     - python=2.7
-    channels: []
+    - networkx=1.11
+    channels:
+    - nodefaults
