@@ -66,3 +66,8 @@ env_specs:
     - spades=3.15.2
     - python=3.8
     channels: []
+  spades-4.2.0:
+    packages:
+    - spades=4.2.0
+    - python=3.11
+    channels: []
