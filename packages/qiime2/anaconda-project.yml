@@ -1980,6 +1980,8 @@ env_specs:
       - git+https://github.com/statdivlab/q2-breakaway.git#egg=q2-breakaway
       - git+https://github.com/mortonjt/q2-ancombc.git#egg=q2-ancombc
     - itsxpress
+    - rescript=2024.10.0
+    - sysroot_linux-64=2.17
     channels:
     - qiime2
     - nodefaults
