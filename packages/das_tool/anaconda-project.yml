@@ -27,6 +27,12 @@ env_specs:
   das_tool-1.1.2:
     packages:
     - das_tool=1.1.2
+  das_tool-1.1.7:
+    packages:
+    - das_tool=1.1.7
+    - r-base=4.4
+    - usearch=11
+    channels: []
 commands:
   usearch:
     unix: conda install -y -c $HCC_CHANNEL usearch=11
