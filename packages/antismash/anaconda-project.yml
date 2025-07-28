@@ -29,3 +29,7 @@ env_specs:
     packages:
     - antismash=6.1.0
     channels: []
+  antismash-8.0.2:
+    packages:
+    - antismash=8.0.2
+    channels: []
