@@ -33,3 +33,7 @@ env_specs:
     packages:
     - subread=1.4.6p5
     channels: []
+  subread-2.1.1:
+    packages:
+    - subread=2.1.1
+    channels: []
