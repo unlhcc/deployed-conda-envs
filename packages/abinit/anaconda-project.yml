@@ -29,3 +29,8 @@ env_specs:
     - abinit=9.6.2
     - openmpi=*=external*
     channels: []
+  abinit-10.4.5:
+    packages:
+    - abinit=10.4.5
+    - openmpi=4.1.*=external*
+    channels: []
