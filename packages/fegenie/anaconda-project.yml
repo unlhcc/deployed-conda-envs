@@ -30,3 +30,8 @@ env_specs:
     - fegenie=1.0
     - python=3.7
     channels: []
+  fegenie-1.2:
+    packages:
+    - fegenie=1.2
+    - python=3.11
+    channels: []
