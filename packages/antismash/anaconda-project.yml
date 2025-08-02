@@ -32,4 +32,9 @@ env_specs:
   antismash-8.0.2:
     packages:
     - antismash=8.0.2
+    - openmpi=4.0
     channels: []
+commands:
+  antismash-8.0.2-db:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/app_specific/antismash/8.0.2/ && download-antismash-databases --database-dir $HCC_APPS_DB_BCRF_PATH/app_specific/antismash/8.0.2/
+    env_spec: antismash-8.0.2
