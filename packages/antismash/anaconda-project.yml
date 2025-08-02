@@ -36,5 +36,5 @@ env_specs:
     channels: []
 commands:
   antismash-8.0.2-db:
-    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/app_specific/antismash/8.0.2/ && download-antismash-databases --database-dir $HCC_APPS_DB_BCRF_PATH/app_specific/antismash/8.0.2/
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/antismash/8.0.2/ && download-antismash-databases --database-dir $HCC_APPS_DB_BCRF_PATH/antismash/8.0.2/
     env_spec: antismash-8.0.2
