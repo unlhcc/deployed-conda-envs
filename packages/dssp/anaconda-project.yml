@@ -30,3 +30,9 @@ env_specs:
     - libcifpp
     - libmcfp
     channels: []
+  dssp-4.5.4:
+    packages:
+    - dssp=4.5.4
+    - libcifpp
+    - libmcfp
+    channels: []
