@@ -17,14 +17,56 @@ locking_enabled: true
 env_specs:
   ollama-0.11.4:
     locked: true
-    env_spec_hash: b9afe14735989b94558a35e4ca8b5a2d975f5fbe
+    env_spec_hash: 0b7df580db9671ebd1742507513f8ba0c6853ad9
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=main
       - _openmp_mutex=5.1=1_gnu
+      - annotated-types=0.6.0=py313h06a4308_0
+      - anyio=4.7.0=py313h06a4308_0
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2025.7.15=h06a4308_0
+      - certifi=2025.8.3=py313h06a4308_0
+      - expat=2.7.1=h6a678d5_0
+      - h11=0.16.0=py313h06a4308_0
+      - httpcore=1.0.9=py313h06a4308_0
+      - httpx=0.28.1=py313h06a4308_0
+      - idna=3.7=py313h06a4308_0
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=15.1.0=h69a702a_4
       - libgcc=15.1.0=h767d61c_4
       - libgomp=15.1.0=h767d61c_4
+      - libmpdec=4.0.0=h5eee18b_0
+      - libstdcxx-ng=11.2.0=h1234567_1
       - libstdcxx=15.1.0=h8f9b012_4
+      - libuuid=1.41.5=h5eee18b_0
+      - libxcb=1.17.0=h9b100fa_0
+      - ncurses=6.5=h7934f7d_0
+      - ollama-python=0.5.3=pyhd8ed1ab_0
       - ollama=0.11.4=cpu_hba3e463_0
+      - openssl=3.0.17=h5eee18b_0
+      - pip=25.1=pyhc872135_2
+      - pthread-stubs=0.3=h0ce48e5_1
+      - pydantic-core=2.33.2=py313hc6f7160_0
+      - pydantic=2.11.7=py313h06a4308_0
+      - python=3.13.5=h4612cfd_100_cp313
+      - python_abi=3.13=0_cp313
+      - readline=8.3=hc2a1206_0
+      - setuptools=78.1.1=py313h06a4308_0
+      - sniffio=1.3.0=py313h06a4308_0
+      - sqlite=3.50.2=hb25bd0a_1
+      - tk=8.6.14=h993c535_1
+      - typing-extensions=4.12.2=py313h06a4308_0
+      - typing-inspection=0.4.0=py313h06a4308_0
+      - typing_extensions=4.12.2=py313h06a4308_0
+      - tzdata=2025b=h04d1e81_0
+      - wheel=0.45.1=py313h06a4308_0
+      - xorg-libx11=1.8.12=h9b100fa_1
+      - xorg-libxau=1.0.12=h9b100fa_0
+      - xorg-libxdmcp=1.1.5=h9b100fa_0
+      - xorg-xorgproto=2024.1=h5eee18b_1
+      - xz=5.6.4=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1

@@ -27,5 +27,7 @@ env_specs:
   ollama-gpu-0.11.4:
     packages:
     - ollama=0.11.4=cuda*
+    - ollama-python=0.5.3
+    - python=3.13
     channels: []
 
