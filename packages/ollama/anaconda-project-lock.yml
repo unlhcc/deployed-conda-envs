@@ -1,0 +1,30 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  ollama-0.11.4:
+    locked: true
+    env_spec_hash: b9afe14735989b94558a35e4ca8b5a2d975f5fbe
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - libgcc=15.1.0=h767d61c_4
+      - libgomp=15.1.0=h767d61c_4
+      - libstdcxx=15.1.0=h8f9b012_4
+      - ollama=0.11.4=cpu_hba3e463_0
