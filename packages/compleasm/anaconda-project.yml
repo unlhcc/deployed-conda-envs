@@ -29,3 +29,8 @@ env_specs:
     - compleasm=0.2.6
     - python=3.9
     channels: []
+  compleasm-0.2.7:
+    packages:
+    - compleasm=0.2.7
+    - python=3.9
+    channels: []
