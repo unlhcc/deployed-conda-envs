@@ -30,7 +30,14 @@ env_specs:
     - compass-cplex=0.2022.04.02
     - python=3.8
     channels: []
+  compass-cplex-0.2025.03.25:
+    packages:
+    - compass-cplex=0.2025.03.25
+    - python=3.11
+    - gurobi=12.0.3
+    channels:
+    - Gurobi
 commands:
-  install_cplex_add_db_mus_musculus:
-    unix: pip install /util/opt/IBM-ILOG-CPLEX/20.10/python/docplex/ && pip install /util/opt/IBM-ILOG-CPLEX/20.10/cplex/python/3.8/x86-64_linux/ && compass --precache --model RECON1_mat --species mus_musculus && compass --precache --model RECON2_mat --species mus_musculus && compass --precache --model RECON2.2 --species mus_musculus && mkdir -p  /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2022.04.02/lib/python3.8/site-packages/compass/Resources/COMPASS/mus_musculus && mv /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2022.04.02/lib/python3.8/site-packages/compass/Resources/COMPASS/RECON1_mat /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2022.04.02/lib/python3.8/site-packages/compass/Resources/COMPASS/mus_musculus/ && mv /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2022.04.02/lib/python3.8/site-packages/compass/Resources/COMPASS/RECON2.2 /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2022.04.02/lib/python3.8/site-packages/compass/Resources/COMPASS/mus_musculus/ && mv /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2022.04.02/lib/python3.8/site-packages/compass/Resources/COMPASS/RECON2_mat /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2022.04.02/lib/python3.8/site-packages/compass/Resources/COMPASS/mus_musculus/ && compass --precache --model RECON1_mat --species homo_sapiens && compass --precache --model RECON2_mat --species homo_sapiens && compass --precache --model RECON2.2 --species homo_sapiens
+  install_cplex_add_db:
+    unix: pip install /util/opt/IBM-ILOG-CPLEX/20.10/python/docplex/ && pip install /util/opt/IBM-ILOG-CPLEX/20.10/cplex/python/3.8/x86-64_linux/ && compass --precache --model RECON1_mat --species homo_sapiens && compass --precache --model RECON2_mat --species homo_sapiens && compass --precache --model RECON2.2 --species homo_sapiens
     env_spec: compass-cplex-0.2022.04.02
