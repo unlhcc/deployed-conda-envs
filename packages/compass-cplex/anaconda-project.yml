@@ -39,5 +39,11 @@ env_specs:
     - Gurobi
 commands:
   install_cplex_add_db:
-    unix: pip install /util/opt/IBM-ILOG-CPLEX/20.10/python/docplex/ && pip install /util/opt/IBM-ILOG-CPLEX/20.10/cplex/python/3.8/x86-64_linux/ && compass --precache --model RECON1_mat --species homo_sapiens && compass --precache --model RECON2_mat --species homo_sapiens && compass --precache --model RECON2.2 --species homo_sapiens
+    unix: pip install /util/opt/IBM-ILOG-CPLEX/20.10/python/docplex/ && pip install
+      /util/opt/IBM-ILOG-CPLEX/20.10/cplex/python/3.8/x86-64_linux/ && compass --precache
+      --model RECON1_mat --species homo_sapiens && compass --precache --model RECON2_mat
+      --species homo_sapiens && compass --precache --model RECON2.2 --species homo_sapiens
     env_spec: compass-cplex-0.2022.04.02
+  gurobi_license:
+    unix: cp /util/opt/anaconda/deployed-conda-envs/packages/gurobi/gurobi.lic /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2025.03.25/lib/
+    env_spec: compass-cplex-0.2025.03.25
