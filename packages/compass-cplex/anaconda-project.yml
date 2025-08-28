@@ -45,5 +45,5 @@ commands:
       --species homo_sapiens && compass --precache --model RECON2.2 --species homo_sapiens
     env_spec: compass-cplex-0.2022.04.02
   gurobi_license:
-    unix: cp /util/opt/anaconda/deployed-conda-envs/packages/gurobi/gurobi.lic /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2025.03.25/lib/
+    unix: cp /util/opt/anaconda/deployed-conda-envs/packages/gurobi/gurobi.lic /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2025.03.25/lib/ && compass --set-license /util/opt/anaconda/deployed-conda-envs/packages/compass-cplex/envs/compass-cplex-0.2025.03.25/lib/gurobi.lic
     env_spec: compass-cplex-0.2025.03.25
