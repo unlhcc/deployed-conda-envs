@@ -178,3 +178,84 @@ env_specs:
       - xz=5.4.6=h5eee18b_1
       - zlib=1.3.1=h4ab18f5_1
       - zstd=1.5.6=ha6fb4c9_0
+  kraken2-2.1.6:
+    locked: true
+    env_spec_hash: be727ab8401aeeac95701a124305de79025373f4
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - blast=2.17.0=h66d330f_0
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.34.5=hef5626c_0
+      - ca-certificates=2025.7.15=h06a4308_0
+      - curl=8.14.1=h332b0f4_0
+      - entrez-direct=24.0=he881be0_0
+      - kraken2=2.1.6=pl5321h077b44d_0
+      - krb5=1.21.3=h723845a_4
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libcurl=8.14.1=h332b0f4_0
+      - libedit=3.1.20230828=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.7.1=hecca717_0
+      - libffi=3.4.6=h2dba641_1
+      - libgcc-ng=15.1.0=h69a702a_4
+      - libgcc=15.1.0=h767d61c_4
+      - libgomp=15.1.0=h767d61c_4
+      - libiconv=1.18=h3b78370_2
+      - libidn2=2.3.4=h5eee18b_0
+      - libkrb5=1.21.3=h520c7b4_4
+      - liblzma=5.8.1=hb9d3cd8_2
+      - libmpdec=4.0.0=h5eee18b_0
+      - libnghttp2=1.64.0=h161d5f1_0
+      - libnsl=2.0.0=h5eee18b_0
+      - libsqlite=3.50.4=h0c1763c_0
+      - libssh2=1.11.1=hcf80075_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libstdcxx=15.1.0=h8f9b012_4
+      - libunistring=0.9.10=h27cfd23_0
+      - libuuid=2.38.1=h0b41bf4_0
+      - libzlib=1.3.1=hb25bd0a_0
+      - lmdb=0.9.31=hb25bd0a_0
+      - lz4-c=1.10.0=h5888daf_1
+      - ncbi-vdb=3.2.1=h9948957_0
+      - ncurses=6.5=h7934f7d_0
+      - openssl=3.5.2=h26f9b46_0
+      - perl-archive-tar=3.04=pl5321hdfd78af_0
+      - perl-carp=1.50=pl5321hd8ed1ab_0
+      - perl-common-sense=3.75=pl5321hd8ed1ab_0
+      - perl-compress-raw-bzip2=2.213=pl5321hda65f42_0
+      - perl-compress-raw-zlib=2.213=pl5321h4dac143_0
+      - perl-encode=3.21=pl5321hb9d3cd8_1
+      - perl-exporter-tiny=1.002002=pl5321hd8ed1ab_0
+      - perl-exporter=5.74=pl5321hd8ed1ab_0
+      - perl-extutils-makemaker=7.70=pl5321hd8ed1ab_0
+      - perl-io-compress=2.213=pl5321h503566f_0
+      - perl-io-zlib=1.15=pl5321hdfd78af_1
+      - perl-json-xs=4.03=pl5321h9948957_4
+      - perl-json=4.10=pl5321hdfd78af_1
+      - perl-list-moreutils-xs=0.430=pl5321h7b50bb2_5
+      - perl-list-moreutils=0.430=pl5321hdfd78af_0
+      - perl-parent=0.243=pl5321hd8ed1ab_0
+      - perl-pathtools=3.75=pl5321hb9d3cd8_2
+      - perl-scalar-list-utils=1.70=pl5321hb03c661_0
+      - perl-storable=3.15=pl5321hb9d3cd8_2
+      - perl-types-serialiser=1.01=pl5321hdfd78af_0
+      - perl=5.32.1=0_h5eee18b_perl5
+      - pip=25.1=pyhc872135_2
+      - popt=1.19=h5eee18b_0
+      - python=3.13.5=hec9711d_102_cp313
+      - python_abi=3.13=0_cp313
+      - readline=8.3=hc2a1206_0
+      - rsync=3.4.1=h81c0278_2
+      - setuptools=78.1.1=py313h06a4308_0
+      - tar=1.35=h3b78370_0
+      - tk=8.6.13=noxft_hd72426e_102
+      - tzdata=2025b=h04d1e81_0
+      - wget=1.21.4=hda4d442_0
+      - wheel=0.45.1=py313h06a4308_0
+      - xxhash=0.8.3=hb47aa4a_0
+      - zlib=1.3.1=hb25bd0a_0
+      - zstd=1.5.7=hb8e6e7a_2
