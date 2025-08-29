@@ -33,7 +33,16 @@ env_specs:
     packages:
     - kraken2=2.1.3
     channels: []
+  kraken2-2.1.6:
+    packages:
+    - kraken2=2.1.6
+    channels: []
 #commands:
 # download-db-2.1.3:
 #  unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/kraken/2.1.3 && kraken2-build --standard --threads 8 --db $HCC_APPS_DB_BCRF_PATH/kraken/2.1.3/
 #  env_spec: kraken2-2.1.3
+# download-db-2.1.6:
+#  unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/kraken/2.1.6 && cd $HCC_APPS_DB_BCRF_PATH/kraken/2.1.6 && wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_20250714.tar.gz && 
+#      wget https://genome-idx.s3.amazonaws.com/kraken/k2_viral_20250714.tar.gz && wget https://genome-idx.s3.amazonaws.com/kraken/k2_pluspf_20250714.tar.gz && 
+#      wget https://genome-idx.s3.amazonaws.com/kraken/k2_pluspfp_20250714.tar.gz && wget https://genome-idx.s3.amazonaws.com/kraken/k2_core_nt_20250609.tar.gz
+#  env_spec: kraken2-2.1.6
