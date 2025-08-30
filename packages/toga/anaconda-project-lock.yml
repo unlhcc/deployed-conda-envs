@@ -1,0 +1,116 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  toga-1.1.7:
+    locked: true
+    env_spec_hash: c211238685c677cc5882b052bbd5b14de3967a20
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - _py-xgboost-mutex=2.0=cpu_2
+      - blas=1.0=openblas
+      - bottleneck=1.4.2=py311hf4808d0_0
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.34.5=hef5626c_0
+      - ca-certificates=2025.7.15=h06a4308_0
+      - cairo=1.18.4=h44eff21_0
+      - coreutils=9.5=h5eee18b_0
+      - curl=8.15.0=h14366f7_0
+      - dbus=1.16.2=h5bd4931_0
+      - expat=2.7.1=h6a678d5_0
+      - fontconfig=2.14.1=h55d465d_3
+      - freetype=2.13.3=h4a9f257_0
+      - fribidi=1.0.10=h7b6447c_0
+      - gettext=0.21.0=hedfda30_2
+      - git=2.45.2=pl5402h72990fb_2
+      - glib-tools=2.84.2=h6a678d5_0
+      - glib=2.84.2=h6a678d5_0
+      - graphite2=1.3.14=h295c915_1
+      - h5py=3.14.0=py311he0d80d8_0
+      - harfbuzz=10.2.0=hdfddeaa_1
+      - hdf5=1.14.5=h2b7332f_2
+      - icu=73.1=h6a678d5_0
+      - joblib=1.5.1=py311h06a4308_0
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libcurl=8.15.0=hc1efc7f_0
+      - libev=4.33=h7f8727e_1
+      - libffi=3.4.4=h6a678d5_1
+      - libgcc-ng=15.1.0=h69a702a_4
+      - libgcc=15.1.0=h767d61c_4
+      - libgfortran-ng=11.2.0=h00389a5_1
+      - libgfortran5=11.2.0=h1234567_1
+      - libglib=2.84.2=h37c7471_0
+      - libgomp=15.1.0=h767d61c_4
+      - libiconv=1.16=h5eee18b_3
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libopenblas=0.3.29=ha39b09d_0
+      - libpng=1.6.39=h5eee18b_0
+      - libssh2=1.11.1=h251f7ec_0
+      - libstdcxx-ng=11.2.0=h1234567_1
+      - libuuid=1.41.5=h5eee18b_0
+      - libxcb=1.17.0=h9b100fa_0
+      - libxgboost=3.0.1=h6a678d5_0
+      - libxml2=2.13.8=hfdd30dd_0
+      - lz4-c=1.9.4=h6a678d5_1
+      - mpi4py=4.0.3=py311hb6b6513_0
+      - mpi=1.0=mpich
+      - mpich=4.1.1=hbae89fd_0
+      - ncurses=6.5=h7934f7d_0
+      - networkx=3.4.2=py311h06a4308_0
+      - nextflow=23.10.1=hdfd78af_0
+      - numexpr=2.11.0=py311hccd6f0b_1
+      - numpy-base=1.26.4=py311hf387b04_1
+      - numpy=1.26.4=py311hc213724_1
+      - openjdk=17.0.14=h1c92337_0
+      - openssl=3.0.17=h5eee18b_0
+      - pandas=2.3.2=py311h277b779_0
+      - pango=1.50.7=h668f713_2
+      - pcre2=10.42=hebb0a14_1
+      - perl=5.40.2=0_h5eee18b_perl5
+      - pip=25.1=pyhc872135_2
+      - pixman=0.46.4=h7934f7d_0
+      - pthread-stubs=0.3=h0ce48e5_1
+      - py-xgboost=3.0.1=py311h06a4308_0
+      - python-dateutil=2.9.0post0=py311h06a4308_2
+      - python-tzdata=2025.2=pyhd3eb1b0_0
+      - python=3.11.13=h1a3bd86_0
+      - python_abi=3.11=2_cp311
+      - pytz=2025.2=py311h06a4308_0
+      - readline=8.3=hc2a1206_0
+      - scikit-learn=1.7.1=py311hc74f9fe_0
+      - scipy=1.16.0=py311hcb7a30d_1
+      - setuptools=78.1.1=py311h06a4308_0
+      - six=1.17.0=py311h06a4308_0
+      - sqlite=3.50.2=hb25bd0a_1
+      - threadpoolctl=3.5.0=py311h92b7b1e_0
+      - tk=8.6.15=h54e0aa7_0
+      - toga=1.1.7=py311h8769cd7_0
+      - twobitreader=3.1.7=pyh864c0ab_1
+      - tzdata=2025b=h04d1e81_0
+      - wheel=0.45.1=py311h06a4308_0
+      - xorg-libx11=1.8.12=h9b100fa_1
+      - xorg-libxau=1.0.12=h9b100fa_0
+      - xorg-libxdmcp=1.1.5=h9b100fa_0
+      - xorg-libxext=1.3.6=h9b100fa_0
+      - xorg-libxrender=0.9.12=h9b100fa_0
+      - xorg-xorgproto=2024.1=h5eee18b_1
+      - xz=5.6.4=h5eee18b_1
+      - zlib=1.2.13=h5eee18b_1
+      - zstd=1.5.6=hc292b87_0
