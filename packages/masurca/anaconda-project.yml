@@ -43,4 +43,10 @@ env_specs:
     - flye
     - numactl
     channels: []
+  masurca-4.1.4:
+    packages:
+    - masurca=4.1.4
+    - flye
+    - numactl
+    channels: []
 packages: []
