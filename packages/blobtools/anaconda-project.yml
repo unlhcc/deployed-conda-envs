@@ -9,19 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: blobtools
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: A modular command-line solution for visualisation, quality control and
   taxonomic partitioning of genome datasets.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -29,3 +18,12 @@ env_specs:
     packages:
     - blobtools=1.1.1
     channels: []
+commands:
+  blobtools-db:
+    unix: export BLOBTOOLS_DIR=/util/opt/anaconda/deployed-conda-envs/packages/blobtools/envs/blobtools-1.1.1/lib/python3.7/site-packages/
+      && curl ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz -o ${BLOBTOOLS_DIR}/data/taxdump.tar.gz
+      && curl ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz.md5 -o ${BLOBTOOLS_DIR}/data/taxdump.tar.gz.md5
+      && cd ${BLOBTOOLS_DIR}/data
+      && tar -xzf ${BLOBTOOLS_DIR}/data/taxdump.tar.gz nodes.dmp names.dmp && blobtools nodesdb
+      --nodes ${BLOBTOOLS_DIR}/data/nodes.dmp --names ${BLOBTOOLS_DIR}/data/names.dmp
+    env_spec: blobtools-1.1.1
