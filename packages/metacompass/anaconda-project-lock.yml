@@ -1,0 +1,136 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  metacompass-0.2025.08.13:
+    locked: true
+    env_spec_hash: 9c7b8f9b80cbc3d6760ecc4fa74c86cd97a0c688
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - _sysroot_linux-64_curr_repodata_hack=3=haa98f57_10
+      - bbmap=39.33=he5f24ec_0
+      - bedtools=2.31.1=h13024bc_3
+      - biopython=1.85=py312hb25bd0a_0
+      - blas=1.0=openblas
+      - blast=2.5.0=hc0b0e79_3
+      - boost=1.82.0=py312h06a4308_2
+      - bottleneck=1.4.2=py312ha883a20_0
+      - bowtie2=2.5.4=he96a11b_6
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.34.5=hef5626c_0
+      - ca-certificates=2025.9.9=h06a4308_0
+      - cairo=1.18.4=h44eff21_0
+      - capnproto=1.0.2=h766bdaa_3
+      - coreutils=9.5=h5eee18b_0
+      - curl=8.15.0=h14366f7_0
+      - dbus=1.16.2=h5bd4931_0
+      - expat=2.7.1=h6a678d5_0
+      - fontconfig=2.15.0=h7e30c49_1
+      - freetype=2.13.3=h4a9f257_0
+      - fribidi=1.0.10=h7b6447c_0
+      - glib-tools=2.84.2=h6a678d5_0
+      - glib=2.84.2=h6a678d5_0
+      - graphite2=1.3.14=h295c915_1
+      - gsl=2.8=hbf7d49c_1
+      - harfbuzz=10.2.0=hdfddeaa_1
+      - htslib=1.22.1=h566b1c6_0
+      - icu=73.1=h6a678d5_0
+      - k8=1.2=he8db53b_6
+      - kernel-headers_linux-64=3.10.0=h57e8cba_10
+      - kmc=3.2.4=haf24da9_3
+      - ld_impl_linux-64=2.40=h12ee557_0
+      - libblas=3.9.0=1_h86c2bf4_netlib
+      - libboost=1.82.0=h109eef0_2
+      - libcblas=3.9.0=12_h832b8c9_netlib
+      - libcurl=8.15.0=hc1efc7f_0
+      - libdeflate=1.22=h5eee18b_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.7.1=hecca717_0
+      - libffi=3.4.6=h2dba641_1
+      - libgcc-ng=15.1.0=h69a702a_5
+      - libgcc=15.1.0=h767d61c_5
+      - libgfortran-ng=15.1.0=h69a702a_5
+      - libgfortran5=15.1.0=hcea5267_5
+      - libgfortran=15.1.0=h69a702a_5
+      - libglib=2.84.2=h37c7471_0
+      - libgomp=15.1.0=h767d61c_5
+      - libiconv=1.16=h5eee18b_3
+      - liblapack=3.9.0=12_hd37a5e2_netlib
+      - liblzma-devel=5.8.1=hb9d3cd8_2
+      - liblzma=5.8.1=hb9d3cd8_2
+      - libnghttp2=1.57.0=h2d74bed_0
+      - libnsl=2.0.1=hb9d3cd8_1
+      - libopenblas=0.3.29=ha39b09d_0
+      - libpng=1.6.39=h5eee18b_0
+      - libsqlite=3.50.4=h0c1763c_0
+      - libssh2=1.11.1=h251f7ec_0
+      - libstdcxx-ng=15.1.0=h4852527_5
+      - libstdcxx=15.1.0=h8f9b012_5
+      - libuuid=2.41.1=he9a06e4_0
+      - libxcb=1.17.0=h9b100fa_0
+      - libxcrypt=4.4.36=hd590300_1
+      - libzlib=1.3.1=hb25bd0a_0
+      - mash=2.3=hb105d93_10
+      - megahit=1.2.9=haf24da9_8
+      - metacompass=0.2025.08.13=py312h121872b_0
+      - minimap2=2.30=h577a1d6_0
+      - ncbi-datasets-cli=18.7.0=ha770c72_0
+      - ncurses=6.5=h7934f7d_0
+      - nextflow=25.04.7=h2a3209d_0
+      - numexpr=2.11.0=py312hbaae466_0
+      - numpy=2.3.3=py312h33ff503_0
+      - openjdk=21.0.6=h38aa4c6_0
+      - openssl=3.5.2=h26f9b46_0
+      - pandas=2.3.2=py312h277b779_0
+      - pango=1.50.7=h668f713_2
+      - pcre2=10.42=hebb0a14_1
+      - perl=5.40.2=0_h5eee18b_perl5
+      - pilon=1.24=hdfd78af_0
+      - pip=25.2=pyhc872135_0
+      - pixman=0.46.4=h7934f7d_0
+      - pthread-stubs=0.3=h0ce48e5_1
+      - py-boost=1.82.0=py312h6db74b5_2
+      - python-dateutil=2.9.0post0=py312h06a4308_2
+      - python-tzdata=2025.2=pyhd3eb1b0_0
+      - python=3.12.11=h9e4cc4f_0_cpython
+      - python_abi=3.12=1_cp312
+      - pytz=2025.2=py312h06a4308_0
+      - readline=8.3=hc2a1206_0
+      - samtools=1.22.1=h96c455f_0
+      - scipy=1.16.1=py312h7a1785b_1
+      - seqkit=2.10.1=he881be0_0
+      - setuptools=78.1.1=py312h06a4308_0
+      - six=1.17.0=py312h06a4308_0
+      - skani=0.3.0=ha6fb395_0
+      - sysroot_linux-64=2.17=h57e8cba_10
+      - tk=8.6.15=h54e0aa7_0
+      - tzdata=2025b=h04d1e81_0
+      - wheel=0.45.1=py312h06a4308_0
+      - xorg-libx11=1.8.12=h9b100fa_1
+      - xorg-libxau=1.0.12=h9b100fa_0
+      - xorg-libxdmcp=1.1.5=h9b100fa_0
+      - xorg-libxext=1.3.6=h9b100fa_0
+      - xorg-libxrender=0.9.12=h9b100fa_0
+      - xorg-xorgproto=2024.1=h5eee18b_1
+      - xz-gpl-tools=5.8.1=hbcc6ac9_2
+      - xz-tools=5.8.1=hb9d3cd8_2
+      - xz=5.8.1=hbcc6ac9_2
+      - zlib=1.3.1=hb25bd0a_0
+      - zstd=1.5.7=hb8e6e7a_2
