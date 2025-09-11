@@ -9,18 +9,7 @@
 # Set the 'name' key to name your project
 #
 name: flye
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: Fast and accurate de novo assembler for single molecule sequencing reads
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -37,4 +26,9 @@ env_specs:
   flye-2.9.1:
     packages:
     - flye=2.9.1
+    channels: []
+  flye-2.9.6:
+    packages:
+    - flye=2.9.6
+    - python=3.12
     channels: []
