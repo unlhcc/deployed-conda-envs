@@ -17,7 +17,7 @@ locking_enabled: true
 env_specs:
   squeezemeta-1.7:
     locked: true
-    env_spec_hash: b6af1e50b6024fbdb41734b4c8064306283c6547
+    env_spec_hash: 8227b707f33e91e792f0af97901fa12582890313
     platforms:
     - linux-64
     packages:
@@ -71,7 +71,7 @@ env_specs:
       - bwidget=1.9.14=ha770c72_1
       - bzip2=1.0.8=h5eee18b_6
       - c-ares=1.34.5=hef5626c_0
-      - ca-certificates=2025.7.15=h06a4308_0
+      - ca-certificates=2025.9.9=h06a4308_0
       - cached-property=1.5.2=py_0
       - cached_property=1.5.2=pyha770c72_1
       - cachetools=5.5.0=pyhd8ed1ab_1
@@ -329,7 +329,7 @@ env_specs:
       - pyasn1-modules=0.4.1=pyhd8ed1ab_1
       - pyasn1=0.6.1=py310h06a4308_0
       - pycairo=1.25.0=py310hda9f760_1
-      - pycparser=2.22=pyh29332c3_1
+      - pycparser=2.22=py310h06a4308_0
       - pydantic=1.10.17=py310h727ffd4_1
       - pygobject=3.44.1=py310hc8e940b_0
       - pyjwt=2.10.1=py310h06a4308_0
@@ -462,6 +462,7 @@ env_specs:
       - vcflib=1.0.1=hd2e4403_1
       - vsearch=2.15.2=h95f258a_1
       - werkzeug=3.1.3=py310h06a4308_0
+      - wget=1.21.4=h91b91d3_1
       - wheel=0.45.1=py310h06a4308_0
       - wrapt=1.17.0=py310h5eee18b_0
       - xcb-util-image=0.4.0=h166bdaf_0
@@ -494,8 +495,3 @@ env_specs:
       - zlib=1.2.13=h4ab18f5_6
       - zstandard=0.23.0=py310h2c38b39_1
       - zstd=1.5.6=ha6fb4c9_0
-      pip:
-      - concoct==1.1.0
-      - motulizer==0.2.4
-      - speedict==0.3.12
-      - superpang==1.3.0
