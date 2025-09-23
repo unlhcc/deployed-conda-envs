@@ -13,7 +13,8 @@ name: SqueezeMeta
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: SqueezeMeta is a fully automatic pipeline for metagenomics/metatranscriptomics, covering all steps of the analysis.
+description: SqueezeMeta is a fully automatic pipeline for metagenomics/metatranscriptomics,
+  covering all steps of the analysis.
 
 
 #
@@ -27,5 +28,13 @@ env_specs:
   squeezemeta-1.7:
     packages:
     - squeezemeta=1.7
+    - wget
     channels:
     - fpusan
+commands:
+  db-download:
+    unix: mkdir -p /work/HCC/BCRF/app_specific/squeezemeta/1.7.2/db/ && cd /work/HCC/BCRF/app_specific/squeezemeta/1.7.2/db
+      && wget https://zenodo.org/records/5571251/files/checkm2_database.tar.gz &&
+      tar xvf checkm2_database.tar.gz && mv CheckM2_database/uniref100.KO.1.dmnd .
+      && download_databases.pl /work/HCC/BCRF/app_specific/squeezemeta/1.7.2/
+    env_spec: squeezemeta-1.7
