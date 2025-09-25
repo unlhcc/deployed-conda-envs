@@ -43,3 +43,8 @@ env_specs:
     - python=3.10
     channels:
     - nodefaults
+  orthofinder-3.1.0:
+    packages:
+    - orthofinder=3.1.0
+    - python=3.10
+    channels: []
