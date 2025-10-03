@@ -56,3 +56,19 @@ env_specs:
     - python=3.9
     - tensorflow=*=*cpu*
     channels: []
+  deepmd-kit-2.2.11-py39:
+    packages:
+    - deepmd-kit=2.2.11=*cpu*
+    - lammps
+    - python=3.9
+    - tensorflow=*=*cpu*
+    - openmpi=4.1.*=external_*
+    channels: []
+  deepmd-kit-2.2.11-py310:
+    packages:
+    - deepmd-kit=2.2.11=*cpu*
+    - lammps
+    - python=3.10
+    - tensorflow=*=*cpu*
+    - openmpi=4.1.*=external_*
+    channels: []
