@@ -62,3 +62,23 @@ env_specs:
     - tensorflow=*=*cuda112*
     - cudatoolkit=11.2
     channels: []
+  deepmd-kit-gpu-2.2.11-py39:
+    packages:
+    - deepmd-kit=2.2.11=*cuda118*
+    - lammps
+    - python=3.9
+    - tensorflow=*=*cuda118*
+    - cudatoolkit=11.8
+    - sysroot_linux-64<=2.28
+    channels:
+    - nodefaults
+  deepmd-kit-gpu-2.2.11-py310:
+    packages:
+    - deepmd-kit=2.2.11=*cuda118*
+    - lammps
+    - python=3.10
+    - tensorflow=*=*cuda118*
+    - cudatoolkit=11.8
+    - sysroot_linux-64<=2.28
+    channels:
+    - nodefaults
