@@ -33,3 +33,7 @@ env_specs:
     packages:
     - viennarna=2.4.5
     channels: []
+  viennarna-2.7.0:
+    packages:
+    - viennarna=2.7.0
+    channels: []
