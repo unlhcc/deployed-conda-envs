@@ -9,11 +9,13 @@
 # Set the 'name' key to name your project
 #
 name: DNMTools
-description: DNMTools is a set of tools for analyzing DNA methylation data from bisulfite sequencing.
+description: DNMTools is a set of tools for analyzing DNA methylation data from bisulfite
+  sequencing.
 platforms:
 - linux-64
 env_specs:
   dnmtools-1.5.1:
     packages:
     - dnmtools=1.5.1
-    channels: []
+    channels:
+    - nodefaults
