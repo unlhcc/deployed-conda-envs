@@ -35,3 +35,8 @@ env_specs:
     - tobias=0.17.1
     - python=3.12
     channels: []
+  tobias-0.17.2:
+    packages:
+    - tobias=0.17.2
+    - python=3.12
+    channels: []
