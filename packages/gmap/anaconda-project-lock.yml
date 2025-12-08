@@ -10,10 +10,6 @@
 # Set to false to ignore locked versions.
 #
 locking_enabled: true
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   gmap-2017.05.08:
     locked: true
@@ -109,4 +105,25 @@ env_specs:
       - perl-exporter=5.74=pl5321hd8ed1ab_0
       - perl-file-util=4.201720=pl5321hdfd78af_0
       - perl-lib=0.63=pl5321hd8ed1ab_0
+      - perl=5.32.1=0_h5eee18b_perl5
+  gmap-2025.07.31:
+    locked: true
+    env_spec_hash: 67027211005836acd300ab28e6116df299ccc684
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - bzip2=1.0.8=h5eee18b_6
+      - gmap=2025.07.31=pl5321hb1d24b7_1
+      - libgcc-ng=15.2.0=h166f726_7
+      - libgcc=15.2.0=h69a1729_7
+      - libgomp=15.2.0=h4751f2c_7
+      - libnsl=2.0.0=h5eee18b_0
+      - libzlib=1.3.1=hb25bd0a_0
+      - perl-constant=1.33=pl5321hdfd78af_2
+      - perl-exporter=5.72=pl5321hdfd78af_2
+      - perl-file-util=4.201720=pl5321hdfd78af_0
+      - perl-lib=0.63=pl5321hdfd78af_2
       - perl=5.32.1=0_h5eee18b_perl5
