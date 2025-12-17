@@ -1,0 +1,15 @@
+# This is an Anaconda project file.
+
+name: r-candihap
+
+description: CandiHap can fast preselect candidate causal SNPs from Sanger or next-generation sequencing data, and report results in table and exquisite vector-graphs.
+
+platforms:
+- linux-64
+env_specs:
+  r-candihap-0.0.18-r43:
+    packages:
+    - r-base=4.3
+    - r-candihap=0.0.18
+    channels:
+    - nodefaults
