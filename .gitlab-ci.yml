@@ -37,7 +37,7 @@ deploy-swan:
   resource_group: production-swan
   image: unlhcc/swan-build
   variables:
-    ANACONDA_PREFIX: "/util/opt/anaconda/4.8/envs/anaconda-project-0.9.1"
+    ANACONDA_PREFIX: "/util/opt/anaconda/25.3.1/envs/anaconda-project-0.11.1"
     DEPLOY_HOST: "SWAN"
   only:
     - master
