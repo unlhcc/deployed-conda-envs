@@ -13,11 +13,11 @@ test-swan:
   image: unlhcc/swan-build
   variables:
     ANACONDA_PREFIX: "/anaconda"
-    PY_VER: "3.8"
-    AP_VER: "0.9.1"
-    AC_VER: "1.7.2"
-    MINICONDA_VER: "4.10"
-    MAMBA_VER: "0.24"
+    PY_VER: "3.11"
+    AP_VER: "0.11.1"
+    AC_VER: "1.13.1"
+    MINICONDA_VER: "25.7.0"
+    MAMBA_VER: "2.3.3"
     HCC_APPS_DB_BCRF_PATH: "/tmp"
   except:
     - master

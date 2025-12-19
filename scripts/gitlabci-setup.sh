@@ -2,7 +2,7 @@
 
 # bootstrap anaconda-project env
 curl -L  https://micromamba.snakepit.net/api/micromamba/linux-64/latest  | tar -jx -C /usr/local
-micromamba create -y -q -p $ANACONDA_PREFIX conda=$MINICONDA_VER python=$PY_VER anaconda-project=$AP_VER anaconda-client=$AC_VER mamba=$MAMBA_VER git "requests<=2.29" -c conda-forge
+micromamba create -y -q -p $ANACONDA_PREFIX conda=$MINICONDA_VER python=$PY_VER anaconda-project=$AP_VER anaconda-client=$AC_VER mamba=$MAMBA_VER git requests -c conda-forge
 
 # activate env
 source ${ANACONDA_PREFIX}/etc/profile.d/conda.sh
@@ -16,4 +16,4 @@ conda config --system --add channels https://conda.anaconda.org/t/${PRIVATE_PACK
 #conda config --system --add channels https://${PYROSETTA_REPO_USERNAME}:${PYROSETTA_REPO_PASSWORD//1}@conda.graylab.jhu.edu
 conda config --system --set notify_outdated_conda false
 conda config --system --set auto_update_conda false
-conda config --system --set auto_activate_base true
+conda config --system --set auto_activate true
