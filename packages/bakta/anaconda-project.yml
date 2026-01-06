@@ -17,7 +17,19 @@ env_specs:
     packages:
     - bakta=1.9.4
     channels: []
+  bakta-1.11.4:
+    packages:
+    - bakta=1.11.4
+    channels:
+    - hcc
+    - conda-forge
+    - bioconda
+    - nodefaults
 commands:
   download-db:
-    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/bakta/1.9.4 && bakta_db download --output $HCC_APPS_DB_BCRF_PATH/bakta/1.9.4
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/bakta/1.9.4 && bakta_db download --output
+      $HCC_APPS_DB_BCRF_PATH/bakta/1.9.4
     env_spec: bakta-1.9.4
+  download-db-1.11.4:
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/bakta/1.11.4 && bakta_db download --output $HCC_APPS_DB_BCRF_PATH/bakta/1.11.4
+    env_spec: bakta-1.11.4
