@@ -3,6 +3,7 @@ variables:
   HCC_APPS_DB_BCRF_PATH: "/work/HCC/BCRF/app_specific"
   CONDA_OVERRIDE_CUDA: "12.2"
   MAMBA_NO_BANNER: 1
+  ANACONDA_PROJECT_DISABLE_OVERRIDE_CHANNELS: 1
 
 stages:
   - test
