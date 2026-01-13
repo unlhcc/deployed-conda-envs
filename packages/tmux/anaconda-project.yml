@@ -27,4 +27,5 @@ env_specs:
   tmux-3.6:
     packages:
     - tmux=3.6
-    channels: []
+    channels:
+    - nodefaults
