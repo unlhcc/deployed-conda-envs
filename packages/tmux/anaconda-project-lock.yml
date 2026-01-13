@@ -17,18 +17,18 @@ locking_enabled: true
 env_specs:
   tmux-3.6:
     locked: true
-    env_spec_hash: cedf5160f186560e54681947708a9210ae45025d
+    env_spec_hash: 6ce8ad536b636786df4ea5866e3f1a19e4a9c7f3
     platforms:
     - linux-64
     packages:
       linux-64:
-      - _libgcc_mutex=0.1=main
-      - _openmp_mutex=5.1=1_gnu
-      - ca-certificates=2025.12.2=h06a4308_0
-      - libevent=2.1.12=hdbd6064_1
-      - libgcc-ng=15.2.0=h166f726_7
-      - libgcc=15.2.0=h69a1729_7
-      - libgomp=15.2.0=h4751f2c_7
-      - ncurses=6.5=h7934f7d_0
-      - openssl=3.0.18=hd6dcaed_0
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - ca-certificates=2026.1.4=hbd8a1cb_0
+      - libevent=2.1.12=hf998b51_1
+      - libgcc-ng=15.2.0=h69a702a_16
+      - libgcc=15.2.0=he0feb66_16
+      - libgomp=15.2.0=he0feb66_16
+      - ncurses=6.5=h2d0b736_3
+      - openssl=3.6.0=h26f9b46_0
       - tmux=3.6=hb764a82_0
