@@ -15,9 +15,9 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  tmux-3.6:
+  tmux-3.6a:
     locked: true
-    env_spec_hash: 6ce8ad536b636786df4ea5866e3f1a19e4a9c7f3
+    env_spec_hash: 9cce88dd01ee7d652f2d880d679d6b9699bb4556
     platforms:
     - linux-64
     packages:
@@ -31,4 +31,4 @@ env_specs:
       - libgomp=15.2.0=he0feb66_16
       - ncurses=6.5=h2d0b736_3
       - openssl=3.6.0=h26f9b46_0
-      - tmux=3.6=hb764a82_0
+      - tmux=3.6a=hb764a82_0

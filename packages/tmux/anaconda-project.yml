@@ -24,8 +24,8 @@ description: A terminal multiplexer.
 platforms:
 - linux-64
 env_specs:
-  tmux-3.6:
+  tmux-3.6a:
     packages:
-    - tmux=3.6
+    - tmux=3.6a
     channels:
     - nodefaults
