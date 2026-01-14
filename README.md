@@ -365,3 +365,19 @@ environment name for clarity.  You will need to rename it when copying to the va
 Some manual editing of the generated file may still be necessary.  For example, conda
 package metadata doesn't include Keyword or Category information, so that will need
 to be added to the generated file.
+
+Overriding virtual package detection
+------------------------------------
+
+Sometimes, you may need to override virtual package detection using environment variables when 
+running `anaconda-project` on your VM such that the VM environment matches the one of the Swan 
+build node.
+Some [commonly used variables](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-virtual.html#environment-variables) 
+are `CONDA_OVERRIDE_ARCHSPEC`, `CONDA_OVERRIDE_CUDA`, `CONDA_OVERRIDE_GLIBC` and their respective 
+values are `icelake`, `12.2` and `2.28`.
+
+For example, to create conda environment to match the architecture of the Swan build node, 
+the command run on the VM should look like:
+```
+CONDA_OVERRIDE_ARCHSPEC="icelake" anaconda-project add-env-spec ...
+```
