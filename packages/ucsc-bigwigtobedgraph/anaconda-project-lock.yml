@@ -1,0 +1,42 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  ucsc-bigwigtobedgraph-482:
+    locked: true
+    env_spec_hash: 75ee73bfe8f69d8540534384e0b0788cdefb0abb
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=conda_forge
+      - _openmp_mutex=4.5=2_gnu
+      - bzip2=1.0.8=hda65f42_8
+      - ca-certificates=2026.1.4=hbd8a1cb_0
+      - libgcc-ng=15.2.0=h69a702a_16
+      - libgcc=15.2.0=he0feb66_16
+      - libgomp=15.2.0=he0feb66_16
+      - libiconv=1.18=h3b78370_2
+      - liblzma=5.8.2=hb03c661_0
+      - libopenssl-static=3.6.0=hb03c661_0
+      - libpng=1.6.54=h421ea60_0
+      - libstdcxx-ng=15.2.0=hdf11a46_16
+      - libstdcxx=15.2.0=h934c35e_16
+      - libuuid=2.41.3=h5347b49_0
+      - libzlib=1.3.1=hb9d3cd8_2
+      - mysql-connector-c=6.1.11=h659d440_1008
+      - openssl=3.6.0=h26f9b46_0
+      - ucsc-bigwigtobedgraph=482=h0b57e2e_0
