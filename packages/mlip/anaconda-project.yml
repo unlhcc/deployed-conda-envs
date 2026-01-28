@@ -1,0 +1,12 @@
+# This is an Anaconda project file.
+name: MLIP
+
+description: Machine Learning of Interatomic Potentials (MLIP)
+
+platforms:
+- linux-64
+env_specs:
+  mlip-3.0:
+    packages:
+    - mlip=3.0
+    channels: []
