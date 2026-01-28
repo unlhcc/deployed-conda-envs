@@ -1,0 +1,39 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  mlip-3.0:
+    locked: true
+    env_spec_hash: 06d866b249ba6aae2d85417df530cd54da9e39ad
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=1_gnu
+      - libblas=3.11.0=5_h4a7cf45_openblas
+      - libcblas=3.11.0=5_h0358290_openblas
+      - libgcc-ng=15.2.0=h166f726_7
+      - libgcc=15.2.0=h69a1729_7
+      - libgfortran-ng=15.2.0=h166f726_7
+      - libgfortran5=15.2.0=hc633d37_7
+      - libgfortran=15.2.0=h166f726_7
+      - libgomp=15.2.0=h4751f2c_7
+      - libopenblas=0.3.30=h46f56fc_2
+      - libstdcxx=15.2.0=h39759b7_7
+      - mlip=3.0=mpi_mpich_h9f6f62e_3
+      - mpi=1.0=mpich
+      - mpich=4.3.2=hf345156_0
