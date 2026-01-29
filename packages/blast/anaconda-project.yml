@@ -43,3 +43,7 @@ env_specs:
     packages:
     - blast=2.15.0
     channels: []
+  blast-2.17.0:
+    packages:
+    - blast=2.17.0
+    channels: []
