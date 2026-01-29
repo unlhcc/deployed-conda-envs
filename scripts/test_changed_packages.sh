@@ -77,7 +77,9 @@ then
                 NOTICE  "Preparing environment $spec"
                 prepareCommand="anaconda-project prepare --directory $package --env-spec $spec"
                 INFO "Running command $prepareCommand"
-                prepareOut="$($prepareCommand 2>&1)"
+                $prepareCommand
+                prepareOut=""
+                #prepareOut="$($prepareCommand 2>&1)"
                 if [[ "$prepareOut" = *"Potential issues"* ]]
                 then
                     ERROR "One or more issues have been found with the package!"
