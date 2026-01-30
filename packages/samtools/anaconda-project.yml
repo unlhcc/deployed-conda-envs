@@ -9,19 +9,9 @@
 # Set the 'name' key to name your project
 #
 name: Samtools
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: SAM Tools provide various utilities for manipulating alignments in the
   SAM format, including sorting, merging, indexing and generating alignments in a
   per-position format.
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
@@ -67,3 +57,7 @@ env_specs:
     - samtools=1.20
     channels:
     - nodefaults
+  samtools-1.23:
+    packages:
+    - samtools=1.23
+    channels: []
