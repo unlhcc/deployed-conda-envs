@@ -15,9 +15,9 @@ locking_enabled: true
 # A key goes in here for each env spec.
 #
 env_specs:
-  dpgen-0.13.2:
+  dpgen-0.13.2-py312:
     locked: true
-    env_spec_hash: 9946528ed46dcead9d424a82c916cfdad6f0924c
+    env_spec_hash: e84a0e6ac6df9a60f317994cc3ba1ce3ace5fdee
     platforms:
     - linux-64
     packages:
@@ -55,7 +55,7 @@ env_specs:
       - dpdata=1.0.0=pyhd8ed1ab_0
       - dpdispatcher=1.0.0=pyhd8ed1ab_0
       - dpgen=0.13.2=pyhd8ed1ab_0
-      - expat=2.7.3=h7354ed3_4
+      - expat=2.7.4=h7354ed3_0
       - flask=3.1.2=py312h06a4308_0
       - fontconfig=2.15.0=h2c49b7f_0
       - fonttools=4.61.0=py312h47b2149_0
@@ -98,7 +98,7 @@ env_specs:
       - libcurl=8.18.0=h3506a8c_0
       - libdeflate=1.22=h5eee18b_0
       - libev=4.33=h7f8727e_1
-      - libexpat=2.7.3=h7354ed3_4
+      - libexpat=2.7.4=h7354ed3_0
       - libffi=3.4.4=h6a678d5_1
       - libgcc-ng=15.2.0=h166f726_7
       - libgcc=15.2.0=h69a1729_7
