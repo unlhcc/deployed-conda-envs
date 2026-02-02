@@ -24,7 +24,8 @@ description: The deep potential generator
 platforms:
 - linux-64
 env_specs:
-  dpgen-0.13.2:
+  dpgen-0.13.2-py312:
     packages:
     - dpgen=0.13.2
+    - python=3.12
     channels: []
