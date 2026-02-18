@@ -9,23 +9,16 @@
 # Set the 'name' key to name your project
 #
 name: Rust
-
-#
-# Set a one-sentence-or-so 'description' key with project details
-#
 description: Rust is a modern systems programming language focusing on safety, speed,
   and concurrency.
-
-
-#
-# In the platforms section, list platforms the project should work on
-# Examples: "linux-64", "osx-64", "win-64"
-# Use `anaconda-project add-platforms` to add platforms.
-#
 platforms:
 - linux-64
 env_specs:
   rust-1.41.0:
     packages:
     - rust=1.41.0
+    channels: []
+  rust-1.93.1:
+    packages:
+    - rust=1.93.1
     channels: []
