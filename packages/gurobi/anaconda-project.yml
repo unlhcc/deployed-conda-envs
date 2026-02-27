@@ -133,3 +133,12 @@ env_specs:
     - gurobi-matlab=12.0.1
     channels:
     - Gurobi
+  gurobi-9.1.2-py39:
+    packages:
+    - gurobi=9.1.2
+    - python=3.9
+    - r-base=4.0
+    - hcc-python-stack=1.0
+    - coin-or-osi=0.108.7
+    channels:
+    - nodefaults
