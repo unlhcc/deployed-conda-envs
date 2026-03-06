@@ -1,0 +1,12 @@
+name: finestructure
+
+description: fineSTRUCTURE is a fast and powerful algorithm for identifying population
+  structure using dense sequencing data.
+
+platforms:
+- linux-64
+env_specs:
+  finestructure-4.1:
+    packages:
+    - finestructure=4.1
+    channels: []
