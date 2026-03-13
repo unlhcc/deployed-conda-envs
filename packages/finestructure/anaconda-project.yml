@@ -10,3 +10,7 @@ env_specs:
     packages:
     - finestructure=4.1
     channels: []
+  finestructure-2026.02.04:
+    packages:
+    - finestructure=0.0.2026.02.04
+    channels: []
