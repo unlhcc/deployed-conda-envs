@@ -51,7 +51,7 @@ env_specs:
 #      wget https://genome-idx.s3.amazonaws.com/kraken/k2_pluspfp_20250714.tar.gz && wget https://genome-idx.s3.amazonaws.com/kraken/k2_core_nt_20250609.tar.gz
 #  env_spec: kraken2-2.1.6
 # download-db-2.17.1:
-#  unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/kraken/2.17.1 && cd $HCC_APPS_DB_BCRF_PATH/kraken/2.17.1 && wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_20251015.tar.gz &&
-#      wget https://genome-idx.s3.amazonaws.com/kraken/k2_viral_20251015.tar.gz && wget https://genome-idx.s3.amazonaws.com/kraken/k2_pluspf_20251015.tar.gz &&
-#      wget https://genome-idx.s3.amazonaws.com/kraken/k2_pluspfp_20251015.tar.gz && wget https://genome-idx.s3.amazonaws.com/kraken/k2_core_nt_20251015.tar.gz
+#  unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/kraken/2.17.1 && cd $HCC_APPS_DB_BCRF_PATH/kraken/2.17.1 && wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_20260226.tar.gz &&
+#      wget https://genome-idx.s3.amazonaws.com/kraken/k2_viral_20260226.tar.gz && wget https://genome-idx.s3.amazonaws.com/kraken/k2_pluspf_20260226.tar.gz &&
+#      wget https://genome-idx.s3.amazonaws.com/kraken/k2_pluspfp_20260226.tar.gz && wget https://genome-idx.s3.amazonaws.com/kraken/k2_core_nt_20251015.tar.gz
 #  env_spec: kraken2-2.17.1
