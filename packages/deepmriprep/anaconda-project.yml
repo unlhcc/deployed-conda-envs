@@ -29,4 +29,5 @@ env_specs:
     packages:
     - deepmriprep=0.1.0=cuda*
     - python=3.9
-    channels: []
+    channels:
+    - hcc

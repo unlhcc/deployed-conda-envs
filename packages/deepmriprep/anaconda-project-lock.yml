@@ -17,13 +17,13 @@ locking_enabled: true
 env_specs:
   deepmriprep-0.1.0:
     locked: true
-    env_spec_hash: 10133d51a9d448a3d7527986f61e79c875a5d7bd
+    env_spec_hash: bb8906a6fb1c72e951bdc88a990733fb2b9721f5
     platforms:
     - linux-64
     packages:
       linux-64:
       - _libgcc_mutex=0.1=main
-      - _openmp_mutex=4.5=7_kmp_llvm
+      - _openmp_mutex=5.1=1_gnu
       - bottleneck=1.4.2=py39ha9d4c09_0
       - brotlicffi=1.0.9.2=py39hbdd6827_2
       - ca-certificates=2025.12.2=h06a4308_0
@@ -46,6 +46,7 @@ env_specs:
       - icu=73.1=h6a678d5_0
       - idna=3.11=py39h06a4308_0
       - importlib_resources=6.5.2=py39h06a4308_0
+      - intel-openmp=2022.1.0=h9e868ea_3769
       - ld_impl_linux-64=2.44=h9e0c5a2_3
       - libblas=3.9.0=16_linux64_mkl
       - libcblas=3.9.0=16_linux64_mkl
@@ -53,6 +54,7 @@ env_specs:
       - libffi=3.4.4=h6a678d5_1
       - libgcc-ng=15.2.0=h166f726_7
       - libgcc=15.2.0=h69a1729_7
+      - libgomp=15.2.0=h4751f2c_7
       - liblapack=3.9.0=16_linux64_mkl
       - libpng=1.6.56=h22898a0_0
       - libprotobuf=3.20.3=he621ea3_0
@@ -62,19 +64,18 @@ env_specs:
       - libxcb=1.17.0=h9b100fa_0
       - libxml2=2.13.9=h2c43086_0
       - libzlib=1.3.1=hb25bd0a_0
-      - llvm-openmp=21.1.8=h5b07290_0
       - magma=2.5.4=hc72dce7_4
-      - mkl=2022.2.1=h6508926_16999
+      - mkl=2022.1.0=hc2b9512_224
       - nccl=2.27.3.1=h03a54cd_0
       - ncurses=6.5=h7934f7d_0
       - nibabel=5.3.2=pyha770c72_1
       - ninja-base=1.13.1=h0f57076_0
       - ninja=1.13.1=h06a4308_0
-      - numexpr=2.8.7=mkl_py39h3458bc0_4
+      - numexpr=2.8.3=mkl_py39h6189487_1
       - numpy=1.26.4=py39h474f0d3_0
       - openssl=3.5.5=h1b28b03_0
       - packaging=25.0=py39h06a4308_1
-      - pandas=2.3.3=py39h505adc9_0
+      - pandas=2.1.4=py39h1128e8f_0
       - pip=26.0.1=pyhc872135_0
       - poetry-core=2.2.0=py39h06a4308_0
       - pthread-stubs=0.3=h0ce48e5_1
@@ -90,9 +91,8 @@ env_specs:
       - requests=2.32.5=py39h06a4308_0
       - setuptools=80.9.0=py39h06a4308_0
       - six=1.17.0=py39h06a4308_0
-      - sleef=3.9.0=ha0421bc_0
+      - sleef=3.5.1=h5eee18b_2
       - sqlite=3.51.2=h3e8d24a_0
-      - tbb=2021.8.0=hdb19cb5_0
       - tk=8.6.13=xft_h891c84d_3
       - torchreg=0.1.2=cuda_py39hc8cc138_0
       - tqdm=4.67.1=py39h2f386ee_0
