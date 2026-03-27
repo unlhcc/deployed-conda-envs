@@ -14,7 +14,7 @@ name: deepmriprep
 # Set a one-sentence-or-so 'description' key with project details
 #
 description: Neural network-based preprocessing of MRI data. Prepping brain images
-  in seconds.
+  in seconds. 
 
 
 #
