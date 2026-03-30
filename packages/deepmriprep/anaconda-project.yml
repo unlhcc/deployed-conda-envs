@@ -29,11 +29,6 @@ env_specs:
     - deepmriprep=0.1.0=cuda*
     - python=3.9
     - wget
-    channels:
-    - hcc
-    - conda-forge
-    - bioconda
-    - defaults
 commands:
   model-download:
     unix: mkdir -p ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/
