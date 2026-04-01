@@ -31,29 +31,29 @@ env_specs:
     - wget
 commands:
   model-download:
-    unix: mkdir -p /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/
+    unix: mkdir -p ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/
       && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/brain_extraction_bbox_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/brain_extraction_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_nogm_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_0_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_1_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_2_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_3_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_4_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_5_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_6_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_7_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_8_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_9_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_10_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_11_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_12_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_13_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_14_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_15_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_16_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_17_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/warp_model.pt
-      -P /opt/conda/lib/python3.9/site-packages/deepmriprep/data/models/
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/brain_extraction_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_nogm_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_0_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_1_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_2_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_3_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_4_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_5_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_6_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_7_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_8_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_9_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_10_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_11_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_12_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_13_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_14_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_15_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_16_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_patch_17_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/segmentation_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/ && wget https://raw.githubusercontent.com/wwu-mmll/deepmriprep/main/deepmriprep/data/models/warp_model.pt
+      -P ${CONDA_PREFIX}/lib/python3.9/site-packages/deepmriprep/data/models/
     env_spec: deepmriprep-0.1.0
