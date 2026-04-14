@@ -1,0 +1,20 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: mvip
+description: MVP provides a standardized and reproducible pipeline for both extensive and robust characterization of viruses from large-scale sequencing data including metagenomes, metatranscriptomes, viromes and isolate genomes.
+
+platforms:
+- linux-64
+env_specs:
+  mvip-1.1.5:
+    packages:
+    - mvip=1.1.5
+    channels: []
