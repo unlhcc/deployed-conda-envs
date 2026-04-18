@@ -1,0 +1,21 @@
+name: hcc-ai-ml-workshop
+
+description: This is a temporary PyTorch-GPU environment for the AI/ML Workshop.
+
+platforms:
+- linux-64
+env_specs:
+  hcc-ai-ml-workshop:
+    packages:
+    - pytorch=2.5.1=*cuda11*
+    - python=3.12
+    - hcc-python-stack
+    - torchvision=0.20.1=*cuda11*
+    - torchaudio=2.5.1=*cuda_11*
+    - cudatoolkit=11.8
+    - transformers
+    - tensorboard
+    - ollama-python
+    channels:
+    - nodefaults
+
