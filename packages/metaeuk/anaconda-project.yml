@@ -1,0 +1,11 @@
+name: metaeuk
+
+description: MetaEuk is a modular toolkit designed for large-scale gene discovery and annotation in eukaryotic metagenomic contigs.
+
+platforms:
+- linux-64
+env_specs:
+  metaeuk-7.0:
+    packages:
+    - metaeuk==7.bba0d80
+    channels: []
