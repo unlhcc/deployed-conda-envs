@@ -21,11 +21,10 @@ env_specs:
     - distro
     - r-base=4.1
     - conda-forge::openmpi
+    - genemark-et
     channels:
     - nodefaults
 commands:
   download-db-1.8.17:
-    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/funannotate/1.8.17 && export AUGUSTUS_CONFIG_PATH=$CONDA_PREFIX/config
-      && export FUNANNOTATE_DB=$HCC_APPS_DB_BCRF_PATH/funannotate/1.8.17 && funannotate
-      setup -i all --wget
+    unix: mkdir -p $HCC_APPS_DB_BCRF_PATH/funannotate/1.8.17 && export AUGUSTUS_CONFIG_PATH=$CONDA_PREFIX/config && export FUNANNOTATE_DB=$HCC_APPS_DB_BCRF_PATH/funannotate/1.8.17 && funannotate setup -i all --wget
     env_spec: funannotate-1.8.17
