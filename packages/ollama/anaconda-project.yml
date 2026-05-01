@@ -27,3 +27,10 @@ env_specs:
     - python=3.13
     - jq
     channels: []
+  ollama-0.20.7:
+    packages:
+    - ollama=0.20.7
+    - ollama-python=0.6.2
+    - python=3.13
+    - jq
+    channels: []
