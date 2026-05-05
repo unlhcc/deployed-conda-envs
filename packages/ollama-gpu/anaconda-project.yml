@@ -29,7 +29,7 @@ env_specs:
     channels: []
   ollama-gpu-0.20.7:
     packages:
-    - ollama=0.20.7=cuda*
+    - ollama=0.20.7=cuda_13*
     - ollama-python=0.6.2
     - python=3.13
     - jq
