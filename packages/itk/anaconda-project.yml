@@ -27,18 +27,32 @@ env_specs:
   itk-5.2.0-py37:
     packages:
     - itk=5.2.0
+    - libitk-devel=5.2.0
     - hcc-python-stack
     - python=3.7
-    channels: []
+    channels:
+    - nodefaults
   itk-5.2.0-py38:
     packages:
     - itk=5.2.0
+    - libitk-devel=5.2.0
     - hcc-python-stack
     - python=3.8
-    channels: []
+    channels:
+    - nodefaults
   itk-5.2.0-py39:
     packages:
     - itk=5.2.0
+    - libitk-devel=5.2.0
     - hcc-python-stack
     - python=3.9
-    channels: []
+    channels:
+    - nodefaults
+  itk-5.3.0-py311:
+    packages:
+    - itk=5.3.0
+    - libitk-devel=5.3.0
+    - hcc-python-stack
+    - python=3.11
+    channels:
+    - nodefaults
