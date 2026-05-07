@@ -39,5 +39,6 @@ env_specs:
     - python=3.11
     - cython
     - libsystemd0<258
+    - gdal>=3.5
     channels:
     - nodefaults
