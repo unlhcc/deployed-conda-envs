@@ -10,10 +10,6 @@
 # Set to false to ignore locked versions.
 #
 locking_enabled: true
-
-#
-# A key goes in here for each env spec.
-#
 env_specs:
   raxml-ng-1.0.3:
     locked: true
@@ -64,3 +60,57 @@ env_specs:
       - openmpi=4.1.6=external_1
       - raxml-ng=1.1.0=h6d1f11b_3
       - zlib=1.2.13=h5eee18b_0
+  raxml-ng-2.0.1:
+    locked: true
+    env_spec_hash: 833bfb6322a7d592d3044302bdbb89e611db0f97
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=52_gnu
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.34.6=hd44998d_0
+      - ca-certificates=2026.3.19=h06a4308_0
+      - gettext-tools=0.25.1=h6a67909_0
+      - gettext=0.25.1=h92eb808_0
+      - gmp=6.3.0=h6a678d5_0
+      - htslib=1.23.1=h633afcb_0
+      - icu=78.3=h84d19a5_0
+      - jansson=2.14=h5eee18b_1
+      - libasprintf-devel=0.25.1=hf2ab22a_0
+      - libasprintf=0.25.1=hf2ab22a_0
+      - libbrotlicommon=1.2.0=h32cd6e7_0
+      - libbrotlidec=1.2.0=ha2c5f68_0
+      - libbrotlienc=1.2.0=h2e96acb_0
+      - libcurl=8.20.0=hd8fa685_1
+      - libdeflate=1.25=h17f619e_0
+      - libev=4.33=h7f8727e_1
+      - libgcc-ng=15.2.0=h166f726_8
+      - libgcc=15.2.0=h69a1729_8
+      - libgettextpo-devel=0.25.1=hf2ab22a_0
+      - libgettextpo=0.25.1=hf2ab22a_0
+      - libiconv=1.18=h75a1612_0
+      - libidn2=2.3.8=hf80d704_0
+      - libkrb5=1.22.1=h869c75e_1
+      - liblzma-devel=5.8.3=hb03c661_0
+      - liblzma=5.8.3=hb03c661_0
+      - libnghttp2=1.69.0=hc59f8b6_0
+      - libssh2=1.11.1=h251f7ec_0
+      - libstdcxx-ng=15.2.0=hc03a8fd_8
+      - libstdcxx=15.2.0=h39759b7_8
+      - libunistring=1.4.2=h34b0ebb_0
+      - libxml2=2.14.6=hf2a51f9_1
+      - libzlib=1.3.1=h47b2149_1
+      - lmdb=0.9.31=hb25bd0a_0
+      - lz4-c=1.9.4=h6a678d5_1
+      - mpi=1.0=openmpi
+      - ncurses=6.5=h7934f7d_0
+      - openmpi=4.1.6=external_1000
+      - openssl=3.5.6=h1b28b03_0
+      - raxml-ng=2.0.1=h870a6a7_0
+      - xz-gpl-tools=5.8.3=ha02ee65_0
+      - xz-tools=5.8.3=hb03c661_0
+      - xz=5.8.3=ha02ee65_0
+      - zlib=1.3.1=h47b2149_1
+      - zstd=1.5.7=h11fc155_0
