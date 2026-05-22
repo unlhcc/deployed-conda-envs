@@ -31,3 +31,15 @@ env_specs:
       - phyml=3.3.20180621=h470a237_0
 
 
+  phyml-3.3.20250515:
+    locked: true
+    env_spec_hash: 8e772981821f5b9d39c15a5a0e54f75cd126aab4
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _openmp_mutex=5.1=52_gnu
+      - libgcc=15.2.0=h69a1729_8
+      - mpi=1.0=openmpi
+      - openmpi=4.1.6=external_1000
+      - phyml=3.3.20250515=h54d8036_0
