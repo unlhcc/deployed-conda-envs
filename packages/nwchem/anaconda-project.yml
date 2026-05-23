@@ -28,4 +28,5 @@ env_specs:
     packages:
     - nwchem=7.0.2
     - openmpi=4.1.*=external_*
-    channels: []
+    channels:
+    - nodefaults
