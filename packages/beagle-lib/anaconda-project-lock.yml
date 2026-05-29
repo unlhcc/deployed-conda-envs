@@ -35,3 +35,18 @@ env_specs:
       - openjdk=11.0.13=h87a67e3_0
       - pcre=8.45=h295c915_0
       - zlib=1.2.13=h5eee18b_0
+  beagle-lib-4.0.1:
+    locked: true
+    env_spec_hash: 859f5442294be13da4478afee2525e4938077a59
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=52_gnu
+      - beagle-lib=4.0.1=h5f7aebb_4
+      - cudatoolkit=11.4.4=h5e1937b_4
+      - libgcc-ng=15.2.0=h166f726_8
+      - libgcc=15.2.0=h69a1729_8
+      - libstdcxx-ng=15.2.0=hc03a8fd_8
+      - libstdcxx=15.2.0=h39759b7_8

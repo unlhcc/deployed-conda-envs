@@ -18,3 +18,7 @@ env_specs:
     packages:
     - beagle-lib=4.0.0
     channels: []
+  beagle-lib-4.0.1:
+    packages:
+    - beagle-lib=4.0.1
+    channels: []
