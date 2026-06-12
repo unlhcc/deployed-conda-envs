@@ -36,3 +36,9 @@ env_specs:
     - beagle=4.1
     - openjdk=22
     channels: []
+  beast-10.5.0:
+    packages:
+    - beast=10.5.0
+    - openjdk
+    - beagle-lib
+    channels: []
