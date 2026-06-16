@@ -1,0 +1,13 @@
+# This is an Anaconda project file.
+name: metabuli
+
+description: Metabuli classifies metagenomic reads by comparing them to reference
+  genomes.
+
+platforms:
+- linux-64
+env_specs:
+  metabuli-1.2.0:
+    packages:
+    - metabuli=1.2.0
+    channels: []
