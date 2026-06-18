@@ -1,0 +1,18 @@
+# This is an Anaconda project file.
+
+name: vcontact3
+
+description: Viral Contig Automatic Clustering and Taxonomy
+
+platforms:
+- linux-64
+env_specs:
+  vcontact3-3.1.6:
+    packages:
+    - vcontact3=3.1.6
+    channels: []
+commands:
+  db-download:
+    unix: vcontact3 prepare_databases --get-version 228 --set-location "$CONDA_PREFIX/db"
+      && vcontact3 prepare_databases --get-version 230 --set-location "$CONDA_PREFIX/db"
+    env_spec: vcontact3-3.1.6
