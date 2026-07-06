@@ -612,6 +612,8 @@ env_specs:
     - bioconductor-diffbind
     - bioconductor-chipqc=1.38.0
     - bioconductor-txdb.hsapiens.ucsc.hg38.knowngene=*
+    - bioconductor-tximport
+    - jq
     channels:
     - nodefaults
 packages: []
