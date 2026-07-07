@@ -9,7 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: R
-description: R is a free software environment for statistical computing and graphics.
+description: R is a free software environment for statistical computing and 
+  graphics.
 platforms:
 - linux-64
 env_specs:
@@ -440,6 +441,13 @@ env_specs:
     - sysroot_linux-64<=2.28
     channels:
     - nodefaults
+  r-4.6.1:
+    packages:
+    - r-base=4.6.1
+    - gdal
+    - sysroot_linux-64<=2.28
+    channels:
+    - nodefaults
 commands:
   javareconf-r3.6.3:
     unix: R CMD javareconf
@@ -477,3 +485,6 @@ commands:
   javareconf-r4.5.1:
     unix: R CMD javareconf
     env_spec: r-4.5.1
+  javareconf-r4.6.1:
+    unix: R CMD javareconf
+    env_spec: r-4.6.1
