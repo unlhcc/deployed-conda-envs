@@ -30,3 +30,9 @@ env_specs:
     - r-seurat=4.1.0
     - r-base=4.1
     channels: []
+  r-seurat-5.5.1-r45:
+    packages:
+    - r-seurat=5.5.1
+    - r-base=4.5
+    channels:
+    - nodefaults
