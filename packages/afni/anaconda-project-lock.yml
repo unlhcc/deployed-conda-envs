@@ -1588,7 +1588,7 @@ env_specs:
       - alsa-lib=1.2.16.1=hb03c661_0
       - aom=3.9.1=hac33072_0
       - backports.zstd=1.6.0=py312h90b7ffd_0
-      - binutils_impl_linux-64=2.45.1=default_hfdba357_102
+      - binutils_impl_linux-64=2.46.1=default_hfdba357_102
       - blinker=1.9.0=pyhff2d567_0
       - bokeh=3.9.1=pyhd8ed1ab_0
       - brotli-bin=1.2.0=hb03c661_1
@@ -1654,7 +1654,7 @@ env_specs:
       - lame=3.100=h166bdaf_1003
       - latexcodec=2.0.1=pyh9f0ad1d_0
       - lcms2=2.19.1=h0c24ade_1
-      - ld_impl_linux-64=2.45.1=default_hbd61a6d_102
+      - ld_impl_linux-64=2.46.1=default_hbd61a6d_102
       - lerc=4.1.0=hdb68285_0
       - level-zero=1.29.0=hb700be7_0
       - libabseil=20260107.1=cxx17_h7b12aa8_0
@@ -2000,7 +2000,7 @@ env_specs:
       - tbb=2023.0.0=hab88423_2
       - tedana=26.0.3=pyh121872b_0
       - threadpoolctl=3.6.0=pyhecae5ae_0
-      - tk=8.6.13=noxft_h366c992_103
+      - tk=8.6.13=noxft_hd70dff1_3
       - tktable=2.10=h5a7a40f_8
       - tornado=6.5.7=py312h4c3975b_0
       - tqdm=4.68.4=pyh8f84b5b_0
