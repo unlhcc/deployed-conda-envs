@@ -51,3 +51,10 @@ env_specs:
     - gsl
     channels:
     - nodefaults
+  afni-26.2.00:
+    packages:
+    - afni=26.2.00
+    - python=3.12
+    - r-base=4.3
+    channels:
+    - nodefaults
