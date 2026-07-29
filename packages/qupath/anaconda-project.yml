@@ -28,3 +28,9 @@ env_specs:
     packages:
     - qupath=0.5.1
     channels: []
+  qupath-0.7.0:
+    packages:
+    - qupath=0.7.0
+    - openjdk=25
+    channels:
+    - nodefaults
