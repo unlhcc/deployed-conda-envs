@@ -56,5 +56,6 @@ env_specs:
     - afni=26.2.00
     - python=3.12
     - r-base=4.3
+    - numpy<2
     channels:
     - nodefaults
