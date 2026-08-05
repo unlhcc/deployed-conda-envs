@@ -24,7 +24,7 @@ description: predict multiple protein conformations via MSA sequence clusteringn
 platforms:
 - linux-64
 env_specs:
-  af_cluster-0.2025.10.07:
+  af_cluster-gpu-0.2025.10.07:
     packages:
     - af_cluster=0.2025.10.07=cuda*
     channels: []
