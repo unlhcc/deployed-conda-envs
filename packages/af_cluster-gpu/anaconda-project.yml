@@ -13,7 +13,7 @@ name: af_cluster-gpu
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: predict multiple protein conformations via MSA sequence clusteringn
+description: predict multiple protein conformations via MSA sequence clusteringn.
 
 
 #
