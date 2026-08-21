@@ -30,5 +30,6 @@ env_specs:
     - vllm=0.10.2=cuda_12*
     - python=3.13
     - pytorch=2.8.0=cuda12*
+    - xformers
     channels:
     - nodefaults
