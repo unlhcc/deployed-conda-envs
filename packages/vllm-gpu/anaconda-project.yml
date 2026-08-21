@@ -33,3 +33,10 @@ env_specs:
     - xformers
     channels:
     - nodefaults
+  vllm-gpu-0.27.0-py313:
+    packages:
+    - vllm=0.27.0=cuda12*
+    - python=3.13
+    - pytorch=*=cuda12*
+    - xformers
+    channels: []
