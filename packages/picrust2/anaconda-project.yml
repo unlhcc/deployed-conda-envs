@@ -29,3 +29,8 @@ env_specs:
     packages:
     - picrust2=2.5.2
     channels: []
+  picrust2-2.6.3:
+    packages:
+    - picrust2=2.6.3
+    channels:
+    - nodefaults
