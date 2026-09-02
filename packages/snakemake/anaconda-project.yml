@@ -33,4 +33,5 @@ env_specs:
     packages:
     - snakemake=9.26.1
     - python=3.12
+    - snakemake-executor-plugin-slurm
     channels: []

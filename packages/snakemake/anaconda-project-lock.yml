@@ -569,7 +569,7 @@ env_specs:
       - zlib=1.2.13=h5eee18b_1
   snakemake-9.26.1:
     locked: true
-    env_spec_hash: c55a8bfb708e346b3ff9fc203335b38f90bc8354
+    env_spec_hash: 87cd1ee11baefe2d1d6af15468bb6fe27486fa28
     platforms:
     - linux-64
     packages:
@@ -612,7 +612,7 @@ env_specs:
       - jsonschema=4.26.0=py312h06a4308_0
       - jupyter_core=5.9.1=py312h06a4308_0
       - ld_impl_linux-64=2.44=h9e0c5a2_3
-      - libexpat=2.8.2=h7354ed3_1
+      - libexpat=2.8.4=h7354ed3_0
       - libffi=3.4.8=h06d3fd0_3
       - libgcc-ng=15.2.0=h166f726_8
       - libgcc=15.2.0=h69a1729_8
@@ -650,7 +650,7 @@ env_specs:
       - pysocks=1.7.1=py312h06a4308_1
       - python-dateutil=2.9.0post0=py312h06a4308_2
       - python-fastjsonschema=2.22.1=py312h06a4308_0
-      - python-tzdata=2026.2=pyhd3eb1b0_0
+      - python-tzdata=2026.3=pyhd3eb1b0_0
       - python=3.12.14=hc5f7cf0_0
       - pytz=2026.3.post1=py312h06a4308_0
       - pyyaml=6.0.3=py312h591646f_0
@@ -666,6 +666,8 @@ env_specs:
       - slack_sdk=3.43.0=py312h06a4308_0
       - smart_open=7.5.0=py312h06a4308_0
       - smmap=5.0.2=py312h06a4308_0
+      - snakemake-executor-plugin-slurm-jobstep=0.6.1=pyhdfd78af_0
+      - snakemake-executor-plugin-slurm=2.8.0=pyhdfd78af_0
       - snakemake-interface-common=1.23.0=pyhdfd78af_1
       - snakemake-interface-executor-plugins=9.4.0=pyh84498cf_0
       - snakemake-interface-logger-plugins=2.1.0=pyhdfd78af_0
