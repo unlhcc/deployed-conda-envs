@@ -140,5 +140,6 @@ env_specs:
     - r-base=4.0
     - hcc-python-stack=1.0
     - coin-or-osi=0.108.7
+    - r-bestsubset=*=r40*
     channels:
     - nodefaults
