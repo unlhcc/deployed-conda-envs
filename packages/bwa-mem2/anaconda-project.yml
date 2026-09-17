@@ -28,3 +28,7 @@ env_specs:
     packages:
     - bwa-mem2=2.2.1
     channels: []
+  bwa-mem2-2.3:
+    packages:
+    - bwa-mem2=2.3
+    channels: []
