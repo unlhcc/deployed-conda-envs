@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # bootstrap anaconda-project env
-curl -L  https://micromamba.snakepit.net/api/micromamba/linux-64/latest  | tar -jx -C /usr/local
+curl -L https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -jx -C /usr/local
 micromamba create -y -q -p $ANACONDA_PREFIX conda=$MINICONDA_VER python=$PY_VER anaconda-project=$AP_VER anaconda-client=$AC_VER mamba=$MAMBA_VER git requests entrypoints "setuptools<80" -c conda-forge
 
 # activate env
