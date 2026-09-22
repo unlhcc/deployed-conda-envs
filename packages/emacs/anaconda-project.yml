@@ -9,8 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: emacs
-description: GNU Emacs, the extensible, customizable, self-documenting real-time display
-  editor.
+description: GNU Emacs, the extensible, customizable, self-documenting real-time
+  display editor.
 platforms:
 - linux-64
 env_specs:
@@ -33,3 +33,7 @@ env_specs:
     - emacs=29.3
     channels:
     - nodefaults
+  emacs-31.1:
+    packages:
+    - emacs=31.1
+    channels: []
