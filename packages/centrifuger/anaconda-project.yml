@@ -1,0 +1,20 @@
+# This is an Anaconda project file.
+#
+# Here you can describe your project and how to run it.
+# Use `anaconda-project run` to run the project.
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set the 'name' key to name your project
+#
+name: centrifuger
+description: A fast and memory-efficient taxonomic classification tool for metagenomic
+  sequencing reads.
+platforms:
+- linux-64
+env_specs:
+  centrifuger-1.1.4:
+    packages:
+    - centrifuger=1.1.4
+    channels: []
