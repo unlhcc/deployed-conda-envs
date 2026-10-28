@@ -28,3 +28,7 @@ env_specs:
     packages:
     - rnaquast=1.5.1
     channels: []
+  rnaquast-2.3.2:
+    packages:
+    - rnaquast=2.3.2
+    channels: []
