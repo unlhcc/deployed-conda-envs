@@ -718,3 +718,75 @@ env_specs:
       - xz=5.6.4=h5eee18b_1
       - zlib=1.3.1=hb25bd0a_0
       - zstd=1.5.7=h11fc155_0
+  nextflow-26.10.4:
+    locked: true
+    env_spec_hash: 25abfa82c1cddbbe18c25a84d77aaf041ce6694c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=52_gnu
+      - bzip2=1.0.8=h5eee18b_6
+      - c-ares=1.34.8=hd44998d_0
+      - ca-certificates=2026.10.20=h59cdc77_1
+      - cairo=1.18.6=ha82d1dd_0
+      - coreutils=9.8=hee96239_0
+      - curl=8.23.0=h5c7b728_0
+      - dbus=1.16.2=h5bd4931_0
+      - expat=2.9.0=h7354ed3_0
+      - fontconfig=2.18.2=h9ad01e1_1
+      - freetype=2.14.3=h93b6a7b_0
+      - fribidi=1.0.16=h10f3c28_1
+      - gettext-tools=0.25.1=hc68a75d_2
+      - gettext=0.25.1=hd8bbc44_2
+      - graphite2=1.3.15=h9ba177b_0
+      - harfbuzz=12.3.0=h572a7f1_2
+      - icu=78.3=h53478e7_1
+      - jansson=2.15.0=hbcba0ee_0
+      - libasprintf-devel=0.25.1=ha6c9436_2
+      - libasprintf=0.25.1=ha6c9436_2
+      - libbrotlicommon=1.2.1=hd9d9df0_0
+      - libbrotlidec=1.2.1=h00a96f0_0
+      - libbrotlienc=1.2.1=h32027a1_0
+      - libcurl=8.23.0=hd8fa685_0
+      - libev=4.33=h7f8727e_1
+      - libexpat=2.9.0=h7354ed3_0
+      - libffi=3.4.8=h06d3fd0_3
+      - libgcc-ng=15.2.0=h166f726_8
+      - libgcc=15.2.0=h69a1729_8
+      - libgettextpo-devel=0.25.1=h64fc44f_2
+      - libgettextpo=0.25.1=h64fc44f_2
+      - libglib=2.88.3=h722c6ac_2
+      - libiconv=1.18=h75a1612_0
+      - libidn2=2.3.8=hf80d704_0
+      - libkrb5=1.22.2=hbd13c29_0
+      - libnghttp2=1.69.0=h8214106_1
+      - libpng=1.6.56=h22898a0_0
+      - libssh2=1.11.1=hfbabe93_2
+      - libstdcxx-ng=15.2.0=hc03a8fd_8
+      - libstdcxx=15.2.0=h39759b7_8
+      - libunistring=1.4.2=h34b0ebb_0
+      - libuuid=1.41.5=h5eee18b_0
+      - libxcb=1.17.0=h9b100fa_0
+      - libxml2=2.15.3=he45aeb6_0
+      - libzlib=1.3.2=h47b2149_0
+      - lmdb=1.0.0=hfe55579_0
+      - lz4-c=1.9.4=h7354ed3_5
+      - ncurses=6.6=hfaaeb4e_0
+      - nextflow=26.10.4=h2a3209d_0
+      - openjdk=17.0.14=h1c92337_0
+      - openssl=3.5.9=h1b28b03_0
+      - pango=1.56.4=h3ae9cb3_1
+      - pcre2=10.49=h9438ae6_0
+      - pixman=0.46.4=h86ba9f7_1
+      - pthread-stubs=0.3=h47b2149_2
+      - xorg-libx11=1.8.14=h65de747_0
+      - xorg-libxau=1.0.12=h9b100fa_0
+      - xorg-libxdmcp=1.1.5=h9b100fa_0
+      - xorg-libxext=1.3.7=h1ce37a7_0
+      - xorg-libxrender=0.9.13=h5f4defd_0
+      - xorg-xorgproto=2025.1=h47b2149_0
+      - xz=5.8.4=h140a991_0
+      - zlib=1.3.2=h47b2149_0
+      - zstd=1.5.7=h11fc155_0
