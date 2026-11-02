@@ -1,0 +1,88 @@
+# This is an Anaconda project lock file.
+# The lock file locks down exact versions of all your dependencies.
+#
+# In most cases, this file is automatically maintained by the `anaconda-project` command or GUI tools.
+# It's best to keep this file in revision control (such as git or svn).
+# The file is in YAML format, please see http://www.yaml.org/start.html for more.
+#
+
+#
+# Set to false to ignore locked versions.
+#
+locking_enabled: true
+
+#
+# A key goes in here for each env spec.
+#
+env_specs:
+  rnabloom-2.0.1:
+    locked: true
+    env_spec_hash: 55ec8085007d6b5cd21b2a83d03a318eb6b5614c
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _libgcc_mutex=0.1=main
+      - _openmp_mutex=5.1=52_gnu
+      - bzip2=1.0.8=h5eee18b_6
+      - ca-certificates=2026.10.20=h06a4308_0
+      - cairo=1.18.6=ha82d1dd_0
+      - dbus=1.16.2=h5bd4931_0
+      - expat=2.9.0=h7354ed3_0
+      - fontconfig=2.18.2=h9ad01e1_1
+      - freetype=2.14.3=h93b6a7b_0
+      - fribidi=1.0.16=h10f3c28_1
+      - glib-tools=2.88.3=h9fad118_2
+      - glib=2.88.3=h617169b_2
+      - graphite2=1.3.15=h9ba177b_0
+      - harfbuzz=12.3.0=h572a7f1_2
+      - icu=78.3=h53478e7_1
+      - k8=1.2=he8db53b_6
+      - kernel-headers_linux-64=4.18.0=h3108a97_2
+      - ld_impl_linux-64=2.44=h9e0c5a2_3
+      - libexpat=2.9.0=h7354ed3_0
+      - libffi=3.4.8=h06d3fd0_3
+      - libgcc-ng=15.2.0=h166f726_8
+      - libgcc=15.2.0=h69a1729_8
+      - libglib=2.88.3=h722c6ac_2
+      - libgomp=15.2.0=h4751f2c_8
+      - libiconv=1.18=h75a1612_0
+      - libmpdec=4.0.1=h47b2149_0
+      - libnsl=2.0.0=h5eee18b_0
+      - libpng=1.6.56=h22898a0_0
+      - libstdcxx-ng=15.2.0=hc03a8fd_8
+      - libstdcxx=15.2.0=h39759b7_8
+      - libuuid=1.41.5=h5eee18b_0
+      - libxcb=1.17.0=h9b100fa_0
+      - libxml2=2.15.4=h00c5e6d_0
+      - libzlib=1.3.2=h47b2149_0
+      - lz4-c=1.9.4=h7354ed3_5
+      - minimap2=2.31=h118bc1c_0
+      - ncurses=6.6=hfaaeb4e_0
+      - ntcard=1.2.2=pl5321hf426362_8
+      - openjdk=25.0.4.1=h99191fb_0
+      - openssl=3.5.9=h1b28b03_0
+      - pango=1.56.4=h3ae9cb3_1
+      - pcre2=10.49=h9438ae6_0
+      - perl=5.32.1=0_h5eee18b_perl5
+      - pip=26.2.2=pyh0d26453_0
+      - pixman=0.46.4=h86ba9f7_1
+      - pthread-stubs=0.3=h47b2149_2
+      - python=3.15.2=h3697fdf_100_cp315
+      - python_abi=3.15=5_cp315
+      - racon=1.5.0=h077b44d_8
+      - readline=8.3=hc2a1206_0
+      - rnabloom=2.0.1=hdfd78af_2
+      - sqlite=3.53.4=h795bf6d_0
+      - sysroot_linux-64=2.28=h3108a97_2
+      - tk=9.0.4=h3840b71_1
+      - tzdata=2026c=he532380_0
+      - xorg-libx11=1.8.14=h65de747_0
+      - xorg-libxau=1.0.12=h9b100fa_0
+      - xorg-libxdmcp=1.1.5=h9b100fa_0
+      - xorg-libxext=1.3.7=h1ce37a7_0
+      - xorg-libxrender=0.9.13=h5f4defd_0
+      - xorg-xorgproto=2025.1=h47b2149_0
+      - xz=5.8.4=h140a991_0
+      - zlib=1.3.2=h47b2149_0
+      - zstd=1.5.7=h11fc155_0
