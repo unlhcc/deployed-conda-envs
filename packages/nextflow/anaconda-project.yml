@@ -9,8 +9,8 @@
 # Set the 'name' key to name your project
 #
 name: Nextflow
-description: Nextflow is a bioinformatics workflow manager that enables the development
-  of portable and reproducible workflows.
+description: Nextflow is a bioinformatics workflow manager that enables the 
+  development of portable and reproducible workflows.
 platforms:
 - linux-64
 env_specs:
@@ -58,5 +58,10 @@ env_specs:
   nextflow-25.10.0:
     packages:
     - nextflow=25.10.0
+    - openjdk=17
+    channels: []
+  nextflow-26.10.4:
+    packages:
+    - nextflow=26.10.4
     - openjdk=17
     channels: []
