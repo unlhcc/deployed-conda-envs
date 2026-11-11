@@ -47,3 +47,14 @@ env_specs:
     - easypqp=0.1.51
     - lxml
     channels: []
+  fragpipe-24.0:
+    packages:
+    - fragpipe=24.0
+    - msfragger=4.4.1
+    - ionquant=1.11.20
+    - openjdk
+    - numpy
+    - pandas
+    - easypqp=0.1.60
+    - lxml
+    channels: []
