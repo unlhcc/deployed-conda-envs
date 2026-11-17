@@ -41,3 +41,14 @@ env_specs:
       - libgcc-ng=13.2.0=h807b86a_2
       - libgomp=13.2.0=h807b86a_2
       - libstdcxx-ng=13.2.0=h7e041cc_2
+  dcm2niix-1.0.20261029:
+    locked: true
+    env_spec_hash: 731c754ce371b7de2655ce4a4273b2d4162b5232
+    platforms:
+    - linux-64
+    packages:
+      linux-64:
+      - _openmp_mutex=5.1=52_gnu
+      - dcm2niix=1.0.20261029=h7148c6a_0
+      - libgcc=15.2.0=h69a1729_8
+      - libstdcxx=15.2.0=h39759b7_8
