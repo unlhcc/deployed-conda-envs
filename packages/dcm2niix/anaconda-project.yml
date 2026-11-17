@@ -13,8 +13,8 @@ name: dcm2niix
 #
 # Set a one-sentence-or-so 'description' key with project details
 #
-description: dcm2niix is a designed to convert neuroimaging data from the DICOM format
-  to the NIfTI format.
+description: dcm2niix is a designed to convert neuroimaging data from the DICOM 
+  format to the NIfTI format.
 
 
 #
@@ -32,4 +32,8 @@ env_specs:
   dcm2niix-1.0.20230411:
     packages:
     - dcm2niix=1.0.20230411
+    channels: []
+  dcm2niix-1.0.20261029:
+    packages:
+    - dcm2niix=1.0.20261029
     channels: []
