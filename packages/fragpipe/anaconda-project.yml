@@ -52,9 +52,12 @@ env_specs:
     - fragpipe=24.0
     - msfragger=4.4.1
     - ionquant=1.11.20
-    - openjdk
+    - openjdk=17*
     - numpy
     - pandas
     - easypqp=0.1.60
     - lxml
+    - python=3.11
+    - fragpipe-speclib=0.1.59
+    - diatracer=2.2.1
     channels: []
